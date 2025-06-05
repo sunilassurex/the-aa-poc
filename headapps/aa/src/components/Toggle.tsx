@@ -43,7 +43,6 @@ export default function Toggle() {
         </span>
       </div>
 
-      {/* Content Box */}
       {isOpen && (
         <div className="mt-2 mx-4 md:mx-0  bg-white border border-gray-300 rounded shadow-md md:px-20 px-5 py-3 text-sm text-gray-800">
           <p>
