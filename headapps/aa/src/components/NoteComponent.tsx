@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 
-export default function ResponsiveNote() {
+export default function Notes() {
   return (
     <div className="w-full text-center pt-[3.3rem] px-[7.5rem] pb-[1.4rem]">
       <p className="text-3xl text-gray-700 py-[1.5rem] mx-auto">
