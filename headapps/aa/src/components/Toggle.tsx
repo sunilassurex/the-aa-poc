@@ -1,10 +1,12 @@
 import { useState, useEffect, useRef } from 'react';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faChevronDown, faChevronUp } from '@fortawesome/free-solid-svg-icons';
 
-export default function Toggle() {
-  const [isOpen, setIsOpen] = useState(true); // controls description box
-  const [isActive, setIsActive] = useState(false); // controls underline
+interface ToggleProps {
+  initiallyOpen?: boolean; // variant: true = open by default, false = closed
+}
+
+export default function Toggle({ initiallyOpen = true }: ToggleProps) {
+  const [isOpen, setIsOpen] = useState(initiallyOpen); // controls description box
+  const [isActive, setIsActive] = useState(initiallyOpen); // controls underline
   const containerRef = useRef<HTMLDivElement>(null);
 
   // Handle outside click for removing underline only
@@ -26,7 +28,7 @@ export default function Toggle() {
   };
 
   return (
-    <div className="w-full max-w-5xl  mx-auto" ref={containerRef}>
+    <div className="w-full max-w-[1120px] mx-auto" ref={containerRef}>
       <div
         onClick={handleToggle}
         role="button"
@@ -34,21 +36,22 @@ export default function Toggle() {
         onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && handleToggle()}
         className="cursor-pointer bg-white border border-gray-300 md:rounded shadow-md md:px-20 px-4 py-3 flex justify-between items-center focus:outline-none"
       >
-        <span className={`text-sm font-semibold ${isActive ? 'border-b-2 border-black-400' : ''}`}>
+        <span
+          className={`text-[18px] font-semibold ${isActive ? 'border-b-2 border-black-400' : ''}`}
+        >
           Good to know
         </span>
 
-        <span className="text-xl text-gray-600">
-          {/* <FontAwesomeIcon icon={isOpen ? faChevronUp : faChevronDown} /> */}
-        </span>
+        <span className="text-xl text-gray-600">{/* Add chevron icons here if needed */}</span>
       </div>
 
+      {/* Content Box */}
       {isOpen && (
-        <div className="mt-2 mx-4 md:mx-0  bg-white border border-gray-300 rounded shadow-md md:px-20 px-5 py-3 text-sm text-gray-800">
+        <div className="mt-2 mx-4 xl:!mx-0 mb-4 md:mx-4 bg-white border border-gray-300 rounded shadow-md md:px-20 px-8 py-8 text-[14px] md:text-[16px] text-gray-800">
           <p>
             <sup>†</sup>
-            <strong>Source:</strong> AA Annual Report &amp; Accounts 2024 (c. 2,800 patrols) and
-            Annual Report &amp; Financial Statements 2023 (1,600 patrols). Verify at{' '}
+            Source: AA Annual Report &amp; Accounts 2024 (c. 2,800 patrols) and Annual Report &amp;
+            Financial Statements 2023 (1,600 patrols). Verify at{' '}
             <a
               href="https://theaa.com/Best"
               className="text-blue-600 hover:underline"
