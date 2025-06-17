@@ -41,13 +41,15 @@ export default function SafetyAdvice() {
           />
         </div>
       </header>
-      <div className="bg-white sm:!mx-70 mx-4 py-8 max-w-[600px] ">
+      <div className="bg-white  xl:!mx-120 md:mx-4 py-8 max-w-[600px] ">
         <h2 className="text-xl font-bold !mb-10">Safety advice</h2>
 
-        <div className="space-y-6">
+        <div className="space-y-8">
           {safetyTips.map((item, idx) => (
-            <div key={idx} className="flex items-center  gap-15">
-              <Image src={item.icon} alt="icon" width={35} height={35} />
+            <div key={idx} className="flex items-center  gap-16">
+              <div className="relative w-16 h-16 shrink-0">
+                <Image src={item.icon} alt="icon" fill className="object-contain" />
+              </div>
               <p className="text-gray-800">{item.text}</p>
             </div>
           ))}
@@ -57,10 +59,12 @@ export default function SafetyAdvice() {
           It may be unsafe to stay in your vehicle, so:
         </p>
 
-        <div className="space-y-7 !mt-10">
+        <div className="space-y-8 !mt-10">
           {unsafeAdvice.map((item, idx) => (
-            <div key={idx} className="flex items-start gap-15">
-              <Image src={item.icon} alt="icon" width={30} height={30} />
+            <div key={idx} className="flex items-start gap-16">
+              <div className="relative w-16 h-16 shrink-0">
+                <Image src={item.icon} alt="icon" fill className="object-contain" />
+              </div>
               <p className="text-gray-800">{item.text}</p>
             </div>
           ))}
@@ -70,13 +74,13 @@ export default function SafetyAdvice() {
           Report breakdown
         </button>
 
-        <div className="mt-8 bg-gray-100 p-4 rounded-md  sm:flex-row sm:items-center sm:justify-between">
+        <div className="mt-8 bg-gray-100 px-5 py-4 rounded-2xl  sm:flex-row sm:items-center sm:justify-between">
           <p className="font-bold text-3xl">Broken down without cover?</p>
-          <div className="flex items-start gap-10">
+          <div className="flex items-start  gap-10">
             <Image src="/roadside.AA.svg" alt="AA Van" width={50} height={50} />
             <div>
-              <p className="text-gray-800 my-2">We can still help.</p>
-              <a href="#" className="!text-teal-700 underline !hover:text-teal-900">
+              <p className="text-gray-800 my-0">We can still help.</p>
+              <a href="#" className="!text-teal-700 !text-2xl underline !hover:text-teal-900">
                 Get instant breakdown cover.
               </a>
             </div>
@@ -85,11 +89,11 @@ export default function SafetyAdvice() {
 
         <p className="text-2xl text-black !mt-6">
           This site is protected by reCAPTCHA and the Google{' '}
-          <a href="#" className="!text-teal-700 underline">
+          <a href="#" className="!text-teal-700 underline !text-2xl">
             Privacy Policy
           </a>{' '}
           and{' '}
-          <a href="#" className=" !text-teal-700 underline">
+          <a href="#" className=" !text-teal-700 underline !text-2xl">
             Terms of Service
           </a>{' '}
           apply.
