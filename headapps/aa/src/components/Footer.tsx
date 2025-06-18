@@ -18,13 +18,19 @@ function FooterSection({ title, items }: FooterSectionProps) {
         className="w-full flex justify-between items-center py-3 sm:py-0 sm:cursor-default"
         onClick={() => setIsOpen(!isOpen)}
       >
-        <span className="!font-extrabold !text-4xl md:!text-3xl xl:!text-5xl">{title}</span>
+        <span className="!font-extrabold !text-4xl md:!text-4xl xl:!text-5xl">{title}</span>
         <span className="sm:hidden">{isOpen ? '▲' : '▼'}</span>
       </button>
+
       <ul className={`${isOpen ? 'block' : 'hidden'} sm:block !space-y-7 mt-4 !pl-0`}>
         {items.map((item, idx) => (
-          <li key={idx} className="!text-[18px] md:!text-[16px] md:!font-light xl:!text-[18px]">
-            {item}
+          <li key={idx} className="!text-[18px] md:!text-[18px] md:!font-normal xl:!text-[22px]">
+            <a
+              href="#"
+              className="text-white !no-underline hover:!underline transition duration-200"
+            >
+              {item}
+            </a>
           </li>
         ))}
       </ul>
@@ -54,14 +60,14 @@ export default function Footer({ variant = 'top-links' }: FooterProps) {
   ];
 
   return (
-    <footer className="bg-[#1a1a1a] text-white text-sm font-bold">
+    <footer className="bg-[#303030] text-white text-sm font-bold">
       {/* === Top Links Variant === */}
       {variant === 'top-links' && (
         <>
           <div
-            className="bg-[#303030] flex flex-wrap flex-col sm:flex-row 
+            className="bg-[#393a3a] flex flex-wrap flex-col sm:flex-row 
   justify-center md:justify-start xl:justify-center !gap-y-8
-  !py-25 !px-8 border-b border-gray-700 "
+  !py-18 !px-8   "
           >
             {topLinks.map((item, index) => (
               <div
@@ -82,7 +88,7 @@ export default function Footer({ variant = 'top-links' }: FooterProps) {
               </div>
             ))}
           </div>
-          <div className="bg-[#1a1a1a] text-center md:!text-right md:pr-10 xl:pr-50  text-gray-400 py-8 text-xl font-normal">
+          <div className="bg-[#303030] text-center md:!text-right md:pr-10 xl:pr-60  text-[#afafaf] py-10 text-xl font-normal">
             © Automobile Association Developments Ltd. 2025
           </div>
         </>
@@ -92,9 +98,9 @@ export default function Footer({ variant = 'top-links' }: FooterProps) {
       {variant === 'footer-with-bottom' && (
         <>
           <div
-            className="bg-[#303030] flex flex-wrap flex-col sm:flex-row 
+            className="bg-[#393a3a] flex flex-wrap flex-col sm:flex-row 
   justify-center md:justify-start xl:justify-center !gap-y-8
-  !py-25 !px-8 border-b border-gray-700 "
+  !py-18 !px-8   "
           >
             {topLinks.map((item, index) => (
               <div
@@ -115,24 +121,25 @@ export default function Footer({ variant = 'top-links' }: FooterProps) {
               </div>
             ))}
           </div>
-          <div className="bg-[#1a1a1a] text-center md:!text-right md:pr-10 xl:pr-50  text-gray-400 py-8 text-xl font-normal">
+          <div className="bg-[#303030] text-center md:!text-right md:pr-10 xl:pr-60  text-[#afafaf] py-10 text-xl font-normal">
             © Automobile Association Developments Ltd. 2025
           </div>
 
-          <div className="bg-[#1a1a1a] text-white !py-10 !px-0 sm:!px-10 lg:!px-53">
+          <div className="bg-[#303030] text-white !py-10 !px-0 sm:!px-10 lg:!px-53">
             {/* Top Divider Line with side margins */}
             <div className="border-t border-gray-700 mx-0 sm:mx-1 lg:mx-1 mb-4" />
 
             {/* Bottom Link Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 md:gap-y-12 gap-y-0 gap-x-10 !text-xl md:!text-xl  xl:!text-2xl ">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 md:gap-y-12 gap-y-0 gap-x-10 !text-xl md:!text-xl xl:!text-2xl">
               {bottomLinks.map((pair, idx) => (
                 <div key={idx}>
                   {pair.map((text, i) => (
-                    <div key={i} className="mb-0 md:mb-3">
-                      <div className="font-bold uppercase pl-4 md:pl-0  md:px-0 md:mb-4 my-5">
+                    <div key={i} className="mb-0 md:mb-2">
+                      <div className="font-bold uppercase pl-4 md:pl-0 md:px-0 md:mb-4 my-4">
                         {text}
                       </div>
-                      <div className="h-px  bg-gray-600" />
+                      {/* Only show line if it's NOT the last item in this column */}
+                      {i !== pair.length - 1 && <div className="h-[.8px] bg-gray-600" />}
                     </div>
                   ))}
                 </div>
@@ -144,7 +151,7 @@ export default function Footer({ variant = 'top-links' }: FooterProps) {
 
       {/* === Detailed Footer (Accordion style) === */}
       {variant === 'detailed' && (
-        <div className="bg-[#1d1d1d] text-white px-6 py-12">
+        <div className="bg-[#303030] text-white px-6 py-12">
           <div className="max-w-[1160px] mx-auto">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
               <FooterSection
