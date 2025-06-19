@@ -17,3 +17,10 @@
   font-weight: 700;
   font-style: normal;
 }
+@font-face {
+  font-family: "AA-Sans";
+  src: url("/fonts/aa-sans-black-digital.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
