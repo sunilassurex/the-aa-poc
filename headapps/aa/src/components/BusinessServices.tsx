@@ -44,10 +44,12 @@ export default function BusinessLinks() {
   }, []);
 
   return (
-    <div className="bg-white sm:max-w-[1130px] mx-4  space-y-10 my-4 sm:!mx-auto">
+    <div className=" sm:max-w-[1130px] mx-4  space-y-12 my-4 sm:!mx-auto">
       {businessData.map((block, index) => (
-        <div key={index} className="border border-gray-200 p-12">
-          <h2 className="!text-[17px] !text-gray-700 mb-4 !font-normal">{block.title}</h2>
+        <div key={index} className="bg-white border border-gray-200 px-16 py-12">
+          <h2 className="!text-[17px] !text-gray-700 mb-4 !font-transport !font-normal">
+            {block.title}
+          </h2>
           <div
             className="grid gap-8"
             style={{
@@ -61,8 +63,8 @@ export default function BusinessLinks() {
                 key={colIdx}
                 className={`
               space-y-6
-              pr-6
-              ${colIdx !== 0 ? 'md:border-l md:pl-14' : ''}
+              xl:pr-6 md:pr-4
+              ${colIdx !== 0 ? 'md:border-l md:pl-6 xl:pl-14' : ''}
               ${
                 colIdx !== block.columns.length - 1
                   ? 'border-b md:border-b-0 pb-6  md:pb-0 md:mb-0'
@@ -75,7 +77,7 @@ export default function BusinessLinks() {
                   <a
                     href="#"
                     key={itemIdx}
-                    className="!text-[#07818c] !no-underline !text-[16px] font-semibold hover:underline block"
+                    className="!text-[#07818c] !no-underline mb-[18px] !text-[16px] !font-transport !font-bold hover:underline block"
                   >
                     {item}
                   </a>
