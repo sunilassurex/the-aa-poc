@@ -8,7 +8,7 @@ export default function PromoGrid() {
       buttonText: 'Get car Insurance',
       cardClass: 'bg-cover bg-no-repeat bg-center text-black px-17 py-26',
       buttonClass:
-        'bg-gradient-to-b from-[#3d3d3d] to-[#161616] text-white font-bold py-3 md:px-15 px-14 rounded border-[1px] border-[#151515] !text-[1.9rem] transition hover:bg-[#5e5e5e] hover:from-transparent hover:to-transparent',
+        'bg-gradient-to-b from-[#3d3d3d] to-[#161616] text-white font-bold py-4 md:px-13 px-14 rounded border-[1px] border-[#151515] !text-[1.9rem] transition hover:bg-[#5e5e5e] hover:from-transparent hover:to-transparent',
       backgroundImage: '/large-beam.webp',
     },
     {
@@ -18,7 +18,7 @@ export default function PromoGrid() {
       buttonText: 'Book your car in',
       cardClass: 'bg-white text-black px-17 !py-26 ',
       buttonClass:
-        'bg-gradient-to-b from-[#ffcc00] to-[#f9b800] text-black font-bold py-3 md:px-15 px-14 rounded border-[1px] border-[#d6a500] !text-[1.9rem]  transition duration-300 hover:from-[#ffe066] hover:to-[#ffd633] hover:border-[#ffd633]',
+        'bg-gradient-to-b from-[#ffcc00] to-[#f9b800] text-black font-bold  py-4 md:px-13 px-14 rounded border-[1px] border-[#d6a500] !text-[1.9rem]  transition duration-300 hover:from-[#ffe066] hover:to-[#ffd633] hover:border-[#ffd633]',
     },
     {
       title: 'Had an accident?',
@@ -27,7 +27,7 @@ export default function PromoGrid() {
       buttonText: 'More about Accident Assist',
       cardClass: 'bg-white text-black px-17 py-26 ',
       buttonClass:
-        'bg-gradient-to-b from-[#ffcc00] to-[#f9b800] text-black font-bold py-3 md:px-15 px-4 rounded border-[1px] border-[#d6a500] !text-[1.9rem]  transition duration-300 hover:from-[#ffe066] hover:to-[#ffd633] hover:border-[#ffd633]',
+        'bg-gradient-to-b from-[#ffcc00] to-[#f9b800] text-black font-bold  py-4 md:px-13 px-4 rounded border-[1px] border-[#d6a500] !text-[1.9rem]  transition duration-300 hover:from-[#ffe066] hover:to-[#ffd633] hover:border-[#ffd633]',
     },
     {
       title: 'European breakdown cover',
@@ -36,7 +36,7 @@ export default function PromoGrid() {
       buttonText: 'Buy European breakdown cover',
       cardClass: 'bg-cover bg-no-repeat bg-center text-black px-17 py-26',
       buttonClass:
-        'bg-gradient-to-b from-[#3d3d3d] to-[#161616] text-white font-bold py-3 md:px-15 rounded border-[1px] border-[#151515] !text-[1.9rem]  transition hover:bg-[#3d3d3d] hover:from-transparent hover:to-transparent',
+        'bg-gradient-to-b from-[#3d3d3d] to-[#161616] text-white font-bold  py-4 md:px-13 rounded border-[1px] border-[#151515] !text-[1.9rem]  transition hover:bg-[#3d3d3d] hover:from-transparent hover:to-transparent',
       backgroundImage: '/large-beam.webp',
     },
   ];
@@ -62,7 +62,7 @@ export default function PromoGrid() {
         style={backgroundImage ? { backgroundImage: `url('${backgroundImage}')` } : {}}
       >
         <div>
-          <h2 className="text-xl md:text-2xl font-bold mb-4">{title}</h2>
+          <h2 className="text-xl md:!text-4xl font-newtransport !font-bold  mb-4">{title}</h2>
           <p className="mb-4 text-[16px] md:text-[17px]">{description}</p>
         </div>
         <div className="flex justify-center">
