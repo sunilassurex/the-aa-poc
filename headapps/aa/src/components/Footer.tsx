@@ -24,12 +24,15 @@ function FooterSection({ title, items }: FooterSectionProps) {
 
       <ul className={`${isOpen ? 'block' : 'hidden'} sm:block !space-y-7 mt-4 !pl-0`}>
         {items.map((item, idx) => (
-          <li key={idx} className="!text-[18px] md:!text-[18px] md:!font-normal xl:!text-[22px]">
+          <li
+            key={idx}
+            className="!text-[18px] md:!text-[18px]  !font-newtransport !font-light xl:!text-[20px]"
+          >
             <a
               href="#"
               className="text-white !no-underline hover:!underline transition duration-200"
             >
-              {item}
+              <p className="!font-newtransport !font-normal"> {item}</p>
             </a>
           </li>
         ))}
