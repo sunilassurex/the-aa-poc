@@ -26,30 +26,6 @@ export interface PromoGridProps {
 }
 
 const PromoGrid: React.FC<PromoGridProps> = ({ variant = 'cards', cards = [], sections = [] }) => {
-  const renderButton = (
-    label: string,
-    variant: 'primary' | 'secondary' = 'primary',
-    fullWidth = false
-  ) => {
-    const baseClasses =
-      'font-newtransport font-bold rounded transition text-[1.8rem] py-[0.9rem] px-[2rem] md:pt-[1.3rem] md:px-[2.7rem] md:pb-[1.5rem]';
-    const widthClasses = fullWidth ? 'w-full md:w-auto' : '';
-    const primaryClasses =
-      'bg-gradient-to-b from-[#3d3d3d] to-[#161616] text-white border border-[#151515] hover:bg-[#5e5e5e]';
-    const secondaryClasses =
-      'text-black bg-transparent border-[0.2rem] border-[#1d1d1d] hover:bg-[#dcddde]';
-
-    return (
-      <button
-        className={`${baseClasses} ${widthClasses} ${
-          variant === 'primary' ? primaryClasses : secondaryClasses
-        }`}
-      >
-        {label}
-      </button>
-    );
-  };
-
   if (variant === 'promo-section' && sections.length > 0) {
     return (
       <div className="bg-gray-100 space-y-10 py-[1rem] md:py-[1.5rem]">
@@ -72,7 +48,15 @@ const PromoGrid: React.FC<PromoGridProps> = ({ variant = 'cards', cards = [], se
                 <p className="text-[1.8rem] md:text-[1.6rem] leading-[2.5rem] text-gray-700 font-newtransport mb-[2.4rem]">
                   {section.description}
                 </p>
-                {renderButton(section.buttonLabel, section.variant || 'primary', true)}
+                <button
+                  className={`text-[1.8rem] font-bold font-newtransport rounded py-[0.9rem] px-[2rem] md:pt-[1.3rem] md:px-[2.7rem] md:pb-[1.5rem] w-full md:w-auto transition ${
+                    section.variant === 'primary'
+                      ? 'bg-gradient-to-b from-[#3d3d3d] to-[#161616] text-white border border-[#151515] hover:bg-[#5e5e5e]'
+                      : 'text-black bg-transparent border-[0.2rem] border-[#1d1d1d] hover:bg-[#dcddde]'
+                  }`}
+                >
+                  {section.buttonLabel}
+                </button>
               </div>
             </a>
           ))}
@@ -103,7 +87,17 @@ const PromoGrid: React.FC<PromoGridProps> = ({ variant = 'cards', cards = [], se
                 {card.description}
               </p>
             </div>
-            <div className="flex justify-center">{renderButton(card.buttonText, card.variant)}</div>
+            <div className="flex justify-center">
+              <button
+                className={`w-full md:w-auto font-bold py-4 px-6 md:px-12 rounded shadow-[inset_0_3px_3px_rgba(255,255,255,0.7)] transition text-[2rem] md:text-[1.2rem] xl:text-[2rem] ${
+                  card.variant === 'primary'
+                    ? 'bg-gradient-to-b from-[#3d3d3d] to-[#161616] text-white border border-[#151515] hover:bg-[#3d3d3d]'
+                    : 'bg-gradient-to-b from-[#ffcc00] to-[#f9b800] text-black border border-[#d6a500] hover:from-[#ffe066] hover:to-[#ffd633] hover:border-[#ffd633]'
+                }`}
+              >
+                {card.buttonText}
+              </button>
+            </div>
           </div>
         ))}
       </div>
