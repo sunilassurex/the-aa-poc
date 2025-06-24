@@ -44,7 +44,7 @@ export default function BusinessLinks() {
   }, []);
 
   return (
-    <div className=" sm:max-w-[1130px] mx-4  space-y-12 my-4 sm:!mx-auto">
+    <div className="max-w-[1160px] sm:max-w-[1130px] mx-4  space-y-12 my-4 sm:!mx-auto">
       {businessData.map((block, index) => (
         <div key={index} className="bg-white border border-gray-200 px-16 py-12">
           <h2 className="!text-[17px] !text-gray-700 mb-4 !font-transport !font-normal">
