@@ -1,7 +1,8 @@
 import { useState } from 'react';
 
 type FooterProps = {
-  variant?: 'top-links' | 'footer-with-bottom' | 'detailed';
+  variant?: 'top-links' | 'detailed';
+  bottomLinks?: string[][];
 };
 
 type FooterSectionProps = {
@@ -32,7 +33,7 @@ function FooterSection({ title, items }: FooterSectionProps) {
               href="#"
               className="text-white !no-underline hover:!underline transition duration-200"
             >
-              <p className="!font-newtransport !font-normal"> {item}</p>
+              <p className="!font-newtransport !font-normal">{item}</p>
             </a>
           </li>
         ))}
@@ -41,7 +42,7 @@ function FooterSection({ title, items }: FooterSectionProps) {
   );
 }
 
-export default function Footer({ variant = 'top-links' }: FooterProps) {
+export default function Footer({ variant = 'top-links', bottomLinks = [] }: FooterProps) {
   const topLinks = [
     'About us',
     'Gender pay gap',
@@ -55,29 +56,22 @@ export default function Footer({ variant = 'top-links' }: FooterProps) {
     'Cookies',
   ];
 
-  const bottomLinks = [
-    ['BREAKDOWN COVER', 'AA CARS'],
-    ['ROUTE PLANNER', 'DRIVING'],
-    ['INSURANCE', 'CAR SERVICE & MOT'],
-    ['FINANCIAL SERVICES', 'KEY WORKERS'],
-  ];
-
   return (
     <footer className="bg-[#303030] text-white text-sm font-bold">
-      {/* === Top Links Variant === */}
+      {/* === Top Links Variant (and optional Bottom Grid) === */}
       {variant === 'top-links' && (
         <>
           <div
             className="bg-[#393a3a] flex flex-wrap flex-col sm:flex-row 
-  justify-center md:justify-start xl:justify-center !gap-y-8
-  !py-18 !px-8   "
+            justify-center md:justify-start xl:justify-center !gap-y-8
+            !py-18 !px-8"
           >
             {topLinks.map((item, index) => (
               <div
                 key={index}
-                className="relative px-4 pb-0  xl:pb-0  sm:text-left text-xl xl:text-2xl"
+                className="relative px-4 pb-0 xl:pb-0 sm:text-left text-xl xl:text-[17px]"
               >
-                <span className="hover:underline cursor-pointer ">{item}</span>
+                <span className="hover:underline cursor-pointer">{item}</span>
 
                 {/* Vertical divider on desktop */}
                 {index !== topLinks.length - 1 && (
@@ -86,73 +80,47 @@ export default function Footer({ variant = 'top-links' }: FooterProps) {
 
                 {/* Horizontal divider on mobile */}
                 {index !== topLinks.length - 1 && (
-                  <div className="block sm:hidden mt-4  border-t border-gray-600" />
+                  <div className="block sm:hidden mt-4 border-t border-gray-600" />
                 )}
               </div>
             ))}
           </div>
-          <div className="bg-[#303030] text-center md:!text-right md:pr-10 xl:pr-60  text-[#afafaf] py-10 text-xl font-normal">
-            © Automobile Association Developments Ltd. 2025
-          </div>
-        </>
-      )}
 
-      {/* === Footer with Bottom Grid Links === */}
-      {variant === 'footer-with-bottom' && (
-        <>
-          <div
-            className="bg-[#393a3a] flex flex-wrap flex-col sm:flex-row 
-  justify-center md:justify-start xl:justify-center !gap-y-8
-  !py-18 !px-8   "
-          >
-            {topLinks.map((item, index) => (
-              <div
-                key={index}
-                className="relative px-4 pb-0  xl:pb-0  sm:text-left text-xl xl:text-2xl"
-              >
-                <span className="hover:underline cursor-pointer ">{item}</span>
-
-                {/* Vertical divider on desktop */}
-                {index !== topLinks.length - 1 && (
-                  <div className="hidden sm:block absolute right-0 top-1/2 -translate-y-1/2 w-px h-4 bg-gray-500" />
-                )}
-
-                {/* Horizontal divider on mobile */}
-                {index !== topLinks.length - 1 && (
-                  <div className="block sm:hidden mt-4  border-t border-gray-600" />
-                )}
-              </div>
-            ))}
-          </div>
-          <div className="bg-[#303030] text-center md:!text-right md:pr-10 xl:pr-60  text-[#afafaf] py-10 text-xl font-normal">
+          <div className="bg-[#303030] text-center md:!text-right md:pr-10 xl:pr-60 text-[#afafaf] py-10 text-2xl font-normal">
             © Automobile Association Developments Ltd. 2025
           </div>
 
-          <div className="bg-[#303030] text-white !py-10 !px-0 sm:!px-10 lg:!px-53">
-            {/* Top Divider Line with side margins */}
-            <div className="border-t border-gray-700 mx-0 sm:mx-1 lg:mx-1 mb-4" />
+          {/* Render bottom links only if provided */}
+          {bottomLinks.length > 0 && (
+            <div className="bg-[#303030] text-white !py-10 !px-0 sm:!px-10 lg:!px-59">
+              <div className="border-t border-gray-700 mx-0 sm:mx-1 lg:mx-1 mb-4" />
 
-            {/* Bottom Link Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 md:gap-y-12 gap-y-0 gap-x-10 !text-xl md:!text-xl xl:!text-2xl">
-              {bottomLinks.map((pair, idx) => (
-                <div key={idx}>
-                  {pair.map((text, i) => (
-                    <div key={i} className="mb-0 md:mb-2">
-                      <div className="font-bold uppercase pl-4 md:pl-0 md:px-0 md:mb-4 my-4">
-                        {text}
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 md:gap-y-12 gap-y-0 gap-x-10 !text-xl md:!text-xl xl:!text-2xl">
+                {bottomLinks.map((pair, idx) => (
+                  <div key={idx}>
+                    {pair.map((text, i) => (
+                      <div key={i} className="mb-0 md:mb-2">
+                        <div className="font-bold uppercase pl-4 md:pl-0 md:px-0 md:mb-4 my-4">
+                          {text}
+                        </div>
+
+                        {/* Always show divider on mobile, but skip last on desktop */}
+                        <div
+                          className={`h-[.8px] bg-gray-600 ${
+                            i === pair.length - 1 ? 'block md:hidden' : ''
+                          }`}
+                        />
                       </div>
-                      {/* Only show line if it's NOT the last item in this column */}
-                      {i !== pair.length - 1 && <div className="h-[.8px] bg-gray-600" />}
-                    </div>
-                  ))}
-                </div>
-              ))}
+                    ))}
+                  </div>
+                ))}
+              </div>
             </div>
-          </div>
+          )}
         </>
       )}
 
-      {/* === Detailed Footer (Accordion style) === */}
+      {/* === Detailed Footer (Accordion Style) === */}
       {variant === 'detailed' && (
         <div className="bg-[#303030] text-white px-6 py-12">
           <div className="max-w-[1160px] mx-auto">
@@ -191,12 +159,12 @@ export default function Footer({ variant = 'top-links' }: FooterProps) {
 
             <hr className="!my-10 border-t border-gray-600" />
 
-            <div className="flex flex-col md:flex-col xl:flex-row  justify-between md:justify-start xl:justify-between  text-sm text-white gap-y-3">
+            <div className="flex flex-col md:flex-col xl:flex-row justify-between md:justify-start xl:justify-between text-sm text-white gap-y-3">
               <p className="mb-2 sm:mb-0 md:mb-4 xl:mb-0 md:!text-[13px] xl:!text-[16px] !text-[13px] !font-normal">
-                <strong className="!text-white ml-2 mr-1 ">AA</strong> © Automobile Association
+                <strong className="!text-white ml-2 mr-1">AA</strong> © Automobile Association
                 Developments Ltd. 2025
               </p>
-              <div className="flex flex-wrap justify-start  ">
+              <div className="flex flex-wrap justify-start">
                 {[
                   'Terms of use',
                   'Cookies',
