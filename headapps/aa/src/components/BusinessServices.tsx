@@ -44,14 +44,14 @@ export default function BusinessLinks() {
   }, []);
 
   return (
-    <div className="max-w-[1160px] sm:max-w-[1130px] mx-4  space-y-12 my-4 sm:!mx-auto">
+    <div className="max-w-[1160px]  mx-4  space-y-12 my-4 sm:!mx-auto">
       {businessData.map((block, index) => (
         <div key={index} className="bg-white border border-gray-200 px-16 py-12">
-          <h2 className="!text-[17px] !text-gray-700 mb-4 !font-transport !font-normal">
+          <h2 className="!text-[17px] !text-black mb-4 !font-transport !font-normal">
             {block.title}
           </h2>
           <div
-            className="grid gap-8"
+            className="grid gap-8 "
             style={{
               gridTemplateColumns: isMobile
                 ? 'repeat(1, minmax(0, 1fr))'
@@ -62,7 +62,7 @@ export default function BusinessLinks() {
               <div
                 key={colIdx}
                 className={`
-              space-y-6
+              space-y-6 mt-3
               xl:pr-6 md:pr-4
               ${colIdx !== 0 ? 'md:border-l md:pl-6 xl:pl-14' : ''}
               ${
@@ -77,7 +77,7 @@ export default function BusinessLinks() {
                   <a
                     href="#"
                     key={itemIdx}
-                    className="!text-[#07818c] !no-underline mb-[18px] !text-[16px] !font-transport !font-bold hover:underline block"
+                    className="!text-[#07818c] !no-underline mb-[18px] !text-[16px] xl:!text-[17.3px] !font-transport !font-bold hover:!underline block"
                   >
                     {item}
                   </a>
