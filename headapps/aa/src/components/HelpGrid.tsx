@@ -48,18 +48,27 @@ export default function HelpGrid() {
   ];
 
   return (
-    <div className="p-4 md:p-12 !max-w-[1160px] mx-auto">
-      <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
+    <div className="p-4 xl:!px-0 md:!py-12 !max-w-[1160px] mx-auto">
+      <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-1 xl:grid-cols-3">
         {cards.map((card, index) => (
           <div
             key={index}
-            className="bg-gray-100 px-10 py-8 rounded-xl shadow-sm flex justify-between items-center hover:bg-gray-200 transition"
+            className="bg-gray-100 px-10 py-8 rounded-xl shadow-sm hover:bg-gray-200 transition
+             flex items-center justify-between gap-6"
           >
-            <div className="!pr-6">
-              <h3 className="!text-2xl !font-extrabold mb-3">{card.title}</h3>
+            <div className="pr-6 flex-1">
+              <h4 className="!text-[17px] !font-AA-Sans !font-extrabold  mb-3">{card.title}</h4>
               <p className="!text-2xl font-stretch-50% text-gray-700">{card.description}</p>
             </div>
-            <div className="!text-4xl !font-extrabold  text-black ml-4 mt-1">→</div>
+
+            {/* Arrow icon wrapper */}
+            <div className="w-10 h-10 shrink-0 flex items-center justify-center">
+              <img
+                src="/right-arrow.svg"
+                className="w-full h-full object-contain"
+                alt="Arrow icon"
+              />
+            </div>
           </div>
         ))}
       </div>
