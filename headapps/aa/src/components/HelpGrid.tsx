@@ -1,4 +1,8 @@
-export default function HelpGrid() {
+type HelpGridProps = {
+  variant?: 'default' | 'other-options';
+};
+
+export default function HelpGrid({ variant = 'default' }: HelpGridProps) {
   const cards = [
     {
       title: 'Breakdown cover',
@@ -47,34 +51,60 @@ export default function HelpGrid() {
     },
   ];
 
-  return (
-    <div className="bg-white">
-      <div className="bg-white p-4 xl:!px-0 md:!py-12 !max-w-[1160px] mx-auto">
-        <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-1 xl:grid-cols-3">
-          {cards.map((card, index) => (
-            <div
-              key={index}
-              className="bg-[#f6f6f6] p-[24px] rounded-xl   transition
-             flex items-center justify-between gap-0"
-            >
-              <div className="pr-3 flex-1">
-                <h4 className="!text-[17px] !font-newtransport !font-extrabold  mb-3">
-                  {card.title}
-                </h4>
-                <p className="!text-2xl font-stretch-50% text-gray-700">{card.description}</p>
-              </div>
+  const otherOptions = ['Bereavements', 'Complaints', 'Compliments', 'Accessibility', 'Your data'];
 
-              {/* Arrow icon wrapper */}
-              <div className="w-10 h-10 shrink-0 flex items-center justify-center">
-                <img
-                  src="/right-arrow.svg"
-                  className="w-full h-full object-contain"
-                  alt="Arrow icon"
-                />
-              </div>
+  return (
+    <div className={variant === 'other-options' ? 'bg-[#000821]' : 'bg-white'}>
+      <div
+        className={`${
+          variant === 'other-options' ? 'p-4  py-10 text-white' : 'bg-white p-4 xl:!px-0 md:!py-12'
+        } !max-w-[1160px] mx-auto`}
+      >
+        {variant === 'other-options' ? (
+          <>
+            <h3 className="text-white text-xl !font-bold mb-5">Other options</h3>
+            <div className="grid grid-cols-1 md:grid-cols-1 xl:grid-cols-3 gap-[24px]">
+              {otherOptions.map((label, index) => (
+                <div
+                  key={index}
+                  className="bg-white text-black flex items-center justify-between rounded-xl p-[10px]"
+                >
+                  <h4 className="!text-[17px] !font-newtransport !font-bold m-0">{label}</h4>
+                  <div className="w-11 h-11 shrink-0 flex items-center justify-center mr-2">
+                    <img
+                      src="/right-arrow.svg"
+                      className="w-full h-full object-contain"
+                      alt="Arrow icon"
+                    />
+                  </div>
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
+          </>
+        ) : (
+          <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-1 xl:grid-cols-3">
+            {cards.map((card, index) => (
+              <div
+                key={index}
+                className="bg-[#f6f6f6] p-[24px] rounded-xl transition flex items-center justify-between gap-0"
+              >
+                <div className="pr-3 flex-1">
+                  <h4 className="!text-[17px] !font-newtransport !font-extrabold mb-3">
+                    {card.title}
+                  </h4>
+                  <p className="!text-2xl font-stretch-50% text-gray-700">{card.description}</p>
+                </div>
+                <div className="w-10 h-10 shrink-0 flex items-center justify-center">
+                  <img
+                    src="/right-arrow.svg"
+                    className="w-full h-full object-contain"
+                    alt="Arrow icon"
+                  />
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );
