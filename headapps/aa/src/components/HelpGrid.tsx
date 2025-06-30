@@ -48,29 +48,33 @@ export default function HelpGrid() {
   ];
 
   return (
-    <div className="p-4 xl:!px-0 md:!py-12 !max-w-[1160px] mx-auto">
-      <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-1 xl:grid-cols-3">
-        {cards.map((card, index) => (
-          <div
-            key={index}
-            className="bg-gray-100 px-10 py-8 rounded-xl shadow-sm hover:bg-gray-200 transition
-             flex items-center justify-between gap-6"
-          >
-            <div className="pr-6 flex-1">
-              <h4 className="!text-[17px] !font-AA-Sans !font-extrabold  mb-3">{card.title}</h4>
-              <p className="!text-2xl font-stretch-50% text-gray-700">{card.description}</p>
-            </div>
+    <div className="bg-white">
+      <div className="bg-white p-4 xl:!px-0 md:!py-12 !max-w-[1160px] mx-auto">
+        <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-1 xl:grid-cols-3">
+          {cards.map((card, index) => (
+            <div
+              key={index}
+              className="bg-[#f6f6f6] p-[24px] rounded-xl   transition
+             flex items-center justify-between gap-0"
+            >
+              <div className="pr-3 flex-1">
+                <h4 className="!text-[17px] !font-newtransport !font-extrabold  mb-3">
+                  {card.title}
+                </h4>
+                <p className="!text-2xl font-stretch-50% text-gray-700">{card.description}</p>
+              </div>
 
-            {/* Arrow icon wrapper */}
-            <div className="w-10 h-10 shrink-0 flex items-center justify-center">
-              <img
-                src="/right-arrow.svg"
-                className="w-full h-full object-contain"
-                alt="Arrow icon"
-              />
+              {/* Arrow icon wrapper */}
+              <div className="w-10 h-10 shrink-0 flex items-center justify-center">
+                <img
+                  src="/right-arrow.svg"
+                  className="w-full h-full object-contain"
+                  alt="Arrow icon"
+                />
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );
