@@ -57,25 +57,27 @@ export default function Footer({ variant = 'top-links', bottomLinks = [] }: Foot
   ];
 
   return (
-    <footer className="bg-[#303030] text-white text-sm font-bold">
+    <footer className="bg-[#303030] text-white text-sm font-bold md:!mt-[1.5rem]">
       {/* === Top Links Variant (and optional Bottom Grid) === */}
       {variant === 'top-links' && (
-        <>
+        <div className="bg-[#393a3a]">
           <div
-            className="bg-[#393a3a] flex flex-wrap flex-col sm:flex-row 
-            justify-center md:justify-start xl:justify-center !gap-y-8
+            className=" md:max-w-[1160px] md:!py-[2.6rem] md:!px-[0px] mx-auto flex flex-wrap flex-col sm:flex-row 
+            justify-evenly md:justify-evenly md:!gap-0
             !py-18 !px-8"
           >
             {topLinks.map((item, index) => (
               <div
                 key={index}
-                className="relative px-4 pb-0 xl:pb-0 sm:text-left text-xl xl:text-[17px]"
+                className="relative md:!py-[2rem] px-4 pb-0 xl:pb-0 sm:text-left text-xl xl:text-[17px]"
               >
-                <span className="hover:underline cursor-pointer">{item}</span>
+                <span className="font-newtransport !font-bold hover:underline cursor-pointer md:text-[14px]">
+                  {item}
+                </span>
 
                 {/* Vertical divider on desktop */}
                 {index !== topLinks.length - 1 && (
-                  <div className="hidden sm:block absolute right-0 top-1/2 -translate-y-1/2 w-px h-4 bg-gray-500" />
+                  <div className="hidden sm:block absolute right-0 top-1/2 -translate-y-1/2 w-[1px] h-[1.1rem] bg-[#424242]" />
                 )}
 
                 {/* Horizontal divider on mobile */}
@@ -85,39 +87,42 @@ export default function Footer({ variant = 'top-links', bottomLinks = [] }: Foot
               </div>
             ))}
           </div>
-
-          <div className="bg-[#303030] text-center md:!text-right md:pr-10 xl:pr-60 text-[#afafaf] py-10 text-2xl font-normal">
-            © Automobile Association Developments Ltd. 2025
+          <div className="bg-[#303030]">
+            <div className="md:max-w-[1160px] mx-auto text-center md:!text-right md:!py-[2.2rem] md:!px-[2.4rem] text-[#afafaf] py-10 text-2xl font-normal">
+              © Automobile Association Developments Ltd. 2025
+            </div>
           </div>
 
           {/* Render bottom links only if provided */}
           {bottomLinks.length > 0 && (
-            <div className="bg-[#303030] text-white !py-10 !px-0 sm:!px-10 lg:!px-59">
-              <div className="border-t border-gray-700 mx-0 sm:mx-1 lg:mx-1 mb-4" />
+            <div className="bg-[#303030]">
+              <div className="text-white md:!wrapper md:max-w-[1160px] mx-auto md:py-[3rem] md:px-[2rem]">
+                <div className="border-t border-gray-700 mx-0 sm:mx-1 lg:mx-1 mb-4" />
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 md:gap-y-12 gap-y-0 gap-x-10 !text-xl md:!text-xl xl:!text-2xl">
-                {bottomLinks.map((pair, idx) => (
-                  <div key={idx}>
-                    {pair.map((text, i) => (
-                      <div key={i} className="mb-0 md:mb-2">
-                        <div className="font-bold uppercase pl-4 md:pl-0 md:px-0 md:mb-4 my-4">
-                          {text}
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 md:gap-y-12 gap-y-0 gap-x-10 !text-xl md:!text-xl xl:!text-2xl">
+                  {bottomLinks.map((pair, idx) => (
+                    <div key={idx}>
+                      {pair.map((text, i) => (
+                        <div key={i} className="mb-0 md:mb-2">
+                          <div className="font-bold uppercase pl-4 md:pl-0 md:px-0 md:mb-4 my-4">
+                            {text}
+                          </div>
+
+                          {/* Always show divider on mobile, but skip last on desktop */}
+                          <div
+                            className={`h-[.8px] bg-gray-600 ${
+                              i === pair.length - 1 ? 'block md:hidden' : ''
+                            }`}
+                          />
                         </div>
-
-                        {/* Always show divider on mobile, but skip last on desktop */}
-                        <div
-                          className={`h-[.8px] bg-gray-600 ${
-                            i === pair.length - 1 ? 'block md:hidden' : ''
-                          }`}
-                        />
-                      </div>
-                    ))}
-                  </div>
-                ))}
+                      ))}
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
           )}
-        </>
+        </div>
       )}
 
       {/* === Detailed Footer (Accordion Style) === */}

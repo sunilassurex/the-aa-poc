@@ -9,7 +9,7 @@ export interface HeroButton {
 }
 
 export interface HeroBannerProps {
-  variant: 'imageOverlay' | 'solidBackground';
+  variant: 'imageOverlay' | 'solidBackground' | 'circleOffer';
   heading: string;
   paragraph?: string;
   additionalText?: string;
@@ -17,6 +17,9 @@ export interface HeroBannerProps {
   imageDesktop?: string;
   backgroundImage?: string;
   buttons?: HeroButton[];
+  circleText?: string;
+  circleImage?: string;
+  vanImage?: string;
 }
 
 const HeroBanner: React.FC<HeroBannerProps> = ({
@@ -28,9 +31,86 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
   imageDesktop,
   backgroundImage,
   buttons = [],
+  circleImage,
+  vanImage,
 }) => {
   const isSingleButton = buttons.length === 1;
 
+  if (variant === 'circleOffer') {
+    return (
+      <section
+        className="bg-[#ffd300] w-full py-10 px-4 md:px-10"
+        role="region"
+        aria-labelledby="hero-heading"
+      >
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-center gap-8">
+          {/* Circle with text inside */}
+          <div className="relative w-[220px] h-[220px] md:w-[300px] md:h-[300px] flex-shrink-0">
+            {circleImage && (
+              <Image
+                src={circleImage}
+                alt="Decorative circle"
+                layout="fill"
+                objectFit="contain"
+                priority
+              />
+            )}
+            <div className="absolute inset-0 flex flex-col justify-center items-center text-center">
+              <p className="text-[2.4rem] md:text-[3rem] font-extrabold leading-tight">33%</p>
+              <p className="text-[0.9rem] md:text-[1rem] font-bold uppercase">
+                Off Breakdown Cover
+              </p>
+            </div>
+          </div>
+
+          {/* Van Image */}
+          {vanImage && (
+            <div className="w-[240px] md:w-[360px] relative">
+              <Image
+                src={vanImage}
+                alt="AA Van"
+                layout="responsive"
+                width={360}
+                height={200}
+                priority
+              />
+            </div>
+          )}
+        </div>
+
+        {/* Text and Buttons */}
+        <div className="text-center mt-8">
+          <h2 id="hero-heading" className="text-[1.2rem] font-semibold md:text-[1.5rem] mb-2">
+            {heading}
+          </h2>
+          {paragraph && <p className="text-md md:text-lg mb-2">{paragraph}</p>}
+          {additionalText && <p className="text-sm md:text-base mb-4">{additionalText}</p>}
+
+          <div
+            className={`flex flex-col sm:flex-row justify-center gap-4 ${
+              isSingleButton ? 'items-center' : ''
+            }`}
+          >
+            {buttons.map((btn, idx) => (
+              <button
+                key={idx}
+                type="button"
+                onClick={btn.onClick}
+                aria-label={btn.ariaLabel || btn.label}
+                className={`${
+                  btn.primary
+                    ? 'bg-black text-white'
+                    : 'border border-black text-black hover:bg-black hover:text-white'
+                } font-bold py-3 px-6 text-base rounded transition`}
+              >
+                {btn.label}
+              </button>
+            ))}
+          </div>
+        </div>
+      </section>
+    );
+  }
   if (variant === 'imageOverlay') {
     return (
       <section aria-labelledby="hero-heading" className="relative w-full" role="region">

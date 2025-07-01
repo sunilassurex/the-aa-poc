@@ -28,17 +28,19 @@ export default function Toggle({ initiallyOpen = true }: ToggleProps) {
   };
 
   return (
-    <div className="w-full max-w-[1160px] mx-auto" ref={containerRef}>
+    <div className="w-full max-w-[1160px] mx-auto md:!px-[2rem] md:py-[1.5rem]" ref={containerRef}>
       <div
         onClick={handleToggle}
         role="button"
         tabIndex={0}
         onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && handleToggle()}
-        className="cursor-pointer bg-white border border-gray-300 md:rounded shadow-md md:!py-8 md:!px-30 !px-8 !py-5 flex justify-between items-center focus:outline-none"
+        className="cursor-pointer bg-white md:!mb-[1.5rem]  border border-gray-300 md:rounded shadow-md md:!py-[1.4rem] md:!px-[9.5rem] !px-8 !py-5 flex justify-between items-center focus:outline-none"
       >
         {/* Left-aligned label */}
         <span
-          className={`text-[18px] font-semibold ${isActive ? 'border-b-2 border-black-400' : ''}`}
+          className={`text-[1.6rem] font-newtransport !font-bold ${
+            isActive ? 'border-b-2 border-black-400' : ''
+          }`}
         >
           Good to know
         </span>
@@ -57,8 +59,8 @@ export default function Toggle({ initiallyOpen = true }: ToggleProps) {
 
       {/* Content Box */}
       {isOpen && (
-        <div className="mt-2 mx-4 xl:!mx-0 mb-4 md:mx-4 bg-white border border-gray-300 rounded shadow-md md:px-30 px-8 py-8 text-[14px] md:text-[16px] text-gray-800">
-          <p>
+        <div className="bg-white border border-gray-300 rounded shadow-md md:py-[3rem] md:px-[9.5rem] text-[14px] md:text-[16px] text-gray-800">
+          <p className="md:!mb-[0px] md:!text-[14px] md:!leading-[21px]">
             <sup>†</sup>
             Source: AA Annual Report &amp; Accounts 2024 (c. 2,800 patrols) and Annual Report &amp;
             Financial Statements 2023 (1,600 patrols). Verify at{' '}
