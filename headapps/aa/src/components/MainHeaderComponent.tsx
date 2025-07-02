@@ -299,29 +299,65 @@ export default function Navbar() {
       </div>
 
       {/* Mobile/Tablet Navbar */}
-      <div className="xl:hidden bg-[rgb(255,211,0)] p-4 flex justify-between items-center">
-        <img src="/AA-logo.svg" className="h-8 m-0" alt="AA Logo" />
-        <button onClick={() => setMobileOpen(true)} className="!text-[16px] font-bold">
-          Menu ☰
+      <div className="xl:hidden bg-[rgb(255,211,0)] pr-[8px] flex justify-between items-center h-[64px]">
+        {/* <img src="/AA-logo.svg" className="h-8 m-0" alt="AA Logo" /> */}
+        <div className="left relative left-[16px]">
+          <a href="/" title="The AA | Home">
+            <span className="svg-mobile">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="48"
+                height="32"
+                viewBox="0 0 48 32"
+                fill="none"
+              >
+                <path
+                  d="M47.3564 0H39.8121C39.4617 0 39.1399 0.183381 38.9683 0.486666L26.3753 22.7745V0.63478C26.3753 0.282124 26.0893 0 25.7317 0H18.1874C17.837 0 17.5152 0.183381 17.3436 0.486666L0.0810616 31.0478C-0.154922 31.471 0.152572 31.9859 0.638841 31.9859H6.55273C6.90313 31.9859 7.23208 31.7955 7.39655 31.4922L10.4214 26.019H19.2243V31.3582C19.2243 31.7108 19.5104 31.9929 19.8679 31.9929H28.1702C28.5206 31.9929 28.8496 31.8025 29.0141 31.4992L32.0389 26.026H40.8418V31.3652C40.8418 31.7179 41.1279 32 41.4854 32H47.3564C47.714 32 48 31.7179 48 31.3652V0.63478C48 0.282124 47.714 0 47.3564 0ZM19.2243 19.516H14.0112L18.924 10.622C19.0026 10.4809 19.2243 10.5374 19.2243 10.6996V19.516ZM40.8418 19.516H35.6287L40.5415 10.622C40.6202 10.4809 40.8418 10.5374 40.8418 10.6996V19.516Z"
+                  fill="#00081C"
+                ></path>
+              </svg>
+            </span>
+          </a>
+        </div>
+        <button
+          onClick={() => setMobileOpen(true)}
+          className="relative top-[-13px] !text-[16px] !leading-[20px] !mt-[16px] !tracking-[0.25px] !mr-[16px] font-newtransport !font-bold"
+        >
+          <span className="pr-[24px]">Menu</span>
+          <span
+            className="
+              relative after:content-[''] after:absolute after:right-0 after:top-[4px]
+              after:w-[1em] after:h-[0.15em] after:bg-black
+              after:[box-shadow:0_6px_0_0_black,0_12px_0_0_black]
+            "
+          ></span>
         </button>
       </div>
 
       {mobileOpen && (
         <div
-          className={`fixed top-0 left-0 h-full w-full bg-white z-50 overflow-y-auto p-4 !transition-transform !duration-300 !ease-in-out !transform-gpu ${
+          className={`fixed top-0 left-0 h-full w-full bg-white z-50 overflow-y-auto pt-[16px] !transition-transform !duration-300 !ease-in-out !transform-gpu ${
             mobileOpen ? '!translate-x-0' : '!-translate-x-full'
           }`}
         >
-          <div className="flex justify-between items-center mb-6">
+          <div className="flex justify-between items-center pl-[16px] pb-[16px]">
             <img src="/AA-logo.svg" className="h-8 m-0" alt="AA Logo" />
             <button
               onClick={() => {
                 setMobileOpen(false);
                 setSelectedMobileMenu(null);
               }}
-              className="text-[16px] font-bold"
+              className="relative flex items-center justify-end w-full px-4 py-2 text-[16px] font-newtransport font-bold pr-[40px] text-black"
             >
-              Close X
+              <span className="mr-[8px]">Close</span>
+              <span
+                className="
+      absolute right-[16px] top-[8px] w-[24px] h-[24px]
+      after:content-[''] after:absolute after:inset-0
+      after:[background-image:url(/close-icon.webp)]
+      after:bg-no-repeat after:bg-right-top after:[background-size:16px]
+    "
+              ></span>
             </button>
           </div>
 
