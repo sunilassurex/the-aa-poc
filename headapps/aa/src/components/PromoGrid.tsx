@@ -1,3 +1,4 @@
+// import Image from 'next/image'
 type PromoGridVariant = 'cards' | 'promo-section';
 
 interface PromoGridProps {
@@ -18,14 +19,14 @@ export default function PromoGrid({ variant = 'cards' }: PromoGridProps) {
 
   if (variant === 'promo-section') {
     return (
-      <div className="bg-gray-100 space-y-10 py-[1rem] md:!py-[1.5rem]">
+      <div className="bg-gray-100  space-y-10 py-[1rem] md:!py-[1.5rem]">
         <div className="wrapper px-[1rem]">
           {/* Vixa Block */}
-          <div className="min-h-[391px] md:min-h-[391px] bg-white text-center  md:max-w-[1160px] mx-auto pt-[4.2rem] px-[2.4rem] pb-[4rem] md:min-h-[300px] md:px-[12.6rem] md:pb-[6rem] md:pt-[5.2rem] shadow flex flex-col justify-center items-center">
+          <div className="min-h-[391px] md:min-h-[391px] bg-white text-center  md:max-w-[1160px] mx-auto pt-[4.2rem] px-[2.4rem] pb-[4rem]  md:px-[12.6rem] md:pb-[6rem] md:pt-[5.2rem] shadow flex flex-col justify-center items-center">
             <h2 className="md:!text-[2.4rem] !text-[1.9rem] leading-[2.4rem] !mt-[22px] !mb-[1.3rem] md:mt-0 font-newtransport !font-bold md:!mb-[2rem]">
               Vixa from The AA
             </h2>
-            <p className="!font-normal text-[#1d1d1d]  md:mb-[2.4rem] md:!text-[1.6rem] !text-[1.8rem] !leading-[2.5rem] text-gray-700 font-newtransport !font-regular">
+            <p className="!font-normal text-[#1d1d1d]  md:mb-[2.4rem] md:!text-[1.6rem] !text-[1.8rem] !leading-[2.5rem]  font-newtransport !font-regular">
               Stay in the know and on the move with Vixa, our car care device and app.
               <br />
               <br />
@@ -49,7 +50,7 @@ export default function PromoGrid({ variant = 'cards' }: PromoGridProps) {
             <h2 className="md:!text-[2.4rem] md:mt-0 !text-[1.9rem] leading-[2.4rem] !mb-[1.3rem] font-newtransport !font-bold md:!mb-[2rem]">
               Looking for your next car?
             </h2>
-            <p className="md:mb-[2.4rem] !font-normal text-[#1d1d1d] md:!text-[1.6rem] tracking-[.025em] !text-[1.8rem] !leading-[2.5rem] text-gray-700 font-newtransport !font-regular">
+            <p className="md:mb-[2.4rem] !font-normal text-[#1d1d1d] md:!text-[1.6rem] tracking-[.025em] !text-[1.8rem] !leading-[2.5rem]  font-newtransport !font-regular">
               Interested in leasing a brand-new car with the latest tech? Prefer to buy a
               second-hand one with the confidence that it comes with free breakdown cover and a
               history check? With more than 100,000 cars to choose from, we’ve got you covered.
@@ -64,7 +65,7 @@ export default function PromoGrid({ variant = 'cards' }: PromoGridProps) {
                   key={index}
                   className={`font-semibold rounded shadow w-full py-[0.9rem] px-[2rem] !text-[1.8rem] md:w-auto md:pt-[1.3rem] md:px-[2.7rem] md:pb-[1.5rem] ${
                     btn.variant === 'primary'
-                      ? ' font-newtransport  !font-bold md:!text-[1.8rem] bg-gradient-to-b from-[#3d3d3d] to-[#161616]  text-white font-bold rounded  border-[1px] border-[#151515] text-[1.1rem]  shadow-[inset_0_4px_4px_rgba(255,255,255,0.15)]  transition  hover:bg-[#5e5e5e] hover:from-transparent hover:to-transparent'
+                      ? ' font-newtransport  !font-bold md:!text-[1.8rem] bg-gradient-to-b from-[#3d3d3d] to-[#161616]  text-white  rounded  border-[1px] border-[#151515] text-[1.1rem]  shadow-[inset_0_4px_4px_rgba(255,255,255,0.15)]  transition  hover:bg-[#5e5e5e] hover:from-transparent hover:to-transparent'
                       : 'font-newtransport !font-bold text-black bg-transparent rounded border-[0.2rem] border-[#1d1d1d] md:!text-[1.8rem] md:pt-[1.2rem] md:px-[3rem] md:pb-[1.4rem]  hover:!bg-[#dcddde]'
                   }`}
                 >
@@ -113,40 +114,62 @@ export default function PromoGrid({ variant = 'cards' }: PromoGridProps) {
   ];
 
   return (
-    <div className="bg-gray-100 py-[1rem] md:!py-[1.5rem]">
-      <div className="md:!wrapper md:!px-[2rem] max-w-[1160px] w-full mx-auto grid grid-cols-1 md:grid-cols-2 text-center">
-        {cards.map((card, index) => (
-          <div
-            key={index}
-            className={`relative rounded  min-h-[250px] xl:min-h-[303px] flex flex-col justify-center items-center text-black md:px-[4.4rem] md:pb-[6rem] md:pt-[5.2rem] ${
-              card.backgroundImage ? 'bg-cover bg-no-repeat bg-center' : 'bg-white'
-            }`}
-            style={
-              card.backgroundImage ? { backgroundImage: `url('${card.backgroundImage}')` } : {}
-            }
-          >
-            <div className="">
-              <h2 className="!text-[2rem] md:!text-[2.4rem] md:!leading-[3.2rem] md:!tracking-[-.025em] xl:!text-[2.6rem] font-newtransport !font-bold md:!my-[2rem] xl:mb-5 leading-tight">
-                {card.title}
-              </h2>
-              <p className="font-newtransport !font-normal text-[#1d1d1d] md:!leading-[2.2rem]  md:!mb-[2.4rem] md:!text-[1.6rem]  md:!tracking-[.025em] !text-[18px] text-[#1d1d1d]">
-                {card.description}
-              </p>
+    <section className="bg-gray-100 ">
+      <div className="w-full max-w-[1160px] px-[1rem] md:px-[20px] mx-auto">
+        <div className="grid grid-cols-1 md:gap-y-12  md:grid-cols-2 text-center">
+          {cards.map((card, index) => (
+            <div
+              key={index}
+              className={` relative w-full flex flex-col justify-center items-center text-black pt-[3.8rem] px-[2.4rem] pb-[4rem] md:px-[4.4rem] md:pb-[6rem] md:pt-[5.2rem] min-h-[255.6px] md:min-h-[302.2px] xl:min-h-[302.2px] ${
+                card.backgroundImage ? 'bg-contain bg-no-repeat bg-center' : 'bg-white'
+              } ${index % 2 === 1 ? 'mb-[2.2rem] md:mb-0' : ''} 
+    `}
+              style={
+                card.backgroundImage
+                  ? {
+                      backgroundImage: `url('${card.backgroundImage}')`,
+                      backgroundRepeat: 'no-repeat',
+                      backgroundPosition: 'top right', // push the light beam upward
+                      backgroundSize: 'cover', // maintain aspect ratio and fill
+                    }
+                  : {}
+              }
+            >
+              <a href={' '} className="block w-full">
+                <div>
+                  <h2 className="!mb-[1.3rem] !text-[1.9rem] leading-[2.4rem] tracking-[0] md:!text-[2.4rem] md:!leading-[3.2rem] md:!tracking-[-.025em] xl:!text-[2.4rem] font-newtransport !font-bold md:!my-[2rem] xl:mb-5">
+                    {card.title}
+                  </h2>
+
+                  <p className="font-newtransport !text-[1.9rem] leading-[2.5rem] !mb-[2.4rem] !font-normal md:!leading-[2.2rem] md:!mb-[2.4rem] md:!text-[1.6rem] md:!tracking-[.025em] text-[#1d1d1d]">
+                    {card.description}
+                  </p>
+                </div>
+              </a>
+              <div className="flex justify-center !w-full md:!w-auto">
+                <button
+                  className={`!w-full md:w-auto mx-auto font-bold pt-[0.9rem] pb-[0.8rem] md:pt-[1.3rem] md:px-[2.7rem] md:pb-[1.4rem] rounded transition !text-[1.85rem] md:!text-[1.8rem] leading-[.018em] md:leading-[2rem] md:tracking-[.03em]
+    ${
+      card.variant === 'primary'
+        ? ` !w-full
+          bg-gradient-to-b from-[#3d3d3d]  to-[#161616] text-white border !border-[#151515]
+          !shadow-[inset_0_1px_1px_rgba(255,255,255,0.7),_0_0_10px_rgba(0,0,0,0.2)]
+          hover:bg-none hover:!bg-[#3d3d3d]
+        `
+        : `
+          bg-gradient-to-b from-[#ffcc00] to-[#f9b800] text-[#1d1d1d] border !border-[#ffc400]
+          !shadow-[inset_0_1px_1px_#fff0b3,_0_0_10px_rgba(0,0,0,0.2)] rounded-md
+          hover:from-[#ffe066] hover:to-[#ffd633] hover:border-[#ffd633]
+        `
+    }`}
+                >
+                  {card.buttonText}
+                </button>
+              </div>
             </div>
-            <div className="flex justify-center">
-              <button
-                className={`w-full md:w-auto font-bold md:pt-[1.3rem] md:px-[2.7rem] md:pb-[1.5rem] rounded shadow-[inset_0_3px_3px_rgba(255,255,255,0.7)] transition !text-[2rem] md:!text-[1.8rem] md:leading-[2rem] md:tracking-[.03em] ${
-                  card.variant === 'primary'
-                    ? 'bg-gradient-to-b from-[#3d3d3d] to-[#161616] text-white border !border-[#151515] hover:!bg-[#3d3d3d]'
-                    : 'bg-gradient-to-b from-[#ffcc00] to-[#f9b800] text-black border border-[#d6a500] hover:from-[#ffe066] hover:to-[#ffd633] hover:border-[#ffd633]'
-                }`}
-              >
-                {card.buttonText}
-              </button>
-            </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 }
