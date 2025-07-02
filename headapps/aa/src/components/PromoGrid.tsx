@@ -116,11 +116,11 @@ export default function PromoGrid({ variant = 'cards' }: PromoGridProps) {
   return (
     <section className="bg-gray-100 md:py-[1.5rem]">
       <div className="w-full max-w-[1160px] px-[1rem] md:px-[20px] mx-auto">
-        <div className="grid grid-cols-1 md:gap-y-12  md:grid-cols-2 text-center">
+        <div className="grid grid-cols-1 md:gap-y-12 !shadow-md   md:grid-cols-2 text-center">
           {cards.map((card, index) => (
             <div
               key={index}
-              className={` relative w-full flex flex-col justify-center items-center text-black pt-[3.7rem] px-[2.4rem] pb-[4rem] md:px-[4.4rem] md:pb-[6rem] md:pt-[5.27rem] min-h-[255.6px] md:min-h-[302.2px] xl:min-h-[302.2px] ${
+              className={` relative w-full flex flex-col justify-center items-center text-black pt-[3.7rem] px-[2.4rem] pb-[4rem] md:px-[4.4rem] md:pb-[6rem] md:pt-[5.27rem] min-h-[255.6px] md:min-h-[302.2px]  ${
                 card.backgroundImage ? 'bg-contain bg-no-repeat bg-center' : 'bg-white'
               } ${index % 2 === 1 ? 'mb-[2.2rem] md:mb-0' : ''} 
     `}
@@ -137,18 +137,18 @@ export default function PromoGrid({ variant = 'cards' }: PromoGridProps) {
             >
               <a href={' '} className="block w-full">
                 <div>
-                  <h2 className="!mb-[1.3rem] !text-[1.9rem] leading-[2.4rem] tracking-[0] md:!text-[2.4rem] md:!leading-[3.2rem] md:!tracking-[-.025em] xl:!text-[2.4rem] font-newtransport !font-bold md:!my-[2rem] md:!mb-[2.1rem]">
+                  <h2 className="!mb-[1.3rem] !text-[1.9rem] leading-[2.4rem] tracking-[0] md:!text-[2.4rem] md:!leading-[3.2rem] md:!tracking-[-.025em] xl:!text-[2.4rem] font-newtransport !font-bold md:!my-[2rem] md:!mb-[2rem]">
                     {card.title}
                   </h2>
 
-                  <p className="font-newtransport !text-[1.9rem] text-[rgb(29, 29, 29)] leading-[2.5rem] !mb-[2.3rem] !font-normal md:!leading-[2.15rem] md:!mb-[2.4rem] md:!text-[1.6rem] md:!tracking-[.025em] text-[#1d1d1d]">
+                  <p className="font-newtransport !text-[1.9rem] text-[rgb(29, 29, 29)] leading-[2.5rem] !mb-[2.3rem] !font-normal md:!leading-[2.25rem] md:!mb-[2.3rem] md:!text-[1.6rem] md:!tracking-[.025em] text-[#1d1d1d]">
                     {card.description}
                   </p>
                 </div>
               </a>
               <div className="flex justify-center !w-full md:!w-auto">
                 <button
-                  className={`!w-full md:w-auto mx-auto font-bold pt-[0.8rem] pb-[0.8rem] md:pt-[1.3rem] md:px-[2.7rem] md:pb-[1.4rem] !rounded-[5px] transition !text-[1.85rem] md:!text-[1.8rem] leading-[.018em] md:leading-[2rem] md:tracking-[.03em]
+                  className={`!w-full md:w-auto mx-auto font-bold pt-[0.8rem] pb-[0.8rem] md:pt-[1.3rem] md:px-[2.7rem] md:pb-[1.45rem] !rounded-[5px] transition !text-[1.85rem] md:!text-[1.8rem] leading-[.018em] md:leading-[2rem] md:tracking-[.03em]
     ${
       card.variant === 'primary'
         ? ` !w-full
