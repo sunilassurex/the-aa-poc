@@ -349,10 +349,12 @@ export default function Navbar() {
               }}
               className="relative flex items-center justify-end w-full px-4 py-2 text-[16px] font-newtransport font-bold pr-[40px] text-black"
             >
-              <span className="mr-[8px]">Close</span>
+              <span className="mr-[25px] !text-[16px] font-newtransport !font-bold !leading-[1.33px] !tracking-[0.15px]">
+                Close
+              </span>
               <span
                 className="
-      absolute right-[16px] top-[8px] w-[24px] h-[24px]
+      absolute right-[16px] top-[-2px] w-[24px] h-[24px]
       after:content-[''] after:absolute after:inset-0
       after:[background-image:url(/close-icon.webp)]
       after:bg-no-repeat after:bg-right-top after:[background-size:16px]
@@ -362,11 +364,11 @@ export default function Navbar() {
           </div>
 
           {!selectedMobileMenu ? (
-            <ul className="space-y-4">
+            <ul className="space-y-4 !mx-[16px]">
               {mainItemsWithfirstAccount.map((key) => (
                 <li
                   key={key}
-                  className="flex justify-between items-center py-3 border-b border-gray-300"
+                  className="flex justify-between items-center py-3 border-t border-[#dcddde]"
                   onClick={() => setSelectedMobileMenu(key)}
                 >
                   <span className="text-[16px] font-bold">
