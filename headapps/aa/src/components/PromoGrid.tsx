@@ -22,24 +22,30 @@ export default function PromoGrid({ variant = 'cards' }: PromoGridProps) {
       <div className="bg-gray-100  space-y-10 py-[1rem] md:!py-[1.5rem]">
         <div className="wrapper px-[1rem]">
           {/* Vixa Block */}
-          <div className="min-h-[391px] md:min-h-[391px] bg-white text-center  md:max-w-[1160px] mx-auto pt-[4.2rem] px-[2.4rem] pb-[4rem]  md:px-[12.6rem] md:pb-[6rem] md:pt-[5.2rem] shadow flex flex-col justify-center items-center">
-            <h2 className="md:!text-[2.4rem] !text-[1.9rem] leading-[2.4rem] !mt-[22px] !mb-[1.3rem] md:mt-0 font-newtransport !font-bold md:!mb-[2rem]">
-              Vixa from The AA
-            </h2>
-            <p className="!font-normal text-[#1d1d1d]  md:mb-[2.4rem] md:!text-[1.6rem] !text-[1.8rem] !leading-[2.5rem]  font-newtransport !font-regular">
-              Stay in the know and on the move with Vixa, our car care device and app.
-              <br />
-              <br />
-              Get battery and engine health notifications to your phone, message mechanics directly
-              for expert advice, and book an AA Mobile Mechanic to come to you if you need something
-              fixed.
-              <br />
-              <br />
-              Personalised insights – reliable fixes – upfront pricing.
-            </p>
-            <button className="shadow-custom-inset md:w-auto w-full py-[0.9rem] px-[2rem] !text-[1.8rem] md:pt-[1.3rem] md:px-[2.7rem] md:pb-[1.5rem] md:!text-[1.8rem] bg-gradient-to-b from-[#ffcc00] to-[#f9b800]  text-black font-bold  rounded border border-[#d6a500] text-[1.1rem] shadow-[inset_0_2px_4px_rgba(255,255,255,0.2)]  transition duration-300  hover:from-[#ffe066] hover:to-[#ffd633] hover:border-[#ffd633]">
-              Go to Vlxa
-            </button>
+          <div className="md:!min-h-[390.6px] min-h-[391px]">
+            <div className="  bg-white text-center  md:max-w-[1160px] mx-auto pt-[4.2rem] px-[2.4rem] pb-[4rem]  md:px-[13rem] md:!pb-[6rem] md:!pt-[5.2rem] flex flex-col justify-center items-center">
+              <h2 className="md:!text-[2.4rem] md:leading-[3.2rem] md:text-[#1d1d1d] md:!tracking-[-.025em] !text-[1.9rem] leading-[2.4rem] !mt-[25px] !mb-[1.3rem] md:mt-0 font-newtransport !font-bold md:!mb-[2.4rem]">
+                Vixa from The AA
+              </h2>
+              <p className="!font-normal text-[#1d1d1d] tracking-[.025em]  md:!mb-[2.4rem] md:!text-[1.6rem] !text-[1.8rem] !leading-[2.5rem] md:!leading-[2.2rem]  font-newtransport !font-regular">
+                Stay in the know and on the move with Vixa, our car care device and app.
+                <br />
+                <br className="!leading-[2rem]" />
+                Get battery and engine health notifications to your phone, message mechanics
+                directly for expert advice, and book an AA Mobile Mechanic to come to you if you
+                need something fixed.
+                <br />
+                <br />
+                Personalised insights – reliable fixes – upfront pricing.
+              </p>
+              <button
+                className="shadow-custom-inset md:w-auto w-full py-[0.9rem] px-[2rem] !text-[1.8rem] md:!pt-[1.3rem] md:!px-[2.7rem] md:!pb-[1.5rem] md:!leading-[2rem] md:!tracking-[0.03em] md:!text-[1.8rem] bg-gradient-to-b from-[#ffcc00] to-[#f9b800] text-[#1d1d1d] border !border-[#ffc400]
+          !shadow-[inset_0_1px_1px_#fff0b3,_0_0_10px_rgba(0,0,0,0.2)] !rounded-[5px]
+          hover:from-[#ffe066] hover:to-[#ffd633] hover:border-[#ffd633] font-semibold"
+              >
+                Go to Vixa
+              </button>
+            </div>
           </div>
 
           {/* Car Lease Block */}
