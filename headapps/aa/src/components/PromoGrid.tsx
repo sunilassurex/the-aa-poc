@@ -38,7 +38,6 @@ export default function PromoGrid({ variant = 'cards' }: PromoGridProps) {
                 <br />
                 Personalised insights – reliable fixes – upfront pricing.
               </p>
-              
               <button
                 className="shadow-custom-inset md:w-auto w-full py-[0.9rem] px-[2rem] !text-[1.8rem] md:!pt-[1.3rem] md:!px-[2.7rem] md:!pb-[1.5rem] md:!leading-[2rem] md:!tracking-[0.03em] md:!text-[1.8rem] bg-gradient-to-b from-[#ffcc00] to-[#f9b800] text-[#1d1d1d] border !border-[#ffc400]
           !shadow-[inset_0_1px_1px_#fff0b3,_0_0_10px_rgba(0,0,0,0.2)] !rounded-[5px]
