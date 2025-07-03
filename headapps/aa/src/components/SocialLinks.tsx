@@ -1,25 +1,49 @@
-import Image from 'next/image';
+const socialIcons = [
+  {
+    href: 'http://twitter.com/TheAA_uk',
+    src: '/x-svg-24-demo.svg',
+    alt: 'x logo',
+    title: 'x logo',
+  },
+  {
+    href: 'http://www.facebook.com/TheAAUK',
+    src: '/facebook-svg-24-demo.svg',
+    alt: 'facebook icon',
+    title: 'facebook icon',
+  },
+  {
+    href: 'https://www.instagram.com/theaa_uk/',
+    src: '/instagram-svg-24-demo.svg',
+    alt: 'instagram icon',
+    title: 'instagram icon',
+  },
+];
 
 export default function SocialLinks() {
-  const icons = [
-    { src: '/x-svg-24-demo.svg', alt: 'X (Twitter)' },
-    { src: '/facebook-svg-24-demo.svg', alt: 'Facebook' },
-    { src: '/instagram-svg-24-demo.svg', alt: 'Instagram' },
-  ];
-
   return (
-    <div className="bg-[#f5f5f5] py-10 text-center md:!py-[1.5rem]">
-      <div className="md:pb-[1rem]">
-        <h3 className="text-[25px] md:!text-[2.6rem] md:!leading-[3.6rem] md:tracking-[-.005em] font-newtransport md:!mb-[1.2rem] !font-light mb-3 text-black">
-          Connect with us
-        </h3>
-        <div className="flex justify-center gap-8 md:!gap-8 xl:gap-6">
-          {icons.map((icon, index) => (
-            <div key={index} className="bg-[#1a1a1a] p-1 rounded-full w-[50px] h-[50px]">
-              <Image src={icon.src} alt={icon.alt} width={50} height={50} className="block" />
-            </div>
-          ))}
-        </div>
+    <div className="md:py-[1.5rem] py-[1rem]">
+      <div>
+        <aside className="pb-[1rem] text-center">
+          <h3 className="!mb-[1.2rem] font-newtransport !font-light !text-[2rem] !leading-[2.7rem] md:!text-[2.6rem] tracking-[-.005em] md:!leading-[3.6rem]">
+            Connect with us
+          </h3>
+          <ul className="flex justify-center items-center !mb-[0px]">
+            {socialIcons.map((icon, index) => (
+              <li className="px-[1rem]" key={index}>
+                <a href={icon.href}>
+                  <img
+                    src={icon.src}
+                    alt={icon.alt}
+                    width="50"
+                    height="50"
+                    title={icon.title}
+                    className="w-[50px] h-[50px]"
+                  />
+                </a>
+              </li>
+            ))}
+          </ul>
+        </aside>
       </div>
     </div>
   );
