@@ -2,9 +2,9 @@ import Image from 'next/image';
 
 export default function SocialLinks() {
   const icons = [
-    { src: '/x-svg-24.svg', alt: 'X (Twitter)' },
-    { src: '/facebook-svg-24.svg', alt: 'Facebook' },
-    { src: '/instagram-svg-24.svg', alt: 'Instagram' },
+    { src: '/x-svg-24-demo.svg', alt: 'X (Twitter)' },
+    { src: '/facebook-svg-24-demo.svg', alt: 'Facebook' },
+    { src: '/instagram-svg-24-demo.svg', alt: 'Instagram' },
   ];
 
   return (
@@ -15,14 +15,8 @@ export default function SocialLinks() {
         </h3>
         <div className="flex justify-center gap-8 md:!gap-8 xl:gap-6">
           {icons.map((icon, index) => (
-            <div key={index} className="bg-[#1a1a1a] p-1 rounded-full hover:scale-105 transition">
-              <Image
-                src={icon.src}
-                alt={icon.alt}
-                width={47}
-                height={47}
-                className="object-contain"
-              />
+            <div key={index} className="bg-[#1a1a1a] p-1 rounded-full w-[50px] h-[50px]">
+              <Image src={icon.src} alt={icon.alt} width={50} height={50} className="block" />
             </div>
           ))}
         </div>

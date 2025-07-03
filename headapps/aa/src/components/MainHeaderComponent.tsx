@@ -223,7 +223,7 @@ export default function Navbar() {
                         <img
                           src="/user-icon.svg"
                           className="!h-[24px] w-[24px] absolute left-[25px] top-[-15px]"
-                          alt="Driver Icon"
+                          alt="user Icon"
                         />
                         <button className="relative pl-[54px] left-[11px]">Account</button>
                       </div>
@@ -340,7 +340,7 @@ export default function Navbar() {
             mobileOpen ? '!translate-x-0' : '!-translate-x-full'
           }`}
         >
-          <div className="flex justify-between items-center pl-[16px] pb-[16px]">
+          <div className="flex justify-between items-center pl-[16px] pb-[22px]">
             <img src="/AA-logo.svg" className="h-8 m-0" alt="AA Logo" />
             <button
               onClick={() => {
@@ -368,19 +368,44 @@ export default function Navbar() {
               {mainItemsWithfirstAccount.map((key) => (
                 <li
                   key={key}
-                  className="flex justify-between items-center py-3 border-t border-[#dcddde]"
+                  className={`flex justify-between items-center py-[16px] !mb-[0px] border-t border-[#dcddde] ${
+                    key === 'account' && 'h-[53px]'
+                  } `}
                   onClick={() => setSelectedMobileMenu(key)}
                 >
-                  <span className="text-[16px] font-bold">
-                    {key === 'vehicle'
-                      ? 'Vehicle maintenance'
-                      : key === 'cars'
-                      ? 'New and used cars'
-                      : key === 'driving'
-                      ? 'Driving school'
-                      : key.charAt(0).toUpperCase() + key.slice(1)}
-                  </span>
-                  <span className="text-gray-600 text-[14px]">
+                  {key === 'account' && (
+                    <>
+                      <span>
+                        {' '}
+                        <img
+                          src="/user-icon.svg"
+                          className="!inline !h-[24px] w-[24px] relative left-[0px] top-[0px]"
+                          alt="user Icon"
+                        />
+                        <span
+                          className={`text-[16px] font-bold leading-[20px] tracking-[0.25px] ${
+                            key === 'account' ? 'relative top-[2px] left-[4.5px]' : ''
+                          } `}
+                        >
+                          {' '}
+                          {key.charAt(0).toUpperCase() + key.slice(1)}
+                        </span>
+                      </span>
+                    </>
+                  )}
+                  {key != 'account' && (
+                    <span className={`text-[16px] font-bold leading-[20px] tracking-[0.25px]  `}>
+                      {key === 'vehicle'
+                        ? 'Vehicle maintenance'
+                        : key === 'cars'
+                        ? 'New and used cars'
+                        : key === 'driving'
+                        ? 'Driving school'
+                        : key.charAt(0).toUpperCase() + key.slice(1)}
+                    </span>
+                  )}
+
+                  <span className="text-[#2b2d32] text-[14px] relative top-[0px]">
                     <img src="/arrow-right-dark.png" alt="" />
                   </span>
                 </li>
@@ -395,29 +420,55 @@ export default function Navbar() {
               </li>
             </ul>
           ) : (
-            <div>
-              <button
-                className="text-[16px] text-[#06757f] font-semibold mb-4 flex items-center gap-1"
-                onClick={() => setSelectedMobileMenu(null)}
-              >
-                &lt; Back
-              </button>
-              <ul className="space-y-3">
-                {menuData[selectedMobileMenu].map((item: string, i: number) => (
-                  <li key={i} className="text-[16px] text-gray-800 border-b border-gray-300 !py-4">
-                    {item}
+            <div className="border-t border-[#a7a9ac]">
+              {/* Submenu Items */}
+              <ul className="!mx-[16px]">
+                <button
+                  className="relative top-[5px] left-[-6px] !text-[16px] text-[#07818c] !leading-[20px] !tracking-[0.25px] font-newtransport !font-bold mb-4 flex items-center gap-[5px] ml-[16px]"
+                  onClick={() => setSelectedMobileMenu(null)}
+                >
+                  <img
+                    src="/arrow-left.svg"
+                    alt="Back"
+                    className="!inline w-[24px] h-[24px] !pl-[0px]"
+                  />
+                  <span className="inline relative top-[0px] left-[1px]">Back</span>
+                </button>
+
+                {/* Section Title with Icon (for 'account' only) */}
+                <div className="flex gap-2 h-[68px] relative pt-[7px] top-[0px] !left-[0px]">
+                  {selectedMobileMenu === 'account' && (
+                    <img
+                      src="/user-icon.svg"
+                      alt="Account Icon"
+                      className="!mx-[0px] w-[24px] !h-[24px] relative top-[17px] !left-[0px]"
+                    />
+                  )}
+                  <h2
+                    className={`!text-[24px] !mb-[0px] font-newtransport !font-bold !leading-[28px] !tracking-[-0.5px] py-[18px] !pl-[10px] ${
+                      selectedMobileMenu === 'account' && 'relative top-[-3px] left-[1px]'
+                    }`}
+                  >
+                    {' '}
+                    {selectedMobileMenu === 'vehicle'
+                      ? 'Vehicle maintenance'
+                      : selectedMobileMenu === 'cars'
+                      ? 'New and used cars'
+                      : selectedMobileMenu === 'driving'
+                      ? 'Driving school'
+                      : selectedMobileMenu.charAt(0).toUpperCase() + selectedMobileMenu.slice(1)}
+                  </h2>
+                </div>
+                {menuData[selectedMobileMenu].flat().map((item: string, i: number) => (
+                  <li key={i} className="!h-[52px] !py-[16px]  text-gray-800 border-t border-[#dcddde]">
+                    <a className="font-newtransport !font-bold !tracking-[0.25px] !text-[16px] !leading-[1.25px]">
+                      {item}
+                    </a>
                   </li>
                 ))}
               </ul>
             </div>
           )}
-
-          <div className="text-center mt-6 text-[14px]">
-            Are you a{' '}
-            <a href="#" className="!text-[#06757f] font-semibold hover:!underline">
-              business customer?
-            </a>
-          </div>
         </div>
       )}
     </div>
