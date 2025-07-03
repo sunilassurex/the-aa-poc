@@ -19,18 +19,18 @@ export default function PromoGrid({ variant = 'cards' }: PromoGridProps) {
 
   if (variant === 'promo-section') {
     return (
-      <div className="bg-gray-100  space-y-10 py-[1rem] md:!py-[1.5rem]">
-        <div className="wrapper px-[1rem]">
+      <div className="bg-gray-100  space-y-10 py-[1.5rem] ">
+        <div className="wrapper !px-[1rem]">
           {/* Vixa Block */}
-          <div className="md:!min-h-[390.6px] min-h-[391px]">
-            <div className="  bg-white text-center  md:max-w-[1160px] mx-auto pt-[4.2rem] px-[2.4rem] pb-[4rem]  md:px-[13rem] md:!pb-[6rem] md:!pt-[5.2rem] flex flex-col justify-center items-center">
+          <div className="md:!min-h-[390.6px] min-h-[479.6px] md:!pb-[1.5rem]">
+            <div className="  bg-white text-center  md:max-w-[1120px] mx-auto !pt-[3.6rem] !px-[2.4rem] !pb-[4rem]  md:!px-[12.6rem] md:!pb-[6.1rem] md:!pt-[5.1rem] flex flex-col justify-center items-center">
               <h2 className="md:!text-[2.4rem] md:leading-[3.2rem] md:text-[#1d1d1d] md:!tracking-[-.025em] !text-[1.9rem] leading-[2.4rem] !mt-[25px] !mb-[1.3rem] md:mt-0 font-newtransport !font-bold md:!mb-[2.4rem]">
                 Vixa from The AA
               </h2>
-              <p className="!font-normal text-[#1d1d1d] tracking-[.025em]  md:!mb-[2.4rem] md:!text-[1.6rem] !text-[1.8rem] !leading-[2.5rem] md:!leading-[2.2rem]  font-newtransport !font-regular">
+              <p className="!font-normal text-[#1d1d1d] tracking-[.025em] !mb-[2.4rem]  md:!mb-[2.45rem] md:!text-[1.6rem] !text-[1.8rem] !leading-[2.499rem] md:!leading-[2.19rem]  font-newtransport !font-regular">
                 Stay in the know and on the move with Vixa, our car care device and app.
                 <br />
-                <br className="!leading-[2rem]" />
+                <br />
                 Get battery and engine health notifications to your phone, message mechanics
                 directly for expert advice, and book an AA Mobile Mechanic to come to you if you
                 need something fixed.
@@ -39,7 +39,7 @@ export default function PromoGrid({ variant = 'cards' }: PromoGridProps) {
                 Personalised insights – reliable fixes – upfront pricing.
               </p>
               <button
-                className="shadow-custom-inset md:w-auto w-full py-[0.9rem] px-[2rem] !text-[1.8rem] md:!pt-[1.3rem] md:!px-[2.7rem] md:!pb-[1.5rem] md:!leading-[2rem] md:!tracking-[0.03em] md:!text-[1.8rem] bg-gradient-to-b from-[#ffcc00] to-[#f9b800] text-[#1d1d1d] border !border-[#ffc400]
+                className="shadow-custom-inset md:w-auto w-full py-[0.85rem] px-[2rem] !text-[1.8rem] md:!pt-[1.27rem] md:!px-[2.7rem] md:!pb-[1.55rem] md:!leading-[2rem] md:!tracking-[0.03em] md:!text-[1.8rem] bg-gradient-to-b from-[#ffcc00] to-[#f9b800] text-[#1d1d1d] border !border-[#ffc400]
           !shadow-[inset_0_1px_1px_#fff0b3,_0_0_10px_rgba(0,0,0,0.2)] !rounded-[5px]
           hover:from-[#ffe066] hover:to-[#ffd633] hover:border-[#ffd633] font-semibold"
               >
@@ -49,35 +49,39 @@ export default function PromoGrid({ variant = 'cards' }: PromoGridProps) {
           </div>
 
           {/* Car Lease Block */}
-          <div
-            className="min-h-[391px] md:min-h-[415px] text-center mt-[2rem]  md:max-w-[1160px] mx-auto pt-[4.2rem] px-[2.4rem] pb-[4rem] md:min-h-[300px] md:px-[12.6rem] md:pb-[6rem] md:pt-[5.2rem] shadow flex flex-col justify-center md:items-center bg-no-repeat bg-cover bg-[position:right_0]"
-            style={{ backgroundImage: "url('/large-beam.webp')" }}
-          >
-            <h2 className="md:!text-[2.4rem] md:mt-0 !text-[1.9rem] leading-[2.4rem] !mb-[1.3rem] font-newtransport !font-bold md:!mb-[2rem]">
-              Looking for your next car?
-            </h2>
-            <p className="md:mb-[2.4rem] !font-normal text-[#1d1d1d] md:!text-[1.6rem] tracking-[.025em] !text-[1.8rem] !leading-[2.5rem]  font-newtransport !font-regular">
-              Interested in leasing a brand-new car with the latest tech? Prefer to buy a
-              second-hand one with the confidence that it comes with free breakdown cover and a
-              history check? With more than 100,000 cars to choose from, we’ve got you covered.
-            </p>
+          <div className="min-h-[391px] md:!min-h-[324.6px] !py-[1.5rem]">
             <div
-              className={`flex ${
-                buttons.length === 1 ? 'justify-center' : 'justify-center gap-4 md:mx-[0.8rem]'
-              } flex-wrap`}
+              className=" text-center   md:max-w-[1120px] mx-auto pt-[4rem] px-[2.4rem] pb-[4rem]  md:!px-[12.6rem] md:pb-[6rem] md:!pt-[5.2rem] shadow flex flex-col justify-center md:items-center bg-no-repeat bg-cover bg-[position:right_0]"
+              style={{ backgroundImage: "url('/large-beam.webp')" }}
             >
-              {buttons.map((btn, index) => (
-                <button
-                  key={index}
-                  className={`font-semibold rounded shadow w-full py-[0.9rem] px-[2rem] !text-[1.8rem] md:w-auto md:pt-[1.3rem] md:px-[2.7rem] md:pb-[1.5rem] ${
-                    btn.variant === 'primary'
-                      ? ' font-newtransport  !font-bold md:!text-[1.8rem] bg-gradient-to-b from-[#3d3d3d] to-[#161616]  text-white  rounded  border-[1px] border-[#151515] text-[1.1rem]  shadow-[inset_0_4px_4px_rgba(255,255,255,0.15)]  transition  hover:bg-[#5e5e5e] hover:from-transparent hover:to-transparent'
-                      : 'font-newtransport !font-bold text-black bg-transparent rounded border-[0.2rem] border-[#1d1d1d] md:!text-[1.8rem] md:pt-[1.2rem] md:px-[3rem] md:pb-[1.4rem]  hover:!bg-[#dcddde]'
-                  }`}
-                >
-                  {btn.label}
-                </button>
-              ))}
+              <h2 className="md:!text-[2.4rem] md:leading-[3.2rem] md:text-[#1d1d1d] md:!tracking-[-.025em] !text-[1.9rem] leading-[2.4rem] !mt-[25px] !mb-[1.3rem] md:mt-0 font-newtransport !font-bold md:!mb-[2.4rem]">
+                Looking for your next car?
+              </h2>
+              <p className="!font-normal text-[#1d1d1d] tracking-[.025em]  md:!mb-[2.39rem] md:!text-[1.6rem] !text-[1.8rem] !leading-[2.49rem] md:!leading-[2.185rem]  font-newtransport !font-regular">
+                Interested in leasing a brand-new car with the latest tech? Prefer to buy a
+                second-hand one with the confidence that it comes with free breakdown cover and a
+                history check? With more than 100,000 cars to choose from, we’ve got you covered.
+              </p>
+              <div
+                className={`flex ${
+                  buttons.length === 1
+                    ? 'justify-center'
+                    : 'justify-center md:!gap-x-[2rem] gap-y-[2rem] '
+                } flex-wrap`}
+              >
+                {buttons.map((btn, index) => (
+                  <button
+                    key={index}
+                    className={`md:w-auto w-full font-semibold !px-[2rem] !py-[0.85rem] md:!tracking-[.03em] md:!pt-[1.0rem] md:!px-[2.66rem] md:!pb-[1.1rem] !rounded-[5px] transition !text-[1.83rem] md:!text-[1.8rem] leading-[.018em] md:leading-[2rem]  ${
+                      btn.variant === 'primary'
+                        ? ' bg-gradient-to-b from-[#3d3d3d] md:!ml-[2.8rem]  to-[#161616] text-white border !border-[#151515] !shadow-[inset_0_0.5px_1px_rgba(255,255,255,0.7),_0_0_10px_rgba(0,0,0,0.2)] hover:bg-none hover:!bg-[#3d3d3d]'
+                        : 'font-newtransport md:!px-[3rem] md:!mr-[2.8rem] md:!pt-[1.2rem] md:!pb-[1.35rem] !font-bold text-[#1d1d1d] bg-transparent rounded border-[0.2rem] border-[#1d1d1d] md:!text-[1.8rem]  hover:!bg-[#dcddde]'
+                    }`}
+                  >
+                    {btn.label}
+                  </button>
+                ))}
+              </div>
             </div>
           </div>
         </div>
@@ -122,7 +126,7 @@ export default function PromoGrid({ variant = 'cards' }: PromoGridProps) {
   return (
     <section className="bg-gray-100 md:py-[1.5rem]">
       <div className="w-full max-w-[1160px] px-[1rem] md:px-[20px] mx-auto">
-        <div className="grid grid-cols-1 md:gap-y-12 !shadow-md   md:grid-cols-2 text-center">
+        <div className="grid grid-cols-1 md:gap-y-12 !shadow-xs   md:grid-cols-2 text-center">
           {cards.map((card, index) => (
             <div
               key={index}
