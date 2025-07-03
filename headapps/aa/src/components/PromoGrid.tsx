@@ -23,11 +23,11 @@ export default function PromoGrid({ variant = 'cards' }: PromoGridProps) {
         <div className="wrapper !px-[1rem]">
           {/* Vixa Block */}
           <div className="md:!min-h-[390.6px] min-h-[479.6px] md:!pb-[1.5rem]">
-            <div className="  bg-white text-center  md:max-w-[1120px] mx-auto !pt-[3.6rem] !px-[2.4rem] !pb-[4rem]  md:!px-[12.6rem] md:!pb-[6.1rem] md:!pt-[5.2rem] flex flex-col justify-center items-center">
+            <div className="  bg-white text-center  md:max-w-[1120px] mx-auto !pt-[3.9rem] !px-[2.4rem] !pb-[4rem]  md:!px-[12.6rem] md:!pb-[6.1rem] md:!pt-[5.2rem] flex flex-col justify-center items-center">
               <h2 className="md:!text-[2.4rem] md:leading-[3.2rem] md:text-[#1d1d1d] md:!tracking-[-.025em] !text-[1.9rem] leading-[2.4rem] !mt-[25px] !mb-[1.3rem] md:mt-0 font-newtransport !font-bold md:!mb-[2.4rem]">
                 Vixa from The AA
               </h2>
-              <p className="!font-normal text-[#1d1d1d] tracking-[.025em] !mb-[2.4rem]  md:!mb-[2.45rem] md:!text-[1.6rem] !text-[1.8rem] !leading-[2.499rem] md:!leading-[2.19rem]  font-newtransport !font-regular">
+              <p className="!font-normal text-[#1d1d1d] tracking-[.025em] !mb-[2.4rem]  md:!mb-[2.45rem] md:!text-[1.6rem] !text-[1.8rem] !leading-[2.5rem] md:!leading-[2.19rem]  font-newtransport !font-regular">
                 Stay in the know and on the move with Vixa, our car care device and app.
                 <br />
                 <br />
@@ -39,7 +39,7 @@ export default function PromoGrid({ variant = 'cards' }: PromoGridProps) {
                 Personalised insights – reliable fixes – upfront pricing.
               </p>
               <button
-                className="shadow-custom-inset md:w-auto w-full py-[0.85rem] px-[2rem] !text-[1.8rem] md:!pt-[1.27rem] md:!px-[2.7rem] md:!pb-[1.55rem] md:!leading-[2rem] md:!tracking-[0.03em] md:!text-[1.8rem] bg-gradient-to-b from-[#ffcc00] to-[#f9b800] text-[#1d1d1d] border !border-[#ffc400]
+                className="shadow-custom-inset md:w-auto w-full py-[0.85rem] px-[2rem] !text-[1.8rem] !tracking-[0.015em] md:!pt-[1.27rem] md:!px-[2.7rem] md:!pb-[1.55rem] md:!leading-[2rem] md:!tracking-[0.03em] md:!text-[1.8rem] bg-gradient-to-b from-[#ffcc00] to-[#f9b800] text-[#1d1d1d] border !border-[#ffc400]
           !shadow-[inset_0_1px_1px_#fff0b3,_0_0_10px_rgba(0,0,0,0.2)] !rounded-[5px]
           hover:from-[#ffe066] hover:to-[#ffd633] hover:border-[#ffd633] font-semibold"
               >
@@ -51,13 +51,13 @@ export default function PromoGrid({ variant = 'cards' }: PromoGridProps) {
           {/* Car Lease Block */}
           <div className="min-h-[391px] md:!min-h-[324.6px] !py-[1.5rem]">
             <div
-              className=" text-center   md:max-w-[1120px] mx-auto pt-[4rem] px-[2.4rem] pb-[4rem]  md:!px-[12.6rem] md:pb-[6rem] md:!pt-[5.2rem] shadow flex flex-col justify-center md:items-center bg-no-repeat bg-cover bg-[position:right_0]"
+              className=" text-center   md:max-w-[1120px] mx-auto !pt-[3.8rem] px-[2.4rem] pb-[4rem]  md:!px-[12.6rem] md:pb-[6rem] md:!pt-[5.2rem] shadow flex flex-col justify-center md:items-center bg-no-repeat bg-cover bg-[position:right_0]"
               style={{ backgroundImage: "url('/large-beam.webp')" }}
             >
-              <h2 className="md:!text-[2.4rem] md:leading-[3.2rem] md:text-[#1d1d1d] md:!tracking-[-.025em] !text-[1.9rem] leading-[2.4rem] !mt-[25px] !mb-[1.3rem] md:mt-0 font-newtransport !font-bold md:!mb-[2.4rem]">
+              <h2 className="md:!text-[2.4rem] md:leading-[3.2rem] md:text-[#1d1d1d] md:!tracking-[-.025em] !text-[1.9rem] leading-[2.4rem] !mt-[25px] !mb-[1.25rem] md:mt-0 font-newtransport !font-bold md:!mb-[2.4rem]">
                 Looking for your next car?
               </h2>
-              <p className="!font-normal text-[#1d1d1d] tracking-[.025em]  md:!mb-[2.4rem] md:!text-[1.6rem] !text-[1.8rem] !leading-[2.49rem] md:!leading-[2.22rem]  font-newtransport !font-regular">
+              <p className="!font-normal text-[#1d1d1d] tracking-[.025em] !mb-[2.4rem]  md:!mb-[2.4rem] md:!text-[1.6rem] !text-[1.8rem] !leading-[2.5rem] md:!leading-[2.22rem]  font-newtransport !font-regular">
                 Interested in leasing a brand-new car with the latest tech? Prefer to buy a
                 second-hand one with the confidence that it comes with free breakdown cover and a
                 history check? With more than 100,000 cars to choose from, we’ve got you covered.
@@ -72,9 +72,9 @@ export default function PromoGrid({ variant = 'cards' }: PromoGridProps) {
                 {buttons.map((btn, index) => (
                   <button
                     key={index}
-                    className={`md:w-auto w-full font-semibold !px-[2rem] !py-[0.85rem] md:!tracking-[.03em] md:!pt-[1.0rem] md:!px-[2.66rem] md:!pb-[1.1rem] !rounded-[5px] transition !text-[1.83rem] md:!text-[1.8rem] leading-[.018em] md:leading-[2rem]  ${
+                    className={`md:w-auto w-full font-semibold !px-[2rem] !py-[0.85rem] !tracking-[0.01em] md:!tracking-[.03em] md:!pt-[1.2rem] md:!px-[2.66rem] md:!pb-[1.08rem] !rounded-[5px] transition !text-[1.83rem] md:!text-[1.8rem] leading-[.018em] md:leading-[2rem]  ${
                       btn.variant === 'primary'
-                        ? ' bg-gradient-to-b from-[#3d3d3d] md:!ml-[2.8rem]  to-[#161616] text-white border !border-[#151515] !shadow-[inset_0_0.5px_1px_rgba(255,255,255,0.7),_0_0_10px_rgba(0,0,0,0.2)] hover:bg-none hover:!bg-[#3d3d3d]'
+                        ? ' bg-gradient-to-b from-[#3d3d3d] md:!ml-[2.8rem]  to-[#161616] text-white border !border-[#151515] !shadow-[inset_0_1px_1px_rgba(255,255,255,0.7),_0_0_10px_rgba(0,0,0,0.2)] hover:bg-none hover:!bg-[#3d3d3d]'
                         : 'font-newtransport md:!px-[3rem] md:!mr-[2.8rem] md:!pt-[1.2rem] md:!pb-[1.35rem] !font-bold text-[#1d1d1d] bg-transparent rounded border-[0.2rem] border-[#1d1d1d] md:!text-[1.8rem]  hover:!bg-[#dcddde]'
                     }`}
                   >
