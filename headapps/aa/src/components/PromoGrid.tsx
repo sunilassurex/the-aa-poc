@@ -23,7 +23,7 @@ export default function PromoGrid({ variant = 'cards' }: PromoGridProps) {
         <div className="wrapper !px-[1rem]">
           {/* Vixa Block */}
           <div className="md:!min-h-[390.6px] min-h-[479.6px] md:!pb-[1.5rem]">
-            <div className="  bg-white text-center  md:max-w-[1120px] mx-auto !pt-[3.6rem] !px-[2.4rem] !pb-[4rem]  md:!px-[12.6rem] md:!pb-[6.1rem] md:!pt-[5.1rem] flex flex-col justify-center items-center">
+            <div className="  bg-white text-center  md:max-w-[1120px] mx-auto !pt-[3.6rem] !px-[2.4rem] !pb-[4rem]  md:!px-[12.6rem] md:!pb-[6.1rem] md:!pt-[5.2rem] flex flex-col justify-center items-center">
               <h2 className="md:!text-[2.4rem] md:leading-[3.2rem] md:text-[#1d1d1d] md:!tracking-[-.025em] !text-[1.9rem] leading-[2.4rem] !mt-[25px] !mb-[1.3rem] md:mt-0 font-newtransport !font-bold md:!mb-[2.4rem]">
                 Vixa from The AA
               </h2>
@@ -57,7 +57,7 @@ export default function PromoGrid({ variant = 'cards' }: PromoGridProps) {
               <h2 className="md:!text-[2.4rem] md:leading-[3.2rem] md:text-[#1d1d1d] md:!tracking-[-.025em] !text-[1.9rem] leading-[2.4rem] !mt-[25px] !mb-[1.3rem] md:mt-0 font-newtransport !font-bold md:!mb-[2.4rem]">
                 Looking for your next car?
               </h2>
-              <p className="!font-normal text-[#1d1d1d] tracking-[.025em]  md:!mb-[2.39rem] md:!text-[1.6rem] !text-[1.8rem] !leading-[2.49rem] md:!leading-[2.185rem]  font-newtransport !font-regular">
+              <p className="!font-normal text-[#1d1d1d] tracking-[.025em]  md:!mb-[2.4rem] md:!text-[1.6rem] !text-[1.8rem] !leading-[2.49rem] md:!leading-[2.22rem]  font-newtransport !font-regular">
                 Interested in leasing a brand-new car with the latest tech? Prefer to buy a
                 second-hand one with the confidence that it comes with free breakdown cover and a
                 history check? With more than 100,000 cars to choose from, we’ve got you covered.
