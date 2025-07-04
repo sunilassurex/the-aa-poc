@@ -34,12 +34,12 @@ export default function Toggle({ initiallyOpen = true }: ToggleProps) {
         role="button"
         tabIndex={0}
         onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && handleToggle()}
-        className="cursor-pointer bg-white md:!mb-[1.5rem]  border border-gray-300 md:rounded shadow-md md:!py-[1.4rem] md:!px-[9.5rem] !px-8 !py-5 flex justify-between items-center focus:outline-none"
+        className="cursor-pointer bg-white md:!mb-[1.5rem] md:!py-[1.4rem] md:!px-[9.5rem] !px-8 !py-5 flex justify-between items-center focus:outline-none shadow-[0_5px_10px_rgba(192,195,195,0.2)] h-[50px]"
       >
         {/* Left-aligned label */}
         <span
-          className={`text-[1.6rem] font-newtransport !font-bold ${
-            isActive ? 'border-b-2 border-black-400' : ''
+          className={`block bg-white cursor-pointer relative mt-0 py-[1.4rem] text-[1.6rem] leading-[2.2rem] tracking-[0.025em] font-newtransport !font-bold h-[50px] ${
+            isActive ? 'underline decoration-1 underline-offset-[0.5px]' : ''
           }`}
         >
           Good to know
@@ -50,7 +50,7 @@ export default function Toggle({ initiallyOpen = true }: ToggleProps) {
           <img
             src="/accordion-arrow-down.png"
             alt="Toggle arrow"
-            className={`w-6 h-6 transition-transform duration-300 ${
+            className={`!w-[16px] !h-[11px] relative right-[1px] transition-transform duration-300 ${
               isOpen ? 'rotate-180' : 'rotate-0'
             }`}
           />
@@ -59,9 +59,10 @@ export default function Toggle({ initiallyOpen = true }: ToggleProps) {
 
       {/* Content Box */}
       {isOpen && (
-        <div className="bg-white border border-gray-300 rounded shadow-md md:py-[3rem] md:px-[9.5rem] text-[14px] md:text-[16px] text-gray-800">
-          <p className="md:!mb-[0px] md:!text-[14px] md:!leading-[21px]">
-            <sup>†</sup>
+        <div className="md:mb-[2rem]">
+          <div className="bg-white border border-gray-300 md:py-[3rem] md:px-[9.5rem] text-[14px] md:text-[16px] text-gray-800 ">
+            <div className="md:!mb-[0px] md:!text-[14px] md:!leading-[21px] ">
+              {/* <sup>†</sup>
             Source: AA Annual Report &amp; Accounts 2024 (c. 2,800 patrols) and Annual Report &amp;
             Financial Statements 2023 (1,600 patrols). Verify at{' '}
             <a
@@ -71,7 +72,61 @@ export default function Toggle({ initiallyOpen = true }: ToggleProps) {
             >
               theaa.com/Best
             </a>
-          </p>
+             */}
+
+              <p
+                className="!mb-[0px]"
+                style={{
+                  fontFamily: `Arial, 'Helvetica Neue', Helvetica, Verdana, sans-serif !important`,
+                }}
+              >
+                You will be entered into our prize draw to win a Jurassic World Rebirth holiday when
+                you take out a new breakdown membership with At Home, National Recovery or Onward
+                Travel.
+              </p>
+
+              <p
+                className="!my-[1.5rem]"
+                style={{
+                  fontFamily: `Arial, 'Helvetica Neue', Helvetica, Verdana, sans-serif !important`,
+                }}
+              >
+                The prize includes an adventure holiday for 2 adults and 2 children in this prize
+                draw, which includes: (i) airfare (roundtrip flights from London, UK to Lyon,
+                France); (ii) car hire: For 5 days, to be collected/dropped off at Lyon airport
+                (incl. GPS hire); (iii) accommodation: 4 nights’ safari tent glamping accommodation
+                in Ardeche, based on sharing a double occupancy space with self-catering and
+                bathroom facilities; (iv) canoe tour (1.5 hours) which includes instruction and
+                rental of canoes/kayaks, life jackets, paddles, watertight containers, neoprene
+                suits and windbreaks; (v) admission and tour of The Grotte Chauvet 2 (UNESCO World
+                Heritage listed, the largest cave replica in the world); (vi) spending money: £1,000
+                in total (for the winner only); and (vii) travel insurance.
+              </p>
+
+              <p
+                className="my-[1.5rem]"
+                style={{
+                  fontFamily: `Arial, 'Helvetica Neue', Helvetica, Verdana, sans-serif !important`,
+                }}
+              >
+                The Jurassic World Rebirth prize draw promotion starts on 1 July 2025 and ends at
+                11.59 pm on 16 July 2025. (1) is for new AA breakdown customers only who are UK
+                residents, and not existing AA breakdown members or at renewal; (2) does not apply
+                when only Roadside Assistance is purchased, or to Parts &amp; Garage Cover, Key
+                Cover or to Commercial Use; (3) is not available in conjunction with any other
+                offer, discount or promotion or in a breakdown situation; and (4) there’s no cash
+                alternative, and the AA reserves the right to withdraw or alter this promotion
+                without prior notice at any time. For further information and full terms and
+                conditions please visit{' '}
+                <a
+                  href="https://www.theaa.com/terms-and-conditions/jurassic-world-prize-draw"
+                  className="!text-[#07818c] font-bold no-underline"
+                >
+                  theAA.com/prizedraw
+                </a>
+              </p>
+            </div>
+          </div>
         </div>
       )}
     </div>
