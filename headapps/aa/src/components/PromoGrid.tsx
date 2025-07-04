@@ -19,7 +19,7 @@ export default function PromoGrid({ variant = 'cards' }: PromoGridProps) {
 
   if (variant === 'promo-section') {
     return (
-      <div className="bg-gray-100  space-y-10 py-[1.5rem] ">
+      <div className="bg-gray-100  space-y-10 md:py-[1.5rem] py-[1rem] ">
         <div className="wrapper !px-[1rem]">
           {/* Vixa Block */}
           <div className="md:!min-h-[390.6px] min-h-[479.6px] md:!pb-[1.5rem]">
@@ -124,15 +124,15 @@ export default function PromoGrid({ variant = 'cards' }: PromoGridProps) {
   ];
 
   return (
-    <section className="bg-gray-100 md:py-[1.5rem]">
+    <section className="bg-gray-100 md:py-[1.5rem] py-[1rem]">
       <div className="w-full max-w-[1160px] px-[1rem] md:px-[20px] mx-auto">
         <div className="grid grid-cols-1 md:gap-y-12 !shadow-xs   md:grid-cols-2 text-center">
           {cards.map((card, index) => (
             <div
               key={index}
-              className={` relative w-full flex flex-col justify-center items-center text-black pt-[3.7rem] px-[2.4rem] pb-[4rem] md:px-[4.4rem] md:pb-[6rem] md:pt-[5.27rem] min-h-[255.6px] md:min-h-[302.2px]  ${
+              className={` relative w-full flex flex-col justify-center items-center text-black !pt-[4.1rem] px-[2.4rem] pb-[4rem] md:px-[4.4rem] md:pb-[6rem] md:pt-[5.27rem] min-h-[255px] md:min-h-[302.2px]  ${
                 card.backgroundImage ? 'bg-contain bg-no-repeat bg-center' : 'bg-white'
-              } ${index % 2 === 1 ? 'mb-[2.2rem] md:mb-0' : ''} 
+              } ${index % 2 === 1 && index !== Array.length - 1 ? 'mb-[2.1rem] md:mb-0' : ''}
     `}
               style={
                 card.backgroundImage
@@ -147,23 +147,23 @@ export default function PromoGrid({ variant = 'cards' }: PromoGridProps) {
             >
               <a href={' '} className="block w-full">
                 <div>
-                  <h2 className="!mb-[1.3rem] !text-[1.9rem] leading-[2.4rem] tracking-[0] md:!text-[2.4rem] md:!leading-[3.2rem] md:!tracking-[-.025em] xl:!text-[2.4rem] font-newtransport !font-bold md:!my-[2rem] md:!mb-[2rem]">
+                  <h2 className="!mb-[1.25rem] !text-[1.9rem] leading-[2.4rem] tracking-[0] md:!text-[2.4rem] md:!leading-[3.2rem] md:!tracking-[-.025em] xl:!text-[2.4rem] font-newtransport !font-bold md:!my-[2rem] md:!mb-[2rem]">
                     {card.title}
                   </h2>
 
-                  <p className="font-newtransport !text-[1.9rem] text-[rgb(29, 29, 29)] leading-[2.5rem] !mb-[2.3rem] !font-normal md:!leading-[2.25rem] md:!mb-[2.3rem] md:!text-[1.6rem] md:!tracking-[.025em] text-[#1d1d1d]">
+                  <p className="font-newtransport !font-light !text-[1.8rem] !tracking-[.025em] text-[rgb(29, 29, 29)] !leading-[2.51rem] !mb-[2.4rem] !font-normal md:!leading-[2.25rem] md:!mb-[2.3rem] md:!text-[1.6rem] md:!tracking-[.025em] text-[#1d1d1d]">
                     {card.description}
                   </p>
                 </div>
               </a>
               <div className="flex justify-center !w-full md:!w-auto">
                 <button
-                  className={`!w-full md:w-auto mx-auto font-bold pt-[0.8rem] pb-[0.8rem] md:pt-[1.35rem] md:px-[2.72rem] md:pb-[1.39rem] !rounded-[5px] transition !text-[1.85rem] md:!text-[1.8rem] leading-[.018em] md:leading-[2rem] md:tracking-[.029em]
+                  className={`!w-full md:w-auto mx-auto font-bold !pt-[0.78rem] !pb-[0.9rem] md:pt-[1.35rem] md:px-[2.72rem] md:pb-[1.39rem] !rounded-[5px] transition !text-[1.85rem] md:!text-[1.8rem] leading-[.018em] md:leading-[2rem] md:tracking-[.029em]
     ${
       card.variant === 'primary'
         ? ` !w-full
           bg-gradient-to-b from-[#3d3d3d]  to-[#161616] text-white border !border-[#151515]
-          !shadow-[inset_0_0.5px_1px_rgba(255,255,255,0.7),_0_0_10px_rgba(0,0,0,0.2)]
+          !shadow-[inset_0_1px_1px_rgba(255,255,255,0.7),_0_0_10px_rgba(0,0,0,0.2)] md:!shadow-[inset_0_0.5px_1px_rgba(255,255,255,0.7),_0_0_10px_rgba(0,0,0,0.2)]
           hover:bg-none hover:!bg-[#3d3d3d]
         `
         : `
