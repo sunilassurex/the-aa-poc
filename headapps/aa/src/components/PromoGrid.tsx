@@ -95,7 +95,7 @@ export default function PromoGrid({ variant = 'cards' }: PromoGridProps) {
       title: 'Car insurance',
       description:
         "Comprehensive cover for £250 or less – that's what 10% of new customers paid from December 2024 to February 2025.",
-      buttonText: 'Get car Insurance',
+      buttonText: 'Get car insurance',
       variant: 'primary',
       backgroundImage: '/large-beam.webp',
     },
@@ -158,7 +158,7 @@ export default function PromoGrid({ variant = 'cards' }: PromoGridProps) {
               </a>
               <div className="flex justify-center !w-full md:!w-auto">
                 <button
-                  className={`!w-full md:w-auto mx-auto font-bold pt-[0.8rem] pb-[0.8rem] md:pt-[1.3rem] md:px-[2.7rem] md:pb-[1.45rem] !rounded-[5px] transition !text-[1.85rem] md:!text-[1.8rem] leading-[.018em] md:leading-[2rem] md:tracking-[.03em]
+                  className={`!w-full md:w-auto mx-auto font-bold pt-[0.8rem] pb-[0.8rem] md:pt-[1.35rem] md:px-[2.72rem] md:pb-[1.39rem] !rounded-[5px] transition !text-[1.85rem] md:!text-[1.8rem] leading-[.018em] md:leading-[2rem] md:tracking-[.029em]
     ${
       card.variant === 'primary'
         ? ` !w-full
