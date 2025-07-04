@@ -81,7 +81,7 @@ export default function Footer({ variant = 'top-links', bottomLinks = [] }: Foot
 
                   <a
                     href={'#'} // fallback to '#'
-                    className="block text-left  md:!tracking-[0.01em] !font-bold hover:underline cursor-pointer text-white !text-[1.2rem] md:!text-[14px]"
+                    className="block text-left  md:!tracking-[0.01em] !font-bold hover:!underline cursor-pointer text-white !text-[1.2rem] md:!text-[14px]"
                     style={{
                       fontFamily: "Arial, 'Helvetica Neue', Helvetica, Verdana, sans-serif",
                     }}
@@ -130,7 +130,9 @@ export default function Footer({ variant = 'top-links', bottomLinks = [] }: Foot
                               fontFamily: "Arial, 'Helvetica Neue', Helvetica, Verdana, sans-serif",
                             }}
                           >
-                            {text}
+                            <a href="#" className="hover:!underline text-white">
+                              {text}
+                            </a>
                           </div>
 
                           {/* Always show divider on mobile, but skip last on desktop */}
