@@ -57,54 +57,79 @@ export default function Footer({ variant = 'top-links', bottomLinks = [] }: Foot
   ];
 
   return (
-    <footer className="bg-[#303030] text-white text-sm font-bold md:!mt-[1.5rem]">
+    <footer className="bg-[#303030] text-white text-sm  md:!mt-[1.5rem]">
       {/* === Top Links Variant (and optional Bottom Grid) === */}
       {variant === 'top-links' && (
-        <div className="bg-[#393a3a]">
-          <div
-            className=" md:max-w-[1160px] md:!py-[2.6rem] md:!px-[0px] mx-auto flex flex-wrap flex-col sm:flex-row 
-            justify-evenly md:justify-evenly md:!gap-0
-            !py-18 !px-8"
-          >
-            {topLinks.map((item, index) => (
-              <div
-                key={index}
-                className="relative md:!py-[2rem] px-4 pb-0 xl:pb-0 sm:text-left text-xl xl:text-[17px]"
-              >
-                <span className="font-newtransport !font-bold hover:underline cursor-pointer md:text-[14px]">
-                  {item}
-                </span>
+        <div className="bg-[#393a3a] ">
+          <div className="md:!max-w-[1160px] md:!px-[2.4rem] md:!pt-[2.4rem] md:!pb-[2.4rem] mx-auto ">
+            <ul className="list-none block w-full !text-left !m-0">
+              {topLinks.map((item, index) => (
+                <li
+                  key={index}
+                  className={`md:inline-block relative !text-left text-xl xl:text-[1px] py-[1.75rem] md:!pt-[1.8rem] md:!pb-[1.8rem] !px-[2.4rem] ${
+                    index === 0
+                      ? '!px-[1.5rem] md:!pr-[1.5rem] md:!pl-0'
+                      : '!px-[1.5rem] md:!px-[1.5rem]'
+                  } ${
+                    index !== topLinks.length - 1 ? 'border-b border-[#424242] sm:border-none' : ''
+                  }`}
+                >
+                  {/* Vertical divider (desktop only) */}
+                  {index !== 0 && (
+                    <span className="hidden md:inline-block absolute left-0 top-1/2 -translate-y-1/2 w-[1.5px] h-[1.5rem] bg-[#424242]" />
+                  )}
 
-                {/* Vertical divider on desktop */}
-                {index !== topLinks.length - 1 && (
-                  <div className="hidden sm:block absolute right-0 top-1/2 -translate-y-1/2 w-[1px] h-[1.1rem] bg-[#424242]" />
-                )}
-
-                {/* Horizontal divider on mobile */}
-                {index !== topLinks.length - 1 && (
-                  <div className="block sm:hidden mt-4 border-t border-gray-600" />
-                )}
-              </div>
-            ))}
+                  <a
+                    href={'#'} // fallback to '#'
+                    className="block text-left  md:!tracking-[0.01em] !font-bold hover:underline cursor-pointer text-white !text-[1.2rem] md:!text-[14px]"
+                    style={{
+                      fontFamily: "Arial, 'Helvetica Neue', Helvetica, Verdana, sans-serif",
+                    }}
+                  >
+                    {item}
+                  </a>
+                </li>
+              ))}
+            </ul>
           </div>
+
           <div className="bg-[#303030]">
-            <div className="md:max-w-[1160px] mx-auto text-center md:!text-right md:!py-[2.2rem] md:!px-[2.4rem] text-[#afafaf] py-10 text-2xl font-normal">
-              © Automobile Association Developments Ltd. 2025
+            {/* Full width border on mobile only */}
+            <div className="block md:hidden w-full h-[1px] bg-[#424242]" />
+
+            {/* Mobile-only padding */}
+            <div className="md:max-w-[1160px] mx-auto md:!tracking-[-0.02em] !text-[14.2px] text-center md:!text-right text-[#afafaf] !py-[1.8rem] !px-[2.4rem] md:!py-[2.2rem] md:!px-[2.4rem]  font-normal">
+              <p
+                className="!m-0"
+                style={{
+                  fontFamily: "Arial, 'Helvetica Neue', Helvetica, Verdana, sans-serif",
+                }}
+              >
+                ©{' '}
+                <span className="!text-[14.6px]">
+                  Automobile Association Developments Ltd. 2025
+                </span>
+              </p>
             </div>
           </div>
 
           {/* Render bottom links only if provided */}
           {bottomLinks.length > 0 && (
-            <div className="bg-[#303030]">
-              <div className="text-white md:!wrapper md:max-w-[1160px] mx-auto md:py-[3rem] md:px-[2rem]">
-                <div className="border-t border-gray-700 mx-0 sm:mx-1 lg:mx-1 mb-4" />
+            <div className="bg-[#303030] ">
+              <div className="text-white md:!wrapper md:max-w-[1160px] mx-auto !py-[2rem] !px-0 md:!py-[3rem] md:!px-[2.4rem]">
+                <div className="" />
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 md:gap-y-12 gap-y-0 gap-x-10 !text-xl md:!text-xl xl:!text-2xl">
+                <div className="border-t-1 border-gray-600 grid grid-cols-1 sm:grid-cols-2  md:grid-cols-4 md:!gap-y-0 gap-y-0 gap-x-10 !text-xl md:!text-xl xl:!text-2xl">
                   {bottomLinks.map((pair, idx) => (
                     <div key={idx}>
                       {pair.map((text, i) => (
-                        <div key={i} className="mb-0 md:mb-2">
-                          <div className="font-bold uppercase pl-4 md:pl-0 md:px-0 md:mb-4 my-4">
+                        <div key={i} className="">
+                          <div
+                            className=" font-bold uppercase !text-[14px] md:!tracking-[0.01em] !p-[2rem] md:pl-0 md:!px-0  md:!py-[1.74rem]"
+                            style={{
+                              fontFamily: "Arial, 'Helvetica Neue', Helvetica, Verdana, sans-serif",
+                            }}
+                          >
                             {text}
                           </div>
 
