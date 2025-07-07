@@ -6,9 +6,9 @@ export default function BeamHeader() {
           <a
             href="/"
             title="Beam | Home"
-            className="md:!mt-[10px] relative left-[14px] top-[1px] inline-block font-newtransport !font-regular"
+            className="md:!mt-[26px] relative left-[8px] top-[2px] inline-block font-newtransport !font-regular"
           >
-            <span className="svg-desktop md:px-[6px] md:py-[4px] font-newtransport !font-regular">
+            <span className="hidden md:block svg-desktop md:px-[6px] md:py-[4px] font-newtransport !font-regular">
               <svg width="271" height="32" viewBox="0 0 271 32" xmlns="http://www.w3.org/2000/svg">
                 <g fill="#2B2929" fill-rule="evenodd">
                   <text className="font-newtransport !font-light text-[16px]">
@@ -26,7 +26,7 @@ export default function BeamHeader() {
                 </g>
               </svg>
             </span>
-            <span className="svg-mobile md:hidden">
+            <span className="svg-mobile block md:hidden">
               <svg width="162" height="16" viewBox="0 0 162 16" xmlns="http://www.w3.org/2000/svg">
                 <g fill="#2B2929" fill-rule="evenodd">
                   <text
@@ -60,12 +60,12 @@ export default function BeamHeader() {
             </span>
           </a>
         </div>
-        <div className="mobile-tablet-menu md:hidden">
+        <div className="block md:hidden">
           <span className="menu">Menu</span>{' '}
         </div>
 
         <div className="main-nav">
-          <div className="cf nav-logo md:hidden">
+          <div className="cf nav-logo block md:hidden">
             <div className="left menu-logo">
               <a href="/" title="Beam | Home">
                 <svg
