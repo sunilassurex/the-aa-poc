@@ -57,7 +57,7 @@ export default function Footer({ variant = 'top-links', bottomLinks = [] }: Foot
   ];
 
   return (
-    <div className="md:pt-[1.5rem]">
+    <div className="md:py-[1.5rem]">
       <footer className="bg-[#303030] text-white text-sm ">
         {/* === Top Links Variant (and optional Bottom Grid) === */}
         {variant === 'top-links' && (
