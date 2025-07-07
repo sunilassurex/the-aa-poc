@@ -57,7 +57,7 @@ export default function PromoGrid({ variant = 'cards' }: PromoGridProps) {
               <h2 className="md:!text-[2.4rem] md:leading-[3.2rem] md:text-[#1d1d1d] md:!tracking-[-.025em] !text-[1.9rem] leading-[2.4rem] !mt-[25px] !mb-[1.25rem] md:mt-0 font-newtransport !font-bold md:!mb-[2.4rem]">
                 Looking for your next car?
               </h2>
-              <p className="!font-normal text-[#1d1d1d] tracking-[.025em] !mb-[2.4rem]  md:!mb-[2.35rem] md:!text-[1.6rem] !text-[1.8rem] !leading-[2.5rem] md:!leading-[2.2rem]  font-newtransport !font-regular">
+              <p className="!font-normal text-[#1d1d1d] tracking-[.025em] !mb-[2.4rem]  md:!mb-[2.35rem] md:!text-[1.6rem] !text-[1.8rem] !leading-[2.5rem] md:!leading-[2.195rem]  font-newtransport !font-regular">
                 Interested in leasing a brand-new car with the latest tech? Prefer to buy a
                 second-hand one with the confidence that it comes with free breakdown cover and a
                 history check? With more than 100,000 cars to choose from, we’ve got you covered.
@@ -72,7 +72,7 @@ export default function PromoGrid({ variant = 'cards' }: PromoGridProps) {
                 {buttons.map((btn, index) => (
                   <button
                     key={index}
-                    className={`md:w-auto w-full md:!min-w-[12rem] font-semibold !px-[2rem] !py-[0.85rem] !tracking-[0.01em] md:!tracking-[.03em] md:!pt-[1.2rem] md:!px-[2.66rem] md:!pb-[1.4rem] !rounded-[5px] transition !text-[1.83rem] md:!text-[1.8rem] leading-[.018em] md:!leading-[2.1rem]  ${
+                    className={`md:w-auto w-full md:!min-w-[12rem] font-semibold !px-[2rem] !py-[0.85rem] !tracking-[0.01em] md:!tracking-[.03em] md:!pt-[1.2rem] md:!px-[2.69rem] md:!pb-[1.4rem] !rounded-[5px] transition !text-[1.83rem] md:!text-[1.8rem] leading-[.018em] md:!leading-[2.16rem]  ${
                       btn.variant === 'primary'
                         ? ' bg-gradient-to-b from-[#3d3d3d] md:!ml-[2.8rem]  to-[#161616] text-white border !border-[#151515] !shadow-[inset_0_1px_1px_rgba(255,255,255,0.7),_0_0_10px_rgba(0,0,0,0.2)] hover:bg-none hover:!bg-[#3d3d3d]'
                         : 'font-newtransport md:!px-[3rem] md:!mr-[2.8rem] md:!pt-[1.2rem] md:!pb-[1.35rem] !font-bold text-[#1d1d1d] bg-transparent rounded border-[0.2rem] border-[#1d1d1d] md:!text-[1.8rem]  hover:!bg-[#dcddde]'
