@@ -1,13 +1,30 @@
+'use client';
+
+import { useState } from 'react';
+import Link from 'next/link';
+
 export default function BeamHeader() {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const navItems = [
+    { label: 'Car insurance', href: '/car-insurance' },
+    { label: 'Claims', href: '/car-insurance/claims' },
+    { label: 'Manage your policy', href: '/car-insurance/existing-customers' },
+    { label: 'Contact us', href: '/contact-us' },
+    { label: 'Contact us', href: '/contact-us' },
+  ];
+
   return (
-    <header id="beam-header" className="md:h-[95px] bg-[#fff] block">
-      <div className="wrapper block">
+    <header id="beam-header" className="md:h-[95px] h-[64px] bg-white block">
+      <div className="md:wrapper block relative px-[10px]">
+        {/* Logo Block */}
         <div className="float-left">
-          <a
+          <Link
             href="/"
             title="Beam | Home"
-            className="md:!mt-[26px] relative left-[8px] top-[2px] inline-block font-newtransport !font-regular"
+            className="md:!mt-[26px] mt-[20px] relative md:left-[8px] md:top-[2px] left-[6px] top-[0px] inline-block font-newtransport !font-regular"
           >
+            {/* Desktop Logo */}
             <span className="hidden md:block svg-desktop md:px-[6px] md:py-[4px] font-newtransport !font-regular">
               <svg width="271" height="32" viewBox="0 0 271 32" xmlns="http://www.w3.org/2000/svg">
                 <g fill="#2B2929" fill-rule="evenodd">
@@ -26,15 +43,17 @@ export default function BeamHeader() {
                 </g>
               </svg>
             </span>
-            <span className="svg-mobile block md:hidden">
+            {/* Mobile Logo */}
+            <span className="svg-mobile px-[6px] py-[4px] block md:hidden">
               <svg width="162" height="16" viewBox="0 0 162 16" xmlns="http://www.w3.org/2000/svg">
                 <g fill="#2B2929" fill-rule="evenodd">
                   <text
                     font-family="NewTransport-Light, Arial, Helvetica, Verdana, sans-serif"
                     font-size="12"
                     font-weight="300"
+                    className="!text-[12px] font-newtransport !font-light"
                   >
-                    <tspan x="84" y="13">
+                    <tspan x="84" y="13" className="!text-[12px] font-newtransport !font-light">
                       FROM THE
                     </tspan>
                     <tspan
@@ -50,6 +69,7 @@ export default function BeamHeader() {
                       y="13"
                       font-family="NewTransport-Bold, Arial, Helvetica, Verdana, sans-serif"
                       font-weight="bold"
+                      className="text-[12px] font-newtransport !font-bold"
                     >
                       AA
                     </tspan>
@@ -58,16 +78,41 @@ export default function BeamHeader() {
                 </g>
               </svg>
             </span>
-          </a>
-        </div>
-        <div className="block md:hidden">
-          <span className="menu">Menu</span>{' '}
+          </Link>
         </div>
 
-        <div className="main-nav">
-          <div className="cf nav-logo block md:hidden">
-            <div className="left menu-logo">
-              <a href="/" title="Beam | Home">
+        {/* Mobile Menu Button */}
+        <div className="block md:hidden float-right pr-4 pt-1 md:mt-[22px] md:mr-[6px] tracking-[0.25px] mt-[18px] mr-[-4px]">
+          <button
+            onClick={() => setIsMobileMenuOpen(true)}
+            className="text-[#2b2d32] font-newtransport !font-bold !text-[16px]"
+          >
+            Menu
+          </button>
+        </div>
+
+        {/* Desktop Navigation (unchanged layout) */}
+        <div className="hidden md:block main-nav">
+          <ul className="float-right md:h-[95px] flex flex-nowrap m-0 p-0">
+            {navItems.map(({ label, href }) => (
+              <li key={label} className="relative md:pl-[0px] md:pr-[0px]">
+                <Link
+                  href={href}
+                  className="border-2 border-transparent whitespace-nowrap block md:!text-[18px] !leading-[1.33px] text-[#2b2d32] md:!py-[45px] md:!px-[12px] font-newtransport !font-normal hover:!no-underline"
+                >
+                  {label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        {/* Mobile Menu Dropdown */}
+        {isMobileMenuOpen && (
+          <div className="fixed inset-0 bg-white z-50 md:hidden overflow-auto">
+            {/* Top Row: Logo + Close */}
+            <div className="flex justify-between items-center px-4 py-3 border-b border-[#dcddde]">
+              <Link href="/">
                 <svg
                   width="162"
                   height="16"
@@ -103,50 +148,36 @@ export default function BeamHeader() {
                     <path d="M9.984 7.383c1.265-.64 2.024-1.966 2.024-3.2C12.008 1.646 9.777 0 6.97 0H0v16h7.016c3.59 0 5.706-2.034 5.706-4.732 0-2.422-1.68-3.52-2.738-3.885zM3.29 2.789h3.013c1.45 0 2.324.777 2.324 1.85 0 1.053-.874 1.83-2.324 1.83H3.29v-3.68zm3.29 10.445H3.29V9.097h3.267c1.61 0 2.76.686 2.76 2.08 0 1.28-1.035 2.057-2.738 2.057zM15.665 0v16h11.387v-2.903h-8.097v-3.84h6.465V6.468h-6.465V2.926h7.868V0zM34.007 0l-5.084 16h3.497l.943-3.246h5.682L39.99 16h3.68L38.586 0h-4.578zm2.186 3.108h.046l2.024 6.995h-4.117l2.047-6.995zM58.271 5.5l.005 10.5H53.56L48.54 5.5l.005 10.5h-3.19V0h4.271l5.46 11.461V0h4.272L67 16h-3.709zM75 0h1v16h-1z"></path>
                   </g>
                 </svg>
-              </a>
+              </Link>
+              <button
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="text-[#2b2d32] font-bold text-[16px]"
+              >
+                Close <span className="text-xl align-middle">&times;</span>
+              </button>
             </div>
-            <div className="mobile-tablet-menu-open">
-              <span className="close">Close</span>
-            </div>
-          </div>
 
-          <div id="mainNavigation">
-            <ul className="float-right md:h-[95px] flex flex-nowrap md:m-[0px] md:p-[0px]">
-              <li className="relative md:pl-[0px] md:pr-[0px] leading-[2.1rem]">
-                <a
-                  href="/car-insurance"
-                  className="border-2 border-transparent whitespace-nowrap block md:!text-[18px] !leading-[1.33px] text-[#2b2d32] md:!py-[45px] md:!px-[12px] font-newtransport !font-normal hover:!no-underline "
+            {/* Mobile Nav Links */}
+            <div className="px-4 pb-4">
+              {navItems.map(({ label, href }, idx) => (
+                <div
+                  key={label}
+                  className={`py-3 ${
+                    idx !== navItems.length - 1 ? 'border-b border-[#dcddde]' : ''
+                  }`}
                 >
-                  Car insurance
-                </a>
-              </li>
-              <li className="relative md:pl-[0px] md:pr-[0px]  ">
-                <a
-                  href="/car-insurance/claims"
-                  className="border-2 border-transparent whitespace-nowrap block md:!text-[18px] !leading-[1.33px] text-[#2b2d32] md:!py-[45px] md:!px-[12px] font-newtransport !font-normal hover:!no-underline "
-                >
-                  Claims
-                </a>
-              </li>
-              <li className="relative md:pl-[0px] md:pr-[0px]  ">
-                <a
-                  href="/car-insurance/existing-customers"
-                  className="border-2 border-transparent whitespace-nowrap block md:!text-[18px] !leading-[1.33px] text-[#2b2d32] md:!py-[45px] md:!px-[12px] font-newtransport !font-normal hover:!no-underline "
-                >
-                  Manage your policy
-                </a>
-              </li>
-              <li className="relative md:pl-[0px] md:pr-[0px]  ">
-                <a
-                  href="/contact-us"
-                  className="border-2 border-transparent whitespace-nowrap block md:!text-[18px] !leading-[1.33px] text-[#2b2d32] md:!py-[45px] md:!px-[12px] font-newtransport !font-normal hover:!no-underline "
-                >
-                  Contact us
-                </a>
-              </li>
-            </ul>
+                  <Link
+                    href={href}
+                    className="block text-[#2b2d32] font-newtransport font-normal text-[16px]"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    {label}
+                  </Link>
+                </div>
+              ))}
+            </div>
           </div>
-        </div>
+        )}
       </div>
     </header>
   );
