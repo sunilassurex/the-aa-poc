@@ -16,7 +16,7 @@ export default function BeamHeader() {
 
   return (
     <header id="beam-header" className="md:h-[95px] h-[64px] bg-white block">
-      <div className="md:wrapper block relative px-[10px]">
+      <div className="md:max-w-[116rem] md:!mx-auto md:px-[2rem] block relative px-[10px]">
         {/* Logo Block */}
         <div className="float-left">
           <Link
@@ -47,30 +47,14 @@ export default function BeamHeader() {
             <span className="svg-mobile px-[6px] py-[4px] block md:hidden">
               <svg width="162" height="16" viewBox="0 0 162 16" xmlns="http://www.w3.org/2000/svg">
                 <g fill="#2B2929" fill-rule="evenodd">
-                  <text
-                    font-family="NewTransport-Light, Arial, Helvetica, Verdana, sans-serif"
-                    font-size="12"
-                    font-weight="300"
-                    className="!text-[12px] font-newtransport !font-light"
-                  >
+                  <text className="!text-[12px] font-newtransport !font-light">
                     <tspan x="84" y="13" className="!text-[12px] font-newtransport !font-light">
                       FROM THE
                     </tspan>
-                    <tspan
-                      x="142.944"
-                      y="13"
-                      font-family="NewTransport-Regular, Arial, Helvetica, Verdana, sans-serif"
-                      font-weight="normal"
-                    >
+                    <tspan x="142.944" y="13">
                       {' '}
                     </tspan>
-                    <tspan
-                      x="145.827"
-                      y="13"
-                      font-family="NewTransport-Bold, Arial, Helvetica, Verdana, sans-serif"
-                      font-weight="bold"
-                      className="text-[12px] font-newtransport !font-bold"
-                    >
+                    <tspan x="145.827" y="13" className="text-[12px] font-newtransport !font-bold">
                       AA
                     </tspan>
                   </text>
@@ -111,7 +95,7 @@ export default function BeamHeader() {
         {isMobileMenuOpen && (
           <div className="fixed inset-0 bg-white z-50 md:hidden overflow-auto">
             {/* Top Row: Logo + Close */}
-            <div className="flex justify-between items-center px-4 py-3 border-b border-[#dcddde]">
+            <div className="flex justify-between items-center pl-[16px] pb-[16px] mt-[23px] !mx-auto">
               <Link href="/">
                 <svg
                   width="162"
@@ -120,20 +104,11 @@ export default function BeamHeader() {
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <g fill="#2B2929" fill-rule="evenodd">
-                    <text
-                      font-family="NewTransport-Light, Arial, Helvetica, Verdana, sans-serif"
-                      font-size="12"
-                      font-weight="300"
-                    >
+                    <text className="!text-[12px] font-newtransport !font-light">
                       <tspan x="84" y="13">
                         FROM THE
                       </tspan>
-                      <tspan
-                        x="142.944"
-                        y="13"
-                        font-family="NewTransport-Regular, Arial, Helvetica, Verdana, sans-serif"
-                        font-weight="normal"
-                      >
+                      <tspan x="142.944" y="13">
                         {' '}
                       </tspan>
                       <tspan
@@ -141,6 +116,7 @@ export default function BeamHeader() {
                         y="13"
                         font-family="NewTransport-Bold, Arial, Helvetica, Verdana, sans-serif"
                         font-weight="bold"
+                        className="!text-[12px] font-newtransport !font-bold"
                       >
                         AA
                       </tspan>
@@ -151,24 +127,31 @@ export default function BeamHeader() {
               </Link>
               <button
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="text-[#2b2d32] font-bold text-[16px]"
+                className="text-[#2b2d32] font-bold !text-[16px] leading-[20px] tracking-[0.25px] font-newtransport !font-bold"
               >
-                Close <span className="text-xl align-middle">&times;</span>
+                <span className="relative right-[44px] top-[-2px]">Close</span>
+                <span
+                  className="
+      absolute right-[0px] top-[25px] !mr-[16px] w-[24px] h-[24px]
+      after:content-[''] after:absolute after:inset-0
+      after:[background-image:url(/close-icon.webp)]
+      after:bg-no-repeat after:bg-right-top after:[background-size:16px]
+    "
+                ></span>
               </button>
             </div>
 
             {/* Mobile Nav Links */}
-            <div className="px-4 pb-4">
-              {navItems.map(({ label, href }, idx) => (
+            <div className="px-4 pb-4 relative top-[4px] left-[1px]">
+              {navItems.map(({ label, href }) => (
                 <div
                   key={label}
-                  className={`py-3 ${
-                    idx !== navItems.length - 1 ? 'border-b border-[#dcddde]' : ''
+                  className={`py-[18px] border-t-[1px] !border-t-[#dcddde] border-solid'
                   }`}
                 >
                   <Link
                     href={href}
-                    className="block text-[#2b2d32] font-newtransport font-normal text-[16px]"
+                    className="block text-[#2b2d32] font-newtransport !font-bold text-[16px] leading-[20px] tracking-[0.25px]"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     {label}
