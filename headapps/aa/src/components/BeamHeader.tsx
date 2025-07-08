@@ -34,7 +34,13 @@ export default function BeamHeader() {
                     <tspan x="245.592" y="22" className="font-newtransport !font-normal">
                       {' '}
                     </tspan>
-                    <tspan x="249.436" y="22" className="font-newtransport !font-bold">
+                    <tspan
+                      x="249.436"
+                      y="22"
+                      fontWeight="bold"
+                      fontFamily="NewTransport-Bold, Arial, Helvetica, sans-serif"
+                      className="font-newtransport !font-bold"
+                    >
                       AA
                     </tspan>
                   </text>
@@ -81,10 +87,11 @@ export default function BeamHeader() {
               <li key={label} className="relative  md:pl-[0px] md:pr-[0px]">
                 <Link
                   href={href}
-                  className="border-2 group border-transparent whitespace-nowrap block md:!text-[18px] !leading-[1.33px] text-[#2b2d32] md:!py-[45px] md:!px-[12px] font-newtransport !font-normal hover:!no-underline"
+                  className="group border-2 border-transparent whitespace-nowrap block md:!text-[18px] !leading-[1.33px] text-[#2b2d32] md:!py-[45px] md:!px-[12px] font-newtransport !font-normal hover:!no-underline"
                 >
-                  {label}
-                  <span className=" absolute left-0 bottom-0 w-full h-[4px] top-[91px] bg-[#1d1d1d] opacity-0 group-hover:!opacity-100 transition-opacity  z-0" />
+                  <span className="relative inline-block after:absolute after:top-[45px] after:left-1/2 after:-translate-x-1/2 after:h-[4px] after:bg-[#1d1d1d] after:w-0 after:opacity-0 group-hover:after:opacity-100 group-hover:after:w-full after:transition-all after:duration-300">
+                    {label}
+                  </span>
                 </Link>
               </li>
             ))}
