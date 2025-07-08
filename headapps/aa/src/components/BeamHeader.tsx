@@ -11,7 +11,6 @@ export default function BeamHeader() {
     { label: 'Claims', href: '/car-insurance/claims' },
     { label: 'Manage your policy', href: '/car-insurance/existing-customers' },
     { label: 'Contact us', href: '/contact-us' },
-    { label: 'Contact us', href: '/contact-us' },
   ];
 
   return (
@@ -79,12 +78,13 @@ export default function BeamHeader() {
         <div className="hidden md:block main-nav">
           <ul className="float-right md:h-[95px] flex flex-nowrap m-0 p-0">
             {navItems.map(({ label, href }) => (
-              <li key={label} className="relative md:pl-[0px] md:pr-[0px]">
+              <li key={label} className="relative  md:pl-[0px] md:pr-[0px]">
                 <Link
                   href={href}
-                  className="border-2 border-transparent whitespace-nowrap block md:!text-[18px] !leading-[1.33px] text-[#2b2d32] md:!py-[45px] md:!px-[12px] font-newtransport !font-normal hover:!no-underline"
+                  className="border-2 group border-transparent whitespace-nowrap block md:!text-[18px] !leading-[1.33px] text-[#2b2d32] md:!py-[45px] md:!px-[12px] font-newtransport !font-normal hover:!no-underline"
                 >
                   {label}
+                  <span className=" absolute left-0 bottom-0 w-full h-[4px] top-[91px] bg-[#1d1d1d] opacity-0 group-hover:!opacity-100 transition-opacity  z-0" />
                 </Link>
               </li>
             ))}
