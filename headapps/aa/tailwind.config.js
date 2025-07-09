@@ -10,6 +10,7 @@ module.exports = {
       fontFamily: {
         newtransport: ['NewTransport', 'sans-serif'],
         aasans: ['AA-Sans', 'sans-serif'],
+        Arials: ['NewTransport-Bold', 'Arial', 'Helvetica', 'Verdana', 'sans-serif'],
       },
     },
   },

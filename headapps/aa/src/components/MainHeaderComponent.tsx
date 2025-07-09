@@ -340,7 +340,7 @@ export default function Navbar() {
             mobileOpen ? '!translate-x-0' : '!-translate-x-full'
           }`}
         >
-          <div className="flex justify-between items-center pl-[16px] pb-[21px]">
+          <div className="flex justify-between items-center pl-[16px] pb-[22px]">
             <img src="/AA-logo.svg" className="h-8 m-0" alt="AA Logo" />
             <button
               onClick={() => {
@@ -422,7 +422,7 @@ export default function Navbar() {
               </li>
             </ul>
           ) : (
-            <div className="border-t border-[#a7a9ac] bg-white">
+            <div className="border-t border-[#a7a9ac] bg-white relative mt-[-1px]">
               <ul className="!mx-[16px] -mt-[1px]">
                 <li className="pb-[16px] pt-[7px] relative left-[-6px] top-[-1px] pl-0">
                   <button
