@@ -87,7 +87,7 @@ export default function BeamHeader() {
                   href={href}
                   className="group border-2 border-transparent whitespace-nowrap block md:!text-[18px] !leading-[1.33px] text-[#2b2d32] md:!py-[45px] md:!px-[12px] font-newtransport !font-normal hover:!no-underline"
                 >
-                  <span className="relative inline-block after:absolute after:top-[45px] after:left-1/2 after:-translate-x-1/2 after:h-[4px] after:bg-[#1d1d1d] after:w-0 after:opacity-0 group-hover:after:opacity-100 group-hover:after:w-full after:transition-all after:duration-300">
+                  <span className="relative inline-block after:absolute after:top-[44px] after:left-1/2 after:-translate-x-1/2 after:h-[4px] after:bg-[#1d1d1d] after:w-0 after:opacity-0 group-hover:after:opacity-100 group-hover:after:w-full after:transition-all after:duration-300">
                     {label}
                   </span>
                 </Link>
