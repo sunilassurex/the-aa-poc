@@ -57,7 +57,9 @@ export default function SafetyAdvice() {
       <div className="bg-white ">
         <div className=" md:max-w-[93rem]  mx-auto md:pt-[2.5rem] md:pb-[1rem] ">
           <div className="md:w-[61.5rem] px-[1.5rem] md:px-0 py-[2.7rem] md:py-0">
-            <h2 className="!text-[22px] !font-aasans  !font-bold md:!mb-[2.8rem] !mb-[2.6rem]">Safety advice</h2>
+            <h2 className="!text-[22px] !font-aasans  !font-bold md:!mb-[2.8rem] !mb-[2.6rem]">
+              Safety advice
+            </h2>
 
             <div className="ml-[-7px]">
               {safetyTips.map((item, idx) => (
