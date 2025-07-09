@@ -59,6 +59,7 @@ export default function Toggle({ initiallyOpen = true }: ToggleProps) {
           />
         </div>
       </div>
+
       {/* Content Box */}
       {isOpen && (
         <div className="md:mb-[2rem]">
