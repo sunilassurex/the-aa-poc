@@ -1,5 +1,3 @@
-'use client';
-
 import { useState } from 'react';
 import Link from 'next/link';
 
@@ -80,7 +78,7 @@ export default function BeamHeader() {
           </button>
         </div>
 
-        {/* Desktop Navigation (unchanged layout) */}
+        {/* Desktop Navigation */}
         <div className="hidden md:block main-nav">
           <ul className="float-right md:h-[95px] flex flex-nowrap m-0 p-0">
             {navItems.map(({ label, href }) => (
@@ -101,7 +99,6 @@ export default function BeamHeader() {
         {/* Mobile Menu Dropdown */}
         {isMobileMenuOpen && (
           <div className="fixed inset-0 bg-white z-50 md:hidden overflow-auto">
-            {/* Top Row: Logo + Close */}
             <div className="flex justify-between items-center pl-[16px] pb-[16px] mt-[23px] !mx-auto">
               <Link href="/">
                 <svg
@@ -137,14 +134,7 @@ export default function BeamHeader() {
                 className="text-[#2b2d32] font-bold !text-[16px] leading-[20px] tracking-[0.25px] font-newtransport !font-bold"
               >
                 <span className="relative right-[44px] top-[-2px]">Close</span>
-                <span
-                  className="
-      absolute right-[0px] top-[25px] !mr-[16px] w-[24px] h-[24px]
-      after:content-[''] after:absolute after:inset-0
-      after:[background-image:url(/close-icon.webp)]
-      after:bg-no-repeat after:bg-right-top after:[background-size:16px]
-    "
-                ></span>
+                <span className="absolute right-[0px] top-[25px] !mr-[16px] w-[24px] h-[24px] after:content-[''] after:absolute after:inset-0 after:[background-image:url(/close-icon.webp)] after:bg-no-repeat after:bg-right-top after:[background-size:16px]"></span>
               </button>
             </div>
 
