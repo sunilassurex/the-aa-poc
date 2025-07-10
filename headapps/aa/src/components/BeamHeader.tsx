@@ -12,17 +12,17 @@ export default function BeamHeader() {
   ];
 
   return (
-    <header id="beam-header" className="md:h-[95px] h-[64px] bg-white block">
-      <div className="md:max-w-[116rem] md:!mx-auto md:px-[2rem] block relative px-[10px]">
+    <header id="beam-header" className="xl:h-[95px] h-[64px] bg-white block">
+      <div className="xl:max-w-[116rem] xl:!mx-auto xl:px-[2rem] block relative px-[10px]">
         {/* Logo Block */}
         <div className="float-left">
           <Link
             href="/"
             title="Beam | Home"
-            className="md:!mt-[26px] mt-[20px] relative md:left-[8px] md:top-[2px] left-[6px] top-[0px] inline-block font-newtransport !font-regular"
+            className="xl:!mt-[26px] mt-[20px] relative xl:left-[8px] xl:top-[2px] left-[6px] top-[0px] inline-block font-newtransport !font-regular"
           >
             {/* Desktop Logo */}
-            <span className="hidden md:block svg-desktop md:px-[6px] md:py-[4px] font-newtransport !font-regular">
+            <span className="hidden xl:block svg-desktop xl:px-[6px] xl:py-[4px] font-newtransport !font-regular">
               <svg width="271" height="32" viewBox="0 0 271 32" xmlns="http://www.w3.org/2000/svg">
                 <g fill="#2B2929" fill-rule="evenodd">
                   <text className="font-newtransport !font-light text-[16px]">
@@ -47,7 +47,7 @@ export default function BeamHeader() {
               </svg>
             </span>
             {/* Mobile Logo */}
-            <span className="svg-mobile px-[6px] py-[4px] block md:hidden">
+            <span className="svg-mobile px-[6px] py-[4px] block xl:hidden">
               <svg width="162" height="16" viewBox="0 0 162 16" xmlns="http://www.w3.org/2000/svg">
                 <g fill="#2B2929" fill-rule="evenodd">
                   <text className="!text-[12px] font-newtransport !font-light">
@@ -69,7 +69,7 @@ export default function BeamHeader() {
         </div>
 
         {/* Mobile Menu Button */}
-        <div className="block md:hidden float-right pr-4 pt-1 md:mt-[22px] md:mr-[6px] tracking-[0.25px] mt-[18px] mr-[-4px]">
+        <div className="block xl:hidden float-right pr-4 pt-1 xl:mt-[22px] xl:mr-[6px] tracking-[0.25px] mt-[18px] mr-[-4px]">
           <button
             onClick={() => setIsMobileMenuOpen(true)}
             className="text-[#2b2d32] font-newtransport !font-bold !text-[16px]"
@@ -79,13 +79,13 @@ export default function BeamHeader() {
         </div>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:block main-nav">
-          <ul className="float-right md:h-[95px] flex flex-nowrap m-0 p-0">
+        <div className="hidden xl:block main-nav">
+          <ul className="float-right xl:h-[95px] flex flex-nowrap m-0 p-0">
             {navItems.map(({ label, href }) => (
-              <li key={label} className="relative  md:pl-[0px] md:pr-[0px]">
+              <li key={label} className="relative  xl:pl-[0px] xl:pr-[0px]">
                 <Link
                   href={href}
-                  className="group border-2 border-transparent whitespace-nowrap block md:!text-[18px] !leading-[1.33px] text-[#2b2d32] md:!py-[45px] md:!px-[12px] font-newtransport !font-normal hover:!no-underline"
+                  className="group border-2 border-transparent whitespace-nowrap block xl:!text-[18px] !leading-[1.33px] text-[#2b2d32] xl:!py-[45px] xl:!px-[12px] font-newtransport !font-normal hover:!no-underline"
                 >
                   <span className="relative inline-block after:absolute after:top-[44px] after:left-1/2 after:-translate-x-1/2 after:h-[4px] after:bg-[#1d1d1d] after:w-0 after:opacity-0 group-hover:after:opacity-100 group-hover:after:w-full after:transition-all after:duration-300">
                     {label}
@@ -98,7 +98,7 @@ export default function BeamHeader() {
 
         {/* Mobile Menu Dropdown */}
         {isMobileMenuOpen && (
-          <div className="fixed inset-0 bg-white z-50 md:hidden overflow-auto">
+          <div className="fixed inset-0 bg-white z-50 xl:hidden overflow-auto">
             <div className="flex justify-between items-center pl-[16px] pb-[16px] mt-[23px] !mx-auto">
               <Link href="/">
                 <svg
