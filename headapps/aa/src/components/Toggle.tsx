@@ -28,17 +28,20 @@ export default function Toggle({ initiallyOpen = true }: ToggleProps) {
   };
 
   return (
-    <div className="w-full max-w-[1160px] mx-auto md:!px-[2rem] md:py-[1.5rem]" ref={containerRef}>
+    <div
+      className="w-full max-w-[1160px] mx-auto py-[1rem] md:!px-[2rem] md:py-[1.5rem]"
+      ref={containerRef}
+    >
       <div
         onClick={handleToggle}
         role="button"
         tabIndex={0}
         onKeyDown={(e) => (e.key === 'Enter' || e.key === ' ') && handleToggle()}
-        className="cursor-pointer bg-white md:!mb-[1.5rem] md:!py-[1.4rem] md:!px-[9.5rem] !px-8 !py-5 flex justify-between items-center focus:outline-none shadow-[0_5px_10px_rgba(192,195,195,0.2)] h-[50px]"
+        className="cursor-pointer bg-white mb-[1.4rem] md:!mb-[1.5rem] md:!py-[1.5rem] md:!px-[9.5rem] !px-[2.5rem] !py-[1.2rem] flex justify-between items-center focus:outline-none shadow-[0_5px_10px_rgba(192,195,195,0.2)] h-[50px] md:h-[50px]"
       >
         {/* Left-aligned label */}
         <span
-          className={`block bg-white cursor-pointer relative mt-0 py-[1.4rem] text-[1.6rem] leading-[2.2rem] tracking-[0.025em] font-newtransport !font-bold h-[50px] ${
+          className={`block bg-white cursor-pointer relative mt-0 py-[1.4rem] md:py-[1.4rem] text-[1.8rem] md:text-[1.6rem] leading-[2.2rem] tracking-[0.025em] font-newtransport !font-bold h-[50px] ${
             isActive ? 'underline decoration-1 underline-offset-[0.5px]' : ''
           }`}
         >
@@ -50,18 +53,17 @@ export default function Toggle({ initiallyOpen = true }: ToggleProps) {
           <img
             src="/accordion-arrow-down.png"
             alt="Toggle arrow"
-            className={`!w-[16px] !h-[11px] relative right-[1px] transition-transform duration-300 ${
+            className={`md:!w-[16px] md:!h-[11px] !w-[9px] !h-[10px] relative right-[1px] transition-transform duration-300 ${
               isOpen ? 'rotate-180' : 'rotate-0'
             }`}
           />
         </div>
       </div>
-
       {/* Content Box */}
       {isOpen && (
         <div className="md:mb-[2rem]">
-          <div className="bg-white border border-gray-300 md:py-[3rem] md:px-[9.5rem] text-[14px] md:text-[16px] text-gray-800 ">
-            <div className="md:!mb-[0px] md:!text-[14px] md:!leading-[21px] ">
+          <div className="bg-white border shadow-[0_5px_10px_rgba(192,195,195,0.2)] border-gray-300 md:py-[3rem] px-[2.5rem] py-[3rem] md:mx-0 mx-[1rem] md:px-[9.5rem] text-[14px] md:text-[16px] text-gray-800 ">
+            <div className="md:!mb-[0px] md:!text-[14px] text-[1.4rem] !leading-[2.195rem] md:!leading-[21px] ">
               {/* <sup>†</sup>
             Source: AA Annual Report &amp; Accounts 2024 (c. 2,800 patrols) and Annual Report &amp;
             Financial Statements 2023 (1,600 patrols). Verify at{' '}
