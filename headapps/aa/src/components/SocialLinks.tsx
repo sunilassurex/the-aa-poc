@@ -1,4 +1,15 @@
-const socialIcons = [
+type SocialIcon = {
+  href: string;
+  src: string;
+  alt: string;
+  title: string;
+};
+
+type SocialLinksProps = {
+  socialIcons?: SocialIcon[];
+};
+
+const defaultSocialIcons: SocialIcon[] = [
   {
     href: 'http://twitter.com/TheAA_uk',
     src: '/x-svg-24-demo.svg',
@@ -19,7 +30,7 @@ const socialIcons = [
   },
 ];
 
-export default function SocialLinks() {
+export default function SocialLinks({ socialIcons = defaultSocialIcons }: SocialLinksProps) {
   return (
     <div className="md:py-[1.5rem] py-[1rem]">
       <div>
