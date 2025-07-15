@@ -211,6 +211,7 @@ a, a:visited {
         margin-bottom: 24px;
         margin-bottom: 2.4rem !important;
         font-size: 14px;
+        font-family: Arial,'Helvetica Neue',Helvetica,Verdana,sans-serif !important;
     }
     a, a:visited {
     color: #07818c;
@@ -243,3 +244,10 @@ a, a:visited {
     }
  }
  }
+
+ @media screen and (max-width: 880px) {
+    .wrapper {
+        max-width: 74.6rem;
+        padding: 0 1.1rem;
+    }
+}
