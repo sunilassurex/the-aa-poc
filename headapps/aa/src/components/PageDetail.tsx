@@ -8,7 +8,7 @@ export default function PageDetail({ title, headline, description }: PageDetailP
   return (
     <section className="text-center max-w-[1160px] mx-auto md:px-[2rem] px-[1rem]">
       <div className="md:py-[1.4rem] py-[1rem] px-[2rem] md:px-0">
-        <h1 className="xl:!text-[1.39rem] !text-[1.2rem] !tracking-[0.05em] !font-light xl:!leading-[2.2rem] leading-[1.5rem] text-gray-700 md:pt-[1.9rem] pt-[1.5rem] md:!mb-[1.3rem] xl:!mb-[1.6rem] !mb-[1.6rem]">
+        <h1 className="xl:!text-[1.39rem] !text-[1.2rem] !tracking-[0.05em] !font-light xl:!leading-[2.2rem] leading-[1.5rem] text-gray-700 xl:pt-[2rem] md:pt-[1.9rem] pt-[1.5rem] md:!mb-[1.3rem] xl:!mb-[1.6rem] !mb-[1.6rem]">
           {title}
         </h1>
 
