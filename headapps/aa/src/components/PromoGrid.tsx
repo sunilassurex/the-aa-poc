@@ -48,7 +48,7 @@ export default function PromoGrid({
     return (
       <>
         <div className="bg-gray-100 space-y-10 !py-[1rem] md:!py-[0rem]">
-          <div className="wrapper !px-[1rem]">
+          <div className="wrapper !px-[1rem] md:!px-[2rem]">
             {promoCards.map((card, index) => (
               <>
                 {card.showOn === Constant.CARDS.FIRST ? (
