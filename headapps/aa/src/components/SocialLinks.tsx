@@ -32,7 +32,7 @@ const defaultSocialIcons: SocialIcon[] = [
 
 export default function SocialLinks({ socialIcons = defaultSocialIcons }: SocialLinksProps) {
   return (
-    <div className="md:py-[1.5rem] py-[1rem]">
+    <div className="bg-lightGray row">
       <div>
         <aside className="pb-[1rem] text-center">
           <h3 className="!mb-[1.2rem] font-newtransport !font-light !text-[2rem] !leading-[2.7rem] md:!text-[2.6rem] tracking-[-.005em] md:!leading-[3.6rem]">

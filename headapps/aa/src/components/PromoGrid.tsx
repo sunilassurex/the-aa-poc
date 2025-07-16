@@ -48,7 +48,7 @@ export default function PromoGrid({
   if (variant === 'promo-section') {
     return (
       <>
-        <div className="bg-gray-100 space-y-10 !py-[1rem] md:!py-[0rem]">
+        <div className="bg-lightGray space-y-10 !py-[1rem] md:!py-[0rem]">
           <div className="wrapper !px-[1rem] md:!px-[2rem]">
             {promoCards.map((card, index) => (
               <>
@@ -65,7 +65,7 @@ export default function PromoGrid({
                     }}
                     className="row"
                   >
-                    <div className="  bg-white text-center  md:max-w-[1120px] mx-auto !pt-[3.9rem] !px-[2.4rem] !pb-[4rem] md:!px-[3.8rem] md:!py-[2.4rem] lg:!px-[12.6rem] lg:!pb-[6rem] lg:!pt-[5.25rem] flex flex-col justify-center items-center">
+                    <div className="shadow-[0_5px_10px_rgba(192,195,195,0.2)] bg-white text-center  md:max-w-[1120px] mx-auto !pt-[3.9rem] !px-[2.4rem] !pb-[4rem] md:!px-[3.8rem] md:!py-[2.4rem] lg:!px-[12.6rem] lg:!pb-[6rem] lg:!pt-[5.25rem] flex flex-col justify-center items-center">
                       <h2 className="lg:!text-[2.4rem] md:!text-[1.9rem] md:leading-[2.4rem] lg:leading-[3.2rem] md:text-[#1d1d1d] md:!tracking-[-.025em] !text-[1.9rem] leading-[2.4rem] md:!mt-[0px] lg:!mt-[25px] !mt-[25px] !mb-[1.3rem] md:mt-0 font-newtransport !font-bold md:!mb-[1.1rem] lg:!mb-[2.4rem]">
                         {card.title}
                       </h2>
@@ -106,7 +106,7 @@ export default function PromoGrid({
                     }}
                   >
                     <div
-                      className=" text-center md:max-w-[1120px] mx-auto !pt-[3.8rem] px-[2.4rem] pb-[4rem] md:!px-[3.8rem] md:!py-[2.4rem]  lg:!px-[12.6rem] lg:pb-[6rem] lg:!pt-[5.2rem] shadow flex flex-col justify-center md:items-center bg-no-repeat bg-cover bg-[position:right_0]"
+                      className="shadow-[0_5px_10px_rgba(192,195,195,0.2)] text-center md:max-w-[1120px] mx-auto !pt-[3.8rem] px-[2.4rem] pb-[4rem] md:!px-[3.8rem] md:!py-[2.4rem]  lg:!px-[12.6rem] lg:pb-[6rem] lg:!pt-[5.2rem] shadow flex flex-col justify-center md:items-center bg-no-repeat bg-cover bg-[position:right_0]"
                       style={{ backgroundImage: `url(${card.backgroundImage})` }}
                     >
                       <h2 className="md:!text-[2.4rem] md:leading-[3.2rem] md:text-[#1d1d1d] md:!tracking-[-.025em] !text-[1.9rem] leading-[2.4rem] !mt-[25px] !mb-[1.25rem] md:mt-0 font-newtransport !font-bold md:!mb-[2.4rem]">
@@ -143,7 +143,7 @@ export default function PromoGrid({
           </div>
         </div>
         {richText?.value && (
-          <div className="bg-gray-100 row">
+          <div className="bg-lightGray row">
             <div className="wrapper !px-[1rem]">
               <RichText field={richText}></RichText>
             </div>
