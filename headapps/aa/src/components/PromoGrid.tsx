@@ -23,6 +23,7 @@ type PromoCard = {
   showOn: string;
   desktopMinHeight: string;
   mobileMinHeight: string;
+  tabletMinHeight: string;
 };
 
 interface PromoGridProps {
@@ -58,27 +59,32 @@ export default function PromoGrid({
                       minHeight:
                         deviceType == Constant.RESPONSIVE_VARIABLES.MOBILE
                           ? card.mobileMinHeight
+                          : deviceType == Constant.RESPONSIVE_VARIABLES.TABLET
+                          ? card.tabletMinHeight
                           : card.desktopMinHeight,
                     }}
                     className="row"
                   >
-                    <div className="  bg-white text-center  md:max-w-[1120px] mx-auto !pt-[3.9rem] !px-[2.4rem] !pb-[4rem]  md:!px-[12.6rem] md:!pb-[6rem] md:!pt-[5.25rem] flex flex-col justify-center items-center">
-                      <h2 className="md:!text-[2.4rem] md:leading-[3.2rem] md:text-[#1d1d1d] md:!tracking-[-.025em] !text-[1.9rem] leading-[2.4rem] !mt-[25px] !mb-[1.3rem] md:mt-0 font-newtransport !font-bold md:!mb-[2.4rem]">
+                    <div className="  bg-white text-center  md:max-w-[1120px] mx-auto !pt-[3.9rem] !px-[2.4rem] !pb-[4rem] md:!px-[3.8rem] md:!py-[2.4rem] lg:!px-[12.6rem] lg:!pb-[6rem] lg:!pt-[5.25rem] flex flex-col justify-center items-center">
+                      <h2 className="lg:!text-[2.4rem] md:!text-[1.9rem] md:leading-[2.4rem] lg:leading-[3.2rem] md:text-[#1d1d1d] md:!tracking-[-.025em] !text-[1.9rem] leading-[2.4rem] md:!mt-[0px] lg:!mt-[25px] !mt-[25px] !mb-[1.3rem] md:mt-0 font-newtransport !font-bold md:!mb-[1.1rem] lg:!mb-[2.4rem]">
                         {card.title}
                       </h2>
-                      <p className="!font-normal text-[#1d1d1d] tracking-[.025em] !mb-[2.4rem]  md:!mb-[2.45rem] md:!text-[1.6rem] !text-[1.8rem] !leading-[2.5rem] md:!leading-[2.19rem]  font-newtransport !font-regular">
+                      <h6 className="!font-normal text-[#1d1d1d] tracking-[.025em] !mb-[2.4rem] md:!mb-[2.5rem] lg:!mb-[2.45rem] md:!text-[1.5rem] lg:!text-[1.6rem] !text-[1.8rem] !leading-[2.5rem] md:!leading-[1.9rem] lg:!leading-[2.19rem]  font-newtransport !font-regular">
                         {card.description}
-                      </p>
+                      </h6>
                       {card.buttons.map((button, index) => (
                         <button
                           key={index}
                           style={{
                             minWidth:
-                              deviceType == Constant.RESPONSIVE_VARIABLES.MOBILE
+                              deviceType == Constant.RESPONSIVE_VARIABLES.MOBILE ||
+                              deviceType == Constant.RESPONSIVE_VARIABLES.TABLET
                                 ? button.mobileMinWidth
                                 : button.desktopMinWidth,
                           }}
-                          className="shadow-custom-inset md:w-auto  py-[0.85rem] px-[2rem] !text-[1.8rem] !tracking-[0.015em] md:!pt-[1.27rem] md:!px-[2.7rem] md:!pb-[1.55rem] md:!leading-[2rem] md:!tracking-[0.03em] md:!text-[1.8rem] bg-gradient-to-b from-[#ffcc00] to-[#f9b800] text-[#1d1d1d] border !border-[#ffc400]
+                          className="shadow-custom-inset md:w-auto  py-[0.85rem] px-[2rem] !text-[1.8rem] !tracking-[0.015em]
+                          md:!py-[0.9rem] md:!px-[2rem] md:!tracking-[.015em] 
+                          lg:!pt-[1.27rem] lg:!px-[2.7rem] lg:!pb-[1.55rem] md:!leading-[2rem] lg:!tracking-[0.03em] md:!text-[1.8rem] bg-gradient-to-b from-[#ffcc00] to-[#f9b800] text-[#1d1d1d] border !border-[#ffc400]
           !shadow-[inset_0_1px_1px_#fff0b3,_0_0_10px_rgba(0,0,0,0.2)] !rounded-[5px]
           hover:from-[#ffe066] hover:to-[#ffd633] hover:border-[#ffd633] font-semibold"
                         >
@@ -94,11 +100,13 @@ export default function PromoGrid({
                       minHeight:
                         deviceType == Constant.RESPONSIVE_VARIABLES.MOBILE
                           ? card.mobileMinHeight
+                          : deviceType == Constant.RESPONSIVE_VARIABLES.TABLET
+                          ? card.tabletMinHeight
                           : card.desktopMinHeight,
                     }}
                   >
                     <div
-                      className=" text-center   md:max-w-[1120px] mx-auto !pt-[3.8rem] px-[2.4rem] pb-[4rem]  md:!px-[12.6rem] md:pb-[6rem] md:!pt-[5.2rem] shadow flex flex-col justify-center md:items-center bg-no-repeat bg-cover bg-[position:right_0]"
+                      className=" text-center md:max-w-[1120px] mx-auto !pt-[3.8rem] px-[2.4rem] pb-[4rem] md:!px-[3.8rem] md:!py-[2.4rem]  lg:!px-[12.6rem] lg:pb-[6rem] lg:!pt-[5.2rem] shadow flex flex-col justify-center md:items-center bg-no-repeat bg-cover bg-[position:right_0]"
                       style={{ backgroundImage: `url(${card.backgroundImage})` }}
                     >
                       <h2 className="md:!text-[2.4rem] md:leading-[3.2rem] md:text-[#1d1d1d] md:!tracking-[-.025em] !text-[1.9rem] leading-[2.4rem] !mt-[25px] !mb-[1.25rem] md:mt-0 font-newtransport !font-bold md:!mb-[2.4rem]">
