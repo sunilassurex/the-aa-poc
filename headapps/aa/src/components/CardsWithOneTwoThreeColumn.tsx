@@ -59,7 +59,7 @@ const CardsWithOneTwoThreeColumn: React.FC<Props> = ({ contacts }) => {
                     </h3>
                   </div>
                   <div className="w-auto !mb-[1.4rem] md:!mb-[0px]">
-                    <p className="lg:!leading-[2.2rem] !leading-[2.2rem] md:!m-0 !text-[1.4rem] !mb-[1.4rem] !font-arial md:!leading-[1.9rem] md:!text-[1.3rem] md:!font-[Arial,Helvetica,Verdana,sans-serif] lg:!font-[NewTransport,sans-serif] lg:!text-[14px]">
+                    <p className="lg:!leading-[2.2rem] !leading-[2.2rem] md:!m-0 !text-[1.4rem] !mb-[1.4rem] !font-a !font-[Arial,Helvetica,Verdana,sans-serif] lg:!font-[NewTransport,sans-serif] lg:!text-[14px] md:!text-[13px] md:!leading-[1.9rem] md:!m-[0px]">
                       {item.description}
                     </p>
                   </div>
@@ -67,7 +67,7 @@ const CardsWithOneTwoThreeColumn: React.FC<Props> = ({ contacts }) => {
                     <button
                       className="block md:hidden text-[1.4rem] leading-[1.2rem] !min-w-[22rem] text-center bg-gradient-to-b from-[#ffcc00] to-[#f9b800] border border-[#ffc400] 
                      shadow-[inset_0_1px_0_#fff0b3,0_0_10px_rgba(0,0,0,0.2)] text-[#1d1d1d] !text-[1.8rem] !tracking-[0.015em]  transform scale-100
-                     !rounded-[5px] !px-[2rem] !py-[0.9rem] mx-auto !mb-[1.4rem] !border-[0.1rem] !border-[#ffc400]"
+                     !rounded-[5px] !px-[2rem] !py-[0.9rem] mx-auto !mb-[1.4rem] !border-[0.1rem] !border-[#ffc400] !leading-[2rem]"
                     >
                       <a href="tel:0330 041 3686">{item.cta}</a>
                     </button>
