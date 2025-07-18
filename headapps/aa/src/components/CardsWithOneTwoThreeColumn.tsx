@@ -1,5 +1,3 @@
-// components/ContactGrid.tsx
-
 import React, { useEffect, useState } from 'react';
 import useResponsiveDevice from './helpers/CustomHelpers/ResponsiveHook';
 import Constant from './helpers/Constant/Constant';
@@ -29,7 +27,7 @@ const CardsWithOneTwoThreeColumn: React.FC<Props> = ({ contacts }) => {
   useEffect(() => {
     setDeviceType(device);
   }, [device]);
-
+  //layout for 1 item
   if (contacts.length === 1) {
     return (
       <div className="bg-[#f6f6f6] md:py-[1.5rem]">
@@ -74,7 +72,7 @@ const CardsWithOneTwoThreeColumn: React.FC<Props> = ({ contacts }) => {
     );
   }
 
-  // Existing layout for 2 or 3 items
+  // layout for 2 or 3 items
   return (
     <div className="bg-[#f6f6f6]">
       <div className="wrapper mx-auto !px-[2.1rem] md:!px-[1.1rem] lg:!px-[2rem]">
