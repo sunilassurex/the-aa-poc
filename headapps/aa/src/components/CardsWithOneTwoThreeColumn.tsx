@@ -33,8 +33,8 @@ const CardsWithOneTwoThreeColumn: React.FC<Props> = ({ contacts }) => {
   if (contacts.length === 1) {
     return (
       <div className="bg-[#f6f6f6] md:py-[1.5rem]">
-        <div className="wrapper mx-auto !px-[2.1rem] md:!px-[1.1rem] lg:!px-[2rem]">
-          <div className="lg:max-w-[106rem] lg:mx-auto lg:px-[2rem] grid">
+        <div className="wrapper mx-auto !px-[2.5rem] md:!px-[1.1rem] lg:!px-[2rem]">
+          <div className="md:max-w-[106rem] md:mx-auto md:px-[2rem] grid">
             {contacts.map((item, index) => (
               <div
                 key={index}
