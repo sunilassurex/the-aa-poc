@@ -4,6 +4,10 @@ const Constant = {
     TABLET: 'tablet',
     MOBILE: 'mobile',
   },
+  CARDS: {
+    FIRST: 'first',
+    SECOND: 'second',
+  },
 };
 
 export default Constant;
