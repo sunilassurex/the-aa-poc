@@ -3,6 +3,8 @@ import { useState } from 'react';
 type FooterProps = {
   variant?: 'top-links' | 'detailed';
   bottomLinks?: string[][];
+  topLinks?: string[];
+  tradeMark?: string;
 };
 
 type FooterSectionProps = {
@@ -42,8 +44,13 @@ function FooterSection({ title, items }: FooterSectionProps) {
   );
 }
 
-export default function Footer({ variant = 'top-links', bottomLinks = [] }: FooterProps) {
-  const topLinks = [
+export default function Footer({
+  variant = 'top-links',
+  bottomLinks = [],
+  topLinks = [],
+  tradeMark = '',
+}: FooterProps) {
+  const defaultTopLinks = [
     'About us',
     'Gender pay gap',
     'Help and support',
@@ -55,16 +62,17 @@ export default function Footer({ variant = 'top-links', bottomLinks = [] }: Foot
     'Privacy hub',
     'Cookies',
   ];
+  const linksToRender = topLinks.length ? topLinks : defaultTopLinks;
 
   return (
-    <div className="md:py-[1.5rem]">
+    <div>
       <footer className="bg-[#303030] text-white text-sm ">
-        {/* === Top Links Variant (and optional Bottom Grid) === */}
+        {/* === Top Links Variant === */}
         {variant === 'top-links' && (
           <div className="bg-[#393a3a] ">
-            <div className="md:!max-w-[1160px] md:!px-[2.4rem] md:!pt-[2.4rem] md:!pb-[2.4rem] mx-auto ">
+            <div className="md:!max-w-[1160px] md:!px-[2.4rem] md:!py-[3.2rem] mx-auto ">
               <ul className="list-none block w-full !text-left !m-0">
-                {topLinks.map((item, index) => (
+                {linksToRender.map((item, index) => (
                   <li
                     key={index}
                     className={`md:inline-block relative !text-left text-xl xl:text-[1px] py-[1.75rem] md:!pt-[1.8rem] md:!pb-[1.8rem] !px-[2.4rem] ${
@@ -72,19 +80,17 @@ export default function Footer({ variant = 'top-links', bottomLinks = [] }: Foot
                         ? '!px-[1.5rem] md:!pr-[1.5rem] md:!pl-0'
                         : '!px-[1.5rem] md:!px-[1.5rem]'
                     } ${
-                      index !== topLinks.length - 1
+                      index !== linksToRender.length - 1
                         ? 'border-b border-[#424242] sm:border-none'
                         : ''
                     }`}
                   >
-                    {/* Vertical divider (desktop only) */}
                     {index !== 0 && (
                       <span className="hidden md:inline-block absolute left-0 top-1/2 -translate-y-1/2 w-[1.5px] h-[1.5rem] bg-[#424242]" />
                     )}
-
                     <a
-                      href={'#'} // fallback to '#'
-                      className="block text-left  md:!tracking-[0.01em] !font-bold hover:!underline cursor-pointer text-white !text-[1.2rem] md:!text-[14px]"
+                      href="#"
+                      className="block text-left md:!tracking-[0.01em] !font-bold hover:!underline cursor-pointer text-white !text-[1.2rem] md:!text-[14px]"
                       style={{
                         fontFamily: "Arial, 'Helvetica Neue', Helvetica, Verdana, sans-serif",
                       }}
@@ -108,10 +114,7 @@ export default function Footer({ variant = 'top-links', bottomLinks = [] }: Foot
                     fontFamily: "Arial, 'Helvetica Neue', Helvetica, Verdana, sans-serif",
                   }}
                 >
-                  ©{' '}
-                  <span className="!text-[14.6px]">
-                    Automobile Association Developments Ltd. 2025
-                  </span>
+                  <span className="!text-[14.6px]">{tradeMark}</span>
                 </p>
               </div>
             </div>
@@ -156,7 +159,7 @@ export default function Footer({ variant = 'top-links', bottomLinks = [] }: Foot
           </div>
         )}
 
-        {/* === Detailed Footer (Accordion Style) === */}
+        {/* === Detailed Variant === */}
         {variant === 'detailed' && (
           <div className="bg-[#303030] text-white px-6 py-12">
             <div className="max-w-[1160px] mx-auto">
