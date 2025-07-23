@@ -1,22 +1,31 @@
 /* eslint-disable prettier/prettier */
-import React from 'react';
+import React, { ReactNode } from 'react';
 
 type ListItem = {
-  text: string;
-  linkText?: string;
-  linkHref?: string;
+  text: ReactNode;
+};
+
+type FeatureItem = {
+  title: string;
+  description: string[];
 };
 
 type AccidentAssistInfoProps = {
   heading: string;
   description: string;
   items: ListItem[];
+  productFeatureIntro?: string;
+  productFeatureHeading?: string;
+  productFeatures?: FeatureItem[];
 };
 
 export default function AccidentAssistInfo({
   heading,
   description,
   items,
+  productFeatureIntro,
+  productFeatureHeading,
+  productFeatures,
 }: AccidentAssistInfoProps) {
   return (
     <div className="md:py-[1.5rem] py-[1rem]">
@@ -38,22 +47,39 @@ export default function AccidentAssistInfo({
               >
                 <p className="text-[16px] tracking-[0.25px] !leading-[1.28] md:!leading-[1.30] m-0">
                   {item.text}
-                  {item.linkText && item.linkHref && (
-                    <>
-                      {' '}
-                      <a
-                        href={item.linkHref}
-                        className="!text-[#07818c] text-[15.7px] font-newtransport font-bold no-underline hover:underline"
-                      >
-                        {item.linkText}
-                      </a>
-                    </>
-                  )}
                 </p>
               </li>
             ))}
           </ul>
         </div>
+
+        {productFeatures && productFeatures.length > 0 && (
+          <div className="max-w-[100%]">
+            <ul>
+              {productFeatureIntro && (
+                <>
+                  <br />
+                  <p className="font-[Arial,Helvetica,Verdana,sans-serif] md:!text-[1.6rem] md:!leading-[24px] md:!tracking-[.25px] md:!m-[0px] !font-bold">{productFeatureIntro}</p>
+                  <p>&nbsp;</p>
+                </>
+              )}
+
+              {productFeatureHeading && <h2 className="md:mb-[16px] md:!text-[24px] md:!leading-[28px] md:!tracking-[-.5px] ">{productFeatureHeading}</h2>}
+
+              <ul>
+                {productFeatures.map((feature, index) => (
+                  <li key={index} className="md:!text-[16px] md:pt-[16px] md:pl-[30px] md:!leading-[1.25] !tracking-normal">
+                    <p><strong>{feature.title}</strong></p>
+                    {feature.description.map((desc, i) => (
+                      <p key={i}>{desc}</p>
+                    ))}
+                    <br />
+                  </li>
+                ))}
+              </ul>
+            </ul>
+          </div>
+        )}
       </div>
     </div>
   );
