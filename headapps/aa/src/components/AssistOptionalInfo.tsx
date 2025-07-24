@@ -22,7 +22,7 @@ type AccidentAssistInfoProps = {
   productFeatures?: FeatureItem[];
 };
 
-export default function AccidentAssistInfo({
+export default function AssistOptionalInfo({
   heading,
   description,
   items,
@@ -62,29 +62,58 @@ export default function AccidentAssistInfo({
               {productFeatureIntro && (
                 <>
                   <br />
-                  <p className="font-[Arial,Helvetica,Verdana,sans-serif] !text-[1.6rem] !leading-[24px] !tracking-[.25px] !m-[0px]">{productFeatureIntro}</p>
+                  <p className="font-[Arial,Helvetica,Verdana,sans-serif] !text-[1.6rem] !leading-[24px] !tracking-[.25px] !m-[0px]">
+                    {productFeatureIntro}
+                  </p>
                   <p className="!mb-[0px]">&nbsp;</p>
                 </>
               )}
 
-              {productFeatureHeading && <h2 className="md:mb-[16px] !text-[24px] !leading-[28px] !tracking-[-.5px] !font-bold !text-[#2b2d32] !mb-[8px]">{productFeatureHeading}</h2>}
+              {productFeatureHeading && (
+                <h2 className="md:mb-[16px] !text-[24px] !leading-[28px] !tracking-[-.5px] !font-bold !text-[#2b2d32] !mb-[8px]">
+                  {productFeatureHeading}
+                </h2>
+              )}
 
               <ul>
-                {productFeatures.map((feature, index) => (
-                 <li key={index}
-                  className="relative md:!text-[16px] md:pt-[16px] md:pl-[30px] md:!leading-[1.25] !tracking-normal before:content-[''] before:absolute before:left-0 before:top-[16px] before:w-[21px] before:h-[21px] before:bg-[url('/white-tick.png')] before:bg-no-repeat before:bg-[length:21px_21px]"
-                  >
-                    <p className="md:!m-[0px]"><strong className="!font-bold md:!text-[16px] md:!leading-[24px] md:!tracking-[.25px] !font-[Arial,Helvetica,Verdana,sans-serif]">{feature.title}</strong></p>
-                    {feature.description.map((descObj, i) => (
-                    <div
-                        key={i}
-                        className="md:!text-[16px] md:!leading-[24px] md:!tracking-[.25px] !m-0 font-[Arial,Helvetica,Verdana,sans-serif]"
-                      >
-                      {descObj.title?<p className={i !== feature.description.length - 1 ? "" : '!mb-0'}> <strong className="!font-bold">{descObj.title}<br></br></strong>{descObj.description}<br></br></p> : <>{descObj.description}</> }   
+                <ul>
+                  {productFeatures.map((feature, index) => (
+                    <li
+                      key={index}
+                      className="flex items-start gap-[8px] !text-[16px] pt-[16px] !leading-[1.25] !tracking-normal"
+                    >
+                      <div className="w-[21px] min-w-[21px] h-[21px] bg-[url('/white-tick.png')] bg-no-repeat bg-contain" />
+
+                      <div>
+                        <p className="md:!m-[0px]">
+                          <strong className="!font-bold md:!text-[16px] md:!leading-[24px] md:!tracking-[.25px] font-[Arial,Helvetica,Verdana,sans-serif]">
+                            {feature.title}
+                          </strong>
+                        </p>
+
+                        {feature.description.map((descObj, i) => (
+                          <div
+                            key={i}
+                            className="!text-[16px] !leading-[24px] !tracking-[.25px] m-0 font-[Arial,Helvetica,Verdana,sans-serif]"
+                          >
+                            {descObj.title ? (
+                              <p className={i !== feature.description.length - 1 ? '' : '!mb-0'}>
+                                <strong className="!font-bold">
+                                  {descObj.title}
+                                  <br />
+                                </strong>
+                                {descObj.description}
+                                <br />
+                              </p>
+                            ) : (
+                              <>{descObj.description}</>
+                            )}
+                          </div>
+                        ))}
                       </div>
+                    </li>
                   ))}
-                  </li>
-                ))}
+                </ul>
               </ul>
             </ul>
           </div>
