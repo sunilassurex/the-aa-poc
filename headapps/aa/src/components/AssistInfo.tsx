@@ -7,7 +7,10 @@ type ListItem = {
 
 type FeatureItem = {
   title: string;
-  description: string[];
+  description: {
+    title?: string;
+    description: string;
+  }[];
 };
 
 type AccidentAssistInfoProps = {
@@ -59,21 +62,27 @@ export default function AccidentAssistInfo({
               {productFeatureIntro && (
                 <>
                   <br />
-                  <p className="font-[Arial,Helvetica,Verdana,sans-serif] md:!text-[1.6rem] md:!leading-[24px] md:!tracking-[.25px] md:!m-[0px] !font-bold">{productFeatureIntro}</p>
+                  <p className="font-[Arial,Helvetica,Verdana,sans-serif] md:!text-[1.6rem] md:!leading-[24px] md:!tracking-[.25px] md:!m-[0px]">{productFeatureIntro}</p>
                   <p>&nbsp;</p>
                 </>
               )}
 
-              {productFeatureHeading && <h2 className="md:mb-[16px] md:!text-[24px] md:!leading-[28px] md:!tracking-[-.5px] ">{productFeatureHeading}</h2>}
+              {productFeatureHeading && <h2 className="md:mb-[16px] md:!text-[24px] md:!leading-[28px] md:!tracking-[-.5px] !font-bold !text-[#2b2d32]">{productFeatureHeading}</h2>}
 
               <ul>
                 {productFeatures.map((feature, index) => (
-                  <li key={index} className="md:!text-[16px] md:pt-[16px] md:pl-[30px] md:!leading-[1.25] !tracking-normal">
-                    <p><strong>{feature.title}</strong></p>
-                    {feature.description.map((desc, i) => (
-                      <p key={i}>{desc}</p>
+                 <li key={index}
+                  className="relative md:!text-[16px] md:pt-[16px] md:pl-[30px] md:!leading-[1.25] !tracking-normal before:content-[''] before:absolute before:left-0 before:top-[16px] before:w-[21px] before:h-[21px] before:bg-[url('/white-tick.png')] before:bg-no-repeat before:bg-[length:21px_21px]"
+                  >
+                    <p className="md:!m-[0px]"><strong className="!font-bold md:!text-[16px] md:!leading-[24px] md:!tracking-[.25px] !font-[Arial,Helvetica,Verdana,sans-serif]">{feature.title}</strong></p>
+                    {feature.description.map((descObj, i) => (
+                      <p
+                        key={i}
+                        className="md:!text-[16px] md:!leading-[24px] md:!tracking-[.25px] !m-0 font-[Arial,Helvetica,Verdana,sans-serif]"
+                      >
+                      {descObj.title?<p> <strong className="!font-bold">{descObj.title}<br></br></strong>{descObj.description}<br></br></p> : <>{descObj.description}</> }   
+                      </p>
                     ))}
-                    <br />
                   </li>
                 ))}
               </ul>
