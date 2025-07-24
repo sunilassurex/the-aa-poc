@@ -62,12 +62,12 @@ export default function AccidentAssistInfo({
               {productFeatureIntro && (
                 <>
                   <br />
-                  <p className="font-[Arial,Helvetica,Verdana,sans-serif] md:!text-[1.6rem] md:!leading-[24px] md:!tracking-[.25px] md:!m-[0px]">{productFeatureIntro}</p>
-                  <p>&nbsp;</p>
+                  <p className="font-[Arial,Helvetica,Verdana,sans-serif] !text-[1.6rem] !leading-[24px] !tracking-[.25px] !m-[0px]">{productFeatureIntro}</p>
+                  <p className="!mb-[0px]">&nbsp;</p>
                 </>
               )}
 
-              {productFeatureHeading && <h2 className="md:mb-[16px] md:!text-[24px] md:!leading-[28px] md:!tracking-[-.5px] !font-bold !text-[#2b2d32]">{productFeatureHeading}</h2>}
+              {productFeatureHeading && <h2 className="md:mb-[16px] !text-[24px] !leading-[28px] !tracking-[-.5px] !font-bold !text-[#2b2d32] !mb-[8px]">{productFeatureHeading}</h2>}
 
               <ul>
                 {productFeatures.map((feature, index) => (
@@ -76,13 +76,13 @@ export default function AccidentAssistInfo({
                   >
                     <p className="md:!m-[0px]"><strong className="!font-bold md:!text-[16px] md:!leading-[24px] md:!tracking-[.25px] !font-[Arial,Helvetica,Verdana,sans-serif]">{feature.title}</strong></p>
                     {feature.description.map((descObj, i) => (
-                      <p
+                    <div
                         key={i}
                         className="md:!text-[16px] md:!leading-[24px] md:!tracking-[.25px] !m-0 font-[Arial,Helvetica,Verdana,sans-serif]"
                       >
-                      {descObj.title?<p> <strong className="!font-bold">{descObj.title}<br></br></strong>{descObj.description}<br></br></p> : <>{descObj.description}</> }   
-                      </p>
-                    ))}
+                      {descObj.title?<p className={i !== feature.description.length - 1 ? "" : '!mb-0'}> <strong className="!font-bold">{descObj.title}<br></br></strong>{descObj.description}<br></br></p> : <>{descObj.description}</> }   
+                      </div>
+                  ))}
                   </li>
                 ))}
               </ul>
