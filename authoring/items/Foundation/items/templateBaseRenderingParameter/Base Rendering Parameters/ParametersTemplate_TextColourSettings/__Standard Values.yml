@@ -1,0 +1,26 @@
+﻿---
+ID: "d5784eac-0a86-43e3-bc7a-a54ff4e1032e"
+Parent: "ac195e3e-d4a6-4cac-809f-d7b12697778a"
+Template: "ac195e3e-d4a6-4cac-809f-d7b12697778a"
+Path: /sitecore/templates/Foundation/Base Rendering Parameters/ParametersTemplate_TextColourSettings/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2328b2d6-1f1d-4450-ac63-df444553b192"
+      Hint: TextColour
+      Value: "{B74F70B0-2E26-40E6-948E-DBBBADFCAB27}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160203T160354Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6dc5791c-5bfe-4553-9958-fd17a65528bc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221208T025821Z

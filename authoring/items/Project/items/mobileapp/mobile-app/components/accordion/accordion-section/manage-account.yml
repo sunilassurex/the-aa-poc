@@ -1,0 +1,137 @@
+﻿---
+ID: "1b1eb1a3-b614-46b3-b652-d76665501612"
+Parent: "db700399-9b94-4361-aff2-1b6e4f2ff742"
+Template: "7f220b99-7bad-46ed-ad73-3c59cbe89e9a"
+Path: "/sitecore/content/AA/mobile-app/components/accordion/accordion-section/manage-account"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0b1dd1c3-e4a4-4648-a4f9-c59c953e18d5"
+      Hint: AccordionSectionHeader
+      Value: Manage account
+    - ID: "1e6c2073-9b68-41ad-bde5-4ba7d886a99e"
+      Hint: AccordionItems
+      Value: |
+        {720C04CB-2AD8-4272-AE24-89136E45C3D7}
+        {E1212982-E118-431A-8180-0C5EEA781A5F}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240909T112210Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "101ae5ec-aa7a-42e2-ae44-b432f73f04a9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "d103a0ad-d38e-4ae4-b7e2-f010032667dc"
+      Hint: AccordionSectionDescription
+      Value: Support with updating your personal details, changing your preferences, or opting out of automatic renewal.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240912T052047Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0b1dd1c3-e4a4-4648-a4f9-c59c953e18d5"
+      Hint: AccordionSectionHeader
+      Value: Manage account
+    - ID: "1e6c2073-9b68-41ad-bde5-4ba7d886a99e"
+      Hint: AccordionItems
+      Value: |
+        {9CF98DBC-1FBE-40D2-9CEC-87D6DD4EF432}
+        {2A6BB5CC-DAAD-4979-AC0E-FEE29380EA09}
+        {C8DD69F4-6F88-4F5E-BA13-CB23B130CFD8}
+        {26374B23-24F5-403F-A3B3-A5F91AEE8F7D}
+        {04C02739-B726-4267-98A5-7D164CAE1447}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240919T154508Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ba41289a-32cb-4b01-b70f-a3d47e121c34"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240919T154508Z
+    - ID: "d103a0ad-d38e-4ae4-b7e2-f010032667dc"
+      Hint: AccordionSectionDescription
+      Value: Support with updating your personal details, changing your preferences, or opting out of automatic renewal.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240919T154640Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0b1dd1c3-e4a4-4648-a4f9-c59c953e18d5"
+      Hint: AccordionSectionHeader
+      Value: Manage account
+    - ID: "1e6c2073-9b68-41ad-bde5-4ba7d886a99e"
+      Hint: AccordionItems
+      Value: |
+        {9CF98DBC-1FBE-40D2-9CEC-87D6DD4EF432}
+        {2A6BB5CC-DAAD-4979-AC0E-FEE29380EA09}
+        {C8DD69F4-6F88-4F5E-BA13-CB23B130CFD8}
+        {26374B23-24F5-403F-A3B3-A5F91AEE8F7D}
+        {04C02739-B726-4267-98A5-7D164CAE1447}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240919T154648Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "294764c2-57c9-4f06-9728-fd9832c6d145"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240919T154648Z
+    - ID: "d103a0ad-d38e-4ae4-b7e2-f010032667dc"
+      Hint: AccordionSectionDescription
+      Value: Support with updating your personal details, changing your preferences, or opting out of automatic renewal.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240919T154652Z

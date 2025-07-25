@@ -1,0 +1,152 @@
+﻿---
+ID: "897cd900-873e-4137-98d3-b40f8fbdcbc3"
+Parent: "1d09af86-004d-4f04-b668-e83c61bbbb72"
+Template: "7c27ec70-f42e-4042-8a0f-abaa2f8eda18"
+Path: /sitecore/system/Settings/Foundation/Experience Accelerator/Horizon/Devices/Desktop Regular
+SharedFields:
+- ID: "01c5c169-867f-4a45-a8a3-891a3b13b39a"
+  Hint: Width
+  Value: 1280
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "sxa_grid/32x32/Desktop-Regular.png"
+- ID: "654618d7-a288-44a2-bfa8-a9e1ccb4efb8"
+  Hint: Type
+  Value: "{1C162B9C-C8A3-4DD0-8DEE-20FE0DBBE969}"
+- ID: "8cbc1cdd-5f1f-4187-b3b0-d81db7ca675c"
+  Hint: StackAtBreakpoint
+  Value: xl
+- ID: "bf2f5042-9481-488d-a389-1b70a0b78ed8"
+  Hint: Icon
+  Value: |
+    <image mediaid="{45B97BDE-1A4C-4E5C-9E93-5F80A62484ED}" />
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Stationære computere
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "4f886dd0-63dc-4a32-8765-e7fe78b9b0d2"
+      Hint: Name
+      Value: Stationære computere
+- Language: "de-DE"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "73f87c49-a79f-4368-b6bd-96d79ca7ad60"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Desktops
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250725T105308Z
+    - ID: "4f886dd0-63dc-4a32-8765-e7fe78b9b0d2"
+      Hint: Name
+      Value: Desktops
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6e81a5d2-fa69-41bc-8530-19f437da6953"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250725T105308Z
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230303T124806Z
+    - ID: "4f886dd0-63dc-4a32-8765-e7fe78b9b0d2"
+      Hint: Name
+      Value: Desktop Regular
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0092b109-0e36-4295-8983-03a0d3e9f9f9"
+- Language: "ja-JP"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "73f87c49-a79f-4368-b6bd-96d79ca7ad60"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: デスクトップ
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250725T105308Z
+    - ID: "4f886dd0-63dc-4a32-8765-e7fe78b9b0d2"
+      Hint: Name
+      Value: デスクトップ
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6e81a5d2-fa69-41bc-8530-19f437da6953"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250725T105308Z
+- Language: "zh-CN"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "73f87c49-a79f-4368-b6bd-96d79ca7ad60"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 台式机
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250725T105308Z
+    - ID: "4f886dd0-63dc-4a32-8765-e7fe78b9b0d2"
+      Hint: Name
+      Value: 台式机
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6e81a5d2-fa69-41bc-8530-19f437da6953"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250725T105308Z

@@ -1,0 +1,23 @@
+﻿---
+ID: "10ff12c1-2950-45fa-bef9-d424b7370807"
+Parent: "6fb1ce5b-b31d-4ce1-b116-3660d8945efc"
+Template: "6fb1ce5b-b31d-4ce1-b116-3660d8945efc"
+Path: /sitecore/templates/Feature/Basic Content/Multiline/Description/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240627T072740Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "81896af5-d809-4c85-90d3-0ecc1185ed22"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250703T015125Z

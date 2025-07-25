@@ -1,0 +1,65 @@
+﻿---
+ID: "5357408e-17c9-49cb-a347-d08bb325a605"
+Parent: "626a90bb-8bc6-4627-b9b3-0c9c39268de9"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: /sitecore/layout/Renderings/Foundation/Meta/HTML Metadata
+SharedFields:
+- ID: "3d08db46-2267-41b0-bc52-be69fd618633"
+  Hint: Cacheable
+  Value: 
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+- ID: "56776edf-261c-4abc-9fe7-70c618795239"
+  Hint: __Help link
+  Value: |
+    <link linktype="external" url="https://theaacom.atlassian.net/wiki/x/EIADNAE" />
+- ID: "8b6d532b-6128-4486-a044-ca06d90948ba"
+  Hint: VaryByData
+  Value: 
+Languages:
+- Language: en
+  Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: This component can be used to add HTML Metadata.
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: This component can be used to add HTML Metadata.
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241016T052142Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "75df00fe-f588-4227-af72-4ca2c6853fa6"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using System.Web.Mvc;
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @using Sitecore.Mvc.Presentation;
+        @model ContentViewRenderingModel
+        
+        @{
+            var metaDescriptionField = Model.GetField("MetaDescription");
+        
+            <title>@Model.GetField("BrowserTitle").Value()</title>
+            <meta name="description" content="@(metaDescriptionField.HasValueToRender()? metaDescriptionField.Value():Model.GetField("Description").Value())">
+            <meta name="robots" content="@Model.GetRobotsDirective(Model.PageItem)">
+            <link rel="canonical" href="@Model.GetCanonicalUrl(Model.PageItem)" />
+        }
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        theaa\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241024T015326Z

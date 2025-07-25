@@ -1,0 +1,78 @@
+﻿---
+ID: "d6c279f8-8690-417f-8c29-b0722b4112f3"
+Parent: "cda779cf-edbc-4ab3-bbeb-f18403e92b11"
+Template: "b36ba9fd-0dc0-49c8-bea2-e55d70e6af28"
+Path: "/sitecore/content/AA/mobile-app/rabo-unavailable"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+- ID: "a791f095-2521-4b4d-bef9-21dda221f608"
+  Hint: __Style
+  Value: 
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{4F57DBDC-C4BB-43AE-A615-7FEA56FFD513}">
+        <r
+          ds="{3EEAF383-98E8-40B0-8308-BA8C0A5DD849}"
+          id="{EEA117CD-F506-4020-8708-22F508C067B5}"
+          par=""
+          ph="/mobileapp-main"
+          uid="{F2D6E6B3-8D82-4DA0-83AA-EF8479BDE062}" />
+        <r
+          ds="{D6CCB286-E149-4974-8825-C70B86BE8277}"
+          id="{542E6EB9-B2AC-434B-913B-9923EF335FD7}"
+          par=""
+          ph="/mobileapp-main/details-{F2D6E6B3-8D82-4DA0-83AA-EF8479BDE062}-0"
+          uid="{81A2F648-976E-4392-AB58-9F80AFDD42C6}" />
+        <r
+          ds="{422EF655-AC15-4D53-A1FE-4993719247E2}"
+          id="{25D33D2E-9E4D-454E-8B76-607E8FB540FA}"
+          par=""
+          ph="/mobileapp-main/details-{F2D6E6B3-8D82-4DA0-83AA-EF8479BDE062}-0"
+          uid="{2A0F1406-465C-40CF-AE74-986760664762}" />
+        <r
+          ds="{275765A0-5BE2-49E9-B53A-BFC359B1DB39}"
+          id="{33CCF56D-9575-4758-8CFE-6A0D57892AF1}"
+          par=""
+          ph="/mobileapp-main/details-{F2D6E6B3-8D82-4DA0-83AA-EF8479BDE062}-0"
+          uid="{A4A98792-6FB4-4743-857A-DDE2A4635E39}" />
+        <r
+          ds="{7DCC68EC-7545-4955-AEB6-6BF9680CFABE}"
+          id="{ABE0F684-C9E6-4730-A065-CDE445D80809}"
+          par=""
+          ph="/mobileapp-main/details-{F2D6E6B3-8D82-4DA0-83AA-EF8479BDE062}-0"
+          uid="{572572E4-2B2A-41F2-B860-CBC142B0FDD0}" />
+        <r
+          ds="{CB81B6D2-FEB1-4027-86E7-CB7BF3A90ABE}"
+          id="{04B38FE4-9672-466A-9DFF-25928F3085E0}"
+          par=""
+          ph="/mobileapp-main/details-{F2D6E6B3-8D82-4DA0-83AA-EF8479BDE062}-0"
+          uid="{1C3AB80F-0FFD-4255-BC0B-BCE3C0C7A4AA}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240201T121717Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{C55B483C-EA7F-4E76-A066-985F7D9396CA}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "38431b7c-24ab-4ab5-90fd-d58bb56c98f0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241015T091257Z

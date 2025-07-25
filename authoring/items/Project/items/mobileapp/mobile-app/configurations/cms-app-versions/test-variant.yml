@@ -1,0 +1,31 @@
+﻿---
+ID: "c25d2553-a359-4377-8eec-e328ede0409c"
+Parent: "06960543-6626-4cca-8a8d-9dda1e7d643e"
+Template: "1d03d106-7acb-4c2f-aa57-36cbd633b4db"
+Path: "/sitecore/content/AA/mobile-app/configurations/cms-app-versions/test-variant"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250603T101903Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "81cdeafa-9ba6-4146-aa54-c73285407324"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250603T101903Z

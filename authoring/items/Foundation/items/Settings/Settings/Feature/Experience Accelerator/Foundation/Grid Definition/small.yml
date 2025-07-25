@@ -1,0 +1,159 @@
+﻿---
+ID: "9ccf8b15-dbfb-49b6-8984-e735dc5d2598"
+Parent: "b9dda3c3-b652-4bf0-8949-973b2ae634f0"
+Template: "bca0e629-150f-41dd-893b-f4b65338c0b7"
+Path: /sitecore/system/Settings/Feature/Experience Accelerator/Foundation/Grid Definition/small
+SharedFields:
+- ID: "39d6d2c4-f31e-4310-ab2d-f6d5c9cb89fd"
+  Hint: BreakpointMax
+  Value: 39.9375em
+- ID: "3b2c405a-5a69-4ce9-a28a-0e72715f159a"
+  Hint: BreakpointMin
+  Value: 
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: da
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: lille
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "b55a9065-9589-41d8-997b-9b4592852134"
+      Hint: Tooltip
+      Value: |
+        Layoutindstillinger for små enheder.
+        Bruges på mellemstore og store enheder, hvis de ikke tilsidesættes.
+- Language: "de-DE"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "73f87c49-a79f-4368-b6bd-96d79ca7ad60"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: klein
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250725T105308Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6e81a5d2-fa69-41bc-8530-19f437da6953"
+    - ID: "b55a9065-9589-41d8-997b-9b4592852134"
+      Hint: Tooltip
+      Value: |
+        Layouteinstellungen für kleine Geräte.
+        Wird für medium und große Geräte verwendet, wenn nicht außer Kraft gesetzt.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250725T105308Z
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161216T080538Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d7d9eeb3-3030-4009-9ab7-7333d0158ba1"
+    - ID: "b55a9065-9589-41d8-997b-9b4592852134"
+      Hint: Tooltip
+      Value: |
+        Layout settings for small devices.
+        Will be used on medium and large devices if not overridden.
+- Language: "ja-JP"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "73f87c49-a79f-4368-b6bd-96d79ca7ad60"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 小
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250725T105308Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6e81a5d2-fa69-41bc-8530-19f437da6953"
+    - ID: "b55a9065-9589-41d8-997b-9b4592852134"
+      Hint: Tooltip
+      Value: |
+        画面の小さなデバイス用レイアウト設定
+        無効化されていない場合、中間サイズの画面および大きな画面のデバイスで使用されます
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250725T105308Z
+- Language: "zh-CN"
+  Fields:
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "73f87c49-a79f-4368-b6bd-96d79ca7ad60"
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 小
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250725T105308Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6e81a5d2-fa69-41bc-8530-19f437da6953"
+    - ID: "b55a9065-9589-41d8-997b-9b4592852134"
+      Hint: Tooltip
+      Value: |
+        “小设备的布局设置。
+        如果没有被覆盖，将用于大中型设备。“
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250725T105308Z

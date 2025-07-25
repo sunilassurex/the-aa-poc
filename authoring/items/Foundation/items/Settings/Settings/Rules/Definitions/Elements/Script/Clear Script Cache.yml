@@ -1,0 +1,47 @@
+﻿---
+ID: "6826a276-06ea-4046-826e-e30fd2e89327"
+Parent: "bd93e442-6e11-4ea0-977d-75c1804f0aa6"
+Template: "ab6dd55d-75e3-4a02-9793-7054ed90fcb6"
+Path: /sitecore/system/Settings/Rules/Definitions/Elements/Script/Clear Script Cache
+SharedFields:
+- ID: "cf38a704-11e9-41ae-ac2d-e229bca83bf5"
+  Hint: Code
+  Value: |
+    namespace Sitecore.CodeDom.Scripts {
+      public class ClearScriptCache
+      {
+        public void Clear()
+        {
+          ScriptFactory.InvalidateCache();
+        }
+      }
+    }
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20081203T122300
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dc800f8f-fc2e-4b4f-bf37-b143613e8278"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20120926T195716:634842862368314975"

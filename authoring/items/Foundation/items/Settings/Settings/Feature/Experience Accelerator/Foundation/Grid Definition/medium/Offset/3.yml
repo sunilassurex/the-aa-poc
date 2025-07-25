@@ -1,0 +1,27 @@
+﻿---
+ID: "fd54a0a6-2289-46f5-af37-d60f68b8750f"
+Parent: "0ccc2612-a29e-4535-9843-89f5980e05df"
+Template: "cb3b3906-be80-4d9b-a2a4-038193da5422"
+Path: /sitecore/system/Settings/Feature/Experience Accelerator/Foundation/Grid Definition/medium/Offset/3
+SharedFields:
+- ID: "591c584f-08a7-4dc6-9d58-1de178c404a2"
+  Hint: Class
+  Value: "medium-offset-3"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161216T082352Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "23c71ca6-313b-4c7f-826c-1089c3a282ff"

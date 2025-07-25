@@ -1,0 +1,60 @@
+﻿---
+ID: "4c18378b-c654-4963-a21e-35f8c992e293"
+Parent: "849fbb4b-2dfc-48a6-a316-a2ec1f87871b"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/mobile-app/Group"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "~/media/4C18378BC6544963A21E35F8C992E293.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "623387a7-db68-43d2-8ab5-31fdacc0731c"
+  Value: PHN2ZyB3aWR0aD0iNjkiIGhlaWdodD0iODUiIHZpZXdCb3g9IjAgMCA2OSA4NSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTY3LjAwNTkgODQuMjk1OUgyLjE3OTQ5QzEuNTE3MDkgODQuMjk1OSAwLjk3OTQ5MiA4My43NTgzIDAuOTc5NDkyIDgzLjA5NTlWMS40NDkxNUMwLjk3OTQ5MiAwLjc4Njc0NiAxLjUxNzA5IDAuMjQ5MTQ2IDIuMTc5NDkgMC4yNDkxNDZINjcuMDA0N0M2Ny42NjcxIDAuMjQ5MTQ2IDY4LjIwNDcgMC43ODY3NDYgNjguMjA0NyAxLjQ0OTE1VjgzLjA5NTlDNjguMjA0NyA4My43NTgzIDY3LjY2NzEgODQuMjk1OSA2Ny4wMDQ3IDg0LjI5NTlINjcuMDA1OVpNNS43ODA2OSA3OS40OTU5SDYzLjQwNTlWNS4wNDkxNUg1Ljc3OTQ5Vjc5LjQ5NTlINS43ODA2OVoiIGZpbGw9IiMwMDA4MUMiLz4KPHBhdGggZD0iTTUwLjMyMTEgNDMuNDYyNEgxNi41NDU5QzE1Ljg4MzIgNDMuNDYyNCAxNS4zNDU5IDQzLjk5OTcgMTUuMzQ1OSA0NC42NjI0VjQ3LjA2MjRDMTUuMzQ1OSA0Ny43MjUxIDE1Ljg4MzIgNDguMjYyNCAxNi41NDU5IDQ4LjI2MjRINTAuMzIxMUM1MC45ODM5IDQ4LjI2MjQgNTEuNTIxMSA0Ny43MjUxIDUxLjUyMTEgNDcuMDYyNFY0NC42NjI0QzUxLjUyMTEgNDMuOTk5NyA1MC45ODM5IDQzLjQ2MjQgNTAuMzIxMSA0My40NjI0WiIgZmlsbD0iIzAwMDgxQyIvPgo8cGF0aCBkPSJNNTAuMzIxMSAzMy44NjIzSDE2LjU0NTlDMTUuODgzMiAzMy44NjIzIDE1LjM0NTkgMzQuMzk5NiAxNS4zNDU5IDM1LjA2MjNWMzcuNDYyM0MxNS4zNDU5IDM4LjEyNSAxNS44ODMyIDM4LjY2MjMgMTYuNTQ1OSAzOC42NjIzSDUwLjMyMTFDNTAuOTgzOSAzOC42NjIzIDUxLjUyMTEgMzguMTI1IDUxLjUyMTEgMzcuNDYyM1YzNS4wNjIzQzUxLjUyMTEgMzQuMzk5NiA1MC45ODM5IDMzLjg2MjMgNTAuMzIxMSAzMy44NjIzWiIgZmlsbD0iIzAwMDgxQyIvPgo8cGF0aCBkPSJNNTAuMzIxMSAyNC4yNjIzSDE2LjU0NTlDMTUuODgzMiAyNC4yNjIzIDE1LjM0NTkgMjQuNzk5NiAxNS4zNDU5IDI1LjQ2MjNWMjcuODYyM0MxNS4zNDU5IDI4LjUyNTEgMTUuODgzMiAyOS4wNjIzIDE2LjU0NTkgMjkuMDYyM0g1MC4zMjExQzUwLjk4MzkgMjkuMDYyMyA1MS41MjExIDI4LjUyNTEgNTEuNTIxMSAyNy44NjIzVjI1LjQ2MjNDNTEuNTIxMSAyNC43OTk2IDUwLjk4MzkgMjQuMjYyMyA1MC4zMjExIDI0LjI2MjNaIiBmaWxsPSIjMDAwODFDIi8+Cjwvc3ZnPgo=
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 1250
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/svg+xml
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: svg
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240726T144740Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "3f4b20e9-36e6-4d45-a423-c86567373f82"
+      Hint: Title
+      Value: Group
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: Group
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "30120c08-3573-4fa2-80ab-5620eb9241c8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240726T144742Z

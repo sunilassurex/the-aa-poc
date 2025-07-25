@@ -1,0 +1,90 @@
+﻿---
+ID: "81dd5448-c94f-4bc8-b952-6833cdfac93e"
+Parent: "39073644-cb5e-452d-947f-2924db6fca51"
+Template: "b36ba9fd-0dc0-49c8-bea2-e55d70e6af28"
+Path: "/sitecore/content/AA/mobile-app/shop/shop-detail"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "a791f095-2521-4b4d-bef9-21dda221f608"
+  Hint: __Style
+  Value: 
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{4F57DBDC-C4BB-43AE-A615-7FEA56FFD513}">
+        <r
+          ds="{7DFC818A-405F-4C54-9626-991A871B678B}"
+          id="{F026D6C3-F044-4FFD-A6D0-53A135C6307D}"
+          par=""
+          ph="/mobileapp-main"
+          uid="{F2D6E6B3-8D82-4DA0-83AA-EF8479BDE062}" />
+        <r
+          ds="{F013D15F-C421-4C91-823B-B3EE167F11EF}"
+          id="{542E6EB9-B2AC-434B-913B-9923EF335FD7}"
+          par=""
+          ph="/mobileapp-main/details-{F2D6E6B3-8D82-4DA0-83AA-EF8479BDE062}-0"
+          uid="{9D412C59-CD0D-4578-AEC1-A3CFA516EFFD}" />
+        <r
+          ds="{EECA80E4-27D9-4969-8801-6250E7843C66}"
+          id="{054744C0-9DEE-4E6C-AF0B-173CC808E502}"
+          par=""
+          ph="/mobileapp-main/details-{F2D6E6B3-8D82-4DA0-83AA-EF8479BDE062}-0"
+          uid="{54C64A8E-8F3C-422A-AE24-1AD0A469C5B3}" />
+        <r
+          ds="{E3EFA258-6637-4479-B967-BAD246F32EC2}"
+          id="{33CCF56D-9575-4758-8CFE-6A0D57892AF1}"
+          par="ButtonStyle=%7BFF043AE5-3914-4897-999D-4F622B4F4946%7D&amp;AlignmentStyle=%7BA4296376-02EE-4617-96F7-21BF9DB9CD9C%7D"
+          ph="/mobileapp-main/details-{F2D6E6B3-8D82-4DA0-83AA-EF8479BDE062}-0"
+          uid="{E5998F96-A452-45A5-A096-C7C21619C3D6}" />
+        <r
+          ds="{34D64DD4-3380-49E8-A124-6548FB2437E3}"
+          id="{ABE0F684-C9E6-4730-A065-CDE445D80809}"
+          par=""
+          ph="/mobileapp-main/details-{F2D6E6B3-8D82-4DA0-83AA-EF8479BDE062}-0"
+          uid="{8A70A023-204B-4C9F-B27C-9C38EA91931E}" />
+        <r
+          ds="{82931968-A14A-4BF8-A3C2-17A7C611BEC9}"
+          id="{FE7DBB64-CD01-4BFB-964A-AA018590254C}"
+          par=""
+          ph="/mobileapp-main/details-{F2D6E6B3-8D82-4DA0-83AA-EF8479BDE062}-0"
+          uid="{246B311C-04F3-4386-B657-FAF28B8E5092}" />
+        <r
+          ds="{DD28EDF3-5B47-404E-A552-69CA6FAFCDD3}"
+          id="{33CCF56D-9575-4758-8CFE-6A0D57892AF1}"
+          par="ButtonStyle=%7BB494ED15-D85F-41C1-987E-BEB29AD6A9B6%7D&amp;AlignmentStyle=%7B3E97F833-101D-46AF-9161-748C563BC4FF%7D"
+          ph="/mobileapp-main/details-{F2D6E6B3-8D82-4DA0-83AA-EF8479BDE062}-0"
+          uid="{59F3F79F-2043-45A6-82EE-299BD65CA793}" />
+        <r
+          ds="{C2A97A01-C3C0-4C80-886E-94C2C4150B2C}"
+          id="{04B38FE4-9672-466A-9DFF-25928F3085E0}"
+          par=""
+          ph="/mobileapp-main/details-{F2D6E6B3-8D82-4DA0-83AA-EF8479BDE062}-0"
+          uid="{2F776FF4-A00F-43DF-B082-BC8B3D25BCBE}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240201T121717Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1ebaee68-bdef-4975-ad5c-df2df82a53a6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Gavin.Sayce
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250414T121402Z

@@ -1,0 +1,29 @@
+﻿---
+ID: "5760584c-5642-4e75-b57e-4348653dd821"
+Parent: "71349097-6562-4138-b593-4e32703d71c1"
+Template: "71349097-6562-4138-b593-4e32703d71c1"
+Path: /sitecore/templates/Feature/Basic Content/CTA/ParametersTemplate_CtaSettings/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1e6a8f6c-1f38-4067-a7d5-02352116841e"
+      Hint: AlignmentStyle
+      Value: "{A4296376-02EE-4617-96F7-21BF9DB9CD9C}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160322T104801Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7630bd95-c280-4abb-ae53-f7664f247b30"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221208T025826Z
+    - ID: "f3625cb4-0142-4564-919c-50d9868926ce"
+      Hint: ButtonStyle
+      Value: "{B94552C6-F1D4-435A-9E11-FC9F13F7C32C}"

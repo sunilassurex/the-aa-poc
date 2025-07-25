@@ -1,0 +1,428 @@
+﻿---
+ID: "c8dd69f4-6f88-4f5e-ba13-cb23b130cfd8"
+Parent: "1e79ba6d-6e11-4176-bfc8-1657c58eb462"
+Template: "cd1d2dba-53e8-4ada-bb4d-a63530ef7336"
+Path: "/sitecore/content/AA/mobile-app/components/accordion/accordion-items/help/changing-marketing-preferences"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240909T112150Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0cdd6db0-7e7a-4b75-a408-6cadca957ad5"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Incorrect details showing in the app
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        **Vehicle details are incorrectly**
+        
+        If your details are correct on the [DVLA website](https://www.gov.uk/get-vehicle-information-from-dvla) but wrong on our app, contact us and we’ll get them updated.
+        
+        **MOT or road tax details are incorrect**
+        
+        If you’ve recently renewed your MOT or road tax and it hasn’t updated in our app, remove the vehicle from the Vehicles section and re-add it to refresh your details. Information still not right? Contact us and we’ll update it for you.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240919T142406Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240919T141541Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ecfe2fdc-566e-42e3-951b-134e6612da32"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Incorrect details showing in the app
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        **Vehicle details are incorrectly**
+        
+        If your details are correct on the [DVLA website](https://www.gov.uk/get-vehicle-information-from-dvla) but wrong on our app, contact us and we’ll get them updated.
+        
+        **MOT or road tax details are incorrect**
+        
+        If you’ve recently renewed your MOT or road tax and it hasn’t updated in our app, remove the vehicle from the Vehicles section and re-add it to refresh your details. Information still not right? [Contact us]({contactUsCTA}) and we’ll update it for you.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240919T141541Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240919T142406Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240919T141629Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0046e6c0-e83c-4aed-bb4c-53400bdf560e"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Deleting your account
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: "To delete your account, [call us on 0330 1028 005](tel:0330 1028 005). This won’t affect your cover. "
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240919T141629Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240919T152938Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240919T152905Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3102bbd1-9a5f-4b6a-9f90-4e68e675bdb8"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Changing marketing preferences
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: "If you’d like to change your preferences, you can [opt out of marketing communications and targeted ads](https://www.theaa.com/help-support/privacy/your-personal-information)."
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240919T152905Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240919T153539Z
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240919T153544Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9d8842f9-3ec1-4c61-9c01-8b48469e88aa"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Changing marketing preferences
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: "If you’d like to change your preferences, you can [opt out of marketing communications and targeted ads](https://www.theaa.com/help-support/privacy/your-personal-information)."
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240919T153544Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240919T153550Z
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241022T110032Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6c51df90-3a85-4bf0-97c4-d1031f996c84"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Changing marketing preferences
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: "If you’d like to change your preferences, you can [opt out of marketing communications and targeted ads](https://www.theaa.com/help-support/privacy/your-personal-information&utm_medium=app-aa-{deviceOS}&utm_source=view_privacy_notice&utm_campaign=account_faqs&utm_content=faq_3_item_content_link)."
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241022T110032Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241022T110319Z
+  - Version: 7
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241022T110322Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3275bdf1-7231-4a70-a765-35932b8161f8"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Changing marketing preferences
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: "If you’d like to change your preferences, you can [opt out of marketing communications and targeted ads](https://www.theaa.com/help-support/privacy/your-personal-information&utm_medium=app-aa-{deviceOS}&utm_source=view_privacy_notice&utm_campaign=account_faqs&utm_content=faq_3_item_content_link)."
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241022T110322Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241022T110326Z
+  - Version: 8
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241024T095332Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cb75ee8a-94df-4999-902b-49007ef24766"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Changing marketing preferences
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: "If you’d like to change your preferences, you can [opt out of marketing communications and targeted ads](https://www.theaa.com/help-support/privacy/your-personal-information&utm_medium=app-aa-{deviceOS}&utm_source=change_your_marketing_preferences&utm_campaign=account_faqs&utm_content=faq_3_item_content_link)."
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241024T095332Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241024T095432Z
+  - Version: 9
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241024T095437Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2c50989f-862b-4ac8-8222-f1bce8f56e34"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Changing marketing preferences
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: "If you’d like to change your preferences, you can [opt out of marketing communications and targeted ads](https://www.theaa.com/help-support/privacy/your-personal-information&utm_medium=app-aa-{deviceOS}&utm_source=change_your_marketing_preferences&utm_campaign=account_faqs&utm_content=faq_3_item_content_link)."
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241024T095437Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241024T095442Z
+  - Version: 10
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241025T155457Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "98ccbeaf-ed8e-400e-90f8-aa8c22d9956a"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Changing marketing preferences
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: "If you’d like to change your preferences, you can [opt out of marketing communications and targeted ads](https://www-uat.theaa.digital/help-support/privacy/your-personal-information?utm_medium=app-aa-{deviceOS}&utm_source=change_your_marketing_preferences&utm_campaign=account_faqs&utm_content=faq_3_item_content_link)."
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241025T155457Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241025T155740Z
+  - Version: 11
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241025T155744Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "38e8dfb3-165d-4b48-ac96-8b5695d2464b"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Changing marketing preferences
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: "If you’d like to change your preferences, you can [opt out of marketing communications and targeted ads](https://www.theaa.com/help-support/privacy/your-personal-information?utm_medium=app-aa-{deviceOS}&utm_source=change_your_marketing_preferences&utm_campaign=account_faqs&utm_content=faq_3_item_content_link)."
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241025T155744Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241118T144425Z

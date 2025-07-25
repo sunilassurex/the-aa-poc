@@ -1,0 +1,139 @@
+﻿---
+ID: "30365e5c-d00e-42bb-9254-ca680d90ff4e"
+Parent: "db700399-9b94-4361-aff2-1b6e4f2ff742"
+Template: "7f220b99-7bad-46ed-ad73-3c59cbe89e9a"
+Path: "/sitecore/content/AA/mobile-app/components/accordion/accordion-section/technical-issues"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0b1dd1c3-e4a4-4648-a4f9-c59c953e18d5"
+      Hint: AccordionSectionHeader
+      Value: Technical issues
+    - ID: "1e6c2073-9b68-41ad-bde5-4ba7d886a99e"
+      Hint: AccordionItems
+      Value: |
+        {E1212982-E118-431A-8180-0C5EEA781A5F}
+        {720C04CB-2AD8-4272-AE24-89136E45C3D7}
+        {722F7B7A-3AA9-4C90-B9B0-F461EE4D1089}
+        {EBF48F02-9490-4BE5-A944-621DFEF1A927}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240909T112210Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "11ef2c0c-6934-49cd-bce2-dc5ff69b4d40"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "d103a0ad-d38e-4ae4-b7e2-f010032667dc"
+      Hint: AccordionSectionDescription
+      Value: Advice if you’re having problems logging in, registering for the app, or with incorrect vehicle information showing.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240912T052051Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0b1dd1c3-e4a4-4648-a4f9-c59c953e18d5"
+      Hint: AccordionSectionHeader
+      Value: Technical issues
+    - ID: "1e6c2073-9b68-41ad-bde5-4ba7d886a99e"
+      Hint: AccordionItems
+      Value: |
+        {E1212982-E118-431A-8180-0C5EEA781A5F}
+        {720C04CB-2AD8-4272-AE24-89136E45C3D7}
+        {722F7B7A-3AA9-4C90-B9B0-F461EE4D1089}
+        {963226A9-480A-4681-B431-F91658CB8673}
+        {EBF48F02-9490-4BE5-A944-621DFEF1A927}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240919T154706Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8da76570-9213-479b-94c3-e181e0bf1771"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240919T154706Z
+    - ID: "d103a0ad-d38e-4ae4-b7e2-f010032667dc"
+      Hint: AccordionSectionDescription
+      Value: Advice if you’re having problems logging in, registering for the app, or with incorrect vehicle information showing.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240919T154814Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0b1dd1c3-e4a4-4648-a4f9-c59c953e18d5"
+      Hint: AccordionSectionHeader
+      Value: Technical issues
+    - ID: "1e6c2073-9b68-41ad-bde5-4ba7d886a99e"
+      Hint: AccordionItems
+      Value: |
+        {E1212982-E118-431A-8180-0C5EEA781A5F}
+        {720C04CB-2AD8-4272-AE24-89136E45C3D7}
+        {722F7B7A-3AA9-4C90-B9B0-F461EE4D1089}
+        {963226A9-480A-4681-B431-F91658CB8673}
+        {EBF48F02-9490-4BE5-A944-621DFEF1A927}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240919T154818Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cdb49603-0afa-4740-8e20-7b26edfc5008"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240919T154818Z
+    - ID: "d103a0ad-d38e-4ae4-b7e2-f010032667dc"
+      Hint: AccordionSectionDescription
+      Value: Advice if you’re having problems logging in, registering for the app, or with incorrect vehicle information showing.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240919T154823Z

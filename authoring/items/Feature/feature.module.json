@@ -1,0 +1,30 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Feature.TheAA",
+  "references": ["Foundation.TheAA"],
+  "items": {
+    "includes": [
+	  {
+        "name": "templatesMobileApp",
+        "path": "/sitecore/templates/Feature/Headless/Mobile-App",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "templatesBasicContent",
+        "path":"/sitecore/templates/Feature/Basic Content",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name":"templateAnalytics",
+        "path":"/sitecore/templates/Feature/Meta Data/Analytics",
+        "allowedPushOperations":"CreateUpdateAndDelete"
+      },
+      {
+        "name":"renderingsMobileApp",
+        "path":"/sitecore/layout/Renderings/Feature/Headless/mobile-app",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      }
+    
+    ]
+  }
+}

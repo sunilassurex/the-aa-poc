@@ -1,0 +1,35 @@
+﻿---
+ID: "98687ed3-d88f-496b-8a16-6c1f937c9ba0"
+Parent: "dac0ebb2-cd6b-46c8-abe4-503ab7728254"
+Template: "32b6bbe1-b860-49ff-9f72-9e11f702d0bd"
+Path: /sitecore/system/Settings/DataContextFilters/BranchesDataContext
+SharedFields:
+- ID: "01e0b031-7a29-4253-9033-dfd90fb260d7"
+  Hint: Include templates
+  Value: |
+    {E3E2D58C-DF95-4230-ADC9-279924CECE84}
+    {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+    {AB86861A-6030-46C5-B394-E8F99E8B87DB}
+    {239F9CF4-E5A0-44E0-B342-0F32CD4C6D8B}
+    {0437FEE2-44C9-46A6-ABE9-28858D9FEE8C}
+    {35E75C72-4985-4E09-88C3-0EAC6CD1E64F}
+    {85ADBF5B-E836-4932-A333-FE0F9FA1ED1E}
+    {B2613CC1-A748-46A3-A0DB-3774574BD339}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230530T095302Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fdb991c3-72bf-46e5-9ee2-570715a6b5a1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230530T095636Z

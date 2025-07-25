@@ -1,0 +1,44 @@
+﻿---
+ID: "314f51c3-2c3e-4ab9-a495-c5238fdd558c"
+Parent: "bccbfecc-9953-4c4d-8bff-b31e288cbdae"
+Template: "9f63f3ed-bfb8-49a3-b370-1830e0a5920f"
+Path: /sitecore/system/Settings/Buckets/Settings/Search Operations/Information Architecture/Move Item List to Location
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Network/32x32/server_to_client_critical.png
+- ID: "5e34a660-3099-4e49-87df-80eb1decf2a6"
+  Hint: Enabled
+  Value: 1
+- ID: "ccd35091-1a66-4ce5-a1d3-77a2ccd29142"
+  Hint: Type
+  Value: "bucket:moveresultsto"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120207T104300
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5f3dd948-699e-4000-a9ce-2096ec943707"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9bdf564-ff37-4564-b943-00d4d89c19f1"
+      Hint: List Name
+      Value: Move results to
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20141027T123050:635500098502126068Z"

@@ -1,0 +1,219 @@
+﻿---
+ID: "ea25aecd-67e3-4044-8aea-11c4b559f717"
+Parent: "cda779cf-edbc-4ab3-bbeb-f18403e92b11"
+Template: "b36ba9fd-0dc0-49c8-bea2-e55d70e6af28"
+Path: "/sitecore/content/AA/mobile-app/help-logged-out"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+- ID: "a791f095-2521-4b4d-bef9-21dda221f608"
+  Hint: __Style
+  Value: 
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{4F57DBDC-C4BB-43AE-A615-7FEA56FFD513}">
+        <r
+          ds="{D231B15F-C916-4DC5-BA7F-C3B36B879C7B}"
+          id="{751C50A2-C160-4D38-9F48-376285DAC655}"
+          par=""
+          ph="/mobileapp-main"
+          uid="{90A5423C-9E32-4FA1-BF94-372C67E400C3}" />
+        <r
+          ds="{6AFD79E0-4E02-4E55-91D1-E9C800DF733C}"
+          id="{FE7DBB64-CD01-4BFB-964A-AA018590254C}"
+          pt="{C6985D94-910B-4B9C-8358-587DC8E509CB}"
+          par=""
+          ph="/mobileapp-main"
+          uid="{455F2178-CE12-4650-B43E-A36E2567AEC4}">
+          <rls>
+            <ruleset
+              pet="true">
+              <rule
+                name="Has Whatsapp"
+                uid="{4FD4C0FF-F13E-42EB-B5DD-0D61216F2516}"
+                test="true">
+                <conditions>
+                  <condition
+                    id="{DCB5FDC2-43F8-4AF3-AD36-60B5CB94F93D}"
+                    uid="8E2157FE9F0C445D8B17816CB356BC47"
+                    QueryStringName="hasWA"
+                    operatorid="{10537C58-1684-4CAB-B4C0-40C10907CE31}"
+                    QueryStringValue="true" />
+                </conditions>
+                <actions>
+                  <action
+                    id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                    uid="7A92604B47704DA197770EFE8A08A02F"
+                    DataSource="{F3F6C532-BA1A-4AB5-AFDD-AFDEC5F6D7E4}" />
+                </actions>
+              </rule>
+              <rule
+                uid="{00000000-0000-0000-0000-000000000000}"
+                name="Default"
+                test="true">
+                <conditions>
+                  <condition
+                    id="{4888ABBB-F17D-4485-B14B-842413F88732}"
+                    uid="8A162AB2B541423086C9363A8B377519" />
+                </conditions>
+                <actions>
+                  <action
+                    id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                    uid="B6977EC19AA14D61A4D70D2824B93F2B"
+                    DataSource="{AA102F14-AFFE-4F83-844F-BA7483216A86}" />
+                </actions>
+              </rule>
+            </ruleset>
+          </rls>
+        </r>
+        <r
+          ds="{4FDD561E-0760-4C90-8FB2-E3A0A6357B33}"
+          id="{FE7DBB64-CD01-4BFB-964A-AA018590254C}"
+          par=""
+          ph="/mobileapp-main-livepersondown"
+          uid="{C743E971-FB77-4EB7-982B-19B2261D02B8}" />
+        <r
+          ds="{AF71A6C8-4CB5-426C-83DA-E09C8DB5E430}"
+          id="{E13E5192-69CA-497C-9D12-05FCCECF799F}"
+          par=""
+          ph="/mobileapp-main"
+          uid="{10D6D0DF-3A12-4610-8002-9D0F0F09DEDE}" />
+        <r
+          ds="{62FC40BF-43BA-4E7C-86C0-13B2D4EFD511}"
+          id="{22EDD63D-D3B6-48BE-A61A-FB2E4D2E58FB}"
+          pt="{C6985D94-910B-4B9C-8358-587DC8E509CB}"
+          par=""
+          ph="/mobileapp-main/contact_us-{10D6D0DF-3A12-4610-8002-9D0F0F09DEDE}-0"
+          uid="{BD331365-7BDB-4660-A951-FC512E79BE5F}">
+          <rls>
+            <ruleset
+              pet="true">
+              <rule
+                name="Has Whatsapp"
+                uid="{722A8B57-E7FB-40DF-9459-F07A83B8190C}"
+                test="true">
+                <conditions>
+                  <condition
+                    id="{DCB5FDC2-43F8-4AF3-AD36-60B5CB94F93D}"
+                    uid="DCAF448EAFCF4F0E9051CC1957F56400"
+                    QueryStringName="hasWA"
+                    operatorid="{10537C58-1684-4CAB-B4C0-40C10907CE31}"
+                    QueryStringValue="true" />
+                </conditions>
+                <actions>
+                  <action
+                    id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                    uid="E43D22DBF6114D2AA97C9783CD7F305A"
+                    DataSource="{D03F1C9D-DF64-4ACF-8AFB-298B755E5A94}" />
+                </actions>
+              </rule>
+              <rule
+                uid="{00000000-0000-0000-0000-000000000000}"
+                name="Default"
+                test="true">
+                <conditions>
+                  <condition
+                    id="{4888ABBB-F17D-4485-B14B-842413F88732}"
+                    uid="07555DB15592439C9ED2C9B7D15EF78A" />
+                </conditions>
+                <actions>
+                  <action
+                    id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                    uid="BC052880731C484BB01E1DC11358D211"
+                    DataSource="{62FC40BF-43BA-4E7C-86C0-13B2D4EFD511}" />
+                </actions>
+              </rule>
+            </ruleset>
+          </rls>
+        </r>
+        <r
+          ds="{4C9D4E6E-AC69-43FF-8435-C864824A6002}"
+          id="{22EDD63D-D3B6-48BE-A61A-FB2E4D2E58FB}"
+          pt="{C6985D94-910B-4B9C-8358-587DC8E509CB}"
+          par=""
+          ph="/mobileapp-main/contact_us-{10D6D0DF-3A12-4610-8002-9D0F0F09DEDE}-0"
+          uid="{080C3CB0-58AE-41B5-B754-E3A913217AC1}">
+          <rls>
+            <ruleset
+              pet="true">
+              <rule
+                name="Has Whatsapp Installed"
+                uid="{2809BB94-05FA-490B-9224-414D14BE9F79}"
+                test="true">
+                <conditions>
+                  <condition
+                    id="{DCB5FDC2-43F8-4AF3-AD36-60B5CB94F93D}"
+                    uid="8B434BE513764BB8807A45DF1FFC393D"
+                    QueryStringName="hasWA"
+                    operatorid="{10537C58-1684-4CAB-B4C0-40C10907CE31}"
+                    QueryStringValue="true" />
+                </conditions>
+                <actions>
+                  <action
+                    id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                    uid="F408BE40E4BB4AEB95D5607E37CAF138"
+                    DataSource="{4C9D4E6E-AC69-43FF-8435-C864824A6002}" />
+                  <action
+                    id="{25F351A1-712D-45F8-857D-8AD95BB2ACE9}"
+                    uid="0EF6255882B54B3CAF10675F90B90757" />
+                </actions>
+              </rule>
+              <rule
+                uid="{00000000-0000-0000-0000-000000000000}"
+                name="Default"
+                test="true">
+                <conditions>
+                  <condition
+                    id="{4888ABBB-F17D-4485-B14B-842413F88732}"
+                    uid="1BB3212D0D5C46749F15F74480B98D52" />
+                </conditions>
+                <actions>
+                  <action
+                    id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                    uid="CD7CC47123784F2CB4EC34A96C566CFD"
+                    DataSource="{4C9D4E6E-AC69-43FF-8435-C864824A6002}" />
+                </actions>
+              </rule>
+            </ruleset>
+          </rls>
+        </r>
+        <r
+          ds="{AD537EE2-6397-4DD8-A564-3E4B728942BC}"
+          id="{22EDD63D-D3B6-48BE-A61A-FB2E4D2E58FB}"
+          par=""
+          ph="/mobileapp-main/contact_us-{10D6D0DF-3A12-4610-8002-9D0F0F09DEDE}-0-livepersondown"
+          uid="{1BE7ED2E-2096-49B8-B178-D44BDF17808E}" />
+        <r
+          ds="{EA89CB5D-678B-4EC8-99D8-244802B55FFB}"
+          id="{22EDD63D-D3B6-48BE-A61A-FB2E4D2E58FB}"
+          par=""
+          ph="/mobileapp-main/contact_us-{10D6D0DF-3A12-4610-8002-9D0F0F09DEDE}-0"
+          uid="{A4CBEAFD-9434-469D-B9F6-5E2D9AE64ACA}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240201T121717Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{C55B483C-EA7F-4E76-A066-985F7D9396CA}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0761035d-7b2b-4cec-8513-966214745dab"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241104T103120Z

@@ -1,0 +1,26 @@
+﻿---
+ID: "03122413-35d2-40d8-a211-d1ced1ff5d53"
+Parent: "c8d58cb5-a7d3-47ab-afcf-14fbc9ec6c86"
+Template: "c8d58cb5-a7d3-47ab-afcf-14fbc9ec6c86"
+Path: /sitecore/templates/Feature/Basic Content/CTA/ParametersTemplate_CTA/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1e6a8f6c-1f38-4067-a7d5-02352116841e"
+      Hint: AlignmentStyle
+      Value: "{A4296376-02EE-4617-96F7-21BF9DB9CD9C}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160322T104801Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d30232cf-f768-480e-9886-ab4d0e4fbb40"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        theaa\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241024T015425Z

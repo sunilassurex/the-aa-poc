@@ -1,0 +1,291 @@
+﻿---
+ID: "c306b95a-6d10-4f3a-abad-5a4a215de319"
+Parent: "7c691c0d-c7d0-41b9-a540-9d1823931a22"
+Template: "c441c3b6-82a7-4b05-b0c9-82444bd53dec"
+Path: "/sitecore/content/AA/mobile-app/components/policy-error/shop-policy-not-eligible"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240711T090802Z
+    - ID: "3800d4bc-e0e8-458c-bfb1-fb4dd734ec4f"
+      Hint: Primary CTA
+      Value: "{5A081CB1-A837-4521-84F8-EE769796326B}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: We need some more information to finish setting up your account.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "6796c90e-9d9f-462d-bd0d-a0b5a7c377c8"
+      Hint: Error type
+      Value: "{1C663CBA-58F2-42B3-BFF3-BEC28727B1A4}"
+    - ID: "6e0e59ca-d09e-4b79-ad21-08d1422ae0f5"
+      Hint: Background Image
+      Value: |
+        <image mediaid="{0DBEDA89-1CDA-4E1E-BC15-B83672C1A857}" />
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Just a few more details
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "71f0b131-1a58-45ce-b299-f7c713764931"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240711T090802Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241011T065521Z
+    - ID: "f1d2c6a7-ce5d-48d4-89d5-384dcf5ef1b8"
+      Hint: Secondary CTA
+      Value: "{1E652C6F-7031-4829-B441-9D5DC3D793E4}"
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{8CD7E2FF-5BC0-41BC-AFDF-23D5D3E78D40}"
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240711T090802Z
+    - ID: "3800d4bc-e0e8-458c-bfb1-fb4dd734ec4f"
+      Hint: Primary CTA
+      Value: "{5A081CB1-A837-4521-84F8-EE769796326B}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: We need some more information to finish setting up your account.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "6796c90e-9d9f-462d-bd0d-a0b5a7c377c8"
+      Hint: Error type
+      Value: "{1C663CBA-58F2-42B3-BFF3-BEC28727B1A4}"
+    - ID: "6e0e59ca-d09e-4b79-ad21-08d1422ae0f5"
+      Hint: Background Image
+      Value: |
+        <image mediaid="{0DBEDA89-1CDA-4E1E-BC15-B83672C1A857}" />
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Just a few more details
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6b7eb531-0604-4563-a791-397c878d0233"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240711T090802Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241011T065521Z
+    - ID: "f1d2c6a7-ce5d-48d4-89d5-384dcf5ef1b8"
+      Hint: Secondary CTA
+      Value: "{1E652C6F-7031-4829-B441-9D5DC3D793E4}"
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{8CD7E2FF-5BC0-41BC-AFDF-23D5D3E78D40}"
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240729T155649Z
+    - ID: "3800d4bc-e0e8-458c-bfb1-fb4dd734ec4f"
+      Hint: Primary CTA
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: There aren’t any offers available with the policy you’ve currently got with us.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "6796c90e-9d9f-462d-bd0d-a0b5a7c377c8"
+      Hint: Error type
+      Value: "{1D31C05A-3D43-4309-B891-9DB5D22CB29F}"
+    - ID: "6e0e59ca-d09e-4b79-ad21-08d1422ae0f5"
+      Hint: Background Image
+      Value: |
+        <image mediaid="{0DBEDA89-1CDA-4E1E-BC15-B83672C1A857}" />
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: No offers available
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b3fac110-5137-4759-97ff-2999593b836f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240729T155649Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241011T070756Z
+    - ID: "f1d2c6a7-ce5d-48d4-89d5-384dcf5ef1b8"
+      Hint: Secondary CTA
+      Value: 
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{8CD7E2FF-5BC0-41BC-AFDF-23D5D3E78D40}"
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241025T115951Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3800d4bc-e0e8-458c-bfb1-fb4dd734ec4f"
+      Hint: Primary CTA
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: There aren’t any offers available with the policy you’ve currently got with us.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "6796c90e-9d9f-462d-bd0d-a0b5a7c377c8"
+      Hint: Error type
+      Value: "{1D31C05A-3D43-4309-B891-9DB5D22CB29F}"
+    - ID: "6e0e59ca-d09e-4b79-ad21-08d1422ae0f5"
+      Hint: Background Image
+      Value: |
+        <image mediaid="{0DBEDA89-1CDA-4E1E-BC15-B83672C1A857}" />
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: No offers available
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "494549c6-6b54-41a2-a6fe-3f82ebce510c"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: no offers for policy message
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241025T115951Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241025T120022Z
+    - ID: "f1d2c6a7-ce5d-48d4-89d5-384dcf5ef1b8"
+      Hint: Secondary CTA
+      Value: 
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{8CD7E2FF-5BC0-41BC-AFDF-23D5D3E78D40}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: message item
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241025T120025Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3800d4bc-e0e8-458c-bfb1-fb4dd734ec4f"
+      Hint: Primary CTA
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: There aren’t any offers available with the policy you’ve currently got with us.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "6796c90e-9d9f-462d-bd0d-a0b5a7c377c8"
+      Hint: Error type
+      Value: "{1D31C05A-3D43-4309-B891-9DB5D22CB29F}"
+    - ID: "6e0e59ca-d09e-4b79-ad21-08d1422ae0f5"
+      Hint: Background Image
+      Value: |
+        <image mediaid="{0DBEDA89-1CDA-4E1E-BC15-B83672C1A857}" />
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: No offers available
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "eec0c96b-f462-43fc-9fcb-97bf055b2fca"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: no offers for policy message
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241025T120025Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241025T120029Z
+    - ID: "f1d2c6a7-ce5d-48d4-89d5-384dcf5ef1b8"
+      Hint: Secondary CTA
+      Value: 
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{8CD7E2FF-5BC0-41BC-AFDF-23D5D3E78D40}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: message item

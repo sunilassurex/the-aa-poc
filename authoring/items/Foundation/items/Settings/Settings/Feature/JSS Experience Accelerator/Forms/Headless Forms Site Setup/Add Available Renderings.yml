@@ -1,0 +1,30 @@
+﻿---
+ID: "cbd78513-9274-49f5-b757-51bcebbab68b"
+Parent: "1f35559f-2140-4774-8bc1-525bb722baa2"
+Template: "3aea335c-d06d-45b1-841a-cbc8d2d1ce40"
+Path: /sitecore/system/Settings/Feature/JSS Experience Accelerator/Forms/Headless Forms Site Setup/Add Available Renderings
+SharedFields:
+- ID: "52c91c75-6698-4701-a8a2-242ace59a8d6"
+  Hint: Location
+  Value: "{3F14C1B6-5A2D-44CA-A8EF-DFE3CBD574E4}"
+- ID: "7868e6bc-525c-4fce-ab8a-77da3e09b171"
+  Hint: Name
+  Value: Forms
+- ID: "e62c28f0-9d3b-46e2-8bec-a5e120542499"
+  Hint: Template
+  Value: "{7B3936FD-0957-4A49-B613-58F1BFA0E876}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211021T084427Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c895dcfc-608a-4c8a-a180-f0e7cb2387e8"

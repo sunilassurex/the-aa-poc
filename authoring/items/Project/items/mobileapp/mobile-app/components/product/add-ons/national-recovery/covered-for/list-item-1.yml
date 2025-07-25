@@ -1,0 +1,50 @@
+﻿---
+ID: "31385084-2a24-448b-8a0d-fb5d3b92e304"
+Parent: "79571e7c-6581-4ab8-8da6-ac7227be05d6"
+Template: "f2a621ee-53a7-4667-8bc5-9cc51d545b7c"
+Path: "/sitecore/content/AA/mobile-app/components/product/add-ons/national-recovery/covered-for/list-item-1"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{6D388D16-8C90-4689-A958-60C34283788A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240705T073418Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: If we can’t find a fix at the roadside, we’ll take you, your passengers and vehicle to any UK mainland destination
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "6da47f45-c8a5-41a8-80ae-a69605afbec1"
+      Hint: Type
+      Value: "{FDA4DE15-D46E-49E4-8D58-C71947EBBDF9}"
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: National recovery
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{D49E3CB5-F2F3-4B59-8C8C-1EC2EA2687D5}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "335a2960-6f2f-441f-b9c6-8cdb1aeeea58"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240902T051020Z

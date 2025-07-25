@@ -1,0 +1,51 @@
+﻿---
+ID: "4d0b1aa2-e4e1-4e17-b427-d1532573c146"
+Parent: "2528825e-bc9e-4805-9ff7-4f2bdfd44d25"
+Template: "6fb1ce5b-b31d-4ce1-b116-3660d8945efc"
+Path: "/sitecore/content/AA/mobile-app/components/contact-us/details-screen/whatsapp-not-detected-logged-in/whatsapp-description"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 75
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240910T061119Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: |
+        It looks like you don’t have WhatsApp installed on your device. 
+        
+        You can message us on WhatsApp if you have a question. It’s not a live chat, so you might not get an instant reply. But one of our team will get back to you as soon as they’re free. 
+        
+        Download WhatsApp and follow the steps to start the conversation. 
+        
+        Or chat to us online if you prefer.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e4a3bfd9-50b3-4e43-ae73-77288d6fb713"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240912T052139Z

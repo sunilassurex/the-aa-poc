@@ -1,0 +1,38 @@
+﻿---
+ID: "4b35d4cc-bf85-4f10-8ced-81984eac2ba5"
+Parent: "063ec868-948c-40f7-aa5f-0d3850dbe420"
+Template: "f90052a5-b4e6-4e6d-9812-1e1b88a6fcea"
+Path: /sitecore/system/Settings/Rules/Definitions/Elements/Insert Options/Remove Insert Option
+SharedFields:
+- ID: "ff55d5a7-6d4b-4cd1-83e0-bac268073f66"
+  Hint: Type
+  Value: Sitecore.Rules.InsertOptions.RemoveInsertOption,Sitecore.Kernel
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20080923T084301
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9fc8cba5-082f-4a07-9570-a9e4a864695a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20130514T152957:635041421971468416"
+    - ID: "eeb36a3b-40d9-4af5-862a-de257b84dca3"
+      Hint: Text
+      Value: "remove [insertoptionid,Tree,root=/sitecore/templates,specific] insert option"

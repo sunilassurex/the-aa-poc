@@ -1,0 +1,23 @@
+﻿---
+ID: "19d28f8c-6f5f-422c-be5f-00275168dcdb"
+Parent: "4ab05a35-07ed-41ef-9805-5fdc50197e5b"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/Base Rendering Parameters/ParametersTemplate_ImageSettings/Settings
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211217T170827Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e114f48f-81d5-43fe-b7ea-65277098a006"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220120T043513Z

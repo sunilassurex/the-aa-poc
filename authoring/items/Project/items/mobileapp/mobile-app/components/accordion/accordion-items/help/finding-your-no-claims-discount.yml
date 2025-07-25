@@ -1,0 +1,584 @@
+﻿---
+ID: "b4d9845a-1430-464f-9b17-3985994a8d25"
+Parent: "1e79ba6d-6e11-4176-bfc8-1657c58eb462"
+Template: "cd1d2dba-53e8-4ada-bb4d-a63530ef7336"
+Path: "/sitecore/content/AA/mobile-app/components/accordion/accordion-items/help/finding-your-no-claims-discount"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240909T112150Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0cdd6db0-7e7a-4b75-a408-6cadca957ad5"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Incorrect details showing in the app
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        **Vehicle details are incorrectly**
+        
+        If your details are correct on the [DVLA website](https://www.gov.uk/get-vehicle-information-from-dvla) but wrong on our app, contact us and we’ll get them updated.
+        
+        **MOT or road tax details are incorrect**
+        
+        If you’ve recently renewed your MOT or road tax and it hasn’t updated in our app, remove the vehicle from the Vehicles section and re-add it to refresh your details. Information still not right? Contact us and we’ll update it for you.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240919T142406Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240919T141541Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ecfe2fdc-566e-42e3-951b-134e6612da32"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Incorrect details showing in the app
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        **Vehicle details are incorrectly**
+        
+        If your details are correct on the [DVLA website](https://www.gov.uk/get-vehicle-information-from-dvla) but wrong on our app, contact us and we’ll get them updated.
+        
+        **MOT or road tax details are incorrect**
+        
+        If you’ve recently renewed your MOT or road tax and it hasn’t updated in our app, remove the vehicle from the Vehicles section and re-add it to refresh your details. Information still not right? [Contact us]({contactUsCTA}) and we’ll update it for you.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240919T141541Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240919T142406Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240919T141629Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cf64ac3c-8648-432c-9f1c-be77e579b3a3"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Finding your no claims discount
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        You can find the number of years' no claims discount for your car insurance on your Statement of Insurance/Fact. You should have received a copy at purchase or renewal, either by post or in your account.
+        
+        If you need a replacement Statement of Insurance/Fact, go to the documents section in [your account](javascript:internal://my-account) to print a copy.
+        
+        If you cancelled your policy before the renewal date, the number of years’ discount will be on your cancellation letter. 
+        
+        We can't send proof of your no claims discount until your policy has ended.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240919T141629Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240930T143959Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240930T144005Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7b87512b-3b65-4000-9b72-aefb83ff1bf8"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Finding your no claims discount
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        You can find the number of years' no claims discount for your car insurance on your Statement of Insurance/Fact. You should have received a copy at purchase or renewal, either by post or in your account.
+        
+        If you need a replacement Statement of Insurance/Fact, go to the documents section in [your account](javascript:internal://my-account) to print a copy.
+        
+        If you cancelled your policy before the renewal date, the number of years’ discount will be on your cancellation letter. 
+        
+        We can't send proof of your no claims discount until your policy has ended.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240930T144005Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240930T144010Z
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240930T144241Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7d3f0fb9-973f-4e0b-8b0e-bf036ef60ea9"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Finding your no claims discount
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        You can find the number of years' no claims discount for your car insurance on your Statement of Insurance/Fact. You should have received a copy at purchase or renewal, either by post or in your account.
+        
+        If you need a replacement Statement of Insurance/Fact, go to the documents section in [your account](javascript:internal://my-account) to print a copy.
+        
+        If you cancelled your policy before the renewal date, the number of years’ discount will be on your cancellation letter. 
+        
+        We can't send proof of your no claims discount until your policy has ended.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240930T144241Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240930T144247Z
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241001T075251Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "542a044f-aed2-40ea-9fad-08a4e7390764"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Finding your no claims discount
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        You can find the number of years' no claims discount for your car insurance on your Statement of Insurance/Fact. You should have received a copy at purchase or renewal, either by post or in your account.
+        
+        If you need a replacement Statement of Insurance/Fact, go to the documents section in [your account](javascript:internal:/my-account) to print a copy.
+        
+        If you cancelled your policy before the renewal date, the number of years’ discount will be on your cancellation letter. 
+        
+        We can't send proof of your no claims discount until your policy has ended.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241001T075251Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241001T075323Z
+  - Version: 7
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241001T075326Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a7d37d9d-def3-4a64-82af-bb1e81e5cd4d"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Finding your no claims discount
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        You can find the number of years' no claims discount for your car insurance on your Statement of Insurance/Fact. You should have received a copy at purchase or renewal, either by post or in your account.
+        
+        If you need a replacement Statement of Insurance/Fact, go to the documents section in [your account](javascript:internal:/my-account) to print a copy.
+        
+        If you cancelled your policy before the renewal date, the number of years’ discount will be on your cancellation letter. 
+        
+        We can't send proof of your no claims discount until your policy has ended.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241001T075326Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241001T075330Z
+  - Version: 8
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241003T084734Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9828f240-e048-470b-993b-e9790944ad1a"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Finding your no claims discount
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        You can find the number of years' no claims discount for your car insurance on your Statement of Insurance/Fact. You should have received a copy at purchase or renewal, either by post or in your account.
+        
+        If you need a replacement Statement of Insurance/Fact, go to the documents section in [your account](javascript:internal:/my_account) to print a copy.
+        
+        If you cancelled your policy before the renewal date, the number of years’ discount will be on your cancellation letter. 
+        
+        We can't send proof of your no claims discount until your policy has ended.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241003T084734Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241003T084809Z
+  - Version: 9
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241003T084827Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "35d4066e-0ca8-43e9-a559-d21da758418f"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Finding your no claims discount
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        You can find the number of years' no claims discount for your car insurance on your Statement of Insurance/Fact. You should have received a copy at purchase or renewal, either by post or in your account.
+        
+        If you need a replacement Statement of Insurance/Fact, go to the documents section in [your account](javascript:internal:/my_account) to print a copy.
+        
+        If you cancelled your policy before the renewal date, the number of years’ discount will be on your cancellation letter. 
+        
+        We can't send proof of your no claims discount until your policy has ended.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241003T084827Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241003T084834Z
+  - Version: 10
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241009T144044Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "766f116f-0ec9-42f4-8d35-d55f83d0c76b"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Finding your no claims discount
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        You can find the number of years' no claims discount for your car insurance on your Statement of Insurance/Fact. You should have received a copy at purchase or renewal, either by post or in your account.
+        
+        If you need a replacement Statement of Insurance/Fact, go to the documents section in [your account](javascript:internal:/my-account) to print a copy.
+        
+        If you cancelled your policy before the renewal date, the number of years’ discount will be on your cancellation letter. 
+        
+        We can't send proof of your no claims discount until your policy has ended.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241009T144044Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241009T144104Z
+  - Version: 11
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241009T144106Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c7260e12-8225-445f-9b01-842cb0c3d4ba"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Finding your no claims discount
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        You can find the number of years' no claims discount for your car insurance on your Statement of Insurance/Fact. You should have received a copy at purchase or renewal, either by post or in your account.
+        
+        If you need a replacement Statement of Insurance/Fact, go to the documents section in [your account (javascript:internal:/my_account/my_account_summary) to print a copy.
+        
+        If you cancelled your policy before the renewal date, the number of years’ discount will be on your cancellation letter. 
+        
+        We can't send proof of your no claims discount until your policy has ended.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241009T144106Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241011T111656Z
+  - Version: 12
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241014T102919Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8239212f-ff58-45d4-91ba-33ebd699f1a5"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Finding your no claims discount
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        You can find the number of years' no claims discount for your car insurance on your Statement of Insurance/Fact. You should have received a copy at purchase or renewal, either by post or in your account.
+        
+        If you need a replacement Statement of Insurance/Fact, go to the documents section in [your account](javascript:internal:/my_account/my_account_summary) to print a copy.
+        
+        If you cancelled your policy before the renewal date, the number of years’ discount will be on your cancellation letter. 
+        
+        We can't send proof of your no claims discount until your policy has ended.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241014T102919Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241014T103057Z
+  - Version: 13
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241014T103100Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e09dc270-7974-4574-9bcd-a9de638ca98d"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Finding your no claims discount
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        You can find the number of years' no claims discount for your car insurance on your Statement of Insurance/Fact. You should have received a copy at purchase or renewal, either by post or in your account.
+        
+        If you need a replacement Statement of Insurance/Fact, go to the documents section in [your account](javascript:internal:/my_account/my_account_summary) to print a copy.
+        
+        If you cancelled your policy before the renewal date, the number of years’ discount will be on your cancellation letter. 
+        
+        We can't send proof of your no claims discount until your policy has ended.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241014T103100Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241118T144359Z

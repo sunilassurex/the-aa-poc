@@ -1,0 +1,40 @@
+﻿---
+ID: "4aaa855d-af56-4fd0-ac27-fffa2c88303f"
+Parent: "f801c43e-846a-4a69-b16b-417925fafb69"
+Template: "86776923-eca5-4310-8dc0-ae65fe88d078"
+Path: "/sitecore/layout/Renderings/Foundation/Jquery/Jquery-360-no-migrate-js Script"
+SharedFields:
+- ID: "09a60fea-d91a-4be3-87b3-654b7e22531b"
+  Hint: Placeholder
+  Value: 
+- ID: "3d08db46-2267-41b0-bc52-be69fd618633"
+  Hint: Cacheable
+  Value: 1
+- ID: "4f2e35ea-658f-4c4f-9c00-4e0184df82eb"
+  Hint: Data source
+  Value: "/sitecore/content/TheAA/Global/Jquery/jquery-360/jquery-360-no-migrate-js"
+- ID: "8b6d532b-6128-4486-a044-ca06d90948ba"
+  Hint: VaryByData
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220221T063002Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b4c742b4-80cf-4ba3-8097-77ced7f5ccd3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240919T063227Z

@@ -1,0 +1,62 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Foundation.TheAA",
+  "items": {
+    "includes": [
+      {
+        "name": "TheAAWorkflow",
+        "path": "/sitecore/system/Workflows/AA Content Workflow",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "Dictionary",
+        "path": "/sitecore/system/Dictionary",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "Settings",
+        "path": "/sitecore/system/Settings",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name":"templateAllSitePresentation",
+        "path":"/sitecore/templates/AllSites/Presentation",
+        "allowedPushOperations":"CreateUpdateAndDelete"
+      },
+      {
+        "name":"templateBaseInterface",
+        "path":"/sitecore/templates/Foundation/Base Interface",
+        "allowedPushOperations":"CreateUpdateAndDelete"
+      },
+      {
+        "name":"templateBaseRenderingParameter",
+        "path":"/sitecore/templates/Foundation/Base Rendering Parameters",
+        "allowedPushOperations":"CreateUpdateAndDelete"
+      },
+        {
+        "name":"templatePresentation",
+        "path":"/sitecore/templates/Foundation/Presentation",
+        "allowedPushOperations":"CreateUpdateAndDelete"
+      },
+       {
+        "name": "Layout",
+        "path": "/sitecore/layout/Layouts/Foundation",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name":"renderings",
+        "path":"/sitecore/layout/Renderings/Foundation",
+        "allowedPushOperations":"CreateUpdateAndDelete"
+      }
+      
+    ]
+  },
+  "roles": [
+    {
+      "domain": "sitecore",
+      "pattern": "AA*",
+      "allowedPushOperations": "CreateAndUpdate"
+    }
+   
+  ]
+}

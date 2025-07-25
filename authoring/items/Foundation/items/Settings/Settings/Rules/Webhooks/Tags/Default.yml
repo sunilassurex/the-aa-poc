@@ -1,0 +1,38 @@
+﻿---
+ID: "e425a8f4-0f80-45e0-92cc-4bc589ab51d9"
+Parent: "98e5b568-f4a8-411b-9c8e-2bf01f7e7a17"
+Template: "854ba861-63ea-4a0c-8c7b-541e9a7ec4c1"
+Path: /sitecore/system/Settings/Rules/Webhooks/Tags/Default
+SharedFields:
+- ID: "42f77151-098f-496a-94cf-590b7edeeabe"
+  Hint: Tags
+  Value: |
+    {83E58187-D1E5-4FB8-953E-EE89816EC0B5}
+    {2B6BE5E9-5A0B-425E-8CFF-959D7CC46581}
+    {09340671-13CF-4181-A706-BE150B00D735}
+    {CCDEDBA3-3677-433E-BA09-64A3094808C9}
+    {D8933FCB-48F3-468E-8FB6-8F2B5CFAF404}
+    {95611296-3E75-45C0-B7A4-69E69C8499AB}
+    {9DE9BA55-DEBF-4F15-8EC1-F28FE3A5B9FD}
+    {B396D486-63DB-4F62-8DF1-DB0989191848}
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{38069D83-16E5-4533-998A-E9E9E13B508D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210907T100333Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5036becf-e542-4df9-b2e2-1ffb097c12b1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211210T084949Z

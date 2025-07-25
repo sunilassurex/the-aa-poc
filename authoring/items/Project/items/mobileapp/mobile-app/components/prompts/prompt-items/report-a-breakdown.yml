@@ -1,0 +1,249 @@
+﻿---
+ID: "20cc2c6b-fe7a-44a0-9225-99486da63c24"
+Parent: "cf3fc9a6-12b3-400f-9032-b9b15566aa3d"
+Template: "a3b0e764-ceae-42fd-b10a-96b7f04af089"
+Path: "/sitecore/content/AA/mobile-app/components/prompts/prompt-items/report-a-breakdown"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240627T082116Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "79d8d488-702c-4dff-9825-e4288eaaadb6"
+      Hint: Non Active Policy CTA
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{023A1F4C-F851-4AC5-8CD6-75A333F54ED6}" />
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Report a breakdown
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{35539D75-21AB-4E91-A317-59D5121674B3}" />
+    - ID: "85bd82e2-d2fc-442f-8661-8dcb9d9ea49b"
+      Hint: No Policy CTA
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{0F99F1C6-CCA9-461D-A159-A4BC8DD6C920}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "437cdbdc-e2fe-47f3-a764-122b16bb1529"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240705T115228Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240711T095314Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "79d8d488-702c-4dff-9825-e4288eaaadb6"
+      Hint: Non Active Policy CTA
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{023A1F4C-F851-4AC5-8CD6-75A333F54ED6}" />
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Report a breakdown
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{35539D75-21AB-4E91-A317-59D5121674B3}" />
+    - ID: "85bd82e2-d2fc-442f-8661-8dcb9d9ea49b"
+      Hint: No Policy CTA
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{0F99F1C6-CCA9-461D-A159-A4BC8DD6C920}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "266babf0-71dc-412f-a564-26787a582ea5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240711T095314Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240722T130901Z
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{8CD7E2FF-5BC0-41BC-AFDF-23D5D3E78D40}"
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240722T132440Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "79d8d488-702c-4dff-9825-e4288eaaadb6"
+      Hint: Non Active Policy CTA
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{023A1F4C-F851-4AC5-8CD6-75A333F54ED6}" />
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Report a breakdown
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{4ED53332-5683-4742-9E1C-72234147C779}" />
+    - ID: "85bd82e2-d2fc-442f-8661-8dcb9d9ea49b"
+      Hint: No Policy CTA
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title=""  querystring="" id="{0F99F1C6-CCA9-461D-A159-A4BC8DD6C920}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3034165d-cee6-4bd9-836d-48ceebc849fc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240722T132440Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240722T132522Z
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{8CD7E2FF-5BC0-41BC-AFDF-23D5D3E78D40}"
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240723T141110Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "79d8d488-702c-4dff-9825-e4288eaaadb6"
+      Hint: Non Active Policy CTA
+      Value: "{657643F9-4E34-4908-8FB6-3D50D69E3E6F}"
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Report a breakdown
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{4ED53332-5683-4742-9E1C-72234147C779}" />
+    - ID: "85bd82e2-d2fc-442f-8661-8dcb9d9ea49b"
+      Hint: No Policy CTA
+      Value: |
+        <link text="Report a breakdown" linktype="external" url="https://www.theaa.com/breakdown-cover/broken-down/safety-advice?utm_medium=app-aa-{ios OR android}&amp;utm_source=rabo_logged_out&amp;utm_campaign=home&amp;utm_content=report_a_breakdown_button" anchor="" target="" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "30958dce-2665-4230-a156-d1d5d1ea801b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240723T141110Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240726T143148Z
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{8CD7E2FF-5BC0-41BC-AFDF-23D5D3E78D40}"
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240726T143153Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "79d8d488-702c-4dff-9825-e4288eaaadb6"
+      Hint: Non Active Policy CTA
+      Value: "{139D54C5-BC7E-4168-BE9B-8004165DDA56}"
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Report a breakdown
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{4ED53332-5683-4742-9E1C-72234147C779}" />
+    - ID: "85bd82e2-d2fc-442f-8661-8dcb9d9ea49b"
+      Hint: No Policy CTA
+      Value: "{139D54C5-BC7E-4168-BE9B-8004165DDA56}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3cc15d8d-bafb-4781-a1d7-138b5d62de5d"
+    - ID: "8cedb141-9e35-42a4-8999-7dd3145368fd"
+      Hint: CTA
+      Value: "{AFCC304B-9CE7-49ED-A64F-EA468F48D1F0}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240726T143153Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241027T131924Z
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{8CD7E2FF-5BC0-41BC-AFDF-23D5D3E78D40}"

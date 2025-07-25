@@ -1,0 +1,60 @@
+﻿---
+ID: "58602380-3696-4684-838a-218b46a99179"
+Parent: "849fbb4b-2dfc-48a6-a316-a2ec1f87871b"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/mobile-app/Placeholder"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "~/media/5860238036964684838A218B46A99179.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "483ddd2d-a6a1-4624-8875-5584961bc205"
+  Value: PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTM2Ljc0OCAxMi4xMDZDMzMuNDYgOC44MTIgMjkuMDggNyAyNC40MyA3QzE5Ljc4IDcgMTUuMzk0IDguODE4IDEyLjEwNiAxMi4xMDZDOC44MTIgMTUuMzk0IDcgMTkuNzc0IDcgMjQuNDI0QzcgMjkuMDc0IDguODEyIDMzLjQ1NCAxMi4xMDYgMzYuNzQyQzE1LjM5NCA0MC4wMyAxOS43NzQgNDEuODQ4IDI0LjQyNCA0MS44NDhDMjkuMDggNDEuODQ4IDMzLjQ1NCA0MC4wMzYgMzYuNzQyIDM2Ljc0MkM0MC4wMyAzMy40NDggNDEuODQ4IDI5LjA3NCA0MS44NDggMjQuNDI0QzQxLjg0OCAxOS43NzQgNDAuMDM2IDE1LjQgMzYuNzQ4IDEyLjEwNlpNMzUuMDUgMzUuMDVDMzIuMjEyIDM3Ljg4OCAyOC40MzggMzkuNDU0IDI0LjQyNCAzOS40NTRDMjAuNDEgMzkuNDU0IDE2LjYzNiAzNy44OTQgMTMuNzk4IDM1LjA1NkMxMC45NiAzMi4yMTggOS40IDI4LjQ0NCA5LjQgMjQuNDNDOS40IDIwLjQxNiAxMC45NiAxNi42NDIgMTMuNzk4IDEzLjgwNEMxNi42MzYgMTAuOTY2IDIwLjQxIDkuNDA2IDI0LjQyNCA5LjQwNkMyOC40MzggOS40MDYgMzIuMjEyIDEwLjk2NiAzNS4wNSAxMy44MDRDMzcuODg4IDE2LjY0MiAzOS40NDggMjAuNDE2IDM5LjQ0OCAyNC40M0MzOS40NDggMjguNDQ0IDM3Ljg4OCAzMi4yMTggMzUuMDUgMzUuMDVaIiBmaWxsPSIjREEwMDc2Ii8+Cjwvc3ZnPgo=
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 767
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/svg+xml
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: svg
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240702T064915Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "3f4b20e9-36e6-4d45-a423-c86567373f82"
+      Hint: Title
+      Value: Placeholder
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: Placeholder
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5741e914-bfda-4878-a1b5-4b4f95174ed5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240705T145353Z

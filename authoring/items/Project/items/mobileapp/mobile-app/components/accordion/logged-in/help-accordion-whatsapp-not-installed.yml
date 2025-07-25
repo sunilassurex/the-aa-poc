@@ -1,0 +1,51 @@
+﻿---
+ID: "d165da8e-fe4f-4431-9a8a-9a90ba1f3882"
+Parent: "fce7e83c-bac4-4ef0-9059-18bce2156367"
+Template: "bf6d1191-bbaf-4fa3-9f35-65509dbbf808"
+Path: "/sitecore/content/AA/mobile-app/components/accordion/logged-in/help-accordion-whatsapp-not-installed"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: 
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240909T112059Z
+    - ID: "278c87b5-683b-44c2-9183-ec8f6df7c66d"
+      Hint: ContactUs CTA
+      Value: |
+        <link text="contact us" linktype="javascript" url="javascript:internal://contact-us?screen=wa-not-installed" anchor="" title="contact us" />
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bc156dea-198c-4831-86ab-7dd4265a9651"
+    - ID: "a92ee362-44d2-4d10-920c-b0cc453fd34e"
+      Hint: AccordionSectionSelection
+      Value: |
+        {30365E5C-D00E-42BB-9254-CA680D90FF4E}
+        {1B1EB1A3-B614-46B3-B652-D76665501612}
+        {0410787E-208E-4C6A-8F65-F25F8428D458}
+        {21A0CFCF-BC06-40EB-A9E9-8338FA8F0634}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240926T060004Z
+    - ID: "f3f91483-47d5-48ba-871f-9bbb19a7d21d"
+      Hint: AccordionHeader
+      Value: Browse help topics

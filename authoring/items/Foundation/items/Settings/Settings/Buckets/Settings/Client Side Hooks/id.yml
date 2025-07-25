@@ -1,0 +1,34 @@
+﻿---
+ID: "1cc768eb-a635-47ba-8bc0-07d9119f7e84"
+Parent: "4f46aba6-8cc0-492e-bd4c-87c5f03b2352"
+Template: "aec7d5b1-ce97-46ca-8e52-b3bc8031bd86"
+Path: /sitecore/system/Settings/Buckets/Settings/Client Side Hooks/id
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20130507T171525
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f23f173b-8bd2-4a55-a893-ab81c77b002a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "cf80d1c3-f889-46df-9bf8-d593b17c284d"
+      Hint: Name
+      Value: id
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20130507T171709:635035438298853677"

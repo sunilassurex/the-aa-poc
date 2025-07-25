@@ -1,0 +1,519 @@
+﻿---
+ID: "963226a9-480a-4681-b431-f91658cb8673"
+Parent: "1e79ba6d-6e11-4176-bfc8-1657c58eb462"
+Template: "cd1d2dba-53e8-4ada-bb4d-a63530ef7336"
+Path: "/sitecore/content/AA/mobile-app/components/accordion/accordion-items/help/problems-logging-into-the-app"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240909T112150Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "965a99be-5f6a-489f-a34b-482196e12c89"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Incorrect details showing in the app
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        **Vehicle details are incorrectly**
+        
+        If your details are correct on the [DVLA website](https://www.gov.uk/get-vehicle-information-from-dvla) but wrong on our app, contact us and we’ll get them updated.
+        
+        **MOT or road tax details are incorrect**
+        
+        If you’ve recently renewed your MOT or road tax and it hasn’t updated in our app, remove the vehicle from the Vehicles section and re-add it to refresh your details. Information still not right? Contact us and we’ll update it for you.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240919T141915Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240919T141541Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "04a61ebc-8d8e-470e-ac0b-00cab32a21ae"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Incorrect details showing in the app
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        **Vehicle details are incorrectly**
+        
+        If your details are correct on the [DVLA website](https://www.gov.uk/get-vehicle-information-from-dvla) but wrong on our app, contact us and we’ll get them updated.
+        
+        **MOT or road tax details are incorrect**
+        
+        If you’ve recently renewed your MOT or road tax and it hasn’t updated in our app, remove the vehicle from the Vehicles section and re-add it to refresh your details. Information still not right? [Contact us]({contactUsCTA}) and we’ll update it for you.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240919T141541Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240919T141915Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240919T141629Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "aa322c32-6321-41b6-bd9a-70cc9ebf2ad5"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Problems logging into the app
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        We've improved account security. So if you're having trouble logging in, it might be because you need to upgrade your account. 
+        
+        [Check if you have an account first](https://qa-auth.theaa.digital/signup/). If we don’t recognise your email address, follow the steps to create one. If we do recognise your email address, you’ll need to reset your password.
+        
+        If you’re still having problems logging into the app, contact us and we’ll help you access your account.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240919T141629Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241003T131411Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241003T131414Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "32f315b8-d30f-49b6-83bb-641043154112"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Problems logging into the app
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        We've improved account security. So if you're having trouble logging in, it might be because you need to upgrade your account. 
+        
+        [Check if you have an account first](https://qa-auth.theaa.digital/signup/). If we don’t recognise your email address, follow the steps to create one. If we do recognise your email address, you’ll need to reset your password.
+        
+        If you’re still having problems logging into the app, contact us and we’ll help you access your account.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241003T131414Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241009T144220Z
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241009T144224Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f45462b4-9b2c-4705-a541-5efb6f4361ab"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Problems logging into the app
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        We've improved account security. So if you're having trouble logging in, it might be because you need to upgrade your account. 
+        
+        [Check if you have an account first](https://auth.theaa.com/signup/). If we don’t recognise your email address, follow the steps to create one. If we do recognise your email address, you’ll need to reset your password.
+        
+        If you’re still having problems logging into the app, contact us and we’ll help you access your account.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241009T144224Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241011T094849Z
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241016T074808Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a654ed1e-fab9-4585-a2b3-687c3fdad850"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Problems logging into the app
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        We've improved account security. So if you're having trouble logging in, it might be because you need to upgrade your account. 
+        
+        [Check if you have an account first](https://auth.theaa.com/signup/). If we don’t recognise your email address, follow the steps to create one. If we do recognise your email address, you’ll need to reset your password.
+        
+        If you’re still having problems logging into the app, [contact us]({contactUsCTA}) and we’ll help you access your account.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241016T074808Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241016T074921Z
+  - Version: 7
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241016T074924Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cda2cf46-ff98-4277-8ff8-56b79f031665"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Problems logging into the app
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        We've improved account security. So if you're having trouble logging in, it might be because you need to upgrade your account. 
+        
+        [Check if you have an account first](https://auth.theaa.com/signup/). If we don’t recognise your email address, follow the steps to create one. If we do recognise your email address, you’ll need to reset your password.
+        
+        If you’re still having problems logging into the app, [contact us]({contactUsCTA}) and we’ll help you access your account.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241016T074924Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241016T074928Z
+  - Version: 8
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241021T140706Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fcde036a-cdf8-4698-ac0f-dea63118798a"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Problems logging into the app
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        We've improved account security. So if you're having trouble logging in, it might be because you need to upgrade your account. 
+        
+        [Check if you have an account first](https://auth.theaa.com/signup/?target=webview?utm_medium=app-aa-{deviceOS}&utm_source=check_for_existing_account&utm_campaign=technical_faqs&utm_content=faq_4_item_content_link). If we don’t recognise your email address, follow the steps to create one. If we do recognise your email address, you’ll need to reset your password.
+        
+        If you’re still having problems logging into the app, [contact us]({contactUsCTA}) and we’ll help you access your account.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241021T140706Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241021T141211Z
+  - Version: 9
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241021T141215Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f20d0c43-f9ff-4467-b6ed-b365563ae712"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Problems logging into the app
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        We've improved account security. So if you're having trouble logging in, it might be because you need to upgrade your account. 
+        
+        [Check if you have an account first](https://auth.theaa.com/signup/?target=webview?utm_medium=app-aa-{deviceOS}&utm_source=check_for_existing_account&utm_campaign=technical_faqs&utm_content=faq_4_item_content_link). If we don’t recognise your email address, follow the steps to create one. If we do recognise your email address, you’ll need to reset your password.
+        
+        If you’re still having problems logging into the app, [contact us]({contactUsCTA}) and we’ll help you access your account.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241021T141215Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241021T141246Z
+  - Version: 10
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241021T141249Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9f2553ce-0f4e-47d0-a754-84d659ab3977"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Problems logging into the app
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        We've improved account security. So if you're having trouble logging in, it might be because you need to upgrade your account. 
+        
+        [Check if you have an account first](https://auth.theaa.com/signup/?target=webview?utm_medium=app-aa-{deviceOS}&utm_source=check_for_existing_account&utm_campaign=technical_faqs&utm_content=faq_4_item_content_link). If we don’t recognise your email address, follow the steps to create one. If we do recognise your email address, you’ll need to reset your password.
+        
+        If you’re still having problems logging into the app, [contact us]({contactUsCTA}) and we’ll help you access your account.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241021T141249Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241021T141253Z
+  - Version: 11
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241022T103249Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b01c6341-bf56-4420-9a70-fef5290a2131"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Problems logging into the app
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        We've improved account security. So if you're having trouble logging in, it might be because you need to upgrade your account. 
+        
+        [Check if you have an account first](https://auth.theaa.com/signup/?target=webview&utm_medium=app-aa-{deviceOS}&utm_source=check_for_existing_account&utm_campaign=technical_faqs&utm_content=faq_4_item_content_link). If we don’t recognise your email address, follow the steps to create one. If we do recognise your email address, you’ll need to reset your password.
+        
+        If you’re still having problems logging into the app, [contact us]({contactUsCTA}) and we’ll help you access your account.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241022T103249Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241022T103303Z
+  - Version: 12
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241022T103307Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cbc0feb5-5ee0-46be-91b9-80223b6ef2ed"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Problems logging into the app
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        We've improved account security. So if you're having trouble logging in, it might be because you need to upgrade your account. 
+        
+        [Check if you have an account first](https://auth.theaa.com/signup/?target=webview&utm_medium=app-aa-{deviceOS}&utm_source=check_for_existing_account&utm_campaign=technical_faqs&utm_content=faq_4_item_content_link). If we don’t recognise your email address, follow the steps to create one. If we do recognise your email address, you’ll need to reset your password.
+        
+        If you’re still having problems logging into the app, [contact us]({contactUsCTA}) and we’ll help you access your account.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241022T103307Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241118T145713Z

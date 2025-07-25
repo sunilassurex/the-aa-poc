@@ -1,0 +1,28 @@
+﻿---
+ID: "160370bc-e6b2-447c-9057-635a064763bf"
+Parent: "95611296-3e75-45c0-b7a4-69e69c8499ab"
+Template: "aa91a868-02f2-41d3-8b78-1cad91b4dcae"
+Path: /sitecore/system/Settings/Rules/Definitions/Tags/Security/Visibility
+BranchID: "60e3e35b-cef9-4afa-9f89-204ed015ccb9"
+SharedFields:
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20120905T102144
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "be0ce04a-1321-404a-8fac-ed4c1a6b046e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: "20120905T102144:634824373040805986"

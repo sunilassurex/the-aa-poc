@@ -1,0 +1,23 @@
+﻿---
+ID: "926264f3-1cea-4e7c-a9cc-6c7ae2e18d8d"
+Parent: "82339bca-e81b-4e26-9c66-6d77810f6a32"
+Template: "82339bca-e81b-4e26-9c66-6d77810f6a32"
+Path: "/sitecore/templates/Feature/Headless/Mobile-App/Driving Advice Article/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240701T181942Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "194ba15e-9831-4049-9d03-0409555eff2b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250703T015126Z

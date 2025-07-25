@@ -1,0 +1,319 @@
+﻿---
+ID: "e1212982-e118-431a-8180-0c5eea781a5f"
+Parent: "1e79ba6d-6e11-4176-bfc8-1657c58eb462"
+Template: "cd1d2dba-53e8-4ada-bb4d-a63530ef7336"
+Path: "/sitecore/content/AA/mobile-app/components/accordion/accordion-items/help/incorrect-details-showing-in-the-app"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240909T112150Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f683c388-6517-4d51-becb-3039d6960cc1"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Incorrect details showing in the app
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        **Vehicle details are incorrectly**
+        
+        If your details are correct on the [DVLA website](https://www.gov.uk/get-vehicle-information-from-dvla) but wrong on our app, contact us and we’ll get them updated.
+        
+        **MOT or road tax details are incorrect**
+        
+        If you’ve recently renewed your MOT or road tax and it hasn’t updated in our app, remove the vehicle from the Vehicles section and re-add it to refresh your details. Information still not right? Contact us and we’ll update it for you.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240912T052016Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240919T141541Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f0efe83d-fcc5-4c57-9002-83ebf932d2b9"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Incorrect details showing in the app
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        **Vehicle details are incorrectly**
+        
+        If your details are correct on the [DVLA website](https://www.gov.uk/get-vehicle-information-from-dvla) but wrong on our app, contact us and we’ll get them updated.
+        
+        **MOT or road tax details are incorrect**
+        
+        If you’ve recently renewed your MOT or road tax and it hasn’t updated in our app, remove the vehicle from the Vehicles section and re-add it to refresh your details. Information still not right? [Contact us]({contactUsCTA}) and we’ll update it for you.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240919T141541Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240919T141610Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240919T141629Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "552bb5a7-5543-4bed-a64c-5bfc2082f9f2"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Incorrect details showing in the app
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        **Vehicle details are incorrectly**
+        
+        If your details are correct on the [DVLA website](https://www.gov.uk/get-vehicle-information-from-dvla) but wrong on our app, contact us and we’ll get them updated.
+        
+        **MOT or road tax details are incorrect**
+        
+        If you’ve recently renewed your MOT or road tax and it hasn’t updated in our app, remove the vehicle from the Vehicles section and re-add it to refresh your details. Information still not right? [Contact us]({contactUsCTA}) and we’ll update it for you.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240919T141629Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240919T141635Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241111T103924Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c9b4464a-c8e6-4f0e-aa85-baec6ef39c64"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Incorrect details showing in the app
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        **Vehicle details are incorrect**
+        
+        If your details are correct on the [DVLA website](https://www.gov.uk/get-vehicle-information-from-dvla) but wrong on our app, contact us and we’ll get them updated.
+        
+        **MOT or road tax details are incorrect**
+        
+        If you’ve recently renewed your MOT or road tax and it hasn’t updated in our app, remove the vehicle from the Vehicles section and re-add it to refresh your details. Information still not right? [Contact us]({contactUsCTA}) and we’ll update it for you.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241111T103924Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241111T103952Z
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241111T103956Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c05e07a5-c501-44b9-afd6-c30ab7b087fa"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Incorrect details showing in the app
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        **Vehicle details are incorrect**
+        
+        If your details are correct on the [DVLA website](https://www.gov.uk/get-vehicle-information-from-dvla) but wrong on our app, contact us and we’ll get them updated.
+        
+        **MOT or road tax details are incorrect**
+        
+        If you’ve recently renewed your MOT or road tax and it hasn’t updated in our app, remove the vehicle from the Vehicles section and re-add it to refresh your details. Information still not right? [Contact us]({contactUsCTA}) and we’ll update it for you.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241111T103956Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241111T104001Z
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241112T151230Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b13a2a9a-264d-4716-a4d9-b29d2a292b76"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Incorrect details showing in the app
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        **Vehicle details are incorrect**
+        
+        If your details are correct on the [DVLA website](https://www.gov.uk/get-vehicle-information-from-dvla) but wrong on our app,[contact us]({contactUsCTA}) and we’ll get them updated.
+        
+        **MOT or road tax details are incorrect**
+        
+        If you’ve recently renewed your MOT or road tax and it hasn’t updated in our app, remove the vehicle from the Vehicles section and re-add it to refresh your details. Information still not right? [Contact us]({contactUsCTA}) and we’ll update it for you.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241112T151230Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241112T151305Z
+  - Version: 7
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241112T151628Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1e5d631e-3d5a-479d-b66d-c921e7b67c59"
+    - ID: "8dcca28c-dbfc-442c-a9b7-93571df3d8fc"
+      Hint: AccordionTitle
+      Value: Incorrect details showing in the app
+    - ID: "938abe70-194a-4d68-a579-b63defc7ec7a"
+      Hint: AccordionText
+      Value: |
+        **Vehicle details are incorrect**
+        
+        If your details are correct on the [DVLA website](https://www.gov.uk/get-vehicle-information-from-dvla) but wrong on our app,[contact us]({contactUsCTA}) and we’ll get them updated.
+        
+        **MOT or road tax details are incorrect**
+        
+        If you’ve recently renewed your MOT or road tax and it hasn’t updated in our app, remove the vehicle from the Vehicles section and re-add it to refresh your details. 
+        
+        Information still not right? [Contact us]({contactUsCTA}) and we’ll update it for you.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241112T151628Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241118T144521Z

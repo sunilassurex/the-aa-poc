@@ -1,0 +1,40 @@
+﻿---
+ID: "2469f1c0-4ee9-4b0e-abcd-e533731eec87"
+Parent: "e072c4d9-f199-49ec-b11f-d309daa47489"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: "/sitecore/templates/Feature/Headless/Mobile-App/Service Message"
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: |
+    {A2E5B93B-5BA6-41F5-9C9B-686F0C2F5BBD}
+    {45D4D635-3F46-44AF-BCDD-D4C72C0008D2}
+    {6FB1CE5B-B31D-4CE1-B116-3660D8945EFC}
+    {318D7BE7-A0AD-42D6-AFA1-8377005D9A8F}
+    {965455BE-2353-4B83-AFB8-55EA4FF1809B}
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{3D026BAC-CB22-4BC0-B5C8-49261EB237EC}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240719T045206Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2d827d5b-beb5-45b5-8883-530d0fa4bcd3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240829T015107Z

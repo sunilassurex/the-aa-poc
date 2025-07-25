@@ -1,0 +1,30 @@
+﻿---
+ID: "97ed8fb8-24dc-491f-a7d1-5b25680c62ed"
+Parent: "072d2429-bab4-4692-a50a-dd37fe6af224"
+Template: "072d2429-bab4-4692-a50a-dd37fe6af224"
+Path: /sitecore/templates/Foundation/Base Interface/_TealiumProfileType/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220413T181323Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c493f508-d266-4fd9-b6e6-785203462621"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220512T033816Z
+    - ID: "f90c9869-d975-4b45-ba9b-79e31a94e52c"
+      Hint: TealiumProfileType
+      Value: "{BAA1A259-0F78-442E-8BA2-F845CF644B46}"

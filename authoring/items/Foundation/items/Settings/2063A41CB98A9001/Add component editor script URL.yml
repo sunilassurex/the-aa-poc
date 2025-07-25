@@ -1,0 +1,30 @@
+﻿---
+ID: "39937260-e9c0-4808-8e88-6d7b42294371"
+Parent: "d315a501-6503-4545-a5d8-b9fecba1097d"
+Template: "88752f77-9109-424c-b1d8-af91e6369a2e"
+Path: /sitecore/system/Settings/Foundation/JSS Experience Accelerator/FEaaS/FEaaS Site Collection Setup/Add component editor script URL
+SharedFields:
+- ID: "614f52cf-d54b-47d1-a242-d9a7d42860f4"
+  Hint: EditType
+  Value: AddBaseTemplate
+- ID: "67b6641e-309d-4c1e-8e97-63965c7e2c5f"
+  Hint: Template
+  Value: "{9AF6CE61-4FC5-43EE-9014-03E9D9C9C3DF}"
+- ID: "e830af53-210b-4981-b6a8-f8939f587eb1"
+  Hint: Arguments
+  Value: "{2AF2DC09-057F-48C2-A9F4-9779ADF83659}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230111T111000Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d0db1b09-4032-42b5-aa54-6d3c2eda30d1"

@@ -1,0 +1,31 @@
+﻿---
+ID: "e57a7a14-f402-4d07-988d-db700ec5f79a"
+Parent: "e6a7dd8f-5541-44c2-9e2f-ff2bfce97617"
+Template: "239f9cf4-e5a0-44e0-b342-0f32cd4c6d8b"
+Path: "/sitecore/content/AA/mobile-app/configurations/taxonomy"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250225T103829Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9dfc70fa-6497-4cad-985e-5a48ad75f350"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250225T103829Z

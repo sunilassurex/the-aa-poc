@@ -1,0 +1,31 @@
+﻿---
+ID: "f50e53a4-ea70-4265-accf-020d54f469f1"
+Parent: "dac0ebb2-cd6b-46c8-abe4-503ab7728254"
+Template: "32b6bbe1-b860-49ff-9f72-9e11f702d0bd"
+Path: /sitecore/system/Settings/DataContextFilters/TemplatesDataContext
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230524T131858Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d08e34fe-cd23-42c6-96c0-de2f5d246de6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230526T100829Z
