@@ -8,6 +8,10 @@ const Constant = {
     FIRST: 'first',
     SECOND: 'second',
   },
+  BUTTONS: {
+    PRIMARY: 'primary',
+    TRANSPARENT: 'transparent',
+  },
 };
 
 export default Constant;
