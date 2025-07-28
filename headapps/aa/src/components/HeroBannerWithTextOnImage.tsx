@@ -113,7 +113,11 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
   }
   if (variant === 'imageOverlay') {
     return (
-      <section aria-labelledby="hero-heading" className="relative w-full" role="region">
+      <section
+        aria-labelledby="hero-heading"
+        className="relative !w-full xl:-mt-[1.5rem]"
+        role="region"
+      >
         {imageMobile && (
           <div className="md:hidden">
             <Image
@@ -127,34 +131,34 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
           </div>
         )}
         {imageDesktop && (
-          <div className="hidden md:block">
+          <div className="hidden md:block relative ">
             <Image
               src={imageDesktop}
               alt="Desktop hero background"
               layout="responsive"
-              width={1920}
-              height={600}
+              width={5920}
+              height={500}
               priority
             />
           </div>
         )}
 
-        <div className="absolute inset-0 flex px-4 md:max-w-[1160px] mx-auto">
-          <div className="text-center mt-[2.9rem] md:mt-[4rem] w-full text-white mx-auto px-4">
+        <div className="absolute top-0 left-0 right-0 bottom-0 flex  ">
+          <div className="text-center !mt-[2.7rem] md:!mt-[2.7rem] xl:!mt-[4rem] w-full max-w-[80%] xl:max-w-[95%] text-white mx-auto ">
             <article>
-              <h2
+              <h1
                 id="hero-heading"
-                className="text-[1.2rem] md:text-[1.4rem] leading-[2.2rem] font-light uppercase pb-[1rem] md:pb-[2.5rem] mb-0"
+                className="!text-[1.15rem] !tracking-[0.04em] text-white xl:!text-[1.4rem] md:!text-[1.2rem] xl:leading-[2.2rem] md:leading-[1.8rem] leading-[1.8rem] !font-light uppercase !pb-[0.8rem] md:!pb-[0.8rem] xl:!pb-[2.5rem] mb-0"
               >
                 {heading}
-              </h2>
+              </h1>
               {paragraph && (
-                <p className="text-[3.6rem] md:text-[6.4rem] leading-[4.2rem] md:leading-[7.4rem] font-bold mb-[8px] md:w-[1120px] mx-auto">
+                <p className="!text-[3.6rem] md:!text-[3.6rem]  xl:!text-[6.4rem] md:leading-[4.2rem] xl:leading-[7.4rem] leading-[4.2rem] font-bold !mb-[8px]  mx-auto">
                   {paragraph}
                 </p>
               )}
               {additionalText && (
-                <h3 className="text-[2rem] md:text-[2.6rem] leading-[3.6rem] font-light pt-[1rem] pb-[2rem] md:pt-[2.5rem] md:pb-[4.1rem] mb-0">
+                <h3 className="!text-[2rem] text-white md:!text-[1.9rem]  xl:!text-[2.6rem] !leading-[2.7rem] md:!leading-[2.4rem] xl:!leading-[3.6rem] tracking-[-0.005em] !font-light !pt-[1rem] !pb-[2rem] md:!pt-[1rem] md:!pb-[2rem] xl:!pt-[2.5rem] xl:!pb-[4.1rem] mb-0">
                   {additionalText}
                 </h3>
               )}
@@ -174,7 +178,7 @@ const HeroBanner: React.FC<HeroBannerProps> = ({
                       btn.primary
                         ? 'bg-gradient-to-b from-[#ffcc00] to-[#f9b800] text-[#1d1d1d]'
                         : 'border border-[#151515] text-black hover:bg-[#dcddde] hover:text-white'
-                    } font-bold py-[0.9rem] px-[2rem] text-[1.1rem] rounded w-[93%] md:w-auto shadow-[inset_0_2px_4px_rgba(255,255,255,0.2)] transition focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-yellow-400`}
+                    } font-bold md:!pt-[0.9rem] md:!pb-[0.9rem] !pt-[0.9rem] !pb-[0.9rem] !px-[2rem] w-full  xl:!pt-[1.4rem] xl:!pb-[1.66rem] xl:!px-[2.8rem] md:!px-[2rem] !text-[1.8rem] leading-[0.015rem] md:leading-[2rem] xl:!leading-[1.9rem] !shadow-[inset_0_1px_1px_#fff0b3,_0_0_10px_rgba(0,0,0,0.2)] xl:tracking-[0.03em] md:tracking-[0.015em] !rounded-[0.5rem]  md:w-auto transition focus:outline  focus:outline-offset-2 focus:outline-yellow-400`}
                   >
                     {btn.label}
                   </button>
