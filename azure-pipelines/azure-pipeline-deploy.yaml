@@ -5,7 +5,7 @@ resources:
     - repository: aa-web-dev
       type: git
       name: The AA
-      ref: refs/heads/main
+      ref: refs/heads/xmcloud
 
 stages:
 - stage: DeployToDevelopment
