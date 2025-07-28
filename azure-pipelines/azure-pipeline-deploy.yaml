@@ -26,4 +26,4 @@ stages:
         deploy:
           steps:
           - checkout: 'aa-web-dev'
-          - template: 'azure-pipeline-step-deploy-xmcloud.yml@aa-web-dev'
+          - template: 'azure-pipelines/azure-pipeline-step-deploy-xmcloud.yml@aa-web-dev'
