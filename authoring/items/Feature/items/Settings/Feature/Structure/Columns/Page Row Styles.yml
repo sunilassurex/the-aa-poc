@@ -1,0 +1,31 @@
+﻿---
+ID: "342fe355-84bc-4499-a5a2-37def97050a2"
+Parent: "e0b080c0-b355-4a00-855b-9c5f2819f7b0"
+Template: "991f757c-6948-4e2c-988a-870fe0c59f48"
+Path: /sitecore/system/Settings/Feature/Structure/Columns/Page Row Styles
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\AA Advanced Editor|pe|+item:create|pd|+item:rename|+item:write|+item:create|+item:delete|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160226T170443Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e5bf2514-7393-44eb-ad0a-86a98273f9b8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220120T043838Z

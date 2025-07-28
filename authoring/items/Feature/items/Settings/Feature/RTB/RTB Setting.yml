@@ -1,0 +1,27 @@
+﻿---
+ID: "77370a16-ce06-4e68-897e-65d194035902"
+Parent: "3c4b2812-705d-4fcd-8aba-dacf9da44f5e"
+Template: "991f757c-6948-4e2c-988a-870fe0c59f48"
+Path: /sitecore/system/Settings/Feature/RTB/RTB Setting
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200527T073136Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\yadavs
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bfc4c658-5383-45d7-9248-03e71f79dd37"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        theaa\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220303T043137Z

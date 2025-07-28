@@ -14,9 +14,24 @@
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
+         "name":"ValdiationRules",
+         "path":"/sitecore/system/Settings/Validation Rules",
+         "allowedPushOperations":"CreateUpdateAndDelete"
+      },
+      {
         "name": "Settings",
-        "path": "/sitecore/system/Settings",
+        "path": "/sitecore/system/Settings/Foundation",
         "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name":"SettingsServices",
+        "path":"/sitecore/system/Settings/Services",
+        "allowedPushOperations":"CreateUpdateAndDelete"
+      },
+      {
+          "name":"SettingsInsertRulesTheAA",
+          "path":"/sitecore/system/Settings/Insert Rules/The AA",
+          "allowedPushOperations":"CreateUpdateAndDelete"
       },
       {
         "name":"templateAllSitePresentation",
@@ -38,6 +53,12 @@
         "path":"/sitecore/templates/Foundation/Presentation",
         "allowedPushOperations":"CreateUpdateAndDelete"
       },
+        {
+        "name":"templatesCommon",
+        "path":"/sitecore/templates/Common",
+        "allowedPushOperations":"CreateUpdateAndDelete"
+      },
+     
        {
         "name": "Layout",
         "path": "/sitecore/layout/Layouts/Foundation",

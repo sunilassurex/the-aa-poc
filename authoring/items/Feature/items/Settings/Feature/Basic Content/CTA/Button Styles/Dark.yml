@@ -1,0 +1,40 @@
+﻿---
+ID: "971643c3-b91d-4244-a98f-9095604af8b2"
+Parent: "29874290-97a9-4833-8fab-eeb6d8215a03"
+Template: "7369af25-f5f1-44b5-b269-f93411d3bd47"
+Path: /sitecore/system/Settings/Feature/Basic Content/CTA/Button Styles/Dark
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{AF70A11F-125F-4980-8EF6-F124717EB445}"
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "11fc303f-e927-479c-832d-9c142e360afb"
+      Hint: Value
+      Value: "button ra primary-dark"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200625T111148Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\yadavs
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4fcac7ff-1800-48a8-b72b-298a7ad8f651"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220120T043854Z

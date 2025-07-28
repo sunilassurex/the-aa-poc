@@ -1,0 +1,30 @@
+﻿---
+ID: "e52131bb-c912-4e06-81d9-588e0e950860"
+Parent: "2d5dfb65-16c2-46bb-86c4-ad7975ae6307"
+Template: "af70a11f-125f-4980-8ef6-f124717eb445"
+Path: /sitecore/system/Settings/Feature/Related Products/Text Colour/White
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211216T150904Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8645d7e8-ed0b-4de3-aa26-03250635a473"
+      Hint: Value
+      Value: "white-color"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0130c2c2-46a8-4b54-9f3f-c4c549d5245f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220120T043837Z

@@ -1,0 +1,33 @@
+﻿---
+ID: "7ecf5def-f7f8-40d2-8546-691f0b9b95b7"
+Parent: "4ddb841d-d5df-4c78-8ce2-12c865a26cab"
+Template: "af70a11f-125f-4980-8ef6-f124717eb445"
+Path: /sitecore/system/Settings/Foundation/Paragraph Font Size/Small
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160311T141854Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: 
+    - ID: "8645d7e8-ed0b-4de3-aa26-03250635a473"
+      Hint: Value
+      Value: small
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dac5c3a0-588d-4cf9-9501-156024918c08"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        theaa\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241205T030550Z

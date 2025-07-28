@@ -9,6 +9,12 @@
         "path": "/sitecore/templates/Feature/Headless/Mobile-App",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
+        {
+        "name": "templatesBranchesMobileApp",
+        "path": "/sitecore/templates/Branches/Feature/Headless/Mobile App",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      
       {
         "name": "templatesBasicContent",
         "path":"/sitecore/templates/Feature/Basic Content",
@@ -23,6 +29,11 @@
         "name":"renderingsMobileApp",
         "path":"/sitecore/layout/Renderings/Feature/Headless/mobile-app",
         "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name":"settings",
+        "path":"/sitecore/system/Settings/Feature",
+        "allowedPushOperations":"CreateUpdateAndDelete"
       }
     
     ]
