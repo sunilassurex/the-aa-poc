@@ -1,0 +1,29 @@
+trigger: none
+
+resources:
+  repositories:
+    - repository: aa-web-dev
+      type: git
+      name: The AA
+      ref: refs/heads/main
+
+stages:
+- stage: DeployToDevelopment
+  jobs:
+  - deployment: DeployToDevelopment
+    displayName: "Deploy to Development - XMCloud"
+    environment: 'Development'
+    workspace:
+      clean: all
+    pool:
+      vmImage: 'windows-latest'
+    variables:
+    - name: sitecore_environment
+      value: development
+    - group: 'Release Pipeline Variables Dev'
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - checkout: 'aa-web-dev'
+          - template: '- template: azure-pipeline-step-deploy-xmcloud.yml@aa-web-dev'
