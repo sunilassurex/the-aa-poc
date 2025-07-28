@@ -107,14 +107,14 @@ export default function Footer({
               <div className="block md:hidden w-full h-[1px] bg-[#424242]" />
 
               {/* Mobile-only padding */}
-              <div className="md:max-w-[1160px] mx-auto md:!tracking-[-0.02em] !text-[14.2px] text-center md:!text-right text-[#afafaf] !py-[1.8rem] !px-[2.4rem] md:!py-[2.2rem] md:!px-[2.4rem]  font-normal">
+              <div className="md:max-w-[1160px] mx-auto md:!tracking-[-0.02em] !text-[14.2px] text-left md:!text-right text-[#afafaf]  md:!py-[2.2rem] md:!px-[2.4rem]  font-normal">
                 <p
-                  className="!m-0"
+                  className="!m-0 !p-[2rem] md:!p-0"
                   style={{
                     fontFamily: "Arial, 'Helvetica Neue', Helvetica, Verdana, sans-serif",
                   }}
                 >
-                  <span className="!text-[14.6px]">{tradeMark}</span>
+                  <span className="!text-[1.2rem] md:!text-[14.6px]">{tradeMark}</span>
                 </p>
               </div>
             </div>
