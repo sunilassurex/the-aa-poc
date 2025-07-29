@@ -2,9 +2,9 @@ trigger: none
 
 resources:
   repositories:
-  - repository: The%20AA
+  - repository: The AA
     type: git
-    name: the-aa
+    name: The AA
     ref: 'refs/heads/develop'
 
 stages:
