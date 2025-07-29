@@ -33,16 +33,16 @@ export default function AssistOptionalInfo({
   return (
     <div className="md:py-[1.5rem] py-[1rem]">
       <div className="xl:max-w-[1160px] px-[1rem] md:max-w-[74.6rem] mx-auto md:px-[1.1rem] xl:px-[2rem]">
-        <div className="md:py-[49px] py-[30px] pl-[6px] pr-[6px] md:pl-[20px] md:pr-[42px] xl:pr-[64px] text-gray-800">
+        <div className="md:pt-[49px] md:pb-[0px] pt-[30px] pl-[6px] pr-[6px] md:pl-[0px] md:pr-[42px] text-gray-800">
           <h2 className="!text-[24px] !leading-[28px] !tracking-[-0.5px] !font-newtransport !font-bold md:!text-[24px] !mb-[8px] md:!mb-[16px]">
             {heading}
           </h2>
 
-          <span className="mb-10 text-black text-[20px] xl:text-[26px] font-newtransport font-light leading-[28px] xl:leading-[32px] tracking-[-0.38px] xl:tracking-[-0.5px] font-custom">
+          <span style={{fontFamily:"Arial,'Helvetica Neue',Helvetica,Verdana,sans-serif"}} className="mb-10 text-black text-[16px] xl:text-[16px] leading-[2.2rem] xl:leading-[1.5]">
             {description}
           </span>
 
-          <ul className="pl-0 max-w-[704px]">
+          <ul className="pl-0">
             {items.map((item, idx) => (
               <li
                 key={idx}

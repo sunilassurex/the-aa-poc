@@ -93,7 +93,7 @@ const CardsWithOneTwoThreeColumn: React.FC<Props> = ({ contacts }) => {
               >
                 <div className="lg:!pt-[2.5rem] lg:px-[4rem] lg:!pb-[2.4rem] px-[2rem] pt-[2rem] pb-[1.1rem] md:!pt-[2.1rem] md:!pb-[2rem]">
                   <div>
-                    <h5 className="lg:!mb-[.4rem] md:!mb-[.6rem] lg:!text-[1.6rem] lg:!leading-[2.2rem] !leading-[2rem] !mb-[1.1rem] md:!pr-[0px] pr-[9rem] !tracking-[0px] md:!tracking-[.025em] md:!text-[15px]">
+                    <h5 className="lg:!mb-[.4rem] md:!mb-[.6rem] lg:!text-[1.6rem] lg:!leading-[2.2rem] !leading-[2rem] !mb-[1.1rem] md:!pr-[0px] pr-[9rem] !tracking-[0px] md:!tracking-[.025em] md:!text-[1.6rem] !text-[1.6rem]">
                       {item.title}
                     </h5>
                     <h3 className="lg:!mb-[1.4rem] !mb-[0.9rem] !text-[2rem] !leading-[2.7rem] !tracking-[-.005em] md:!leading-[2.4rem] md:!text-[1.9rem] lg:!text-[2.6rem] lg:!tracking-[-.005em] lg:!leading-[3.6rem]  md:!mb-[1.1rem]">

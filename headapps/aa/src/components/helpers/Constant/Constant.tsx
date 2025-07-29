@@ -10,6 +10,7 @@ const Constant = {
   },
   BUTTONS: {
     PRIMARY: 'primary',
+    SECONDARY: 'secondary',
     TRANSPARENT: 'transparent',
   },
 };
