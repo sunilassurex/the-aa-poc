@@ -41,7 +41,7 @@ const ComparisonTable = () => {
 
                     {/* Right side: Blue + Yellow */}
                     <div className="table-cell w-1/2 align-bottom p-0">
-                      <div className="rounded-t-[0.5rem] overflow-hidden shadow-md relative after:absolute after:top-0 after:content-[''] after:h-[101%] after:w-[0.2rem] after:bg-[#07818c] after:z-[1] after">
+                      <div className="rounded-t-[0.5rem] overflow-hidden shadow-md relative after:absolute after:top-0 after:content-[''] after:h-[101%] after:w-[0.2rem] after:bg-[#07818c] after:z-[1] after:right-[0rem] before:left-[0rem] before:absolute before:top-0 before:content-[''] before:h-[101%] before:w-[0.2rem] before:bg-[#07818c] before:z-[1] ">
                         {/* Blue Top Bar */}
                         <div className="bg-[#07818c] text-white text-center font-[NewTransport-Bold] text-[1.3rem] leading-[2.1rem] tracking-[0.01em] py-[1rem]">
                           4 STAR DEFAQTO RATING
