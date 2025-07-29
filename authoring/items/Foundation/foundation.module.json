@@ -4,36 +4,6 @@
   "items": {
     "includes": [
       {
-        "name": "TheAAWorkflow",
-        "path": "/sitecore/system/Workflows/AA Content Workflow",
-        "allowedPushOperations": "CreateUpdateAndDelete"
-      },
-      {
-        "name": "Dictionary",
-        "path": "/sitecore/system/Dictionary",
-        "allowedPushOperations": "CreateUpdateAndDelete"
-      },
-      {
-         "name":"ValdiationRules",
-         "path":"/sitecore/system/Settings/Validation Rules",
-         "allowedPushOperations":"CreateUpdateAndDelete"
-      },
-      {
-        "name": "Settings",
-        "path": "/sitecore/system/Settings/Foundation",
-        "allowedPushOperations": "CreateUpdateAndDelete"
-      },
-      {
-        "name":"SettingsServices",
-        "path":"/sitecore/system/Settings/Services",
-        "allowedPushOperations":"CreateUpdateAndDelete"
-      },
-      {
-          "name":"SettingsInsertRulesTheAA",
-          "path":"/sitecore/system/Settings/Insert Rules/The AA",
-          "allowedPushOperations":"CreateUpdateAndDelete"
-      },
-      {
         "name":"templateAllSitePresentation",
         "path":"/sitecore/templates/AllSites/Presentation",
         "allowedPushOperations":"CreateUpdateAndDelete"
@@ -63,6 +33,37 @@
         "path":"/sitecore/templates/Common",
         "allowedPushOperations":"CreateUpdateAndDelete"
       },
+      {
+        "name": "TheAAWorkflow",
+        "path": "/sitecore/system/Workflows/AA Content Workflow",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "Dictionary",
+        "path": "/sitecore/system/Dictionary",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+         "name":"ValdiationRules",
+         "path":"/sitecore/system/Settings/Validation Rules",
+         "allowedPushOperations":"CreateUpdateAndDelete"
+      },
+      {
+        "name": "Settings",
+        "path": "/sitecore/system/Settings/Foundation",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name":"SettingsServices",
+        "path":"/sitecore/system/Settings/Services",
+        "allowedPushOperations":"CreateUpdateAndDelete"
+      },
+      {
+          "name":"SettingsInsertRulesTheAA",
+          "path":"/sitecore/system/Settings/Insert Rules/The AA",
+          "allowedPushOperations":"CreateUpdateAndDelete"
+      },
+      
      
        {
         "name": "Layout",
