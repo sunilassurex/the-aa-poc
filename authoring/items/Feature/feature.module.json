@@ -5,62 +5,60 @@
   "items": {
     "includes": [
       {
-        "name":"HeadlessFolder",
-        "path":"/sitecore/templates/Feature/Headless",
+        "name": "HeadlessFolder",
+        "path": "/sitecore/templates/Feature/Headless",
         "scope": "SingleItem",
-        "allowedPushOperations":"CreateAndUpdate"
+        "allowedPushOperations": "CreateAndUpdate"
       },
-	  {
+      {
         "name": "templatesMobileApp",
         "path": "/sitecore/templates/Feature/Headless/Mobile-App",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
-        "name":"BranchHeadlessFolder",
-       "path":"/sitecore/templates/Branches/Feature/Headless",
-       "scope": "SingleItem",
-       "allowedPushOperations":"CreateAndUpdate"
+        "name": "BranchHeadlessFolder",
+        "path": "/sitecore/templates/Branches/Feature/Headless",
+        "scope": "SingleItem",
+        "allowedPushOperations": "CreateAndUpdate"
       },
-        {
+      {
         "name": "templatesBranchesMobileApp",
         "path": "/sitecore/templates/Branches/Feature/Headless/Mobile App",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
-      
+
       {
         "name": "templatesBasicContent",
-        "path":"/sitecore/templates/Feature/Basic Content",
+        "path": "/sitecore/templates/Feature/Basic Content",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
-        "name":"MetaDataFolder",
-        "path":"/sitecore/templates/Feature/Meta Data",
+        "name": "MetaDataFolder",
+        "path": "/sitecore/templates/Feature/Meta Data",
         "scope": "SingleItem",
-        "allowedPushOperations":"CreateAndUpdate"
-      }
-      ,
-      {
-        "name":"templateAnalytics",
-        "path":"/sitecore/templates/Feature/Meta Data/Analytics",
-        "allowedPushOperations":"CreateUpdateAndDelete"
+        "allowedPushOperations": "CreateAndUpdate"
       },
       {
-        "name":"RenderingHeadlessFolder",
-        "path":"/sitecore/layout/Renderings/Feature/Headless",
-        "scope": "SingleItem",
-        "allowedPushOperations":"CreateAndUpdate"
-      },
-      {
-        "name":"renderingsMobileApp",
-        "path":"/sitecore/layout/Renderings/Feature/Headless/mobile-app",
+        "name": "templateAnalytics",
+        "path": "/sitecore/templates/Feature/Meta Data/Analytics",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
-        "name":"settings",
-        "path":"/sitecore/system/Settings/Feature",
-        "allowedPushOperations":"CreateUpdateAndDelete"
+        "name": "RenderingHeadlessFolder",
+        "path": "/sitecore/layout/Renderings/Feature/Headless",
+        "scope": "SingleItem",
+        "allowedPushOperations": "CreateAndUpdate"
+      },
+      {
+        "name": "renderingsMobileApp",
+        "path": "/sitecore/layout/Renderings/Feature/Headless/mobile-app",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "settings",
+        "path": "/sitecore/system/Settings/Feature",
+        "allowedPushOperations": "CreateUpdateAndDelete"
       }
-    
     ]
   }
 }

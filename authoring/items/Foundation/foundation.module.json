@@ -4,56 +4,50 @@
   "items": {
     "includes": [
       {
-       "name":"AllSiteFolder",
-       "path":"/sitecore/templates/AllSites",
-       "scope": "SingleItem",
-       "allowedPushOperations":"CreateAndUpdate"
+        "name": "templatesAllSites",
+        "path": "/sitecore/templates/AllSites",
+        "allowedPushOperations": "CreateAndUpdate"
       },
       {
-        "name":"templateAllSitePresentation",
-        "path":"/sitecore/templates/AllSites/Presentation",
-        "allowedPushOperations":"CreateUpdateAndDelete"
-      },
-      {
-        "name":"CodeHouseFolder",
-        "path":"/sitecore/templates/Codehouse",
+        "name": "CodeHouseFolder",
+        "path": "/sitecore/templates/Codehouse",
         "scope": "SingleItem",
-        "allowedPushOperations":"CreateAndUpdate"
+        "allowedPushOperations": "CreateAndUpdate"
       },
       {
-          "name":"templatesCodehouseCommon",
-          "path":"/sitecore/templates/Codehouse/Common",
-          "allowedPushOperations":"CreateUpdateAndDelete"
-      },
-        {
-        "name":"templatesMobileAppFolder",
-        "path":"/sitecore/templates/Common/Mobile App Folder",
-        "allowedPushOperations":"CreateUpdateAndDelete"
-       },
-      {
-        "name":"templateBaseInterface",
-        "path":"/sitecore/templates/Foundation/Base Interface",
-        "allowedPushOperations":"CreateUpdateAndDelete"
+        "name": "templatesCodehouseCommon",
+        "path": "/sitecore/templates/Codehouse/Common",
+        "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
-        "name":"templateBaseRenderingParameter",
-        "path":"/sitecore/templates/Foundation/Base Rendering Parameters",
-        "allowedPushOperations":"CreateUpdateAndDelete"
-      },
-        {
-        "name":"templatePresentation",
-        "path":"/sitecore/templates/Foundation/Presentation",
-        "allowedPushOperations":"CreateUpdateAndDelete"
+        "name": "templatesMobileAppFolder",
+        "path": "/sitecore/templates/Common/Mobile App Folder",
+        "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
-        "name":"templateFolders",
-        "path":"/sitecore/templates/Foundation/Folders",
-        "allowedPushOperations":"CreateUpdateAndDelete"
+        "name": "templateBaseInterface",
+        "path": "/sitecore/templates/Foundation/Base Interface",
+        "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
-          "name":"templateSettings",
-          "path":"/sitecore/templates/Foundation/Settings",
-          "allowedPushOperations":"CreateUpdateAndDelete"
+        "name": "templateBaseRenderingParameter",
+        "path": "/sitecore/templates/Foundation/Base Rendering Parameters",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "templatePresentation",
+        "path": "/sitecore/templates/Foundation/Presentation",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "templateFolders",
+        "path": "/sitecore/templates/Foundation/Folders",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "templateSettings",
+        "path": "/sitecore/templates/Foundation/Settings",
+        "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
         "name": "TheAAWorkflow",
@@ -66,9 +60,9 @@
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
-         "name":"ValdiationRules",
-         "path":"/sitecore/system/Settings/Validation Rules",
-         "allowedPushOperations":"CreateUpdateAndDelete"
+        "name": "ValdiationRules",
+        "path": "/sitecore/system/Settings/Validation Rules",
+        "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
         "name": "Settings",
@@ -76,26 +70,25 @@
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
-        "name":"SettingsServices",
-        "path":"/sitecore/system/Settings/Services",
-        "allowedPushOperations":"CreateUpdateAndDelete"
+        "name": "SettingsServices",
+        "path": "/sitecore/system/Settings/Services",
+        "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
-          "name":"SettingsInsertRulesTheAA",
-          "path":"/sitecore/system/Settings/Insert Rules/The AA",
-          "allowedPushOperations":"CreateUpdateAndDelete"
+        "name": "SettingsInsertRulesTheAA",
+        "path": "/sitecore/system/Settings/Insert Rules/The AA",
+        "allowedPushOperations": "CreateUpdateAndDelete"
       },
-       {
+      {
         "name": "Layout",
         "path": "/sitecore/layout/Layouts/Foundation",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
-        "name":"renderings",
-        "path":"/sitecore/layout/Renderings/Foundation",
-        "allowedPushOperations":"CreateUpdateAndDelete"
+        "name": "renderings",
+        "path": "/sitecore/layout/Renderings/Foundation",
+        "allowedPushOperations": "CreateUpdateAndDelete"
       }
-      
     ]
   },
   "roles": [
@@ -104,6 +97,5 @@
       "pattern": "AA*",
       "allowedPushOperations": "CreateAndUpdate"
     }
-   
   ]
 }

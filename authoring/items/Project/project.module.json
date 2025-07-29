@@ -4,22 +4,22 @@
   "references": ["Feature.TheAA"],
   "items": {
     "includes": [
-       {
-         "name":"AAFolder",
-         "path":"/sitecore/templates/Project/AA",
-         "scope": "SingleItem",
-         "allowedPushOperations":"CreateAndUpdate"
-       },
-       {
-         "name":"templateMobileApp",
-         "path":"/sitecore/templates/Project/AA/MobileApp",
-         "allowedPushOperations": "CreateUpdateAndDelete"
-       },
       {
-         "name":"templateBase",
-         "path":"/sitecore/templates/Project/AA/Base",
-         "allowedPushOperations": "CreateUpdateAndDelete"
-       },
+        "name": "AAFolder",
+        "path": "/sitecore/templates/Project/AA",
+        "scope": "SingleItem",
+        "allowedPushOperations": "CreateAndUpdate"
+      },
+      {
+        "name": "templateMobileApp",
+        "path": "/sitecore/templates/Project/AA/MobileApp",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "templateBase",
+        "path": "/sitecore/templates/Project/AA/Base",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
       {
         "name": "renderings",
         "path": "/sitecore/layout/Renderings/Project/AA",
@@ -31,11 +31,11 @@
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
-        "name":"LayoutMobileApp",
-        "path":"/sitecore/layout/Layouts/Project/mobile-app",
-        "allowedPushOperations":"CreateUpdateAndDelete"
+        "name": "LayoutMobileApp",
+        "path": "/sitecore/layout/Layouts/Project/mobile-app",
+        "allowedPushOperations": "CreateUpdateAndDelete"
       },
-  
+
       {
         "name": "placeholdersettingsMobileApp",
         "path": "/sitecore/layout/Placeholder Settings/Project/mobile-app",
@@ -46,7 +46,7 @@
         "path": "/sitecore/layout/Placeholder Settings/Project/AA",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
-  
+
       {
         "name": "mediaMobileApp",
         "path": "/sitecore/media library/mobile-app",
@@ -59,11 +59,12 @@
         "scope": "SingleItem",
         "allowedPushOperations": "CreateAndUpdate"
       },
-       {
+      {
         "name": "mobileapp",
         "path": "/sitecore/content/AA/mobile-app",
         "allowedPushOperations": "CreateOnly",
-        "rules": [ {
+        "rules": [
+          {
             "path": "/Home",
             "allowedPushOperations": "CreateOnly",
             "scope": "ItemAndDescendants",
@@ -73,25 +74,24 @@
                 "scope": "ItemAndDescendants",
                 "allowedPushOperations": "CreateOnly"
               },
-               {
+              {
                 "path": "/configurations",
                 "scope": "ItemAndDescendants",
                 "allowedPushOperations": "CreateOnly"
               },
-                {
+              {
                 "path": "/wimbeldon-jss-angular-dictionary",
                 "scope": "ItemAndDescendants",
                 "allowedPushOperations": "CreateOnly"
               },
-                {
+              {
                 "path": "*",
                 "scope": "Ignored"
               }
-           
+            ]
+          }
         ]
       }
-    ]
-    }
     ]
   }
 }
