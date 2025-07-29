@@ -1,0 +1,32 @@
+﻿---
+ID: "99ab75e4-b5c5-4038-8099-cd87187fdd2d"
+Parent: "df21b014-6272-433a-b8ac-d9ed97fac622"
+Template: "df21b014-6272-433a-b8ac-d9ed97fac622"
+Path: /sitecore/templates/TheAA/Presentation/CrossSellSettings/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "120c59ef-95e3-43fc-bb7e-297a26900e1f"
+      Hint: TextAlignment
+      Value: "{40164401-0A85-4994-A911-35A4347B3424}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160202T151221Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3dc273ae-ffa6-417a-830d-3f8a572fbeed"
+    - ID: "b030c3b4-144c-415d-a8b8-c9cc9d1f1105"
+      Hint: CtaButtonAlignment
+      Value: "{04D2E049-E80B-4BD1-B3AE-82492A2950A7}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d0378405-73db-4b9c-ad04-57eff0c07744"
+      Hint: Styling
+      Value: "{6BC77659-A31F-41D8-BE76-0CA318B22293}"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20160209T122206Z

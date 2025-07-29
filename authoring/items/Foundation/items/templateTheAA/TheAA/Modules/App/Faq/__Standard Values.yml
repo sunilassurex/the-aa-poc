@@ -1,0 +1,27 @@
+﻿---
+ID: "6da0de3b-fd52-4ab1-a349-73a2adf5459d"
+Parent: "2e48398a-2af0-44e9-a5bc-551e8c389e95"
+Template: "2e48398a-2af0-44e9-a5bc-551e8c389e95"
+Path: /sitecore/templates/TheAA/Modules/App/Faq/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211118T142609Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\paul_petersen
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4df9877f-669d-4407-bc62-68196bee94b4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211130T043832Z

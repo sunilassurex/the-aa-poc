@@ -1,0 +1,40 @@
+﻿---
+ID: "4e49d0c8-0d45-42b7-8e94-b69354f749ee"
+Parent: "5eaa7c3b-b058-44d8-87e2-3279e5886a2b"
+Template: "5eaa7c3b-b058-44d8-87e2-3279e5886a2b"
+Path: /sitecore/templates/TheAA/Settings/PrimaryNavigationTab/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {3E3CAD5E-EC0B-463F-98F2-E3D299A64BC1}
+    {4405D695-83B7-40D9-B92E-A5C9067B7A8A}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160122T135006Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "717ae8bd-d654-4f97-9f48-9f3727baf1f4"
+      Hint: TabTitle
+      Value: $name
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cd78a9d0-6481-4167-81b8-d15d4ebd7994"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20160810T154325Z

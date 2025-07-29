@@ -1,0 +1,26 @@
+﻿---
+ID: "99eb2640-cf91-4900-bb47-2f8947a4d1d0"
+Parent: "30b2b9e6-b0ce-4796-9302-ed9e427e2687"
+Template: "30b2b9e6-b0ce-4796-9302-ed9e427e2687"
+Path: /sitecore/templates/TheAA/Modules/RelatedContentPod/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160331T122648Z
+    - ID: "3ad2a831-2e96-48b0-a1de-cbc345ff64ed"
+      Hint: TextColour
+      Value: "{626ECE4D-C6D3-4EE3-90B1-CB949F8C1583}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "79971e20-9bdf-467b-9c00-f2bc3d5f2eb7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20160331T122657Z

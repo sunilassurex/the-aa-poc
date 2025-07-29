@@ -1,0 +1,33 @@
+﻿---
+ID: "1d4eb05e-d261-4b04-ac5c-6dfe2e184370"
+Parent: "fe50107b-c10a-4198-8f09-754cacef5dd6"
+Template: "fe50107b-c10a-4198-8f09-754cacef5dd6"
+Path: /sitecore/templates/TheAA/Settings/SalesJourney/Blocks/MainPolicyHolderBlock/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161101T130611Z
+    - ID: "4d784502-2412-460e-8537-0f623afc3811"
+      Hint: Heading
+      Value: Personal details
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d3137770-915b-48e9-a23a-4f58fdc7707e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20161101T130845Z
+    - ID: "f371a4c8-48f4-495e-8ec7-0305bbfa1202"
+      Hint: BlueBadgeTooltipIcon
+      Value: |
+        <image mediaid="{2CC2860B-8CA2-4801-8C19-22B9A7C26987}" />
+    - ID: "fdfd86d5-1862-4393-8426-42012d76f30f"
+      Hint: RenderingViewPath
+      Value: "{1B87F890-B603-4ABC-88F7-C734980644FC}"

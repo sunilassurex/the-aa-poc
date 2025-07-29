@@ -1,0 +1,26 @@
+﻿---
+ID: "2f5d44ab-96dc-44fd-8cb3-23394e56162b"
+Parent: "70eaf606-ca87-432f-8af9-90b1a2b3ca5d"
+Template: "70eaf606-ca87-432f-8af9-90b1a2b3ca5d"
+Path: /sitecore/templates/TheAA/Presentation/EligibilityCheckSettings/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160701T124949Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "39ac1857-83f1-4ea0-ae03-08bbb62c1df3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Codehouse
+    - ID: "d32d58c1-03f6-4af6-b133-775c7302f485"
+      Hint: Variant
+      Value: "{071CB146-137B-4767-AE4B-42AA0B9B8185}"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20160714T133955Z

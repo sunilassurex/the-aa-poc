@@ -1,0 +1,184 @@
+﻿---
+ID: "66493ae9-e969-4217-9c8c-b29f485d2a4f"
+Parent: "3409fe88-1e2c-487e-b103-67d7245ecb95"
+Template: "3409fe88-1e2c-487e-b103-67d7245ecb95"
+Path: /sitecore/templates/TheAA/Pages/HomePage/__Standard Values
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{7AD8451B-C1E1-41A2-9576-EE336AAEA02F}">
+        <r
+          id="{B9125386-572A-4E74-AFE1-B0CFF521E5D1}"
+          ph="/metadata"
+          uid="{97F4A3A2-E660-424F-B42F-1C7AD0508638}" />
+        <r
+          id="{F4F7E44C-EC1B-492A-A445-E155777AC743}"
+          ph="/metadata"
+          uid="{2BCF3CDA-9FF2-4514-93D9-349B79AF325A}" />
+        <r
+          id="{C845D6F4-0B8E-4137-A8C6-0054E0584A06}"
+          ph="/metadata"
+          uid="{8718DEEA-D873-4E71-A293-A4C7BDEE66A5}" />
+        <r
+          id="{1D5439DC-9410-4D11-8A9F-BEFC4645D64C}"
+          ph="/metadata"
+          uid="{E2CFEA98-FE77-460B-853F-3DE8A6A382ED}" />
+        <r
+          id="{CA4AD315-27CD-47B6-BEED-B0B97CE65FE7}"
+          ph="/metadata"
+          uid="{55756A11-0831-444A-AB5A-E8A48141B38A}" />
+        <r
+          id="{A167B31B-466E-496C-BA49-FD3696D06FA2}"
+          ph="/bodystart"
+          uid="{C6BFBF73-88CD-4A60-BD6A-1A65E9369171}" />
+        <r
+          ds=""
+          id="{6525FA17-EE28-4A0C-AE02-6D2BAEF06ED2}"
+          par=""
+          ph="DISABLED/cookiebanner"
+          uid="{EBDC1CE2-3E20-418E-808B-1E4EF754E162}" />
+        <r
+          id="{C582CB36-C5FC-45F8-AD34-D814B3B6187E}"
+          par=""
+          ph="/theaa"
+          uid="{AFB59DDE-A881-4B86-A7D4-62EB32D155A7}" />
+        <r
+          id="{2584E1C5-33A2-4F5A-A956-BBFF4D92BB01}"
+          ph="/theaa"
+          uid="{064F8B54-4F9B-4E6A-B4EF-924F3CBEAA08}" />
+        <r
+          id="{E8DAA6AA-48A1-43E6-BB99-8647C2277848}"
+          ph="/theaa/homepage-r1"
+          uid="{30790646-8E2E-4680-9C0E-DB3A85520AE9}" />
+        <r
+          id="{184473C2-C6C1-4B8C-9129-EF3F9D733862}"
+          ph="/theaa/homepage-r2"
+          uid="{471FFDC8-212B-4737-8128-D0D83F9C72F9}" />
+        <r
+          ds=""
+          id="{57BA48BE-5CBD-4C8A-A202-BC4691236FBD}"
+          par="RowWidth=%7bE08388E2-BACA-4B4E-8AE4-54BB5EEB183B%7d&amp;Caching=0%7c0%7c0%7c0%7c0%7c0%7c0%7c0&amp;RowBackgroundStyle=%7b9A854E29-FA32-4CED-AAD2-75014F72E945%7d"
+          ph="/theaa/homepage-r3"
+          uid="{14E51C7F-8705-41A2-B0FD-0D36823C8AF3}" />
+        <r
+          ds=""
+          id="{E8DAA6AA-48A1-43E6-BB99-8647C2277848}"
+          par="RowWidth=%7bE08388E2-BACA-4B4E-8AE4-54BB5EEB183B%7d&amp;Caching=0%7c0%7c0%7c0%7c0%7c0%7c0%7c0&amp;RowBackgroundStyle=%7b9A854E29-FA32-4CED-AAD2-75014F72E945%7d"
+          ph="/theaa/homepage-r4"
+          uid="{CBB0145B-95C3-4229-B795-AB4F23ED6E12}" />
+        <r
+          id="{184473C2-C6C1-4B8C-9129-EF3F9D733862}"
+          ph="/theaa/homepage-r5"
+          uid="{D48B25A8-03AB-46E2-86FB-72FE9C42B566}" />
+        <r
+          id="{184473C2-C6C1-4B8C-9129-EF3F9D733862}"
+          ph="/theaa/homepage-r6"
+          uid="{72883544-AD05-4031-A327-68244C7DACDE}" />
+        <r
+          id="{184473C2-C6C1-4B8C-9129-EF3F9D733862}"
+          ph="/theaa/homepage-r7"
+          uid="{B4444812-BE25-403F-8E61-72370B03B69F}" />
+        <r
+          id="{184473C2-C6C1-4B8C-9129-EF3F9D733862}"
+          par="RowWidth=%7bE08388E2-BACA-4B4E-8AE4-54BB5EEB183B%7d&amp;Caching=0%7c0%7c0%7c0%7c0%7c0%7c0%7c0&amp;RowBackgroundStyle=%7b9A854E29-FA32-4CED-AAD2-75014F72E945%7d"
+          ph="/theaa/homepage-r8"
+          uid="{8C81235A-6A18-44A5-8C1B-F60A13A4EA8B}" />
+        <r
+          id="{184473C2-C6C1-4B8C-9129-EF3F9D733862}"
+          ph="/theaa/homepage-r9"
+          uid="{83E85098-694C-4F41-8E44-0E1126024AC1}" />
+        <r
+          ds=""
+          id="{E8DAA6AA-48A1-43E6-BB99-8647C2277848}"
+          par="RowWidth=%7bE08388E2-BACA-4B4E-8AE4-54BB5EEB183B%7d&amp;Caching=0%7c0%7c0%7c0%7c0%7c0%7c0%7c0&amp;RowBackgroundStyle=%7b9A854E29-FA32-4CED-AAD2-75014F72E945%7d"
+          ph="/theaa/homepage-r10"
+          uid="{CCB99829-22BB-423B-AB08-C787C88D7649}" />
+        <r
+          ds=""
+          id="{8C485E7D-8B64-445A-9C8A-D1A3390AD370}"
+          par=""
+          ph="/footer"
+          uid="{4CA1E84F-61FD-4389-9D8E-807E67EF3441}" />
+        <r
+          id="{62150AB5-8424-485D-AB1F-050458C5AEED}"
+          ph="/footer"
+          uid="{B2A44659-FE4E-44C8-BC8F-83A86C30DB0D}" />
+        <r
+          uid="{18B0BDAD-2BA8-4005-8E24-C9EB2B92975F}"
+          ds=""
+          id="{2114A693-320E-4F63-BA3A-D1AB4F8EC0C4}"
+          par=""
+          ph="/html-head" />
+        <r
+          id="{F7B55F9B-A359-4183-A4B0-84A6A970A5A2}"
+          ph="/footer"
+          uid="{AD81EC4F-1673-4842-8F1C-5A9155F321B7}" />
+        <r
+          uid="{975945B8-B0B9-4DF1-8701-A25FD3F1E3B7}"
+          id="{7DFCDC83-F88D-4C29-8FC8-33E79ECB1CD4}"
+          ph="/bodyend" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema"></r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151215T155244Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7fa50ece-d751-4837-9ce6-61cd2440bc0c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250327T015554Z
+  - Version: 2
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"
+          s:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{BB46309D-349C-4A37-A517-386A917196ED}">
+              <p:d />
+            </r>
+            <r
+              uid="{4541D0D4-6332-45FD-890B-4CE85390DFF9}"
+              p:after="*[1=2]"
+              s:ds=""
+              s:id="{22DDED64-9C82-4A2B-9D38-E8798AEACF8B}"
+              s:par=""
+              s:ph="/metadata" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151215T155244Z
+    - ID: "2e31f721-b2c7-4e9f-88d5-e87d34da261f"
+      Hint: RemoveDefaultScripts
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6d1fb89b-78f0-418e-bafd-0352698a1ef7"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250327T015554Z

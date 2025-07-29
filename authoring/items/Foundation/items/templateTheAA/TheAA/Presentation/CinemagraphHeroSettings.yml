@@ -1,0 +1,37 @@
+﻿---
+ID: "83a76d12-8518-4946-944d-b2b222316809"
+Parent: "903ac86d-9f70-476f-828d-32e8d31fc0d6"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/TheAA/Presentation/CinemagraphHeroSettings
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: |
+    {7E51FAB5-AD6E-455A-978A-8FBEB01D57DF}
+    {946C9722-6EC7-423B-B811-046D22257B22}
+    {3AC60BC8-C159-498F-9B01-C727CF10A191}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{14D42B06-8977-4F3F-ADEB-A7956D481BC9}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170526T134622Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "78b3597d-aaf0-48bd-8a88-13de6c8f6fbc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20170526T152109Z

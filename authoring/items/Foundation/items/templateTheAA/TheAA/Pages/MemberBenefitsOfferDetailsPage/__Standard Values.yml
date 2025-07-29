@@ -1,0 +1,172 @@
+﻿---
+ID: "d25ac74d-e903-4cad-8c85-cf6434ea18d6"
+Parent: "e5b5b29b-36aa-4eee-b44d-181cea8e227a"
+Template: "e5b5b29b-36aa-4eee-b44d-181cea8e227a"
+Path: /sitecore/templates/TheAA/Pages/MemberBenefitsOfferDetailsPage/__Standard Values
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: 
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: 
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{D55D083A-7513-40E5-9E6A-A7B38DD97B9A}">
+        <r
+          id="{B9125386-572A-4E74-AFE1-B0CFF521E5D1}"
+          ph="/metadata"
+          uid="{97F4A3A2-E660-424F-B42F-1C7AD0508638}" />
+        <r
+          id="{194BD64B-175D-4760-A722-B11D61E94570}"
+          ph="/metadata"
+          uid="{E2233937-255C-452D-8485-7400B7A156B3}" />
+        <r
+          id="{1D5439DC-9410-4D11-8A9F-BEFC4645D64C}"
+          ph="/metadata"
+          uid="{E2CFEA98-FE77-460B-853F-3DE8A6A382ED}" />
+        <r
+          id="{CA4AD315-27CD-47B6-BEED-B0B97CE65FE7}"
+          ph="/metadata"
+          uid="{55756A11-0831-444A-AB5A-E8A48141B38A}" />
+        <r
+          ds=""
+          id="{9D08D563-23C7-4E28-AE6D-FB5B68714022}"
+          par=""
+          ph="/bodystart"
+          uid="{C6BFBF73-88CD-4A60-BD6A-1A65E9369171}" />
+        <r
+          id="{1B770013-F801-4875-B19E-BB3881229045}"
+          ph="/bodystart"
+          uid="{9FFCF737-5B3F-4156-8812-1E7CA53B6B8A}" />
+        <r
+          ds=""
+          id="{6525FA17-EE28-4A0C-AE02-6D2BAEF06ED2}"
+          par=""
+          ph="DISABLED/cookiebanner"
+          uid="{EBDC1CE2-3E20-418E-808B-1E4EF754E162}" />
+        <r
+          id="{C582CB36-C5FC-45F8-AD34-D814B3B6187E}"
+          par="test=foo"
+          ph="/theaa"
+          uid="{AFB59DDE-A881-4B86-A7D4-62EB32D155A7}" />
+        <r
+          ds="{CE20C138-928F-4D27-8EAE-C3ECE015A2FA}"
+          id="{8712E3CB-A1B6-46AB-8367-A5D9581DA30A}"
+          par=""
+          ph="/theaa/hotelpage-r5/column-1"
+          uid="{B005DE0D-8B3D-463C-A24D-A86BA891EB73}" />
+        <r
+          id="{8C485E7D-8B64-445A-9C8A-D1A3390AD370}"
+          ph="/footer"
+          uid="{DEF56108-A7BB-4262-B2E9-A1D964C3A599}" />
+        <r
+          id="{69C47E28-15B6-4770-A7EB-7F04B24B56D9}"
+          ph="/theaa"
+          uid="{23778377-7ED8-4EFF-A64D-FCE980B70DB9}" />
+        <r
+          id="{AC985DF8-F548-4E35-B486-5F484147427B}"
+          ph="/theaa"
+          uid="{027A6ED0-0B99-42ED-BE3F-CF9545629A9A}" />
+        <r
+          ds=""
+          id="{E8DAA6AA-48A1-43E6-BB99-8647C2277848}"
+          par="RowBackgroundStyle=%7B9A854E29-FA32-4CED-AAD2-75014F72E945%7D&amp;RowWidth=%7B1D6A3446-1420-4448-9568-82A6403039E9%7D"
+          ph="hotelpage-r1"
+          uid="{8FFB3609-679D-4ECF-B63A-50B832F26D53}" />
+        <r
+          ds=""
+          id="{57BA48BE-5CBD-4C8A-A202-BC4691236FBD}"
+          par="RowBackgroundStyle=%7B9A854E29-FA32-4CED-AAD2-75014F72E945%7D&amp;RowWidth=%7B1736ADBD-BFEC-4FC6-B098-D80E7EA74C38%7D"
+          ph="hotelpage-r2"
+          uid="{F5B7146C-E93B-4E27-955A-6ADE3A9561AC}" />
+        <r
+          ds=""
+          id="{57BA48BE-5CBD-4C8A-A202-BC4691236FBD}"
+          par="RowBackgroundStyle=%7B9A854E29-FA32-4CED-AAD2-75014F72E945%7D&amp;RowWidth=%7BE08388E2-BACA-4B4E-8AE4-54BB5EEB183B%7D"
+          ph="hotelpage-r3"
+          uid="{1C1D06A6-CF63-4026-8293-909E4920A282}" />
+        <r
+          ds=""
+          id="{7F36A9B9-04B2-4250-8749-A3605E4116B9}"
+          par="RowBackgroundStyle=%7B9A854E29-FA32-4CED-AAD2-75014F72E945%7D&amp;RowWidth=%7BA1165396-BB2B-4318-B1C6-0CA858F14A6D%7D"
+          ph="hotelpage-r4"
+          uid="{8426D560-1A5A-4ED6-97BC-2099415EFE76}" />
+        <r
+          id="{E8DAA6AA-48A1-43E6-BB99-8647C2277848}"
+          ph="hotelpage-r5"
+          uid="{1FBA0C46-A22D-42BB-ADEB-B40DE91AC718}" />
+        <r
+          ds=""
+          id="{E01A7AC0-5616-44A1-92F7-A8AB930F0B8B}"
+          par="TextColour=%7B4F2C1852-E9FD-4956-B067-FB47E217E751%7D"
+          ph="/theaa/hotelpage-r1/column-1"
+          uid="{B2B6D3CD-D31B-4F95-9F5C-63F140327935}" />
+        <r
+          ds="{271838F7-C2D8-4062-848C-404E674ED4C2}"
+          id="{3DB5C68A-9A3F-4093-B8C9-12B8A2C39DCE}"
+          par=""
+          ph="/theaa/hotelpage-r2/column-2"
+          uid="{027AC55C-8E60-4720-8EE5-4BDEC8FDBC16}" />
+        <r
+          ds=""
+          id="{0E7373A3-6500-4DE3-AF3B-0C45A8B5F69F}"
+          par=""
+          ph="/theaa/hotelpage-r2/column-1"
+          uid="{725D81EC-070F-4A0A-B162-BCB58982E8A8}" />
+        <r
+          ds=""
+          id="{C94BEBF8-E67D-4846-B206-6AF8DA554ED4}"
+          par=""
+          ph="/theaa/hotelpage-r2/column-1"
+          uid="{0BFB29C7-087D-4D30-A86A-DCB199DF49A9}" />
+        <r
+          ds=""
+          id="{B571B59F-2B15-4599-93F3-B02E1981E66C}"
+          par=""
+          ph="/theaa/hotelpage-r4/column-1"
+          uid="{7D17086E-961F-45D0-8AE2-D774A54A2E79}" />
+        <r
+          id="{62150AB5-8424-485D-AB1F-050458C5AEED}"
+          ph="/footer"
+          uid="{B2A44659-FE4E-44C8-BC8F-83A86C30DB0D}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160812T160752Z
+    - ID: "2e31f721-b2c7-4e9f-88d5-e87d34da261f"
+      Hint: RemoveDefaultScripts
+      Value: 
+    - ID: "48737f24-10f6-4443-b2f0-04265a4647c0"
+      Hint: TealiumProfileType
+      Value: "{64F600BC-F912-43E1-9781-12D4F1D3A7FC}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "13defd00-07e8-416e-bc49-4d29b0a69c50"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230323T032622Z

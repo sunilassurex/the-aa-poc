@@ -1,0 +1,26 @@
+﻿---
+ID: "5b53d86e-310c-4ff9-a006-e5226072e633"
+Parent: "67c63eba-b227-4a03-9e06-c3d5b0ee625e"
+Template: "67c63eba-b227-4a03-9e06-c3d5b0ee625e"
+Path: /sitecore/templates/TheAA/Modules/SimpleTitle/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160728T160724Z
+    - ID: "710b4784-3967-47c3-b77a-8d9a8e5a04fd"
+      Hint: H3TitleText
+      Value: $name
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "52a88f51-4c74-4f9c-99c5-a290167fbef4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20160728T160739Z

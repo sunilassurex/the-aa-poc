@@ -1,0 +1,23 @@
+﻿---
+ID: "18d7dc58-4733-4831-bbb6-23a9ada9e471"
+Parent: "7572125c-31aa-42ed-bea2-ee8c591623f7"
+Template: "7572125c-31aa-42ed-bea2-ee8c591623f7"
+Path: /sitecore/templates/TheAA/Data/_MemberBenefitsOfferDetailsBase/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190116T055808Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5a257d3f-6aae-4534-ba13-6941e0ec29f1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20190402T042604Z

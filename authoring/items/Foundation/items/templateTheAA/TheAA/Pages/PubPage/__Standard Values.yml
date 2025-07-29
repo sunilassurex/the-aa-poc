@@ -1,0 +1,208 @@
+﻿---
+ID: "cd9dabbe-c042-48d5-a4bb-371c074dcfc3"
+Parent: "cdb68734-1f51-4199-928f-fc9c3227f059"
+Template: "cdb68734-1f51-4199-928f-fc9c3227f059"
+Path: /sitecore/templates/TheAA/Pages/PubPage/__Standard Values
+SharedFields:
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\AA Basic Editor|pe|-item:create|-item:write|-item:delete|-item:rename|pd|-item:create|-item:write|-item:delete|-item:rename|ar|sitecore\AA Advanced Editor|pe|-item:create|-item:write|-item:delete|-item:rename|pd|-item:create|-item:write|-item:delete|-item:rename|ar|sitecore\AA Approver|pe|-item:create|-item:write|-item:delete|-item:rename|pd|-item:create|-item:write|-item:delete|-item:rename|
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{D55D083A-7513-40E5-9E6A-A7B38DD97B9A}">
+        <r
+          id="{B9125386-572A-4E74-AFE1-B0CFF521E5D1}"
+          ph="/metadata"
+          uid="{97F4A3A2-E660-424F-B42F-1C7AD0508638}" />
+        <r
+          id="{194BD64B-175D-4760-A722-B11D61E94570}"
+          ph="/metadata"
+          uid="{E2233937-255C-452D-8485-7400B7A156B3}" />
+        <r
+          id="{1D5439DC-9410-4D11-8A9F-BEFC4645D64C}"
+          ph="/metadata"
+          uid="{E2CFEA98-FE77-460B-853F-3DE8A6A382ED}" />
+        <r
+          id="{CA4AD315-27CD-47B6-BEED-B0B97CE65FE7}"
+          ph="/metadata"
+          uid="{55756A11-0831-444A-AB5A-E8A48141B38A}" />
+        <r
+          ds=""
+          id="{A167B31B-466E-496C-BA49-FD3696D06FA2}"
+          par=""
+          ph="/bodystart"
+          uid="{C6BFBF73-88CD-4A60-BD6A-1A65E9369171}" />
+        <r
+          id="{1B770013-F801-4875-B19E-BB3881229045}"
+          ph="/bodystart"
+          uid="{9FFCF737-5B3F-4156-8812-1E7CA53B6B8A}" />
+        <r
+          ds=""
+          id="{6525FA17-EE28-4A0C-AE02-6D2BAEF06ED2}"
+          par=""
+          ph="DISABLED/cookiebanner"
+          uid="{EBDC1CE2-3E20-418E-808B-1E4EF754E162}" />
+        <r
+          id="{C582CB36-C5FC-45F8-AD34-D814B3B6187E}"
+          par="test=foo"
+          ph="/theaa"
+          uid="{AFB59DDE-A881-4B86-A7D4-62EB32D155A7}" />
+        <r
+          ds="{CE20C138-928F-4D27-8EAE-C3ECE015A2FA}"
+          id="{8712E3CB-A1B6-46AB-8367-A5D9581DA30A}"
+          par=""
+          ph="/theaa/pubpage-r5/column-1"
+          uid="{F6E8B7DF-F933-462A-AE09-FCF1855F8A43}" />
+        <r
+          id="{8C485E7D-8B64-445A-9C8A-D1A3390AD370}"
+          ph="/footer"
+          uid="{59BFC5AC-392B-4298-A22A-A8013B412B0D}" />
+        <r
+          id="{69C47E28-15B6-4770-A7EB-7F04B24B56D9}"
+          ph="/theaa"
+          uid="{23778377-7ED8-4EFF-A64D-FCE980B70DB9}" />
+        <r
+          id="{70AA6C0E-94AA-4C75-AF99-390342153BB1}"
+          ph="/theaa"
+          uid="{7AC4BD49-E53A-488F-AE26-A5845E955140}" />
+        <r
+          ds=""
+          id="{E8DAA6AA-48A1-43E6-BB99-8647C2277848}"
+          par="RowBackgroundStyle=%7B9A854E29-FA32-4CED-AAD2-75014F72E945%7D&amp;RowWidth=%7B1D6A3446-1420-4448-9568-82A6403039E9%7D"
+          ph="/theaa/pubpage-r1"
+          uid="{2B946720-1890-4E98-8BBE-F8FEE7AAA01F}" />
+        <r
+          ds=""
+          id="{57BA48BE-5CBD-4C8A-A202-BC4691236FBD}"
+          par="RowBackgroundStyle=%7B9A854E29-FA32-4CED-AAD2-75014F72E945%7D&amp;RowWidth=%7B1736ADBD-BFEC-4FC6-B098-D80E7EA74C38%7D"
+          ph="/theaa/pubpage-r2"
+          uid="{DC18FDFC-429D-4950-A79F-D503474A1DDD}" />
+        <r
+          ds=""
+          id="{57BA48BE-5CBD-4C8A-A202-BC4691236FBD}"
+          par="RowBackgroundStyle=%7B9A854E29-FA32-4CED-AAD2-75014F72E945%7D&amp;RowWidth=%7BE08388E2-BACA-4B4E-8AE4-54BB5EEB183B%7D"
+          ph="/theaa/pubpage-r3"
+          uid="{0B257B38-0090-48B7-A95A-53B7AF31EE26}" />
+        <r
+          ds=""
+          id="{E8DAA6AA-48A1-43E6-BB99-8647C2277848}"
+          par="RowBackgroundStyle=%7B9A854E29-FA32-4CED-AAD2-75014F72E945%7D&amp;RowWidth=%7BE08388E2-BACA-4B4E-8AE4-54BB5EEB183B%7D"
+          ph="/theaa/pubpage-r4"
+          uid="{33BB8431-4359-42BF-B698-D744F5E6F59A}" />
+        <r
+          id="{E8DAA6AA-48A1-43E6-BB99-8647C2277848}"
+          ph="/theaa/pubpage-r5"
+          uid="{0BBBD179-C418-4EFE-AB9A-DB1CC5437D97}" />
+        <r
+          ds=""
+          id="{4FA0A664-1A1E-4DB1-8AD2-4A6913B3EC7C}"
+          par=""
+          ph="/theaa/pubpage-r1/column-1"
+          uid="{E142C369-0B0E-47E4-B1B1-6F3E1B1C4313}" />
+        <r
+          ds=""
+          id="{DA2F9899-9227-4284-8D91-55A5B4C47B46}"
+          par=""
+          ph="/theaa/pubpage-r2/column-2"
+          uid="{9A45010F-C2A4-44EA-9C08-FEDAAE0A707D}" />
+        <r
+          ds=""
+          id="{C7FF5173-405B-42B6-88DB-C1DF6CB1D54F}"
+          par=""
+          ph="/theaa/pubpage-r2/column-1"
+          uid="{CB42F973-45AA-41C5-98CF-9A89BE2A1CD2}" />
+        <r
+          ds=""
+          id="{7744E768-1C70-404A-A49D-4706BC9886B6}"
+          par=""
+          ph="/theaa/pubpage-r2/column-1"
+          uid="{F89ABC5D-1BCD-40A0-B2D8-FD73F3E1D117}" />
+        <r
+          ds=""
+          id="{CD6848A2-0FA1-404F-8004-840884060F6F}"
+          par="ScreenName&amp;TwitterPostCount&amp;Width=%7BFDBF3B16-FEFB-4D43-A114-3BF594048E8E%7D"
+          ph="/theaa/pubpage-r2/column-2"
+          uid="{EF2CAFEC-ADC5-466A-9C10-719229BF3988}" />
+        <r
+          ds=""
+          id="{CBB8FB59-6F9C-4DE8-8305-F3105DB7BE91}"
+          par=""
+          ph="/theaa/pubpage-r2/column-1"
+          uid="{E3F4F200-F376-47E9-B7CF-0E8C097C9025}" />
+        <r
+          ds=""
+          id="{0FA72E5E-98F5-44CE-A7C9-ED99434EBAFD}"
+          par=""
+          ph="/theaa/pubpage-r2/column-1"
+          uid="{D8A9E08C-7934-4C91-BDE0-B317464B3EE2}" />
+        <r
+          ds=""
+          id="{CF8F6C22-D687-4374-8EA3-15DEB185B08F}"
+          par=""
+          ph="/theaa/pubpage-r2/column-1"
+          uid="{7FBFBD18-8779-4526-AC39-264E06718261}" />
+        <r
+          id="{94A85E2E-8190-4468-9726-96DB010ED117}"
+          ph="/theaa/pubpage-r2/column-1"
+          uid="{DAF64CFF-2EAA-44B5-8DD7-2E4F280F459B}" />
+        <r
+          id="{3C293C3D-A3FE-4E09-A49C-B83B116E4D94}"
+          ph="/theaa/pubpage-r2/column-1"
+          uid="{3FCFA72A-8284-4125-B019-F9C487B62109}" />
+        <r
+          ds=""
+          id="{2F0DEDCF-FBE9-4793-94A9-8F04338AEAE1}"
+          par=""
+          ph="/theaa/pubpage-r3/column-1"
+          uid="{6DCB81D8-AE11-4D3A-A73E-1A29CA19599E}" />
+        <r
+          id="{238BA669-AEAC-47F6-B436-CAD468DD2E17}"
+          ph="/theaa/pubpage-r4/column-1"
+          uid="{6AFD0B4B-3FFA-40C4-90CA-C5E1B7BBA1CF}" />
+        <r
+          ds=""
+          id="{923A0CAC-9569-4797-A0BC-2543EC318FAA}"
+          par=""
+          ph="/theaa/pubpage-r4/column-1"
+          uid="{45F0115D-C5A3-4DAC-9D27-1F5CDE4DCA91}" />
+        <r
+          ds="{BA825EBB-3EF7-4396-9C18-4169399BC32A}"
+          id="{24BD4DBF-B69A-4090-AE1C-4E6C24342DC4}"
+          par="PodWidth=%7B67621776-375D-4EC9-8E38-84AD89F8E3BE%7D&amp;Styling=%7BD2B14D6C-8218-432B-86AC-6BE284975038%7D&amp;ContentAlignment=%7B182741F7-AC04-4196-8015-A930C7AB0D6F%7D&amp;TextColour=%7BC20A13D6-F8F6-4A3B-AD92-453E7538C5CE%7D&amp;ButtonStyles=%7B7B41EBD1-0D58-454E-A7EA-BD873E5A70ED%7D&amp;SecondaryButtonStyle=%7BC1F56865-76AA-46B8-A475-9F0A3633D8F6%7D"
+          ph="/theaa/pubpage-r3/column-2"
+          uid="{0CBCE3B5-48B3-44B7-9475-B97C096903D3}" />
+        <r
+          id="{62150AB5-8424-485D-AB1F-050458C5AEED}"
+          ph="/footer"
+          uid="{B2A44659-FE4E-44C8-BC8F-83A86C30DB0D}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161013T094727Z
+    - ID: "2e31f721-b2c7-4e9f-88d5-e87d34da261f"
+      Hint: RemoveDefaultScripts
+      Value: 
+    - ID: "48737f24-10f6-4443-b2f0-04265a4647c0"
+      Hint: TealiumProfileType
+      Value: "{17CB4018-8409-4DFA-9476-767EE0857986}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7b77859a-910f-4b37-bfc5-2d0b413fe4c3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230323T032627Z

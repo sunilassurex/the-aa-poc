@@ -1,0 +1,43 @@
+﻿---
+ID: "2a1be271-5480-4788-b19b-713c80e7efe8"
+Parent: "e23f9068-6550-4aef-97f8-70447f524f63"
+Template: "e23f9068-6550-4aef-97f8-70447f524f63"
+Path: /sitecore/templates/TheAA/Modules/DrivingSchoolReviewsPage/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190125T132305Z
+    - ID: "4cce87c4-d66c-480a-abee-98068d480974"
+      Hint: Reviews
+      Value: |
+        <h2>Reviews and testimonials</h2>
+        <div class="row">
+        <div class="cf wrapper">
+        <article class="rich-text cf">
+        <div class="eight-column-width cf">
+        <blockquote>I started learning to drive with AA Driving School in September 2017 - my instructor, Phil, was great and he gave me the confidence I needed to learn. I passed my test after learning with Phil for three months and I haven't looked back.<br />
+        <br />
+        Adrian, 22, Bromley
+        </blockquote>
+        </div>
+        </article>
+        </div>
+        </div>
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "599d0423-e0aa-44f1-b908-f7268741c185"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20190402T042604Z

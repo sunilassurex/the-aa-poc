@@ -25,6 +25,11 @@
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
+        "name":"templateTheAA",
+        "path":"/sitecore/templates/TheAA",
+        "allowedPushOperations":"CreateUpdateAndDelete"
+      },
+      {
         "name": "templateBaseInterface",
         "path": "/sitecore/templates/Foundation/Base Interface",
         "allowedPushOperations": "CreateUpdateAndDelete"
