@@ -2,18 +2,10 @@ trigger: none
 
 resources:
   repositories:
-  - repository: aa-web-dev
+  - repository: The%20AA
     type: git
-    name: aa-web
+    name: the-aa
     ref: 'refs/heads/develop'
-  - repository: aa-web-uat
-    type: git
-    name: aa-web
-    ref: 'refs/heads/uat'
-  - repository: aa-web-production
-    type: git
-    name: aa-web
-    ref: 'refs/heads/production'
 
 stages:
 - stage: DeployToDevelopment
