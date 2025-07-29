@@ -32,43 +32,35 @@ const ComparisonTable = () => {
               <div className="border-separate table-fixed relative z-0 align-top w-full mx-auto mt-[8rem] mb-[4rem]">
                 <div className="table-row-group">
                   <header className="table-row">
-                    <div className="pt-[1.8rem] pr-[2.5rem] pb-[1.7rem] pl-[2.5rem] align-bottom">
+                    {/* Left Column: Cover Heading */}
+                    <div className="table-cell align-bottom pt-[1.8rem] pr-[2.5rem] pb-[1.7rem] pl-[2.5rem] w-1/2 text-left">
                       <h2 className="alt md:min-h-[6.8rem] md:!tracking-[0px] md:!m-0">
                         Cover features
                       </h2>
                     </div>
 
+                    {/* Right Column: DeFaqto Rating */}
                     <div
-                      className="align-bottom pt-[1.8rem] pr-[2.5rem] pb-[1.7rem] pl-[2.5rem] bg-no-repeat bg-[#fedf53]"
+                      className="table-cell align-bottom pt-[1.8rem] pr-[2.5rem] pb-[1.7rem] pl-[2.5rem] bg-no-repeat bg-[#fedf53] relative w-1/2"
                       style={{
                         backgroundImage: "url('/Assets/images/backgrounds/table-heading-beam.png')",
                         backgroundPosition: '-10px 0',
                       }}
                     >
-                      <span
-                        className="bg-[#07818c] text-white block absolute top-0 left-0 font-[NewTransport-Bold] text-[1.3rem] leading-[2.1rem] tracking-[0.01em] m-[-41px_-2px_0] p-[1rem]"
-                        style={{ width: '523px' }}
-                      >
-                        4 Star Defaqto Rating
-                      </span>
-                      <h5 className="md:!tracking-[0px] md:!m-0">Comprehensive</h5>
-                      <a href="#" className="inline-block">
-                        <span
-                          className="h-[2.2rem] mt-[1rem] mx-auto bg-no-repeat bg-center"
-                          style={{ backgroundImage: "url('/info-toggle-icon.png')" }}
-                        ></span>
-                      </a>
-                      <div
-                        className="information"
-                        style={{ left: '-520px', width: '1040px', display: 'none' }}
-                      >
-                        <div className="relative" style={{ width: '400px' }}>
-                          <p>
-                            Comprehensive cover protects your car against accidental damage,
-                            vandalism, fire or theft, and injuries to other people and damage to
-                            their vehicle or property.
-                          </p>
-                        </div>
+                      <div className="bg-[#07818c] text-white font-[NewTransport-Bold] text-[1.3rem] leading-[2.1rem] tracking-[0.01em] text-center py-[1rem] rounded-t-[0.5rem]">
+                        4 STAR DEFAQTO RATING
+                      </div>
+
+                      <div className="text-center mt-[1rem]">
+                        <h5 className="md:!tracking-[0px] md:!m-0">Comprehensive</h5>
+                        <a href="#" className="inline-block">
+                          <span
+                            className="h-[2.2rem] mt-[1rem] mx-auto bg-no-repeat bg-center inline-block w-[2.2rem]"
+                            style={{
+                              backgroundImage: "url('/Assets/images/icons/info-toggle-icon.png')",
+                            }}
+                          ></span>
+                        </a>
                       </div>
                     </div>
                   </header>
