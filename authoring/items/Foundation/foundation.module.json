@@ -4,15 +4,32 @@
   "items": {
     "includes": [
       {
+       "name":"AllSiteFolder",
+       "path":"/sitecore/templates/AllSites",
+       "scope": "SingleItem",
+       "allowedPushOperations":"CreateAndUpdate"
+      },
+      {
         "name":"templateAllSitePresentation",
         "path":"/sitecore/templates/AllSites/Presentation",
         "allowedPushOperations":"CreateUpdateAndDelete"
+      },
+      {
+        "name":"CodeHouseFolder",
+        "path":"/sitecore/templates/Codehouse",
+        "scope": "SingleItem",
+        "allowedPushOperations":"CreateAndUpdate"
       },
       {
           "name":"templatesCodehouseCommon",
           "path":"/sitecore/templates/Codehouse/Common",
           "allowedPushOperations":"CreateUpdateAndDelete"
       },
+        {
+        "name":"templatesCommon",
+        "path":"/sitecore/templates/Common",
+        "allowedPushOperations":"CreateUpdateAndDelete"
+       },
       {
         "name":"templateBaseInterface",
         "path":"/sitecore/templates/Foundation/Base Interface",
@@ -26,11 +43,6 @@
         {
         "name":"templatePresentation",
         "path":"/sitecore/templates/Foundation/Presentation",
-        "allowedPushOperations":"CreateUpdateAndDelete"
-      },
-        {
-        "name":"templatesCommon",
-        "path":"/sitecore/templates/Common",
         "allowedPushOperations":"CreateUpdateAndDelete"
       },
       {
@@ -63,8 +75,6 @@
           "path":"/sitecore/system/Settings/Insert Rules/The AA",
           "allowedPushOperations":"CreateUpdateAndDelete"
       },
-      
-     
        {
         "name": "Layout",
         "path": "/sitecore/layout/Layouts/Foundation",

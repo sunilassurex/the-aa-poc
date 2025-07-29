@@ -4,10 +4,22 @@
   "references": ["Foundation.TheAA"],
   "items": {
     "includes": [
+      {
+        "name":"HeadlessFolder",
+        "path":"/sitecore/templates/Feature/Headless",
+        "scope": "SingleItem",
+        "allowedPushOperations":"CreateAndUpdate"
+      },
 	  {
         "name": "templatesMobileApp",
         "path": "/sitecore/templates/Feature/Headless/Mobile-App",
         "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name":"BranchHeadlessFolder",
+       "path":"/sitecore/templates/Branches/Feature/Headless",
+       "scope": "SingleItem",
+       "allowedPushOperations":"CreateAndUpdate"
       },
         {
         "name": "templatesBranchesMobileApp",
@@ -21,9 +33,22 @@
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
+        "name":"MetaDataFolder",
+        "path":"/sitecore/templates/Feature/Meta Data",
+        "scope": "SingleItem",
+        "allowedPushOperations":"CreateAndUpdate"
+      }
+      ,
+      {
         "name":"templateAnalytics",
         "path":"/sitecore/templates/Feature/Meta Data/Analytics",
         "allowedPushOperations":"CreateUpdateAndDelete"
+      },
+      {
+        "name":"RenderingHeadlessFolder",
+        "path":"/sitecore/layout/Renderings/Feature/Headless",
+        "scope": "SingleItem",
+        "allowedPushOperations":"CreateAndUpdate"
       },
       {
         "name":"renderingsMobileApp",
