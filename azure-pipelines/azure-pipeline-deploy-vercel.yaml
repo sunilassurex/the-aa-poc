@@ -28,54 +28,10 @@ stages:
     variables:
     - name: sitecore_environment
       value: development
-    - group: 'Release Pipeline Variables - Dev'
+    - group: 'Release Pipeline Variables Dev'
     strategy:
       runOnce:
         deploy:
           steps:
           - checkout: 'aa-web-dev'
-          - template: 'azure-pipeline-step-deploy-vercel.yml'
-
-- stage: DeployToUAT
-  dependsOn: DeployToDevelopment
-  jobs:
-  - deployment: DeployToUAT
-    displayName: "Deploy to UAT - Vercel"
-    environment: 'UAT'
-    workspace:
-      clean: all
-    pool:
-      vmImage: 'windows-latest'
-    variables:
-    - name: sitecore_environment
-      value: uat
-    - group: 'Release Pipeline Variables - UAT'
-    strategy:
-      runOnce:
-        deploy:
-          steps:
-          - checkout: 'aa-web-uat'
-          - template: 'azure-pipeline-step-deploy-vercel.yml'
-
-- stage: DeployToProduction
-  dependsOn:
-  - DeployToDevelopment
-  - DeployToUAT
-  jobs:
-  - deployment: DeployToProduction
-    displayName: "Deploy to Production - Vercel"
-    environment: 'Production'
-    workspace:
-      clean: all
-    pool:
-      vmImage: 'windows-latest'
-    variables:
-    - name: sitecore_environment
-      value: production
-    - group: 'Release Pipeline Variables - Production'
-    strategy:
-      runOnce:
-        deploy:
-          steps:
-          - checkout: 'aa-web-production'
           - template: 'azure-pipeline-step-deploy-vercel.yml'
