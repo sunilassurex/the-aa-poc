@@ -39,6 +39,11 @@
         "allowedPushOperations":"CreateUpdateAndDelete"
       },
       {
+          "name":"templatesCodehouseCommon",
+          "path":"/sitecore/templates/Codehouse/Common",
+          "allowedPushOperations":"CreateUpdateAndDelete"
+      },
+      {
         "name":"templateBaseInterface",
         "path":"/sitecore/templates/Foundation/Base Interface",
         "allowedPushOperations":"CreateUpdateAndDelete"
