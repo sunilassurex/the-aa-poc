@@ -26,8 +26,8 @@
           "allowedPushOperations":"CreateUpdateAndDelete"
       },
         {
-        "name":"templatesCommon",
-        "path":"/sitecore/templates/Common",
+        "name":"templatesMobileAppFolder",
+        "path":"/sitecore/templates/Common/Mobile App Folder",
         "allowedPushOperations":"CreateUpdateAndDelete"
        },
       {
@@ -44,6 +44,16 @@
         "name":"templatePresentation",
         "path":"/sitecore/templates/Foundation/Presentation",
         "allowedPushOperations":"CreateUpdateAndDelete"
+      },
+      {
+        "name":"templateFolders",
+        "path":"/sitecore/templates/Foundation/Folders",
+        "allowedPushOperations":"CreateUpdateAndDelete"
+      },
+      {
+          "name":"templateSettings",
+          "path":"/sitecore/templates/Foundation/Settings",
+          "allowedPushOperations":"CreateUpdateAndDelete"
       },
       {
         "name": "TheAAWorkflow",
