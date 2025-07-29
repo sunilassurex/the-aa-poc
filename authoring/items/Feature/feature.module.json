@@ -4,6 +4,22 @@
   "references": ["Foundation.TheAA"],
   "items": {
     "includes": [
+       {
+        "name": "templatesBasicContent",
+        "path": "/sitecore/templates/Feature/Basic Content",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "MetaDataFolder",
+        "path": "/sitecore/templates/Feature/Meta Data",
+        "scope": "SingleItem",
+        "allowedPushOperations": "CreateAndUpdate"
+      },
+      {
+        "name": "templateAnalytics",
+        "path": "/sitecore/templates/Feature/Meta Data/Analytics",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
       {
         "name": "HeadlessFolder",
         "path": "/sitecore/templates/Feature/Headless",
@@ -24,23 +40,6 @@
       {
         "name": "templatesBranchesMobileApp",
         "path": "/sitecore/templates/Branches/Feature/Headless/Mobile App",
-        "allowedPushOperations": "CreateUpdateAndDelete"
-      },
-
-      {
-        "name": "templatesBasicContent",
-        "path": "/sitecore/templates/Feature/Basic Content",
-        "allowedPushOperations": "CreateUpdateAndDelete"
-      },
-      {
-        "name": "MetaDataFolder",
-        "path": "/sitecore/templates/Feature/Meta Data",
-        "scope": "SingleItem",
-        "allowedPushOperations": "CreateAndUpdate"
-      },
-      {
-        "name": "templateAnalytics",
-        "path": "/sitecore/templates/Feature/Meta Data/Analytics",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
