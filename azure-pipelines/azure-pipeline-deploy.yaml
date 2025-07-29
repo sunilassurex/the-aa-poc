@@ -1,14 +1,14 @@
 trigger:
   branches:
     include:
-      - xmcloud
+      - main
 
 resources:
   repositories:
     - repository: aa-web-dev
       type: git
       name: The AA
-      ref: refs/heads/xmcloud
+      ref: refs/heads/main
 
 stages:
 - stage: DeployToDevelopment
