@@ -12,6 +12,7 @@ import InsuranceBenefits from 'components/InsuranceBenefits';
 import AssistOptionalInfo from 'components/AssistOptionalInfo';
 import Toggle from 'components/Toggle';
 import CardsWithOneTwoThreeColumn from 'components/CardsWithOneTwoThreeColumn';
+import RichTextWithLayout from 'components/RichTextWithLayout';
 
 const BeamPage: React.FC = () => {
   const beamText: Field<string> = {
@@ -284,8 +285,8 @@ const BeamPage: React.FC = () => {
         richText={beamText}
       />
       <AssistOptionalInfo
-        heading="It’s OK when you’ve got Accident Assist"
-        description="Accident Assist is a complimentary 24/7 accident claim support service for all our breakdown members."
+        heading="What’s covered by BEAM car insurance?"
+        description="BEAM car insurance is powered by the AA, one of the UK's leading brands. With the support of a trusted claims team, you can be confident you've got the right cover for the right price."
         items={[
           {
             text: (
@@ -294,12 +295,16 @@ const BeamPage: React.FC = () => {
                 <a href="#" className="!text-[#07818c] !font-bold !no-underline hover:underline">
                   comprehensive cover
                 </a>{' '}
-                protects your car against accidental damage...
+                protects your car against accidental damage , vandalism, fire or theft, and injuries
+                to other people and damage to their vehicle or property.
               </>
             ),
           },
           {
-            text: 'We’ll arrange your repair with trusted repairers and provide a hire vehicle while yours is fixed.',
+            text: 'Add extra cover if you need it, such as Excess Protection or Motor Legal Assistance.',
+          },
+          {
+            text: 'Because we’re backed by the AA, you can get breakdown cover from just £15.',
           },
         ]}
         productFeatureIntro="BEAM car insurance is only available through select price comparison sites."
@@ -461,6 +466,7 @@ const BeamPage: React.FC = () => {
         headline={'Make a claim'}
         description={'Call us 24/7 on 0330 041 3689'}
       ></PageDetail>
+      <RichTextWithLayout description={richTextContent}></RichTextWithLayout>
       <CardsWithOneTwoThreeColumn
         contacts={[
           {
@@ -478,6 +484,8 @@ const BeamPage: React.FC = () => {
         headline={'Manage your policy'}
         description={'Update your details, see policy documents or make a claim'}
       ></PageDetail>
+      <RichTextWithLayout description={accountRichTextContent}></RichTextWithLayout>
+      <RichTextWithLayout description={updateDetailsRichTextContent}></RichTextWithLayout>
       <PromoGrid
         variant="promo-section"
         promoCards={[

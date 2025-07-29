@@ -12,7 +12,14 @@ export default function BeamHeader() {
   ];
 
   return (
-    <header id="beam-header" className="md:h-[96px] lg:h-[95px] h-[64px] bg-white block">
+    <header
+      id="beam-header"
+      className="md:h-[96px] lg:h-[95px] h-[64px] bg-white block "
+      style={{
+        boxShadow:
+          '0 2px 4px -1px rgb(0 0 0 / 20%), 0 1px 10px 0 rgb(0 0 0 / 12%), 0 4px 5px 0 rgb(0 0 0 / 14%)',
+      }}
+    >
       <div className="md:!mx-auto md:!px-[5px] xl:!px-[2rem] wrapper xl:px-[2rem] block relative !px-[10px]">
         {/* Logo Block */}
         <div className="float-left">
