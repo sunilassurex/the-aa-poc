@@ -25,5 +25,5 @@ stages:
       runOnce:
         deploy:
           steps:
-          - checkout: 'aa-web-dev'
+          - checkout: 'The AA'
           - template: 'azure-pipeline-step-deploy-vercel.yml'
