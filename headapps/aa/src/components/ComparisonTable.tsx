@@ -32,35 +32,42 @@ const ComparisonTable = () => {
               <div className="border-separate table-fixed relative z-0 align-top w-full mx-auto mt-[8rem] mb-[4rem]">
                 <div className="table-row-group">
                   <header className="table-row">
-                    {/* Left Column: Cover Heading */}
+                    {/* Left side: Cover Features */}
                     <div className="table-cell align-bottom pt-[1.8rem] pr-[2.5rem] pb-[1.7rem] pl-[2.5rem] w-1/2 text-left">
                       <h2 className="alt md:min-h-[6.8rem] md:!tracking-[0px] md:!m-0">
                         Cover features
                       </h2>
                     </div>
 
-                    {/* Right Column: DeFaqto Rating */}
-                    <div
-                      className="table-cell align-bottom pt-[1.8rem] pr-[2.5rem] pb-[1.7rem] pl-[2.5rem] bg-no-repeat bg-[#fedf53] relative w-1/2"
-                      style={{
-                        backgroundImage: "url('/Assets/images/backgrounds/table-heading-beam.png')",
-                        backgroundPosition: '-10px 0',
-                      }}
-                    >
-                      <div className="bg-[#07818c] text-white font-[NewTransport-Bold] text-[1.3rem] leading-[2.1rem] tracking-[0.01em] text-center py-[1rem] rounded-t-[0.5rem]">
-                        4 STAR DEFAQTO RATING
-                      </div>
+                    {/* Right side: Blue + Yellow */}
+                    <div className="table-cell w-1/2 align-bottom p-0">
+                      <div className="rounded-t-[0.5rem] overflow-hidden shadow-md relative after:absolute after:top-0 after:content-[''] after:h-[101%] after:w-[0.2rem] after:bg-[#07818c] after:z-[1] after">
+                        {/* Blue Top Bar */}
+                        <div className="bg-[#07818c] text-white text-center font-[NewTransport-Bold] text-[1.3rem] leading-[2.1rem] tracking-[0.01em] py-[1rem]">
+                          4 STAR DEFAQTO RATING
+                        </div>
 
-                      <div className="text-center mt-[1rem]">
-                        <h5 className="md:!tracking-[0px] md:!m-0">Comprehensive</h5>
-                        <a href="#" className="inline-block">
-                          <span
-                            className="h-[2.2rem] mt-[1rem] mx-auto bg-no-repeat bg-center inline-block w-[2.2rem]"
-                            style={{
-                              backgroundImage: "url('/Assets/images/icons/info-toggle-icon.png')",
-                            }}
-                          ></span>
-                        </a>
+                        {/* Yellow Section with background gradient or image */}
+                        <div
+                          className="bg-[#fedf53] text-center py-[1.5rem] px-[1rem] relative"
+                          style={{
+                            backgroundImage:
+                              "url('/Assets/images/backgrounds/yellow-diagonal-bg.png')", // or use linear-gradient
+                            backgroundRepeat: 'no-repeat',
+                            backgroundSize: 'cover',
+                            backgroundPosition: 'center',
+                          }}
+                        >
+                          <h5 className="font-[NewTransport-Bold] text-black">Comprehensive</h5>
+                          <a href="#" className="inline-block mt-[0.6rem]">
+                            <span
+                              className="h-[2.2rem] w-[2.2rem] inline-block bg-center bg-no-repeat"
+                              style={{
+                                backgroundImage: "url('/info-toggle-icon.png')",
+                              }}
+                            ></span>
+                          </a>
+                        </div>
                       </div>
                     </div>
                   </header>
@@ -77,7 +84,7 @@ const ComparisonTable = () => {
                       >
                         <h5 className="md:!tracking-[0px] md:!m-0">{feature}</h5>
                       </div>
-                      <div className="text-center table-cell relative align-middle border-l border-b border-[#dcddde] pt-[2.5rem] pr-[3.5rem] pb-[2.5rem] pl-[3.5rem]">
+                      <div className="text-center table-cell relative align-middle border-l border-b border-[#dcddde] pt-[2.5rem] pr-[3.5rem] pb-[2.5rem] pl-[3.5rem] relative after:absolute after:top-0 after:content-[''] after:h-[101%] after:w-[0.2rem] after:bg-[#07818c] after:z-[1] after:right-[-.2rem] before:left-[-.2rem] before:absolute before:top-0 before:content-[''] before:h-[101%] before:w-[0.2rem] before:bg-[#07818c] before:z-[1] ">
                         <div className="text-center">
                           <span
                             className="inline-block align-middle w-[2.1rem] h-[2.1rem] mb-0 bg-no-repeat bg-center"
