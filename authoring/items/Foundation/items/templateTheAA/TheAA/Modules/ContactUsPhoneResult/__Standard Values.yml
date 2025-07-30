@@ -1,0 +1,26 @@
+﻿---
+ID: "6a3bceca-8654-4ac4-8d8f-14f100088429"
+Parent: "8106c416-d32f-4254-b4bc-b885e0c7b2f0"
+Template: "8106c416-d32f-4254-b4bc-b885e0c7b2f0"
+Path: /sitecore/templates/TheAA/Modules/ContactUsPhoneResult/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170111T151658Z
+    - ID: "32eb1ead-1f10-4f8b-9f49-0eab45c5f056"
+      Hint: OpeningTimeLine
+      Value: "{0} to {1}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cffb6fb4-6008-4c45-8cae-9b23f5ec32c5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20170111T151706Z

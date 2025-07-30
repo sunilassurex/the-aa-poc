@@ -1,0 +1,35 @@
+﻿---
+ID: "2d743942-b92c-4a02-97a0-1e2d61776c62"
+Parent: "3e3cad5e-ec0b-463f-98f2-e3d299a64bc1"
+Template: "3e3cad5e-ec0b-463f-98f2-e3d299a64bc1"
+Path: /sitecore/templates/TheAA/Settings/MegaNavigationColumn/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{E345810F-A827-484F-9D7B-7A76D1AF7261}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160122T135049Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "68bd88d3-19bc-4274-89cc-d26be63507b2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20160122T135101Z

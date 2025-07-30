@@ -1,0 +1,27 @@
+﻿---
+ID: "06a20f84-2b08-4266-b43a-c610891aba56"
+Parent: "73f07373-27e6-45c6-be23-8f5bf1aa48b3"
+Template: "73f07373-27e6-45c6-be23-8f5bf1aa48b3"
+Path: /sitecore/templates/TheAA/Presentation/ContentHubHeroSetting/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190523T102247Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\yadavs
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6ed8d6eb-911e-433f-a2ed-31dc020eeee1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20190627T063948Z

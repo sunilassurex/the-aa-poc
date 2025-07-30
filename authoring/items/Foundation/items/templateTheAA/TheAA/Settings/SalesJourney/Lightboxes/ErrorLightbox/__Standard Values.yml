@@ -1,0 +1,26 @@
+﻿---
+ID: "202c2b44-83d8-4940-9c84-e3447bd5066f"
+Parent: "0acc4252-56e3-49ff-8214-2790bd1920fc"
+Template: "0acc4252-56e3-49ff-8214-2790bd1920fc"
+Path: /sitecore/templates/TheAA/Settings/SalesJourney/Lightboxes/ErrorLightbox/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161208T162004Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6eed39bc-137b-4d8a-b9d4-bd7607253947"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20161208T162211Z
+    - ID: "fdfd86d5-1862-4393-8426-42012d76f30f"
+      Hint: RenderingViewPath
+      Value: "{968AE6EE-365A-450E-A482-BB863FD075AA}"

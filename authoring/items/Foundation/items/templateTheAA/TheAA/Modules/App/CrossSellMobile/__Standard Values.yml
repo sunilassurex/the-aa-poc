@@ -1,0 +1,27 @@
+﻿---
+ID: "1f1d2e22-06f1-44d7-bd55-36bf094e9062"
+Parent: "2b49cb3e-da3e-4eae-a228-cd2482495e2e"
+Template: "2b49cb3e-da3e-4eae-a228-cd2482495e2e"
+Path: /sitecore/templates/TheAA/Modules/App/CrossSellMobile/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211118T142601Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\paul_petersen
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5ba1bc3b-aba6-40d9-a528-d7408231f324"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211130T043832Z

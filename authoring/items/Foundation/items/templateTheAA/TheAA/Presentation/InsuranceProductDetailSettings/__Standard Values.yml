@@ -1,0 +1,37 @@
+﻿---
+ID: "af1f79d7-2a29-4ff6-83ff-1cd5a900af7e"
+Parent: "ce19bacd-ad2c-4a24-9eb8-f325ed4cd286"
+Template: "ce19bacd-ad2c-4a24-9eb8-f325ed4cd286"
+Path: /sitecore/templates/TheAA/Presentation/InsuranceProductDetailSettings/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0f27f85c-30ac-45e4-a334-22d2c3661ddf"
+      Hint: PrimaryButtonStyle
+      Value: "{A15F49E1-D271-4E7D-A3DA-B8814B587881}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160525T144606Z
+    - ID: "36441ef7-88a0-49c9-a833-4827f693dd18"
+      Hint: SecondaryButtonStyle
+      Value: "{A1381E17-6103-439C-985B-3E0FBE33506C}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4198fb4f-55a8-4ea6-8d6b-87afcbd55aa5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20160614T164052Z

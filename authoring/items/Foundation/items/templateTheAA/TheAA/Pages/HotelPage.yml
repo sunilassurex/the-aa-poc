@@ -1,0 +1,37 @@
+﻿---
+ID: "9e1e824e-9877-4ff3-bae4-ba35e3ae42e1"
+Parent: "b06229f6-e5a3-4424-bc7f-7ca64d662560"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/TheAA/Pages/HotelPage
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: People/32x32/bed.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: |
+    {5C6BEE95-7FBA-477C-8195-BB0C612DE601}
+    {AC9B1217-E925-47D2-98F9-FC63B0BA1147}
+    {3E6FA060-6143-424E-81E6-1F80B220236F}
+    {393334A9-39D1-4C1E-AAC1-0940A56B0133}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{105C024A-AA9E-4E6B-A030-80FF491E8227}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160812T160647Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "21fe79c2-6adc-4cf2-a5dd-48395217d92f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20161012T130322Z

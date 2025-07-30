@@ -1,0 +1,33 @@
+﻿---
+ID: "d4a5015c-d138-4f60-b195-87d0b58625b3"
+Parent: "90a528f4-8c4f-469d-b291-dfc3d2d21fa2"
+Template: "90a528f4-8c4f-469d-b291-dfc3d2d21fa2"
+Path: /sitecore/templates/TheAA/Settings/SalesJourney/Journey/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{4CFEB389-139D-443B-8A35-0DA74B7F33E1}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160905T154152Z
+    - ID: "2cba30c6-e8d6-4d14-b3fe-87bffaf4c4de"
+      Hint: JourneyRules
+      Value: <ruleset />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5b524329-bb13-43b2-b66f-b1d36dd700b5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "cd22ed3a-9ebb-4d6b-aef6-8260b9b06221"
+      Hint: LineOfBusiness
+      Value: "{07D2DA96-DB53-418E-9A14-34A95FA0F38B}"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20160905T154231Z

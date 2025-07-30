@@ -1,0 +1,27 @@
+﻿---
+ID: "c68d44a9-b37c-431d-b351-dc8b4d691747"
+Parent: "d0169ab4-109e-45f3-993b-2ee7fe1ee149"
+Template: "d0169ab4-109e-45f3-993b-2ee7fe1ee149"
+Path: /sitecore/templates/TheAA/Settings/SalesJourney/Blocks/NeedsAssessmentQuestion/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{3073174E-19D7-4646-B2CE-03A0A4CB6030}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170210T124512Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e028daf6-233a-4ad1-83f9-2528b8e1cd11"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20170210T124525Z

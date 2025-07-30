@@ -1,0 +1,42 @@
+﻿---
+ID: "c2d18eaf-c0d5-400a-b60d-1f757ac59cf5"
+Parent: "b06229f6-e5a3-4424-bc7f-7ca64d662560"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/TheAA/Pages/BedAndBreakfastPage
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/bed.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {AC9B1217-E925-47D2-98F9-FC63B0BA1147}
+    {5C6BEE95-7FBA-477C-8195-BB0C612DE601}
+    {CF0F0C18-1E36-4710-8D94-1D17589FA152}
+    {393334A9-39D1-4C1E-AAC1-0940A56B0133}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{A9A6D69A-F5DE-4A01-AC6B-96CA36CFC403}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161013T090034Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "51f1623e-7c59-4be0-838d-764f0f635b0d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20161014T145817Z

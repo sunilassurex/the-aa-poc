@@ -1,0 +1,76 @@
+﻿---
+ID: "254b8e02-ff0c-47ba-b4fc-c5c509056034"
+Parent: "74d6566a-794f-4374-858b-fc442a1cdea0"
+Template: "74d6566a-794f-4374-858b-fc442a1cdea0"
+Path: /sitecore/templates/TheAA/Pages/MemberBenefitsPageNew/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181213T051111Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "73a97a8e-ebeb-4caf-a16f-2b71b219990d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230323T032623Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181213T051111Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "96971da2-e85a-4b33-82b9-816c6f120dff"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230323T032623Z
+  - Version: 3
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{BB46309D-349C-4A37-A517-386A917196ED}">
+              <p:d />
+            </r>
+            <r
+              uid="{ED6ADCC2-416E-4045-98FB-D23F0F0E8A5C}"
+              p:after="*[1=2]"
+              s:ds=""
+              s:id="{22DDED64-9C82-4A2B-9D38-E8798AEACF8B}"
+              s:par=""
+              s:ph="/metadata" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181213T051111Z
+    - ID: "2e31f721-b2c7-4e9f-88d5-e87d34da261f"
+      Hint: RemoveDefaultScripts
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "952b1d93-f805-4f51-aed6-a32db9485716"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230323T032623Z

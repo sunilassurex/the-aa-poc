@@ -1,0 +1,30 @@
+﻿---
+ID: "a62c4b1f-763a-4604-a635-7f0f7f12fe3a"
+Parent: "23a8963e-0ebb-4668-a9c4-43616c4eaab2"
+Template: "23a8963e-0ebb-4668-a9c4-43616c4eaab2"
+Path: /sitecore/templates/TheAA/Modules/RelatedLinkSource/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{60AF76B4-442B-4226-86B8-BB15D7061B5A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160330T145326Z
+    - ID: "89b2713a-1309-458b-9b7a-2be29a42a2bd"
+      Hint: DisplayNumberOfColumns
+      Value: "{E663F51C-8A4C-497B-89CD-9CDF92241C4C}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b87c404d-fb5a-4fcf-8000-1351f1326d51"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20160330T145341Z

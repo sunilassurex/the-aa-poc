@@ -4,27 +4,43 @@
   "references": ["Foundation.TheAA"],
   "items": {
     "includes": [
-	  {
+       {
+        "name": "templatesBasicContent",
+        "path": "/sitecore/templates/Feature/Basic Content",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "MetaDataFolder",
+        "path": "/sitecore/templates/Feature/Meta Data",
+        "scope": "SingleItem",
+        "allowedPushOperations": "CreateAndUpdate"
+      },
+      {
+        "name": "templateAnalytics",
+        "path": "/sitecore/templates/Feature/Meta Data/Analytics",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
         "name": "templatesMobileApp",
         "path": "/sitecore/templates/Feature/Headless/Mobile-App",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
-        "name": "templatesBasicContent",
-        "path":"/sitecore/templates/Feature/Basic Content",
+        "name": "templatesBranchesMobileApp",
+        "path": "/sitecore/templates/Branches/Feature/Headless/Mobile App",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
-        "name":"templateAnalytics",
-        "path":"/sitecore/templates/Feature/Meta Data/Analytics",
-        "allowedPushOperations":"CreateUpdateAndDelete"
+        "name": "RenderingHeadlessFolder",
+        "path": "/sitecore/layout/Renderings/Feature/Headless",
+        "scope": "SingleItem",
+        "allowedPushOperations": "CreateAndUpdate"
       },
       {
-        "name":"renderingsMobileApp",
-        "path":"/sitecore/layout/Renderings/Feature/Headless/mobile-app",
+        "name": "renderingsMobileApp",
+        "path": "/sitecore/layout/Renderings/Feature/Headless/mobile-app",
         "allowedPushOperations": "CreateUpdateAndDelete"
       }
-    
     ]
   }
 }

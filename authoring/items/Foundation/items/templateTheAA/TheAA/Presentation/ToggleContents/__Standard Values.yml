@@ -1,0 +1,26 @@
+﻿---
+ID: "4767b01d-7075-49c0-b38b-e2b62e94f68e"
+Parent: "d8268568-00ed-48ef-9375-33d3bbf87f0d"
+Template: "d8268568-00ed-48ef-9375-33d3bbf87f0d"
+Path: /sitecore/templates/TheAA/Presentation/ToggleContents/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170412T151205Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3b3a4ba9-18a8-4dea-8bfa-e55e421755bd"
+    - ID: "b3a1ba80-d12b-4d80-a020-6d909ba39add"
+      Hint: DynamicallyDownloadHiddenContent
+      Value: Off
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20190402T042606Z

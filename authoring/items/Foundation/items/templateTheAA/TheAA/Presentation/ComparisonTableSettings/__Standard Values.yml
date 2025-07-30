@@ -1,0 +1,26 @@
+﻿---
+ID: "0dbe8a67-f98a-491b-9af6-23c5c1b08f83"
+Parent: "9f091f7e-1153-4d10-b51a-e363b05498d6"
+Template: "9f091f7e-1153-4d10-b51a-e363b05498d6"
+Path: /sitecore/templates/TheAA/Presentation/ComparisonTableSettings/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160613T115717Z
+    - ID: "3d2bffab-cf6a-4b58-82ba-a0e0e520ee7d"
+      Hint: TableWidth
+      Value: "{BD76472D-E3DE-450A-B6AE-3DE3FE60A27B}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "02c34123-8104-450b-921b-9d92ad38db0c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20160613T125114Z

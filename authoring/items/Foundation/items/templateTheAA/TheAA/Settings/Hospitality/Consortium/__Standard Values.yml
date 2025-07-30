@@ -1,0 +1,27 @@
+﻿---
+ID: "6b78c486-3828-4f23-a01a-1ef9d6b4cd0b"
+Parent: "aca4468c-41f7-40eb-a580-81136c874698"
+Template: "aca4468c-41f7-40eb-a580-81136c874698"
+Path: /sitecore/templates/TheAA/Settings/Hospitality/Consortium/__Standard Values
+SharedFields:
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161111T160614Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c621e4bc-fd1e-4354-b54b-8ece1611c3fb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Codehouse
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20170323T154723Z

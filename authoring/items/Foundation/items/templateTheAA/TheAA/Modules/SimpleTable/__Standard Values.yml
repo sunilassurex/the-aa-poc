@@ -1,0 +1,31 @@
+﻿---
+ID: "20d4cae1-5f35-4b9b-93b3-bf12e04a5037"
+Parent: "a1756e69-f870-4e6e-936b-fbd499d49718"
+Template: "a1756e69-f870-4e6e-936b-fbd499d49718"
+Path: /sitecore/templates/TheAA/Modules/SimpleTable/__Standard Values
+SharedFields:
+- ID: "6fd695e7-7f6d-4ca5-8b49-a829e5950ae9"
+  Hint: __Subitems Sorting
+  Value: "{C1FF011E-B02A-44E3-8444-9FC89CFC28CE}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160706T160928Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "68caf1ed-aeeb-4c54-af30-22fa6d6e15eb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20160712T162540Z

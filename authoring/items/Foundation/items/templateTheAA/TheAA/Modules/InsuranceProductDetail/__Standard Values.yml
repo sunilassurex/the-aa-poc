@@ -1,0 +1,32 @@
+﻿---
+ID: "dc1c698f-b27d-4fd7-afd8-54954909278b"
+Parent: "9b838aa2-9bf6-4291-9442-6ab7df03d64c"
+Template: "9b838aa2-9bf6-4291-9442-6ab7df03d64c"
+Path: /sitecore/templates/TheAA/Modules/InsuranceProductDetail/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160614T120023Z
+    - ID: "2f44a192-a9f9-4b5e-80ba-86c2e6c0bf03"
+      Hint: Title
+      Value: $name
+    - ID: "5c11251e-e405-4816-b9c4-74c7a6d16d97"
+      Hint: FeatureListIntroduction
+      Value: "What you get:"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3e67a902-ecb2-4cf7-a7ed-c7d85494be05"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9a2e285-684f-48be-b2a5-867fc9f0811a"
+      Hint: ShowCtas
+      Value: 1
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20160614T140156Z

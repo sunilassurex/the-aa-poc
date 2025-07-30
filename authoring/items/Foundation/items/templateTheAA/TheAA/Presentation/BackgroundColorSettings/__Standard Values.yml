@@ -1,0 +1,26 @@
+﻿---
+ID: "c13b8a72-abee-4674-8a99-3c3e36fde839"
+Parent: "f9eb5cba-0b5e-44fa-9ca5-23fed6a6d755"
+Template: "f9eb5cba-0b5e-44fa-9ca5-23fed6a6d755"
+Path: /sitecore/templates/TheAA/Presentation/BackgroundColorSettings/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160111T112108Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7c85498d-9f33-41db-b715-fe8e372ea3bc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210318T052135Z
+    - ID: "f7e1b45f-6560-415c-a382-5d2a83309f34"
+      Hint: BackgroundColour
+      Value: #FFFFFF

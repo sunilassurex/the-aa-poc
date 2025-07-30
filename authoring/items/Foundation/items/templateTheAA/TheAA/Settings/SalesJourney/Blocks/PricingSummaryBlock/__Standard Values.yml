@@ -1,0 +1,30 @@
+﻿---
+ID: "b2b85892-c5c1-49ba-b648-310e144edbb1"
+Parent: "d616d441-4f4b-488d-a77e-81e60c268264"
+Template: "d616d441-4f4b-488d-a77e-81e60c268264"
+Path: /sitecore/templates/TheAA/Settings/SalesJourney/Blocks/PricingSummaryBlock/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{CA8CF56C-6EBB-4EC8-8683-7067DF4BB245}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161028T152403Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c6588198-f0a1-40c8-aeda-e68dd00d2855"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20161028T152952Z
+    - ID: "fdfd86d5-1862-4393-8426-42012d76f30f"
+      Hint: RenderingViewPath
+      Value: "{3CC92D78-4C79-4EEF-BA93-6B08236AEA61}"
