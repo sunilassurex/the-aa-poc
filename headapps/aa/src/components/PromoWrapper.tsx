@@ -7,7 +7,7 @@ import Image from 'next/image';
 import useResponsiveDevice from 'components/helpers/CustomHelpers/ResponsiveHook'; // Make sure path is correct
 import Constant from 'components/helpers/Constant/Constant';
 
-const { DESKTOP, TABLET, MOBILE } = Constant.RESPONSIVE_VARIABLES;
+const { MOBILE } = Constant.RESPONSIVE_VARIABLES;
 
 type AppPromoVariant = 'default' | 'centered';
 
@@ -28,7 +28,6 @@ const AppPromo: React.FC<AppPromoProps> = ({
   mobileImageUrl,
   googlePlayUrl,
   appStoreUrl,
-  variant = 'default',
 }) => {
   const deviceType = useResponsiveDevice(); // 👈 Get device type from the hook
 
