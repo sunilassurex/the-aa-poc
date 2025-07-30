@@ -461,7 +461,7 @@ export default function Navbar() {
                   </div>
                 </li>
                 <div className="relative top-[-9px]">
-                  {menuData[selectedMobileMenu].flat().map((item, i) => (
+                  {menuData[selectedMobileMenu].flat().map((item: any, i: any) => (
                     <li
                       key={i}
                       className=" !mb-0 h-[53px] border-t border-[#dcddde] flex items-center"
