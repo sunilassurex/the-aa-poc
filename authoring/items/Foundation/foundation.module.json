@@ -81,17 +81,17 @@
       },
       {
         "name": "ComparisonTableWidths",
-        "path": "/sitecore/system/Settings/Foundation/ComparisonTableWidths",
+        "path": "/sitecore/system/Settings/Foundation/Comparison Table Widths",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
         "name": "CopyScreenSizes",
-        "path": "/sitecore/system/Settings/Foundation/CopyScreenSizes",
+        "path": "/sitecore/system/Settings/Foundation/Copy Screen Sizes",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
         "name": "IconSize",
-        "path": "/sitecore/system/Settings/Foundation/IconSize",
+        "path": "/sitecore/system/Settings/Foundation/Icon Size",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
@@ -111,7 +111,7 @@
       },
       {
         "name": "Imageposition",
-        "path": "/sitecore/system/Settings/Foundation/Imageposition",
+        "path": "/sitecore/system/Settings/Foundation/Image position",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
