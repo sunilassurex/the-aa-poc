@@ -1,5 +1,7 @@
-trigger: none
-
+trigger: 
+  branches:
+    include:
+      - develop
 resources:
   repositories:
   - repository: The AA
