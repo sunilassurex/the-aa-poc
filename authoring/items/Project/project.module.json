@@ -5,13 +5,8 @@
   "items": {
     "includes": [
       {
-        "name": "templateMobileApp",
-        "path": "/sitecore/templates/Project/AA/MobileApp",
-        "allowedPushOperations": "CreateUpdateAndDelete"
-      },
-      {
-        "name": "templateBase",
-        "path": "/sitecore/templates/Project/AA/Base",
+        "name": "MobileAppProject",
+        "path": "/sitecore/templates/Project/AA",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
