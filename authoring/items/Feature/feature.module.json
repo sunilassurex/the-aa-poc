@@ -52,11 +52,6 @@
         "name": "renderingsMobileApp",
         "path": "/sitecore/layout/Renderings/Feature/Headless/mobile-app",
         "allowedPushOperations": "CreateUpdateAndDelete"
-      },
-      {
-        "name": "settings",
-        "path": "/sitecore/system/Settings/Feature",
-        "allowedPushOperations": "CreateUpdateAndDelete"
       }
     ]
   }
