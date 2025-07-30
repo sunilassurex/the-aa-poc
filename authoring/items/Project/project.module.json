@@ -26,11 +26,6 @@
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
-        "name": "Settings",
-        "path": "/sitecore/system/Settings/Project",
-        "allowedPushOperations": "CreateUpdateAndDelete"
-      },
-      {
         "name": "LayoutMobileApp",
         "path": "/sitecore/layout/Layouts/Project/mobile-app",
         "allowedPushOperations": "CreateUpdateAndDelete"
