@@ -5,12 +5,6 @@
   "items": {
     "includes": [
       {
-        "name": "AAFolder",
-        "path": "/sitecore/templates/Project/AA",
-        "scope": "SingleItem",
-        "allowedPushOperations": "CreateAndUpdate"
-      },
-      {
         "name": "templateMobileApp",
         "path": "/sitecore/templates/Project/AA/MobileApp",
         "allowedPushOperations": "CreateUpdateAndDelete"
