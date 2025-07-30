@@ -158,11 +158,6 @@
         "name": "SettingsInsertRulesTheAA",
         "path": "/sitecore/system/Settings/Insert Rules/The AA",
         "allowedPushOperations": "CreateUpdateAndDelete"
-      },
-      {
-        "name": "renderings",
-        "path": "/sitecore/layout/Renderings/Foundation",
-        "allowedPushOperations": "CreateUpdateAndDelete"
       }
     ]
   },
