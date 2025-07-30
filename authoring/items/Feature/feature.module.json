@@ -21,12 +21,6 @@
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
-        "name": "HeadlessFolder",
-        "path": "/sitecore/templates/Feature/Headless",
-        "scope": "SingleItem",
-        "allowedPushOperations": "CreateAndUpdate"
-      },
-      {
         "name": "templatesMobileApp",
         "path": "/sitecore/templates/Feature/Headless/Mobile-App",
         "allowedPushOperations": "CreateUpdateAndDelete"
