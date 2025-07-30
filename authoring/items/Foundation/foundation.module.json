@@ -85,11 +85,6 @@
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
-        "name": "Layout",
-        "path": "/sitecore/layout/Layouts/Foundation",
-        "allowedPushOperations": "CreateUpdateAndDelete"
-      },
-      {
         "name": "renderings",
         "path": "/sitecore/layout/Renderings/Foundation",
         "allowedPushOperations": "CreateUpdateAndDelete"
