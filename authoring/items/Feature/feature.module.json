@@ -26,12 +26,6 @@
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
-        "name": "BranchHeadlessFolder",
-        "path": "/sitecore/templates/Branches/Feature/Headless",
-        "scope": "SingleItem",
-        "allowedPushOperations": "CreateAndUpdate"
-      },
-      {
         "name": "templatesBranchesMobileApp",
         "path": "/sitecore/templates/Branches/Feature/Headless/Mobile App",
         "allowedPushOperations": "CreateUpdateAndDelete"
