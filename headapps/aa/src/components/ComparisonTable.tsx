@@ -22,13 +22,39 @@ const coverFeatures = [
   'Accommodation or onward travel cover if you cannot continue your journey following an accident',
 ];
 
+import React, { useState } from 'react';
+
 const ComparisonTable = () => {
+  const [showInfoBanner, setShowInfoBanner] = useState(false);
+
+  const toggleInfoBanner = (e: React.MouseEvent) => {
+    e.preventDefault();
+    setShowInfoBanner((prev) => !prev);
+  };
+
   return (
     <div className="row">
       <div className="wrapper">
         <div className="wrapper">
           <section className="relative bg-[#fff] z-[0] block">
             <div className="wrapper">
+              {/* 🚀 Info Banner */}
+              {showInfoBanner && (
+                <div className="absolute top-0 left-[50%] translate-x-[-50%] z-[10] w-full max-w-[1120px]">
+                  <div className="bg-[#dcddde] text-[0.95rem] leading-[1.5] font-[NewTransport-Regular] p-[1.2rem_1.5rem] flex items-start gap-2 shadow-md">
+                    <span
+                      className="inline-block w-[1.2rem] h-[1.2rem] mt-[0.1rem] bg-no-repeat bg-center shrink-0"
+                      style={{ backgroundImage: "url('/info-black.png')" }}
+                    />
+                    <p className="m-0 italic text-[#333]">
+                      Comprehensive cover protects your car against accidental damage, vandalism,
+                      fire or theft, and injuries to other people and damage to their vehicle or
+                      property.
+                    </p>
+                  </div>
+                </div>
+              )}
+
               <div className="border-separate table-fixed relative z-0 align-top w-full mx-auto mt-[8rem] mb-[4rem]">
                 <div className="table-row-group">
                   <header className="table-row">
@@ -47,19 +73,23 @@ const ComparisonTable = () => {
                           4 STAR DEFAQTO RATING
                         </div>
 
-                        {/* Yellow Section with background gradient or image */}
+                        {/* Yellow Section */}
                         <div
                           className="bg-[#fedf53] text-center py-[1.5rem] px-[1rem] relative"
                           style={{
                             backgroundImage:
-                              "url('/Assets/images/backgrounds/yellow-diagonal-bg.png')", // or use linear-gradient
+                              "url('/Assets/images/backgrounds/yellow-diagonal-bg.png')",
                             backgroundRepeat: 'no-repeat',
                             backgroundSize: 'cover',
                             backgroundPosition: 'center',
                           }}
                         >
                           <h5 className="font-[NewTransport-Bold] text-black">Comprehensive</h5>
-                          <a href="#" className="inline-block mt-[0.6rem]">
+                          <a
+                            href="#"
+                            className="inline-block mt-[0.6rem]"
+                            onClick={toggleInfoBanner}
+                          >
                             <span
                               className="h-[2.2rem] w-[2.2rem] inline-block bg-center bg-no-repeat"
                               style={{
