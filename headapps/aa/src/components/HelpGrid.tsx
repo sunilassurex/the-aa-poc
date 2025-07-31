@@ -177,7 +177,7 @@ export default function HelpGrid({ variant = 'default' }: HelpGridProps) {
 
                       <div className=" shrink-0 flex items-center  justify-center pl-[7px] pb-[4px] ">
                         <img
-                          src="/arrow-blue.svg "
+                          src="/arrow-blue.svg"
                           className="w-full h-full object-contain"
                           alt="Arrow icon"
                           width={22}
