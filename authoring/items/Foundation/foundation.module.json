@@ -57,7 +57,7 @@
       {
         "name": "TheAAWorkflow",
         "path": "/sitecore/system/Workflows/AA Content Workflow",
-        "scope": "descendants",
+        "scope": "ItemAndDescendants",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
