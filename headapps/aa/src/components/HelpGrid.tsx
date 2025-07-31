@@ -124,12 +124,7 @@ export default function HelpGrid({ variant = 'default' }: HelpGridProps) {
                     className="bg-white text-black flex items-center justify-between rounded-xl !px-[16px] !pt-[11.5px] !pb-[8.8px]"
                   >
                     <div className="!self-start">
-                      <h4
-                        className="!text-[16px] !leading-[21px] !font-newtransport   m-0"
-                        style={{ fontFamily: '"AA-Sans", Arial, Helvetica, Verdana, sans-serif' }}
-                      >
-                        {label}
-                      </h4>
+                      <h4 className="!text-[16px] !leading-[21px] font-aa-sans   m-0">{label}</h4>
                     </div>
                     <div className="w-9.5 h-9.5 shrink-0 flex items-center justify-center pb-[3px]">
                       <img
@@ -149,8 +144,7 @@ export default function HelpGrid({ variant = 'default' }: HelpGridProps) {
             <div className="py-[40px] px-[16px]">
               <div className="mx-auto ">
                 <h2
-                  className={`!text-[32px] !leading-[40px] !font-normal ${textAlign} !mb-[16px]`}
-                  style={{ fontFamily: '"AA-Sans", Arial, Helvetica, Verdana, sans-serif' }}
+                  className={`!text-[32px] !leading-[40px] font-aa-sans !font-normal ${textAlign} !mb-[16px]`}
                 >
                   {heading}
                 </h2>
@@ -203,10 +197,7 @@ export default function HelpGrid({ variant = 'default' }: HelpGridProps) {
                 className="bg-[#f6f6f6]  md:pt-[18px] md:pb-[24px] md:pl-[24px] md:pr-[16px] pt-[10px] pb-[16px] px-[16px] rounded-xl transition flex items-center justify-between gap-0"
               >
                 <div className="pr-[15px] flex-1 self-start">
-                  <h4
-                    className="!text-[16px] leading-[20px] !font-newtransport !font-extrabold !mb-[2px]"
-                    style={{ fontFamily: '"AA-Sans", Arial, Helvetica, Verdana, sans-serif' }}
-                  >
+                  <h4 className="!text-[16px] leading-[20px] font-aa-sans  !mb-[2px]">
                     {card.title}
                   </h4>
                   <p className="!text-[14px] leading-[20px] font-stretch-50% text-gray-700 mb-0">
