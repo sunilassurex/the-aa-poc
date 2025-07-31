@@ -11,7 +11,7 @@ interface ComponentProps {
 }
 
 export const Default = (props: ComponentProps): JSX.Element => {
-  const styles = `${props?.params?.GridParameters ?? ''} ${props?.params?.Styles ?? ''}`.trimEnd();
+  const styles = `${props?.params?.GridParameters ?? ''} ${props?.params?.Styles ?? ''}`.trim();
   const columnWidths = [
     props.params.ColumnWidth1,
     props.params.ColumnWidth2,
@@ -36,14 +36,16 @@ export const Default = (props: ComponentProps): JSX.Element => {
   const id = props.params.RenderingIdentifier;
 
   return (
-    <div className={`row component column-splitter ${styles}`} id={id ? id : undefined}>
+    <div className={`component column-splitter flex flex-wrap ${styles}`} id={id || undefined}>
       {enabledPlaceholders.map((ph, index) => {
         const phKey = `column-${ph}-{*}`;
-        const phStyles = `${columnWidths[+ph - 1]} ${columnStyles[+ph - 1] ?? ''}`.trimEnd();
+        const widthClass = columnWidths[+ph - 1] ?? 'w-full'; // Fallback if no width defined
+        const styleClass = columnStyles[+ph - 1] ?? '';
+        const phStyles = `${widthClass} ${styleClass}`.trim();
 
         return (
-          <div key={index} className={phStyles}>
-            <div key={index} className="row">
+          <div key={index} className={`${phStyles} px-2`}>
+            <div key={index} className="w-full">
               <Placeholder key={index} name={phKey} rendering={props.rendering} />
             </div>
           </div>
