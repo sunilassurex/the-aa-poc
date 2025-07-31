@@ -54,12 +54,12 @@
         "path": "/sitecore/templates/Foundation/Settings",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
-      {
-        "name": "TheAAWorkflow",
-        "path": "/sitecore/system/Workflows/AA Content Workflow",
-        "scope": "ItemAndDescendants",
-        "allowedPushOperations": "CreateUpdateAndDelete"
-      },
+      //{
+      //  "name": "TheAAWorkflow",
+      //  "path": "/sitecore/system/Workflows/AA Content Workflow",
+      //  "scope": "ItemAndDescendants",
+      //  "allowedPushOperations": "CreateUpdateAndDelete"
+      //},
       {
         "name": "ValidationRules",
         "path": "/sitecore/system/Settings/Validation Rules/Field Rules/TheAA",
