@@ -1,0 +1,61 @@
+@import '@sass/abstracts/vars';
+@import '@sass/abstracts/mixins';
+
+
+.toggle-with-tabs{
+  th, p, li, th a:link, th a:visited, a:link, a:visited {
+      font-size: 16px;
+      line-height: 24px;
+  }
+  li {
+        list-style: inside !important;
+  }
+  a {
+    text-decoration: underline;
+  }
+  h4 {
+      font-size: 18px;
+      line-height: 24px;
+  }
+  h3, h4, h5, h6 {
+      font-family: "NewTransport-Bold",Arial,Helvetica,Verdana,sans-serif;
+  }
+  .bold, strong, th, a:link, a:visited {
+      font-family: "NewTransport-Bold",Arial,Helvetica,Verdana,sans-serif;
+  }
+  a:link, a:visited {
+      color: #06757f;
+  }
+  .list-line-yellow>li, .list-line-black>li, .list-tick>li, .list-circle-tick>li {
+        list-style-type: none;
+        margin: 0;
+        position: relative;
+        padding-left: 16px;
+    }
+    .list-tick>li::before {
+        background-image: url(/plain-tick.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 24px !important;
+        width: 24px !important;
+    }
+    .list-line-yellow>li::before, .list-line-black>li::before, .list-tick>li::before, .list-circle-tick>li::before {
+    content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 4px;
+        border-radius: 2px;
+    }
+    .list-tick>li, .list-circle-tick>li {
+        padding-left: 30px !important;
+        list-style: none !important;
+    }
+    .list-line-yellow, .list-line-black, .list-tick, .list-circle-tick, .list-default {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    
+    }
+}
