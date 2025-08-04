@@ -23,7 +23,7 @@ export default function Buttons({ buttons }: ButtonsComponentProps) {
 
             if (buttonType === Constant.BUTTONS.PRIMARY) {
               return (
-                <div key={index} className={buttonTextAlign}>
+                <div key={index} className={buttonTextAlign ? buttonTextAlign : 'text-center'}>
                   <button
                     key={index}
                     className={`md:!mx-[.8rem] ${
