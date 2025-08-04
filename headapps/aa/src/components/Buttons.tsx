@@ -6,6 +6,7 @@ type ButtonProps = {
   buttonText: string;
   buttonType: string;
   buttonTextAlign: string;
+  buttonWidth?: string;
 };
 
 type ButtonsComponentProps = {
@@ -18,17 +19,19 @@ export default function Buttons({ buttons }: ButtonsComponentProps) {
       <div className="wrapper">
         <div className="text-center">
           {buttons.map((btn, index) => {
-            const { href, title, buttonText, buttonType, buttonTextAlign } = btn;
+            const { href, title, buttonText, buttonType, buttonTextAlign, buttonWidth } = btn;
 
             if (buttonType === Constant.BUTTONS.PRIMARY) {
               return (
                 <div key={index} className={buttonTextAlign}>
                   <button
                     key={index}
-                    className="md:!mx-[.8rem] !min-w-[22rem] shadow-custom-inset md:w-auto py-[0.85rem] px-[2rem] !text-[1.8rem] !tracking-[0.015em] md:!pt-[1.27rem]
+                    className={`md:!mx-[.8rem] ${
+                      buttonWidth ? buttonWidth : '!min-w-[22rem]'
+                    } shadow-custom-inset md:w-auto py-[0.85rem] px-[2rem] !text-[1.8rem] !tracking-[0.015em] md:!pt-[1.27rem]
              md:!px-[2.7rem] md:!pb-[1.55rem] md:!leading-[2rem] md:!tracking-[0.03em] md:!text-[1.8rem] bg-gradient-to-b from-[#ffcc00] to-[#f9b800] text-[#1d1d1d] border !border-[#ffc400]
           !shadow-[inset_0_1px_1px_#fff0b3,_0_0_10px_rgba(0,0,0,0.2)] !rounded-[5px]
-          hover:from-[#ffe066] hover:to-[#ffd633] hover:border-[#ffd633] font-semibold"
+          hover:from-[#ffe066] hover:to-[#ffd633] hover:border-[#ffd633] font-semibold`}
                   >
                     <a href={href ?? '#'} title={title ?? ''}>
                       {buttonText}
