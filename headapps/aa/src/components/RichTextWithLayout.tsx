@@ -22,14 +22,16 @@ export default function RichTextWithLayout({
           </div>
 
           <aside>
-            <div className="sidebar !px-[2.1rem] pt-[1.8rem] pb-[1.9rem] md:py-[2.5rem] md:px-[1.8rem] w-full bg-white border border-[#e5e5e6] rounded-[3px]">
-              <h2 className="alt !mb-[1.6rem] lg:!mb-[1.7rem] md:px-[1rem]">About our website</h2>
+            <div className="sidebar !px-[2.1rem] pt-[1.8rem] pb-[1.9rem] md:py-[2.5rem] md:!px-[1.8rem] w-full bg-white border border-[#e5e5e6] rounded-[3px]">
+              <h2 className="alt !mb-[1.6rem] lg:!mb-[1.7rem] md:px-[1rem] !text-[1.9rem] md:!text-[2.4rem]">
+                About our website
+              </h2>
               <ul className="md:!pl-[1.2rem] md:!pr-[1rem] !mb-0">
                 {sidebarLinks.map((link, index) => (
                   <li key={index} className={`${index == 0 ? '!pt-[0rem]' : 'pt-[1.4rem]'}`}>
                     <Link
                       href={link.href}
-                      className={`!text-[#07818c] !text-[1.6rem] !leading-[2.1rem] md:text-[1.9rem] md:leading-[2.4rem]  !font-bold hover:!underline`}
+                      className={`!text-[#07818c] !text-[1.6rem] !leading-[2.1rem] md:!text-[1.9rem] md:!leading-[2.4rem]  !font-bold hover:!underline`}
                     >
                       {link.label}
                     </Link>
