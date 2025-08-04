@@ -545,3 +545,20 @@ h2.alt {
     margin: 0 auto;
     padding: 0 16px;
 }
+.transparent-button:link, .transparent-button:visited {
+    color: #00081c;
+    border: 2px solid #00081c;
+    display: flex;
+    align-self: stretch;
+}
+.button:link, .button:visited {
+    font-size: 18px !important;
+    line-height: 48px;
+    letter-spacing: .054px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    padding: 0 32px !important;
+    border-radius: 4px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .08), 0 1px 4px 0 rgba(0, 0, 0, .16);
+}
