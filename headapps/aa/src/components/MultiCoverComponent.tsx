@@ -34,12 +34,13 @@ export default function MultiProduct() {
         <div className="!pb-[2.5rem] !px-[0px] wrapper">
           <h3 className="!mt-[2.9rem] !mb-[3.1rem] text-center">Text</h3>
 
-          <div className="table w-full table-fixed">
-            <div className="table-row">
+          {/* Mobile: block | Desktop: table */}
+          <div className="block lg:table w-full lg:table-fixed">
+            <div className="block lg:table-row">
               {services.map((item, index) => (
                 <div
                   key={index}
-                  className="table-cell align-top px-[0.5rem] multi-product w-full sm:w-[48%] lg:w-[1%]"
+                  className="block lg:table-cell align-top w-full px-[0.5rem] multi-product"
                 >
                   <figure className="block w-full !m-0 !p-0 !border-b-0"></figure>
                   <div
