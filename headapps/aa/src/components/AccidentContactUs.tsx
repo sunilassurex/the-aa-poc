@@ -10,6 +10,8 @@ export default function AccidentContactUs() {
       title: 'Report Accident Online',
       buttonText: 'Report Accident Online',
       buttonType: Constant.BUTTONS.PRIMARY,
+      buttonTextAlign: '',
+      buttonWidth: '',
     },
   ];
   return (

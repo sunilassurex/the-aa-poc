@@ -560,12 +560,16 @@ const BeamPage: React.FC = () => {
             title: 'Retrieve a quote',
             buttonText: 'Retrieve a quote',
             buttonType: Constant.BUTTONS.PRIMARY,
+            buttonTextAlign: '',
+            buttonWidth: '',
           },
           {
             href: '/car-insurance/existing-customers',
             title: 'Manage your policy',
             buttonText: 'Manage your policy',
             buttonType: Constant.BUTTONS.TRANSPARENT,
+            buttonTextAlign: '',
+            buttonWidth: '',
           },
         ]}
       />
