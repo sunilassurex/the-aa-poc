@@ -1,6 +1,7 @@
 import Image from 'next/image';
 type BreakdownCoverOptionsProps = {
   variant?: 'default' | 'personal' | 'customise';
+  layout?: 'horizontal' | 'vertical';
 };
 
 const features = [
@@ -8,25 +9,25 @@ const features = [
     icon: 'at-home.svg',
     title: 'At Home',
     description:
-      "If your vehicle won’t start or breaks down within 1/4 mile of your home, you'll get breakdown recovery to a nearby garage. This extends our Roadside Assistance coverage right up to your door.",
+      "If your vehicle won't start or breaks down within 1/4 mile of your home, you'll get a recovery tow to a nearby garage.",
   },
   {
     icon: 'national-recovery.svg',
     title: 'National Recovery',
     description:
-      "If you break down and we can't fix your vehicle at the roadside, we'll take you, your vehicle and up to 7 passengers to any single UK destination. This is handy to have if you travel far away from home.",
+      "If you break down and we can't fix your vehicle at the roadside, we'll take you, your vehicle and up to 7 passengers to any single UK destination.",
   },
   {
     icon: 'onward-travel.svg',
     title: 'Onward Travel',
     description:
-      'If you break down and need repairs that stop your journey, we’ll help with alternative transport – like a rental car or money towards public transport costs. Alternatively, you can get an overnight hotel stay while you wait for repairs.',
+      "If you break down and need repairs that stop your journey, we'll help with alternative transport or an overnight hotel stay.",
   },
   {
     icon: 'parts-and-garage-cover.svg',
     title: 'Parts and Garage Cover',
     description:
-      'If you call us out for a breakdown and need garage repairs, we’ll help cover the costs up to £535.',
+      'If you break down and need parts at the roadside or repairs at a garage, we’ll help cover costs up to £535.',
   },
   {
     icon: 'commercial-use.svg',
@@ -41,6 +42,7 @@ const features = [
       'If your car keys or house keys are lost, stolen or broken, or you’re locked out, we’ll arrange a replacement key or locksmith.',
   },
 ];
+
 const personalFeatures = [
   {
     icon: 'people-mechanic-yellow.svg',
@@ -104,7 +106,7 @@ const variantContent = {
   default: {
     heading: 'How can I customise my AA breakdown cover?',
     description:
-      'You’ll get Roadside Assistance as standard, but you can customise your cover to fit your needs – giving you more choices in the event of a breakdown. Whether it’s a quick fix at the roadside or recovery to a garage, we’ve got you covered.',
+      "You'll get Roadside Assistance as standard, but you can customise your cover to fit your needs – giving you more choices in the event of a breakdown. Whether it's a quick fix at the roadside or recovery to a garage, we've got you covered.",
     textAlign: 'text-center',
   },
   personal: {
@@ -121,7 +123,10 @@ const variantContent = {
   },
 };
 
-export default function BreakdownCoverOptions({ variant = 'default' }: BreakdownCoverOptionsProps) {
+export default function BreakdownCoverOptions({
+  variant = 'default',
+  layout = 'horizontal',
+}: BreakdownCoverOptionsProps) {
   const { heading, description, textAlign } = variantContent[variant];
 
   return (
@@ -190,25 +195,41 @@ export default function BreakdownCoverOptions({ variant = 'default' }: Breakdown
             ))}
           </div>
         ) : (
-          <div className="flex !flex-wrap max-w-[1152px] mx-auto  justify-start xl:!gap-x-[34px] md:!gap-x-[20px]">
+          <div className="flex !flex-wrap max-w-[1152px] mx-auto justify-start xl:!gap-x-[27px] md:!gap-x-[20px]">
             {features.map((item, index) => (
               <div
                 key={index}
-                className="flex flex-col w-full mb-[24px] xl:w-[48%] md:w-[calc(50%-10px)] items-start"
+                className="flex flex-col w-full mb-[24px] xl:w-[48.68%] md:w-[calc(50%-10px)]"
               >
-                <div className="flex items-start">
+                <div
+                  className={`${
+                    layout === 'vertical'
+                      ? 'flex flex-col pl-1 items-center text-center'
+                      : 'flex items-start'
+                  }`}
+                >
                   <Image
                     src={item.icon}
                     alt={item.title}
                     width={48}
                     height={48}
-                    className="!mr-[16px]"
+                    className={`${
+                      layout === 'vertical' ? 'xl:!mb-[18px] !mb-[18px]' : '!mr-[16px]'
+                    }`}
                   />
                   <div>
-                    <h3 className="!text-[#06757f] !tracking-[0px] !font-newtransport !font-bold !underline !text-[20px] !leading-[30px] !mb-[8px]">
+                    <h3
+                      className={`!text-[#06757f] !tracking-[0px] !font-newtransport !font-bold !underline !text-[20px] !leading-[30px] !mb-[8px] ${
+                        layout === 'vertical' ? 'text-center' : ''
+                      }`}
+                    >
                       {item.title}
                     </h3>
-                    <p className="!text-[16px] !font-newtransport !font-normal !leading-[24px] text-[#1d1d1d] m-0">
+                    <p
+                      className={`!text-[16px] !font-newtransport !font-normal !leading-[24px] text-[#1d1d1d] m-0 ${
+                        layout === 'vertical' ? 'text-center' : ''
+                      }`}
+                    >
                       {item.description}
                     </p>
                   </div>
