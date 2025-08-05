@@ -55,7 +55,7 @@ const nextConfig = {
       },
       {
         protocol: 'https',
-        hostname: '*.vercel.app',
+        hostname: 'playsummit-assurex-aa-automobile-as.vercel.app',
         port: '',
       },
     ]
