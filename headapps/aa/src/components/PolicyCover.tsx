@@ -28,8 +28,7 @@ export default function BreakdownCoverPolicy({
     <section className="bg-white text-[#141415] py-[40px] px-[16px] max-w-[1152px] mx-auto">
       <div className="max-w-[1152px] mx-auto md:px-[16px]">
         <h2
-          className={`!text-[32px] !leading-[40px] !font-normal ${textAlign} !mb-[16px]`}
-          style={{ fontFamily: '"AA-Sans", Arial, Helvetica, Verdana, sans-serif' }}
+          className={`!text-[32px] !leading-[40px] font-aa-sans  !font-normal ${textAlign} !mb-[16px]`}
         >
           {heading}
         </h2>
