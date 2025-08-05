@@ -31,38 +31,44 @@ export default function MultiProduct() {
   return (
     <div className="row">
       <div className="cf">
-        <div className="!pb-[2.5rem] wrapper">
-          <h3 className="!mt-[2.9rem] !mb-[3.1rem]">Text</h3>
-          <div className="flex flex-wrap justify-center gap-6">
-            {services.map((item, index) => (
-              <article
-                key={index}
-                className="px-[0.5rem] align-top multi-product w-full sm:w-[48%] lg:w-[30%] bg-white"
-              >
-                <figure className="block w-full"></figure>
+        <div className="!pb-[2.5rem] !px-[0px] wrapper">
+          <h3 className="!mt-[2.9rem] !mb-[3.1rem] text-center">Text</h3>
+
+          <div className="table w-full table-fixed">
+            <div className="table-row">
+              {services.map((item, index) => (
                 <div
-                  className="bg-white pt-[2.3rem] px-[3rem] pb-[9.3rem] border-b border-l border-r border-[#dfdfe0] relative "
-                  style={{ height: '263px' }}
+                  key={index}
+                  className="table-cell align-top px-[0.5rem] multi-product w-full sm:w-[48%] lg:w-[1%]"
                 >
-                  <hgroup>
-                    <h2 className="alt !mb-[0.8rem]">{item.title}</h2>
-                    <h6 className="mb-[40px] tracking-[-.05rem]">{item.description}</h6>
-                  </hgroup>
-                  <div className="absolute bottom-[40px] w-full">
-                    <Buttons
-                      buttons={[
-                        {
-                          href: item.link,
-                          title: item.label,
-                          buttonText: item.label,
-                          buttonType: Constant.BUTTONS.PRIMARY,
-                        },
-                      ]}
-                    />
+                  <figure className="block w-full !m-0 !p-0 !border-b-0"></figure>
+                  <div
+                    className="bg-white !pt-[2.3rem] !px-[3rem] !pb-[9.3rem] border-b border-l border-r border-[#dfdfe0] relative"
+                    style={{ height: '263px' }}
+                  >
+                    <hgroup>
+                      <h2 className="alt !mb-[0.8rem] text-center">{item.title}</h2>
+                      <h6 className="!mb-[40px] !tracking-[-.05rem] text-center">
+                        {item.description}
+                      </h6>
+                    </hgroup>
+                    <div className="absolute bottom-[25px] left-0 w-full">
+                      <Buttons
+                        buttons={[
+                          {
+                            href: item.link,
+                            title: item.label,
+                            buttonText: item.label,
+                            buttonType: Constant.BUTTONS.PRIMARY,
+                            buttonTextAlign: 'text-center',
+                          },
+                        ]}
+                      />
+                    </div>
                   </div>
                 </div>
-              </article>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </div>
