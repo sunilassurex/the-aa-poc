@@ -53,6 +53,11 @@ const nextConfig = {
         hostname: 'feaas*.blob.core.windows.net',
         port: '',
       },
+      {
+        protocol: 'https',
+        hostname: 'playsummit-assurex-aa-automobile-as.vercel.app',
+        port: '',
+      },
     ]
   },
 
