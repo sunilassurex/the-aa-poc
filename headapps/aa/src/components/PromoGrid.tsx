@@ -161,7 +161,7 @@ export default function PromoGrid({
         "Comprehensive cover for £250 or less – that's what 10% of new customers paid from December 2024 to February 2025.",
       buttonText: 'Get car insurance',
       variant: 'primary',
-      backgroundImage: '/large-beam.webp',
+      backgroundImage: '/large-beam.png',
     },
     {
       title: 'Book your MOT and service',
@@ -183,7 +183,7 @@ export default function PromoGrid({
         'Peace of mind abroad, with over 60,000 repairers and recovery operators in 44 countries across Europe.',
       buttonText: 'Buy European breakdown cover',
       variant: 'primary',
-      backgroundImage: '/large-beam.webp',
+      backgroundImage: '/large-beam.png',
     },
   ];
 
