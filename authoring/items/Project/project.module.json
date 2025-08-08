@@ -19,18 +19,11 @@
         "path": "/sitecore/layout/Layouts/Project/mobile-app",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
-
-      {
-        "name": "placeholdersettingsMobileApp",
-        "path": "/sitecore/layout/Placeholder Settings/Project/mobile-app",
-        "allowedPushOperations": "CreateUpdateAndDelete"
-      },
       {
         "name": "placeholdersettings",
         "path": "/sitecore/layout/Placeholder Settings/Project/AA",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
-
       {
         "name": "mediaMobileApp",
         "path": "/sitecore/media library/mobile-app",
@@ -49,30 +42,38 @@
         "allowedPushOperations": "CreateOnly",
         "rules": [
           {
-            "path": "/Home",
+            "path": "/mobile-app",
             "allowedPushOperations": "CreateOnly",
+            "scope": "ItemAndDescendants"
+          },
+          {
+            "path": "/Media",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/Dictionary",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/Data",
             "scope": "ItemAndDescendants",
-            "rules": [
-              {
-                "path": "/components",
-                "scope": "ItemAndDescendants",
-                "allowedPushOperations": "CreateOnly"
-              },
-              {
-                "path": "/configurations",
-                "scope": "ItemAndDescendants",
-                "allowedPushOperations": "CreateOnly"
-              },
-              {
-                "path": "/wimbeldon-jss-angular-dictionary",
-                "scope": "ItemAndDescendants",
-                "allowedPushOperations": "CreateOnly"
-              },
-              {
-                "path": "*",
-                "scope": "Ignored"
-              }
-            ]
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/Presentation",
+            "scope": "ItemAndDescendants",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/Settings",
+            "scope": "ItemAndDescendants",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "*",
+            "scope": "Ignored"
           }
         ]
       }

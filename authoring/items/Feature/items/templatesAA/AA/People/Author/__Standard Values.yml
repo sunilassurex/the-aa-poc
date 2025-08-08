@@ -1,0 +1,27 @@
+﻿---
+ID: "f5bb1f9a-f136-4c4d-99eb-35622a1820c4"
+Parent: "e73419a3-902d-41f4-82a3-55af45e241c2"
+Template: "e73419a3-902d-41f4-82a3-55af45e241c2"
+Path: /sitecore/templates/Feature/AA/People/Author/__Standard Values
+SharedFields:
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240820T055020Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7c8e8a1f-eeb2-4b1b-9561-82b7cda7398c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        theaa\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241001T014819Z

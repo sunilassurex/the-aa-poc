@@ -1,0 +1,26 @@
+﻿---
+ID: "48377552-bf1e-448b-a959-f660061e6e54"
+Parent: "d0bc39eb-02c0-4514-bef5-09f7e9dd06bd"
+Template: "d0bc39eb-02c0-4514-bef5-09f7e9dd06bd"
+Path: /sitecore/templates/Feature/AA/Product Builder/ComparisonTableSettings/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160613T115717Z
+    - ID: "6384fa08-d0ac-4d10-850e-7b56f1df0d6d"
+      Hint: Table Width
+      Value: "{BD76472D-E3DE-450A-B6AE-3DE3FE60A27B}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "74f27e09-7f30-4208-90a3-d6c4ab8a6b73"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220203T044036Z

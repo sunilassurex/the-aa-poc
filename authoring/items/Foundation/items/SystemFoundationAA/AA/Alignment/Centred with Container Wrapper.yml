@@ -1,0 +1,36 @@
+﻿---
+ID: "668f2ae0-4ea2-4e88-a799-0d693f8e6571"
+Parent: "5f2cb902-032a-4649-9837-44f0a41909f7"
+Template: "7369af25-f5f1-44b5-b269-f93411d3bd47"
+Path: /sitecore/system/Settings/Foundation/AA/Alignment/Centred with Container Wrapper
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "11fc303f-e927-479c-832d-9c142e360afb"
+      Hint: Value
+      Value: "centred btn-container"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160224T170041Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e1ea6686-938d-4b0c-bb08-65b8e88e01ac"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\damireddye
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220407T063539Z

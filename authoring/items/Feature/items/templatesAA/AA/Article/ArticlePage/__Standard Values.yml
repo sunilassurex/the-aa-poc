@@ -1,0 +1,118 @@
+﻿---
+ID: "88fbd8c4-740d-4e63-b2e5-7cc68758fdf1"
+Parent: "9956d0af-a840-44eb-b073-e507bc14abce"
+Template: "9956d0af-a840-44eb-b073-e507bc14abce"
+Path: /sitecore/templates/Feature/AA/Article/ArticlePage/__Standard Values
+SharedFields:
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{602F8737-5DD4-412F-98E7-27AC5CC3F96B}">
+        <r
+          ds=""
+          id="{5357408E-17C9-49CB-A347-D08BB325A605}"
+          par=""
+          ph="/metadata"
+          uid="{97F4A3A2-E660-424F-B42F-1C7AD0508638}" />
+        <r
+          id="{73C1FAC7-CABD-4C0C-B469-DF447171B8A7}"
+          ph="/metadata"
+          uid="{C0CBD8F5-943D-4154-B092-A39D984B407D}" />
+        <r
+          id="{5CC853E2-4BCB-492B-BE97-09F5DC411165}"
+          ph="/theaa"
+          uid="{1DE7FEC1-0EE2-4F90-B2F0-CFBF7E46FD0D}" />
+        <r
+          id="{07AAC56A-53D0-4ADB-9C0A-E8D08346320C}"
+          par="test=foo"
+          ph="/theaa"
+          uid="{AFB59DDE-A881-4B86-A7D4-62EB32D155A7}" />
+        <r
+          id="{CB07F613-1844-4187-829D-E532CCD0D6EE}"
+          ph="/theaa"
+          uid="{8F755298-621B-4347-9953-7C97E6BE2214}" />
+        <r
+          id="{18F51FF4-263D-46A0-B153-EE1D867AC0FE}"
+          ph="/theaa"
+          uid="{7E700593-45FF-468D-A550-7DF8ACD5F761}" />
+        <r
+          ds=""
+          id="{48C11F31-BA6B-4F01-AE46-7A4C2F29E223}"
+          par="TopPadding=%7B27E6DCB1-8725-470A-B774-6521AED47BF8%7D&amp;BottomPadding=%7B502A2A2A-F8D4-492D-AA8E-4B0969C2E055%7D"
+          ph="/theaa"
+          uid="{E7467751-754A-426C-9E1B-54AE46DA4872}" />
+        <r
+          id="{D99DE943-D992-406E-A934-385C1BDBCD20}"
+          ph="/theaa/left"
+          uid="{8FA0EFB1-2528-416F-A1CA-CBDE192C665E}" />
+        <r
+          ds=""
+          id="{EE736101-A213-4191-80DB-32C02E0BB79B}"
+          par="NumberOfColumnsInDesktop=1&amp;Design=%7B3AE8F0B6-385E-41BE-9524-FD1E9A262EA5%7D&amp;Link Style=%7BE01D7EED-C9A0-4400-93F8-B3D50FFACEE2%7D&amp;Card Background Color=%7B59C24258-D7D4-45BB-B0BC-B0F87FD29ED8%7D&amp;Show Image=1&amp;TopPadding&amp;BottomPadding&amp;Background Color=%7B5776845F-E0FE-44DC-A162-8DB717D32B1B%7D"
+          ph="/theaa/left"
+          uid="{95ABF6B8-57B5-48A7-962D-CF49E7A8555E}" />
+        <r
+          id="{40EC21B7-B152-49E1-BAF2-791034BED544}"
+          ph="/theaa/right"
+          uid="{E1836214-BA05-453E-A9D2-980B4EC1DCEE}" />
+        <r
+          id="{21CCD3AB-6517-447F-8815-B9EA5E4B0E41}"
+          ph="/theaa"
+          uid="{EE613267-AF73-4184-853F-224A1F3B24B7}" />
+        <r
+          id="{069E6267-0F3B-4C27-9C49-BEE08AE96F50}"
+          ph="/theaa"
+          uid="{0E76D0A2-2463-4B1B-87B7-CD26DEB45EFB}" />
+        <r
+          id="{87EE3C14-F995-4431-A288-BC4408049362}"
+          ph="/theaa"
+          uid="{32FAC3A4-6C00-41DC-9B2C-DBE4A3CDB43F}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1"></r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151214T115205Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c6aa6318-97ea-412c-bf7d-fabaa0384745"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241024T015425Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151214T115205Z
+    - ID: "7a3ed50f-70e4-404f-8c7b-251bae28b654"
+      Hint: AuthoredBy
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "22b8c44f-f5c0-464e-b5b2-7046323c02ce"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241024T015425Z

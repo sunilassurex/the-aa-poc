@@ -1,0 +1,49 @@
+﻿---
+ID: "be3c7ee8-0e2d-4255-9be7-ada0f843ec23"
+Parent: "7d0ede31-79b0-4bf1-a895-531e87ccc8b0"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/AA/Offer Configuration/OfferLaunch
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Business/32x32/hand_money.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: "{1930BBEB-7805-471A-A3BE-4858AC7CF696}"
+- ID: "57cbca4c-8c94-446c-b8ca-7d8dc54f4285"
+  Hint: __Validate Button Validation Rules
+  Value: 
+- ID: "86b52eef-078e-4d9e-80bf-888287070e6c"
+  Hint: __Workflow Validation Rules
+  Value: 
+- ID: "b7e5b151-b145-4ced-85c5-fbdb566dfa4d"
+  Hint: __Validator Bar Validation Rules
+  Value: 
+- ID: "c2f5b2b5-71c1-431e-bf7f-dbdc1e5a2f83"
+  Hint: __Quick Action Bar Validation Rules
+  Value: 
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{2287A802-C5DE-4282-8DE2-0D8EE7C20A71}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240213T092818Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Vinod_Bhasyam
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7c186710-9570-432d-b484-f2af4bda4fb7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241001T014327Z

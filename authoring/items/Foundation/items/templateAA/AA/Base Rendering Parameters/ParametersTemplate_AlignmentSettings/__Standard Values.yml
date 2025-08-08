@@ -1,0 +1,26 @@
+﻿---
+ID: "dc013319-9811-4b7e-92b6-b5613275f694"
+Parent: "449253a4-70c7-4ac2-9885-d0c30b649d7c"
+Template: "449253a4-70c7-4ac2-9885-d0c30b649d7c"
+Path: /sitecore/templates/Foundation/AA/Base Rendering Parameters/ParametersTemplate_AlignmentSettings/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1e6a8f6c-1f38-4067-a7d5-02352116841e"
+      Hint: AlignmentStyle
+      Value: "{A4296376-02EE-4617-96F7-21BF9DB9CD9C}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160111T112108Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "28f1cbb3-2d84-4252-8bf5-94d7d6985371"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221208T025821Z

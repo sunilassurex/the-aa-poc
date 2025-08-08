@@ -1,0 +1,291 @@
+﻿---
+ID: "18cb26a0-a1c1-46f7-9862-6fcf6a7ee249"
+Parent: "24ce7745-1104-42e3-804c-f16d337f2939"
+Template: "7f220b99-7bad-46ed-ad73-3c59cbe89e9a"
+Path: "/sitecore/content/AA/mobile-app/mobile-app/components/offers/offer-detail/good-to-know/good-to-know-section"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0b1dd1c3-e4a4-4648-a4f9-c59c953e18d5"
+      Hint: AccordionSectionHeader
+      Value: Breakdown support
+    - ID: "1e6c2073-9b68-41ad-bde5-4ba7d886a99e"
+      Hint: AccordionItems
+      Value: "{8EC97F2C-2B77-4E4E-8DA3-C3FE938D7B6F}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240909T112210Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dc2e8a93-c3be-425b-a608-fa8eab490f23"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "d103a0ad-d38e-4ae4-b7e2-f010032667dc"
+      Hint: AccordionSectionDescription
+      Value: How to track or cancel your rescue, upgrade your cover, or make a European breakdown claim.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241010T100321Z
+  - Version: 2
+    Fields:
+    - ID: "0b1dd1c3-e4a4-4648-a4f9-c59c953e18d5"
+      Hint: AccordionSectionHeader
+      Value: Breakdown support
+    - ID: "1e6c2073-9b68-41ad-bde5-4ba7d886a99e"
+      Hint: AccordionItems
+      Value: |
+        {8EC97F2C-2B77-4E4E-8DA3-C3FE938D7B6F}
+        {EBF48F02-9490-4BE5-A944-621DFEF1A927}
+        {C18EC2F9-6836-410A-80C6-6CA6497B0BA9}
+        {FBC952E8-9E36-4235-B9F0-BCF7294326F4}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240919T154352Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "24811e84-a5b5-4664-b19b-d6d64715b67c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240919T154352Z
+    - ID: "d103a0ad-d38e-4ae4-b7e2-f010032667dc"
+      Hint: AccordionSectionDescription
+      Value: How to track or cancel your rescue, upgrade your cover, or make a European breakdown claim.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241010T100322Z
+  - Version: 3
+    Fields:
+    - ID: "0b1dd1c3-e4a4-4648-a4f9-c59c953e18d5"
+      Hint: AccordionSectionHeader
+      Value: Breakdown support
+    - ID: "1e6c2073-9b68-41ad-bde5-4ba7d886a99e"
+      Hint: AccordionItems
+      Value: |
+        {8EC97F2C-2B77-4E4E-8DA3-C3FE938D7B6F}
+        {EBF48F02-9490-4BE5-A944-621DFEF1A927}
+        {C18EC2F9-6836-410A-80C6-6CA6497B0BA9}
+        {FBC952E8-9E36-4235-B9F0-BCF7294326F4}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240919T154458Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d7cead21-a933-47bc-93cc-99d9c50fd34a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240919T154458Z
+    - ID: "d103a0ad-d38e-4ae4-b7e2-f010032667dc"
+      Hint: AccordionSectionDescription
+      Value: How to track or cancel your rescue, upgrade your cover, or make a European breakdown claim.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241010T100322Z
+  - Version: 4
+    Fields:
+    - ID: "0b1dd1c3-e4a4-4648-a4f9-c59c953e18d5"
+      Hint: AccordionSectionHeader
+      Value: Breakdown support
+    - ID: "1e6c2073-9b68-41ad-bde5-4ba7d886a99e"
+      Hint: AccordionItems
+      Value: |
+        {EBF48F02-9490-4BE5-A944-621DFEF1A927}
+        {8EC97F2C-2B77-4E4E-8DA3-C3FE938D7B6F}
+        {C18EC2F9-6836-410A-80C6-6CA6497B0BA9}
+        {FBC952E8-9E36-4235-B9F0-BCF7294326F4}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240919T155032Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c967dbc9-a02c-4f5f-9907-612328dce8ea"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240919T155032Z
+    - ID: "d103a0ad-d38e-4ae4-b7e2-f010032667dc"
+      Hint: AccordionSectionDescription
+      Value: How to track or cancel your rescue, upgrade your cover, or make a European breakdown claim.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241010T100322Z
+  - Version: 5
+    Fields:
+    - ID: "0b1dd1c3-e4a4-4648-a4f9-c59c953e18d5"
+      Hint: AccordionSectionHeader
+      Value: Breakdown support
+    - ID: "1e6c2073-9b68-41ad-bde5-4ba7d886a99e"
+      Hint: AccordionItems
+      Value: |
+        {EBF48F02-9490-4BE5-A944-621DFEF1A927}
+        {8EC97F2C-2B77-4E4E-8DA3-C3FE938D7B6F}
+        {C18EC2F9-6836-410A-80C6-6CA6497B0BA9}
+        {FBC952E8-9E36-4235-B9F0-BCF7294326F4}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240919T155053Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ec904dee-ae9f-4902-a549-b2ef673ca1a4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240919T155053Z
+    - ID: "d103a0ad-d38e-4ae4-b7e2-f010032667dc"
+      Hint: AccordionSectionDescription
+      Value: How to track or cancel your rescue, upgrade your cover, or make a European breakdown claim.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241010T100322Z
+  - Version: 6
+    Fields:
+    - ID: "0b1dd1c3-e4a4-4648-a4f9-c59c953e18d5"
+      Hint: AccordionSectionHeader
+      Value: Breakdown support
+    - ID: "1e6c2073-9b68-41ad-bde5-4ba7d886a99e"
+      Hint: AccordionItems
+      Value: |
+        {EBF48F02-9490-4BE5-A944-621DFEF1A927}
+        {8EC97F2C-2B77-4E4E-8DA3-C3FE938D7B6F}
+        {C18EC2F9-6836-410A-80C6-6CA6497B0BA9}
+        {FBC952E8-9E36-4235-B9F0-BCF7294326F4}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241002T105424Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "53cea07e-7d56-45a9-b132-b133356d24e3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241002T105424Z
+    - ID: "d103a0ad-d38e-4ae4-b7e2-f010032667dc"
+      Hint: AccordionSectionDescription
+      Value: How to track or cancel your rescue, upgrade your cover, or make a European breakdown claim.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241010T100322Z
+  - Version: 7
+    Fields:
+    - ID: "0b1dd1c3-e4a4-4648-a4f9-c59c953e18d5"
+      Hint: AccordionSectionHeader
+      Value: 
+    - ID: "1e6c2073-9b68-41ad-bde5-4ba7d886a99e"
+      Hint: AccordionItems
+      Value: "{3CD343D9-0400-4F40-9109-F557814258DD}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241002T141848Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "46099752-8bf6-4473-ab16-196116af6dd3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241002T141848Z
+    - ID: "d103a0ad-d38e-4ae4-b7e2-f010032667dc"
+      Hint: AccordionSectionDescription
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241010T123559Z

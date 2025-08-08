@@ -1,19 +1,25 @@
 ﻿---
-ID: "a76dab02-0c5c-4536-9214-2398be1862bd"
-Parent: "cda779cf-edbc-4ab3-bbeb-f18403e92b11"
+ID: "cda779cf-edbc-4ab3-bbeb-f18403e92b11"
+Parent: "94a037ed-8582-4ec7-8735-53fd527045a4"
 Template: "0cf2b83b-da5a-486a-a813-03ac5a00d4c6"
 Path: "/sitecore/content/AA/mobile-app/mobile-app"
 SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{53A8CB61-96AC-569F-9FBA-BFB633F98DEF}"
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
-  Value: 50
+  Value: 0
 - ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
   Hint: __Thumbnail
   Value: |
-    <image mediaid="{B0F9060D-7368-466E-91C2-989FE3C9DEFC}" />
+    <image mediaid="{AD267628-96F8-467B-9ED2-AD0503124681}" />
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "5811d3c7-b865-43ba-bc64-98c3a1c8d8b6"
+  Value: "3b2e9091-d21e-4882-8f91-bbf12fc15cc1"
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: 
 Languages:
 - Language: en
   Versions:
@@ -21,20 +27,28 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250725T141618Z
+      Value: 20240201T121710Z
     - ID: "41f057d4-f7ac-4d2d-88b8-9ae1bd582e54"
       Hint: Title
       Value: "mobile-app"
     - ID: "4e0720e9-9d50-4ddc-87cf-ecd65e8e94c8"
       Hint: NavigationTitle
       Value: "mobile-app"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\JssImport
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c90e9b30-5f1a-419f-8100-5d06bdf74dea"
+      Value: "096fb992-b894-44fd-bd68-9d6acd337a23"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\rohit.pandey@assurex.co
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250725T141625Z
+      Value: 20250804T154748Z

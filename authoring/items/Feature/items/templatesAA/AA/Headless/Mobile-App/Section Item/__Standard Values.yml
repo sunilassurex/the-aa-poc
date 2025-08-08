@@ -1,0 +1,33 @@
+﻿---
+ID: "9a033502-951c-4881-af63-f605c9a1e6f7"
+Parent: "7ec7403a-5a2e-4854-b53d-38aa83f25ddc"
+Template: "7ec7403a-5a2e-4854-b53d-38aa83f25ddc"
+Path: "/sitecore/templates/Feature/AA/Headless/Mobile-App/Section Item/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240628T080015Z
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8e31bf8e-0ad3-4e20-8ea3-f12ad53bb030"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240813T020211Z

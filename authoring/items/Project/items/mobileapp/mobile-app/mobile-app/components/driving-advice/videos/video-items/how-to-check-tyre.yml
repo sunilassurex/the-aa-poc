@@ -1,0 +1,643 @@
+﻿---
+ID: "df9d0c93-c352-47cb-ac19-0961b760f403"
+Parent: "7f589575-2112-40f2-94eb-7c61a4eec1b4"
+Template: "d7b85c08-973c-4df4-b81f-9f58d6c6fb1e"
+Path: "/sitecore/content/AA/mobile-app/mobile-app/components/driving-advice/videos/video-items/how-to-check-tyre"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1c668eab-b537-442b-909c-e526cae126a5"
+      Hint: VideoURL
+      Value: "https://dip-mobile-ci-develop-videos.s3.eu-west-1.amazonaws.com/How+To+Check+Your+Tyres_5-1080-27rf+1.mp4"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240717T054228Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "3ed4b257-f62b-4eeb-a712-84a1cfbbaf0a"
+      Hint: Caption
+      Value: |
+        1
+        00:00:00,000 --> 00:00:03,552
+        Your tyres are the only part of the vehicle that's in contact with the road.
+        
+        2
+        00:00:03,655 --> 00:00:06,552
+        So the condition of your tyres is key to your safety.
+        
+        3
+        00:00:06,552 --> 00:00:08,724
+        Some tyres have tread wear indicators.
+        
+        4
+        00:00:08,724 --> 00:00:11,103
+        These are small bars about five millimetres wide.
+        
+        5
+        00:00:11,103 --> 00:00:14,379
+        If the tyre tread is level with the top of the wear indicator
+        
+        6
+        00:00:14,379 --> 00:00:17,655
+        it means your tyres have reached the legal limit of 1.6mm.
+        
+        7
+        00:00:17,655 --> 00:00:20,379
+        When tyres have worn to this level, they need to be replaced.
+        
+        8
+        00:00:20,379 --> 00:00:23,655
+        You can also use a 20p coin to check your tyre’s tread depth.
+        
+        9
+        00:00:23,655 --> 00:00:26,931
+        To do this, simply place a £0.20p coin in your tread grooves.
+        
+        10
+        00:00:26,931 --> 00:00:30,862
+        If you can see part of the rim of the coin, then your tyres may be below the minimum tread depth.
+        
+        11
+        00:00:30,862 --> 00:00:32,931
+        And you may need to check the tread depth gauge.
+        
+        12
+        00:00:32,931 --> 00:00:35,862
+        These come in many different forms and you can easily get them online.
+        
+        13
+        00:00:35,897 --> 00:00:37,966
+        Place the gauge just above the tyre groove.
+        
+        14
+        00:00:38,069 --> 00:00:41,552
+        The gauge will then display how close you are to reaching the minimum tread depth.
+        
+        15
+        00:00:41,759 --> 00:00:49,724
+        Check the tread regularly at different places across the tyres so you can watch out for worn tyres and any early signs of uneven wear.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "082555bb-385e-47d5-9291-c0b52bb7ca3a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241023T105159Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1c668eab-b537-442b-909c-e526cae126a5"
+      Hint: VideoURL
+      Value: "https://dip-mobile-uat-release-videos.s3.eu-west-1.amazonaws.com/How+To+Check+Your+Tyres_5-1080-27rf+1.mp4"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241023T152911Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "3ed4b257-f62b-4eeb-a712-84a1cfbbaf0a"
+      Hint: Caption
+      Value: |
+        1
+        00:00:00,000 --> 00:00:03,552
+        Your tyres are the only part of the vehicle that's in contact with the road.
+        
+        2
+        00:00:03,655 --> 00:00:06,552
+        So the condition of your tyres is key to your safety.
+        
+        3
+        00:00:06,552 --> 00:00:08,724
+        Some tyres have tread wear indicators.
+        
+        4
+        00:00:08,724 --> 00:00:11,103
+        These are small bars about five millimetres wide.
+        
+        5
+        00:00:11,103 --> 00:00:14,379
+        If the tyre tread is level with the top of the wear indicator
+        
+        6
+        00:00:14,379 --> 00:00:17,655
+        it means your tyres have reached the legal limit of 1.6mm.
+        
+        7
+        00:00:17,655 --> 00:00:20,379
+        When tyres have worn to this level, they need to be replaced.
+        
+        8
+        00:00:20,379 --> 00:00:23,655
+        You can also use a 20p coin to check your tyre’s tread depth.
+        
+        9
+        00:00:23,655 --> 00:00:26,931
+        To do this, simply place a £0.20p coin in your tread grooves.
+        
+        10
+        00:00:26,931 --> 00:00:30,862
+        If you can see part of the rim of the coin, then your tyres may be below the minimum tread depth.
+        
+        11
+        00:00:30,862 --> 00:00:32,931
+        And you may need to check the tread depth gauge.
+        
+        12
+        00:00:32,931 --> 00:00:35,862
+        These come in many different forms and you can easily get them online.
+        
+        13
+        00:00:35,897 --> 00:00:37,966
+        Place the gauge just above the tyre groove.
+        
+        14
+        00:00:38,069 --> 00:00:41,552
+        The gauge will then display how close you are to reaching the minimum tread depth.
+        
+        15
+        00:00:41,759 --> 00:00:49,724
+        Check the tread regularly at different places across the tyres so you can watch out for worn tyres and any early signs of uneven wear.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "6c3b7261-60ac-4b22-af20-208ff3d94fb1"
+      Hint: VideoThumbnail
+      Value: |
+        <image mediaid="{99DB9B42-DDD9-45E7-8371-6DEDEC6D365F}" />
+    - ID: "6f948787-c284-4699-9608-67460a46d547"
+      Hint: VideoRetinaThumbnail
+      Value: |
+        <image mediaid="{99DB9B42-DDD9-45E7-8371-6DEDEC6D365F}" />
+    - ID: "7a18232f-e101-4eeb-a0fb-916d509fab1f"
+      Hint: Title
+      Value: How to check your tyres
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fade9fb5-1a6b-44e6-a6c2-1f62cf1dfb42"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241023T152911Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241029T150307Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1c668eab-b537-442b-909c-e526cae126a5"
+      Hint: VideoURL
+      Value: "https://dip-mobile-uat-release-videos.s3.eu-west-1.amazonaws.com/How+To+Check+Your+Tyres_5-1080-27rf+1.mp4"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241029T150309Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "3ed4b257-f62b-4eeb-a712-84a1cfbbaf0a"
+      Hint: Caption
+      Value: |
+        1
+        00:00:00,000 --> 00:00:03,552
+        Your tyres are the only part of the vehicle that's in contact with the road.
+        
+        2
+        00:00:03,655 --> 00:00:06,552
+        So the condition of your tyres is key to your safety.
+        
+        3
+        00:00:06,552 --> 00:00:08,724
+        Some tyres have tread wear indicators.
+        
+        4
+        00:00:08,724 --> 00:00:11,103
+        These are small bars about five millimetres wide.
+        
+        5
+        00:00:11,103 --> 00:00:14,379
+        If the tyre tread is level with the top of the wear indicator
+        
+        6
+        00:00:14,379 --> 00:00:17,655
+        it means your tyres have reached the legal limit of 1.6mm.
+        
+        7
+        00:00:17,655 --> 00:00:20,379
+        When tyres have worn to this level, they need to be replaced.
+        
+        8
+        00:00:20,379 --> 00:00:23,655
+        You can also use a 20p coin to check your tyre’s tread depth.
+        
+        9
+        00:00:23,655 --> 00:00:26,931
+        To do this, simply place a £0.20p coin in your tread grooves.
+        
+        10
+        00:00:26,931 --> 00:00:30,862
+        If you can see part of the rim of the coin, then your tyres may be below the minimum tread depth.
+        
+        11
+        00:00:30,862 --> 00:00:32,931
+        And you may need to check the tread depth gauge.
+        
+        12
+        00:00:32,931 --> 00:00:35,862
+        These come in many different forms and you can easily get them online.
+        
+        13
+        00:00:35,897 --> 00:00:37,966
+        Place the gauge just above the tyre groove.
+        
+        14
+        00:00:38,069 --> 00:00:41,552
+        The gauge will then display how close you are to reaching the minimum tread depth.
+        
+        15
+        00:00:41,759 --> 00:00:49,724
+        Check the tread regularly at different places across the tyres so you can watch out for worn tyres and any early signs of uneven wear.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "6c3b7261-60ac-4b22-af20-208ff3d94fb1"
+      Hint: VideoThumbnail
+      Value: |
+        <image mediaid="{99DB9B42-DDD9-45E7-8371-6DEDEC6D365F}" />
+    - ID: "6f948787-c284-4699-9608-67460a46d547"
+      Hint: VideoRetinaThumbnail
+      Value: |
+        <image mediaid="{99DB9B42-DDD9-45E7-8371-6DEDEC6D365F}" />
+    - ID: "7a18232f-e101-4eeb-a0fb-916d509fab1f"
+      Hint: Title
+      Value: How to check your tyres
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cc3b3981-d2fd-48c2-9207-809eaf51a769"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241029T150309Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241029T150312Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1c668eab-b537-442b-909c-e526cae126a5"
+      Hint: VideoURL
+      Value: "https://dip-mobile-uat-release-videos.s3.eu-west-1.amazonaws.com/How+To+Check+Your+Tyres_5-1080-27rf+1.mp4"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241030T114721Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "3ed4b257-f62b-4eeb-a712-84a1cfbbaf0a"
+      Hint: Caption
+      Value: |
+        1
+        00:00:00,000 --> 00:00:03,552
+        Your tyres are the only part of the vehicle that's in contact with the road.
+        
+        2
+        00:00:03,655 --> 00:00:06,552
+        So the condition of your tyres is key to your safety.
+        
+        3
+        00:00:06,552 --> 00:00:08,724
+        Some tyres have tread wear indicators.
+        
+        4
+        00:00:08,724 --> 00:00:11,103
+        These are small bars about five millimetres wide.
+        
+        5
+        00:00:11,103 --> 00:00:14,379
+        If the tyre tread is level with the top of the wear indicator
+        
+        6
+        00:00:14,379 --> 00:00:17,655
+        it means your tyres have reached the legal limit of 1.6mm.
+        
+        7
+        00:00:17,655 --> 00:00:20,379
+        When tyres have worn to this level, they need to be replaced.
+        
+        8
+        00:00:20,379 --> 00:00:23,655
+        You can also use a 20p coin to check your tyre’s tread depth.
+        
+        9
+        00:00:23,655 --> 00:00:26,931
+        To do this, simply place a £0.20p coin in your tread grooves.
+        
+        10
+        00:00:26,931 --> 00:00:30,862
+        If you can see part of the rim of the coin, then your tyres may be below the minimum tread depth.
+        
+        11
+        00:00:30,862 --> 00:00:32,931
+        And you may need to check the tread depth gauge.
+        
+        12
+        00:00:32,931 --> 00:00:35,862
+        These come in many different forms and you can easily get them online.
+        
+        13
+        00:00:35,897 --> 00:00:37,966
+        Place the gauge just above the tyre groove.
+        
+        14
+        00:00:38,069 --> 00:00:41,552
+        The gauge will then display how close you are to reaching the minimum tread depth.
+        
+        15
+        00:00:41,759 --> 00:00:49,724
+        Check the tread regularly at different places across the tyres so you can watch out for worn tyres and any early signs of uneven wear.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "6c3b7261-60ac-4b22-af20-208ff3d94fb1"
+      Hint: VideoThumbnail
+      Value: |
+        <image mediaid="{99DB9B42-DDD9-45E7-8371-6DEDEC6D365F}" />
+    - ID: "6f948787-c284-4699-9608-67460a46d547"
+      Hint: VideoRetinaThumbnail
+      Value: |
+        <image mediaid="{99DB9B42-DDD9-45E7-8371-6DEDEC6D365F}" />
+    - ID: "7a18232f-e101-4eeb-a0fb-916d509fab1f"
+      Hint: Title
+      Value: How to check your tyres
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "01ab9a60-94a6-4505-940c-c32476b77d1b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241030T114721Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241030T114725Z
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1c668eab-b537-442b-909c-e526cae126a5"
+      Hint: VideoURL
+      Value: "https://dip-mobile-uat-release-videos.s3.eu-west-1.amazonaws.com/How+To+Check+Your+Tyres_5-1080-27rf+1.mp4"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241105T104442Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "3ed4b257-f62b-4eeb-a712-84a1cfbbaf0a"
+      Hint: Caption
+      Value: |
+        1
+        00:00:00,000 --> 00:00:03,552
+        Your tyres are the only part of the vehicle that's in contact with the road.
+        
+        2
+        00:00:03,655 --> 00:00:06,552
+        So the condition of your tyres is key to your safety.
+        
+        3
+        00:00:06,552 --> 00:00:08,724
+        Some tyres have tread wear indicators.
+        
+        4
+        00:00:08,724 --> 00:00:11,103
+        These are small bars about five millimetres wide.
+        
+        5
+        00:00:11,103 --> 00:00:14,379
+        If the tyre tread is level with the top of the wear indicator
+        
+        6
+        00:00:14,379 --> 00:00:17,655
+        it means your tyres have reached the legal limit of 1.6mm.
+        
+        7
+        00:00:17,655 --> 00:00:20,379
+        When tyres have worn to this level, they need to be replaced.
+        
+        8
+        00:00:20,379 --> 00:00:23,655
+        You can also use a 20p coin to check your tyre’s tread depth.
+        
+        9
+        00:00:23,655 --> 00:00:26,931
+        To do this, simply place a £0.20p coin in your tread grooves.
+        
+        10
+        00:00:26,931 --> 00:00:30,862
+        If you can see part of the rim of the coin, then your tyres may be below the minimum tread depth.
+        
+        11
+        00:00:30,862 --> 00:00:32,931
+        And you may need to check the tread depth gauge.
+        
+        12
+        00:00:32,931 --> 00:00:35,862
+        These come in many different forms and you can easily get them online.
+        
+        13
+        00:00:35,897 --> 00:00:37,966
+        Place the gauge just above the tyre groove.
+        
+        14
+        00:00:38,069 --> 00:00:41,552
+        The gauge will then display how close you are to reaching the minimum tread depth.
+        
+        15
+        00:00:41,759 --> 00:00:49,724
+        Check the tread regularly at different places across the tyres so you can watch out for worn tyres and any early signs of uneven wear.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "6c3b7261-60ac-4b22-af20-208ff3d94fb1"
+      Hint: VideoThumbnail
+      Value: |
+        <image mediaid="{B447AA94-00F0-4DA4-B9D9-A917DAC5EF7F}" />
+    - ID: "6f948787-c284-4699-9608-67460a46d547"
+      Hint: VideoRetinaThumbnail
+      Value: |
+        <image mediaid="{B447AA94-00F0-4DA4-B9D9-A917DAC5EF7F}" />
+    - ID: "7a18232f-e101-4eeb-a0fb-916d509fab1f"
+      Hint: Title
+      Value: How to check your tyres
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "861137cb-9ad8-44de-ac34-b6c89e0b556d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241105T104442Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241105T105513Z
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1c668eab-b537-442b-909c-e526cae126a5"
+      Hint: VideoURL
+      Value: "https://dip-mobile-prod-1-videos.s3.eu-west-1.amazonaws.com/How+To+Check+Your+Tyres_5-1080-27rf+1.mp4"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241105T105518Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "3ed4b257-f62b-4eeb-a712-84a1cfbbaf0a"
+      Hint: Caption
+      Value: |
+        1
+        00:00:00,000 --> 00:00:03,552
+        Your tyres are the only part of the vehicle that's in contact with the road.
+        
+        2
+        00:00:03,655 --> 00:00:06,552
+        So the condition of your tyres is key to your safety.
+        
+        3
+        00:00:06,552 --> 00:00:08,724
+        Some tyres have tread wear indicators.
+        
+        4
+        00:00:08,724 --> 00:00:11,103
+        These are small bars about five millimetres wide.
+        
+        5
+        00:00:11,103 --> 00:00:14,379
+        If the tyre tread is level with the top of the wear indicator
+        
+        6
+        00:00:14,379 --> 00:00:17,655
+        it means your tyres have reached the legal limit of 1.6mm.
+        
+        7
+        00:00:17,655 --> 00:00:20,379
+        When tyres have worn to this level, they need to be replaced.
+        
+        8
+        00:00:20,379 --> 00:00:23,655
+        You can also use a 20p coin to check your tyre’s tread depth.
+        
+        9
+        00:00:23,655 --> 00:00:26,931
+        To do this, simply place a £0.20p coin in your tread grooves.
+        
+        10
+        00:00:26,931 --> 00:00:30,862
+        If you can see part of the rim of the coin, then your tyres may be below the minimum tread depth.
+        
+        11
+        00:00:30,862 --> 00:00:32,931
+        And you may need to check the tread depth gauge.
+        
+        12
+        00:00:32,931 --> 00:00:35,862
+        These come in many different forms and you can easily get them online.
+        
+        13
+        00:00:35,897 --> 00:00:37,966
+        Place the gauge just above the tyre groove.
+        
+        14
+        00:00:38,069 --> 00:00:41,552
+        The gauge will then display how close you are to reaching the minimum tread depth.
+        
+        15
+        00:00:41,759 --> 00:00:49,724
+        Check the tread regularly at different places across the tyres so you can watch out for worn tyres and any early signs of uneven wear.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "6c3b7261-60ac-4b22-af20-208ff3d94fb1"
+      Hint: VideoThumbnail
+      Value: |
+        <image mediaid="{B447AA94-00F0-4DA4-B9D9-A917DAC5EF7F}" />
+    - ID: "6f948787-c284-4699-9608-67460a46d547"
+      Hint: VideoRetinaThumbnail
+      Value: |
+        <image mediaid="{B447AA94-00F0-4DA4-B9D9-A917DAC5EF7F}" />
+    - ID: "7a18232f-e101-4eeb-a0fb-916d509fab1f"
+      Hint: Title
+      Value: How to check your tyres
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "27b14e90-810b-43e8-bbcf-bfb926bf428b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241105T105518Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241119T085432Z

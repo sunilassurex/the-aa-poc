@@ -1,0 +1,30 @@
+﻿---
+ID: "95b28890-773e-4339-b43c-e3d991850feb"
+Parent: "c1fdeeda-72a3-4d74-a543-0cdb7b45bb0a"
+Template: "c1fdeeda-72a3-4d74-a543-0cdb7b45bb0a"
+Path: /sitecore/templates/Feature/AA/Industry Reviews/Industry Reviews/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220221T161153Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a9f99cd6-dc96-4233-b5d3-5329071293f3"
+    - ID: "af60a75c-a0c2-4467-9189-79bd42fa0cf6"
+      Hint: Title
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        theaa\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220303T043204Z

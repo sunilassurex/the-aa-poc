@@ -4,30 +4,26 @@
   "references": ["Foundation.TheAA"],
   "items": {
     "includes": [
-       {
-        "name": "templatesBasicContent",
-        "path": "/sitecore/templates/Feature/Basic Content",
+      {
+        "name": "TheAAWorkflow",
+        "path": "/sitecore/system/Workflows/AA Content Workflow",
+        "scope": "ItemAndDescendants",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
-        "name": "MetaDataFolder",
-        "path": "/sitecore/templates/Feature/Meta Data",
-        "scope": "SingleItem",
-        "allowedPushOperations": "CreateAndUpdate"
-      },
-      {
-        "name": "templateAnalytics",
-        "path": "/sitecore/templates/Feature/Meta Data/Analytics",
+        "name": "SystemFeatureAA",
+        "path": "/sitecore/system/Settings/Feature/AA",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {
-        "name": "templatesMobileApp",
-        "path": "/sitecore/templates/Feature/Headless/Mobile-App",
+        "name": "templatesAA",
+        "path": "/sitecore/templates/Feature/AA",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
+
       {
-        "name": "templatesBranchesMobileApp",
-        "path": "/sitecore/templates/Branches/Feature/Headless/Mobile App",
+        "name": "templatesHeadless",
+        "path": "/sitecore/templates/Branches/Feature/Headless",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {

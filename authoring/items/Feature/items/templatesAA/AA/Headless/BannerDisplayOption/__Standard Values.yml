@@ -1,0 +1,23 @@
+﻿---
+ID: "825876f3-d958-4cb7-aee6-a55818c6251f"
+Parent: "32bb4fe9-2b98-4694-bf31-32d2f2cc13bc"
+Template: "32bb4fe9-2b98-4694-bf31-32d2f2cc13bc"
+Path: /sitecore/templates/Feature/AA/Headless/BannerDisplayOption/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230202T085221Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "081fae33-4b44-4e90-ab44-1107d03ae3b7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230216T025536Z

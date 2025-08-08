@@ -1,0 +1,68 @@
+﻿---
+ID: "2287a802-c5de-4282-8de2-0d8ee7c20a71"
+Parent: "be3c7ee8-0e2d-4255-9be7-ada0f843ec23"
+Template: "be3c7ee8-0e2d-4255-9be7-ada0f843ec23"
+Path: /sitecore/templates/Feature/AA/Offer Configuration/OfferLaunch/__Standard Values
+SharedFields:
+- ID: "57cbca4c-8c94-446c-b8ca-7d8dc54f4285"
+  Hint: __Validate Button Validation Rules
+  Value: "{1E2D19A1-018C-4A41-8595-816122CC3814}"
+- ID: "86b52eef-078e-4d9e-80bf-888287070e6c"
+  Hint: __Workflow Validation Rules
+  Value: "{1E2D19A1-018C-4A41-8595-816122CC3814}"
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{02EC36E8-D3B7-48CC-A16D-B13280B4CE1A}"
+- ID: "b7e5b151-b145-4ced-85c5-fbdb566dfa4d"
+  Hint: __Validator Bar Validation Rules
+  Value: "{1E2D19A1-018C-4A41-8595-816122CC3814}"
+- ID: "c2f5b2b5-71c1-431e-bf7f-dbdc1e5a2f83"
+  Hint: __Quick Action Bar Validation Rules
+  Value: "{1E2D19A1-018C-4A41-8595-816122CC3814}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{02EC36E8-D3B7-48CC-A16D-B13280B4CE1A}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+            l="{BA183A1B-5C0B-4935-B509-4077BF0A1855}">
+            <r
+              id="{25DD2942-FBFA-4A8E-8520-5168EE9E65F3}"
+              ph="/main"
+              uid="{CCD80835-6226-4941-A2AD-83F212B64962}" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240704T063344Z
+    - ID: "3726685b-86e0-45a3-b59a-e94997822b28"
+      Hint: CountDownDays
+      Value: 7
+    - ID: "37e2a1fb-043f-48b1-bb21-df38f52ad9da"
+      Hint: OfferActive
+      Value: 1
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Thenmozhi.Subramaaniam
+    - ID: "64b2599c-6e87-4f9a-8aca-0a9fdecc5d99"
+      Hint: CountDownMessage
+      Value: Sale ends
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2c2f1411-2ff9-453a-8c58-1147fb675d5a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241001T014818Z

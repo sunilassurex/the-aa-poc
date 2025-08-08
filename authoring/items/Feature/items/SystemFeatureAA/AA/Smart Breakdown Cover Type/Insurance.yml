@@ -1,0 +1,30 @@
+﻿---
+ID: "f21fdf1a-b04f-4f1c-ac37-5d9961dc368e"
+Parent: "1d68a70d-ab84-4ee6-88c2-5a8c8b2cbafc"
+Template: "af70a11f-125f-4980-8ef6-f124717eb445"
+Path: /sitecore/system/Settings/Feature/AA/Smart Breakdown Cover Type/Insurance
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211217T173527Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8645d7e8-ed0b-4de3-aa26-03250635a473"
+      Hint: Value
+      Value: Insurance
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9eade12b-26d7-493c-9533-3da419ce569a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220120T043825Z
