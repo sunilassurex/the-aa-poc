@@ -1,0 +1,83 @@
+﻿---
+ID: "614a5f32-7728-4cfb-bf75-8338e300965e"
+Parent: "c952e604-ac43-4f07-a71b-23c53ef86c6e"
+Template: "a3ceb52b-24fa-4eee-82f7-45faae145864"
+Path: /sitecore/content/AA/Beam/Modules/Html/home
+SharedFields:
+- ID: "9135200a-5626-4dd8-ab9d-d665b8c11748"
+  Hint: __Never publish
+  Value: 1
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230314T115451Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\ChapmanT
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "6a07b214-41c9-4205-b62a-6005aa65a387"
+      Hint: Contents
+      Value: |
+        <!-- start contrastAlertMsg -->
+        <style type="text/css">
+            .contrastAlertMsg{display: flex;flex-direction: column;align-items: center;padding: 8px 16px;gap: 16px;width: 100%;background: #2B2929;}
+            .contrastAlertMsg a{font-weight:100}
+            .contrastAlertMsg a span{color:#fff;text-decoration:underline;}
+            .contrastAlertMsg a,
+            .contrastAlertMsg a:active,
+            .contrastAlertMsg a:visited,
+            .contrastAlertMsg a:hover span{color:#fff;text-decoration:underline}
+            .contrastAlertMsg-inner{display: flex;flex-direction: row;justify-content: center;align-items: flex-start;padding: 0px;gap: 8px;max-width: 744px}
+            .contrastAlertMsgIcon{}
+            .contrastAlertMsgSmallScreen{display:none}
+            .contrastAlertMsgLargeScreen{display:inline-block}
+            .contrastAlertImg{width:32px}
+            .contrastAlertContent{width:100%}
+            .contrastAlertContent p {margin:0px; padding: 0px; color:#FFFFFF}
+            /* smartphones */
+            @media only screen and (max-device-width:599px){
+            .contrastAlertMsg p{text-align:left!important}
+            .contrastAlertMsgIcon{top:4px}
+            .contrastAlertMsgSmallScreen{display:inline-block}
+            .contrastAlertMsgLargeScreen{display:none}
+            }
+        </style>
+        <div class="viewport cf contrastAlertMsg">
+        <div class="contrastAlertMsg-inner">
+        <div class="contrastAlertImg"><img alt="Information" src="https://www.theaa.com/~/media/the-aa/logo/info-icon.svg" /></div>
+        <div class="contrastAlertContent">
+        <p><strong>Service update</strong> &ndash; <span class="ui-provider ye b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak" dir="ltr">At the moment, it may take a little longer than usual to get through to us if you call. As a BEAM customer you have 24/7 access to <a href="https://www.theaa.com/breakdown-cover/accident-assist">AA Accident Assist</a>, and you can report an accident or log a claim via the AA website.</span></p>
+        </div>
+        </div>
+        </div>
+        <!-- end contrastAlertMsg -->
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f2c7ecc0-8aeb-4f0a-815f-98971b44735d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\BrownK
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230322T151230Z

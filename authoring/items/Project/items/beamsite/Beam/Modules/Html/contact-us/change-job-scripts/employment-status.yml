@@ -1,0 +1,249 @@
+﻿---
+ID: "682cab72-4722-488f-9d88-46690cdcc4e6"
+Parent: "85d42321-8a7d-4e47-9c43-15b7304ef61a"
+Template: "a3ceb52b-24fa-4eee-82f7-45faae145864"
+Path: "/sitecore/content/AA/Beam/Modules/Html/contact-us/change-job-scripts/employment-status"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200402T142920Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\PetersenP
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\PetersenP
+    - ID: "6a07b214-41c9-4205-b62a-6005aa65a387"
+      Hint: Contents
+      Value: |
+        <script>
+            OccupationFormEmploymentStatusSetup();
+        
+            function OccupationFormEmploymentStatusSetup() {
+                console.log('OccupationFormEmploymentStatusSetup()');
+        
+                $(document).ready(function () {
+                    console.log('multiple-email – document ready');
+        
+        
+                    firstForm().find('input[value="Employed or self-employed"][type="radio"]').change(function () { EmploymentStatus_Changed(); });
+                    firstForm().find('input[value="Housewife"][type="radio"]').change(function () { EmploymentStatus_Changed(); });
+                    firstForm().find('input[value="Househusband"][type="radio"]').change(function () { EmploymentStatus_Changed(); });
+                    firstForm().find('input[value="Student"][type="radio"]').change(function () { EmploymentStatus_Changed(); });
+                    firstForm().find('input[value="Retired"][type="radio"]').change(function () { EmploymentStatus_Changed(); });
+                    firstForm().find('input[value="Unemployed"][type="radio"]').change(function () { EmploymentStatus_Changed(); });
+                    firstForm().find('input[value="Unemployed due to disability"][type="radio"]').change(function () { EmploymentStatus_Changed(); });
+        
+                    // set it up initially
+                    console.log('RADIO BUTTON VALUE ' + firstForm().find('input#wffmf6cd0587a48246eba761e330d5382f9d_Sections_2__Fields_1__Value').val());
+        
+                    var RadioChecked = firstForm().find('input#wffmf6cd0587a48246eba761e330d5382f9d_Sections_2__Fields_1__Value[type="radio"][checked="checked"]');
+                    var RadioEmployed = firstForm().find('input[value="Employed or self-employed"][type="radio"]');
+                    if (RadioChecked.length == 0) {
+                        console.log('RADIO BUTTON defaulted... ');
+                        RadioEmployed.attr('checked', 'checked');
+                    }
+                    RadioChecked = firstForm().find('input#wffmf6cd0587a48246eba761e330d5382f9d_Sections_2__Fields_1__Value[type="radio"][checked="checked"]')
+                    if (RadioChecked.length != 0) {
+                        RadioChecked.parent().addClass('checked');
+                        RadioChecked.parent().parent().addClass('radio checked');
+                    }
+                    EmploymentStatus_Changed(true);
+                });
+            }
+            function firstForm() {
+                return $('form.wffm-form-module:first');
+            }
+            function EmploymentStatus_Changed(keepValues) {
+        
+                var value = firstForm().find('input#wffmf6cd0587a48246eba761e330d5382f9d_Sections_2__Fields_1__Value:checked').val();
+                var NewOccupation = firstForm().find('#wffmf6cd0587a48246eba761e330d5382f9d_Sections_2__Fields_2__Value');
+                var NewBusiness = firstForm().find('#wffmf6cd0587a48246eba761e330d5382f9d_Sections_2__Fields_3__Value');
+        
+                // hide show questions
+                var disabled = true;
+                if (value == "Housewife") {
+                    NewOccupation.val('Housewife');
+                    NewBusiness.val('Not in Employment');
+                } else {
+                    if (value == "Househusband") {
+                        NewOccupation.val('Househusband');
+                        NewBusiness.val('Not in Employment');
+                    } else {
+                        if (value == "Student") {
+                            NewOccupation.val('Student');
+                            NewBusiness.val('Not in Employment');
+                        } else {
+                            if (value == "Retired") {
+                                NewOccupation.val('Retired');
+                                NewBusiness.val('Not in Employment');
+                            } else {
+                                if (value == "Unemployed") {
+                                    NewOccupation.val('Unemployed');
+                                    NewBusiness.val('Unemployed');
+                                } else {
+                                    if (value == "Unemployed due to disability") {
+                                        NewOccupation.val('Registered Disabled');
+                                        NewBusiness.val('None - Not Employed due to Disability');
+                                    } else {
+                                        disabled = false;
+                                        if (!keepValues) {
+                                            NewOccupation.val('');
+                                            NewBusiness.val('');
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                NewOccupation.attr('readonly', disabled);//.prop("disabled", disabled);
+                NewBusiness.attr('readonly', disabled);//.prop("disabled", disabled);
+            }
+        
+        </script>
+        
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d7141528-77c0-4ebc-b857-c8be46dce68c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\PetersenP
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200409T134903Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200414T102833Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\PetersenP
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\PetersenP
+    - ID: "6a07b214-41c9-4205-b62a-6005aa65a387"
+      Hint: Contents
+      Value: |
+        <script>
+            OccupationFormEmploymentStatusSetup();
+        
+            function OccupationFormEmploymentStatusSetup() {
+                console.log('OccupationFormEmploymentStatusSetup()');
+        
+                $(document).ready(function () {
+                    console.log('multiple-email – document ready');
+        
+        
+                    firstForm().find('input[value="Employed or self-employed"][type="radio"]').change(function () { EmploymentStatus_Changed(); });
+                    firstForm().find('input[value="Housewife"][type="radio"]').change(function () { EmploymentStatus_Changed(); });
+                    firstForm().find('input[value="Househusband"][type="radio"]').change(function () { EmploymentStatus_Changed(); });
+                    firstForm().find('input[value="Student"][type="radio"]').change(function () { EmploymentStatus_Changed(); });
+                    firstForm().find('input[value="Retired"][type="radio"]').change(function () { EmploymentStatus_Changed(); });
+                    firstForm().find('input[value="Unemployed"][type="radio"]').change(function () { EmploymentStatus_Changed(); });
+                    firstForm().find('input[value="Unemployed due to disability"][type="radio"]').change(function () { EmploymentStatus_Changed(); });
+        
+                    // set it up initially
+                    console.log('RADIO BUTTON VALUE ' + firstForm().find('input#wffmf6cd0587a48246eba761e330d5382f9d_Sections_2__Fields_1__Value').val());
+        
+                    var RadioChecked = firstForm().find('input#wffmf6cd0587a48246eba761e330d5382f9d_Sections_3__Fields_1__Value[type="radio"][checked="checked"]');
+                    var RadioEmployed = firstForm().find('input[value="Employed or self-employed"][type="radio"]');
+                    if (RadioChecked.length == 0) {
+                        console.log('RADIO BUTTON defaulted... ');
+                        RadioEmployed.attr('checked', 'checked');
+                    }
+                    RadioChecked = firstForm().find('input#wffmf6cd0587a48246eba761e330d5382f9d_Sections_3__Fields_1__Value[type="radio"][checked="checked"]')
+                    if (RadioChecked.length != 0) {
+                        RadioChecked.parent().addClass('checked');
+                        RadioChecked.parent().parent().addClass('radio checked');
+                    }
+                    EmploymentStatus_Changed(true);
+                });
+            }
+            function firstForm() {
+                return $('form.wffm-form-module:first');
+            }
+            function EmploymentStatus_Changed(keepValues) {
+                var value = firstForm().find('input#wffmf6cd0587a48246eba761e330d5382f9d_Sections_3__Fields_1__Value:checked').val();
+                var NewOccupation = firstForm().find('#wffmf6cd0587a48246eba761e330d5382f9d_Sections_3__Fields_2__Value');
+                var NewBusiness = firstForm().find('#wffmf6cd0587a48246eba761e330d5382f9d_Sections_3__Fields_3__Value');
+        
+                // hide show questions
+                var disabled = true;
+                if (value == "Housewife") {
+                    NewOccupation.val('Housewife');
+                    NewBusiness.val('Not in Employment');
+                } else {
+                    if (value == "Househusband") {
+                        NewOccupation.val('Househusband');
+                        NewBusiness.val('Not in Employment');
+                    } else {
+                        if (value == "Student") {
+                            NewOccupation.val('Student');
+                            NewBusiness.val('Not in Employment');
+                        } else {
+                            if (value == "Retired") {
+                                NewOccupation.val('Retired');
+                                NewBusiness.val('Not in Employment');
+                            } else {
+                                if (value == "Unemployed") {
+                                    NewOccupation.val('Unemployed');
+                                    NewBusiness.val('Unemployed');
+                                } else {
+                                    if (value == "Unemployed due to disability") {
+                                        NewOccupation.val('Registered Disabled');
+                                        NewBusiness.val('None - Not Employed due to Disability');
+                                    } else {
+                                        disabled = false;
+                                        if (!keepValues) {
+                                            NewOccupation.val('');
+                                            NewBusiness.val('');
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                NewOccupation.attr('readonly', disabled);//.prop("disabled", disabled);
+                NewBusiness.attr('readonly', disabled);//.prop("disabled", disabled);
+            }
+        
+        </script>
+        
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ce9b70e2-a24d-4094-a93d-9160d1253af3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200414T102833Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211201T113606Z

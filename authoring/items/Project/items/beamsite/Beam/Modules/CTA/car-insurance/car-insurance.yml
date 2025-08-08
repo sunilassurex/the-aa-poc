@@ -1,0 +1,209 @@
+﻿---
+ID: "ea814bd3-1ca4-428c-9d35-120cb714fa51"
+Parent: "b820c0f7-6e52-4799-808d-d1ccb50d1504"
+Template: "e907cda1-872c-4552-847c-7da109308d75"
+Path: "/sitecore/content/AA/Beam/Modules/CTA/car-insurance/car-insurance"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211215T165020Z
+    - ID: "2e91818f-ae58-4246-9dd8-dd7f685b06b7"
+      Hint: Primary CTA
+      Value: |
+        <link text="Retrieve a quote" linktype="external" url="/car-insurance/sales/your-quote/quote-retrieval" anchor="" target="" />
+    - ID: "34ade541-66af-4c86-b2c6-53aac1c0c730"
+      Hint: Secondary CTA
+      Value: |
+        <link class="" id="{215BDF90-66D4-4171-9481-1A44B3AFD3DE}" querystring="" anchor="" target="" title="" linktype="internal" text="Existing customer" url="/AA/Beam/Home/car-insurance/existing-customers" />
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f600985c-2046-4298-affc-d27f0c5beac9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250805T075736Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220222T103322Z
+    - ID: "2e91818f-ae58-4246-9dd8-dd7f685b06b7"
+      Hint: Primary CTA
+      Value: |
+        <link text="Retrieve a quote" linktype="external" url="/car-insurance/sales/your-quote/quote-retrieval" anchor="" target="" />
+    - ID: "34ade541-66af-4c86-b2c6-53aac1c0c730"
+      Hint: Secondary CTA
+      Value: |
+        <link class="" querystring="" id="{215BDF90-66D4-4171-9481-1A44B3AFD3DE}" anchor="" target="" title="" linktype="internal" text="Existing customers" url="/AA/Beam/Home/car-insurance/existing-customers" />
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7e70041f-4b0a-45af-9cf4-ae8893fd1053"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220222T103322Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250805T075737Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220224T204437Z
+    - ID: "2e91818f-ae58-4246-9dd8-dd7f685b06b7"
+      Hint: Primary CTA
+      Value: |
+        <link text="Retrieve a quote" linktype="external" url="/car-insurance/sales/your-quote/quote-retrieval" anchor="" target="" />
+    - ID: "34ade541-66af-4c86-b2c6-53aac1c0c730"
+      Hint: Secondary CTA
+      Value: |
+        <link class="" querystring="" id="{215BDF90-66D4-4171-9481-1A44B3AFD3DE}" anchor="" target="" title="" linktype="internal" text="Manage your policy" url="/AA/Beam/Home/car-insurance/existing-customers" />
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c8e58d8c-0afa-4e01-85bc-03a711d1fbc6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220224T204437Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250805T075737Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230626T093259Z
+    - ID: "2e91818f-ae58-4246-9dd8-dd7f685b06b7"
+      Hint: Primary CTA
+      Value: |
+        <link text="Retrieve a quote" linktype="external" url="https://www.beam.co.uk/car-insurance/sales/your-quote/quote-retrieval" anchor="" title="Retrieve a quote" target="" />
+    - ID: "34ade541-66af-4c86-b2c6-53aac1c0c730"
+      Hint: Secondary CTA
+      Value: |
+        <link class="" querystring="" id="{215BDF90-66D4-4171-9481-1A44B3AFD3DE}" anchor="" target="" title="" linktype="internal" text="Manage your policy" url="/AA/Beam/Home/car-insurance/existing-customers" />
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ee4f4531-9e55-4455-a00b-bce4303a23cd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230626T093259Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250805T075736Z
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240905T122949Z
+    - ID: "2e91818f-ae58-4246-9dd8-dd7f685b06b7"
+      Hint: Primary CTA
+      Value: |
+        <link text="Retrieve a quote" linktype="external" url="https://www.beam.co.uk/car-insurance/sales/tiers/your-quote/retrieve" anchor="" title="Retrieve a quote" target="" />
+    - ID: "34ade541-66af-4c86-b2c6-53aac1c0c730"
+      Hint: Secondary CTA
+      Value: |
+        <link class="" querystring="" id="{215BDF90-66D4-4171-9481-1A44B3AFD3DE}" anchor="" target="" title="" linktype="internal" text="Manage your policy" url="/AA/Beam/Home/car-insurance/existing-customers" />
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b26b6402-219d-402f-a0cc-9244abf6be84"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240905T122949Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250805T075737Z

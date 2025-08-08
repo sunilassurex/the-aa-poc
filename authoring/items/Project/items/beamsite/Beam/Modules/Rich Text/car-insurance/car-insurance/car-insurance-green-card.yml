@@ -1,0 +1,699 @@
+﻿---
+ID: "a3fb2a46-e451-4517-ae3b-1f9515a862fe"
+Parent: "a3d3499a-54d9-412a-baa0-455a533d67f8"
+Template: "e36747b3-6154-423a-b32d-b2d323f5a739"
+Path: "/sitecore/content/AA/Beam/Modules/Rich Text/car-insurance/car-insurance/car-insurance-green-card"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 4900
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200403T070717Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "61814c5f-7f89-47e5-88d1-f2b4c6a81e75"
+      Hint: Subtitle
+      Value: You'll hear from us shortly
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6f71a58a-3676-4012-b544-3823b54e7d0c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200403T070717Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>We've received your renewal query. If we have enough information, we&rsquo;ll complete your request as soon as we can. If we need more details, someone will be in touch.</p>
+        <p>Like all businesses, we're having to work differently during the COVID-19 situation. Staff levels in our contact centres may be reduced, so you might experience longer response times.</p>
+        <p>We appreciate your patience and will update your policy as soon as possible. We're monitoring the situation closely and fully intend to maintain the highest possible levels of service.</p>
+        <h2>How we will contact you</h2>
+        <p>If you get a call back, it will be from one of the following numbers:</p>
+        <ul>
+            <li><strong>0343 316 4444</strong> for breakdown cover</li>
+            <li><strong>0370 160 0138</strong> for car insurance</li>
+            <li><strong>0370 606 1617</strong> for home insurance</li>
+        </ul>
+        <p>Please remember to add <a href="mailto:customer.services@theaa.com">customer.services@theaa.com</a> and <a href="mailto:insurancerenewals@theaa.com">insurancerenewals@theaa.com</a> to your safe senders list.&nbsp;</p>
+        <p>For your security, only the main policyholder can discuss the renewal.</p>
+        <p>You can always check the details of what cover you have when you <a href="https://auth.theaa.com/auth/XUI/#login/">log in to your account</a>.</p>
+        <div>&nbsp;</div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211202T170223Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200403T071732Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "61814c5f-7f89-47e5-88d1-f2b4c6a81e75"
+      Hint: Subtitle
+      Value: You'll hear from us shortly
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b02183b2-956b-46bb-b27e-cfeeafd22712"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200403T071732Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>We've received your renewal query. If we have enough information, we&rsquo;ll complete your request as soon as we can. If we need more details, someone will be in touch.</p>
+        <p>Like all businesses, we're having to work differently during the COVID-19 situation. Staff levels in our contact centres may be reduced, so you might experience longer response times.</p>
+        <p>We appreciate your patience and will update your policy as soon as possible. We're monitoring the situation closely and fully intend to maintain the highest possible levels of service.</p>
+        <h2>How we will contact you</h2>
+        <p>If you get a call back, it will be from one of the following numbers:</p>
+        <ul>
+            <li><strong>0343 316 4444</strong> for breakdown cover</li>
+            <li><strong>0370 160 0138</strong> for car insurance</li>
+            <li><strong>0370 606 1617</strong> for home insurance</li>
+        </ul>
+        <p>Please remember to add <a href="mailto:customer.services@theaa.com">customer.services@theaa.com</a> and <a href="mailto:insurancerenewals@theaa.com">insurancerenewals@theaa.com</a> to your safe senders list.&nbsp;</p>
+        <p>For your security, only the main policyholder can discuss the renewal.</p>
+        <p>You can always check the details of what cover you have when you <a href="https://auth.theaa.com/auth/XUI/#login/">log in to your account</a>.</p>
+        <div>&nbsp;</div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211202T170223Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200403T072011Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "61814c5f-7f89-47e5-88d1-f2b4c6a81e75"
+      Hint: Subtitle
+      Value: You'll hear from us shortly
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c8574c5f-8bd5-413a-a468-d53588ab6504"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200403T072011Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>We've received your renewal query</h2>
+        <p>If we have enough information, we&rsquo;ll complete your request as soon as we can. If we need more details, someone will be in touch.</p>
+        <p>Like all businesses, we're having to work differently during the COVID-19 situation. Staff levels in our contact centres may be reduced, so you might experience longer response times.</p>
+        <p>We appreciate your patience and will update your policy as soon as possible. We're monitoring the situation closely and fully intend to maintain the highest possible levels of service.</p>
+        <h2>How we will contact you</h2>
+        <p>If you get a call back, it will be from one of the following numbers:</p>
+        <ul>
+            <li><strong>0343 316 4444</strong> for breakdown cover</li>
+            <li><strong>0370 160 0138</strong> for car insurance</li>
+            <li><strong>0370 606 1617</strong> for home insurance</li>
+        </ul>
+        <p>Please remember to add <a href="mailto:customer.services@theaa.com">customer.services@theaa.com</a> and <a href="mailto:insurancerenewals@theaa.com">insurancerenewals@theaa.com</a> to your safe senders list.&nbsp;</p>
+        <p>For your security, only the main policyholder can discuss the renewal.</p>
+        <p>You can always check the details of what cover you have when you <a href="https://auth.theaa.com/auth/XUI/#login/">log in to your account</a>.</p>
+        <div>&nbsp;</div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211202T170223Z
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200403T072229Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "61814c5f-7f89-47e5-88d1-f2b4c6a81e75"
+      Hint: Subtitle
+      Value: You'll hear from us shortly
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "18f6d183-7f1f-4939-a2e8-957b8960e7e5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200403T072229Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>We've received your renewal query.&nbsp;<span style="font-weight: lighter;">If we have enough inf</span><span style="font-weight: lighter;">ormation, we&rsquo;ll complete your request as soon as we can. If we need more details, someone will be in touch.</span></p>
+        <p>Like all businesses, we're having to work differently during the COVID-19 situation. Staff levels in our contact centres may be reduced, so you might experience longer response times.</p>
+        <p>We appreciate your patience and will update your policy as soon as possible. We're monitoring the situation closely and fully intend to maintain the highest possible levels of service.</p>
+        <h2>How we will contact you</h2>
+        <p>If you get a call back, it will be from one of the following numbers:</p>
+        <ul>
+            <li><strong>0343 316 4444</strong> for breakdown cover</li>
+            <li><strong>0370 160 0138</strong> for car insurance</li>
+            <li><strong>0370 606 1617</strong> for home insurance</li>
+        </ul>
+        <p>Please remember to add <a href="mailto:customer.services@theaa.com">customer.services@theaa.com</a> and <a href="mailto:insurancerenewals@theaa.com">insurancerenewals@theaa.com</a> to your safe senders list.&nbsp;</p>
+        <p>For your security, only the main policyholder can discuss the renewal.</p>
+        <p>You can always check the details of what cover you have when you <a href="https://auth.theaa.com/auth/XUI/#login/">log in to your account</a>.</p>
+        <div>&nbsp;</div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211202T170223Z
+  - Version: 5
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200403T081646Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "61814c5f-7f89-47e5-88d1-f2b4c6a81e75"
+      Hint: Subtitle
+      Value: You'll hear from us shortly
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9e741cb8-02d9-456a-a5f5-ffd4eddb42c9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200403T081646Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>We've received your renewal query.&nbsp;<span style="font-weight: lighter;">If we have enough inf</span><span style="font-weight: lighter;">ormation, we&rsquo;ll complete your request as soon as we can. If we need more details, someone will be in touch.</span></p>
+        <p>Like all businesses, we're having to work differently during the COVID-19 situation. Staff levels in our contact centres may be reduced, so you might experience longer response times.</p>
+        <p>We appreciate your patience and will update your policy as soon as possible. We're monitoring the situation closely and fully intend to maintain the highest possible levels of service.</p>
+        <h2>How we will contact you</h2>
+        <p>If you get a call back, it will be from one of the following numbers:</p>
+        <ul>
+            <li><strong>0343 316 4444</strong> for breakdown cover</li>
+            <li><strong>0370 160 0138</strong> for car insurance</li>
+            <li><strong>0370 606 1617</strong> for home insurance</li>
+        </ul>
+        <p>Please remember to add <a href="mailto:customer.services@theaa.com">customer.services@theaa.com</a>, <a href="mailto:insurancerenewals@theaa.com">insurancerenewals@theaa.com</a> and <a href="mailto:donotreply.renewcover@theaa.com">donotreply.renewcover@theaa.com</a> to your safe senders list.&nbsp;</p>
+        <p>For your security, only the main policyholder can discuss the renewal.</p>
+        <p>You can always check the details of what cover you have when you <a href="https://auth.theaa.com/auth/XUI/#login/">log in to your account</a>.</p>
+        <div>&nbsp;</div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211202T170223Z
+  - Version: 6
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200403T101825Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "61814c5f-7f89-47e5-88d1-f2b4c6a81e75"
+      Hint: Subtitle
+      Value: You'll hear from us shortly
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6e5a52d8-69fb-4ff1-a01f-5e8579800db2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200403T101825Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>We've received your renewal query.&nbsp;<span style="font-weight: lighter;">If we have enough inf</span><span style="font-weight: lighter;">ormation, we&rsquo;ll complete your request as soon as we can. If we need more details, someone will be in touch.</span></p>
+        <p>Like all businesses, we're having to work differently during the COVID-19 situation. Staff levels in our contact centres may be reduced, so you might experience longer response times.</p>
+        <p>We appreciate your patience and will update your policy as soon as possible. We're monitoring the situation closely and fully intend to maintain the highest possible levels of service.</p>
+        <p>Please remember to add <a href="mailto:customer.services@theaa.com">customer.services@theaa.com</a>, <a href="mailto:insurancerenewals@theaa.com">insurancerenewals@theaa.com</a> and <a href="mailto:breakdown.renewals@theaa.com">breakdown.renewals@theaa.com</a> to your safe senders list.&nbsp;</p>
+        <p>For your security, only the main policyholder can discuss the renewal.</p>
+        <p>You can always check the details of what cover you have when you <a href="https://auth.theaa.com/auth/XUI/#login/">log in to your account</a>.</p>
+        <div>&nbsp;</div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211202T170224Z
+  - Version: 7
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200409T153620Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\THOMASZ
+    - ID: "61814c5f-7f89-47e5-88d1-f2b4c6a81e75"
+      Hint: Subtitle
+      Value: Your query has been sent
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3a5e18b9-f682-429b-a6f4-479f05b5b846"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200409T153620Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p><strong>If your query is about your breakdown cover, our relevant offices are now closed for Easter so we will pick up your message on Tuesday 14 April.</strong></p>
+        <p>For all other queries, we'll respond as soon as possible. If we have enough information, we&rsquo;ll complete your request as soon as we can. If we need more details, someone will be in touch.</p>
+        <p>Like all businesses, we're having to work differently during the COVID-19 situation. Staff levels in our contact centres may be reduced, so you might experience longer response times.</p>
+        <p>We appreciate your patience and will update your policy as soon as possible. We're monitoring the situation closely and fully intend to maintain the highest possible levels of service.</p>
+        <p>Please remember to add <a href="mailto:customer.services@theaa.com">customer.services@theaa.com</a>, <a href="mailto:insurancerenewals@theaa.com">insurancerenewals@theaa.com</a> and <a href="mailto:breakdown.renewals@theaa.com">breakdown.renewals@theaa.com</a> to your safe senders list.&nbsp;</p>
+        <p>For your security, only the main policyholder can discuss the renewal.</p>
+        <p>You can always check the details of what cover you have when you <a href="https://auth.theaa.com/auth/XUI/#login/">log in to your account</a>.</p>
+        <div>&nbsp;</div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211202T170224Z
+  - Version: 8
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200414T073930Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\THOMASZ
+    - ID: "61814c5f-7f89-47e5-88d1-f2b4c6a81e75"
+      Hint: Subtitle
+      Value: You'll hear from us shortly
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5120fd5d-c10b-430c-af1a-a19614a260e1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200414T073930Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>We've received your renewal query.&nbsp;<span style="font-weight: lighter;">If we have enough inf</span><span style="font-weight: lighter;">ormation, we&rsquo;ll complete your request as soon as we can. If we need more details, someone will be in touch.</span></p>
+        <p>Like all businesses, we're having to work differently during the COVID-19 situation. Staff levels in our contact centres may be reduced, so you might experience longer response times.</p>
+        <p>We appreciate your patience and will update your policy as soon as possible. We're monitoring the situation closely and fully intend to maintain the highest possible levels of service.</p>
+        <p>Please remember to add <a href="mailto:customer.services@theaa.com">customer.services@theaa.com</a>, <a href="mailto:insurancerenewals@theaa.com">insurancerenewals@theaa.com</a> and <a href="mailto:breakdown.renewals@theaa.com">breakdown.renewals@theaa.com</a> to your safe senders list.&nbsp;</p>
+        <p>For your security, only the main policyholder can discuss the renewal.</p>
+        <p>You can always check the details of what cover you have when you <a href="https://auth.theaa.com/auth/XUI/#login/">log in to your account</a>.</p>
+        <div>&nbsp;</div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211202T170224Z
+  - Version: 9
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200429T155123Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\THOMASZ
+    - ID: "61814c5f-7f89-47e5-88d1-f2b4c6a81e75"
+      Hint: Subtitle
+      Value: We'll be in touch within 5 working days
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "24e1dd56-5d12-4f8b-884e-2498ce43e6da"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200429T155123Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>We've received your renewal query.&nbsp;<span style="font-weight: lighter;">If we have enough inf</span><span style="font-weight: lighter;">ormation, we&rsquo;ll complete your request as soon as we can. If we need more details, someone will be in touch.</span></p>
+        <p>Like all businesses, we're having to work differently during the COVID-19 situation. Staff levels in our contact centres may be reduced, so you might experience longer response times.</p>
+        <p>We appreciate your patience and will update your policy as soon as possible. We're monitoring the situation closely and fully intend to maintain the highest possible levels of service.</p>
+        <p>Please remember to add <a href="mailto:customer.services@theaa.com">customer.services@theaa.com</a>, <a href="mailto:insurancerenewals@theaa.com">insurancerenewals@theaa.com</a> and <a href="mailto:breakdown.renewals@theaa.com">breakdown.renewals@theaa.com</a> to your safe senders list.&nbsp;</p>
+        <p>For your security, only the main policyholder can discuss the renewal.</p>
+        <p>You can always check the details of what cover you have when you <a href="https://auth.theaa.com/auth/XUI/#login/">log in to your account</a>.</p>
+        <div>&nbsp;</div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211202T170224Z
+  - Version: 10
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200501T145319Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\BuckleyD
+    - ID: "61814c5f-7f89-47e5-88d1-f2b4c6a81e75"
+      Hint: Subtitle
+      Value: We'll be in touch within 5 working days
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1e4558e8-78fe-4f6b-99ab-b38ecd8130d7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200501T145319Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>We've received your renewal query.&nbsp;<span style="font-weight: lighter;">If we have enough inf</span><span style="font-weight: lighter;">ormation, we&rsquo;ll complete your request as soon as we can. If we need more details, someone will be in touch.</span></p>
+        <p>Like all businesses, we're having to work differently during the COVID-19 situation. Staff levels in our contact centres may be reduced, so you might experience longer response times.</p>
+        <p>We appreciate your patience and will update your policy as soon as possible. We're monitoring the situation closely and fully intend to maintain the highest possible levels of service.</p>
+        <p>Please remember to add <a href="mailto:insurancerenewals@theaa.com">insurancerenewals@theaa.com</a> and <a href="mailto:breakdown.renewals@theaa.com">breakdown.renewals@theaa.com</a> to your safe senders list.&nbsp;</p>
+        <p>For your security, only the main policyholder can discuss the renewal.</p>
+        <p>You can always check the details of what cover you have when you <a href="https://auth.theaa.com/auth/XUI/#login/">log in to your account</a>.</p>
+        <div>&nbsp;</div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211202T170224Z
+  - Version: 11
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200603T092125Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "61814c5f-7f89-47e5-88d1-f2b4c6a81e75"
+      Hint: Subtitle
+      Value: We'll be in touch within 5 working days
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fcac5df2-030d-471c-bcd2-08687f62fea8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200603T092125Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>We've received your renewal query.&nbsp;<span style="font-weight: lighter;">If we have enough inf</span><span style="font-weight: lighter;">ormation, we&rsquo;ll complete your request as soon as we can. If we need more details, someone will be in touch.</span></p>
+        <p>Like all businesses, we're having to work differently during the COVID-19 situation. Staff levels in our contact centres may be reduced, so you might experience longer response times.</p>
+        <p>We appreciate your patience and will update your policy as soon as possible. We're monitoring the situation closely and fully intend to maintain the highest possible levels of service.</p>
+        <p>Please remember to add <a href="mailto:insurancerenewals@theaa.com">insurancerenewals@theaa.com</a> to your safe senders list.&nbsp;</p>
+        <p>For your security, only the main policyholder can discuss the renewal.</p>
+        <p>You can always check the details of what cover you have when you <a href="https://auth.theaa.com/auth/XUI/#login/">log in to your account</a>.</p>
+        <div>&nbsp;</div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211202T170224Z
+  - Version: 12
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201126T113046Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\MartinL
+    - ID: "61814c5f-7f89-47e5-88d1-f2b4c6a81e75"
+      Hint: Subtitle
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2f34314c-7b41-4ccb-ab3c-ece7faefbda2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201126T113046Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>We've received your renewal query. If we have enough information, we&rsquo;ll complete your request within 5 working days. If we need more details, we'll let you know.<br />
+        <br />
+        Please remember to add <a href="mailto:insurancerenewals@theaa.com">insurancerenewals@theaa.com</a> to your safe senders list.&nbsp;<br />
+        <br />
+        For your security, only the main policyholder can discuss the renewal.<br />
+        <br />
+        You can always check the details of your cover by <a href="https://auth.theaa.com/auth/XUI/#login/">logging into your account</a>.<span style="font-weight: lighter;"></span></p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220225T111556Z
+  - Version: 13
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220225T111602Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "61814c5f-7f89-47e5-88d1-f2b4c6a81e75"
+      Hint: Subtitle
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "34dbede9-af10-427b-b81b-41d9e72c450a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220225T111602Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>Does BEAM cover me when driving in Europe?</h2>
+        <p>As a BEAM car insurance policyholder, you'll get the same level of cover you have in the UK when you're driving in the EU (and some other European countries, too) for up to 90 days.</p>
+        <p>You'll just need to take your Certificate of Motor Insurance and the log book (V5C) of the vehicle you're driving, as well as your licence.</p>
+        <hr />
+        <h2>Do I need a Green Card?</h2>
+        <p>Since 2 August 2021, the Green Card (or International Motor Insurance Card) hasn't been needed when you're driving in EU and EEA states. </p>
+        <p>You don't need a Green Card for Andorra, Bosnia and Herzegovina, Serbia and Switzerland, either.</p>
+        <p>Instead, your Certificate of Motor Insurance proves you have the insurance cover needed in the country you're visiting.</p>
+        <hr />
+        <h2>Which countries are in the EEA or the EU?</h2>
+        <p>The European Economic Area includes all the European Union countries plus Iceland, Liechtenstein and Norway.</p>
+        <p>The EU countries are:</p>
+        <p>Austria, Belgium, Bulgaria, Croatia, Republic of Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden.</p>
+        <hr />
+        <h2>What about going to and from Ireland?</h2>
+        <p>The Republic of Ireland is within the territorial limit of our car insurance, so policyholders get the same level as cover there as they do in the UK all year round.</p>
+        <hr />
+        <h2>I live abroad but also drive in the UK</h2>
+        <p>Drivers of vehicles registered in an EEA country, Andorra, Bosnia and Herzegovina, Serbia and Switzerland who visit the UK don't need to carry a Green Card. This includes drivers in the Republic of Ireland.</p>
+        <p>But if requested by the police or following an accident, you'll still need to show proof of your motor insurance. So always carry valid insurance documents when you visit the UK.</p>
+        <h2>What do I need if I have AA European Breakdown Cover?</h2>
+        <p>You'll still need valid car insurance if you take your car to the EEA countries, Andorra, Bosnia and Herzegovina, Serbia and Switzerland.</p>
+        <hr />
+        <h2>What if I hire a car abroad?</h2>
+        <p>The insurance that comes from the rental company will cover you.</p>
+        <p>If you rent a car in the UK for use in the EU, then rental company should sort the insurance for you.</p>
+        <hr />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220225T112434Z
+  - Version: 14
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220225T112458Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "61814c5f-7f89-47e5-88d1-f2b4c6a81e75"
+      Hint: Subtitle
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d3ed4dfc-0cd2-4128-8a3f-2a4019db62b8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220225T112458Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>Cover in Europe</h2>
+        <p>As a BEAM car insurance policyholder, you'll get the same level of cover you have in the UK when you're driving in the EU (and some other European countries, too) for up to 90 days.</p>
+        <p>You'll just need to take your Certificate of Motor Insurance and the log book (V5C) of the vehicle you're driving, as well as your licence.</p>
+        <hr />
+        <h2>Green Card requirements</h2>
+        <p>Since 2 August 2021, the Green Card (or International Motor Insurance Card) hasn't been needed when you're driving in EU and EEA states. </p>
+        <p>You don't need a Green Card for Andorra, Bosnia and Herzegovina, Serbia and Switzerland, either.</p>
+        <p>Instead, your Certificate of Motor Insurance proves you have the insurance cover needed in the country you're visiting.</p>
+        <hr />
+        <h2>EEA and EU country list</h2>
+        <p>The European Economic Area includes all the European Union countries plus Iceland, Liechtenstein and Norway.</p>
+        <p>The EU countries are:</p>
+        <p>Austria, Belgium, Bulgaria, Croatia, Republic of Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden.</p>
+        <hr />
+        <h2>Travel to Ireland</h2>
+        <p>The Republic of Ireland is within the territorial limit of our car insurance, so policyholders get the same level as cover there as they do in the UK all year round.</p>
+        <hr />
+        <h2>Living abroad</h2>
+        <p>Drivers of vehicles registered in an EEA country, Andorra, Bosnia and Herzegovina, Serbia and Switzerland who visit the UK don't need to carry a Green Card. This includes drivers in the Republic of Ireland.</p>
+        <p>But if requested by the police or following an accident, you'll still need to show proof of your motor insurance. So always carry valid insurance documents when you visit the UK.</p>
+        <hr />
+        <h2>Hire car insurance</h2>
+        <p>The insurance that comes from the rental company will cover you.</p>
+        <p>If you rent a car in the UK for use in the EU, then rental company should sort the insurance for you.</p>
+        <hr />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220225T112704Z
+  - Version: 15
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220309T094047Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "61814c5f-7f89-47e5-88d1-f2b4c6a81e75"
+      Hint: Subtitle
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "56129a36-4d0b-4c55-a209-abb39b7c64b2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220309T094047Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>Cover in Europe</h2>
+        <p>As a BEAM car insurance policyholder, you'll get the same level of cover you have in the UK when you're driving in the EU (and some other European countries, too) for up to 90 days.</p>
+        <p>You'll just need to take your Certificate of Motor Insurance and the log book (V5C) of the vehicle you're driving, as well as your licence.</p>
+        <hr />
+        <h2>Green Card requirements</h2>
+        <p>Since 2 August 2021, the Green Card (or International Motor Insurance Card) hasn't been needed when you're driving in EU and EEA states. </p>
+        <p>You don't need a Green Card for Andorra, Bosnia and Herzegovina, Serbia and Switzerland, either.</p>
+        <p>Instead, your Certificate of Motor Insurance proves you have the insurance cover needed in the country you're visiting.</p>
+        <hr />
+        <h2>EEA and EU country list</h2>
+        <p>The European Economic Area includes all the European Union countries plus Iceland, Liechtenstein and Norway.</p>
+        <p>The EU countries are:</p>
+        <p>Austria, Belgium, Bulgaria, Croatia, Republic of Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden.</p>
+        <hr />
+        <h2>Travel to Ireland</h2>
+        <p>The Republic of Ireland is within the territorial limit of our car insurance, so policyholders get the same level as cover there as they do in the UK all year round.</p>
+        <hr />
+        <h2>Living abroad</h2>
+        <p>Drivers of vehicles registered in an EEA country, Andorra, Bosnia and Herzegovina, Serbia and Switzerland who visit the UK don't need to carry a Green Card. This includes drivers in the Republic of Ireland.</p>
+        <p>But if requested by the police or following an accident, you'll still need to show proof of your motor insurance. So always carry valid insurance documents when you visit the UK.</p>
+        <hr />
+        <h2>Hire car insurance</h2>
+        <p>The insurance that comes from the rental company will cover you.</p>
+        <p>If you rent a car in the UK for use in the EU, then rental company should sort the insurance for you.</p>
+        <hr />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221209T111125Z

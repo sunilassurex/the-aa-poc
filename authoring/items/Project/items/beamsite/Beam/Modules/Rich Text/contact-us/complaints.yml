@@ -1,0 +1,27 @@
+﻿---
+ID: "8a691425-88bc-41c5-9ca6-a79d0f48f9ca"
+Parent: "425711c8-0383-4429-bb40-29147ab3c0fa"
+Template: "991f757c-6948-4e2c-988a-870fe0c59f48"
+Path: "/sitecore/content/AA/Beam/Modules/Rich Text/contact-us/complaints"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211230T112229Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "77b963a6-8e97-4703-883d-2c5e3bd1f19b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230531T121705Z

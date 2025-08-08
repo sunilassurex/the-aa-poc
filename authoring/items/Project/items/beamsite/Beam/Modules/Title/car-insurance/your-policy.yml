@@ -1,0 +1,165 @@
+﻿---
+ID: "e6d1ca58-db85-43e6-a8f5-88ca96a4d7d8"
+Parent: "3e35cbc6-bed1-4914-8cda-f760c1eaaf3f"
+Template: "a29a23e3-b641-4a9b-a6e6-61a6c2d8464c"
+Path: "/sitecore/content/AA/Beam/Modules/Title/car-insurance/your-policy"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211215T145939Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "4414712e-7c92-4c88-8124-97e66f49b058"
+      Hint: H3Text
+      Value: Exclusively available through price comparison websites
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a900a858-4a14-49c9-8285-b6adf3c3b0f0"
+    - ID: "a5253c24-2be4-45d7-9b30-165f1b2b26bf"
+      Hint: H1TitleText
+      Value: Car Insurance
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "cc3019ff-3d43-4cfa-ad9b-ae23e7aba49c"
+      Hint: HeroTitleText
+      Value: Defaqto 4 Star rated cover, provided by the AA
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240513T085038Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220215T132330Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "4414712e-7c92-4c88-8124-97e66f49b058"
+      Hint: H3Text
+      Value: Provided by the AA, exclusively available through price comparison websites
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "464cbb10-a690-4620-8f5e-0c37727edbfe"
+    - ID: "a5253c24-2be4-45d7-9b30-165f1b2b26bf"
+      Hint: H1TitleText
+      Value: Car Insurance
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220215T132330Z
+    - ID: "cc3019ff-3d43-4cfa-ad9b-ae23e7aba49c"
+      Hint: HeroTitleText
+      Value: Defaqto 4 Star rated cover
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240513T085038Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220310T160154Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "4414712e-7c92-4c88-8124-97e66f49b058"
+      Hint: H3Text
+      Value: Provided by the AA, exclusively available through price comparison websites
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ffeca5ad-d5a0-4f00-a310-1a2f9c2e4755"
+    - ID: "a5253c24-2be4-45d7-9b30-165f1b2b26bf"
+      Hint: H1TitleText
+      Value: BEAM Car Insurance
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220310T160154Z
+    - ID: "cc3019ff-3d43-4cfa-ad9b-ae23e7aba49c"
+      Hint: HeroTitleText
+      Value: Defaqto 4 Star rated cover
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240513T085038Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: |
+        <r owner="sitecore\Jenny.Armstrong" date="20240513T085038Z" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220404T090020Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "4414712e-7c92-4c88-8124-97e66f49b058"
+      Hint: H3Text
+      Value: 
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\EvansD
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "401a7d70-c2e9-4ddd-aa8a-62f7feaa998f"
+    - ID: "a5253c24-2be4-45d7-9b30-165f1b2b26bf"
+      Hint: H1TitleText
+      Value: Renew your car insurance
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220404T090020Z
+    - ID: "cc3019ff-3d43-4cfa-ad9b-ae23e7aba49c"
+      Hint: HeroTitleText
+      Value: Your new car insurance policy
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240513T085123Z

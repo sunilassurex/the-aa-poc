@@ -1,0 +1,94 @@
+﻿---
+ID: "9a8c80c9-2365-49af-ba05-70a0a972a5fd"
+Parent: "0e3debb3-0a1d-4742-9491-97fe2494b326"
+Template: "52fe6315-2837-41ef-af0d-ec50c51a088b"
+Path: "/sitecore/content/AA/Beam/Modules/Contact Content/contact-us/contact-us-renewal"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250416T110313Z
+    - ID: "3953133e-e192-4719-9699-fdab109750a7"
+      Hint: PhoneNumberButtonText
+      Value: Call about your renewal
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "76216102-2b3e-4f8c-aac5-ca4e935df44f"
+      Hint: PhoneNumber
+      Value: 0330 041 3685
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c3d39180-ce88-4867-87b9-1f7e12eacf8e"
+    - ID: "ab9edffc-4cd6-490c-b3ac-5ca45a563d52"
+      Hint: OpeningTimes
+      Value: <p>We're open Monday to Friday 8am to 7pm, Saturday 9am to 5pm.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250416T110911Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250416T111324Z
+    - ID: "3953133e-e192-4719-9699-fdab109750a7"
+      Hint: PhoneNumberButtonText
+      Value: Call about your renewal
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "76216102-2b3e-4f8c-aac5-ca4e935df44f"
+      Hint: PhoneNumber
+      Value: 0330 041 3685
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "49c64e8a-b041-4d0a-b6d5-e09faf4faa32"
+    - ID: "8f133065-f4c6-44a2-b9d3-52637d644513"
+      Hint: Title
+      Value: Your renewal
+    - ID: "ab9edffc-4cd6-490c-b3ac-5ca45a563d52"
+      Hint: OpeningTimes
+      Value: <p>We're open Monday to Friday 8am to 7pm, Saturday 9am to 5pm.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20250416T111324Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250417T122719Z

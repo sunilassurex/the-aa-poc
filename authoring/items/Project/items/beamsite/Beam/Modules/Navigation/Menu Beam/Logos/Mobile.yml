@@ -1,0 +1,54 @@
+﻿---
+ID: "d5b7235d-0f04-479b-a82a-8829cdb60bfc"
+Parent: "43428398-028a-455f-9a49-bc7b7ad96c58"
+Template: "739c5a9d-d1e8-4f49-9d52-fb806eb17b43"
+Path: /sitecore/content/AA/Beam/Modules/Navigation/Menu Beam/Logos/Mobile
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 150
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211025T131802Z
+    - ID: "2f7f296b-d5f5-4088-a5dd-4ab5fa9f4d1a"
+      Hint: Contents
+      Value: |
+        <svg width="162" height="16" viewBox="0 0 162 16" xmlns="http://www.w3.org/2000/svg">
+            <g fill="#2B2929" fill-rule="evenodd">
+                <text font-family="NewTransport-Light, Arial, Helvetica, Verdana, sans-serif" font-size="12" font-weight="300">
+                                <tspan x="84" y="13">FROM THE</tspan>
+                                <tspan x="142.944" y="13" font-family="NewTransport-Regular, Arial, Helvetica, Verdana, sans-serif" font-weight="normal"> </tspan>
+                                <tspan x="145.827" y="13" font-family="NewTransport-Bold, Arial, Helvetica, Verdana, sans-serif" font-weight="bold">AA</tspan>
+                            </text>
+                <path d="M9.984 7.383c1.265-.64 2.024-1.966 2.024-3.2C12.008 1.646 9.777 0 6.97 0H0v16h7.016c3.59 0 5.706-2.034 5.706-4.732 0-2.422-1.68-3.52-2.738-3.885zM3.29 2.789h3.013c1.45 0 2.324.777 2.324 1.85 0 1.053-.874 1.83-2.324 1.83H3.29v-3.68zm3.29 10.445H3.29V9.097h3.267c1.61 0 2.76.686 2.76 2.08 0 1.28-1.035 2.057-2.738 2.057zM15.665 0v16h11.387v-2.903h-8.097v-3.84h6.465V6.468h-6.465V2.926h7.868V0zM34.007 0l-5.084 16h3.497l.943-3.246h5.682L39.99 16h3.68L38.586 0h-4.578zm2.186 3.108h.046l2.024 6.995h-4.117l2.047-6.995zM58.271 5.5l.005 10.5H53.56L48.54 5.5l.005 10.5h-3.19V0h4.271l5.46 11.461V0h4.272L67 16h-3.709zM75 0h1v16h-1z"/>
+            </g>
+        </svg>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b0a7bde8-29db-4a21-9365-ff943b5bd79c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220128T114508Z

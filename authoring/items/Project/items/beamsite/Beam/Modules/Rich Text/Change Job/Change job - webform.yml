@@ -1,0 +1,320 @@
+﻿---
+ID: "866c03a7-6bc3-43ca-9fb2-ba8909715adf"
+Parent: "40aca40e-aa70-4e27-ba09-874ac8f5cad3"
+Template: "e36747b3-6154-423a-b32d-b2d323f5a739"
+Path: "/sitecore/content/AA/Beam/Modules/Rich Text/Change Job/Change job - webform"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 2500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161212T180840Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\TebbuttC
+    - ID: "61814c5f-7f89-47e5-88d1-f2b4c6a81e75"
+      Hint: Subtitle
+      Value: "First you'll need your:"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c21d9cfb-b478-4ff4-a70f-8eb38c28f2b8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\BuckleyD
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <br>
+        <ul>
+            <li>
+            <p>AA membership number (16-digit code on membership card or in your app)</p>
+            </li>
+            <li>
+            <p>Old phone number</p>
+            </li>
+            <li>
+            <p>New phone number<span style="font-weight: lighter;"></span></p>
+            </li>
+        </ul>
+        <p>For your security, o<span style="font-weight: lighter;">nly the main AA Member can change the phone number.</span></p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200402T102609Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170202T162438Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\CurrieM
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f6160d0f-d4c9-4b4f-a8c6-fe6e680fe213"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\BuckleyD
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20170202T162438Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2><span data-contrast="auto" class="TextRun BCX7 SCXW88379129" style="background-color: #ffffff; margin: 0px; padding: 0px;"><span class="NormalTextRun BCX7 SCXW88379129" data-ccp-charstyle="normaltextrun" style="background-color: inherit; margin: 0px; padding: 0px;">To change&nbsp;</span></span><span data-contrast="auto" class="TextRun BCX7 SCXW88379129" style="background-color: #ffffff; margin: 0px; padding: 0px;"><span class="NormalTextRun BCX7 SCXW88379129" data-ccp-charstyle="normaltextrun" style="background-color: inherit; margin: 0px; padding: 0px;">your occupation</span></span><span data-contrast="auto" class="TextRun BCX7 SCXW88379129" style="background-color: #ffffff; margin: 0px; padding: 0px;"><span class="NormalTextRun BCX7 SCXW88379129" data-ccp-charstyle="normaltextrun" style="background-color: inherit; margin: 0px; padding: 0px;">&nbsp;on your policy, we&rsquo;ll need:</span></span></h2>
+        <ul>
+            <li>
+            <p><span data-contrast="auto" class="TextRun BCX7 SCXW248145188" style="background-color: #ffffff; margin: 0px; padding: 0px;"><span class="NormalTextRun BCX7 SCXW248145188" data-ccp-charstyle="normaltextrun" style="background-color: inherit; margin: 0px; padding: 0px;">Y</span></span><span data-contrast="auto" class="TextRun BCX7 SCXW248145188" style="background-color: #ffffff; margin: 0px; padding: 0px;"><span class="NormalTextRun BCX7 SCXW248145188" data-ccp-charstyle="normaltextrun" style="background-color: inherit; margin: 0px; padding: 0px;">our&nbsp;</span></span><span data-contrast="auto" class="TextRun BCX7 SCXW248145188" style="background-color: #ffffff; margin: 0px; padding: 0px;"><span class="NormalTextRun BCX7 SCXW248145188" data-ccp-charstyle="normaltextrun" style="background-color: inherit; margin: 0px; padding: 0px;">car&nbsp;</span></span><span data-contrast="auto" class="TextRun BCX7 SCXW248145188" style="background-color: #ffffff; margin: 0px; padding: 0px;"><span class="NormalTextRun BCX7 SCXW248145188" data-ccp-charstyle="normaltextrun" style="background-color: inherit; margin: 0px; padding: 0px;">insurance policy number, e.g. AAC/A1PHA/AAA</span></span></p>
+            </li>
+            <li>
+            <p><span data-contrast="auto" class="TextRun BCX7 SCXW88239644" style="background-color: #ffffff; margin: 0px; padding: 0px;"><span class="NormalTextRun BCX7 SCXW88239644" data-ccp-charstyle="normaltextrun" style="background-color: inherit; margin: 0px; padding: 0px;">Your&nbsp;</span></span><span data-contrast="auto" class="TextRun BCX7 SCXW88239644" style="background-color: #ffffff; margin: 0px; padding: 0px;"><span class="NormalTextRun BCX7 SCXW88239644" data-ccp-charstyle="normaltextrun" style="background-color: inherit; margin: 0px; padding: 0px;">name,&nbsp;</span></span><span data-contrast="auto" class="TextRun BCX7 SCXW88239644" style="background-color: #ffffff; margin: 0px; padding: 0px;"><span class="NormalTextRun BCX7 SCXW88239644" data-ccp-charstyle="normaltextrun" style="background-color: inherit; margin: 0px; padding: 0px;">address and date of birth</span></span></p>
+            </li>
+            <li>
+            <p><span data-contrast="auto" class="TextRun SCXW103735677 BCX7" style="background-color: #ffffff; margin: 0px; padding: 0px;"><span class="NormalTextRun SCXW103735677 BCX7" data-ccp-charstyle="normaltextrun" style="background-color: inherit; margin: 0px; padding: 0px;">Your&nbsp;</span></span><span data-contrast="auto" class="TextRun SCXW103735677 BCX7" style="background-color: #ffffff; margin: 0px; padding: 0px;"><span class="NormalTextRun SCXW103735677 BCX7" data-ccp-charstyle="normaltextrun" style="background-color: inherit; margin: 0px; padding: 0px;">new occupation</span></span><span class="EOP SCXW103735677 BCX7" data-ccp-props="{'134233117':true,'134233118':true,'201341983':0,'335559685':360,'335559731':0,'335559740':240}" style="background-color: #ffffff; margin: 0px; padding: 0px;"></span></p>
+            </li>
+        </ul>
+        <p>For security, only the policy holder can make this change.</p>
+        <p>We can update your employment status on your policy to make sure your cover is still valid.</p>
+        <p>You can check the personal details we have on your policy when you <a href="https://auth.theaa.com/auth/XUI/#login/">log in to your account</a>.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200402T155549Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200402T155638Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\THOMASZ
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "67738846-25ff-4b8b-8820-9ef1f65068cc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\THOMASZ
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200402T155638Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>To change your occupation on your policy, we&rsquo;ll need:</h2>
+        <ul>
+            <li>
+            <p>Your car insurance policy number, e.g. AAC/A1PHA/AAA</p>
+            </li>
+            <li>
+            <p>Your name, address and date of birth</p>
+            </li>
+            <li>
+            <p>Your new occupation</p>
+            </li>
+        </ul>
+        <p>For security, only the policy holder can make this change.</p>
+        <p>We can update your employment status on your policy to make sure your cover is still valid.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200402T155927Z
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200408T153311Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\THOMASZ
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "21bb7df5-4afa-4559-b55a-4af024a62020"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200408T153311Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>To change your occupation on your policy, we&rsquo;ll need:</h2>
+        <ul>
+            <li>
+            <p>Your insurance policy number, e.g. AAC/A1PHA/AAA</p>
+            </li>
+            <li>
+            <p>Your name, address and date of birth</p>
+            </li>
+            <li>
+            <p>Your new occupation</p>
+            </li>
+        </ul>
+        <p>For security, only the policy holder can make this change.</p>
+        <p>We'll update your employment status on your policy to make sure your cover's still valid. You may be charged an administration fee and your premium may go up or down as a result of this change.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211130T171917Z
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230214T143847Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\DicembreS
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5db66521-e1e3-4f3b-9d65-f95797937e4c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230214T143847Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h4>Before you start we'll need your:</h4>
+        <ul>
+            <li>
+            Insurance policy number from your documents</li>
+            <li>
+            <p>Name, address and date of birth</p>
+            </li>
+            <li>
+            <p>New occupation</p>
+            </li>
+        </ul>
+        <p>For your security, only the main policyholder can make this change. We'll update your employment status on your policy to make sure your cover's still valid. You may be charged an administration fee and your premium could go up or down as a result of this change.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230214T144052Z
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230214T144118Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\DicembreS
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "acafdf56-3d1e-4602-ba0c-6a4a0a48a3af"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230214T144118Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h4>Before you start we'll need your:</h4>
+        <ul>
+            <li>
+            Insurance policy number from your documents</li>
+            <li>
+            <p>Name, address and date of birth</p>
+            </li>
+            <li>
+            <p>New occupation</p>
+            </li>
+        </ul>
+        <p>For your security, only the main policyholder can make this change. We'll update your employment status on your policy to make sure your cover's still valid. You may be charged an administration fee and your premium could go up or down as a result of this change.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230214T144140Z
+  - Version: 7
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230214T144157Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\DicembreS
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5686b3aa-d573-4f28-bac1-80f275322526"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230214T144157Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h4>Before you start we'll need your:</h4>
+        <ul>
+            <li>
+            Insurance policy number from your documents</li>
+            <li>Name, address and date of birth</li>
+            <li>New occupation</li>
+        </ul>
+        <p>For your security, only the main policyholder can make this change. We'll update your employment status on your policy to make sure your cover's still valid. You may be charged an administration fee and your premium could go up or down as a result of this change.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230214T144304Z

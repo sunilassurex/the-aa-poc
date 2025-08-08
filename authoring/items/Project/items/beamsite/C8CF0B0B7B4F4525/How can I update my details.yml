@@ -1,0 +1,160 @@
+﻿---
+ID: "07fd8404-b5fe-4f48-ad2f-e55010863569"
+Parent: "4d9dbd3f-507f-4332-8ed4-dcec335f8a50"
+Template: "11e11bcb-aa73-4cd2-a73e-fbeedfe8da05"
+Path: "/sitecore/content/AA/Beam/Modules/Accordion/car-insurance/existing-customers/existing-customers-row7/How can I update my details"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200403T114946Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\THOMASZ
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b4ff838b-1b9a-41a1-98ed-e4a7d927ef3d"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <p>It's easy to let us know if your personal details have changed or you've spotted a mistake. </p>
+        <p>Fill out a form online to <a></a><a href="~/link.aspx?_id=6C9855A870784F8C949EFAA81646B026&amp;_z=z">change your phone number</a> on your account or&nbsp;<a></a><a href="~/link.aspx?_id=823B85E0752E4206B306057351A0DC56&amp;_z=z">update your name or title</a>.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\BuckleyD
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: I want to update my details
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200403T155331Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200408T132709Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\THOMASZ
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4f900bca-3e17-4d1a-8c9c-a2f6b218d34f"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <p>It's easy to let us know if your personal details have changed or you've spotted a mistake. </p>
+        <p>Fill out a form online to <a></a><a href="~/link.aspx?_id=6C9855A870784F8C949EFAA81646B026&amp;_z=z">change your phone number</a> on your account, <a></a><a href="~/link.aspx?_id=823B85E0752E4206B306057351A0DC56&amp;_z=z">update your name or title</a> or let us know <a></a><a href="~/link.aspx?_id=2119F64E76EA48B0BE8876C0A7D67369&amp;_z=z">you've changed job</a>.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\BuckleyD
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200408T132709Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: I want to update my details
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200416T135242Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200507T085504Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\THOMASZ
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "83591342-95f4-4155-879d-e386a446ee3a"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <p>It's easy to let us know if your personal details have changed or you've spotted a mistake. The quickest way is to fill out a form online:</p>
+        <br />
+        <ul>
+            <li><a></a><a href="~/link.aspx?_id=6C9855A870784F8C949EFAA81646B026&amp;_z=z">Change your phone number</a> </li>
+            <br />
+            <li><a></a><a href="~/link.aspx?_id=823B85E0752E4206B306057351A0DC56&amp;_z=z">Update your name or title</a></li>
+            <br />
+            <li><a></a><a href="~/link.aspx?_id=2119F64E76EA48B0BE8876C0A7D67369&amp;_z=z">Change your job</a>.
+            </li>
+        </ul>
+        <p>If you want to change your address or change the vehicle on your insurance, you'll need to call us on <a href="tel:0370 533 2211">0370 533 2211 </a> to update your details.</p>
+        <p>Lines are open Monday to Friday 9am to 6pm, Saturday 9am to 5pm, Bank Holidays 10am to 4pm, Closed Sundays. Calls charged at standard national rate.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\THOMASZ
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200507T085504Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: I want to update my details
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200513T093441Z
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200803T143538Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8bec7933-a861-41a1-8aff-ee611bb94fae"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <p>It's easy to let us know if your personal details have changed or you've spotted a mistake. The quickest way is to fill out a form online:</p>
+        <br />
+        <ul>
+            <li><a href="~/link.aspx?_id=6C9855A870784F8C949EFAA81646B026&amp;_z=z">Change your phone number</a> </li>
+            <br />
+            <li><a href="~/link.aspx?_id=823B85E0752E4206B306057351A0DC56&amp;_z=z">Update your name or title</a></li>
+            <br />
+            <li><a href="~/link.aspx?_id=2119F64E76EA48B0BE8876C0A7D67369&amp;_z=z">Change your job</a>.
+            </li>
+        </ul>
+        <p>If you want to change your address or change the vehicle on your insurance, you'll need to call us on <a href="tel:0370 533 2211">0370 533 2211</a> to update your details.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200803T143538Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: I want to update my details
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211125T121629Z

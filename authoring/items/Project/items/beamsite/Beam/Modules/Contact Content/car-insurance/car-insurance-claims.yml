@@ -1,0 +1,506 @@
+﻿---
+ID: "3f596b88-18e4-4785-b533-69a3ff8d5e2b"
+Parent: "da9a8903-991d-42b2-b5e4-92f7d6662f29"
+Template: "52fe6315-2837-41ef-af0d-ec50c51a088b"
+Path: "/sitecore/content/AA/Beam/Modules/Contact Content/car-insurance/car-insurance-claims"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160707T100831Z
+    - ID: "3953133e-e192-4719-9699-fdab109750a7"
+      Hint: PhoneNumberButtonText
+      Value: Call now
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jincaa
+    - ID: "76216102-2b3e-4f8c-aac5-ca4e935df44f"
+      Hint: PhoneNumber
+      Value: 0800 269 622
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c4bd9f2c-90a9-4382-be5f-c886db3f8f0e"
+    - ID: "8f133065-f4c6-44a2-b9d3-52637d644513"
+      Hint: Title
+      Value: Car insurance claims 24 hrs
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211208T170359Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160718T092722Z
+    - ID: "3953133e-e192-4719-9699-fdab109750a7"
+      Hint: PhoneNumberButtonText
+      Value: Call now
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "76216102-2b3e-4f8c-aac5-ca4e935df44f"
+      Hint: PhoneNumber
+      Value: 0800269622
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f743c723-db03-4558-8a52-ec9e2e0c248f"
+    - ID: "8f133065-f4c6-44a2-b9d3-52637d644513"
+      Hint: Title
+      Value: Car insurance claims 24 hrs
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20160718T092722Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211208T170359Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160718T092829Z
+    - ID: "3953133e-e192-4719-9699-fdab109750a7"
+      Hint: PhoneNumberButtonText
+      Value: Call now
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "76216102-2b3e-4f8c-aac5-ca4e935df44f"
+      Hint: PhoneNumber
+      Value: 0800 269 622
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0ae62b51-e02a-4526-9f4f-05061b384e81"
+    - ID: "8f133065-f4c6-44a2-b9d3-52637d644513"
+      Hint: Title
+      Value: Car insurance claims 24 hrs
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20160718T092829Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211208T170359Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160718T092854Z
+    - ID: "3953133e-e192-4719-9699-fdab109750a7"
+      Hint: PhoneNumberButtonText
+      Value: Call now
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "76216102-2b3e-4f8c-aac5-ca4e935df44f"
+      Hint: PhoneNumber
+      Value: 0800 269 622
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0636956d-75da-4e49-8e63-2aa22871106a"
+    - ID: "8f133065-f4c6-44a2-b9d3-52637d644513"
+      Hint: Title
+      Value: 24/7 claims line
+    - ID: "ab9edffc-4cd6-490c-b3ac-5ca45a563d52"
+      Hint: OpeningTimes
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\CurrieM
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20160718T092854Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220124T123218Z
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220126T111312Z
+    - ID: "3953133e-e192-4719-9699-fdab109750a7"
+      Hint: PhoneNumberButtonText
+      Value: Call now
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "76216102-2b3e-4f8c-aac5-ca4e935df44f"
+      Hint: PhoneNumber
+      Value: 0330 041 3684
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "729d15c9-e2c0-4e6c-b4e4-903111ac00c8"
+    - ID: "8f133065-f4c6-44a2-b9d3-52637d644513"
+      Hint: Title
+      Value: 24/7 claims line
+    - ID: "ab9edffc-4cd6-490c-b3ac-5ca45a563d52"
+      Hint: OpeningTimes
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220126T111312Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220126T111324Z
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220126T111708Z
+    - ID: "3953133e-e192-4719-9699-fdab109750a7"
+      Hint: PhoneNumberButtonText
+      Value: Call now
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "76216102-2b3e-4f8c-aac5-ca4e935df44f"
+      Hint: PhoneNumber
+      Value: 0330 041 3689
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "269f6ae8-4553-49cb-b2b8-5308073bd426"
+    - ID: "8f133065-f4c6-44a2-b9d3-52637d644513"
+      Hint: Title
+      Value: 24/7 claims line
+    - ID: "ab9edffc-4cd6-490c-b3ac-5ca45a563d52"
+      Hint: OpeningTimes
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220126T111708Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220126T111722Z
+  - Version: 7
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220201T152722Z
+    - ID: "3953133e-e192-4719-9699-fdab109750a7"
+      Hint: PhoneNumberButtonText
+      Value: Call now
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\MartinL
+    - ID: "76216102-2b3e-4f8c-aac5-ca4e935df44f"
+      Hint: PhoneNumber
+      Value: 0330 041 3689
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3afe1992-091a-434a-909e-3e4b85f2cd6a"
+    - ID: "8f133065-f4c6-44a2-b9d3-52637d644513"
+      Hint: Title
+      Value: 24/7 claims line
+    - ID: "ab9edffc-4cd6-490c-b3ac-5ca45a563d52"
+      Hint: OpeningTimes
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\MartinL
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220201T152722Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220201T152756Z
+  - Version: 8
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220208T090404Z
+    - ID: "3953133e-e192-4719-9699-fdab109750a7"
+      Hint: PhoneNumberButtonText
+      Value: Call now
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\MartinL
+    - ID: "76216102-2b3e-4f8c-aac5-ca4e935df44f"
+      Hint: PhoneNumber
+      Value: 0330 041 3689
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "aee86d84-030d-4973-baa7-66dd21218dc2"
+    - ID: "8f133065-f4c6-44a2-b9d3-52637d644513"
+      Hint: Title
+      Value: Car insurance claims 24/7
+    - ID: "ab9edffc-4cd6-490c-b3ac-5ca45a563d52"
+      Hint: OpeningTimes
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\MartinL
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220208T090404Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220208T090453Z
+  - Version: 9
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220214T155938Z
+    - ID: "3953133e-e192-4719-9699-fdab109750a7"
+      Hint: PhoneNumberButtonText
+      Value: Call now
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\MartinL
+    - ID: "76216102-2b3e-4f8c-aac5-ca4e935df44f"
+      Hint: PhoneNumber
+      Value: 0330 041 3689
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ab7febf2-53f8-400c-8322-d37e491b5b93"
+    - ID: "8f133065-f4c6-44a2-b9d3-52637d644513"
+      Hint: Title
+      Value: Car insurance claims 24/7
+    - ID: "ab9edffc-4cd6-490c-b3ac-5ca45a563d52"
+      Hint: OpeningTimes
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\MartinL
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220214T155938Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220214T155948Z
+  - Version: 10
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220224T122415Z
+    - ID: "3953133e-e192-4719-9699-fdab109750a7"
+      Hint: PhoneNumberButtonText
+      Value: Call now
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "76216102-2b3e-4f8c-aac5-ca4e935df44f"
+      Hint: PhoneNumber
+      Value: 0330 041 3689
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3cc4c0ef-7e4b-4c51-9e08-e7b265603a34"
+    - ID: "8f133065-f4c6-44a2-b9d3-52637d644513"
+      Hint: Title
+      Value: Car insurance claims
+    - ID: "ab9edffc-4cd6-490c-b3ac-5ca45a563d52"
+      Hint: OpeningTimes
+      Value: Lines are open 24/7, 365 days a year
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220224T122415Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220224T122558Z
+  - Version: 11
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220224T122637Z
+    - ID: "3953133e-e192-4719-9699-fdab109750a7"
+      Hint: PhoneNumberButtonText
+      Value: Call now
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "76216102-2b3e-4f8c-aac5-ca4e935df44f"
+      Hint: PhoneNumber
+      Value: 0330 041 3689
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e543ee4c-0fd1-4db5-b5d6-0b74044fee2c"
+    - ID: "8f133065-f4c6-44a2-b9d3-52637d644513"
+      Hint: Title
+      Value: Car insurance claims
+    - ID: "ab9edffc-4cd6-490c-b3ac-5ca45a563d52"
+      Hint: OpeningTimes
+      Value: <p>Lines are open 24/7, 365 days a year.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220224T122637Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220224T122710Z
+  - Version: 12
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220822T102701Z
+    - ID: "3953133e-e192-4719-9699-fdab109750a7"
+      Hint: PhoneNumberButtonText
+      Value: Call now
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "76216102-2b3e-4f8c-aac5-ca4e935df44f"
+      Hint: PhoneNumber
+      Value: 0330 041 3689
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2d9fbd3a-9a01-4cd7-8c2d-ef9470ea7332"
+    - ID: "8f133065-f4c6-44a2-b9d3-52637d644513"
+      Hint: Title
+      Value: Car insurance claims
+    - ID: "ab9edffc-4cd6-490c-b3ac-5ca45a563d52"
+      Hint: OpeningTimes
+      Value: <p>Lines are open 24/7 all year.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220822T102701Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240102T075748Z

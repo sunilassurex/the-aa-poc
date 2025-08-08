@@ -1,0 +1,331 @@
+﻿---
+ID: "b59c05d5-7038-4064-b283-65bceecfd86b"
+Parent: "77d67223-dcd7-46e5-a768-42cd5cc00aeb"
+Template: "e36747b3-6154-423a-b32d-b2d323f5a739"
+Path: "/sitecore/content/AA/Beam/Modules/Rich Text/car-insurance/faqs/claims"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 950
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220202T145842Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "24498bab-6df9-47e8-bb30-18e9d4736c6c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>Making a claim</h2>
+        <h3>How do I make a car insurance claim?</h3>
+        <p>Call our 24-hour claim line&nbsp;<strong>0330 041 3689</strong>.</p>
+        <p>Before you call, please see&nbsp;<a href="~/link.aspx?_id=195C6D3B20B04B228D455D50A9C7C6C3&amp;_z=z">how to make a motor insurance claim</a>.</p>
+        <hr />
+        <h3>Is a courtesy car included on my policy?</h3>
+        <p>Yes, a courtesy car is available with comprehensive cover. Following an accident, you'll get a courtesy car for as long as your car is being repaired at an approved garage.</p>
+        <hr />
+        <h3>Is windscreen cover included on my policy?</h3>
+        <p>If you have comprehensive cover, then windscreen cover is included. We cover the windscreen, sunroof and the remaining windows. And your no claim discount is not affected by a windscreen claim.</p>
+        <p>A windscreen replacement is subject to the applicable excess, but there is no excess to pay on a windscreen repair.</p>
+        <p>You can check your windscreen replacement excess when you get a quote online. On the quote page a summary of your details includes a link to 'Excess details / policy terms'.</p>
+        <hr />
+        <h3>How can I get my windscreen repaired?</h3>
+        <p>To make a glass claim and arrange a repair, you need to&nbsp;<a href="https://www.autowindscreens.co.uk/bookflow/insurance?insurer=aa">book an appointment</a>.</p>
+        <p>Please have your details ready, including the policy number, start date and insurer. You can find them all on your Statement of Insurance.</p>
+        <hr />
+        <h2></h2>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220202T152755Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220210T151651Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9584a8b7-6d2c-4e63-9d3b-8ffc39192840"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220210T151651Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>Making a claim</h2>
+        <h3>How do I make a car insurance claim?</h3>
+        <p>Call our 24-hour claim line&nbsp;<strong>0330 041 3689</strong>.</p>
+        <p>Before you call, please see&nbsp;<a href="~/link.aspx?_id=195C6D3B20B04B228D455D50A9C7C6C3&amp;_z=z">how to make a motor insurance claim</a>.</p>
+        <hr />
+        <h3>Is a courtesy car included on my policy?</h3>
+        <p>Yes, a courtesy car is available with comprehensive cover. Following an accident, you'll get a courtesy car for as long as your car is being repaired at an approved garage.</p>
+        <hr />
+        <h3>Is windscreen cover included on my policy?</h3>
+        <p>If you have comprehensive cover, then windscreen cover is included. We cover the windscreen, sunroof and the remaining windows. And your no claim discount is not affected by a windscreen claim.</p>
+        <p>A windscreen replacement is subject to the applicable excess, but there's no excess to pay on a windscreen repair.</p>
+        <p>You can check your windscreen replacement excess when you get a quote online. On the quote page, a summary of your details includes a link to 'Excess details / policy terms'.</p>
+        <hr />
+        <h3>How can I get my windscreen repaired?</h3>
+        <p>To make a glass claim and arrange a repair, you need to&nbsp;<a href="https://www.autowindscreens.co.uk/bookflow/insurance?insurer=aa">book an appointment</a>.</p>
+        <p>Please have your details ready, including the policy number, start date and insurer. You can find them all on your Statement of Insurance.</p>
+        <hr />
+        <h2></h2>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220210T151833Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220210T154615Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "09d31454-7f2b-4b48-96bf-64ea36d13eab"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220210T154615Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>Making a claim</h2>
+        <h3>How do I make a car insurance claim?</h3>
+        <p>Call our 24-hour claim line&nbsp;<strong>0330 041 3689</strong>.</p>
+        <p>Before you call, please see&nbsp;<a href="~/link.aspx?_id=195C6D3B20B04B228D455D50A9C7C6C3&amp;_z=z">how to make a motor insurance claim</a>.</p>
+        <hr />
+        <h3>Is a courtesy car included on my policy?</h3>
+        <p>Yes, a courtesy car is available with comprehensive cover. Following an accident, you'll get a courtesy car for as long as your car is being repaired at an approved garage.</p>
+        <hr />
+        <h3>Is windscreen cover included on my policy?</h3>
+        <p>If you have comprehensive cover, then windscreen cover is included. We cover the windscreen, sunroof and the remaining windows. And your no claim discount is not affected by a windscreen claim.</p>
+        <p>A windscreen replacement is subject to the applicable excess, but there's no excess to pay on a windscreen repair.</p>
+        <p>You can check your windscreen replacement excess when you get a quote online. On the quote page, a summary of your details includes a link to 'Excess details / policy terms'.</p>
+        <hr />
+        <h3>How can I get my windscreen repaired?</h3>
+        <p>To make a glass claim and arrange a repair, you need to&nbsp;<a href="https://www.autowindscreens.co.uk/bookflow/insurance?insurer=aa">book an appointment</a>.</p>
+        <p>Please have your details ready, including the policy number, start date and insurer. You can find them all on your Statement of Insurance.</p>
+        <hr />
+        <h2></h2>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220210T154644Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220224T170557Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a67420a9-8f4a-4208-b57c-1ce9dc4775ec"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220224T170557Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2><span style="font-size: 32px;">Making a claim</span></h2>
+        <br />
+        <h3><span style="font-size: 24px;"><strong>How do I make a car insurance claim?</strong></span></h3>
+        <p>Call our 24-hour claim line&nbsp;<strong>0330 041 3689</strong>.</p>
+        <p>Before you call, please see&nbsp;<a href="~/link.aspx?_id=195C6D3B20B04B228D455D50A9C7C6C3&amp;_z=z">how to make a motor insurance claim</a>.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">Is a courtesy car included on my policy?</span></strong></h3>
+        <p>Yes, a courtesy car is available with comprehensive cover. Following an accident, you'll get a courtesy car for as long as your car is being repaired at an approved garage.</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>Is windscreen cover included on my policy?</strong></span></h3>
+        <p>If you have comprehensive cover, then windscreen cover is included. We cover the windscreen, sunroof and the remaining windows. And your no claim discount is not affected by a windscreen claim.</p>
+        <p>A windscreen replacement is subject to the applicable excess, but there's no excess to pay on a windscreen repair.</p>
+        <p>You can check your windscreen replacement excess when you get a quote online. On the quote page, a summary of your details includes a link to 'Excess details / policy terms'.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">How can I get my windscreen repaired?</span></strong></h3>
+        <p>To make a glass claim and arrange a repair, you need to&nbsp;<a href="https://www.autowindscreens.co.uk/bookflow/insurance?insurer=aa">book an appointment</a>.</p>
+        <p>Please have your details ready, including the policy number, start date and insurer. You can find them all on your Statement of Insurance.</p>
+        <hr />
+        <h2></h2>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220224T170840Z
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220224T201128Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9c77ee5e-6d60-4c4a-ad47-5173cb0ea984"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\damireddye
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220224T201128Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2><span style="font-size: 32px;">Making a claim</span></h2>
+        <br />
+        <h3><span style="font-size: 24px;"><strong>How do I make a car insurance claim?</strong></span></h3>
+        <p>Call our 24-hour claim line&nbsp;<strong>0330 041 3689</strong>.</p>
+        <p>Before you call, please see&nbsp;<a href="/car-insurance/claims">how to make a motor insurance claim</a>.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">Is a courtesy car included on my policy?</span></strong></h3>
+        <p>Yes, a courtesy car is available with comprehensive cover. Following an accident, you'll get a courtesy car for as long as your car is being repaired at an approved garage.</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>Is windscreen cover included on my policy?</strong></span></h3>
+        <p>If you have comprehensive cover, then windscreen cover is included. We cover the windscreen, sunroof and the remaining windows. And your no claim discount is not affected by a windscreen claim.</p>
+        <p>A windscreen replacement is subject to the applicable excess, but there's no excess to pay on a windscreen repair.</p>
+        <p>You can check your windscreen replacement excess when you get a quote online. On the quote page, a summary of your details includes a link to 'Excess details / policy terms'.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">How can I get my windscreen repaired?</span></strong></h3>
+        <p>To make a glass claim and arrange a repair, you need to&nbsp;<a href="https://www.autowindscreens.co.uk/bookflow/insurance?insurer=aa">book an appointment</a>.</p>
+        <p>Please have your details ready, including the policy number, start date and insurer. You can find them all on your Statement of Insurance.</p>
+        <hr />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220228T123516Z
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220307T145957Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d59fa7df-0427-4dae-bb3b-6549c06cff10"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220307T145957Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2><span style="font-size: 32px;">Making a claim</span></h2>
+        <br />
+        <h3><span style="font-size: 24px;"><strong>How do I make a car insurance claim?</strong></span></h3>
+        <p>Call our 24-hour claim line&nbsp;<strong>0330 041 3689</strong>.</p>
+        <p>Before you call, please see&nbsp;<a href="/car-insurance/claims">how to make a motor insurance claim</a>.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">Is a courtesy car included on my policy?</span></strong></h3>
+        <p>Yes, a courtesy car is available with comprehensive cover. Following an accident, you'll get a courtesy car for as long as your car is being repaired at an approved garage.</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>Is windscreen cover included on my policy?</strong></span></h3>
+        <p>If you have comprehensive cover, then windscreen cover is included. We cover the windscreen, sunroof and the remaining windows. And your no claim discount is not affected by a windscreen claim.</p>
+        <p>A windscreen replacement is subject to the applicable excess, but there's no excess to pay on a windscreen repair.</p>
+        <p>You can check your windscreen replacement excess when you get a quote online. On the quote page, a summary of your details includes a link to 'Excess details / policy terms'.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">How can I get my windscreen repaired?</span></strong></h3>
+        <p>To make a glass claim and arrange a repair, you need to&nbsp;<a href="https://www.autowindscreens.co.uk/bookflow/insurance?insurer=aa">book an appointment</a>.</p>
+        <p>Please have your details ready, including the policy number, start date and insurer. You can find them all on your Statement of Insurance.</p>
+        <hr />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231102T142941Z

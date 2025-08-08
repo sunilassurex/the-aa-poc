@@ -1,0 +1,257 @@
+﻿---
+ID: "68f85201-3031-43be-922a-fa5ab6c27296"
+Parent: "116e2a36-1bda-4b8f-82bc-a5b70d99a0c6"
+Template: "739c5a9d-d1e8-4f49-9d52-fb806eb17b43"
+Path: "/sitecore/content/AA/Beam/Modules/Navigation/Menu-Yellow/Css/Common"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211025T131802Z
+    - ID: "2f7f296b-d5f5-4088-a5dd-4ab5fa9f4d1a"
+      Hint: Contents
+      Value: |
+        header#site-header-yellow .main-nav ul li.mobile-display-view{display:none}
+        header#site-header-yellow .main-nav ul li.desktop-display-view{display:inline}
+        .svg-desktop{display:inline}
+        .svg-mobile{display:none}
+        
+        header#site-header-yellow .reltive{position:relative}
+        header#site-header-yellow{font-family: NewTransport-Regular, Arial, Helvetica, Verdana, sans-serif;background:#fff; padding-top:16px; padding-bottom:32px; height:137px}
+        header#site-header-yellow .skip-to-content-link{background: #fff;  left: -9999px;  padding: 4px 6px;  position: absolute;}
+            header#site-header-yellow .skip-to-content-link:focus {
+                top: 0;
+                left: 0;
+                margin: 0 auto;
+                text-align: center;
+                width: auto;
+                white-space: nowrap;
+                border: 0px;
+                text-decoration: none;
+                border-radius: 0px;
+            }
+            header#site-header-yellow a {
+                font-weight: normal;
+                border: 2px solid transparent;
+                border-radius: 4px;
+                font-family: NewTransport-Regular, Arial, Helvetica, Verdana, sans-serif;
+                display: inline-block;
+                padding: 4px 6px;
+                letter-spacing: 0;
+                white-space: nowrap;
+            }
+            header#site-header-yellow ul.aa-main-nav li.primary a:hover{
+                text-decoration:none!important
+            }
+            header#site-header-yellow a.underline {
+                text-decoration: underline
+            }
+            header#site-header-yellow a.underline:hover {
+                text-decoration-thickness: 2px;
+            }
+            header#site-header-yellow p.business-customer-desktop {
+                border: 2px solid transparent;
+                border-radius: 4px;
+                padding:2px;
+                margin:0px!important;
+            }
+            header#site-header-yellow p.business-customer-desktop a {
+                padding-right:0px!important;
+                padding-bottom:0px!important;
+                padding-top:0px!important;
+            }
+        
+            header#site-header-yellow a:focus, header#site-header-yellow p.business-customer-desktop:focus {
+                border: 2px solid #58595b;
+                border-radius: 4px;
+                text-decoration: none !important
+            }
+        header#site-header-yellow .top-header-links{margin-bottom:16px}
+        header#site-header-yellow .top-header-links a{font-size:14px; line-height:1.71; letter-spacing:normal; color:#1d1d1d}
+        header#site-header-yellow .main-nav a{font-size:18px; line-height:1.33; letter-spacing:normal; color:#2b2d32}
+        header#site-header-yellow .top-header-links ul,header#site-header-yellow .main-nav ul{margin:0;padding:0}
+            header#site-header-yellow .main-nav ul {
+                display: flex;
+                flex-wrap: nowrap
+            }
+        header#site-header-yellow .top-header-links ul li,header#site-header-yellow .main-nav ul li{display:inline; position:relative}
+        header#site-header-yellow .top-header-links ul li:before,header#site-header-yellow .main-nav ul li:before{display:none}
+        
+        header#site-header-yellow .top-header-links ul li{padding-right:8px; padding-left:8px; position:relative}
+        header#site-header-yellow .top-header-links ul li:after{content:"|"; position:absolute; top:-2px; right:-4px; color:rgba(0,0, 0,0.4)}
+        header#site-header-yellow .top-header-links ul li:first-child{padding-left:0}
+        
+            header#site-header-yellow .main-nav ul.aa-main-nav {
+                margin-top: 12px;
+                height: 57px
+            }
+        header#site-header-yellow .main-nav ul li{padding-left:3px; padding-right:3px; position:relative}
+        
+        
+        header#site-header-yellow .main-nav ul {}
+        header#site-header-yellow .logo{position:absolute; top:60px;left:11px;max-width:104px;padding-right:36px;margin-top: -12px;}
+        .mobile-tablet-menu{display:none}
+        .mobile-tablet-menu-open{display:none}
+        .nav-logo{padding-bottom:16px; padding-left:16px; display:none}
+        .business-customer-mobile{display:none}
+        
+        .business-customer-desktop a,
+        .business-customer-mobile a
+        {
+            padding-left:2px !important;
+        }
+        
+        #mainContent { 
+        		  opacity: 0;
+        		  transition: all .25s cubic-bezier(.4,0,1,1)
+        	}
+        	
+           .menu-hover-overlay { 
+        	background-color: #000;
+            opacity: 0.5!Important;
+            position: fixed;
+            top: 136px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+        z-index:1;
+        		opacity: 1;
+        		transition-delay: 0.4s;
+        		transition-duration: 0.2s;
+        	}
+        	
+            header#site-header-yellow .main-nav ul.aa-main-nav li nav.aa-mega-menu {
+        z-index:2;
+                position: absolute;
+                top: 57px;
+                left: 10px;
+        		visibility: hidden;
+        		  opacity: 0;
+        		  transition: all .25s cubic-bezier(.4,0,1,1)
+            }
+            
+        
+            header#site-header-yellow .main-nav ul.aa-main-nav li:nth-child(2) > nav.aa-mega-menu{left:auto; right:-347px}
+            header#site-header-yellow .main-nav ul.aa-main-nav li:nth-child(5) > nav.aa-mega-menu{left:auto; right:0}
+            header#site-header-yellow #mainNavigation > ul > li.primary.childrens > nav > div > ul:nth-child(1) > li.backLink {
+                display: none;
+            }
+        	header#site-header-yellow .main-nav ul.aa-main-nav li nav.menu-active,
+            header#site-header-yellow .main-nav ul.aa-main-nav li:hover nav.aa-mega-menu {
+        		visibility: visible;
+        		opacity: 1;
+        		transition-delay: 0.3s;
+        		transition-duration: 0.2s;
+            }
+        
+            header#site-header-yellow .main-nav ul.aa-main-nav li nav.aa-mega-menu .column{
+                display: flex
+            }
+        
+            /*header#site-header-yellow .main-nav ul.aa-main-nav li.primary:hover {
+                border-bottom: 8px solid #2b2929
+            }*/
+            header#site-header-yellow .main-nav ul.aa-main-nav li.primary:hover > a:after{content:'';position:absolute;left:10px; bottom:0;width: calc(100% - 20px); height: 4px;background: #2b2929;
+            border-top-left-radius: 2px;
+            border-top-right-radius: 2px;
+        	}
+        	
+        	header#site-header-yellow .main-nav ul.aa-main-nav li.primary nav ul li.secondary a:hover{
+        		text-decoration: underline!important;
+        	}
+        
+            header#site-header-yellow .main-nav ul li > nav ul {
+                flex-direction: column;
+                min-width: 303px
+            }
+        
+                header#site-header-yellow .main-nav ul li > nav ul li:last-child {
+                    padding-left: 3px !important
+                }
+        
+                    header#site-header-yellow .main-nav ul li > nav ul li:last-child:before {
+                        display: none
+                    }
+        
+                    header#site-header-yellow .main-nav ul li > nav ul li:last-child a {
+                        padding-left: 6px !important
+                    }
+        
+            header#site-header-yellow .main-nav ul li > nav ul {
+                background-color: #fff;
+                padding: 32px 40px 40px
+            }
+        	
+        header#site-header-yellow .main-nav ul li > nav ul:first-child {
+                border-bottom-left-radius: 8px;
+                    box-shadow: 0px 1px 4px rgb(55 71 67 / 20%);
+            }
+        	header#site-header-yellow .main-nav ul li > nav ul:nth-child(2) {
+                   box-shadow: 3px 1px 4px rgb(55 71 67 / 20%);
+            }
+        	header#site-header-yellow .main-nav ul li > nav ul:last-child {
+                border-bottom-right-radius: 8px;
+                    box-shadow: 3px 1px 4px rgb(55 71 67 / 20%);
+            }
+                header#site-header-yellow .main-nav ul li > nav {
+                    border-bottom-left-radius: 8px;
+        			border-bottom-right-radius: 8px;
+                    box-shadow: 1px 2px 4px rgb(55 71 67 / 20%);
+                }
+        
+        
+                header#site-header-yellow .main-nav ul li > nav ul li.secondary {
+                    margin-bottom: 8px
+                }
+        
+                    header#site-header-yellow .main-nav ul li > nav ul li.secondary a {
+                        font-size: 16px
+                    }
+        
+        
+                header#site-header-yellow .main-nav ul li > nav ul li.primary-heading{display:none}
+        header#site-header-yellow .main-nav ul li nav.aa-mega-menu.my-account.active:after {
+        display:none;
+        }
+        
+        /*media queries*/
+        @media screen and (width:1024px) {
+            header#site-header-yellow .main-nav a {
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: normal;
+                color: #1d1d1d;
+                border: 0px;
+            }
+        }
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3fab1f8b-1861-4ed6-9f7f-016987e092ab"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\patils
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220113T131914Z

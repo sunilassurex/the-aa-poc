@@ -1,0 +1,39 @@
+﻿---
+ID: "69c7f6d3-42ca-40e2-994f-bd598f4b3526"
+Parent: "a66e344a-673c-4542-b145-eaeeb51b095a"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/AA/Beam/Modules/Product Builder/Products
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {C1DD28C1-896B-4CAB-9703-E323F960263D}
+    {D72990FF-9D30-44F7-837D-65A022D997DE}
+    {A3BCF4BC-528E-4930-BD17-2C8B7474ACCA}
+    {C168D860-1476-40AB-8E3C-6047573B8890}
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\AA Advanced Editor|pe|+item:create|pd|+item:rename|+item:write|+item:create|+item:delete|ar|sitecore\AA Basic Editor|pe|+item:read|+item:create|pd|+item:create|+item:read|+item:rename|+item:delete|+item:write|^*|+item:admin|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160601T103729Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a146cec4-e3bd-4cea-b382-4c73ce166f21"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220126T164549Z

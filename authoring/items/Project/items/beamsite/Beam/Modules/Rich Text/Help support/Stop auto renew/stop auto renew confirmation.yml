@@ -1,0 +1,219 @@
+﻿---
+ID: "3b296802-ae94-4207-8e7a-d8abe6d29a32"
+Parent: "82e12d03-b87f-4b88-91a6-d8bcf8c3bbe3"
+Template: "e36747b3-6154-423a-b32d-b2d323f5a739"
+Path: /sitecore/content/AA/Beam/Modules/Rich Text/Help support/Stop auto renew/stop auto renew confirmation
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211213T163557Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fcaa8e64-d5af-4f23-94bf-29b54f6426f7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\damireddye
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <div class="eight-column-width cf">
+                    <p>We've sent you an email confirming we've received your request.</p>
+        <p>If we've not been able to opt you out of automatic renewal, we'll be in contact within 5 working days.</p>
+        <p>If you still want to be covered for the next policy year, you'll need to call us on the number below when it's time to renew and provide your payment details again.</p>
+        <h5>Need to opt out of autorenewal for another policy?</h5>
+        <p>You'll need to&nbsp;<a href="/help-support/stop-auto-renew">fill out the form</a>&nbsp;again.&nbsp;</p>
+        <div>&nbsp;</div>
+                </div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220117T145430Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220223T153122Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\MartinL
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "35f81cda-5895-4577-bac3-88266bf02107"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\MartinL
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220223T153122Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <div class="eight-column-width cf">
+        <p>We've sent you an email confirming we've received your request.</p>
+        <p>If we've not been able to opt you out of automatic renewal, we'll be in contact within 5 working days.</p>
+        <p>If you still want to be covered for the next policy year, you'll need to call us on the number below when it's time to renew and provide your payment details again.</p>
+        <h5>Need to opt out of autorenewal for another policy?</h5>
+        <p>You'll need to&nbsp;<a href="/contact-us/stop-auto-renew">fill out the form</a>&nbsp;again.&nbsp;</p>
+        <div>&nbsp;</div>
+        </div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220223T153215Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220317T150722Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\MartinL
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2b7fd236-caa2-43b2-bca3-748b010e2801"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\MartinL
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220317T150722Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <div class="eight-column-width cf">
+        <p>We've received your request.</p>
+        <p>If we've not been able to opt you out of automatic renewal, we'll be in contact within 5 working days.</p>
+        <p>If you still want to be covered for the next policy year, you'll need to call us on <strong>0330 041 3684</strong> when it's time to renew, and provide your payment details again.</p>
+        <h5>Need to opt out of autorenewal for another policy?</h5>
+        <p>You'll need to&nbsp;<a href="/contact-us/stop-auto-renew">fill out the form</a>&nbsp;again.&nbsp;</p>
+        <div>&nbsp;</div>
+        </div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220317T150840Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230215T114818Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c303bd6d-5ee3-4ef1-ae12-e29424d356c2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230215T114818Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <div class="eight-column-width cf">
+        <p>We've received your request. If we've not been able to opt you out of automatic renewal, we'll be in contact within 5 working days.</p>
+        <p>If you still want to be covered for the next policy year, you'll need to call us on <strong>0330 041 3684</strong> when it's time to renew and provide your payment details again.</p>
+        <h5>Need to opt out of automatic renewal for another policy?</h5>
+        <p>You'll need to&nbsp;<a href="https://www.aabeam.co.uk/contact-us/stop-auto-renew">fill out the form</a>&nbsp;again.&nbsp;</p>
+        <div>&nbsp;</div>
+        </div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230215T115018Z
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230215T115042Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "04448fa5-508e-41c8-bf03-f6d12c94749a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230215T115042Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <div class="eight-column-width cf">
+        <p>We've received your request. If we've not been able to opt you out of automatic renewal, we'll be in contact within 5 working days.</p>
+        <p>If you still want to be covered for the next policy year, you'll need to call us on <strong>0330 041 3684</strong> when it's time to renew and provide your payment details again.</p>
+        <h5>Need to opt out of automatic renewal for another policy?</h5>
+        <p>You'll need to&nbsp;<a href="https://www.aabeam.co.uk/contact-us/stop-auto-renew">fill out the form</a>&nbsp;again.&nbsp;</p>
+        <div>&nbsp;</div>
+        </div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230215T115112Z

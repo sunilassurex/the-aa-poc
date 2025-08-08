@@ -7,7 +7,7 @@ BranchID: "45cf9f42-b3ac-4412-aab9-f8441c7e448e"
 SharedFields:
 - ID: "1ee576af-ba8e-4312-9fbd-2ccf8395baa1"
   Hint: StartItem
-  Value: 
+  Value: "{CDA779CF-EDBC-4AB3-BBEB-F18403E92B11}"
 - ID: "301e719a-6f65-4874-b565-a953a7b5ac83"
   Hint: OtherProperties
   Value: isSiteThumbnailSource=true
@@ -28,7 +28,7 @@ SharedFields:
   Value: *
 - ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
   Hint: __Shared revision
-  Value: "6cb5b46d-6757-48cd-a330-538c96f90c74"
+  Value: "295d5ab8-c85c-465a-a377-1f9d5a19ed95"
 - ID: "f57099a3-526a-49f2-aebd-635453e48875"
   Hint: RenderingHost
   Value: Default
@@ -53,11 +53,11 @@ Languages:
         sitecore\rohit.pandey@assurex.co
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "decbe626-8de8-474c-ba88-cd4bd7cd1322"
+      Value: "1302842d-cd4b-4f50-aad5-13ea6520a22d"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\arun.suresh@assurex.co
+        sitecore\rohit.pandey@assurex.co
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250805T120404Z
+      Value: 20250804T154940Z

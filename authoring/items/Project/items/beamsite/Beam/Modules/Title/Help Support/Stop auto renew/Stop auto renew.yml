@@ -1,0 +1,44 @@
+﻿---
+ID: "4e365445-6363-445a-9912-707a11ee23a5"
+Parent: "6e7a6489-d493-4a5b-9c7f-bdc60e122d89"
+Template: "a29a23e3-b641-4a9b-a6e6-61a6c2d8464c"
+Path: /sitecore/content/AA/Beam/Modules/Title/Help Support/Stop auto renew/Stop auto renew
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211213T163247Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0f816816-1306-4e6e-83f9-347789fd2d80"
+    - ID: "a5253c24-2be4-45d7-9b30-165f1b2b26bf"
+      Hint: H1TitleText
+      Value: "STOP AUTO-RENEWAL"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\damireddye
+    - ID: "cc3019ff-3d43-4cfa-ad9b-ae23e7aba49c"
+      Hint: HeroTitleText
+      Value: Opt out of automatic renewal
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220117T145352Z

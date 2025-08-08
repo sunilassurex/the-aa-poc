@@ -1,0 +1,325 @@
+﻿---
+ID: "42779f97-7d82-4da2-ae50-c6a75adf0dd0"
+Parent: "3e35cbc6-bed1-4914-8cda-f760c1eaaf3f"
+Template: "dbb828f7-699f-40d8-81ef-4eb252e9a675"
+Path: "/sitecore/content/AA/Beam/Modules/Title/car-insurance/claims"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "08592bb2-20f7-4622-9f9d-043f6bc91f03"
+      Hint: H1TitleText
+      Value: "Already with us?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160629T143918Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "44b328de-5bdf-4997-94f1-3474ab69b653"
+      Hint: HeroTitleText
+      Value: Car Insurance
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jincaa
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ad74884f-c2f4-4ca3-9c06-c973ed50d7fd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211118T164954Z
+    - ID: "ec1acffc-d06d-49ae-8523-bdeba9c6f713"
+      Hint: H3Text
+      Value: Policy documents, renewals and claims advice
+  - Version: 2
+    Fields:
+    - ID: "08592bb2-20f7-4622-9f9d-043f6bc91f03"
+      Hint: H1TitleText
+      Value: "Already with us?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160722T112022Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "44b328de-5bdf-4997-94f1-3474ab69b653"
+      Hint: HeroTitleText
+      Value: Car insurance
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Carruthersk
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "85b62ace-f48b-4223-92c0-2a1d888c22b6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20160722T112022Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211118T164954Z
+    - ID: "ec1acffc-d06d-49ae-8523-bdeba9c6f713"
+      Hint: H3Text
+      Value: Policy documents, renewals and claims advice
+  - Version: 3
+    Fields:
+    - ID: "08592bb2-20f7-4622-9f9d-043f6bc91f03"
+      Hint: H1TitleText
+      Value: "Already with us?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160722T112029Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "44b328de-5bdf-4997-94f1-3474ab69b653"
+      Hint: HeroTitleText
+      Value: Car insurance
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Carruthersk
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9f5d7b8e-688e-4c3b-94dd-83e050090966"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20160722T112029Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211118T164954Z
+    - ID: "ec1acffc-d06d-49ae-8523-bdeba9c6f713"
+      Hint: H3Text
+      Value: Policy documents, renewals and claims advice
+  - Version: 4
+    Fields:
+    - ID: "08592bb2-20f7-4622-9f9d-043f6bc91f03"
+      Hint: H1TitleText
+      Value: "Already with us?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191017T135645Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "44b328de-5bdf-4997-94f1-3474ab69b653"
+      Hint: HeroTitleText
+      Value: Your car insurance
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "22182eed-ea0d-4160-afee-09e4780aa82b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20191017T135645Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211118T164954Z
+    - ID: "ec1acffc-d06d-49ae-8523-bdeba9c6f713"
+      Hint: H3Text
+      Value: Policy documents, renewals and claims advice
+  - Version: 5
+    Fields:
+    - ID: "08592bb2-20f7-4622-9f9d-043f6bc91f03"
+      Hint: H1TitleText
+      Value: "Already with us?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200123T115644Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "44b328de-5bdf-4997-94f1-3474ab69b653"
+      Hint: HeroTitleText
+      Value: Your car insurance
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "312b7359-4614-4d4a-a500-d2825e9c43e0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200123T115644Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211118T164954Z
+    - ID: "ec1acffc-d06d-49ae-8523-bdeba9c6f713"
+      Hint: H3Text
+      Value: Policy documents, renewal and claims advice
+  - Version: 6
+    Fields:
+    - ID: "08592bb2-20f7-4622-9f9d-043f6bc91f03"
+      Hint: H1TitleText
+      Value: "Car insurance – already with us?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200722T102741Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "44b328de-5bdf-4997-94f1-3474ab69b653"
+      Hint: HeroTitleText
+      Value: Help for our customers
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ad0d4da8-ce4e-48df-9295-008e74591585"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200722T102741Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211118T164954Z
+    - ID: "ec1acffc-d06d-49ae-8523-bdeba9c6f713"
+      Hint: H3Text
+      Value: Find your documents, change your details and make a claim
+  - Version: 7
+    Fields:
+    - ID: "08592bb2-20f7-4622-9f9d-043f6bc91f03"
+      Hint: H1TitleText
+      Value: Car insurance – already with us
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201013T133012Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "44b328de-5bdf-4997-94f1-3474ab69b653"
+      Hint: HeroTitleText
+      Value: Your car insurance
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "11f1b31e-76f2-4b6f-85de-44f06ffcb0ee"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201013T133012Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211118T164954Z
+    - ID: "ec1acffc-d06d-49ae-8523-bdeba9c6f713"
+      Hint: H3Text
+      Value: Policy documents, renewal and claims advice
+  - Version: 8
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "08592bb2-20f7-4622-9f9d-043f6bc91f03"
+      Hint: H1TitleText
+      Value: CAR INSURANCE CLAIMS
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201014T142729Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "44b328de-5bdf-4997-94f1-3474ab69b653"
+      Hint: HeroTitleText
+      Value: We're here for you 24/7
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0ae77093-01dd-44bb-8107-22eaf3e97a0a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201014T142729Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211220T191321Z
+    - ID: "ec1acffc-d06d-49ae-8523-bdeba9c6f713"
+      Hint: H3Text
+      Value: Call us on 0800 269 622
+  - Version: 9
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "08592bb2-20f7-4622-9f9d-043f6bc91f03"
+      Hint: H1TitleText
+      Value: BEAM CAR INSURANCE CLAIMS
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220201T143852Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "44b328de-5bdf-4997-94f1-3474ab69b653"
+      Hint: HeroTitleText
+      Value: Make a claim
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\MartinL
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\MartinL
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "330c6717-3c20-4ee5-9118-1be9c1046184"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\MartinL
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220201T143852Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220201T144044Z
+    - ID: "ec1acffc-d06d-49ae-8523-bdeba9c6f713"
+      Hint: H3Text
+      Value: Call us 24/7 on 0330 041 3689

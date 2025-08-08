@@ -1,0 +1,615 @@
+﻿---
+ID: "226af3bd-0e69-41ab-81b3-1638ed286f7a"
+Parent: "376c2e74-726c-4deb-a5ed-a6cec7c919a0"
+Template: "e36747b3-6154-423a-b32d-b2d323f5a739"
+Path: "/sitecore/content/AA/Beam/Modules/Rich Text/sorry-unavailable/car-insurance"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 4900
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180905T110054Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\newsona
+    - ID: "61814c5f-7f89-47e5-88d1-f2b4c6a81e75"
+      Hint: Subtitle
+      Value: We'll get back to you within 5 working days
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1fe1b60f-913d-40b3-afcd-94dd73771cb5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20180905T110054Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: You'll get an email when it's all done. Otherwise, we'll give you a call if we need some more information.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211202T170223Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200401T133552Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "61814c5f-7f89-47e5-88d1-f2b4c6a81e75"
+      Hint: Subtitle
+      Value: We'll get back to you as soon as we can
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c96f8307-dd36-40b4-8432-60e004bd2c9e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200401T133552Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: You'll get an email when it's all done. Otherwise, we'll give you a call if we need some more information.
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211202T170223Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200403T070717Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "61814c5f-7f89-47e5-88d1-f2b4c6a81e75"
+      Hint: Subtitle
+      Value: You'll hear from us shortly
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6f71a58a-3676-4012-b544-3823b54e7d0c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200403T070717Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>We've received your renewal query. If we have enough information, we&rsquo;ll complete your request as soon as we can. If we need more details, someone will be in touch.</p>
+        <p>Like all businesses, we're having to work differently during the COVID-19 situation. Staff levels in our contact centres may be reduced, so you might experience longer response times.</p>
+        <p>We appreciate your patience and will update your policy as soon as possible. We're monitoring the situation closely and fully intend to maintain the highest possible levels of service.</p>
+        <h2>How we will contact you</h2>
+        <p>If you get a call back, it will be from one of the following numbers:</p>
+        <ul>
+            <li><strong>0343 316 4444</strong> for breakdown cover</li>
+            <li><strong>0370 160 0138</strong> for car insurance</li>
+            <li><strong>0370 606 1617</strong> for home insurance</li>
+        </ul>
+        <p>Please remember to add <a href="mailto:customer.services@theaa.com">customer.services@theaa.com</a> and <a href="mailto:insurancerenewals@theaa.com">insurancerenewals@theaa.com</a> to your safe senders list.&nbsp;</p>
+        <p>For your security, only the main policyholder can discuss the renewal.</p>
+        <p>You can always check the details of what cover you have when you <a href="https://auth.theaa.com/auth/XUI/#login/">log in to your account</a>.</p>
+        <div>&nbsp;</div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211202T170223Z
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200403T071732Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "61814c5f-7f89-47e5-88d1-f2b4c6a81e75"
+      Hint: Subtitle
+      Value: You'll hear from us shortly
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b02183b2-956b-46bb-b27e-cfeeafd22712"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200403T071732Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>We've received your renewal query. If we have enough information, we&rsquo;ll complete your request as soon as we can. If we need more details, someone will be in touch.</p>
+        <p>Like all businesses, we're having to work differently during the COVID-19 situation. Staff levels in our contact centres may be reduced, so you might experience longer response times.</p>
+        <p>We appreciate your patience and will update your policy as soon as possible. We're monitoring the situation closely and fully intend to maintain the highest possible levels of service.</p>
+        <h2>How we will contact you</h2>
+        <p>If you get a call back, it will be from one of the following numbers:</p>
+        <ul>
+            <li><strong>0343 316 4444</strong> for breakdown cover</li>
+            <li><strong>0370 160 0138</strong> for car insurance</li>
+            <li><strong>0370 606 1617</strong> for home insurance</li>
+        </ul>
+        <p>Please remember to add <a href="mailto:customer.services@theaa.com">customer.services@theaa.com</a> and <a href="mailto:insurancerenewals@theaa.com">insurancerenewals@theaa.com</a> to your safe senders list.&nbsp;</p>
+        <p>For your security, only the main policyholder can discuss the renewal.</p>
+        <p>You can always check the details of what cover you have when you <a href="https://auth.theaa.com/auth/XUI/#login/">log in to your account</a>.</p>
+        <div>&nbsp;</div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211202T170223Z
+  - Version: 5
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200403T072011Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "61814c5f-7f89-47e5-88d1-f2b4c6a81e75"
+      Hint: Subtitle
+      Value: You'll hear from us shortly
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c8574c5f-8bd5-413a-a468-d53588ab6504"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200403T072011Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>We've received your renewal query</h2>
+        <p>If we have enough information, we&rsquo;ll complete your request as soon as we can. If we need more details, someone will be in touch.</p>
+        <p>Like all businesses, we're having to work differently during the COVID-19 situation. Staff levels in our contact centres may be reduced, so you might experience longer response times.</p>
+        <p>We appreciate your patience and will update your policy as soon as possible. We're monitoring the situation closely and fully intend to maintain the highest possible levels of service.</p>
+        <h2>How we will contact you</h2>
+        <p>If you get a call back, it will be from one of the following numbers:</p>
+        <ul>
+            <li><strong>0343 316 4444</strong> for breakdown cover</li>
+            <li><strong>0370 160 0138</strong> for car insurance</li>
+            <li><strong>0370 606 1617</strong> for home insurance</li>
+        </ul>
+        <p>Please remember to add <a href="mailto:customer.services@theaa.com">customer.services@theaa.com</a> and <a href="mailto:insurancerenewals@theaa.com">insurancerenewals@theaa.com</a> to your safe senders list.&nbsp;</p>
+        <p>For your security, only the main policyholder can discuss the renewal.</p>
+        <p>You can always check the details of what cover you have when you <a href="https://auth.theaa.com/auth/XUI/#login/">log in to your account</a>.</p>
+        <div>&nbsp;</div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211202T170223Z
+  - Version: 6
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200403T072229Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "61814c5f-7f89-47e5-88d1-f2b4c6a81e75"
+      Hint: Subtitle
+      Value: You'll hear from us shortly
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "18f6d183-7f1f-4939-a2e8-957b8960e7e5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200403T072229Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>We've received your renewal query.&nbsp;<span style="font-weight: lighter;">If we have enough inf</span><span style="font-weight: lighter;">ormation, we&rsquo;ll complete your request as soon as we can. If we need more details, someone will be in touch.</span></p>
+        <p>Like all businesses, we're having to work differently during the COVID-19 situation. Staff levels in our contact centres may be reduced, so you might experience longer response times.</p>
+        <p>We appreciate your patience and will update your policy as soon as possible. We're monitoring the situation closely and fully intend to maintain the highest possible levels of service.</p>
+        <h2>How we will contact you</h2>
+        <p>If you get a call back, it will be from one of the following numbers:</p>
+        <ul>
+            <li><strong>0343 316 4444</strong> for breakdown cover</li>
+            <li><strong>0370 160 0138</strong> for car insurance</li>
+            <li><strong>0370 606 1617</strong> for home insurance</li>
+        </ul>
+        <p>Please remember to add <a href="mailto:customer.services@theaa.com">customer.services@theaa.com</a> and <a href="mailto:insurancerenewals@theaa.com">insurancerenewals@theaa.com</a> to your safe senders list.&nbsp;</p>
+        <p>For your security, only the main policyholder can discuss the renewal.</p>
+        <p>You can always check the details of what cover you have when you <a href="https://auth.theaa.com/auth/XUI/#login/">log in to your account</a>.</p>
+        <div>&nbsp;</div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211202T170223Z
+  - Version: 7
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200403T081646Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "61814c5f-7f89-47e5-88d1-f2b4c6a81e75"
+      Hint: Subtitle
+      Value: You'll hear from us shortly
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9e741cb8-02d9-456a-a5f5-ffd4eddb42c9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200403T081646Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>We've received your renewal query.&nbsp;<span style="font-weight: lighter;">If we have enough inf</span><span style="font-weight: lighter;">ormation, we&rsquo;ll complete your request as soon as we can. If we need more details, someone will be in touch.</span></p>
+        <p>Like all businesses, we're having to work differently during the COVID-19 situation. Staff levels in our contact centres may be reduced, so you might experience longer response times.</p>
+        <p>We appreciate your patience and will update your policy as soon as possible. We're monitoring the situation closely and fully intend to maintain the highest possible levels of service.</p>
+        <h2>How we will contact you</h2>
+        <p>If you get a call back, it will be from one of the following numbers:</p>
+        <ul>
+            <li><strong>0343 316 4444</strong> for breakdown cover</li>
+            <li><strong>0370 160 0138</strong> for car insurance</li>
+            <li><strong>0370 606 1617</strong> for home insurance</li>
+        </ul>
+        <p>Please remember to add <a href="mailto:customer.services@theaa.com">customer.services@theaa.com</a>, <a href="mailto:insurancerenewals@theaa.com">insurancerenewals@theaa.com</a> and <a href="mailto:donotreply.renewcover@theaa.com">donotreply.renewcover@theaa.com</a> to your safe senders list.&nbsp;</p>
+        <p>For your security, only the main policyholder can discuss the renewal.</p>
+        <p>You can always check the details of what cover you have when you <a href="https://auth.theaa.com/auth/XUI/#login/">log in to your account</a>.</p>
+        <div>&nbsp;</div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211202T170223Z
+  - Version: 8
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200403T101825Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "61814c5f-7f89-47e5-88d1-f2b4c6a81e75"
+      Hint: Subtitle
+      Value: You'll hear from us shortly
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6e5a52d8-69fb-4ff1-a01f-5e8579800db2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200403T101825Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>We've received your renewal query.&nbsp;<span style="font-weight: lighter;">If we have enough inf</span><span style="font-weight: lighter;">ormation, we&rsquo;ll complete your request as soon as we can. If we need more details, someone will be in touch.</span></p>
+        <p>Like all businesses, we're having to work differently during the COVID-19 situation. Staff levels in our contact centres may be reduced, so you might experience longer response times.</p>
+        <p>We appreciate your patience and will update your policy as soon as possible. We're monitoring the situation closely and fully intend to maintain the highest possible levels of service.</p>
+        <p>Please remember to add <a href="mailto:customer.services@theaa.com">customer.services@theaa.com</a>, <a href="mailto:insurancerenewals@theaa.com">insurancerenewals@theaa.com</a> and <a href="mailto:breakdown.renewals@theaa.com">breakdown.renewals@theaa.com</a> to your safe senders list.&nbsp;</p>
+        <p>For your security, only the main policyholder can discuss the renewal.</p>
+        <p>You can always check the details of what cover you have when you <a href="https://auth.theaa.com/auth/XUI/#login/">log in to your account</a>.</p>
+        <div>&nbsp;</div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211202T170224Z
+  - Version: 9
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200409T153620Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\THOMASZ
+    - ID: "61814c5f-7f89-47e5-88d1-f2b4c6a81e75"
+      Hint: Subtitle
+      Value: Your query has been sent
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3a5e18b9-f682-429b-a6f4-479f05b5b846"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200409T153620Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p><strong>If your query is about your breakdown cover, our relevant offices are now closed for Easter so we will pick up your message on Tuesday 14 April.</strong></p>
+        <p>For all other queries, we'll respond as soon as possible. If we have enough information, we&rsquo;ll complete your request as soon as we can. If we need more details, someone will be in touch.</p>
+        <p>Like all businesses, we're having to work differently during the COVID-19 situation. Staff levels in our contact centres may be reduced, so you might experience longer response times.</p>
+        <p>We appreciate your patience and will update your policy as soon as possible. We're monitoring the situation closely and fully intend to maintain the highest possible levels of service.</p>
+        <p>Please remember to add <a href="mailto:customer.services@theaa.com">customer.services@theaa.com</a>, <a href="mailto:insurancerenewals@theaa.com">insurancerenewals@theaa.com</a> and <a href="mailto:breakdown.renewals@theaa.com">breakdown.renewals@theaa.com</a> to your safe senders list.&nbsp;</p>
+        <p>For your security, only the main policyholder can discuss the renewal.</p>
+        <p>You can always check the details of what cover you have when you <a href="https://auth.theaa.com/auth/XUI/#login/">log in to your account</a>.</p>
+        <div>&nbsp;</div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211202T170224Z
+  - Version: 10
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200414T073930Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\THOMASZ
+    - ID: "61814c5f-7f89-47e5-88d1-f2b4c6a81e75"
+      Hint: Subtitle
+      Value: You'll hear from us shortly
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5120fd5d-c10b-430c-af1a-a19614a260e1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200414T073930Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>We've received your renewal query.&nbsp;<span style="font-weight: lighter;">If we have enough inf</span><span style="font-weight: lighter;">ormation, we&rsquo;ll complete your request as soon as we can. If we need more details, someone will be in touch.</span></p>
+        <p>Like all businesses, we're having to work differently during the COVID-19 situation. Staff levels in our contact centres may be reduced, so you might experience longer response times.</p>
+        <p>We appreciate your patience and will update your policy as soon as possible. We're monitoring the situation closely and fully intend to maintain the highest possible levels of service.</p>
+        <p>Please remember to add <a href="mailto:customer.services@theaa.com">customer.services@theaa.com</a>, <a href="mailto:insurancerenewals@theaa.com">insurancerenewals@theaa.com</a> and <a href="mailto:breakdown.renewals@theaa.com">breakdown.renewals@theaa.com</a> to your safe senders list.&nbsp;</p>
+        <p>For your security, only the main policyholder can discuss the renewal.</p>
+        <p>You can always check the details of what cover you have when you <a href="https://auth.theaa.com/auth/XUI/#login/">log in to your account</a>.</p>
+        <div>&nbsp;</div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211202T170224Z
+  - Version: 11
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200429T155123Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\THOMASZ
+    - ID: "61814c5f-7f89-47e5-88d1-f2b4c6a81e75"
+      Hint: Subtitle
+      Value: We'll be in touch within 5 working days
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "24e1dd56-5d12-4f8b-884e-2498ce43e6da"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200429T155123Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>We've received your renewal query.&nbsp;<span style="font-weight: lighter;">If we have enough inf</span><span style="font-weight: lighter;">ormation, we&rsquo;ll complete your request as soon as we can. If we need more details, someone will be in touch.</span></p>
+        <p>Like all businesses, we're having to work differently during the COVID-19 situation. Staff levels in our contact centres may be reduced, so you might experience longer response times.</p>
+        <p>We appreciate your patience and will update your policy as soon as possible. We're monitoring the situation closely and fully intend to maintain the highest possible levels of service.</p>
+        <p>Please remember to add <a href="mailto:customer.services@theaa.com">customer.services@theaa.com</a>, <a href="mailto:insurancerenewals@theaa.com">insurancerenewals@theaa.com</a> and <a href="mailto:breakdown.renewals@theaa.com">breakdown.renewals@theaa.com</a> to your safe senders list.&nbsp;</p>
+        <p>For your security, only the main policyholder can discuss the renewal.</p>
+        <p>You can always check the details of what cover you have when you <a href="https://auth.theaa.com/auth/XUI/#login/">log in to your account</a>.</p>
+        <div>&nbsp;</div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211202T170224Z
+  - Version: 12
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200501T145319Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\BuckleyD
+    - ID: "61814c5f-7f89-47e5-88d1-f2b4c6a81e75"
+      Hint: Subtitle
+      Value: We'll be in touch within 5 working days
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1e4558e8-78fe-4f6b-99ab-b38ecd8130d7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200501T145319Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>We've received your renewal query.&nbsp;<span style="font-weight: lighter;">If we have enough inf</span><span style="font-weight: lighter;">ormation, we&rsquo;ll complete your request as soon as we can. If we need more details, someone will be in touch.</span></p>
+        <p>Like all businesses, we're having to work differently during the COVID-19 situation. Staff levels in our contact centres may be reduced, so you might experience longer response times.</p>
+        <p>We appreciate your patience and will update your policy as soon as possible. We're monitoring the situation closely and fully intend to maintain the highest possible levels of service.</p>
+        <p>Please remember to add <a href="mailto:insurancerenewals@theaa.com">insurancerenewals@theaa.com</a> and <a href="mailto:breakdown.renewals@theaa.com">breakdown.renewals@theaa.com</a> to your safe senders list.&nbsp;</p>
+        <p>For your security, only the main policyholder can discuss the renewal.</p>
+        <p>You can always check the details of what cover you have when you <a href="https://auth.theaa.com/auth/XUI/#login/">log in to your account</a>.</p>
+        <div>&nbsp;</div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211202T170224Z
+  - Version: 13
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200603T092125Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "61814c5f-7f89-47e5-88d1-f2b4c6a81e75"
+      Hint: Subtitle
+      Value: We'll be in touch within 5 working days
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fcac5df2-030d-471c-bcd2-08687f62fea8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200603T092125Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>We've received your renewal query.&nbsp;<span style="font-weight: lighter;">If we have enough inf</span><span style="font-weight: lighter;">ormation, we&rsquo;ll complete your request as soon as we can. If we need more details, someone will be in touch.</span></p>
+        <p>Like all businesses, we're having to work differently during the COVID-19 situation. Staff levels in our contact centres may be reduced, so you might experience longer response times.</p>
+        <p>We appreciate your patience and will update your policy as soon as possible. We're monitoring the situation closely and fully intend to maintain the highest possible levels of service.</p>
+        <p>Please remember to add <a href="mailto:insurancerenewals@theaa.com">insurancerenewals@theaa.com</a> to your safe senders list.&nbsp;</p>
+        <p>For your security, only the main policyholder can discuss the renewal.</p>
+        <p>You can always check the details of what cover you have when you <a href="https://auth.theaa.com/auth/XUI/#login/">log in to your account</a>.</p>
+        <div>&nbsp;</div>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211202T170224Z
+  - Version: 14
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201126T113046Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\MartinL
+    - ID: "61814c5f-7f89-47e5-88d1-f2b4c6a81e75"
+      Hint: Subtitle
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "59dd5fd1-e4bb-4bbb-a67c-9b38462304c5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ShahzadK
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201126T113046Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>We've received your renewal query. If we have enough information, we&rsquo;ll complete your request within 5 working days. If we need more details, we'll let you know.<br />
+        <br />
+        Please remember to add <a href="mailto:insurancerenewals@theaa.com">insurancerenewals@theaa.com</a> to your safe senders list.&nbsp;<br />
+        <br />
+        For your security, only the main policyholder can discuss the renewal.<br />
+        <br />
+        You can always check the details of your cover by <a href="https://auth.theaa.com/auth/XUI/#login/">logging into your account</a>.<span style="font-weight: lighter;"></span></p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220201T234225Z
+  - Version: 15
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241114T143255Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "61814c5f-7f89-47e5-88d1-f2b4c6a81e75"
+      Hint: Subtitle
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c2e50fda-a680-4557-86cd-46a5340e1b52"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241114T143255Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>We've received your renewal query. If we have enough information, we'll complete your request within 5 working days. If we need more details, we'll let you know.</p>
+        <p>Please remember to add <a href="mailto:insurancerenewals@theaa.com">insurancerenewals@theaa.com</a> to your safe senders list.&nbsp;</p>
+        <p>For your security, only the main policyholder can discuss the renewal.</p>
+        <!-- CDI-3791 <p>You can always check the details of your cover by <a href="https://auth.theaa.com/auth/XUI/#login/">logging into your account</a>.</p> -->
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241114T143354Z

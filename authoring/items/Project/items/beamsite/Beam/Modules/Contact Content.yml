@@ -1,0 +1,27 @@
+﻿---
+ID: "d2a7842e-75e2-4f47-97ce-83ac8c4044b3"
+Parent: "f4f8517a-cc4b-4ef8-88b8-fcc703133396"
+Template: "134155f1-9c64-4f8b-99f8-7974416f601e"
+Path: /sitecore/content/AA/Beam/Modules/Contact Content
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211207T141040Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "da009dfb-e437-48aa-a8b9-e5c5379a6111"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\damireddye
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220201T101217Z

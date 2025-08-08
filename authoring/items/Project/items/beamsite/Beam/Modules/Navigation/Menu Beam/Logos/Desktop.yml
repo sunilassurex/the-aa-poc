@@ -1,0 +1,54 @@
+﻿---
+ID: "a0909dae-a07c-46d9-bc0a-13d6bc18b8f0"
+Parent: "43428398-028a-455f-9a49-bc7b7ad96c58"
+Template: "739c5a9d-d1e8-4f49-9d52-fb806eb17b43"
+Path: /sitecore/content/AA/Beam/Modules/Navigation/Menu Beam/Logos/Desktop
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 150
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211025T131802Z
+    - ID: "2f7f296b-d5f5-4088-a5dd-4ab5fa9f4d1a"
+      Hint: Contents
+      Value: |
+        <svg width="271" height="32" viewBox="0 0 271 32" xmlns="http://www.w3.org/2000/svg">
+            <g fill="#2B2929" fill-rule="evenodd">
+                <text font-family="NewTransport-Light, Arial, Helvetica, Verdana, sans-serif" font-size="16" font-weight="300">
+                            <tspan x="167" y="22">FROM THE</tspan>
+                            <tspan x="245.592" y="22" font-family="NewTransport-Regular, Arial, Helvetica, Verdana, sans-serif" font-weight="normal"> </tspan>
+                            <tspan x="249.436" y="22" font-family="NewTransport-Bold, Arial, Helvetica, Verdana, sans-serif" font-weight="bold">AA</tspan>
+                        </text>
+                <path d="M19.82 14.766c2.51-1.281 4.018-3.932 4.018-6.4C23.838 3.29 19.408 0 13.837 0H0v32h13.928c7.125 0 11.326-4.069 11.326-9.463 0-4.846-3.334-7.04-5.435-7.771zM6.53 5.577h5.983c2.877 0 4.611 1.555 4.611 3.703 0 2.103-1.734 3.657-4.611 3.657H6.53v-7.36zm6.53 20.89H6.53v-8.273h6.485c3.197 0 5.48 1.371 5.48 4.16 0 2.56-2.054 4.114-5.434 4.114zM31.097 0v32H53.7v-5.806H37.628v-7.68H50.46v-5.577H37.628V5.851h15.617V.001zM67.507 0 57.415 32h6.94l1.874-6.492h11.279L79.38 32h7.308L76.595 0h-9.088zm4.34 6.217h.09l4.017 13.99h-8.172l4.064-13.99zM115.672 10.998l.01 21.002h-9.363l-9.966-21.002L96.364 32h-6.333V0h8.478l10.84 22.923V0h8.48L133 32h-7.362zM149 0h2v32h-2z"/>
+            </g>
+        </svg>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fd5421ef-309b-43f3-9882-947ab5cc918c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220128T111332Z

@@ -1,0 +1,459 @@
+﻿---
+ID: "7c176644-3d00-480c-afb8-86b85c5cf1b1"
+Parent: "777c9476-9c4a-4777-a75f-0a049fdea51b"
+Template: "3fccdfdf-8417-4741-98d2-a8c99cb1d91f"
+Path: "/sitecore/content/AA/Beam/Modules/Smart Breakdown/car-insurance/car-insurance-cover"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: "What’s covered by BEAM car insurance?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220125T165847Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "7c327b9d-d911-4c6a-b012-7969b54683c3"
+      Hint: DetailedFeatureList
+      Value: 1=Comprehensive%3A%20This%20is%20the%20highest%20level%20of%20insurance%20available.%20You%27re%20covered%20for%20accidental%20damage%20or%20theft%20of%20your%20car%2C%20injuries%20to%20other%20people%20and%20damage%20to%20their%20vehicle%20or%20property%2C%20as%20well%20as%20fire%20damage%20and%20vandalism.&2=Third%20party%2C%20fire%20and%20theft%3A%20This%20covers%20your%20car%20if%20it%E2%80%99s%20damaged%20by%20fire%20or%20stolen%2C%20as%20well%20as%20injury%20to%20others%2C%20or%20damage%20to%20their%20vehicle%20or%20property.%20It%20doesn%27t%20cover%20damage%20to%20your%20vehicle.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ea037275-8fa3-4721-a326-b64056de769d"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: "<h3>You can choose between two types of cover:</h3>"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220126T100700Z
+    - ID: "f81c6cd4-7c73-4ea5-b559-20a5c2f645bb"
+      Hint: BulletList
+      Value: 
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: "What’s covered by BEAM car insurance?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220127T153619Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "7c327b9d-d911-4c6a-b012-7969b54683c3"
+      Hint: DetailedFeatureList
+      Value: 1=Comprehensive%3A%20This%20is%20the%20highest%20level%20of%20insurance%20available.%20You%27re%20covered%20for%20accidental%20damage%20or%20theft%20of%20your%20car%2C%20injuries%20to%20other%20people%20and%20damage%20to%20their%20vehicle%20or%20property%2C%20as%20well%20as%20fire%20damage%20and%20vandalism.&2=Third%20party%2C%20fire%20and%20theft%3A%20This%20covers%20your%20car%20if%20it%E2%80%99s%20damaged%20by%20fire%20or%20stolen%2C%20as%20well%20as%20injury%20to%20others%2C%20or%20damage%20to%20their%20vehicle%20or%20property.%20It%20doesn%27t%20cover%20damage%20to%20your%20vehicle.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a603c533-4327-456f-8758-46cb56164061"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: "<h3>You can choose between two types of cover:</h3>"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220127T153619Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220127T153751Z
+    - ID: "f81c6cd4-7c73-4ea5-b559-20a5c2f645bb"
+      Hint: BulletList
+      Value: |
+        Not sure what you need? <a href="~/link.aspx?_id=E892CF32D9584A20A1BA461B35D46D88&amp;_z=z">Compare our levels of car insurance</a>.
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: "What’s covered by BEAM car insurance?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220127T154225Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "7c327b9d-d911-4c6a-b012-7969b54683c3"
+      Hint: DetailedFeatureList
+      Value: 1=Comprehensive%3A%20This%20is%20the%20highest%20level%20of%20insurance%20available.%20You%27re%20covered%20for%20accidental%20damage%20or%20theft%20of%20your%20car%2C%20injuries%20to%20other%20people%20and%20damage%20to%20their%20vehicle%20or%20property%2C%20as%20well%20as%20fire%20damage%20and%20vandalism.&2=Third%20party%2C%20fire%20and%20theft%3A%20This%20covers%20your%20car%20if%20it%E2%80%99s%20damaged%20by%20fire%20or%20stolen%2C%20as%20well%20as%20injury%20to%20others%2C%20or%20damage%20to%20their%20vehicle%20or%20property.%20It%20doesn%27t%20cover%20damage%20to%20your%20vehicle.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3b4d88d1-1d55-4488-96bb-35ee21f1b159"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: "<h3>You can choose between two types of cover:</h3>"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220127T154225Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220127T154243Z
+    - ID: "f81c6cd4-7c73-4ea5-b559-20a5c2f645bb"
+      Hint: BulletList
+      Value: |
+        <span style="font-size: 16px;">Not sure what you need? <a href="~/link.aspx?_id=E892CF32D9584A20A1BA461B35D46D88&amp;_z=z">Compare our levels of car insurance</a>.</span>
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: "What’s covered by BEAM car insurance?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220215T132811Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "7c327b9d-d911-4c6a-b012-7969b54683c3"
+      Hint: DetailedFeatureList
+      Value: 1=Comprehensive%3A%20this%20is%20the%20highest%20level%20of%20insurance%20available.%20You%27re%20covered%20for%20accidental%20damage%20or%20theft%20of%20your%20car%2C%20injuries%20to%20other%20people%20and%20damage%20to%20their%20vehicle%20or%20property%2C%20as%20well%20as%20fire%20damage%20and%20vandalism.&2=Third%20party%2C%20fire%20and%20theft%3A%20this%20covers%20your%20car%20if%20it%E2%80%99s%20damaged%20by%20fire%20or%20stolen%2C%20as%20well%20as%20injury%20to%20others%2C%20or%20damage%20to%20their%20vehicle%20or%20property.%20It%20doesn%27t%20cover%20damage%20to%20your%20vehicle.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d9ce4e9d-cf38-41a7-a850-29d60fdd37c5"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: "<h3>You can choose between 2 types of cover:</h3>"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220215T132811Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220215T132854Z
+    - ID: "f81c6cd4-7c73-4ea5-b559-20a5c2f645bb"
+      Hint: BulletList
+      Value: |
+        <span style="font-size: 16px;">Not sure what you need? <a href="~/link.aspx?_id=E892CF32D9584A20A1BA461B35D46D88&amp;_z=z">Compare our levels of car insurance</a>.</span>
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: "What’s covered by BEAM car insurance?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220216T115725Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "7c327b9d-d911-4c6a-b012-7969b54683c3"
+      Hint: DetailedFeatureList
+      Value: 1=Comprehensive%3A%20this%20is%20the%20highest%20level%20of%20insurance%20available.%20You%27re%20covered%20for%20accidental%20damage%20or%20theft%20of%20your%20car%2C%20injuries%20to%20other%20people%20and%20damage%20to%20their%20vehicle%20or%20property%2C%20as%20well%20as%20fire%20damage%20and%20vandalism.&2=Third%20party%2C%20fire%20and%20theft%3A%20this%20covers%20your%20car%20if%20it%E2%80%99s%20damaged%20by%20fire%20or%20stolen%2C%20as%20well%20as%20injury%20to%20others%2C%20or%20damage%20to%20their%20vehicle%20or%20property.%20It%20doesn%27t%20cover%20damage%20to%20your%20vehicle.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "00f1bbfd-c9dc-4309-ad82-0f3f2b27ee54"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: "<h3>You can choose between 2 types of cover:</h3>"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220216T115725Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220216T115803Z
+    - ID: "f81c6cd4-7c73-4ea5-b559-20a5c2f645bb"
+      Hint: BulletList
+      Value: |
+        <span style="font-size: 16px;">Not sure what you need? <a href="~/link.aspx?_id=E892CF32D9584A20A1BA461B35D46D88&amp;_z=z">Compare our levels of car insurance</a>.</span>
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: "What’s covered by BEAM car insurance?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220224T132020Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "7c327b9d-d911-4c6a-b012-7969b54683c3"
+      Hint: DetailedFeatureList
+      Value: 1=Comprehensive%3A%20this%20is%20the%20highest%20level%20of%20insurance%20available.%20You%27re%20covered%20for%20accidental%20damage%20or%20theft%20of%20your%20car%2C%20injuries%20to%20other%20people%20and%20damage%20to%20their%20vehicle%20or%20property%2C%20as%20well%20as%20fire%20damage%20and%20vandalism.&2=Third%20party%2C%20fire%20and%20theft%3A%20this%20covers%20your%20car%20if%20it%E2%80%99s%20damaged%20by%20fire%20or%20stolen%2C%20as%20well%20as%20injury%20to%20others%2C%20or%20damage%20to%20their%20vehicle%20or%20property.%20It%20doesn%27t%20cover%20damage%20to%20your%20vehicle.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "acd30ea8-a3c6-486b-9414-49fcae1610f9"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: "<h3>You can choose between 2 types of cover:</h3>"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220224T132020Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230522T145957Z
+    - ID: "f81c6cd4-7c73-4ea5-b559-20a5c2f645bb"
+      Hint: BulletList
+      Value: |
+        <span style="font-size: 16px;">Not sure what you need? <a href="car-insurance/compare-cover-levels">Compare our levels of car insurance</a>.</span>
+  - Version: 7
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: "What’s covered by BEAM car insurance?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230522T150036Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "7c327b9d-d911-4c6a-b012-7969b54683c3"
+      Hint: DetailedFeatureList
+      Value: 1=Comprehensive%3A%20this%20is%20the%20highest%20level%20of%20insurance%20available.%20You%27re%20covered%20for%20accidental%20damage%20or%20theft%20of%20your%20car%2C%20injuries%20to%20other%20people%20and%20damage%20to%20their%20vehicle%20or%20property%2C%20as%20well%20as%20fire%20damage%20and%20vandalism.&2=Third%20party%2C%20fire%20and%20theft%3A%20this%20covers%20your%20car%20if%20it%E2%80%99s%20damaged%20by%20fire%20or%20stolen%2C%20as%20well%20as%20injury%20to%20others%2C%20or%20damage%20to%20their%20vehicle%20or%20property.%20It%20doesn%27t%20cover%20damage%20to%20your%20vehicle.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "95b9f418-c985-4e26-993b-b7234fc4ed54"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: "<h3>You can choose between 2 types of cover:</h3>"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230522T150036Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230523T131930Z
+    - ID: "f81c6cd4-7c73-4ea5-b559-20a5c2f645bb"
+      Hint: BulletList
+      Value: |
+        <span style="font-size: 16px;">Not sure what you need? <a href="~/link.aspx?_id=E892CF32D9584A20A1BA461B35D46D88&amp;_z=z">Compare our levels of car insurance</a>.</span>
+  - Version: 8
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: "What’s covered by BEAM car insurance?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230523T131959Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "7c327b9d-d911-4c6a-b012-7969b54683c3"
+      Hint: DetailedFeatureList
+      Value: 1=Comprehensive%3A%20this%20is%20the%20highest%20level%20of%20insurance%20available.%20You%27re%20covered%20for%20accidental%20damage%20or%20theft%20of%20your%20car%2C%20injuries%20to%20other%20people%20and%20damage%20to%20their%20vehicle%20or%20property%2C%20as%20well%20as%20fire%20damage%20and%20vandalism.&2=Third%20party%2C%20fire%20and%20theft%3A%20this%20covers%20your%20car%20if%20it%E2%80%99s%20damaged%20by%20fire%20or%20stolen%2C%20as%20well%20as%20injury%20to%20others%2C%20or%20damage%20to%20their%20vehicle%20or%20property.%20It%20doesn%27t%20cover%20damage%20to%20your%20vehicle.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c75becd0-e58f-4fc2-bd6b-6f4afece17f1"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: "<h3>You can choose between 2 types of cover:</h3>"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230523T131959Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230523T132158Z
+    - ID: "f81c6cd4-7c73-4ea5-b559-20a5c2f645bb"
+      Hint: BulletList
+      Value: |
+        <span style="font-size: 16px;">Not sure what you need? <a href="~/link.aspx?_id=E892CF32D9584A20A1BA461B35D46D88&amp;_z=z">Compare our levels of car insurance</a>.</span><br class="t-last-br" />
+  - Version: 9
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: "What’s covered by BEAM car insurance?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230523T132323Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "7c327b9d-d911-4c6a-b012-7969b54683c3"
+      Hint: DetailedFeatureList
+      Value: 1=Comprehensive%3A%20this%20is%20the%20highest%20level%20of%20insurance%20available.%20You%27re%20covered%20for%20accidental%20damage%20or%20theft%20of%20your%20car%2C%20injuries%20to%20other%20people%20and%20damage%20to%20their%20vehicle%20or%20property%2C%20as%20well%20as%20fire%20damage%20and%20vandalism.&2=Third%20party%2C%20fire%20and%20theft%3A%20this%20covers%20your%20car%20if%20it%E2%80%99s%20damaged%20by%20fire%20or%20stolen%2C%20as%20well%20as%20injury%20to%20others%2C%20or%20damage%20to%20their%20vehicle%20or%20property.%20It%20doesn%27t%20cover%20damage%20to%20your%20vehicle.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "976b8c06-74a2-48f4-8bb2-f2b4652decd3"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: "<h3>You can choose between 2 types of cover:</h3>"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230523T132323Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230523T132355Z
+    - ID: "f81c6cd4-7c73-4ea5-b559-20a5c2f645bb"
+      Hint: BulletList
+      Value: |
+        <span style="font-size: 16px;">Not sure what you need? <a href="/car-insurance/compare-cover-levels">Compare our levels of car insurance</a>.</span><br class="t-last-br" />
+  - Version: 10
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: |
+        <r owner="sitecore\Tony.Chapman" date="20240905T114921Z" />
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: "What’s covered by BEAM car insurance?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240905T114921Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "7c327b9d-d911-4c6a-b012-7969b54683c3"
+      Hint: DetailedFeatureList
+      Value: 1=Comprehensive%3A%20this%20is%20the%20highest%20level%20of%20insurance%20available.%20You%27re%20covered%20for%20accidental%20damage%20or%20theft%20of%20your%20car%2C%20injuries%20to%20other%20people%20and%20damage%20to%20their%20vehicle%20or%20property%2C%20as%20well%20as%20fire%20damage%20and%20vandalism.&2=Third%20party%2C%20fire%20and%20theft%3A%20this%20covers%20your%20car%20if%20it%E2%80%99s%20damaged%20by%20fire%20or%20stolen%2C%20as%20well%20as%20injury%20to%20others%2C%20or%20damage%20to%20their%20vehicle%20or%20property.%20It%20doesn%27t%20cover%20damage%20to%20your%20vehicle.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8dd4a5b0-c573-4880-80d9-34184791e6b3"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: "<h3>You can choose between 2 types of cover:</h3>"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240905T114921Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240905T114921Z
+    - ID: "f81c6cd4-7c73-4ea5-b559-20a5c2f645bb"
+      Hint: BulletList
+      Value: |
+        <span style="font-size: 16px;">Not sure what you need? <a href="/car-insurance/compare-cover-levels">Compare our levels of car insurance</a>.</span><br class="t-last-br" />

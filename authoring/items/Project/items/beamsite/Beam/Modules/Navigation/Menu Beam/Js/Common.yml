@@ -1,0 +1,198 @@
+﻿---
+ID: "e83e7a5d-fe38-44b8-a16a-a563f5c16634"
+Parent: "c89754d6-8b6e-47ac-8de9-47c328f561c8"
+Template: "739c5a9d-d1e8-4f49-9d52-fb806eb17b43"
+Path: /sitecore/content/AA/Beam/Modules/Navigation/Menu Beam/Js/Common
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 25
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200114T132640Z
+    - ID: "2f7f296b-d5f5-4088-a5dd-4ab5fa9f4d1a"
+      Hint: Contents
+      Value: |
+        <!-- not a menu item -->
+        <script src="/breakdown-cover/advice/basic-car-checks/menuscript"></script>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a0fdf653-34e6-4be3-bfe3-a7bad0704004"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200114T133559Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200130T160220Z
+    - ID: "2f7f296b-d5f5-4088-a5dd-4ab5fa9f4d1a"
+      Hint: Contents
+      Value: |
+        <!-- not a menu item -->
+        <!-- DISABLED
+        <script src="/breakdown-cover/advice/basic-car-checks/menuscript"></script>
+        -->
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c2a497d5-2807-46ba-9cd6-1653f72eb8dd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200130T160220Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200130T160247Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200904T114956Z
+    - ID: "2f7f296b-d5f5-4088-a5dd-4ab5fa9f4d1a"
+      Hint: Contents
+      Value: |
+        <!-- not a menu item -->
+        <script>console.log('/sitecore/content/TheAA/Global/Navigation/Header/Menu/script')</script>
+        
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\paul_petersen
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9ae70d38-4f9c-4c38-b741-d326ca95ba8d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\paul_petersen
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200904T114956Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200904T141003Z
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200914T165333Z
+    - ID: "2f7f296b-d5f5-4088-a5dd-4ab5fa9f4d1a"
+      Hint: Contents
+      Value: |
+        $(document).ready(function () {
+            var mainHeight = $('.aa-main-nav').outerHeight();
+            var scrollHeightmenu = mainHeight
+            var $currentActiveMenuItem = null;
+        
+        
+            if (window.aa.helpers.cache.cachedElements.$window.width() <= window.aa.helpers.cache.constants.TABLET_LANDSCAPE) {
+                $('nav.aa-mega-menu').addClass('mobile-nav');
+                if (!$('.scroller').length) {
+                    $('#site-header-yellow >.wrapper').wrap("<div class='scroller'></div>");
+        
+                }
+        
+            }
+            else if (window.aa.helpers.cache.cachedElements.$window.width() > window.aa.helpers.cache.constants.TABLET_LANDSCAPE) {
+                $('nav.aa-mega-menu').removeClass('mobile-nav');
+                if ($('.scroller').length) {
+                    $('#site-header-yellow >.wrapper').unwrap("<div class='scroller'></div>");
+        
+                }
+        
+            }
+        
+            $(window).resize(function () {
+                if (window.aa.helpers.cache.cachedElements.$window.width() <= window.aa.helpers.cache.constants.TABLET_LANDSCAPE) {
+                    $('.mobile-grey').appendTo('.desktop-white');
+                    $('nav.aa-mega-menu').addClass('mobile-nav');
+                    if (!$('.scroller').length) {
+                        $('#site-header-yellow >.wrapper').wrap("<div class='scroller'></div>");
+        
+                    }
+        
+                }
+                else if (window.aa.helpers.cache.cachedElements.$window.width() > window.aa.helpers.cache.constants.TABLET_LANDSCAPE) {
+                    $('nav.aa-mega-menu').removeClass('mobile-nav');
+                    if ($('.scroller').length) {
+                        $('#site-header-yellow >.wrapper').unwrap("<div class='scroller'></div>");
+        
+                    }
+                }
+            });
+        
+        
+            $('.mobile-tablet-menu').click(function (e) {
+                e.preventDefault();
+                $('body').addClass('mmenu-opened');
+                $('header#site-header-yellow .main-nav').animate({ right: '0' }, 250);
+                if ($('.scroller').length) {
+                    $('#site-header-yellow').addClass('mobilemenu-active');
+                }
+                $('.main-nav').css('min-height', '100vh');
+            });
+        
+            $('.mobile-tablet-menu-open').click(function (e) {
+                e.preventDefault();
+                $('body').removeClass('mmenu-opened');
+                $('header#site-header-yellow .main-nav').animate({ right: '-100vw' }, 250);
+                $('#site-header-yellow').removeClass('mobilemenu-active');
+             
+            });
+        
+        
+        });
+        
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\paul_petersen
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c74b8bd9-c277-4d9d-8ca9-ba80ef5605e5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\patils
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200914T165333Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220207T171820Z

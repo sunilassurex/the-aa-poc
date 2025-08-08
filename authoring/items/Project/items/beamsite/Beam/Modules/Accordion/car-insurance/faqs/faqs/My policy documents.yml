@@ -1,0 +1,183 @@
+﻿---
+ID: "d58af59a-be42-4ebc-8226-4d294e5aa274"
+Parent: "c0a17c5e-4619-4995-a65d-d584eb4da39d"
+Template: "11e11bcb-aa73-4cd2-a73e-fbeedfe8da05"
+Path: "/sitecore/content/AA/Beam/Modules/Accordion/car-insurance/faqs/faqs/My policy documents"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200527T133341Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "421d061c-7964-483a-ba70-37ab8f6b4983"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h2>How can I access my policy documents online?</h2>
+        <p>Your policy documents can be found in <a href="https://auth.theaa.com/auth/XUI/#login/">your online account</a>. It's easy to register if you haven't already done so, and you'll see all your AA policies in one handy place. </p>
+        <hr />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: My policy documents
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220307T144043Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220307T144927Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "93061535-507e-471e-8642-e18c6932c6e8"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h3><strong><span style="font-size: 24px;">Can I create an online account?</span></strong></h3>
+        <p>You can't create an account at the moment. Instead, call us on&nbsp;<strong>0330 041 3684</strong>&nbsp;if you need to make changes to your policy or discuss your BEAM car insurance.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">Where can I find my policy documents and certificate of insurance?</span></strong></h3>
+        <p>Your documents are either emailed to you or posted to the address you specified when you bought the policy, depending on your chosen preference.</p>
+        <p>If you selected email, make sure you check your junk folder.</p>
+        <p>If you can&rsquo;t find your documents, give us a call on&nbsp;<strong>0330 041 3684</strong>&nbsp;and we&rsquo;ll resend them.</p>
+        <hr />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220307T144927Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: My policy documents
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220307T150349Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220307T150841Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d6d3cb18-cb75-4ea9-ac6e-e2348dffbc43"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h3><strong><span style="font-size: 24px;">Can I create an online account?</span></strong></h3>
+        <p>You can't create an account at the moment. Instead, call us on&nbsp;<strong>0330 041 3684</strong>&nbsp;if you need to make changes to your policy or discuss your BEAM car insurance.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">Where can I find my policy documents and certificate of insurance?</span></strong></h3>
+        <p>Your documents are either emailed to you or posted to the address you specified when you bought the policy, depending on your chosen preference.</p>
+        <p>If you selected email, make sure you check your junk folder.</p>
+        <p>If you can&rsquo;t find your documents, give us a call on&nbsp;<strong>0330 041 3684</strong>&nbsp;and we&rsquo;ll resend them.</p>
+        <hr />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220307T150841Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: Your policy information
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220307T150857Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240910T102824Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5023f28d-e86b-44da-ac35-11827422de6e"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <br />
+        <h2>Where can I find my policy documents and certificate of insurance?</h2>
+        <p>If you opened an account when you purchased BEAM Car Insurance, <a href="https://insuranceaccount.beam.co.uk/beam/portalrecall.launch?qsid=portal&PolicyType=PC&brandName=">log in</a> to find your documents and check your&nbsp;details.</p>
+        <p>Or if your policy has a <strong>Customer ID</strong> on the purchase confirmation email or letter, you can <a href="https://insuranceaccount.beam.co.uk/beam/portal/default/pc/registerportaluser.launch?qsid=portal&PolicyType=PC&brandName=">create an account</a> using the policy&nbsp;number.<p>
+        <p>If you don't have a <strong>Customer ID</strong>, then depending on your chosen preference the documents were either sent by email or posted to the address you specified when you bought the policy, </p>
+        <p>If you can't see the email, check it's not in your junk folder.</p>
+        <p>If you can't find your documents, we can resend them. Give us a call on <strong>0330 041 3684</strong>.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240910T102824Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: Your policy information
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241119T124454Z

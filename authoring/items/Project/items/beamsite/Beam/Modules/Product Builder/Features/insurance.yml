@@ -1,0 +1,27 @@
+﻿---
+ID: "a56eb861-3512-4151-92c2-b83718709339"
+Parent: "239165e8-3113-417c-84c2-098073c0c234"
+Template: "c1dd28c1-896b-4cab-9703-e323f960263d"
+Path: /sitecore/content/AA/Beam/Modules/Product Builder/Features/insurance
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160707T130819Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jincaa
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7a839f17-a0d7-444c-99e6-b27239e74c24"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220126T164557Z
