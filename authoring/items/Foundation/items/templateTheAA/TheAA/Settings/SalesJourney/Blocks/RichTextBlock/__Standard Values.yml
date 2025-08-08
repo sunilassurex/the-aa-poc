@@ -1,0 +1,26 @@
+﻿---
+ID: "aed44450-aa30-49d9-8169-0d1cb7eaea30"
+Parent: "4eb053b3-8a9e-4d35-aa13-7cd183f82075"
+Template: "4eb053b3-8a9e-4d35-aa13-7cd183f82075"
+Path: /sitecore/templates/TheAA/Settings/SalesJourney/Blocks/RichTextBlock/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160905T163126Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b4cb80bb-391e-4fb3-9cca-cea39646d994"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20160916T161954Z
+    - ID: "fdfd86d5-1862-4393-8426-42012d76f30f"
+      Hint: RenderingViewPath
+      Value: "{7214D95B-0F69-4BF7-9B97-80B59DDFB1B9}"

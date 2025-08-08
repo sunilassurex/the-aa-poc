@@ -1,0 +1,37 @@
+﻿---
+ID: "f7cbca17-3649-471e-9fcd-556e11a4c85d"
+Parent: "916c87ae-9240-4710-9dd7-222d0b6910f4"
+Template: "916c87ae-9240-4710-9dd7-222d0b6910f4"
+Path: /sitecore/templates/Feature/AA/Hero/ParametersTemplate_HomeHeroSettings/__Standard Values
+SharedFields:
+- ID: "0793dcff-0ee7-48ad-b9d4-ef1dd24eb59b"
+  Hint: Data Source
+  Value: "{029B5E87-3CD6-4678-BDE0-F0ED4E3C310F}"
+- ID: "e42027f4-766d-45a7-8cf4-29e5c94326f7"
+  Hint: Placeholder
+  Value: "/theaa/homepage-r1/column-1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17a47ad0-1334-45d6-8b03-e5e530558450"
+      Hint: BackgroundColour
+      Value: #FFFFFF
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200624T072306Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\yadavs
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9c9b64d1-0e4a-4809-974d-3b89accb3ab6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221208T025819Z

@@ -1,0 +1,26 @@
+﻿---
+ID: "b05ee158-5e8e-4af4-9a5c-d2950974916a"
+Parent: "dad8665c-8710-43f3-b40c-f26108a2fa60"
+Template: "dad8665c-8710-43f3-b40c-f26108a2fa60"
+Path: /sitecore/templates/TheAA/Presentation/ImageSettings/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "21febb45-a37f-4f58-b115-ed2e1bf0eddd"
+      Hint: ImagePosition
+      Value: "{9A854E29-FA32-4CED-AAD2-75014F72E945}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160226T170649Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2e1f865a-5bda-4f0d-bfd3-4c1256159a85"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200224T051559Z

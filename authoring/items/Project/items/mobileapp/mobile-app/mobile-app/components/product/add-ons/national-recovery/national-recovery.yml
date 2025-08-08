@@ -1,0 +1,589 @@
+﻿---
+ID: "2767b366-5cf0-48db-917e-02044635a16e"
+Parent: "45564ada-8138-4b68-b6e6-b81bbb54a00b"
+Template: "05703f07-c04a-47cc-8501-fd58fd2c2ffd"
+Path: "/sitecore/content/AA/mobile-app/mobile-app/components/product/add-ons/national-recovery/national-recovery"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 37
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{FC04E0E4-6A01-4095-8BCE-2EC2A32E4A1D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: "{item title}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240710T113610Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: National recovery
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{A29ED292-6949-45F9-AD49-164E2417E5C7}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c63ce856-bb0b-4ca4-bc35-95f010cc3938"
+    - ID: "a695e4db-a286-4c1e-b7ac-6195d37c7c60"
+      Hint: CTA
+      Value: |
+        <link text="" anchor="" linktype="internal" class="" title="" target="" querystring="" id="{B25C0ECC-00EE-4AF4-9004-F63AC7CE9902}" />
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "policy {x} card : upgrade : national recovery item"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240710T113610Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240718T114917Z
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{F7D43069-1AA2-4DDB-8234-3C86659A1268}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: "{item title}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240710T113610Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: National recovery
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{A29ED292-6949-45F9-AD49-164E2417E5C7}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "45d548c4-6ac9-405b-9a7e-8b41f6a61187"
+    - ID: "a695e4db-a286-4c1e-b7ac-6195d37c7c60"
+      Hint: CTA
+      Value: 
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "policy {x} card : upgrade : national recovery item"
+    - ID: "b3b418c6-9495-4f8b-be67-7ab04953e947"
+      Hint: Cover Type
+      Value: "{C14A480A-93E9-4D9B-81E4-876D6A0F1F71}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240710T113610Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240729T103929Z
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: national recovery
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240731T111848Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: National recovery
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{A29ED292-6949-45F9-AD49-164E2417E5C7}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6a948f91-a726-4b7b-81f8-0cde49f2f968"
+    - ID: "a695e4db-a286-4c1e-b7ac-6195d37c7c60"
+      Hint: CTA
+      Value: 
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "policy {x} card : upgrade : national recovery item"
+    - ID: "b3b418c6-9495-4f8b-be67-7ab04953e947"
+      Hint: Cover Type
+      Value: "{C14A480A-93E9-4D9B-81E4-876D6A0F1F71}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240731T111848Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240731T111907Z
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: national recovery
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240731T111909Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: National recovery
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{A29ED292-6949-45F9-AD49-164E2417E5C7}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "33e88829-2312-4255-af8e-b792b271c1a6"
+    - ID: "a695e4db-a286-4c1e-b7ac-6195d37c7c60"
+      Hint: CTA
+      Value: 
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "policy {x} card : upgrade : national recovery item"
+    - ID: "b3b418c6-9495-4f8b-be67-7ab04953e947"
+      Hint: Cover Type
+      Value: "{C14A480A-93E9-4D9B-81E4-876D6A0F1F71}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240731T111909Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240731T111914Z
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: National Recovery
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240806T090722Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: National recovery
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{A29ED292-6949-45F9-AD49-164E2417E5C7}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bbc06d7e-01eb-45c6-8235-3f9fa45a60cf"
+    - ID: "a695e4db-a286-4c1e-b7ac-6195d37c7c60"
+      Hint: CTA
+      Value: 
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "policy {x} card : upgrade : national recovery item"
+    - ID: "b3b418c6-9495-4f8b-be67-7ab04953e947"
+      Hint: Cover Type
+      Value: "{C14A480A-93E9-4D9B-81E4-876D6A0F1F71}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240806T090722Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240806T090806Z
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: National Recovery
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240806T090814Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: National recovery
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{A29ED292-6949-45F9-AD49-164E2417E5C7}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8ca26d5d-b898-4182-8b92-5fb83ee82df2"
+    - ID: "a695e4db-a286-4c1e-b7ac-6195d37c7c60"
+      Hint: CTA
+      Value: 
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "policy {x} card : upgrade : national recovery item"
+    - ID: "b3b418c6-9495-4f8b-be67-7ab04953e947"
+      Hint: Cover Type
+      Value: "{C14A480A-93E9-4D9B-81E4-876D6A0F1F71}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240806T090814Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240806T090820Z
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 7
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: National Recovery
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240808T111550Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: National Recovery
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{A29ED292-6949-45F9-AD49-164E2417E5C7}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4cb99e7a-659b-48cc-a47c-1b5e41d1f86c"
+    - ID: "a695e4db-a286-4c1e-b7ac-6195d37c7c60"
+      Hint: CTA
+      Value: 
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "policy {x} card : upgrade : national recovery item"
+    - ID: "b3b418c6-9495-4f8b-be67-7ab04953e947"
+      Hint: Cover Type
+      Value: "{C14A480A-93E9-4D9B-81E4-876D6A0F1F71}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240808T111550Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240808T111617Z
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 8
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: National Recovery
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240808T111623Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: National Recovery
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{A29ED292-6949-45F9-AD49-164E2417E5C7}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "276ace6e-0d66-44a1-bbbc-63203ca625e1"
+    - ID: "a695e4db-a286-4c1e-b7ac-6195d37c7c60"
+      Hint: CTA
+      Value: 
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "policy {x} card : upgrade : national recovery item"
+    - ID: "b3b418c6-9495-4f8b-be67-7ab04953e947"
+      Hint: Cover Type
+      Value: "{C14A480A-93E9-4D9B-81E4-876D6A0F1F71}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240808T111623Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240808T111627Z
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 9
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: National Recovery
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240808T111711Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: National Recovery
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{A29ED292-6949-45F9-AD49-164E2417E5C7}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8cfa954d-fd30-424f-99b7-083d98407f9f"
+    - ID: "a695e4db-a286-4c1e-b7ac-6195d37c7c60"
+      Hint: CTA
+      Value: 
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "policy {x} card : upgrade : national recovery item"
+    - ID: "b3b418c6-9495-4f8b-be67-7ab04953e947"
+      Hint: Cover Type
+      Value: "{C14A480A-93E9-4D9B-81E4-876D6A0F1F71}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240808T111711Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240808T111717Z
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 10
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: National Recovery
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240809T070320Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: National Recovery
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{A29ED292-6949-45F9-AD49-164E2417E5C7}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "307b1820-3267-4131-825d-262b9b58cbdb"
+    - ID: "a695e4db-a286-4c1e-b7ac-6195d37c7c60"
+      Hint: CTA
+      Value: 
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "policy {x} card : upgrade : national recovery item"
+    - ID: "b3b418c6-9495-4f8b-be67-7ab04953e947"
+      Hint: Cover Type
+      Value: "{C14A480A-93E9-4D9B-81E4-876D6A0F1F71}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240809T070320Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240809T070534Z
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click

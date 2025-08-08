@@ -1,0 +1,33 @@
+﻿---
+ID: "77589431-9d38-44c9-8631-247eb8616147"
+Parent: "7857cc95-c110-40ca-82d9-db2b18d8a550"
+Template: "7857cc95-c110-40ca-82d9-db2b18d8a550"
+Path: /sitecore/templates/Project/AA/Beam/Tealium Tag/Tealium Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {991F757C-6948-4E2C-988A-870FE0C59F48}
+    {5B10F495-3982-49F0-9B30-4DD7DF468946}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220303T093906Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5a248ab9-d4f4-491b-92e6-03d2f17190cd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220317T062139Z

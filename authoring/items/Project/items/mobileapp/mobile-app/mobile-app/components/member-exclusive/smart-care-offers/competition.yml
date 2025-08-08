@@ -1,0 +1,1026 @@
+﻿---
+ID: "39258f63-c934-446a-8f98-6920180601dc"
+Parent: "2acdda3b-a0aa-45fc-970e-24343cf1f242"
+Template: "d2387c09-559a-48ed-8e02-b711d9b82611"
+Path: "/sitecore/content/AA/mobile-app/mobile-app/components/member-exclusive/smart-care-offers/competition"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{B1000E0C-2CE9-47C0-AC13-5DA1DEE911D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: "{629321B5-11EA-48CF-972B-703CA65FCD9D}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241011T154718Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{5FA36979-7243-4CFC-8905-E1CD36DB652D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Switch to us and get 20% off your travel insurance
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{A83FB53C-40D8-4E4C-836C-51A8EF61C5BC}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3c67a949-c671-4058-9cbb-43262f1be4cf"
+    - ID: "92edeb27-5980-446f-b39e-13652044c493"
+      Hint: Reward Id
+      Value: 240
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241011T154718Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250625T051457Z
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{8CD7E2FF-5BC0-41BC-AFDF-23D5D3E78D40}"
+  - Version: 2
+    Fields:
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: "{629321B5-11EA-48CF-972B-703CA65FCD9D}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241016T103129Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{5FA36979-7243-4CFC-8905-E1CD36DB652D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Switch to us and get 20% off your travel insurance
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{A83FB53C-40D8-4E4C-836C-51A8EF61C5BC}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f2e54eea-2200-4da8-bfa7-ecd9bb665c7d"
+    - ID: "92edeb27-5980-446f-b39e-13652044c493"
+      Hint: Reward Id
+      Value: 329
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241016T103129Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250625T051457Z
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{8CD7E2FF-5BC0-41BC-AFDF-23D5D3E78D40}"
+  - Version: 3
+    Fields:
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: "{629321B5-11EA-48CF-972B-703CA65FCD9D}"
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Switch to us and get 20% off your travel insurance
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241023T112027Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{5FA36979-7243-4CFC-8905-E1CD36DB652D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Switch to us and get 20% off your travel insurance
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{A83FB53C-40D8-4E4C-836C-51A8EF61C5BC}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "06ae1414-0707-40b9-b90a-a3cc7f894eb9"
+    - ID: "92edeb27-5980-446f-b39e-13652044c493"
+      Hint: Reward Id
+      Value: 329
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "insurance offers: travel insurance item"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241023T112027Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250625T051458Z
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{8CD7E2FF-5BC0-41BC-AFDF-23D5D3E78D40}"
+  - Version: 4
+    Fields:
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: "{629321B5-11EA-48CF-972B-703CA65FCD9D}"
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Switch to us and get 20% off your travel insurance
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241023T112115Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{5FA36979-7243-4CFC-8905-E1CD36DB652D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Switch to us and get 20% off your travel insurance
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{A83FB53C-40D8-4E4C-836C-51A8EF61C5BC}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d0bd8ac6-4f22-47d1-ac7f-a2ff2896d1e1"
+    - ID: "92edeb27-5980-446f-b39e-13652044c493"
+      Hint: Reward Id
+      Value: 329
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "insurance offers: travel insurance item"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241023T112115Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250625T051458Z
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{8CD7E2FF-5BC0-41BC-AFDF-23D5D3E78D40}"
+  - Version: 5
+    Fields:
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: "{629321B5-11EA-48CF-972B-703CA65FCD9D}"
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Switch to us and get 20% off your travel insurance
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241023T144334Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{5FA36979-7243-4CFC-8905-E1CD36DB652D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Switch to us and get 20% off your travel insurance
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{A83FB53C-40D8-4E4C-836C-51A8EF61C5BC}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b734f2b7-edc6-4dee-a269-99298b01d0ae"
+    - ID: "92edeb27-5980-446f-b39e-13652044c493"
+      Hint: Reward Id
+      Value: 329
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "insurance offers: travel insurance item"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241023T144334Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250625T051459Z
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{8CD7E2FF-5BC0-41BC-AFDF-23D5D3E78D40}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 6
+    Fields:
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: "{629321B5-11EA-48CF-972B-703CA65FCD9D}"
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Switch to us and get 20% off your travel insurance
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241023T144357Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{5FA36979-7243-4CFC-8905-E1CD36DB652D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Switch to us and get 20% off your travel insurance
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{A83FB53C-40D8-4E4C-836C-51A8EF61C5BC}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "70e065da-f7e8-444d-830b-3775d8dee004"
+    - ID: "92edeb27-5980-446f-b39e-13652044c493"
+      Hint: Reward Id
+      Value: 240
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "insurance offers: travel insurance item"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241023T144357Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250625T051500Z
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{8CD7E2FF-5BC0-41BC-AFDF-23D5D3E78D40}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 7
+    Fields:
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: "{629321B5-11EA-48CF-972B-703CA65FCD9D}"
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Switch to us and get 20% off your travel insurance
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241025T160150Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{5FA36979-7243-4CFC-8905-E1CD36DB652D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Switch to us and get 20% off your travel insurance
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{A83FB53C-40D8-4E4C-836C-51A8EF61C5BC}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f643ea45-0ce8-4546-8d94-855fbbed0ead"
+    - ID: "92edeb27-5980-446f-b39e-13652044c493"
+      Hint: Reward Id
+      Value: 240
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: travel insurance item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241025T160150Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250625T051500Z
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{8CD7E2FF-5BC0-41BC-AFDF-23D5D3E78D40}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 8
+    Fields:
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: "{629321B5-11EA-48CF-972B-703CA65FCD9D}"
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Switch to us and get 20% off your travel insurance
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241025T160207Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{5FA36979-7243-4CFC-8905-E1CD36DB652D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Switch to us and get 20% off your travel insurance
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{A83FB53C-40D8-4E4C-836C-51A8EF61C5BC}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "206a3319-ade9-4c45-94d8-eabd0d3b9bae"
+    - ID: "92edeb27-5980-446f-b39e-13652044c493"
+      Hint: Reward Id
+      Value: 240
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: travel insurance item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241025T160207Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250625T051501Z
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{8CD7E2FF-5BC0-41BC-AFDF-23D5D3E78D40}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 9
+    Fields:
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: "{629321B5-11EA-48CF-972B-703CA65FCD9D}"
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Switch to us and get 20% off your travel insurance
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241028T153521Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{A2BCE7CE-C90F-49C6-9492-9A3160CF3E2A}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Switch to us and get 20% off your travel insurance
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{A83FB53C-40D8-4E4C-836C-51A8EF61C5BC}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "79957344-2a22-4b38-b22e-ef51b3223fb8"
+    - ID: "92edeb27-5980-446f-b39e-13652044c493"
+      Hint: Reward Id
+      Value: 240
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: travel insurance item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241028T153521Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250625T051501Z
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{8CD7E2FF-5BC0-41BC-AFDF-23D5D3E78D40}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 10
+    Fields:
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Win a Jurassic World experience in France" linktype="external" url="https://www-dev.theaa.digital/apps/competitions/jurassic?utm_medium=app-aa-ios&amp;utm_source=enter_competition&amp;utm_campaign=aa_benefits&amp;utm_content=competition_item_1" anchor="" title="Win a Jurassic World experience in France" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: "{629321B5-11EA-48CF-972B-703CA65FCD9D}"
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Win a Jurassic World experience in France
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241028T153554Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{0AADA584-E464-47B6-B9A9-ED1A7A22BF17}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Win a Jurassic World experience in France
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{A83FB53C-40D8-4E4C-836C-51A8EF61C5BC}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "993512a7-3537-42b6-bac1-025f73e89edb"
+    - ID: "92edeb27-5980-446f-b39e-13652044c493"
+      Hint: Reward Id
+      Value: 
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: competition item 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241028T153554Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250625T062651Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Win a Jurassic World experience in France" linktype="external" url="https://www-dev.theaa.digital/apps/competitions/jurassic?utm_medium=app-aa-android&amp;utm_source=enter_competition&amp;utm_campaign=aa_benefits&amp;utm_content=competition_item_1" anchor="" title="Win a Jurassic World experience in France" target="_blank" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{8CD7E2FF-5BC0-41BC-AFDF-23D5D3E78D40}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 11
+    Fields:
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Win a Jurassic World experience in France" linktype="external" url="https://www-dev.theaa.digital/apps/competitions/jurassic?utm_medium=app-aa-ios&amp;utm_source=enter_competition&amp;utm_campaign=aa_benefits&amp;utm_content=competition_item_1" anchor="" title="Win a Jurassic World experience in France" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: "{629321B5-11EA-48CF-972B-703CA65FCD9D}"
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Win a Jurassic World experience in France
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241028T153554Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{0AADA584-E464-47B6-B9A9-ED1A7A22BF17}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Win a Jurassic World experience in France
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{A83FB53C-40D8-4E4C-836C-51A8EF61C5BC}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d42c97ff-c6b1-4ee7-b62e-1ca30acb2392"
+    - ID: "92edeb27-5980-446f-b39e-13652044c493"
+      Hint: Reward Id
+      Value: 
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: competition item 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241028T153554Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250625T131145Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Win a Jurassic World experience in France" linktype="external" url="https://www-dev.theaa.digital/apps/competitions/jurassic?utm_medium=app-aa-android&amp;utm_source=enter_competition&amp;utm_campaign=aa_benefits&amp;utm_content=competition_item_1" anchor="" title="Win a Jurassic World experience in France" target="_blank" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{8CD7E2FF-5BC0-41BC-AFDF-23D5D3E78D40}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 12
+    Fields:
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Win a Jurassic World experience in France" linktype="external" url="https://www-dev.theaa.digital/apps/competitions/jurassic?utm_medium=app-aa-ios&amp;utm_source=enter_competition&amp;utm_campaign=aa_benefits&amp;utm_content=competition_item_1" anchor="" title="Win a Jurassic World experience in France" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: "{629321B5-11EA-48CF-972B-703CA65FCD9D}"
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Win a Jurassic World experience in France
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241028T153554Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{0AADA584-E464-47B6-B9A9-ED1A7A22BF17}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Win a Jurassic World experience in France
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{A83FB53C-40D8-4E4C-836C-51A8EF61C5BC}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7f8e4247-756c-4808-a328-8ce5c89dc7ac"
+    - ID: "92edeb27-5980-446f-b39e-13652044c493"
+      Hint: Reward Id
+      Value: 
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: competition item 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241028T153554Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250625T131859Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Win a Jurassic World experience in France" linktype="external" url="https://www-dev.theaa.digital/apps/competitions/jurassic?utm_medium=app-aa-android&amp;utm_source=enter_competition&amp;utm_campaign=aa_benefits&amp;utm_content=competition_item_1" anchor="" title="Win a Jurassic World experience in France" target="_blank" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{8CD7E2FF-5BC0-41BC-AFDF-23D5D3E78D40}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 13
+    Fields:
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Win a Jurassic World experience in France" linktype="external" url="https://www-dev.theaa.digital/apps/competitions/jurassic?utm_medium=app-aa-ios&amp;utm_source=enter_competition&amp;utm_campaign=aa_benefits&amp;utm_content=competition_item_1" anchor="" title="Win a Jurassic World experience in France" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: "{629321B5-11EA-48CF-972B-703CA65FCD9D}"
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Win a Jurassic World experience in France
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241028T153554Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{0AADA584-E464-47B6-B9A9-ED1A7A22BF17}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Win a Jurassic World experience in France
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{A83FB53C-40D8-4E4C-836C-51A8EF61C5BC}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5ef37d8a-a9ee-4434-9dc2-3e2e2e0711cc"
+    - ID: "92edeb27-5980-446f-b39e-13652044c493"
+      Hint: Reward Id
+      Value: 
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: competition item 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241028T153554Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250625T132312Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Win a Jurassic World experience in France" linktype="external" url="https://www-dev.theaa.digital/apps/competitions/jurassic?utm_medium=app-aa-android&amp;utm_source=enter_competition&amp;utm_campaign=aa_benefits&amp;utm_content=competition_item_1" anchor="" title="Win a Jurassic World experience in France" target="_blank" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{8CD7E2FF-5BC0-41BC-AFDF-23D5D3E78D40}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 14
+    Fields:
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Win a Jurassic World experience in France" linktype="external" url="https://www.theaa.com/apps/competitions/jurassic?mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=enter_competition&amp;utm_campaign=aa_benefits&amp;utm_content=competition_item_1" anchor="" title="Win a Jurassic World experience in France" target="" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: "{629321B5-11EA-48CF-972B-703CA65FCD9D}"
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Win a Jurassic World experience in France
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241028T153554Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{0AADA584-E464-47B6-B9A9-ED1A7A22BF17}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Win a Jurassic World experience in France
+    - ID: "7f6d5b2b-ed81-4546-b0f5-4c73c7c8b2a7"
+      Hint: Hide Badge
+      Value: "{629321B5-11EA-48CF-972B-703CA65FCD9D}"
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{2822106C-690C-4D5A-826D-85E119EEC539}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9490248c-d405-490b-afc2-695c9752d0aa"
+    - ID: "92edeb27-5980-446f-b39e-13652044c493"
+      Hint: Reward Id
+      Value: 
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: competition item 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241028T153554Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250627T125428Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Win a Jurassic World experience in France" linktype="external" url="https://www-dev.theaa.digital/apps/competitions/jurassic?mobileapps=true&amp;utm_medium=app-aa-android&amp;utm_source=enter_competition&amp;utm_campaign=aa_benefits&amp;utm_content=competition_item_1" anchor="" title="Win a Jurassic World experience in France" target="" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{8CD7E2FF-5BC0-41BC-AFDF-23D5D3E78D40}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 15
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Win a Jurassic World experience in France" linktype="external" url="https://www.theaa.com/apps/competitions/jurassic?mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=enter_competition&amp;utm_campaign=aa_benefits&amp;utm_content=competition_item_1" anchor="" title="Win a Jurassic World experience in France" target="" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: "{629321B5-11EA-48CF-972B-703CA65FCD9D}"
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Win a Jurassic World experience in France
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250704T123905Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{0AADA584-E464-47B6-B9A9-ED1A7A22BF17}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Win a Jurassic World trip
+    - ID: "7f6d5b2b-ed81-4546-b0f5-4c73c7c8b2a7"
+      Hint: Hide Badge
+      Value: "{629321B5-11EA-48CF-972B-703CA65FCD9D}"
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{2822106C-690C-4D5A-826D-85E119EEC539}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a47e80f8-a775-4dc4-9e91-955a494730c7"
+    - ID: "92edeb27-5980-446f-b39e-13652044c493"
+      Hint: Reward Id
+      Value: 
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: competition item 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20250704T123905Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250704T124038Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Win a Jurassic World experience in France" linktype="external" url="https://www.theaa.com/apps/competitions/jurassic?mobileapps=true&amp;utm_medium=app-aa-android&amp;utm_source=enter_competition&amp;utm_campaign=aa_benefits&amp;utm_content=competition_item_1" anchor="" title="Win a Jurassic World experience in France" target="" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{8CD7E2FF-5BC0-41BC-AFDF-23D5D3E78D40}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click

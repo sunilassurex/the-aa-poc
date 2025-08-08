@@ -1,0 +1,61 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Foundation.TheAA",
+  "items": {
+    "includes": [    
+      {
+        "name": "templatesAllSites",
+        "path": "/sitecore/templates/AllSites",
+        "allowedPushOperations": "CreateAndUpdate"
+      },
+      {
+        "name": "CodeHouseFolder",
+        "path": "/sitecore/templates/Codehouse",
+        "scope": "SingleItem",
+        "allowedPushOperations": "CreateAndUpdate"
+      },
+      {
+        "name": "templatesCodehouseCommon",
+        "path": "/sitecore/templates/Codehouse/Common",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "templatesMobileAppFolder",
+        "path": "/sitecore/templates/Common/Mobile App Folder",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "templateTheAA",
+        "path": "/sitecore/templates/TheAA",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "templateAA",
+        "path": "/sitecore/templates/Foundation/AA",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "ValidationRules",
+        "path": "/sitecore/system/Settings/Validation Rules/Field Rules/TheAA",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "SystemFoundationAA",
+        "path": "/sitecore/system/Settings/Foundation/AA",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "SettingsInsertRulesTheAA",
+        "path": "/sitecore/system/Settings/Insert Rules/The AA",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      }
+    ]
+  },
+  "roles": [
+    {
+      "domain": "sitecore",
+      "pattern": "AA*",
+      "allowedPushOperations": "CreateAndUpdate"
+    }
+  ]
+}

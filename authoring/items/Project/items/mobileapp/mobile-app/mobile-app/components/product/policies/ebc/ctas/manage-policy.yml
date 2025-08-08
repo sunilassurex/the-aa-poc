@@ -1,0 +1,401 @@
+﻿---
+ID: "b358696c-90f4-4c3e-91f6-21713d415ab2"
+Parent: "1327a6c2-762a-482f-b75e-39a8cdff426d"
+Template: "e957a8dc-bdc3-432b-ae35-a83524e9cb57"
+Path: "/sitecore/content/AA/mobile-app/mobile-app/components/product/policies/ebc/ctas/manage-policy"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{9E166412-DE13-42B7-AF3C-C0D0D0291528}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: "{button label}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240708T145132Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Manage policy
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{9B10B100-47FB-4B58-8700-26A56930E5C0}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1e9642be-1b2c-485d-8a5c-757f7982f257"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "policy {x} card : manage policy button"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240715T111120Z
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: "{button label}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240722T133539Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Manage policy
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{84254C77-B709-4A0B-833E-B1BE6C3955ED}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "07e6ebbe-9ad9-4e66-bcd7-09ad95069fad"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "policy {x} card : manage policy button"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240722T133539Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240722T134328Z
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: "{button label}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240723T122546Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Manage policy
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{84254C77-B709-4A0B-833E-B1BE6C3955ED}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cfc19206-3ccd-49c0-8f05-a24cae395a66"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "policy {x} card : manage policy button"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240723T122546Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240723T132844Z
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Manage policy" linktype="javascript" url="javascript:internal://manage-policy/{policy_id}" anchor="" title="Manage policy" />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Manage policy
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240731T114343Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Manage policy
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{84254C77-B709-4A0B-833E-B1BE6C3955ED}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3f8e6bc6-b8e2-4860-a065-84b014dd8975"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "policy {x} card : manage policy button"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240731T114343Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240731T114450Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Manage policy" linktype="javascript" url="javascript:internal://manage-policy/{policy_id}" anchor="" title="Manage policy" />
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Manage policy" linktype="javascript" url="javascript:internal://manage-policy/{policy_id}" anchor="" title="Manage policy" />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Manage policy
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240731T114459Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Manage policy
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{84254C77-B709-4A0B-833E-B1BE6C3955ED}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2491219c-bf2c-4de9-bcfd-337bf8adcc7d"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "policy {x} card : manage policy button"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240731T114459Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240731T114503Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Manage policy" linktype="javascript" url="javascript:internal://manage-policy/{policy_id}" anchor="" title="Manage policy" />
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Manage policy" linktype="javascript" url="javascript:internal://home/manage-policy/{policy_id}" anchor="" title="Manage policy" />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Manage policy
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240802T094318Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Manage policy
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{84254C77-B709-4A0B-833E-B1BE6C3955ED}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c73a3afb-fdc1-49c6-84f5-97d7f5b587ba"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "policy {x} card : manage policy button"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240802T094318Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240802T094342Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Manage policy" linktype="javascript" url="javascript:internal://home/manage-policy/{policy_id}" anchor="" title="Manage policy" />
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 7
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Manage policy" linktype="javascript" url="javascript:internal://home/manage-policy/{policy_id}" anchor="" title="Manage policy" />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Manage policy
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240802T094345Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Manage policy
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{84254C77-B709-4A0B-833E-B1BE6C3955ED}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a11c1ef9-d300-4ceb-b4f3-021d1ceb01d0"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "policy {x} card : manage policy button"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240802T094345Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240802T094350Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Manage policy" linktype="javascript" url="javascript:internal://home/manage-policy/{policy_id}" anchor="" title="Manage policy" />
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click

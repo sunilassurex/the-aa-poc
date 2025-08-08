@@ -1,0 +1,726 @@
+﻿---
+ID: "4de47cac-016b-4859-9857-46a16fa9d9ef"
+Parent: "3d782a25-d588-4df9-b225-bbb28d02e888"
+Template: "45677e3e-efd4-4683-9b2a-32ca1a763e48"
+Path: "/sitecore/content/AA/mobile-app/mobile-app/components/discover/discover-items/buying-a-used-car"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link linktype="external" url="https://www.theaa.com/cars/?gad_source=1&amp;gclid=CjwKCAjwr7ayBhAPEiwA6EIGxLFgEcTm8upAr362tDKqWjkGJCGE1mwzwxfauGBUofQ8NdLdYeQ9-RoCEZEQAvD_BwE" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240701T181900Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: All ours come with a history check and breakdown cover
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: "Buying a used car?"
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{75ED0AEE-5B96-4F47-9E37-92D2EE5C4F83}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "88dd66bf-d2bf-4778-a390-b01c56b5238c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240704T113744Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link linktype="external" url="https://www.theaa.com/cars/?gad_source=1&amp;gclid=CjwKCAjwr7ayBhAPEiwA6EIGxLFgEcTm8upAr362tDKqWjkGJCGE1mwzwxfauGBUofQ8NdLdYeQ9-RoCEZEQAvD_BwE" />
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link linktype="external" url="https://www.theaa.com/cars/?gad_source=1&amp;gclid=CjwKCAjwr7ayBhAPEiwA6EIGxLFgEcTm8upAr362tDKqWjkGJCGE1mwzwxfauGBUofQ8NdLdYeQ9-RoCEZEQAvD_BwE" />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: "{item title}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240712T141501Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: All ours come with a history check and breakdown cover
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: "Buying a used car?"
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{75ED0AEE-5B96-4F47-9E37-92D2EE5C4F83}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2fb5cfb2-b8c6-4a55-8e27-5d63d2b0611d"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "discover : buy a used car item"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240712T141501Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240718T113834Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link linktype="external" url="https://www.theaa.com/cars/?gad_source=1&amp;gclid=CjwKCAjwr7ayBhAPEiwA6EIGxLFgEcTm8upAr362tDKqWjkGJCGE1mwzwxfauGBUofQ8NdLdYeQ9-RoCEZEQAvD_BwE" />
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{7F65E362-C187-485C-86D6-B319C9E7BFFF}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link linktype="external" url="https://www.theaa.com/cars?utm_medium=app-aa-{ios OR android}&amp;utm_source=cars_home&amp;utm_campaign=home&amp;utm_content=discover_buy_used_car" />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: "{item title}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240723T084028Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: All ours come with a history check and breakdown cover
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: "Buying a used car?"
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{75ED0AEE-5B96-4F47-9E37-92D2EE5C4F83}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ed4648a8-d2e2-4935-a414-13b153253386"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "discover : buy a used car item"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240723T084028Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240723T132236Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link linktype="external" url="https://www.theaa.com/cars?utm_medium=app-aa-{ios OR android}&amp;utm_source=cars_home&amp;utm_campaign=home&amp;utm_content=discover_buy_used_car" />
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{7F65E362-C187-485C-86D6-B319C9E7BFFF}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link linktype="external" url="https://www.theaa.com/cars?utm_medium=app-aa-{ios}&amp;utm_source=cars_home&amp;utm_campaign=home&amp;utm_content=discover_buy_used_car" />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: "{item title}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240726T150814Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: All ours come with a history check and breakdown cover
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: "Buying a used car?"
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{75ED0AEE-5B96-4F47-9E37-92D2EE5C4F83}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "aa28448f-731a-478f-85b1-2228f42b3dd6"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "discover : buy a used car item"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240726T150814Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240726T150832Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link linktype="external" url="https://www.theaa.com/cars?utm_medium=app-aa-{android}&amp;utm_source=cars_home&amp;utm_campaign=home&amp;utm_content=discover_buy_used_car" />
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{7F65E362-C187-485C-86D6-B319C9E7BFFF}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link linktype="external" url="https://www.theaa.com/cars?utm_medium=app-aa-{ios}&amp;utm_source=cars_home&amp;utm_campaign=home&amp;utm_content=discover_buy_used_car" />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: "{item title}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240726T150836Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: All ours come with a history check and breakdown cover
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: "Buying a used car?"
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{75ED0AEE-5B96-4F47-9E37-92D2EE5C4F83}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "69fdb344-dd2f-4cbe-bd57-9f2948bf894a"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "discover : buy a used car item"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240726T150836Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240726T150840Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link linktype="external" url="https://www.theaa.com/cars?utm_medium=app-aa-{android}&amp;utm_source=cars_home&amp;utm_campaign=home&amp;utm_content=discover_buy_used_car" />
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{7F65E362-C187-485C-86D6-B319C9E7BFFF}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link linktype="external" url="https://www.theaa.com/cars?utm_medium=app-aa-ios&amp;utm_source=cars_home&amp;utm_campaign=home&amp;utm_content=discover_buy_used_car" />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: "{item title}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240726T152708Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: All ours come with a history check and breakdown cover
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: "Buying a used car?"
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{75ED0AEE-5B96-4F47-9E37-92D2EE5C4F83}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "14ca78d4-5fac-4783-b319-85ffab9777ef"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "discover : buy a used car item"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240726T152708Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240726T152725Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link linktype="external" url="https://www.theaa.com/cars?utm_medium=app-aa-android&amp;utm_source=cars_home&amp;utm_campaign=home&amp;utm_content=discover_buy_used_car" />
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{7F65E362-C187-485C-86D6-B319C9E7BFFF}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 7
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link linktype="external" url="https://www.theaa.com/cars?utm_medium=app-aa-ios&amp;utm_source=cars_home&amp;utm_campaign=home&amp;utm_content=discover_buy_used_car" />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: "{item title}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240726T152729Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: All ours come with a history check and breakdown cover
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: "Buying a used car?"
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{75ED0AEE-5B96-4F47-9E37-92D2EE5C4F83}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "338650c0-b6cd-4bd8-b621-363e099d28b5"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "discover : buy a used car item"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240726T152729Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240726T152733Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link linktype="external" url="https://www.theaa.com/cars?utm_medium=app-aa-android&amp;utm_source=cars_home&amp;utm_campaign=home&amp;utm_content=discover_buy_used_car" />
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{7F65E362-C187-485C-86D6-B319C9E7BFFF}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 8
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Buying a used car?" linktype="external" url="https://www.theaa.com/cars?utm_medium=app-aa-ios&amp;utm_source=cars_home&amp;utm_campaign=home&amp;utm_content=discover_buy_used_car" anchor="" title="Buying a used car?" target="" />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: "{item title}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240729T160224Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: All ours come with a history check and breakdown cover
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: "Buying a used car?"
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{75ED0AEE-5B96-4F47-9E37-92D2EE5C4F83}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "51710a72-a452-4cf1-9503-f22a9fd0d8d8"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "discover : buy a used car item"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240729T160224Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240729T160411Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Buying a used car?" linktype="external" url="https://www.theaa.com/cars?utm_medium=app-aa-android&amp;utm_source=cars_home&amp;utm_campaign=home&amp;utm_content=discover_buy_used_car" anchor="" title="Buying a used car?" target="" />
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{7F65E362-C187-485C-86D6-B319C9E7BFFF}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 9
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Buying a used car?" linktype="external" url="https://www.theaa.com/cars?utm_medium=app-aa-ios&amp;utm_source=cars_home&amp;utm_campaign=home&amp;utm_content=discover_buy_used_car" anchor="" title="Buying a used car?" target="" />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: "Buying a used car?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240729T160414Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: All ours come with a history check and breakdown cover
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: "Buying a used car?"
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{75ED0AEE-5B96-4F47-9E37-92D2EE5C4F83}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "27ab6274-a643-4efc-97e7-977e266a98e6"
+    - ID: "936c7048-14a6-4e9b-8e00-163f2d483675"
+      Hint: Policy Type
+      Value: |
+        {E1EF9AF7-7B93-437E-B834-338EE01C80DD}
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {75029BBA-4704-4711-924E-D86AFF70BE5C}
+        {8D8F3EC3-6FA9-47C8-B97B-4AFD7DC2E3E1}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "discover : buy a used car item"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240729T160414Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241106T162727Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Buying a used car?" linktype="external" url="https://www.theaa.com/cars?utm_medium=app-aa-android&amp;utm_source=cars_home&amp;utm_campaign=home&amp;utm_content=discover_buy_used_car" anchor="" title="Buying a used car?" target="" />
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{7F65E362-C187-485C-86D6-B319C9E7BFFF}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 10
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Buying a used car?" linktype="javascript" url="javascript:internal://vehicles/aa-cars" anchor="" title="Buying a used car?" />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: "Buying a used car?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241122T124717Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: All ours come with a history check and breakdown cover
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: "Buying a used car?"
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{75ED0AEE-5B96-4F47-9E37-92D2EE5C4F83}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f283f6f9-1a65-4077-853a-e29215c1f6f7"
+    - ID: "936c7048-14a6-4e9b-8e00-163f2d483675"
+      Hint: Policy Type
+      Value: |
+        {E1EF9AF7-7B93-437E-B834-338EE01C80DD}
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {75029BBA-4704-4711-924E-D86AFF70BE5C}
+        {8D8F3EC3-6FA9-47C8-B97B-4AFD7DC2E3E1}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "discover : buy a used car item"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241122T124717Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241122T130205Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Buying a used car?" linktype="javascript" url="javascript:internal://vehicles/aa-cars" anchor="" title="Buying a used car?" />
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{7F65E362-C187-485C-86D6-B319C9E7BFFF}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 11
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Buying a used car?" linktype="javascript" url="javascript:internal://vehicles/aa-cars?isHome=true" anchor="" title="Buying a used car?" />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: "Buying a used car?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241125T134009Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: All ours come with a history check and breakdown cover
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: "Buying a used car?"
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{75ED0AEE-5B96-4F47-9E37-92D2EE5C4F83}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6edb2ef0-f227-4b83-97a8-0a2fe4e3d598"
+    - ID: "936c7048-14a6-4e9b-8e00-163f2d483675"
+      Hint: Policy Type
+      Value: |
+        {E1EF9AF7-7B93-437E-B834-338EE01C80DD}
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {75029BBA-4704-4711-924E-D86AFF70BE5C}
+        {8D8F3EC3-6FA9-47C8-B97B-4AFD7DC2E3E1}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "discover : buy a used car item"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241125T134009Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241125T134042Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Buying a used car?" linktype="javascript" url="javascript:internal://vehicles/aa-cars?isHome=true" anchor="" title="Buying a used car?" />
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{7F65E362-C187-485C-86D6-B319C9E7BFFF}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click

@@ -1,0 +1,23 @@
+﻿---
+ID: "1ab25e8f-c1f0-4c52-bfd3-1d33818eb7ed"
+Parent: "3a0cc7aa-171c-437d-96cf-112de95032d5"
+Template: "3a0cc7aa-171c-437d-96cf-112de95032d5"
+Path: /sitecore/templates/TheAA/Modules/ProductComparison/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160406T101224Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dd7b4854-f15c-488e-b2f9-8045e4a1a68d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20160406T101520Z

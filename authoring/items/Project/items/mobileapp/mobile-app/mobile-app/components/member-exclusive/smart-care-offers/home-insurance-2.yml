@@ -1,0 +1,1159 @@
+﻿---
+ID: "c402c636-9287-4421-b9bb-c9c9d02f97d4"
+Parent: "2acdda3b-a0aa-45fc-970e-24343cf1f242"
+Template: "d2387c09-559a-48ed-8e02-b711d9b82611"
+Path: "/sitecore/content/AA/mobile-app/mobile-app/components/member-exclusive/smart-care-offers/home-insurance-2"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{B1000E0C-2CE9-47C0-AC13-5DA1DEE911D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Insure your home with us and save 10%" linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNT-IOS" anchor="" title="Insure your home with us and save 10%" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {8D8F3EC3-6FA9-47C8-B97B-4AFD7DC2E3E1}
+        {75029BBA-4704-4711-924E-D86AFF70BE5C}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241017T145936Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{A2BCE7CE-C90F-49C6-9492-9A3160CF3E2A}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Insure your home with us and save 10%
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5364648D-A693-4E27-B7A5-FB80B5776FB3}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "72d33621-426e-4a8f-8ac3-5e36ce4a607f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241017T145936Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241018T101845Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Insure your home with us and save 10%" linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNTA   " anchor="" title="Insure your home with us and save 10%" target="" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Insure your home with us and save 10%" linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNT-IOS" anchor="" title="Insure your home with us and save 10%" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {8D8F3EC3-6FA9-47C8-B97B-4AFD7DC2E3E1}
+        {75029BBA-4704-4711-924E-D86AFF70BE5C}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Insure your home with us and save 10%
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241023T111855Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{A2BCE7CE-C90F-49C6-9492-9A3160CF3E2A}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Insure your home with us and save 10%
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5364648D-A693-4E27-B7A5-FB80B5776FB3}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5bfc234e-75fb-4723-a358-46b8c3cdecdf"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "insurance offers: home insurance item"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241023T111855Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241023T112006Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Insure your home with us and save 10%" linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNTA   " anchor="" title="Insure your home with us and save 10%" target="" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Insure your home with us and save 10%" linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNT-IOS" anchor="" title="Insure your home with us and save 10%" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {8D8F3EC3-6FA9-47C8-B97B-4AFD7DC2E3E1}
+        {75029BBA-4704-4711-924E-D86AFF70BE5C}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Insure your home with us and save 10%
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241023T112010Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{A2BCE7CE-C90F-49C6-9492-9A3160CF3E2A}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Insure your home with us and save 10%
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5364648D-A693-4E27-B7A5-FB80B5776FB3}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "eb7ff199-4110-40aa-a521-05f6cbc6953e"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "insurance offers: home insurance item"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241023T112010Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241023T112014Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Insure your home with us and save 10%" linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNTA   " anchor="" title="Insure your home with us and save 10%" target="" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Insure your home with us and save 10%" linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNT-IOS" anchor="" title="Insure your home with us and save 10%" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {8D8F3EC3-6FA9-47C8-B97B-4AFD7DC2E3E1}
+        {75029BBA-4704-4711-924E-D86AFF70BE5C}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Insure your home with us and save 10%
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241023T144301Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{A2BCE7CE-C90F-49C6-9492-9A3160CF3E2A}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Insure your home with us and save 10%
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5364648D-A693-4E27-B7A5-FB80B5776FB3}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b50e84a7-a40d-4aca-afe5-f9805b7fe67f"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "insurance offers: home insurance item"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241023T144301Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241023T144319Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Insure your home with us and save 10%" linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNTA   " anchor="" title="Insure your home with us and save 10%" target="" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Insure your home with us and save 10%" linktype="external" url="https://www-uat.theaa.digital/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNT-IOS" anchor="" title="Insure your home with us and save 10%" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {8D8F3EC3-6FA9-47C8-B97B-4AFD7DC2E3E1}
+        {75029BBA-4704-4711-924E-D86AFF70BE5C}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Insure your home with us and save 10%
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241023T144323Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{A2BCE7CE-C90F-49C6-9492-9A3160CF3E2A}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Insure your home with us and save 10%
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5364648D-A693-4E27-B7A5-FB80B5776FB3}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c32b435b-6909-4fe5-99e6-9fa26949d6a6"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "insurance offers: home insurance item"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241023T144323Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241025T112423Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Insure your home with us and save 10%" linktype="external" url="https://www-uat.theaa.digital/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNTA   " anchor="" title="Insure your home with us and save 10%" target="" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Insure your home with us and save 10%" linktype="external" url="https://www-uat.theaa.digital/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNT-IOS" anchor="" title="Insure your home with us and save 10%" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {8D8F3EC3-6FA9-47C8-B97B-4AFD7DC2E3E1}
+        {75029BBA-4704-4711-924E-D86AFF70BE5C}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Insure your home with us and save 10%
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241025T160127Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{A2BCE7CE-C90F-49C6-9492-9A3160CF3E2A}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Insure your home with us and save 10%
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5364648D-A693-4E27-B7A5-FB80B5776FB3}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9785e1a4-17cc-4314-a650-67fbd8ed5b96"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: home insurance item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241025T160127Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241025T160139Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Insure your home with us and save 10%" linktype="external" url="https://www-uat.theaa.digital/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNTA   " anchor="" title="Insure your home with us and save 10%" target="" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 7
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Insure your home with us and save 10%" linktype="external" url="https://www-uat.theaa.digital/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNT-IOS" anchor="" title="Insure your home with us and save 10%" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {8D8F3EC3-6FA9-47C8-B97B-4AFD7DC2E3E1}
+        {75029BBA-4704-4711-924E-D86AFF70BE5C}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Insure your home with us and save 10%
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241025T160142Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{A2BCE7CE-C90F-49C6-9492-9A3160CF3E2A}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Insure your home with us and save 10%
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5364648D-A693-4E27-B7A5-FB80B5776FB3}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "da85b956-b3be-4570-a5ad-ae02053a566a"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: home insurance item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241025T160142Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241025T160147Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Insure your home with us and save 10%" linktype="external" url="https://www-uat.theaa.digital/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNTA   " anchor="" title="Insure your home with us and save 10%" target="" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 8
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Insure your home with us and save 10%" linktype="external" url="https://www-uat.theaa.digital/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNT-IOS&amp;mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=buy_home_insurance&amp;utm_campaign=benefits&amp;utm_content=aa_benefits_benefit_item" anchor="" title="Insure your home with us and save 10%" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {8D8F3EC3-6FA9-47C8-B97B-4AFD7DC2E3E1}
+        {75029BBA-4704-4711-924E-D86AFF70BE5C}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Insure your home with us and save 10%
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241028T110113Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{A2BCE7CE-C90F-49C6-9492-9A3160CF3E2A}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Insure your home with us and save 10%
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5364648D-A693-4E27-B7A5-FB80B5776FB3}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4bfae3fb-5f65-4ce7-b58c-2ee290690ee9"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: home insurance item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241028T110113Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241028T110213Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Insure your home with us and save 10%" linktype="external" url="https://www-uat.theaa.digital/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNTA&amp;mobileapps=true&amp;utm_medium=app-aa-android&amp;utm_source=buy_home_insurance&amp;utm_campaign=benefits&amp;utm_content=aa_benefits_benefit_item" anchor="" title="Insure your home with us and save 10%" target="_blank" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 9
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Insure your home with us and save 10%" linktype="external" url="https://www-uat.theaa.digital/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNT-IOS&amp;mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=buy_home_insurance&amp;utm_campaign=benefits&amp;utm_content=aa_benefits_benefit_item" anchor="" title="Insure your home with us and save 10%" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {8D8F3EC3-6FA9-47C8-B97B-4AFD7DC2E3E1}
+        {75029BBA-4704-4711-924E-D86AFF70BE5C}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Insure your home with us and save 10%
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241028T110216Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{A2BCE7CE-C90F-49C6-9492-9A3160CF3E2A}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Insure your home with us and save 10%
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5364648D-A693-4E27-B7A5-FB80B5776FB3}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8e6d4684-32f6-4266-9325-d0045f0ff74d"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: home insurance item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241028T110216Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241028T110219Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Insure your home with us and save 10%" linktype="external" url="https://www-uat.theaa.digital/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNTA&amp;mobileapps=true&amp;utm_medium=app-aa-android&amp;utm_source=buy_home_insurance&amp;utm_campaign=benefits&amp;utm_content=aa_benefits_benefit_item" anchor="" title="Insure your home with us and save 10%" target="_blank" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 10
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Insure your home with us and save 10%" linktype="external" url="https://www-uat.theaa.digital/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNT-IOS&amp;mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=buy_home_insurance&amp;utm_campaign=benefits&amp;utm_content=home_insurance_item" anchor="" title="Insure your home with us and save 10%" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {8D8F3EC3-6FA9-47C8-B97B-4AFD7DC2E3E1}
+        {75029BBA-4704-4711-924E-D86AFF70BE5C}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Insure your home with us and save 10%
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241101T094030Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{A2BCE7CE-C90F-49C6-9492-9A3160CF3E2A}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Insure your home with us and save 10%
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5364648D-A693-4E27-B7A5-FB80B5776FB3}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "574d3d79-bf10-4e11-94c1-0083e45c7002"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: home insurance item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241101T094030Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241101T094116Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Insure your home with us and save 10%" linktype="external" url="https://www-uat.theaa.digital/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNTA&amp;mobileapps=true&amp;utm_medium=app-aa-android&amp;utm_source=buy_home_insurance&amp;utm_campaign=benefits&amp;utm_content=home_insurance_item" anchor="" title="Insure your home with us and save 10%" target="_blank" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 11
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Insure your home with us and save 10%" linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNT-IOS&amp;mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=buy_home_insurance&amp;utm_campaign=benefits&amp;utm_content=home_insurance_item" anchor="" title="Insure your home with us and save 10%" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {8D8F3EC3-6FA9-47C8-B97B-4AFD7DC2E3E1}
+        {75029BBA-4704-4711-924E-D86AFF70BE5C}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Insure your home with us and save 10%
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241101T094119Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{A2BCE7CE-C90F-49C6-9492-9A3160CF3E2A}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Insure your home with us and save 10%
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5364648D-A693-4E27-B7A5-FB80B5776FB3}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b82ff35d-050b-4c23-8997-91b5243eeb24"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: home insurance item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241101T094119Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241106T163016Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Insure your home with us and save 10%" linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNTA&amp;mobileapps=true&amp;utm_medium=app-aa-android&amp;utm_source=buy_home_insurance&amp;utm_campaign=benefits&amp;utm_content=home_insurance_item" anchor="" title="Insure your home with us and save 10%" target="_blank" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 12
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Insure your home with us and save 10%" linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNT-IOS&amp;mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=buy_home_insurance&amp;utm_campaign=aa_benefits&amp;utm_content=insurance_offers_home_insurance_item" anchor="" title="Insure your home with us and save 10%" target="" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {8D8F3EC3-6FA9-47C8-B97B-4AFD7DC2E3E1}
+        {75029BBA-4704-4711-924E-D86AFF70BE5C}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Insure your home with us and save 10%
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241112T085657Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{A2BCE7CE-C90F-49C6-9492-9A3160CF3E2A}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Insure your home with us and save 10%
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5364648D-A693-4E27-B7A5-FB80B5776FB3}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5cafa49c-026d-4573-990b-a2d5c9e5c986"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: home insurance item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241112T085657Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241112T085813Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Insure your home with us and save 10%" linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNTA&amp;mobileapps=true&amp;utm_medium=app-aa-android&amp;utm_source=buy_home_insurance&amp;utm_campaign=aa_benefits&amp;utm_content=insurance_offers_home_insurance_item" anchor="" title="Insure your home with us and save 10%" target="" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 13
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Insure your home with us and save 10%" linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNT-IOS&amp;mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=buy_home_insurance&amp;utm_campaign=aa_benefits&amp;utm_content=insurance_offers_home_insurance_item" anchor="" title="Insure your home with us and save 10%" target="" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {8D8F3EC3-6FA9-47C8-B97B-4AFD7DC2E3E1}
+        {75029BBA-4704-4711-924E-D86AFF70BE5C}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Insure your home with us and save 10%
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241112T085818Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{A2BCE7CE-C90F-49C6-9492-9A3160CF3E2A}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Insure your home with us and save 10%
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5364648D-A693-4E27-B7A5-FB80B5776FB3}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2d1ba320-5daa-411b-abf0-09e83532ddbb"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: home insurance item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241112T085818Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241112T085823Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Insure your home with us and save 10%" linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNTA&amp;mobileapps=true&amp;utm_medium=app-aa-android&amp;utm_source=buy_home_insurance&amp;utm_campaign=aa_benefits&amp;utm_content=insurance_offers_home_insurance_item" anchor="" title="Insure your home with us and save 10%" target="" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 14
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Insure your home with us and save 10%" linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNT-IOS&amp;mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=buy_home_insurance&amp;utm_campaign=aa_benefits&amp;utm_content=insurance_offers_home_insurance_item" anchor="" title="Insure your home with us and save 10%" target="" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {8D8F3EC3-6FA9-47C8-B97B-4AFD7DC2E3E1}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Insure your home with us and save 10%
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241126T101131Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{A2BCE7CE-C90F-49C6-9492-9A3160CF3E2A}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Insure your home with us and save 10%
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5364648D-A693-4E27-B7A5-FB80B5776FB3}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fbf3dc46-5185-494d-9663-7f468d8372a0"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: home insurance item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241126T101131Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241126T101149Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Insure your home with us and save 10%" linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNTA&amp;mobileapps=true&amp;utm_medium=app-aa-android&amp;utm_source=buy_home_insurance&amp;utm_campaign=aa_benefits&amp;utm_content=insurance_offers_home_insurance_item" anchor="" title="Insure your home with us and save 10%" target="" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 15
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Insure your home with us and save 10%" linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNT-IOS&amp;mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=buy_home_insurance&amp;utm_campaign=aa_benefits&amp;utm_content=insurance_offers_home_insurance_item" anchor="" title="Insure your home with us and save 10%" target="" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {8D8F3EC3-6FA9-47C8-B97B-4AFD7DC2E3E1}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Insure your home with us and save 15%
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241206T153329Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{A2BCE7CE-C90F-49C6-9492-9A3160CF3E2A}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Insure your home with us and save 15%
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5364648D-A693-4E27-B7A5-FB80B5776FB3}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "432d1030-4e5b-498d-b99f-0c625e6a654e"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: home insurance item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241206T153329Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241206T153412Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Insure your home with us and save 10%" linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNTA&amp;mobileapps=true&amp;utm_medium=app-aa-android&amp;utm_source=buy_home_insurance&amp;utm_campaign=aa_benefits&amp;utm_content=insurance_offers_home_insurance_item" anchor="" title="Insure your home with us and save 10%" target="" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click

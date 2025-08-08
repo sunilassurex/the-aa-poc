@@ -1,0 +1,26 @@
+﻿---
+ID: "26b93d86-f7e0-47f8-aac0-dcae2cf98a84"
+Parent: "a37e315b-a881-43d0-8fc1-936ec7ebb076"
+Template: "a37e315b-a881-43d0-8fc1-936ec7ebb076"
+Path: /sitecore/templates/Feature/AA/RTB/ParametersTemplate_RTBBackgroundSettings/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1b300ad2-b016-4703-ad5d-f4d01b1b62fe"
+      Hint: BackgroundStyle
+      Value: "{162BB816-334B-4029-BBE9-72295FC6203E}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160111T112108Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "758bbf06-9631-46f6-9fdf-f894417fb7e9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221208T025818Z

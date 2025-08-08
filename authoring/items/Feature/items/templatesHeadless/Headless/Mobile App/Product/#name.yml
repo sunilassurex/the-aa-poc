@@ -1,0 +1,27 @@
+﻿---
+ID: "ec6a58d2-284d-454d-ad8a-3602ecbda172"
+Parent: "4408e35d-88bc-4c8f-84f3-b0ef071f7553"
+Template: "1d03d106-7acb-4c2f-aa57-36cbd633b4db"
+Path: /sitecore/templates/Branches/Feature/Headless/Mobile App/Product/$name
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Software/32x32/registry.png
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240705T055125Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "19adb93f-b506-495c-a3c6-b500db91ec49"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240718T014202Z

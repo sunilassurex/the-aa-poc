@@ -1,0 +1,30 @@
+﻿---
+ID: "1b444ffe-e25e-4c7f-ad46-bb268435d576"
+Parent: "d4ded59b-5c5e-435d-9431-9e0ffb115155"
+Template: "d4ded59b-5c5e-435d-9431-9e0ffb115155"
+Path: /sitecore/templates/Foundation/AA/Headless/OffersSetting/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1f2e6702-e5de-462a-8916-dfb17a8003da"
+      Hint: DeviceType
+      Value: "{0269ABBB-740F-4C31-BA59-E6BE90D3361A}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240307T061650Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7f1afd84-6ba1-4f34-81d6-66c76512a82f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250410T013506Z

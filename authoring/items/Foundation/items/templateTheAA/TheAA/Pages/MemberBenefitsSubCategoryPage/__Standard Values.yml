@@ -1,0 +1,39 @@
+﻿---
+ID: "f8c6d642-b8ea-4fb2-bc94-207ba59339cc"
+Parent: "7e1f8068-bc66-4b30-af1a-4ba213fb43e9"
+Template: "7e1f8068-bc66-4b30-af1a-4ba213fb43e9"
+Path: /sitecore/templates/TheAA/Pages/MemberBenefitsSubCategoryPage/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{BB46309D-349C-4A37-A517-386A917196ED}">
+              <p:d />
+            </r>
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181207T092700Z
+    - ID: "2e31f721-b2c7-4e9f-88d5-e87d34da261f"
+      Hint: RemoveDefaultScripts
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c9c8a78a-b218-40c7-ba15-b0ad9be109c9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230323T032623Z

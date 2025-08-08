@@ -1,0 +1,23 @@
+﻿---
+ID: "c9cdfefc-e98f-4b1f-8538-90179d9b4062"
+Parent: "abb9ba68-0237-4298-a797-f05c09d53fac"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Feature/AA/Headless/Basic Content Block/Basic Content Block
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230220T114902Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "94d07906-908a-4d50-8507-234c8763c6d8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230302T024936Z

@@ -1,0 +1,210 @@
+﻿---
+ID: "fb91e886-3add-4e62-871e-85ee65d1fc83"
+Parent: "502177d3-8729-423b-b707-80470332a9d2"
+Template: "502177d3-8729-423b-b707-80470332a9d2"
+Path: /sitecore/templates/TheAA/Pages/RestaurantPage/__Standard Values
+SharedFields:
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\AA Basic Editor|pe|-item:create|-item:write|-item:delete|-item:rename|pd|-item:create|-item:write|-item:delete|-item:rename|ar|sitecore\AA Advanced Editor|pe|-item:create|-item:write|-item:delete|-item:rename|pd|-item:create|-item:write|-item:delete|-item:rename|ar|sitecore\AA Approver|pe|-item:create|-item:write|-item:delete|-item:rename|pd|-item:create|-item:write|-item:delete|-item:rename|
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{D55D083A-7513-40E5-9E6A-A7B38DD97B9A}">
+        <r
+          id="{B9125386-572A-4E74-AFE1-B0CFF521E5D1}"
+          ph="/metadata"
+          uid="{97F4A3A2-E660-424F-B42F-1C7AD0508638}" />
+        <r
+          id="{194BD64B-175D-4760-A722-B11D61E94570}"
+          ph="/metadata"
+          uid="{E2233937-255C-452D-8485-7400B7A156B3}" />
+        <r
+          id="{1D5439DC-9410-4D11-8A9F-BEFC4645D64C}"
+          ph="/metadata"
+          uid="{E2CFEA98-FE77-460B-853F-3DE8A6A382ED}" />
+        <r
+          id="{CA4AD315-27CD-47B6-BEED-B0B97CE65FE7}"
+          ph="/metadata"
+          uid="{55756A11-0831-444A-AB5A-E8A48141B38A}" />
+        <r
+          ds=""
+          id="{A167B31B-466E-496C-BA49-FD3696D06FA2}"
+          par=""
+          ph="/bodystart"
+          uid="{C6BFBF73-88CD-4A60-BD6A-1A65E9369171}" />
+        <r
+          id="{1B770013-F801-4875-B19E-BB3881229045}"
+          ph="/bodystart"
+          uid="{9FFCF737-5B3F-4156-8812-1E7CA53B6B8A}" />
+        <r
+          ds=""
+          id="{6525FA17-EE28-4A0C-AE02-6D2BAEF06ED2}"
+          par=""
+          ph="DISABLED/cookiebanner"
+          uid="{EBDC1CE2-3E20-418E-808B-1E4EF754E162}" />
+        <r
+          id="{C582CB36-C5FC-45F8-AD34-D814B3B6187E}"
+          par="test=foo"
+          ph="/theaa"
+          uid="{AFB59DDE-A881-4B86-A7D4-62EB32D155A7}" />
+        <r
+          ds="{CE20C138-928F-4D27-8EAE-C3ECE015A2FA}"
+          id="{8712E3CB-A1B6-46AB-8367-A5D9581DA30A}"
+          par=""
+          ph="/theaa/restaurantpage-r5/column-1"
+          uid="{DD378337-93D4-4D9F-90B0-D9DDB30090D8}" />
+        <r
+          id="{8C485E7D-8B64-445A-9C8A-D1A3390AD370}"
+          ph="/footer"
+          uid="{EEF859DB-DA77-4670-93FB-1219ECF7AE3E}" />
+        <r
+          id="{69C47E28-15B6-4770-A7EB-7F04B24B56D9}"
+          ph="/theaa"
+          uid="{23778377-7ED8-4EFF-A64D-FCE980B70DB9}" />
+        <r
+          id="{05ECBD90-F0FE-412A-A40D-EEE8C30933E1}"
+          ph="/theaa"
+          uid="{5E40FDB6-6966-467A-8D61-ECB5FB069299}" />
+        <r
+          ds=""
+          id="{E8DAA6AA-48A1-43E6-BB99-8647C2277848}"
+          par="RowBackgroundStyle=%7B9A854E29-FA32-4CED-AAD2-75014F72E945%7D&amp;RowWidth=%7B1D6A3446-1420-4448-9568-82A6403039E9%7D"
+          ph="restaurantpage-r1"
+          uid="{E79F07CD-BE2C-4AA5-BDBF-7D5AA2A1AA0B}" />
+        <r
+          ds=""
+          id="{57BA48BE-5CBD-4C8A-A202-BC4691236FBD}"
+          par="RowBackgroundStyle=%7B9A854E29-FA32-4CED-AAD2-75014F72E945%7D&amp;RowWidth=%7B1736ADBD-BFEC-4FC6-B098-D80E7EA74C38%7D"
+          ph="restaurantpage-r2"
+          uid="{937F37B1-A186-4B48-8D76-3FFA16E9E945}" />
+        <r
+          id="{57BA48BE-5CBD-4C8A-A202-BC4691236FBD}"
+          ph="restaurantpage-r3"
+          uid="{A6D2F2D1-064A-4F30-A2C7-A4263460671E}" />
+        <r
+          ds=""
+          id="{E8DAA6AA-48A1-43E6-BB99-8647C2277848}"
+          par="RowBackgroundStyle=%7B9A854E29-FA32-4CED-AAD2-75014F72E945%7D&amp;RowWidth=%7BE08388E2-BACA-4B4E-8AE4-54BB5EEB183B%7D"
+          ph="restaurantpage-r4"
+          uid="{B468C0E1-D5BD-491B-8419-7FFD47615011}" />
+        <r
+          id="{4FA0A664-1A1E-4DB1-8AD2-4A6913B3EC7C}"
+          ph="/theaa/restaurantpage-r1/column-1"
+          uid="{A5EAD3E1-4421-4AB3-B97B-95EA12EEE13C}" />
+        <r
+          ds=""
+          id="{DA2F9899-9227-4284-8D91-55A5B4C47B46}"
+          par=""
+          ph="/theaa/restaurantpage-r2/column-2"
+          uid="{E7F294C5-CA1A-44FC-B59F-6A3F92AE7908}" />
+        <r
+          ds=""
+          id="{C7FF5173-405B-42B6-88DB-C1DF6CB1D54F}"
+          par=""
+          ph="/theaa/restaurantpage-r2/column-1"
+          uid="{F5A3441A-2236-40DD-A342-135C8E79B3B8}" />
+        <r
+          ds=""
+          id="{7744E768-1C70-404A-A49D-4706BC9886B6}"
+          par=""
+          ph="/theaa/restaurantpage-r2/column-1"
+          uid="{A4F661E1-B154-4D04-95C5-375D75901ABC}" />
+        <r
+          ds=""
+          id="{CD6848A2-0FA1-404F-8004-840884060F6F}"
+          par="ScreenName&amp;TwitterPostCount&amp;Width=%7BFDBF3B16-FEFB-4D43-A114-3BF594048E8E%7D"
+          ph="/theaa/restaurantpage-r2/column-2"
+          uid="{95220EC4-75F4-4AFB-8803-3AED44121436}" />
+        <r
+          ds=""
+          id="{CBB8FB59-6F9C-4DE8-8305-F3105DB7BE91}"
+          par=""
+          ph="/theaa/restaurantpage-r2/column-1"
+          uid="{F2EE1D37-7437-4353-A098-4CDBDAB66D75}" />
+        <r
+          ds=""
+          id="{0FA72E5E-98F5-44CE-A7C9-ED99434EBAFD}"
+          par=""
+          ph="/theaa/restaurantpage-r2/column-1"
+          uid="{5845C093-0455-4B3E-AC3E-3152C0011546}" />
+        <r
+          ds=""
+          id="{CF8F6C22-D687-4374-8EA3-15DEB185B08F}"
+          par=""
+          ph="/theaa/restaurantpage-r2/column-1"
+          uid="{B66202D2-EB36-4DDC-9848-D54E344C905A}" />
+        <r
+          ds=""
+          id="{94A85E2E-8190-4468-9726-96DB010ED117}"
+          par=""
+          ph="/theaa/restaurantpage-r2/column-1"
+          uid="{206DAC32-52FA-49F1-832F-F1D945974C1C}" />
+        <r
+          ds=""
+          id="{3C293C3D-A3FE-4E09-A49C-B83B116E4D94}"
+          par=""
+          ph="/theaa/restaurantpage-r2/column-1"
+          uid="{8E7CE9F4-D05B-4A77-AC28-56EAC88ED80B}" />
+        <r
+          ds=""
+          id="{2F0DEDCF-FBE9-4793-94A9-8F04338AEAE1}"
+          par=""
+          ph="/theaa/restaurantpage-r3/column-1"
+          uid="{D961E886-D01C-4684-9F04-79E992C830F4}" />
+        <r
+          id="{238BA669-AEAC-47F6-B436-CAD468DD2E17}"
+          ph="/theaa/restaurantpage-r4/column-1"
+          uid="{2684E6DC-AFE1-4CC9-9862-E29E951805CA}" />
+        <r
+          ds=""
+          id="{923A0CAC-9569-4797-A0BC-2543EC318FAA}"
+          par=""
+          ph="/theaa/restaurantpage-r4/column-1"
+          uid="{EB1BE692-401A-4F39-94D5-85049AC3DEF5}" />
+        <r
+          ds=""
+          id="{E8DAA6AA-48A1-43E6-BB99-8647C2277848}"
+          par="RowBackgroundStyle=%7B9A854E29-FA32-4CED-AAD2-75014F72E945%7D&amp;RowWidth=%7BE08388E2-BACA-4B4E-8AE4-54BB5EEB183B%7D"
+          ph="restaurantpage-r5"
+          uid="{8880A7B9-9805-4330-AE52-E6D1DED5B2E1}" />
+        <r
+          ds="{BA825EBB-3EF7-4396-9C18-4169399BC32A}"
+          id="{24BD4DBF-B69A-4090-AE1C-4E6C24342DC4}"
+          par="PodWidth=%7B67621776-375D-4EC9-8E38-84AD89F8E3BE%7D&amp;Styling=%7BD2B14D6C-8218-432B-86AC-6BE284975038%7D&amp;ContentAlignment=%7B182741F7-AC04-4196-8015-A930C7AB0D6F%7D&amp;TextColour=%7BC20A13D6-F8F6-4A3B-AD92-453E7538C5CE%7D&amp;ButtonStyles=%7B7B41EBD1-0D58-454E-A7EA-BD873E5A70ED%7D&amp;SecondaryButtonStyle=%7BC1F56865-76AA-46B8-A475-9F0A3633D8F6%7D"
+          ph="/theaa/restaurantpage-r3/column-2"
+          uid="{1173A713-1B15-462F-B08C-0FBE32C7744D}" />
+        <r
+          id="{62150AB5-8424-485D-AB1F-050458C5AEED}"
+          ph="/footer"
+          uid="{B2A44659-FE4E-44C8-BC8F-83A86C30DB0D}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161011T155040Z
+    - ID: "2e31f721-b2c7-4e9f-88d5-e87d34da261f"
+      Hint: RemoveDefaultScripts
+      Value: 
+    - ID: "48737f24-10f6-4443-b2f0-04265a4647c0"
+      Hint: TealiumProfileType
+      Value: "{17CB4018-8409-4DFA-9476-767EE0857986}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a2826c8c-d5c0-4bbf-a65f-712aeae0ce21"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230323T032627Z

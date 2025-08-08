@@ -1,0 +1,26 @@
+﻿---
+ID: "763f0a7d-5f91-48d6-b73f-ce4b3e0ed767"
+Parent: "ca361649-2e5c-436c-a1a3-47b0d7a96d31"
+Template: "ca361649-2e5c-436c-a1a3-47b0d7a96d31"
+Path: /sitecore/templates/TheAA/Settings/SalesJourney/Blocks/NextStepsPromoBannerBlock/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161214T151615Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d4452c9c-2e02-4370-a9a3-b9650348988c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20161214T154322Z
+    - ID: "fdfd86d5-1862-4393-8426-42012d76f30f"
+      Hint: RenderingViewPath
+      Value: "{DBAB7968-84B6-4BB4-BE06-FF267B9794C0}"

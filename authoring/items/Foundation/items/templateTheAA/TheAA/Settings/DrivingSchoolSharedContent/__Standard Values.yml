@@ -1,0 +1,60 @@
+﻿---
+ID: "205ba97b-2f7d-4745-9579-13da007b1642"
+Parent: "12e904b2-7110-42b8-8639-b5306470554f"
+Template: "12e904b2-7110-42b8-8639-b5306470554f"
+Path: /sitecore/templates/TheAA/Settings/DrivingSchoolSharedContent/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "18ac177d-70e3-41fd-b100-6846282c1999"
+      Hint: SharedIntroduction
+      Value: |
+        <p>Our fully-qualified instructors will guide you through the process of learning to drive, and they'll be by your side every step of the way.</p>
+        <p>From learning how to park to negotiating busy junctions, learn all the skills you'll need to drive on London's roads - and beyond.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190125T132331Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "5e298e9c-293d-4f79-b7cb-4d67ff2fb2d0"
+      Hint: SharedLocationTitle
+      Value: Learning to test drive in Location.name
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5fea7767-4ce7-4dff-89f2-7a9525e901ae"
+    - ID: "99695094-c9cb-44dd-84fa-eb7f4cdeb973"
+      Hint: DrivingInstructorOffer
+      Value: |
+        <h2>What driving courses do AA Driving School offer?</h2>
+        <p>As well as driving lessons for beginners, we also offer two refresher courses for drivers who want to take their driving to the next level:</p>
+        <ul>
+        <li><strong>Refresher qualified driver lessons</strong>: General practice to brush up your skills, including town driving, all-weather driving, out-of-town driving and rural roads.<br></li>
+        <li><strong>Pass Plus</strong>: Pass Plus is a six-hour course designed by the Driving Standards Agency to help new drivers to gain confidence and experience after they pass their test.</li>
+        </ul>
+        <h2>What will you learn during your driving lessons with AA Driving School?</h2>
+        <p>Our lesson plans are designed to work around you, and you and your instructor will work at a pace that suits you. You can expect to cover off all the essentials required to pass your test, including:</p>
+        <ul>
+        <li>Meet traffic and approach junctions</li>
+        <li>Drive on different types on roads, from busy cities to quieter suburban streets</li>
+        <li>Turn in the road and reverse around a corner</li>
+        <li>Parallel and reverse bay parking</li>
+        </ul>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        theaa\Anonymous
+    - ID: "cc91f9b7-cea0-49bc-8a73-db02edca5dca"
+      Hint: InstructorQualification
+      Value: |
+        <h2>Our instructors' qualifications</h2>
+        <p>Our driving instructors' code of conduct guarantees your tuition will be delivered by a committed teacher who is fully qualified, uses an AA driver development card to track your progress, and provides complete one-to-one tuition.</p>
+        <p>Our instructors have successfully completed a full 12 to 18 months' training, with a green Driver and Vehicle Standards Agency (DVSA) badge proudly displayed in their windscreen to prove it.</p>
+        <p>That's something we insist on. No trainees and no half measures for our pupils - just quality instruction that delivers.
+        </p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210330T124408Z

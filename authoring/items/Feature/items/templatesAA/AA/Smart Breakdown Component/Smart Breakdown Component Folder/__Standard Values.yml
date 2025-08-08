@@ -1,0 +1,33 @@
+﻿---
+ID: "81802f14-8a66-46ff-ac69-10fca1df033a"
+Parent: "37cf19f0-78b2-4cf1-8dcf-85004d7bdaed"
+Template: "37cf19f0-78b2-4cf1-8dcf-85004d7bdaed"
+Path: /sitecore/templates/Feature/AA/Smart Breakdown Component/Smart Breakdown Component Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {3FCCDFDF-8417-4741-98D2-A8C99CB1D91F}
+    {991F757C-6948-4E2C-988A-870FE0C59F48}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211217T174108Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "26c9a164-444f-4897-ac40-0ce8c2938f1d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220203T044036Z

@@ -1,0 +1,30 @@
+﻿---
+ID: "72e76ac5-36ba-4d7d-9c6a-6e850ff4788d"
+Parent: "42827be8-f512-438e-b541-870bf42a345b"
+Template: "42827be8-f512-438e-b541-870bf42a345b"
+Path: /sitecore/templates/TheAA/Settings/OptimizelySnippetItem/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160629T105235Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d6999d93-0a70-43c8-94d7-0718f09bfe1d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210624T045053Z
+    - ID: "eff862be-d9d9-41ae-a472-baa6b4a9b206"
+      Hint: OptimizelySnippetType
+      Value: 

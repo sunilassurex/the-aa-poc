@@ -1,0 +1,1044 @@
+﻿---
+ID: "08beecb2-c129-4737-a498-4fd72ee6181a"
+Parent: "08e486fd-37ab-4cb7-b65c-2f126389eac2"
+Template: "743264e1-b481-44c4-8a16-e5fb0c87780d"
+Path: "/sitecore/content/AA/mobile-app/mobile-app/components/cross-sell/cross-sell-items/123123"
+SharedFields:
+- ID: "9135200a-5626-4dd8-ab9d-d665b8c11748"
+  Hint: __Never publish
+  Value: 1
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link linktype="external" url=" https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNT-IOS&amp;mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=buy_home_insurance&amp;utm_campaign=home&amp;utm_content=cross_sell_home_insurance" />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: "{item title}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240726T152542Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "34d72549-295a-4dac-b7bb-e99f69b7a852"
+      Hint: Item Type
+      Value: "{AED65101-D4BD-4E4A-BACD-BA0DE5D2187C}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: Save 20% on home insurance when you get a quote through the app
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Insure your home
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5364648D-A693-4E27-B7A5-FB80B5776FB3}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2ef113ff-ca2f-49bb-ab7d-d7d1427d9805"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "cross sell : home insurance item"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240726T152500Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250425T081741Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNTA&amp;utm_medium=app-aa-android&amp;utm_source=buy_home_insurance&amp;utm_campaign=home&amp;utm_content=cross_sell_home_insurance" />
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 2
+    Fields:
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link linktype="external" url=" https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNT-IOS&amp;mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=buy_home_insurance&amp;utm_campaign=home&amp;utm_content=cross_sell_home_insurance" />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: "{item title}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240726T152634Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "34d72549-295a-4dac-b7bb-e99f69b7a852"
+      Hint: Item Type
+      Value: "{AED65101-D4BD-4E4A-BACD-BA0DE5D2187C}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: Save 20% on home insurance when you get a quote through the app
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Insure your home
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5364648D-A693-4E27-B7A5-FB80B5776FB3}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2ca162fd-71a5-428c-b0ba-48021588ac5f"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "cross sell : home insurance item"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240726T152600Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250425T081741Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNTA&amp;utm_medium=app-aa-android&amp;utm_source=buy_home_insurance&amp;utm_campaign=home&amp;utm_content=cross_sell_home_insurance" />
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 3
+    Fields:
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link linktype="external" url="  https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNT-IOS&amp;mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=buy_home_insurance&amp;utm_campaign=home&amp;utm_content=cross_sell_home_insurance" anchor="" target="" />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: "{item title}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240730T073127Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "34d72549-295a-4dac-b7bb-e99f69b7a852"
+      Hint: Item Type
+      Value: "{AED65101-D4BD-4E4A-BACD-BA0DE5D2187C}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: Save 20% on home insurance when you get a quote through the app
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Insure your home
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5364648D-A693-4E27-B7A5-FB80B5776FB3}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b3f1f44c-088a-4fde-a49d-45e8ce2cb09c"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "cross sell : home insurance item"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240730T073100Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250425T081741Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNTA&amp;utm_medium=app-aa-android&amp;utm_source=buy_home_insurance&amp;utm_campaign=home&amp;utm_content=cross_sell_home_insurance" />
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 4
+    Fields:
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link linktype="external" url="  https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNT-IOS&amp;mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=buy_home_insurance&amp;utm_campaign=home&amp;utm_content=cross_sell_home_insurance" anchor="" target="" />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: "{item title}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240730T073327Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "34d72549-295a-4dac-b7bb-e99f69b7a852"
+      Hint: Item Type
+      Value: "{AED65101-D4BD-4E4A-BACD-BA0DE5D2187C}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: Save 20% on home insurance when you get a quote through the app
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Insure your home
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5364648D-A693-4E27-B7A5-FB80B5776FB3}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "16d959f9-e132-4584-aa45-aae5de7ef082"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "cross sell : home insurance item"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240730T073300Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250425T081741Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNTA&amp;utm_medium=app-aa-android&amp;utm_source=buy_home_insurance&amp;utm_campaign=home&amp;utm_content=cross_sell_home_insurance" />
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 5
+    Fields:
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNT-IOS&amp;mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=buy_home_insurance&amp;utm_campaign=home&amp;utm_content=cross_sell_home_insurance" anchor="" target="" />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Insure your home
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240730T135425Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "34d72549-295a-4dac-b7bb-e99f69b7a852"
+      Hint: Item Type
+      Value: "{AED65101-D4BD-4E4A-BACD-BA0DE5D2187C}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: Save 20% on home insurance when you get a quote through the app
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Insure your home
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5364648D-A693-4E27-B7A5-FB80B5776FB3}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "26a2408e-cfef-4ffe-ba0a-d664df471723"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "cross sell : home insurance item"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240730T135400Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250425T081741Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNTA&amp;utm_medium=app-aa-android&amp;utm_source=buy_home_insurance&amp;utm_campaign=home&amp;utm_content=cross_sell_home_insurance" />
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 6
+    Fields:
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNT-IOS&amp;mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=buy_home_insurance&amp;utm_campaign=home&amp;utm_content=cross_sell_home_insurance" anchor="" target="" />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Insure your home
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240731T113226Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "34d72549-295a-4dac-b7bb-e99f69b7a852"
+      Hint: Item Type
+      Value: "{AED65101-D4BD-4E4A-BACD-BA0DE5D2187C}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: Save 20% on home insurance when you get a quote through the app
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Insure your home
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5364648D-A693-4E27-B7A5-FB80B5776FB3}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "278206ba-0b5e-4d8b-9152-70554204ddea"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "cross sell : home insurance item"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240731T113200Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250425T081741Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNTA&amp;utm_medium=app-aa-android&amp;utm_source=buy_home_insurance&amp;utm_campaign=home&amp;utm_content=cross_sell_home_insurance" />
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 7
+    Fields:
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Insure your home" linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNT-IOS&amp;mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=buy_home_insurance&amp;utm_campaign=home&amp;utm_content=cross_sell_home_insurance" anchor="" title="Insure your home" target="" />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Insure your home
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240731T142402Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "34d72549-295a-4dac-b7bb-e99f69b7a852"
+      Hint: Item Type
+      Value: "{AED65101-D4BD-4E4A-BACD-BA0DE5D2187C}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: Save 20% on home insurance when you get a quote through the app
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Insure your home
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5364648D-A693-4E27-B7A5-FB80B5776FB3}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8799f9ba-8eb6-4f44-9753-703ab5e03c49"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "cross sell : home insurance item"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240731T142400Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250425T081741Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNTA&amp;utm_medium=app-aa-android&amp;utm_source=buy_home_insurance&amp;utm_campaign=home&amp;utm_content=cross_sell_home_insurance" />
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 8
+    Fields:
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Insure your home" linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNT-IOS&amp;mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=buy_home_insurance&amp;utm_campaign=home&amp;utm_content=cross_sell_home_insurance" anchor="" title="Insure your home" target="" />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Insure your home
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240731T142438Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "34d72549-295a-4dac-b7bb-e99f69b7a852"
+      Hint: Item Type
+      Value: "{AED65101-D4BD-4E4A-BACD-BA0DE5D2187C}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: Save 20% on home insurance when you get a quote through the app
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Insure your home
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5364648D-A693-4E27-B7A5-FB80B5776FB3}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "243b46aa-1d70-4b75-ad44-04799247fa6a"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "cross sell : home insurance item"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240731T142400Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250425T081742Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNTA&amp;utm_medium=app-aa-android&amp;utm_source=buy_home_insurance&amp;utm_campaign=home&amp;utm_content=cross_sell_home_insurance" />
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 9
+    Fields:
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Insure your home" linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNT-IOS&amp;mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=buy_home_insurance&amp;utm_campaign=home&amp;utm_content=cross_sell_home_insurance" anchor="" title="Insure your home" target="" />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Insure your home
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240731T142515Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "34d72549-295a-4dac-b7bb-e99f69b7a852"
+      Hint: Item Type
+      Value: "{AED65101-D4BD-4E4A-BACD-BA0DE5D2187C}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: Save 20% on home insurance when you get a quote through the app
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Insure your home
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5364648D-A693-4E27-B7A5-FB80B5776FB3}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bed4582c-23c0-4a2c-928d-e902a6519146"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "cross sell : home insurance item"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240731T142500Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250425T081742Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNTA&amp;utm_medium=app-aa-android&amp;utm_source=buy_home_insurance&amp;utm_campaign=home&amp;utm_content=cross_sell_home_insurance" />
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 10
+    Fields:
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Insure your home" linktype="external" url="https://www-uat.theaa.digital/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNT-IOS&amp;mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=buy_home_insurance&amp;utm_campaign=home&amp;utm_content=cross_sell_home_insurance" anchor="" title="Insure your home" target="" />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Insure your home
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240801T150859Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "34d72549-295a-4dac-b7bb-e99f69b7a852"
+      Hint: Item Type
+      Value: "{AED65101-D4BD-4E4A-BACD-BA0DE5D2187C}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: Save 20% on home insurance when you get a quote through the app
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Insure your home
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5364648D-A693-4E27-B7A5-FB80B5776FB3}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ddfea1b9-b1ce-4eb9-8cc7-0576f43b03ae"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "cross sell : home insurance item"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240801T150800Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250425T081742Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Insure your home" linktype="external" url="https://www-uat.theaa.digital/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNTA&amp;mobileapps=true&amp;utm_medium=app-aa-android&amp;utm_source=buy_home_insurance&amp;utm_campaign=home&amp;utm_content=cross_sell_home_insurance" anchor="" title="Insure your home" target="" />
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{EF223C74-B82D-4C49-9F51-DADA2103BC1A}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 11
+    Fields:
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Insure your home" linktype="external" url="https://www-uat.theaa.digital/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNT-IOS&amp;mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=buy_home_insurance&amp;utm_campaign=home&amp;utm_content=cross_sell_home_insurance" anchor="" title="Insure your home" target="" />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Insure your home
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241031T100655Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "34d72549-295a-4dac-b7bb-e99f69b7a852"
+      Hint: Item Type
+      Value: "{AED65101-D4BD-4E4A-BACD-BA0DE5D2187C}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: Save 10% on home insurance when you get a quote through the app
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Insure your home
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5364648D-A693-4E27-B7A5-FB80B5776FB3}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "060c1246-e979-40cf-a2f8-50fcad95e10c"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "cross sell : home insurance item"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241031T100600Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250425T081742Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Insure your home" linktype="external" url="https://www-uat.theaa.digital/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNTA&amp;mobileapps=true&amp;utm_medium=app-aa-android&amp;utm_source=buy_home_insurance&amp;utm_campaign=home&amp;utm_content=cross_sell_home_insurance" anchor="" title="Insure your home" target="" />
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{EF223C74-B82D-4C49-9F51-DADA2103BC1A}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 12
+    Fields:
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Insure your home" linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNT-IOS&amp;mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=buy_home_insurance&amp;utm_campaign=home&amp;utm_content=cross_sell_home_insurance" anchor="" title="Insure your home" target="" />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Insure your home
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241031T100718Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "34d72549-295a-4dac-b7bb-e99f69b7a852"
+      Hint: Item Type
+      Value: "{AED65101-D4BD-4E4A-BACD-BA0DE5D2187C}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: Save 10% on home insurance when you get a quote through the app
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Insure your home
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5364648D-A693-4E27-B7A5-FB80B5776FB3}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "aa5cfbf5-b32b-4dc8-a651-ea0f8b015399"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "cross sell : home insurance item"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241031T100700Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250425T081742Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Insure your home" linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNTA&amp;mobileapps=true&amp;utm_medium=app-aa-android&amp;utm_source=buy_home_insurance&amp;utm_campaign=home&amp;utm_content=cross_sell_home_insurance" anchor="" title="Insure your home" target="" />
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{EF223C74-B82D-4C49-9F51-DADA2103BC1A}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 13
+    Fields:
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Insure your home" linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNT-IOS&amp;mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=buy_home_insurance&amp;utm_campaign=home&amp;utm_content=cross_sell_home_insurance" anchor="" title="Insure your home" target="" />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Insure your home
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241111T151504Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "34d72549-295a-4dac-b7bb-e99f69b7a852"
+      Hint: Item Type
+      Value: "{AED65101-D4BD-4E4A-BACD-BA0DE5D2187C}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: Save 10% on home insurance when you get a quote through the app
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Insure your home
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5364648D-A693-4E27-B7A5-FB80B5776FB3}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3e3c3d40-d633-4985-a212-873ce6b8a9ef"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "cross sell : home insurance item"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241111T151500Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250425T081742Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Insure your home" linktype="external" url="https://www.theaa.com/home-insurance/member-discount?AffinityID=HOMEAPPDISCOUNTA&amp;mobileapps=true&amp;utm_medium=app-aa-android&amp;utm_source=buy_home_insurance&amp;utm_campaign=home&amp;utm_content=cross_sell_home_insurance" anchor="" title="Insure your home" target="" />
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{EF223C74-B82D-4C49-9F51-DADA2103BC1A}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 14
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link linktype="external" url="https://www.theaa.com/" />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Insure your home
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241206T153238Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "34d72549-295a-4dac-b7bb-e99f69b7a852"
+      Hint: Item Type
+      Value: "{AED65101-D4BD-4E4A-BACD-BA0DE5D2187C}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: Save money on the app
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Insurance for your home
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5364648D-A693-4E27-B7A5-FB80B5776FB3}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f89b047d-edf4-46ad-b6d3-2070ebc9d9df"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "cross sell : home insurance item"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241206T153200Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250425T081742Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link linktype="external" url="https://www.theaa.com/" />
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{EF223C74-B82D-4C49-9F51-DADA2103BC1A}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 15
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link linktype="external" url="https://www.theaa.com/" />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Insure your home
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250425T081501Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: home
+    - ID: "34d72549-295a-4dac-b7bb-e99f69b7a852"
+      Hint: Item Type
+      Value: "{AED65101-D4BD-4E4A-BACD-BA0DE5D2187C}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: Save money on the app
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Insurance for your home
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5364648D-A693-4E27-B7A5-FB80B5776FB3}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e05c87f0-9e42-44f6-9aa7-965144a0e02e"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "cross sell : home insurance item"
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20250425T081500Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250425T081813Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link linktype="external" url="https://www.theaa.com/" />
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{EF223C74-B82D-4C49-9F51-DADA2103BC1A}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click

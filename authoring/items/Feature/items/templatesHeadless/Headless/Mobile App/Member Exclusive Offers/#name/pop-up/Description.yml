@@ -1,0 +1,30 @@
+﻿---
+ID: "3b838787-2d54-4c4e-a64c-ba7c72dca25d"
+Parent: "fe5c2829-6074-47d3-a81b-935986740e3d"
+Template: "6fb1ce5b-b31d-4ce1-b116-3660d8945efc"
+Path: "/sitecore/templates/Branches/Feature/Headless/Mobile App/Member Exclusive Offers/$name/pop-up/Description"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240705T072543Z
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: Description
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d45d1ebf-ce82-4f87-989a-b008a7cee8e6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        theaa\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241024T015317Z

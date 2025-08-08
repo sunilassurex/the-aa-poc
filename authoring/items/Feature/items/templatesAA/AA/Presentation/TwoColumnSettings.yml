@@ -1,0 +1,36 @@
+﻿---
+ID: "ca3f34ef-64f1-42d0-8e30-cd9bd4d64237"
+Parent: "82020237-b6b5-48b5-a389-fce25dd2155c"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/AA/Presentation/TwoColumnSettings
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: |
+    {03F68E05-11B0-4458-A20B-671C70C263C9}
+    {CCEA62EF-1EE6-4F5E-A773-AC14DA3DC2CD}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{C9C98CDF-D155-41CB-8CC4-44700DBE91F0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240307T061117Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ce223db7-0aa5-48ab-9e5f-11b66c53246d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241010T020129Z

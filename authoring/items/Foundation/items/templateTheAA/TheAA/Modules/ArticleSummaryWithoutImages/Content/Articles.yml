@@ -1,0 +1,43 @@
+﻿---
+ID: "92c7996c-bd84-48dd-bd2f-6446adcace02"
+Parent: "7135fdf7-ef66-47f4-a38d-91ea1ffbce9c"
+Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
+Path: /sitecore/templates/TheAA/Modules/ArticleSummaryWithoutImages/Content/Articles
+SharedFields:
+- ID: "074f44ca-359a-4c13-b3aa-4a6be2a675b1"
+  Hint: Validation
+  Value: "^(.{77}|.{155})$"
+- ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
+  Hint: Source
+  Value: DataSource=/sitecore/content/TheAA/Modules/ArticleSummaries&IncludeTemplatesForDisplay=ArticleSummary,ArticlePromotion,Folder,Subfolder&IncludeTemplatesForSelection=ArticleSummary,ArticlePromotion&AllowMultipleSelection=true
+- ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
+  Hint: Type
+  Value: Treelist
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Fields:
+  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
+    Hint: Title
+    Value: Articles
+  - ID: "b12e4906-b96b-495e-b343-cd2e92dc6347"
+    Hint: ValidationText
+    Value: You have to select two or four items.
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160302T154206Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5076dce1-e7da-421f-8faf-a8957ddc5521"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20160323T120635Z

@@ -1,0 +1,208 @@
+﻿---
+ID: "027862ba-26ce-4689-a1cf-24df4fbaeae6"
+Parent: "9184f32a-8c24-492b-b99d-a2ff5ffbaefa"
+Template: "fd15568a-f5d8-4c23-b1dd-50a7032990a4"
+Path: "/sitecore/content/AA/mobile-app/mobile-app/components/offers/offer-item-schema"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: "{Partner} : {OfferPercentage}"
+    - ID: "1b9ac2f3-16a7-4ddc-bf06-7de787dc51df"
+      Hint: Show your card
+      Value: "{Justshowcard}"
+    - ID: "245ef7ed-aecf-4c16-a03a-63c844ca6d53"
+      Hint: Special Offer
+      Value: "{specialOffer}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240925T053257Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "35ca8c31-cf94-499c-8425-cd43729fa073"
+      Hint: Primary CTA
+      Value: "{Primary CTA}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "464d6aa5-9213-494a-8fda-1687678cc7e7"
+      Hint: Benefit Theme
+      Value: "{benefit Theme}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "70cd81ca-c8ef-4714-9a51-5fe42895af83"
+      Hint: QR code
+      Value: "{Voucher display type}"
+    - ID: "84b6f637-06c7-4174-b471-c92434036a64"
+      Hint: Partner Logo
+      Value: "{Group.Brand Logo}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "eea313d2-68c8-4de7-92a7-be76a5df3bf2"
+    - ID: "8f1da784-6b90-4324-b12e-eee6c90357ac"
+      Hint: Website
+      Value: "{Group.url}"
+    - ID: "95816915-6ef9-4064-9f18-6dd843eec1fa"
+      Hint: Terms Condition
+      Value: "{Terms}"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "member benefits : benefit {x} item"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "bba49406-cebb-405e-af8f-8182a35314f1"
+      Hint: Reward Id
+      Value: "{OfferId}"
+    - ID: "c17a86cd-339d-4105-ba49-25f6623ace4e"
+      Hint: Title
+      Value: "{Group.Name}"
+    - ID: "c364dfd4-3e78-4bcd-98b2-0b0a748b3de7"
+      Hint: Silver
+      Value: "{viewSilver}"
+    - ID: "cbb75825-b035-4521-b2dc-c495e5cc7f03"
+      Hint: Call
+      Value: "{Group.Telephone}"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241023T101956Z
+    - ID: "db0e0938-9131-482f-bb85-ea04e35ba330"
+      Hint: Gold
+      Value: "{viewGold}"
+    - ID: "de5e0cec-f1c2-4135-a3f4-cdeaf30a143e"
+      Hint: Secondary CTA
+      Value: "{Secondary CTA}"
+    - ID: "e72ba0d1-0d3b-4af9-a1d2-f7897725252a"
+      Hint: Yellow
+      Value: "{viewYellow}"
+    - ID: "ee671942-899f-4caa-8831-c0a66c916b57"
+      Hint: Subtitle
+      Value: "{OfferPercentage}"
+    - ID: "eecadd33-8339-4622-a619-4e1ca2fd339f"
+      Hint: Description
+      Value: "{CTA}"
+    - ID: "f198929b-9e98-4779-a719-b38ed80aca9d"
+      Hint: Offer Image
+      Value: "{Group.Rewards image Url}"
+    - ID: "f3cb4faa-afd0-4fc2-83b1-bbf7119af62c"
+      Hint: Partner
+      Value: "{Partner}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: "{Partner} : {Subtitle}"
+    - ID: "1b9ac2f3-16a7-4ddc-bf06-7de787dc51df"
+      Hint: Show your card
+      Value: "{Justshowcard}"
+    - ID: "245ef7ed-aecf-4c16-a03a-63c844ca6d53"
+      Hint: Special Offer
+      Value: "{specialOffer}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241111T100656Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "35ca8c31-cf94-499c-8425-cd43729fa073"
+      Hint: Primary CTA
+      Value: "{Primary CTA}"
+    - ID: "464d6aa5-9213-494a-8fda-1687678cc7e7"
+      Hint: Benefit Theme
+      Value: "{benefit Theme}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "70cd81ca-c8ef-4714-9a51-5fe42895af83"
+      Hint: QR code
+      Value: "{Voucher display type}"
+    - ID: "84b6f637-06c7-4174-b471-c92434036a64"
+      Hint: Partner Logo
+      Value: "{Group.Brand Logo}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5bdc5454-725d-4837-a0de-a8cc3934bf08"
+    - ID: "8f1da784-6b90-4324-b12e-eee6c90357ac"
+      Hint: Website
+      Value: "{Group.url}"
+    - ID: "95816915-6ef9-4064-9f18-6dd843eec1fa"
+      Hint: Terms Condition
+      Value: "{Terms}"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "member benefits : benefit {x} item"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "bba49406-cebb-405e-af8f-8182a35314f1"
+      Hint: Reward Id
+      Value: "{OfferId}"
+    - ID: "c17a86cd-339d-4105-ba49-25f6623ace4e"
+      Hint: Title
+      Value: "{Group.Name}"
+    - ID: "c364dfd4-3e78-4bcd-98b2-0b0a748b3de7"
+      Hint: Silver
+      Value: "{viewSilver}"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241111T100656Z
+    - ID: "cbb75825-b035-4521-b2dc-c495e5cc7f03"
+      Hint: Call
+      Value: "{Group.Telephone}"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250414T125720Z
+    - ID: "db0e0938-9131-482f-bb85-ea04e35ba330"
+      Hint: Gold
+      Value: "{viewGold}"
+    - ID: "de5e0cec-f1c2-4135-a3f4-cdeaf30a143e"
+      Hint: Secondary CTA
+      Value: "{Secondary CTA}"
+    - ID: "e72ba0d1-0d3b-4af9-a1d2-f7897725252a"
+      Hint: Yellow
+      Value: "{viewYellow}"
+    - ID: "ee671942-899f-4caa-8831-c0a66c916b57"
+      Hint: Subtitle
+      Value: "{OfferPercentage}"
+    - ID: "eecadd33-8339-4622-a619-4e1ca2fd339f"
+      Hint: Description
+      Value: "{CTA}"
+    - ID: "f198929b-9e98-4779-a719-b38ed80aca9d"
+      Hint: Offer Image
+      Value: "{Group.Rewards image Url}"
+    - ID: "f3cb4faa-afd0-4fc2-83b1-bbf7119af62c"
+      Hint: Partner
+      Value: "{Partner}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click

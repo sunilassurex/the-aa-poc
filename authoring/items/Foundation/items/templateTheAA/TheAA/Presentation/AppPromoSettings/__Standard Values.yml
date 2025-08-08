@@ -1,0 +1,33 @@
+﻿---
+ID: "e4993c36-7a4c-4f86-a58b-1925537d257a"
+Parent: "d3e922a5-bb95-43ab-ac79-e177e4b78fb0"
+Template: "d3e922a5-bb95-43ab-ac79-e177e4b78fb0"
+Path: /sitecore/templates/TheAA/Presentation/AppPromoSettings/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240307T061650Z
+    - ID: "40565a5a-491a-47e3-8a47-8f6b0eb23e3e"
+      Hint: BackgroundColor
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "50432333-1fe2-4bee-bdbc-78172a94b55f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250703T015124Z
+    - ID: "f2c7924f-e185-4065-99c6-8f8acb369921"
+      Hint: Design
+      Value: "{127F3188-2368-400C-A2F0-DEF32F467112}"

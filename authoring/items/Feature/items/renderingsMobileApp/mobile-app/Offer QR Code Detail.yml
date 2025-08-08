@@ -1,0 +1,63 @@
+﻿---
+ID: "b434301d-f678-43b0-a07d-7642905f47ce"
+Parent: "71ce8443-551b-4814-b600-00776d9e0e7b"
+Template: "04646a89-996f-4ee7-878a-ffdbf1f0ef0d"
+Path: "/sitecore/layout/Renderings/Feature/Headless/mobile-app/Offer QR Code Detail"
+SharedFields:
+- ID: "037fe404-dd19-4bf7-8e30-4dadf68b27b0"
+  Hint: componentName
+  Value: offerqrcodedetail
+- ID: "069a8361-b1cd-437c-8c32-a3be78941446"
+  Hint: Placeholders
+  Value: "{0788BF1A-F50C-4ABE-981F-44DBA4D35ACE}"
+- ID: "1084d3d2-0457-456a-abbc-eb4cc0966072"
+  Hint: VaryByQueryString
+  Value: 1
+- ID: "3ad2506a-dc39-4b1e-959f-9d524addbf50"
+  Hint: VaryByParm
+  Value: 1
+- ID: "3d08db46-2267-41b0-bc52-be69fd618633"
+  Hint: Cacheable
+  Value: 1
+- ID: "8b6d532b-6128-4486-a044-ca06d90948ba"
+  Hint: VaryByData
+  Value: 1
+- ID: "8d9232b0-613f-440b-a2fa-dcdd80fbd33e"
+  Hint: VaryByLogin
+  Value: 
+- ID: "f3e7e552-d7c8-469b-a150-69e4e14ab35c"
+  Hint: ClearOnIndexUpdate
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20240527T082021:638523948210391554Z"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8f577964-6776-49e5-9106-60179b82a3c2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241024T015336Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240527T082021Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b375f5b0-5d8c-431c-8238-2677dea1bc44"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241024T015336Z

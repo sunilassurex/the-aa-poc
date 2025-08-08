@@ -1,0 +1,23 @@
+﻿---
+ID: "7f15a19e-c3fc-4639-b979-2f673c01a75f"
+Parent: "19e134f0-797c-4e93-a82b-86f498190b98"
+Template: "19e134f0-797c-4e93-a82b-86f498190b98"
+Path: /sitecore/templates/TheAA/Settings/SalesJourney/Offer/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161214T171245Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "59351162-1e63-46d6-9039-6f4e94d64fde"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20180118T092256Z

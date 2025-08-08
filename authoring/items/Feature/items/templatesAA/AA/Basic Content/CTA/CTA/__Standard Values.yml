@@ -1,0 +1,27 @@
+﻿---
+ID: "39134997-82ac-48fa-b674-f7fdaef02833"
+Parent: "e907cda1-872c-4552-847c-7da109308d75"
+Template: "e907cda1-872c-4552-847c-7da109308d75"
+Path: /sitecore/templates/Feature/AA/Basic Content/CTA/CTA/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160322T091411Z
+    - ID: "2e91818f-ae58-4246-9dd8-dd7f685b06b7"
+      Hint: Primary CTA
+      Value: |
+        <link linktype="internal" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b4acb2bb-ab38-4698-81c0-4f6e3c554031"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220120T043922Z

@@ -1,0 +1,27 @@
+﻿---
+ID: "5dc3d058-c28c-44f4-9165-bfdac8737820"
+Parent: "983db37f-6d28-4535-b67b-d6229cd59782"
+Template: "983db37f-6d28-4535-b67b-d6229cd59782"
+Path: /sitecore/templates/TheAA/Settings/SalesJourney/Blocks/SmartBreakdownBlock/__Standard Values
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180820T130626Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d694eacb-b5b4-4d91-943b-35e9b7b4f284"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20181206T050648Z

@@ -1,0 +1,30 @@
+﻿---
+ID: "e47686e3-4302-4cfe-bf17-e5fb9339b22c"
+Parent: "800278e5-a342-40f3-947c-363d02bf32fa"
+Template: "800278e5-a342-40f3-947c-363d02bf32fa"
+Path: /sitecore/templates/TheAA/Settings/SalesJourney/Blocks/ProceedPaymentBlock/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170125T155716Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "871f41c2-efcb-4e01-9475-6ee9d59c8831"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20170125T160016Z
+    - ID: "fdfd86d5-1862-4393-8426-42012d76f30f"
+      Hint: RenderingViewPath
+      Value: "{C3B132E3-F47C-415E-BB33-E96D3CDA0E43}"

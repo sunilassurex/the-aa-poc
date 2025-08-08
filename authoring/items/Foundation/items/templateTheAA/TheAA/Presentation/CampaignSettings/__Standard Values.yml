@@ -1,0 +1,29 @@
+﻿---
+ID: "e9b2a64b-3891-4dcf-b851-a6665ae5e226"
+Parent: "9ae3af6a-f46c-49ad-89b0-867f9b17c767"
+Template: "9ae3af6a-f46c-49ad-89b0-867f9b17c767"
+Path: /sitecore/templates/TheAA/Presentation/CampaignSettings/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160203T160354Z
+    - ID: "71331149-f816-4dfc-8a6e-9d686ae3c890"
+      Hint: TextColour
+      Value: "{626ECE4D-C6D3-4EE3-90B1-CB949F8C1583}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8ec0d14e-f17d-43f9-bff3-811abdf4e6bb"
+    - ID: "aa2d7550-048b-45c3-8445-e1b61981f77a"
+      Hint: OverlayStyle
+      Value: "{B2FBCEA7-4DBC-4C4B-AB5E-BD45A588017E}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        theaa\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20160421T161015Z

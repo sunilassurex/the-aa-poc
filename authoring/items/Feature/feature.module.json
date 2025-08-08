@@ -1,0 +1,42 @@
+{
+  "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Feature.TheAA",
+  "references": ["Foundation.TheAA"],
+  "items": {
+    "includes": [
+      {
+        "name": "TheAAWorkflow",
+        "path": "/sitecore/system/Workflows/AA Content Workflow",
+        "scope": "ItemAndDescendants",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "SystemFeatureAA",
+        "path": "/sitecore/system/Settings/Feature/AA",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "templatesAA",
+        "path": "/sitecore/templates/Feature/AA",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+
+      {
+        "name": "templatesHeadless",
+        "path": "/sitecore/templates/Branches/Feature/Headless",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "RenderingHeadlessFolder",
+        "path": "/sitecore/layout/Renderings/Feature/Headless",
+        "scope": "SingleItem",
+        "allowedPushOperations": "CreateAndUpdate"
+      },
+      {
+        "name": "renderingsMobileApp",
+        "path": "/sitecore/layout/Renderings/Feature/Headless/mobile-app",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+﻿---
+ID: "ad3f375b-fc9f-4824-bf59-0ad0b889c675"
+Parent: "d2387c09-559a-48ed-8e02-b711d9b82611"
+Template: "d2387c09-559a-48ed-8e02-b711d9b82611"
+Path: "/sitecore/templates/Feature/AA/Headless/Mobile-App/Member Exclusive Offers/__Standard Values"
+SharedFields:
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{4F57DBDC-C4BB-43AE-A615-7FEA56FFD513}">
+        <r
+          ds="{B1000E0C-2CE9-47C0-AC13-5DA1DEE911D0}"
+          id="{5D08776D-044F-473E-A838-806D2530DD6D}"
+          par=""
+          ph="/mobileapp-main/member_exclusive-{DC504795-E94D-49FF-98CC-F4D395207036}-0"
+          uid="{92F545C1-A8E3-4281-8A30-A6B2CEA76B72}" />
+        <r
+          ds=""
+          id="{64AAE3F0-7CC1-4215-8DCA-87F5DC7BC2B6}"
+          par=""
+          ph="/mobileapp-main/member_exclusive-{DC504795-E94D-49FF-98CC-F4D395207036}-0/popup-{guid}-0"
+          uid="{96ECA081-2AF6-4954-8C0E-E682FF789516}" />
+        <r
+          ds=""
+          id="{542E6EB9-B2AC-434B-913B-9923EF335FD7}"
+          par=""
+          ph="/mobileapp-main/member_exclusive-{DC504795-E94D-49FF-98CC-F4D395207036}-0/popup-{guid}-0"
+          uid="{A44C098F-2577-4B1D-BF92-1BECE0B9A677}" />
+        <r
+          ds=""
+          id="{ABE0F684-C9E6-4730-A065-CDE445D80809}"
+          par=""
+          ph="/mobileapp-main/member_exclusive-{DC504795-E94D-49FF-98CC-F4D395207036}-0/popup-{guid}-0"
+          uid="{A6609A99-1F4D-45B2-A6BD-401D519FBC45}" />
+        <r
+          ds=""
+          id="{33CCF56D-9575-4758-8CFE-6A0D57892AF1}"
+          par=""
+          ph="/mobileapp-main/member_exclusive-{DC504795-E94D-49FF-98CC-F4D395207036}-0/popup-{guid}-0"
+          uid="{A8167DD0-1734-49AB-9BFE-E90663210612}" />
+        <r
+          ds=""
+          id="{04B38FE4-9672-466A-9DFF-25928F3085E0}"
+          par=""
+          ph="/mobileapp-main/member_exclusive-{DC504795-E94D-49FF-98CC-F4D395207036}-0/popup-{guid}-0"
+          uid="{25B7B74C-DF5B-4E4A-9B89-9AA974670C88}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241007T045658Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "45649408-2bcb-4d48-9d00-ed051dc4cd1c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241024T015426Z

@@ -1,0 +1,1164 @@
+﻿---
+ID: "e172255e-24f7-4782-b753-9bfaee145718"
+Parent: "2acdda3b-a0aa-45fc-970e-24343cf1f242"
+Template: "d2387c09-559a-48ed-8e02-b711d9b82611"
+Path: "/sitecore/content/AA/mobile-app/mobile-app/components/member-exclusive/smart-care-offers/aa-loans"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{B1000E0C-2CE9-47C0-AC13-5DA1DEE911D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Grow your nest egg with our savings account" linktype="external" url="https://www.theaa.com/savings-accounts" anchor="" title="Grow your nest egg with our savings account" target="" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {75029BBA-4704-4711-924E-D86AFF70BE5C}
+        {E1EF9AF7-7B93-437E-B834-338EE01C80DD}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Grow your nest egg with our savings account
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241126T100951Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{B2DC6C4A-B886-4773-9BE6-82F3B45F4818}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Grow your nest egg with our savings account
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7A25BC42-DC01-4FF3-BC4D-BFF8E588EEE0}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2f50715a-5ca9-4f1e-81af-66561deac0a9"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: finance item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241126T100951Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250530T143653Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Grow your nest egg with our savings account" linktype="external" url="https://www.theaa.com/savings-accounts" anchor="" title="Grow your nest egg with our savings account" target="" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 2
+    Fields:
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Grow your nest egg with our savings account" linktype="external" url="https://www.theaa.com/savings-accounts" anchor="" title="Grow your nest egg with our savings account" target="" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {75029BBA-4704-4711-924E-D86AFF70BE5C}
+        {E1EF9AF7-7B93-437E-B834-338EE01C80DD}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Grow your nest egg with our savings account
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250414T125834Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{B2DC6C4A-B886-4773-9BE6-82F3B45F4818}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Grow your nest egg with our savings account
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7A25BC42-DC01-4FF3-BC4D-BFF8E588EEE0}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fe6cd999-3489-4637-a1bd-9382b2218802"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: finance item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20250414T125834Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250530T143653Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Grow your nest egg with our savings account" linktype="external" url="https://www.theaa.com/savings-accounts" anchor="" title="Grow your nest egg with our savings account" target="" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 3
+    Fields:
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Grow your nest egg with our savings account" linktype="external" url="https://www.theaa.com/savings-accounts?utm_medium=app-aa-ios&amp;utm_source=get_savings_account&amp;utm_campaign=aa_benefits&amp;utm_content=finance_offers_savings_account_item" anchor="" title="Grow your nest egg with our savings account" target="" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {75029BBA-4704-4711-924E-D86AFF70BE5C}
+        {E1EF9AF7-7B93-437E-B834-338EE01C80DD}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Grow your nest egg with our savings account
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250416T115608Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{B2DC6C4A-B886-4773-9BE6-82F3B45F4818}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Lucy.Hardy
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Grow your nest egg with our savings account
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7A25BC42-DC01-4FF3-BC4D-BFF8E588EEE0}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6e42d48b-0dfc-44d6-8415-461ab6a23d9c"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: finance item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20250416T115608Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250530T143653Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Grow your nest egg with our savings account" linktype="external" url="https://www.theaa.com/savings-accounts?utm_medium=app-aa-android&amp;utm_source=get_savings_account&amp;utm_campaign=aa_benefits&amp;utm_content=finance_offers_savings_account_item" anchor="" title="Grow your nest egg with our savings account" target="" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 4
+    Fields:
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Grow your nest egg with our savings account" linktype="external" url="https://www.theaa.com/savings-accounts?mobile-apps=true&amp;utm_medium=app-aa-ios&amp;utm_source=get_savings_account&amp;utm_campaign=aa_benefits&amp;utm_content=finance_offers_savings_account_item" anchor="" title="Grow your nest egg with our savings account" target="" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {75029BBA-4704-4711-924E-D86AFF70BE5C}
+        {E1EF9AF7-7B93-437E-B834-338EE01C80DD}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Grow your nest egg with our savings account
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250416T122317Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{B2DC6C4A-B886-4773-9BE6-82F3B45F4818}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Lucy.Hardy
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Grow your nest egg with our savings account
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7A25BC42-DC01-4FF3-BC4D-BFF8E588EEE0}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "de8d892f-c720-47a2-8e9c-1cd2cf1c76a6"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: finance item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20250416T122317Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250530T143654Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Grow your nest egg with our savings account" linktype="external" url="https://www.theaa.com/savings-accounts?mobile-apps=true&amp;utm_medium=app-aa-android&amp;utm_source=get_savings_account&amp;utm_campaign=aa_benefits&amp;utm_content=finance_offers_savings_account_item" anchor="" title="Grow your nest egg with our savings account" target="" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 5
+    Fields:
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Grow your nest egg with our savings account" linktype="external" url="https://www.theaa.com/savings-accounts?mobile-apps=true&amp;utm_medium=app-aa-ios&amp;utm_source=get_savings_account&amp;utm_campaign=aa_benefits&amp;utm_content=finance_offers_savings_account_item" anchor="" title="Grow your nest egg with our savings account" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {75029BBA-4704-4711-924E-D86AFF70BE5C}
+        {E1EF9AF7-7B93-437E-B834-338EE01C80DD}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Grow your nest egg with our savings account
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250416T152415Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{B2DC6C4A-B886-4773-9BE6-82F3B45F4818}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Lucy.Hardy
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Grow your nest egg with our savings account
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7A25BC42-DC01-4FF3-BC4D-BFF8E588EEE0}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ab848f40-4189-43e2-a40e-ab55cae4296d"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: finance item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20250416T152415Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250530T143654Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Grow your nest egg with our savings account" linktype="external" url="https://www.theaa.com/savings-accounts?mobile-apps=true&amp;utm_medium=app-aa-android&amp;utm_source=get_savings_account&amp;utm_campaign=aa_benefits&amp;utm_content=finance_offers_savings_account_item" anchor="" title="Grow your nest egg with our savings account" target="_blank" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 6
+    Fields:
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Grow your nest egg with our savings account" linktype="external" url="https://www.theaa.com/savings-accounts?mobile-apps=true&amp;utm_medium=app-aa-ios&amp;utm_source=get_savings_account&amp;utm_campaign=aa_benefits&amp;utm_content=finance_offers_savings_account_item" anchor="" title="Grow your nest egg with our savings account" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {75029BBA-4704-4711-924E-D86AFF70BE5C}
+        {E1EF9AF7-7B93-437E-B834-338EE01C80DD}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Grow your nest egg with our savings account
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250428T134144Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{B2DC6C4A-B886-4773-9BE6-82F3B45F4818}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Grow your nest egg with our savings account
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7A25BC42-DC01-4FF3-BC4D-BFF8E588EEE0}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "61f7530c-ac0d-4bac-b6b7-e167e1f644ee"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: Savings account item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20250428T134144Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250530T143655Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Grow your nest egg with our savings account" linktype="external" url="https://www.theaa.com/savings-accounts?mobile-apps=true&amp;utm_medium=app-aa-android&amp;utm_source=get_savings_account&amp;utm_campaign=aa_benefits&amp;utm_content=finance_offers_savings_account_item" anchor="" title="Grow your nest egg with our savings account" target="_blank" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 7
+    Fields:
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Grow your nest egg with our savings account" linktype="external" url="https://www.theaa.com/savings-accounts?mobile-apps=true&amp;utm_medium=app-aa-ios&amp;utm_source=get_savings_account&amp;utm_campaign=aa_benefits&amp;utm_content=finance_offers_savings_account_item" anchor="" title="Grow your nest egg with our savings account" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {75029BBA-4704-4711-924E-D86AFF70BE5C}
+        {E1EF9AF7-7B93-437E-B834-338EE01C80DD}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Grow your nest egg with our savings account
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250428T134408Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{B2DC6C4A-B886-4773-9BE6-82F3B45F4818}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Grow your nest egg with our savings account
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7A25BC42-DC01-4FF3-BC4D-BFF8E588EEE0}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4d9dc66c-ea3a-441c-92b2-86c251b9493f"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: savings account item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20250428T134408Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250530T143656Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Grow your nest egg with our savings account" linktype="external" url="https://www.theaa.com/savings-accounts?mobile-apps=true&amp;utm_medium=app-aa-android&amp;utm_source=get_savings_account&amp;utm_campaign=aa_benefits&amp;utm_content=finance_offers_savings_account_item" anchor="" title="Grow your nest egg with our savings account" target="_blank" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 8
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Grow your nest egg with our savings account" linktype="external" url="https://www.theaa.com/loans/mobile-apps=true&amp;utm_medium=app-aa-ios&amp;utm_source=get_loan&amp;utm_campaign=aa_benefits&amp;utm_content=finance_offers_loans_item" anchor="" title="Grow your nest egg with our savings account" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {75029BBA-4704-4711-924E-D86AFF70BE5C}
+        {E1EF9AF7-7B93-437E-B834-338EE01C80DD}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Check your eligibility for an AA loan
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250529T125156Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{B2DC6C4A-B886-4773-9BE6-82F3B45F4818}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Check your eligibility for an AA loan
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7A25BC42-DC01-4FF3-BC4D-BFF8E588EEE0}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0dd36955-e81e-4ff2-bcb1-e5344dcf8faf"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: loans item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20250529T125156Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250603T082443Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Check our loans eligibility" linktype="external" url="https://www.theaa.com/loans/mobile-apps=true&amp;utm_medium=app-aa-android&amp;utm_source=get_loan&amp;utm_campaign=aa_benefits&amp;utm_content=finance_offers_loans_item" anchor="" title="Check our loans eligibility" target="_blank" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 9
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Grow your nest egg with our savings account" linktype="external" url="https://www.theaa.com/loans/mobile-apps=true&amp;utm_medium=app-aa-ios&amp;utm_source=get_loan&amp;utm_campaign=aa_benefits&amp;utm_content=finance_offers_loans_item" anchor="" title="Grow your nest egg with our savings account" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {75029BBA-4704-4711-924E-D86AFF70BE5C}
+        {E1EF9AF7-7B93-437E-B834-338EE01C80DD}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Check your eligibility for an AA loan
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250603T082712Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{B2DC6C4A-B886-4773-9BE6-82F3B45F4818}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Check your eligibility for an AA loan
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7A25BC42-DC01-4FF3-BC4D-BFF8E588EEE0}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6f96c88c-5447-4d75-9812-bb3852a822c3"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: loans item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20250603T082712Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250603T082725Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Check our loans eligibility" linktype="external" url="https://www.theaa.com/loans/mobile-apps=true&amp;utm_medium=app-aa-android&amp;utm_source=get_loan&amp;utm_campaign=aa_benefits&amp;utm_content=finance_offers_loans_item" anchor="" title="Check our loans eligibility" target="_blank" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 10
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Check your eligibility for an AA loan" linktype="external" url="https://www.theaa.com/loans" anchor="" title="Check your eligibility for an AA loan" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {75029BBA-4704-4711-924E-D86AFF70BE5C}
+        {E1EF9AF7-7B93-437E-B834-338EE01C80DD}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Check your eligibility for an AA loan
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250603T084112Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{B2DC6C4A-B886-4773-9BE6-82F3B45F4818}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Check your eligibility for an AA loan
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7A25BC42-DC01-4FF3-BC4D-BFF8E588EEE0}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "86e9a409-8e38-4e68-9f78-ebf50e42a711"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: loans item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20250603T084112Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250603T084537Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Check your eligibility for an AA loan" linktype="external" url="https://www.theaa.com/loans" anchor="" title="Check your eligibility for an AA loan" target="_blank" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 11
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Check your eligibility for an AA loan" linktype="external" url="https://www.theaa.com/loans?mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=get_loan&amp;utm_campaign=aa_benefits&amp;utm_content=finance_offers_loans_item" anchor="" title="Check your eligibility for an AA loan" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {75029BBA-4704-4711-924E-D86AFF70BE5C}
+        {E1EF9AF7-7B93-437E-B834-338EE01C80DD}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Check your eligibility for an AA loan
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250603T091830Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{B2DC6C4A-B886-4773-9BE6-82F3B45F4818}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Check your eligibility for an AA loan
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7A25BC42-DC01-4FF3-BC4D-BFF8E588EEE0}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9a9a9c5f-3ec2-435a-a609-f3c3bb465010"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: loans item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20250603T091830Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250603T091945Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Check your eligibility for an AA loan" linktype="external" url="https://www.theaa.com/loans?mobileapps=true&amp;utm_medium=app-aa-android&amp;utm_source=get_loan&amp;utm_campaign=aa_benefits&amp;utm_content=finance_offers_loans_item" anchor="" title="Check your eligibility for an AA loan" target="_blank" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 12
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Check your eligibility for an AA loan" linktype="external" url="https://www.theaa.com/loans?mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=get_loan&amp;utm_campaign=aa_benefits&amp;utm_content=finance_offers_loans_item&amp;sc=aaapploan01" anchor="" title="Check your eligibility for an AA loan" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {75029BBA-4704-4711-924E-D86AFF70BE5C}
+        {E1EF9AF7-7B93-437E-B834-338EE01C80DD}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Check your eligibility for an AA loan
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250603T111351Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{B2DC6C4A-B886-4773-9BE6-82F3B45F4818}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Check your eligibility for an AA loan
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7A25BC42-DC01-4FF3-BC4D-BFF8E588EEE0}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a51caef8-3392-4e08-aa21-951a189c984a"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: loans item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20250603T111351Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250610T080014Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Check your eligibility for an AA loan" linktype="external" url="https://www.theaa.com/loans?mobileapps=true&amp;utm_medium=app-aa-android&amp;utm_source=get_loan&amp;utm_campaign=aa_benefits&amp;utm_content=finance_offers_loans_item&amp;sc=aaapploan01" anchor="" title="Check your eligibility for an AA loan" target="_blank" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 13
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Check your eligibility for an AA loan" linktype="external" url="https://www.theaa.com/loans?mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=get_loan&amp;utm_campaign=aa_benefits&amp;utm_content=finance_offers_loans_item&amp;sc=aaapploan01" anchor="" title="Check your eligibility for an AA loan" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {75029BBA-4704-4711-924E-D86AFF70BE5C}
+        {E1EF9AF7-7B93-437E-B834-338EE01C80DD}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Check your eligibility for an AA loan
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250610T080021Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{B2DC6C4A-B886-4773-9BE6-82F3B45F4818}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Check your eligibility for an AA loan
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7A25BC42-DC01-4FF3-BC4D-BFF8E588EEE0}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "742b3311-91db-4115-9bca-b52c68aed563"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: loans item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20250610T080021Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250610T080027Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Check your eligibility for an AA loan" linktype="external" url="https://www.theaa.com/loans?mobileapps=true&amp;utm_medium=app-aa-android&amp;utm_source=get_loan&amp;utm_campaign=aa_benefits&amp;utm_content=finance_offers_loans_item&amp;sc=aaapploan01" anchor="" title="Check your eligibility for an AA loan" target="_blank" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 14
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Check your eligibility for an AA loan" linktype="external" url="https://www.theaa.com/loans?mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=get_loan&amp;utm_campaign=aa_benefits&amp;utm_content=finance_offers_loans_item&amp;sc=aaapploan01" anchor="" title="Check your eligibility for an AA loan" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {75029BBA-4704-4711-924E-D86AFF70BE5C}
+        {E1EF9AF7-7B93-437E-B834-338EE01C80DD}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Check your eligibility for an AA loan
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250613T160507Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{B2DC6C4A-B886-4773-9BE6-82F3B45F4818}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Check your eligibility for an AA loan
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7A25BC42-DC01-4FF3-BC4D-BFF8E588EEE0}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "27f7c4dc-50ce-4151-af99-1d88edb8e816"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: loan item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20250613T160507Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250613T160545Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Check your eligibility for an AA loan" linktype="external" url="https://www.theaa.com/loans?mobileapps=true&amp;utm_medium=app-aa-android&amp;utm_source=get_loan&amp;utm_campaign=aa_benefits&amp;utm_content=finance_offers_loans_item&amp;sc=aaapploan01" anchor="" title="Check your eligibility for an AA loan" target="_blank" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 15
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Check your eligibility for an AA loan" linktype="external" url="https://www.theaa.com/loans?mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=get_loan&amp;utm_campaign=aa_benefits&amp;utm_content=finance_offers_loans_item&amp;sc=aaapploan01" anchor="" title="Check your eligibility for an AA loan" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {75029BBA-4704-4711-924E-D86AFF70BE5C}
+        {E1EF9AF7-7B93-437E-B834-338EE01C80DD}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Check your eligibility for an AA loan
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250701T083430Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{B2DC6C4A-B886-4773-9BE6-82F3B45F4818}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Check your eligibility for an AA loan
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{7A25BC42-DC01-4FF3-BC4D-BFF8E588EEE0}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6fdac190-c392-435a-a848-4add1be51458"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: loans item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20250701T083430Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250701T083502Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Check your eligibility for an AA loan" linktype="external" url="https://www.theaa.com/loans?mobileapps=true&amp;utm_medium=app-aa-android&amp;utm_source=get_loan&amp;utm_campaign=aa_benefits&amp;utm_content=finance_offers_loans_item&amp;sc=aaapploan01" anchor="" title="Check your eligibility for an AA loan" target="_blank" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{BAA5EE67-311A-4990-A4DB-54630D4B3109}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click

@@ -1,0 +1,30 @@
+﻿---
+ID: "631d08c0-9a38-4506-a45b-94532eefc6d8"
+Parent: "e1772763-5442-4295-a922-7c6263da83c4"
+Template: "e1772763-5442-4295-a922-7c6263da83c4"
+Path: /sitecore/templates/Feature/AA/Presentation/AccordionGroupSettings/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240307T061650Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "613335b1-fc3c-4adf-8e15-3325bd5e9896"
+      Hint: Background Color
+      Value: "{59C24258-D7D4-45BB-B0BC-B0F87FD29ED8}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f4e0a7fa-5c7a-4abb-9f60-f66d58c8e0a2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250703T015125Z

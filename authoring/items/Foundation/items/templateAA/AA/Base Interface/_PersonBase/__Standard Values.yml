@@ -1,0 +1,36 @@
+﻿---
+ID: "845e2e86-3442-47d3-8655-3deb24f212e6"
+Parent: "1e908368-361e-4d44-bc9f-441c782ed3a3"
+Template: "1e908368-361e-4d44-bc9f-441c782ed3a3"
+Path: /sitecore/templates/Foundation/AA/Base Interface/_PersonBase/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "2300024c-93ef-4876-92fb-0c324ec2fd80"
+      Hint: FullName
+      Value: $title
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151204T133442Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "68dcb936-569e-406a-aef4-fa9a228ff87b"
+      Hint: Role
+      Value: 
+    - ID: "89e2f7f9-d41d-4cc5-8bed-02e1fe7baad8"
+      Hint: Icon
+      Value: $sentence
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "06514a41-5b3f-4b18-8731-58f4a79263b0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240813T020211Z

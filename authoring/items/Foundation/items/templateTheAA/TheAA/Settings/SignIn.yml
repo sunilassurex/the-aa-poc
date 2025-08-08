@@ -1,0 +1,17 @@
+﻿---
+ID: "877a3ecb-1eca-4bde-be31-61a9a440e91e"
+Parent: "a8d68217-7539-4c3f-b664-759b47cb2732"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/TheAA/Settings/SignIn
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: People/32x32/user1_lock.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {C39CAB87-9F26-48B8-A3E8-FCF1E50BB8B5}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{4802EBC3-FEDA-4749-8F85-172073829D9C}"

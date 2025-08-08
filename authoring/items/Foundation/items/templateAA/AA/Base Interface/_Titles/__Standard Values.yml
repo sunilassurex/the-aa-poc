@@ -1,0 +1,36 @@
+﻿---
+ID: "7f0422df-00fe-44ff-b3b6-939202c29430"
+Parent: "743c4918-f906-4e04-b870-ec18f4d678cc"
+Template: "743c4918-f906-4e04-b870-ec18f4d678cc"
+Path: /sitecore/templates/Foundation/AA/Base Interface/_Titles/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0ecc5d7a-8472-4185-a1d2-979edaf78677"
+      Hint: BrowserTitle
+      Value: $title | BEAM
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220407T111330Z
+    - ID: "4f6a8d93-b21c-4e52-bc52-5e046c79db13"
+      Hint: PageTitle
+      Value: $title
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "731fbb37-f7de-49c9-893f-caa46abc21cb"
+    - ID: "a9b52163-7a18-4e0a-a7e7-81fd4b257c1f"
+      Hint: MenuTitle
+      Value: $sentence
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220512T033816Z

@@ -1,0 +1,29 @@
+﻿---
+ID: "ed22e58d-b1df-4cb5-9cf4-240ccd89e29e"
+Parent: "583e5d84-037e-45f9-bc9c-fe21e8fac665"
+Template: "583e5d84-037e-45f9-bc9c-fe21e8fac665"
+Path: /sitecore/templates/Feature/AA/Structure/Columns/ParametersTemplate_PageRowSettings/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1c8dbabb-dac8-4e79-b173-6a2899c0249a"
+      Hint: RowWidth
+      Value: "{3C74D4ED-2465-4995-822A-0C40E8125B77}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160226T170649Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c8916bb4-1964-4b7f-86f0-530fe3676238"
+    - ID: "974b5181-09b5-43c0-89a1-717c17ec781f"
+      Hint: RowBackgroundStyle
+      Value: "{7A872831-E2E2-40B8-A399-B0FA52A9A158}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220120T043921Z

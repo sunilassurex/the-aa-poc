@@ -1,0 +1,34 @@
+﻿---
+ID: "ac347ecf-5827-4d8a-b222-5b6a1ab27ef6"
+Parent: "069f7699-b623-4f33-acfc-8b5521675a97"
+Template: "069f7699-b623-4f33-acfc-8b5521675a97"
+Path: /sitecore/templates/Feature/AA/RTB/RTB Root Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {F913C020-A790-4B42-A5E2-32FAFB40EC40}
+    {CC80D78E-BFB1-4BD1-B5E3-694C2388734B}
+    {991F757C-6948-4E2C-988A-870FE0C59F48}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220218T172806Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "40dafd10-176c-4cca-9fb4-4320a1348ae5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220303T043205Z

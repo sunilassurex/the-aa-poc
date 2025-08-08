@@ -1,0 +1,47 @@
+﻿---
+ID: "eeca80e4-27d9-4969-8801-6250e7843c66"
+Parent: "7dfc818a-405f-4c54-9626-991a871b678b"
+Template: "0618aef9-2bcf-491b-ab4d-8949881dc12b"
+Path: "/sitecore/content/AA/mobile-app/mobile-app/components/offers/offer-detail/detail/offer-detail-header-schema"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "08a501f1-f75c-4c79-91a6-2f0569128897"
+      Hint: Partner Logo
+      Value: "{Partner logo}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241010T073357Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a2576143-b3b0-4ddc-a2e5-cb5a6d6f1a66"
+    - ID: "8fdbf27f-93c0-4fb8-b9d8-31b7dcdf03a2"
+      Hint: Subtitle
+      Value: "{Subtitle}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c084831a-3734-4e1a-9df4-57cb6c4b0722"
+      Hint: Title
+      Value: "{Title}"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241027T130138Z

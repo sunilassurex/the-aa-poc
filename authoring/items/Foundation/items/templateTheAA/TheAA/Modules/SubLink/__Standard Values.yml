@@ -1,0 +1,35 @@
+﻿---
+ID: "c3f2f49e-dc61-45f6-a91f-9421d3fd0c90"
+Parent: "856285e9-0f83-439d-af64-35188e6c7937"
+Template: "856285e9-0f83-439d-af64-35188e6c7937"
+Path: /sitecore/templates/TheAA/Modules/SubLink/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "06f9bdfe-5c85-4cc0-bc3f-c9368148da10"
+      Hint: Link
+      Value: |
+        <link text="$name" linktype="external" url="" anchor="" target="" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160526T134742Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c999d0e5-07ad-4b5d-8816-5f128027cacf"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20160526T134805Z

@@ -1,0 +1,43 @@
+﻿---
+ID: "5477bec0-7d28-4a33-bb5d-102667aafd96"
+Parent: "bf62eb59-ac82-4670-8cd0-9db19efd5150"
+Template: "bf62eb59-ac82-4670-8cd0-9db19efd5150"
+Path: /sitecore/templates/Feature/AA/Headless/Offer/__Standard Values
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221128T140558Z
+    - ID: "561383dd-6c06-46ff-8751-323ecc5b24b8"
+      Hint: SourceGroupCode
+      Value: *
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "772b8035-518d-4c4d-9bc3-15ae3da33257"
+      Hint: SourceCode
+      Value: *
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "19c5de11-86e1-4c35-b7f2-a2d144de53ab"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230202T031408Z

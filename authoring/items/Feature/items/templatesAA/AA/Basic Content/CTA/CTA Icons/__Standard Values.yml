@@ -1,0 +1,31 @@
+﻿---
+ID: "7f888ea3-4480-4286-98e8-e0e4e0e8e9e1"
+Parent: "ee85133e-16f4-486d-9f40-57c284955257"
+Template: "ee85133e-16f4-486d-9f40-57c284955257"
+Path: /sitecore/templates/Feature/AA/Basic Content/CTA/CTA Icons/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160322T091411Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9201f270-44dd-4a5e-a65b-b693edb5741a"
+    - ID: "a695e4db-a286-4c1e-b7ac-6195d37c7c60"
+      Hint: CTA
+      Value: |
+        <link linktype="internal" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241001T014823Z
+    - ID: "ffc6fdf9-e08f-4b5e-8d81-919380834a12"
+      Hint: Primary Icon
+      Value: |
+        <link linktype="internal" />

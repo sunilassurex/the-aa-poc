@@ -1,0 +1,27 @@
+﻿---
+ID: "e1c21c43-5a17-4df8-aed6-99ad35dee802"
+Parent: "4203cf76-7fa5-463f-99c0-13b50fcbf405"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/TheAA/Data/_CaptureVrnBase/Single Vehicle Is Found And May Be Eligible For Parts And Garage
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 600
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161026T133334Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "acdff7b9-c922-4f76-ab8b-37ca7ee89209"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20161027T100831Z

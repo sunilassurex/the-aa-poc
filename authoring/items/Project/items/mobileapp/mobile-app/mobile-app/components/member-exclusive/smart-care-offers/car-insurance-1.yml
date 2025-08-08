@@ -1,0 +1,1171 @@
+﻿---
+ID: "e39cb7f3-a117-4631-90b0-6ed6d0b74a7c"
+Parent: "2acdda3b-a0aa-45fc-970e-24343cf1f242"
+Template: "d2387c09-559a-48ed-8e02-b711d9b82611"
+Path: "/sitecore/content/AA/mobile-app/mobile-app/components/member-exclusive/smart-care-offers/car-insurance-1"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{B1000E0C-2CE9-47C0-AC13-5DA1DEE911D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Add car insurance and get 10% off" linktype="external" url="https://www.theaa.com/car-insurance/member-discount?AffinityID=APPDISCOUNT " anchor="" title="Add car insurance and get 10% off" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {8D8F3EC3-6FA9-47C8-B97B-4AFD7DC2E3E1}
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {E1EF9AF7-7B93-437E-B834-338EE01C80DD}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Add car insurance and get 10% off
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241023T111616Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{A2BCE7CE-C90F-49C6-9492-9A3160CF3E2A}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Add car insurance and get 10% off
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5222FEF9-0287-4592-BF0C-89E4E2039D90}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9bdf247d-432e-4a5a-9e59-6f936f99d003"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "insurance offers : car insurance item"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241023T111616Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241023T111830Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Add car insurance and get 10% off" linktype="external" url="https://www.theaa.com/car-insurance/member-discount?AffinityID=50APPMEMBER" anchor="" title="Add car insurance and get 10% off" target="_blank" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{F536ECCB-A508-458B-9E2A-502474EB059A}"
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Add car insurance and get 10% off" linktype="external" url="https://www.theaa.com/car-insurance/member-discount?AffinityID=APPDISCOUNT " anchor="" title="Add car insurance and get 10% off" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {8D8F3EC3-6FA9-47C8-B97B-4AFD7DC2E3E1}
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {E1EF9AF7-7B93-437E-B834-338EE01C80DD}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Add car insurance and get 10% off
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241023T111832Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{A2BCE7CE-C90F-49C6-9492-9A3160CF3E2A}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Add car insurance and get 10% off
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5222FEF9-0287-4592-BF0C-89E4E2039D90}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9c2abdf0-ad16-4155-a95f-56eb436ecbb7"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "insurance offers : car insurance item"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241023T111832Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241023T111837Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Add car insurance and get 10% off" linktype="external" url="https://www.theaa.com/car-insurance/member-discount?AffinityID=50APPMEMBER" anchor="" title="Add car insurance and get 10% off" target="_blank" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{F536ECCB-A508-458B-9E2A-502474EB059A}"
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Add car insurance and get 10% off" linktype="external" url="https://www.theaa.com/car-insurance/member-discount?AffinityID=APPDISCOUNT " anchor="" title="Add car insurance and get 10% off" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {8D8F3EC3-6FA9-47C8-B97B-4AFD7DC2E3E1}
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {E1EF9AF7-7B93-437E-B834-338EE01C80DD}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Add car insurance and get 10% off
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241023T144040Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{A2BCE7CE-C90F-49C6-9492-9A3160CF3E2A}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Add car insurance and get 10% off
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5222FEF9-0287-4592-BF0C-89E4E2039D90}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a4cb5ebe-b16c-494f-b580-77a1510d77d9"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "insurance offers : car insurance item"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241023T144040Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241023T144103Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Add car insurance and get 10% off" linktype="external" url="https://www.theaa.com/car-insurance/member-discount?AffinityID=50APPMEMBER" anchor="" title="Add car insurance and get 10% off" target="_blank" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{F536ECCB-A508-458B-9E2A-502474EB059A}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Add car insurance and get 10% off" linktype="external" url="https://www-uat.theaa.digital/car-insurance/member-discount?AffinityID=APPDISCOUNT " anchor="" title="Add car insurance and get 10% off" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {8D8F3EC3-6FA9-47C8-B97B-4AFD7DC2E3E1}
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {E1EF9AF7-7B93-437E-B834-338EE01C80DD}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Add car insurance and get 10% off
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241023T144107Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{A2BCE7CE-C90F-49C6-9492-9A3160CF3E2A}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Add car insurance and get 10% off
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5222FEF9-0287-4592-BF0C-89E4E2039D90}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a7904cfe-f366-463a-b478-701b8d404a39"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "insurance offers : car insurance item"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241023T144107Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241025T112422Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Add car insurance and get 10% off" linktype="external" url="https://www-uat.theaa.digital/car-insurance/member-discount?AffinityID=50APPMEMBER" anchor="" title="Add car insurance and get 10% off" target="_blank" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{F536ECCB-A508-458B-9E2A-502474EB059A}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Add car insurance and get 10% off" linktype="external" url="https://www-uat.theaa.digital/car-insurance/member-discount?AffinityID=APPDISCOUNT " anchor="" title="Add car insurance and get 10% off" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {8D8F3EC3-6FA9-47C8-B97B-4AFD7DC2E3E1}
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {E1EF9AF7-7B93-437E-B834-338EE01C80DD}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Add car insurance and get 10% off
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241025T155942Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{A2BCE7CE-C90F-49C6-9492-9A3160CF3E2A}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Add car insurance and get 10% off
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5222FEF9-0287-4592-BF0C-89E4E2039D90}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "774f596e-b927-4762-a14d-6d51a4db0dc9"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: car insurance item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241025T155942Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241025T160000Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Add car insurance and get 10% off" linktype="external" url="https://www-uat.theaa.digital/car-insurance/member-discount?AffinityID=50APPMEMBER" anchor="" title="Add car insurance and get 10% off" target="_blank" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{F536ECCB-A508-458B-9E2A-502474EB059A}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Add car insurance and get 10% off" linktype="external" url="https://www-uat.theaa.digital/car-insurance/member-discount?AffinityID=APPDISCOUNT " anchor="" title="Add car insurance and get 10% off" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {8D8F3EC3-6FA9-47C8-B97B-4AFD7DC2E3E1}
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {E1EF9AF7-7B93-437E-B834-338EE01C80DD}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Add car insurance and get 10% off
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241025T160002Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{A2BCE7CE-C90F-49C6-9492-9A3160CF3E2A}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Add car insurance and get 10% off
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5222FEF9-0287-4592-BF0C-89E4E2039D90}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0e8ff218-7781-4988-b553-36f94ee43c77"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: car insurance item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241025T160002Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241025T160006Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Add car insurance and get 10% off" linktype="external" url="https://www-uat.theaa.digital/car-insurance/member-discount?AffinityID=50APPMEMBER" anchor="" title="Add car insurance and get 10% off" target="_blank" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{F536ECCB-A508-458B-9E2A-502474EB059A}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 7
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Add car insurance and get 10% off" linktype="external" url="https://www-uat.theaa.digital/car-insurance/member-discount?AffinityID=APPDISCOUNT&amp;mobileapps=true&amp;utm_medium=app&amp;utm_campaign=android&amp;utm_source=account " anchor="" title="Add car insurance and get 10% off" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {8D8F3EC3-6FA9-47C8-B97B-4AFD7DC2E3E1}
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {E1EF9AF7-7B93-437E-B834-338EE01C80DD}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Add car insurance and get 10% off
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241028T103644Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{A2BCE7CE-C90F-49C6-9492-9A3160CF3E2A}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Add car insurance and get 10% off
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5222FEF9-0287-4592-BF0C-89E4E2039D90}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a839dcde-b253-48a9-a215-54786d5d676b"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: car insurance item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241028T103644Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241028T104213Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Add car insurance and get 10% off" linktype="external" url="https://www-uat.theaa.digital/car-insurance/member-discount?AffinityID=50APPMEMBER&amp;mobileapps=true&amp;utm_medium=app&amp;utm_campaign=ios&amp;utm_source=account" anchor="" title="Add car insurance and get 10% off" target="_blank" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{F536ECCB-A508-458B-9E2A-502474EB059A}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 8
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Add car insurance and get 10% off" linktype="external" url="https://www-uat.theaa.digital/car-insurance/member-discount?AffinityID=APPDISCOUNT&amp;mobileapps=true&amp;utm_medium=app&amp;utm_campaign=android&amp;utm_source=account " anchor="" title="Add car insurance and get 10% off" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {8D8F3EC3-6FA9-47C8-B97B-4AFD7DC2E3E1}
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {E1EF9AF7-7B93-437E-B834-338EE01C80DD}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Add car insurance and get 10% off
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241028T104219Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{A2BCE7CE-C90F-49C6-9492-9A3160CF3E2A}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Add car insurance and get 10% off
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5222FEF9-0287-4592-BF0C-89E4E2039D90}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e89be953-5891-4222-94cc-430c15c6a3cd"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: car insurance item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241028T104219Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241028T104221Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Add car insurance and get 10% off" linktype="external" url="https://www-uat.theaa.digital/car-insurance/member-discount?AffinityID=50APPMEMBER&amp;mobileapps=true&amp;utm_medium=app&amp;utm_campaign=ios&amp;utm_source=account" anchor="" title="Add car insurance and get 10% off" target="_blank" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{F536ECCB-A508-458B-9E2A-502474EB059A}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 9
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Add car insurance and get 10% off" linktype="external" url="https://www-uat.theaa.digital/car-insurance/member-discount?AffinityID=APPDISCOUNT&amp;mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=buy_car_insurance&amp;utm_campaign=benefits&amp;utm_content=aa_benefits_benefit_item" anchor="" title="Add car insurance and get 10% off" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {8D8F3EC3-6FA9-47C8-B97B-4AFD7DC2E3E1}
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {E1EF9AF7-7B93-437E-B834-338EE01C80DD}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Add car insurance and get 10% off
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241028T105237Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{A2BCE7CE-C90F-49C6-9492-9A3160CF3E2A}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Add car insurance and get 10% off
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5222FEF9-0287-4592-BF0C-89E4E2039D90}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5ee6c90b-43d7-4b0a-9127-92095506fbbb"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: car insurance item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241028T105237Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241028T105339Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Add car insurance and get 10% off" linktype="external" url="https://www-uat.theaa.digital/car-insurance/member-discount?AffinityID=50APPMEMBER&amp;mobileapps=true&amp;utm_medium=app-aa-android&amp;utm_source=buy_car_insurance&amp;utm_campaign=benefits&amp;utm_content=aa_benefits_benefit_item" anchor="" title="Add car insurance and get 10% off" target="_blank" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{F536ECCB-A508-458B-9E2A-502474EB059A}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 10
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Add car insurance and get 10% off" linktype="external" url="https://www-uat.theaa.digital/car-insurance/member-discount?AffinityID=APPDISCOUNT&amp;mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=buy_car_insurance&amp;utm_campaign=benefits&amp;utm_content=aa_benefits_benefit_item" anchor="" title="Add car insurance and get 10% off" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {8D8F3EC3-6FA9-47C8-B97B-4AFD7DC2E3E1}
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {E1EF9AF7-7B93-437E-B834-338EE01C80DD}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Add car insurance and get 10% off
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241028T105341Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{A2BCE7CE-C90F-49C6-9492-9A3160CF3E2A}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Add car insurance and get 10% off
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5222FEF9-0287-4592-BF0C-89E4E2039D90}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "afc3a66f-7968-4f0f-b66d-482d4615e668"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: car insurance item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241028T105341Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241028T105345Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Add car insurance and get 10% off" linktype="external" url="https://www-uat.theaa.digital/car-insurance/member-discount?AffinityID=50APPMEMBER&amp;mobileapps=true&amp;utm_medium=app-aa-android&amp;utm_source=buy_car_insurance&amp;utm_campaign=benefits&amp;utm_content=aa_benefits_benefit_item" anchor="" title="Add car insurance and get 10% off" target="_blank" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{F536ECCB-A508-458B-9E2A-502474EB059A}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 11
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Add car insurance and get 10% off" linktype="external" url="https://www-uat.theaa.digital/car-insurance/member-discount?AffinityID=APPDISCOUNT&amp;mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=buy_car_insurance&amp;utm_campaign=benefits&amp;utm_content=car_insurance_item" anchor="" title="Add car insurance and get 10% off" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {8D8F3EC3-6FA9-47C8-B97B-4AFD7DC2E3E1}
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {E1EF9AF7-7B93-437E-B834-338EE01C80DD}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Add car insurance and get 10% off
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241101T093848Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{A2BCE7CE-C90F-49C6-9492-9A3160CF3E2A}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Add car insurance and get 10% off
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5222FEF9-0287-4592-BF0C-89E4E2039D90}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a4c62646-d10b-4531-bf9d-9e202e87bcd7"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: car insurance item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241101T093848Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241101T094021Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Add car insurance and get 10% off" linktype="external" url="https://www-uat.theaa.digital/car-insurance/member-discount?AffinityID=50APPMEMBER&amp;mobileapps=true&amp;utm_medium=app-aa-android&amp;utm_source=buy_car_insurance&amp;utm_campaign=benefits&amp;utm_content=car_insurance_item" anchor="" title="Add car insurance and get 10% off" target="_blank" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{F536ECCB-A508-458B-9E2A-502474EB059A}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 12
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Add car insurance and get 10% off" linktype="external" url="https://www.theaa.com/car-insurance/member-discount?AffinityID=APPDISCOUNT&amp;mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=buy_car_insurance&amp;utm_campaign=benefits&amp;utm_content=car_insurance_item" anchor="" title="Add car insurance and get 10% off" target="_blank" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {8D8F3EC3-6FA9-47C8-B97B-4AFD7DC2E3E1}
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {E1EF9AF7-7B93-437E-B834-338EE01C80DD}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Add car insurance and get 10% off
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241101T094024Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{A2BCE7CE-C90F-49C6-9492-9A3160CF3E2A}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Add car insurance and get 10% off
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5222FEF9-0287-4592-BF0C-89E4E2039D90}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "706c3ea3-9594-40b2-b0d6-2d22b2c65d61"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: car insurance item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241101T094024Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241106T162957Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Add car insurance and get 10% off" linktype="external" url="https://www.theaa.com/car-insurance/member-discount?AffinityID=50APPMEMBER&amp;mobileapps=true&amp;utm_medium=app-aa-android&amp;utm_source=buy_car_insurance&amp;utm_campaign=benefits&amp;utm_content=car_insurance_item" anchor="" title="Add car insurance and get 10% off" target="_blank" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{F536ECCB-A508-458B-9E2A-502474EB059A}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 13
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Add car insurance and get 10% off" linktype="external" url="https://www.theaa.com/car-insurance/member-discount?AffinityID=APPDISCOUNT&amp;mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=buy_car_insurance&amp;utm_campaign=aa_benefits&amp;utm_content=insurance_offers_car_insurance_item" anchor="" title="Add car insurance and get 10% off" target="" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {8D8F3EC3-6FA9-47C8-B97B-4AFD7DC2E3E1}
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+        {E1EF9AF7-7B93-437E-B834-338EE01C80DD}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Add car insurance and get 10% off
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241112T085507Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{A2BCE7CE-C90F-49C6-9492-9A3160CF3E2A}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Add car insurance and get 10% off
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5222FEF9-0287-4592-BF0C-89E4E2039D90}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "256d017b-48d0-434f-8337-eec4265a2976"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: car insurance item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241112T085507Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241112T085626Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Add car insurance and get 10% off" linktype="external" url="https://www.theaa.com/car-insurance/member-discount?AffinityID=50APPMEMBER&amp;mobileapps=true&amp;utm_medium=app-aa-android&amp;utm_source=buy_car_insurance&amp;utm_campaign=aa_benefits&amp;utm_content=insurance_offers_car_insurance_item" anchor="" title="Add car insurance and get 10% off" target="" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{F536ECCB-A508-458B-9E2A-502474EB059A}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 14
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Add car insurance and get 10% off" linktype="external" url="https://www.theaa.com/car-insurance/member-discount?AffinityID=APPDISCOUNT&amp;mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=buy_car_insurance&amp;utm_campaign=aa_benefits&amp;utm_content=insurance_offers_car_insurance_item" anchor="" title="Add car insurance and get 10% off" target="" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {8D8F3EC3-6FA9-47C8-B97B-4AFD7DC2E3E1}
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Add car insurance and get 10% off
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241126T100951Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{A2BCE7CE-C90F-49C6-9492-9A3160CF3E2A}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Add car insurance and get 10% off
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5222FEF9-0287-4592-BF0C-89E4E2039D90}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "384e204d-0286-4281-b3da-fcb88baa16f4"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: car insurance item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241126T100951Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241126T101008Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Add car insurance and get 10% off" linktype="external" url="https://www.theaa.com/car-insurance/member-discount?AffinityID=50APPMEMBER&amp;mobileapps=true&amp;utm_medium=app-aa-android&amp;utm_source=buy_car_insurance&amp;utm_campaign=aa_benefits&amp;utm_content=insurance_offers_car_insurance_item" anchor="" title="Add car insurance and get 10% off" target="" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{F536ECCB-A508-458B-9E2A-502474EB059A}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 15
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "02140200-bc40-4878-bf21-a1a2293d97a7"
+      Hint: Apple CTA
+      Value: |
+        <link text="Add car insurance and get 10% off" linktype="external" url="https://www.theaa.com/car-insurance/member-discount?AffinityID=APPDISCOUNT&amp;mobileapps=true&amp;utm_medium=app-aa-ios&amp;utm_source=buy_car_insurance&amp;utm_campaign=aa_benefits&amp;utm_content=insurance_offers_car_insurance_item" anchor="" title="Add car insurance and get 10% off" target="" />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: |
+        {8D8F3EC3-6FA9-47C8-B97B-4AFD7DC2E3E1}
+        {A0345E9C-963B-4426-B3A9-A2D199BE610B}
+        {629321B5-11EA-48CF-972B-703CA65FCD9D}
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Add car insurance and get 10% off
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250529T125229Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{A2BCE7CE-C90F-49C6-9492-9A3160CF3E2A}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Add car insurance and get 10% off
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{5222FEF9-0287-4592-BF0C-89E4E2039D90}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "08f4b711-7f4b-4e86-acbf-cff5038362e8"
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: car insurance item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20250529T125229Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250529T125244Z
+    - ID: "e328a20b-8eb4-4051-89cb-be567d0bbf3f"
+      Hint: Android CTA
+      Value: |
+        <link text="Add car insurance and get 10% off" linktype="external" url="https://www.theaa.com/car-insurance/member-discount?AffinityID=50APPMEMBER&amp;mobileapps=true&amp;utm_medium=app-aa-android&amp;utm_source=buy_car_insurance&amp;utm_campaign=aa_benefits&amp;utm_content=insurance_offers_car_insurance_item" anchor="" title="Add car insurance and get 10% off" target="" />
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{F536ECCB-A508-458B-9E2A-502474EB059A}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click

@@ -1,0 +1,30 @@
+﻿---
+ID: "84a512d9-610d-4215-91a3-57cc244c6c64"
+Parent: "44de0842-f3bf-4ea5-ade6-7e882219cae7"
+Template: "44de0842-f3bf-4ea5-ade6-7e882219cae7"
+Path: /sitecore/templates/TheAA/Settings/SalesJourney/Blocks/NeedsAssessmentBlock/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{D0169AB4-109E-45F3-993B-2EE7FE1EE149}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170210T124542Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3c73f10f-88b6-4482-853a-a4164d62228d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20170210T175025Z
+    - ID: "fdfd86d5-1862-4393-8426-42012d76f30f"
+      Hint: RenderingViewPath
+      Value: "{A880B514-9ECD-4BFE-AC15-46096B9C5C96}"

@@ -1,0 +1,26 @@
+﻿---
+ID: "2f32264d-d234-40c2-a7b0-66e1c15ee91a"
+Parent: "946c9722-6ec7-423b-b811-046d22257b22"
+Template: "946c9722-6ec7-423b-b811-046d22257b22"
+Path: /sitecore/templates/TheAA/Presentation/TextColourSettings/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160203T160354Z
+    - ID: "71331149-f816-4dfc-8a6e-9d686ae3c890"
+      Hint: TextColour
+      Value: "{626ECE4D-C6D3-4EE3-90B1-CB949F8C1583}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f13f58a8-4160-4309-8a31-e26bae24b7d6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20160315T150035Z

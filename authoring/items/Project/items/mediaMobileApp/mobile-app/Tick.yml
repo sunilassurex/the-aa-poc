@@ -1,0 +1,60 @@
+﻿---
+ID: "eb8093a2-ad47-4aed-96e5-2115c53e1b49"
+Parent: "849fbb4b-2dfc-48a6-a316-a2ec1f87871b"
+Template: "f1828a2c-7e5d-4bbd-98ca-320474871548"
+Path: "/sitecore/media library/mobile-app/Tick"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "~/media/EB8093A2AD474AED96E52115C53E1B49.ashx?h=16&thn=1&w=16"
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "f44624fc-37ab-44e2-ab13-fa28b03ace05"
+  Value: PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNSAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMi41IDMuOTk5OTVDMTYuMzE2NCA0LjAwMyAxOS41OTkzIDYuNzAxMzYgMjAuMzQxMSAxMC40NDVDMjEuMDgyOSAxNC4xODg2IDE5LjA3NzEgMTcuOTM1IDE1LjU1MDIgMTkuMzkzMUMxMi4wMjMzIDIwLjg1MTIgNy45NTc1MiAxOS42MTUgNS44MzkxOCAxNi40NDA1QzMuNzIwODQgMTMuMjY1OSA0LjEzOTg0IDkuMDM3MTIgNi44Mzk5NSA2LjM0QzguMzM4MzkgNC44MzU0IDEwLjM3NjUgMy45OTI3OSAxMi41IDMuOTk5OTVaTTEyLjUgMkM3LjcyOTE1IDEuOTk4OTggMy42MjIwMSA1LjM2ODIxIDIuNjkwMzUgMTAuMDQ3MkMxLjc1ODY5IDE0LjcyNjEgNC4yNjE5OCAxOS40MTE2IDguNjY5MyAyMS4yMzgxQzEzLjA3NjYgMjMuMDY0NiAxOC4xNjA0IDIxLjUyMzQgMjAuODExNiAxNy41NTcxQzIzLjQ2MjggMTMuNTkwOCAyMi45NDI5IDguMzAzOTggMTkuNTcgNC45M0MxNy42OTUgMy4wNTQ1MSAxNS4xNTE5IDIuMDAwNTcgMTIuNSAyWk0xNi43MSA5LjA5QzE2LjUyMjIgOC45MDA2OSAxNi4yNjY2IDguNzk0MiAxNiA4Ljc5NDJDMTUuNzMzMyA4Ljc5NDIgMTUuNDc3NyA4LjkwMDY5IDE1LjI5IDkuMDlMMTAuODcgMTMuNTJMOS41Njk5NSAxMi4yM0M5LjE3MzE5IDExLjg5MDIgOC41ODE3NiAxMS45MTMxIDguMjEyMzkgMTIuMjgyNEM3Ljg0MzAyIDEyLjY1MTggNy44MjAxOCAxMy4yNDMyIDguMTU5OTUgMTMuNjRMMTAuMTYgMTUuNjRDMTAuNTUgMTYuMDI3NyAxMS4xNzk5IDE2LjAyNzcgMTEuNTcgMTUuNjRMMTYuNzEgMTAuNTFDMTYuODk5MyAxMC4zMjIyIDE3LjAwNTggMTAuMDY2NiAxNy4wMDU4IDkuOEMxNy4wMDU4IDkuNTMzMzYgMTYuODk5MyA5LjI3Nzc3IDE2LjcxIDkuMDlaIiBmaWxsPSIjMDAwODFDIi8+Cjwvc3ZnPgo=
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 1013
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: image/svg+xml
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: svg
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240722T132818Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "3f4b20e9-36e6-4d45-a423-c86567373f82"
+      Hint: Title
+      Value: Tick
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "65885c44-8fcd-4a7f-94f1-ee63703fe193"
+      Hint: Alt
+      Value: Tick
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4244db1f-7383-4efe-abec-454df6dbd2c1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240722T133134Z
