@@ -1,0 +1,34 @@
+﻿---
+ID: "c97bc954-d16d-4153-970a-6291fd6ec42c"
+Parent: "9397c625-75f6-4fcc-ab82-3b5ca666788e"
+Template: "991f757c-6948-4e2c-988a-870fe0c59f48"
+Path: "/sitecore/content/AA/Beam/Modules/Industry Reviews/car-insurance"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220228T143121Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6468d8a8-4748-4c5a-a289-862d09f456f2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220228T144246Z

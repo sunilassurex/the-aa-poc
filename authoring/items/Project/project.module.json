@@ -37,6 +37,52 @@
         "allowedPushOperations": "CreateAndUpdate"
       },
       {
+        "name": "beamsite",
+        "path": "/sitecore/content/AA/Beam",
+        "allowedPushOperations": "CreateOnly",
+        "rules": [
+          {
+            "path": "/Home",
+            "allowedPushOperations": "CreateOnly",
+            "scope": "ItemAndDescendants"
+          },
+          {
+            "path": "/Modules",
+            "allowedPushOperations": "CreateOnly",
+            "scope": "ItemAndDescendants"
+          },
+          {
+            "path": "/Media",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/Dictionary",
+            "scope": "SingleItem",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/Data",
+            "scope": "ItemAndDescendants",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/Presentation",
+            "scope": "ItemAndDescendants",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "/Settings",
+            "scope": "ItemAndDescendants",
+            "allowedPushOperations": "CreateOnly"
+          },
+          {
+            "path": "*",
+            "scope": "Ignored"
+          }
+        ]
+      },
+      {
         "name": "mobileapp",
         "path": "/sitecore/content/AA/mobile-app",
         "allowedPushOperations": "CreateOnly",

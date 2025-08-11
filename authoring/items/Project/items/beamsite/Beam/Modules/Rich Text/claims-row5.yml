@@ -1,0 +1,838 @@
+﻿---
+ID: "a308a77b-5b23-4203-a056-b1c292a0a582"
+Parent: "40725490-d89d-4d78-8617-271b6ee033c4"
+Template: "e36747b3-6154-423a-b32d-b2d323f5a739"
+Path: "/sitecore/content/AA/Beam/Modules/Rich Text/claims-row5"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160902T135056Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0706b389-b411-4d8e-8af1-f2d22f280049"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20160902T135056Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>If you're unfortunate enough to have an accident, injury, loss or damage regardless of fault, call us on <strong>0800 269 622</strong> to make a claim. Please have your details ready when calling.</p>
+        <p>When you call AA Claimline, your personal claim advisor will explain all the available options, and assist you through every step of the claims process. Then, once the incident report has been completed, you will be passed to either your insurer or ClaimFast (our preferred accident management company) to progress your claim.</p>
+        <p>Your AA personal claim advisor will contact you in a week to discuss how your claim is progressing, and see if we can be of any assistance.</p>
+        <hr>
+        <h5>Windscreen claims</h5>
+        <p>If you have comprehensive cover call <strong>0800 269 622</strong> to report a claim.</p>
+        <p>We'll arrange to repair or replace your glass as quickly as possible. You'll need pay the excess shown in the endorsements section&nbsp;of your certificate of insurance. Your no claim discount won't be affected.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211220T193308Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171016T104505Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ebd4d505-b328-468a-a2f7-ea1d2d167e4e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20171016T104505Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>If you're unfortunate enough to have an accident, injury, loss or damage regardless of fault, call us on <strong>0800 269 622</strong> to make a claim. Please have your details ready when calling.</p>
+        <p>When you call AA Claimline, your personal claim advisor will explain all the available options, and assist you through every step of the claims process. Then, once the incident report has been completed, you will be passed to either your insurer or ClaimFast (our preferred accident management company) to progress your claim.</p>
+        <p>Your AA personal claim advisor will contact you in a week to discuss how your claim is progressing, and see if we can be of any assistance.</p>
+        <hr>
+        <h5>Windscreen claims</h5>
+        <p>Our comprehensive car insurance includes glass cover.</p>
+        <p>So if you have comprehensive cover and need to make a glass claim, call us on <strong>0800 269 622</strong>. A specialist technician will repair or replace your glass as quickly as possible.</p>
+        <p>You'll need pay the excess shown in the endorsements section of your certificate of insurance, but your no claims discount won't be affected.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211220T193308Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171016T141815Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "de6518f8-aa4c-48e5-b8f3-9a8113f3c06e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20171016T141815Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>If you're unfortunate enough to have an accident, injury, loss or damage regardless of fault, call us on <strong>0800 269 622</strong> to make a claim. Please have your details ready when calling.</p>
+        <p>If your car has been stolen, you must obtain a crime reference number from the police.</p>
+        <p>When you call AA Claimline, your personal claim advisor will explain all the available options, and assist you through every step of the claims process. Then, once the incident report has been completed, you will be passed to either your insurer or ClaimFast (our preferred accident management company) to progress your claim.</p>
+        <p>Your AA personal claim advisor will contact you in a week to discuss how your claim is progressing, and see if we can be of any assistance.</p>
+        <hr>
+        <h5>Windscreen claims</h5>
+        <p>Our comprehensive car insurance includes glass cover.</p>
+        <p>So if you have comprehensive cover and need to make a glass claim, call us on <strong>0800 269 622</strong>. A specialist technician will repair or replace your glass as quickly as possible.</p>
+        <p>You'll need pay the excess shown in the endorsements section of your certificate of insurance, but your no claims discount won't be affected.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211220T193308Z
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171017T074517Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6a194407-d693-4a4f-8232-8399100a66bf"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20171017T074517Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>If you're unfortunate enough to have an accident, injury, loss or damage regardless of fault, call us on <strong>0800 269 622</strong> to make a claim. Please have your details ready when calling.</p>
+        <p>If your car has been stolen, you'll need to get a crime reference number from the police.</p>
+        <p>When you call AA Claimline, your personal claim advisor will explain all the available options, and assist you through every step of the claims process. Then, once the incident report has been completed, you will be passed to either your insurer or ClaimFast (our preferred accident management company) to progress your claim.</p>
+        <p>Your AA personal claim advisor will contact you in a week to discuss how your claim is progressing, and see if we can be of any assistance.</p>
+        <hr>
+        <h5>Windscreen claims</h5>
+        <p>Our comprehensive car insurance includes glass cover.</p>
+        <p>So if you have comprehensive cover and need to make a glass claim, call us on <strong>0800 269 622</strong>. A specialist technician will repair or replace your glass as quickly as possible.</p>
+        <p>You'll need pay the excess shown in the endorsements section of your certificate of insurance, but your no claims discount won't be affected.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211220T193308Z
+  - Version: 5
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190513T122609Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b978ec30-7e7d-4e23-a8d2-9bf6b1290b6f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190513T122609Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>Vehicle claims</h2>
+        <p>If you're unfortunate enough to have an accident, injury, loss or damage regardless of fault, call us on <strong>0800 269 622</strong> to make a claim. Please have your details ready when calling.</p>
+        <p>If your car has been stolen, you'll need to get a crime reference number from the police.</p>
+        <p>When you call AA Claimline, your personal claim advisor will explain all the available options, and assist you through every step of the claims process. Then, once the incident report has been completed, you will be passed to either your insurer or ClaimFast (our preferred accident management company) to progress your claim.</p>
+        <p>Your AA personal claim advisor will contact you in a week to discuss how your claim is progressing, and see if we can be of any assistance.</p>
+        <hr />
+        <h2>Windscreen claims</h2>
+        <p>Our  comprehensive car insurance includes glass cover. So to make a glass claim and arrange a repair, you just need to:</p>
+        <ul>
+            <li><a href="https://www.autowindscreens.co.uk/bookflow/insurance?insurer=aa">book an appointment online</a></li>
+        </ul>
+        <p>Please have your details ready, including the policy number, start date and insurer. You can find them all on your Statement of Insurance.</p>
+        <p>A specialist technician will repair or replace your glass as quickly as possible.</p>
+        <p>You'll need pay the excess shown in the endorsements section of your certificate of insurance, but your no claims discount won't be affected.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211220T193308Z
+  - Version: 6
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200715T132317Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2ff0a04f-3614-4a18-8157-4f65b843a32c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200715T132317Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>Vehicle claims</h2>
+        <p>If you're unfortunate enough to have an accident, injury, loss or damage regardless of fault, we're ready to help. To make a claim, call AA Accident Assist on:</p>
+        <h6><a href="tel:0800269622">0800 269 622</a></h6>
+        <p>Please have your policy number handy &ndash; you can find it on your Statement of Insurance.</p>
+        <p>If your car has been stolen, you'll need to get a crime reference number from the police.</p>
+        <p>When you call AA Accident Assist, your claim advisor will explain all the available options, and assist you through every step of the claims process. Then, once the incident report has been completed, we'll arrange repairs to your vehicle and a replacement vehicle, or pass you to your insurer to progress the claim.</p>
+        <p>Your AA Accident Assist claim advisor will contact you in a week to discuss how your claim is progressing, and see if we can be of any assistance.</p>
+        <hr />
+        <h2>Windscreen claims</h2>
+        <p>Our  comprehensive car insurance includes glass cover. So to make a glass claim and arrange a repair, you just need to:</p>
+        <ul>
+            <li><a href="https://www.autowindscreens.co.uk/bookflow/insurance?insurer=aa">book an appointment online</a></li>
+        </ul>
+        <p>Please have your details ready, including the policy number, start date and insurer. You can find them all on your Statement of Insurance.</p>
+        <p>A specialist technician will repair or replace your glass as quickly as possible.</p>
+        <p>You'll need pay the excess shown in the endorsements section of your certificate of insurance, but your no claim discount won't be affected.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211220T193308Z
+  - Version: 7
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200722T064140Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "93909cb8-af58-47a8-864a-309a524f978e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200722T064140Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>Vehicle claims</h2>
+        <p>If you're unfortunate enough to have an accident, injury, loss or damage regardless of fault, AA Accident Assist is ready to help. </p>
+        <p>To make a claim, call <a href="tel:0800269622">0800 269 622</a>.</p>
+        <p>Please have your policy number handy &ndash; you can find it on your Statement of Insurance.</p>
+        <p>If your car has been stolen, you'll need to get a crime reference number from the police.</p>
+        <p>When you call AA Accident Assist, your claim advisor will explain all the available options, and assist you through every step of the claims process. Then, once the incident report has been completed, we'll arrange repairs to your vehicle and a replacement vehicle, or pass you to your insurer to progress the claim.</p>
+        <p>Your AA Accident Assist claim advisor will contact you in a week to discuss how your claim is progressing, and see if we can be of any assistance.</p>
+        <hr />
+        <h2>Windscreen claims</h2>
+        <p>Our  comprehensive car insurance includes glass cover. So to make a glass claim and arrange a repair, you just need to:</p>
+        <ul>
+            <li><a href="https://www.autowindscreens.co.uk/bookflow/insurance?insurer=aa">book an appointment online</a></li>
+        </ul>
+        <p>Please have your details ready, including the policy number, start date and insurer. You can find them all on your Statement of Insurance.</p>
+        <p>A specialist technician will repair or replace your glass as quickly as possible.</p>
+        <p>You'll need pay the excess shown in the endorsements section of your certificate of insurance, but your no claim discount won't be affected.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211220T193434Z
+  - Version: 8
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220201T151430Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\MartinL
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\MartinL
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8d33d6ba-32e2-46a8-9eb1-ca1e71964dba"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\MartinL
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220201T151430Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>Making a claim</h2>
+        <p class="Paragraph SCXW74870920 BCX0" paraid="1354700471" paraeid="{1b4c5f0e-b8e1-4fcb-af42-09c3295fd4f4}{106}" style="color: windowtext; background-color: transparent; margin-right: 0px; margin-left: 0px; padding: 0px;"><span data-contrast="none" class="TextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;"><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">If </span><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">you&rsquo;ve had an accident, injury, loss or damage regardless of fault</span><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">, BEAM is ready to help</span><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">. </span></span><span class="EOP SCXW74870920 BCX0" data-ccp-props="{'201341983':0,'335559739':160,'335559740':259}" style="margin: 0px; padding: 0px;"></span></p>
+        <p class="Paragraph SCXW74870920 BCX0" paraid="1074795318" paraeid="{1b4c5f0e-b8e1-4fcb-af42-09c3295fd4f4}{115}" style="color: windowtext; background-color: transparent; margin-right: 0px; margin-left: 0px; padding: 0px;"><span data-contrast="none" class="TextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;"><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">We&rsquo;re powered by the AA, giving you 24/7 access to AA Accident Assist</span><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;"> &ndash; day or night, your claim is in safe hands</span><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">. </span></span><span class="EOP SCXW74870920 BCX0" data-ccp-props="{'201341983':0,'335559739':160,'335559740':259}" style="margin: 0px; padding: 0px;"></span></p>
+        <p class="Paragraph SCXW74870920 BCX0" paraid="1700746533" paraeid="{2b5296d6-c967-4450-8d90-b61e51f71b3e}{105}" style="color: windowtext; background-color: transparent; margin-right: 0px; margin-left: 0px; padding: 0px;"><span data-contrast="none" class="TextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;"><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">To make a claim, call </span></span><span data-contrast="none" class="TextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px; color: #172b4d;"><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">0330 041 3689</span></span><span data-contrast="none" class="TextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;"><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">.</span></span><span class="EOP SCXW74870920 BCX0" data-ccp-props="{'201341983':0,'335559739':160,'335559740':259}" style="margin: 0px; padding: 0px;"></span></p>
+        <p class="Paragraph SCXW74870920 BCX0" paraid="78172472" paraeid="{2b5296d6-c967-4450-8d90-b61e51f71b3e}{112}" style="color: windowtext; background-color: transparent; margin-right: 0px; margin-left: 0px; padding: 0px;"><span data-contrast="none" class="TextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;"><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">To process your claim, w</span><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">e&rsquo;ll need</span><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">:</span><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;"> </span></span><span class="EOP SCXW74870920 BCX0" data-ccp-props="{'201341983':0,'335559739':160,'335559740':259}" style="margin: 0px; padding: 0px;"></span></p>
+        <div class="ListContainerWrapper SCXW74870920 BCX0" style="color: #000000; background-color: #ffffff; margin: 0px; padding: 0px;">
+        <ul class="BulletListStyle1 SCXW74870920 BCX0" role="list" style="margin: 0px; padding: 0px;">
+            <li data-leveltext="-" data-font="Calibri" aria-setsize="-1" data-aria-posinset="1" role="listitem" data-aria-level="1" class="OutlineElement Ltr SCXW74870920 BCX0" style="margin: 0px 0px 0px 24px; padding: 0px;">
+            <p class="Paragraph SCXW74870920 BCX0" paraid="1399363651" paraeid="{72409514-7e3e-45ea-bdba-f0e139f5135a}{143}" style="color: windowtext; background-color: transparent; margin-right: 0px; margin-left: 0px; padding: 0px;"><span data-contrast="none" class="TextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;"><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">Y</span><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">our policy </span><span class="NormalTextRun ContextualSpellingAndGrammarErrorV2 SCXW74870920 BCX0" style="margin: 0px; padding: 0px; border-bottom: 1px solid transparent;">number</span><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">. </span><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">You can find it on</span><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;"> your Statement of Insurance</span><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">, which</span><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;"> was sent to you by post or email when you bought your car insurance.&nbsp;</span></span><span class="EOP SCXW74870920 BCX0" data-ccp-props="{'134233279':true,'201341983':0,'335559739':160,'335559740':259}" style="margin: 0px; padding: 0px;"></span></p>
+            </li>
+            <li data-leveltext="-" data-font="Calibri" aria-setsize="-1" data-aria-posinset="2" role="listitem" data-aria-level="1" class="OutlineElement Ltr SCXW74870920 BCX0" style="margin: 0px 0px 0px 24px; padding: 0px;">
+            <p class="Paragraph SCXW74870920 BCX0" paraid="1725796228" paraeid="{2b5296d6-c967-4450-8d90-b61e51f71b3e}{119}" style="color: windowtext; background-color: transparent; margin-right: 0px; margin-left: 0px; padding: 0px;"><span data-contrast="none" class="TextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;"><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">If your car </span><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">was</span><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">&nbsp;stolen, </span><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">we&rsquo;ll need your crime reference number. You can get this from the police when you report the theft. </span></span><span class="EOP SCXW74870920 BCX0" data-ccp-props="{'134233279':true,'201341983':0,'335559739':160,'335559740':259}" style="margin: 0px; padding: 0px;"></span></p>
+            </li>
+        </ul>
+        </div>
+        <div class="OutlineElement Ltr SCXW74870920 BCX0" style="color: #000000; background-color: #ffffff; margin: 0px; padding: 0px;">&nbsp;</div>
+        <p class="Paragraph SCXW74870920 BCX0" paraid="1824837875" paraeid="{ccdd4af9-dcd6-468c-a0bd-703ebedf036a}{236}" style="color: windowtext; background-color: transparent; margin-right: 0px; margin-left: 0px; padding: 0px;"><span data-contrast="none" class="TextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;"><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">When you call AA Accident Assist, your claim advisor will explain </span><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">your options </span><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">and </span><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">help</span><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">&nbsp;you through&nbsp;the claims process. </span><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">O</span><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">nce the incident report has been completed, we'll arrange repairs to your vehicle or pass you to your insurer to </span><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">move forward with</span><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">&nbsp;the claim.</span></span><span class="EOP SCXW74870920 BCX0" data-ccp-props="{'201341983':0,'335559739':160,'335559740':259}" style="margin: 0px; padding: 0px;"></span></p>
+        <p class="Paragraph SCXW74870920 BCX0" paraid="1898885086" paraeid="{2b5296d6-c967-4450-8d90-b61e51f71b3e}{133}" style="color: windowtext; background-color: transparent; margin-right: 0px; margin-left: 0px; padding: 0px;"><span data-contrast="none" class="TextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;"><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">Your AA Accident Assist claim advisor will </span><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">get in touch</span><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">&nbsp;within a week to </span><span class="NormalTextRun SCXW74870920 BCX0" style="margin: 0px; padding: 0px;">keep you updated on your claim. </span></span><span class="EOP SCXW74870920 BCX0" data-ccp-props="{'201341983':0,'335559739':160,'335559740':259}" style="margin: 0px; padding: 0px;"></span></p>
+        <hr />
+        <h2>Making a windscreen claim</h2>
+        <p>Our  comprehensive car insurance includes glass cover. To make a glass claim and arrange a repair:</p>
+        <ul>
+            <li><a href="https://www.autowindscreens.co.uk/bookflow/insurance?insurer=aa">book an appointment online</a></li>
+        </ul>
+        <p>You'll need to have your policy number, start date and insurer to hand. You can find them all on your Statement of Insurance.</p>
+        <p>A specialist technician will repair or replace your glass as quickly as possible.</p>
+        <p>You'll need pay the excess shown in the endorsements section of your certificate of insurance, but your no claim discount won't be affected.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220201T152617Z
+  - Version: 9
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220208T093541Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\MartinL
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\MartinL
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "700ba7b0-7bc8-4d8c-8f88-7c374de7ce5d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\MartinL
+    - ID: "c0148be1-03e2-4b2f-8f81-922f7f0dd2e2"
+      Hint: Title
+      Value: Making a claim
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220208T093541Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>Making a car insurance claim</h2>
+        <p class="Paragraph SCXW201595719 BCX0" paraid="1354700471" paraeid="{8fa43eea-d3ce-465f-82f7-d2543756c6c5}{254}" style="color: windowtext; background-color: transparent; margin-right: 0px; margin-left: 0px; padding: 0px;"><span data-contrast="none" class="TextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;"><span class="NormalTextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;">If </span><span class="NormalTextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;">you&rsquo;ve had an accident, injury, loss or damage regardless of fault</span><span class="NormalTextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;">, BEAM is ready to help</span><span class="NormalTextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;">.&nbsp;</span></span><span class="EOP SCXW201595719 BCX0" data-ccp-props="{'201341983':0,'335559739':160,'335559740':259}" style="margin: 0px; padding: 0px;"></span></p>
+        <p class="Paragraph SCXW201595719 BCX0" paraid="1768352019" paraeid="{5a04f89b-b9af-42fc-9ed7-7543f627ec28}{11}" style="color: windowtext; background-color: transparent; margin-right: 0px; margin-left: 0px; padding: 0px;"><span data-contrast="none" class="TextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;"><span class="NormalTextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;">We&rsquo;re powered by the AA, giving you 24/7 access to AA Accident Assist</span><span class="NormalTextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;"> &ndash; </span><span class="NormalTextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;">so </span><span class="NormalTextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;">day or night, your claim will be in safe hands</span><span class="NormalTextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;">.&nbsp;</span></span><span class="EOP SCXW201595719 BCX0" data-ccp-props="{'201341983':0,'335559739':160,'335559740':259}" style="margin: 0px; padding: 0px;"></span></p>
+        <p class="Paragraph SCXW201595719 BCX0" paraid="1700746533" paraeid="{5a04f89b-b9af-42fc-9ed7-7543f627ec28}{25}" style="color: windowtext; background-color: transparent; margin-right: 0px; margin-left: 0px; padding: 0px;"><span data-contrast="none" class="TextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;"><span class="NormalTextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;">To make a claim, call </span></span><span data-contrast="none" class="TextRun SCXW201595719 BCX0" style="color: #172b4d; margin: 0px; padding: 0px;"><span class="NormalTextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;"><strong>0330 041 3689</strong></span></span><span data-contrast="none" class="TextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;"><span class="NormalTextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;">.</span></span><span class="EOP SCXW201595719 BCX0" data-ccp-props="{'201341983':0,'335559739':160,'335559740':259}" style="margin: 0px; padding: 0px;"></span></p>
+        <p class="Paragraph SCXW201595719 BCX0" paraid="78172472" paraeid="{5a04f89b-b9af-42fc-9ed7-7543f627ec28}{35}" style="color: windowtext; background-color: transparent; margin-right: 0px; margin-left: 0px; padding: 0px;"><span data-contrast="none" class="TextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;"><span class="NormalTextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;">W</span><span class="NormalTextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;">e&rsquo;ll need</span><span class="NormalTextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;">:</span><span class="NormalTextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;"></span></span><span class="EOP SCXW201595719 BCX0" data-ccp-props="{'201341983':0,'335559739':160,'335559740':259}" style="margin: 0px; padding: 0px;"></span></p>
+        <ul>
+            <li class="Paragraph SCXW201595719 BCX0" paraid="1463497587" paraeid="{5a04f89b-b9af-42fc-9ed7-7543f627ec28}{47}" style="color: windowtext; background-color: transparent; margin-right: 0px; margin-left: 0px; padding: 0px;"><span data-contrast="none" class="TextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;"><span class="NormalTextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;">Your personal details, including your policy number. You can find it on your Statement of Insurance, which was sent to you by post or email when you bought your car insurance.</span></span><span class="EOP SCXW201595719 BCX0" data-ccp-props="{'201341983':0,'335559739':160,'335559740':259}" style="margin: 0px; padding: 0px;"></span></li>
+            <li class="Paragraph SCXW201595719 BCX0" paraid="1006006749" paraeid="{5a04f89b-b9af-42fc-9ed7-7543f627ec28}{53}" style="color: windowtext; background-color: transparent; margin-right: 0px; margin-left: 0px; padding: 0px;"><span data-contrast="none" class="TextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;"><span class="NormalTextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;">A description of the accident&nbsp;</span></span><span class="EOP SCXW201595719 BCX0" data-ccp-props="{'201341983':0,'335559739':160,'335559740':259}" style="margin: 0px; padding: 0px;"></span></li>
+            <li class="Paragraph SCXW201595719 BCX0" paraid="1241998034" paraeid="{5a04f89b-b9af-42fc-9ed7-7543f627ec28}{59}" style="color: windowtext; background-color: transparent; margin-right: 0px; margin-left: 0px; padding: 0px;"><span data-contrast="none" class="TextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;"><span class="NormalTextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;">The location of the accident&nbsp;</span></span><span class="EOP SCXW201595719 BCX0" data-ccp-props="{'201341983':0,'335559739':160,'335559740':259}" style="margin: 0px; padding: 0px;"></span></li>
+            <li class="Paragraph SCXW201595719 BCX0" paraid="868153967" paraeid="{5a04f89b-b9af-42fc-9ed7-7543f627ec28}{65}" style="color: windowtext; background-color: transparent; margin-right: 0px; margin-left: 0px; padding: 0px;"><span data-contrast="none" class="TextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;"><span class="NormalTextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;">Contact details of any third party, including passengers and witness</span></span><span class="EOP SCXW201595719 BCX0" data-ccp-props="{'201341983':0,'335559739':160,'335559740':259}" style="margin: 0px; padding: 0px;"></span></li>
+        </ul>
+        <p class="Paragraph SCXW201595719 BCX0" paraid="485884071" paraeid="{5a04f89b-b9af-42fc-9ed7-7543f627ec28}{71}" style="color: windowtext; background-color: transparent; margin-right: 0px; margin-left: 0px; padding: 0px;"><span data-contrast="none" class="TextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;"><span class="NormalTextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;">If your car </span><span class="NormalTextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;">was</span><span class="NormalTextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;"> stolen, </span><span class="NormalTextRun SCXW201595719 BCX0" style="margin: 0px; padding: 0px;">we&rsquo;ll need your crime reference number. You can get this from the police when you report the theft.&nbsp;</span></span><span class="EOP SCXW201595719 BCX0" data-ccp-props="{'201341983':0,'335559739':160,'335559740':259}" style="margin: 0px; padding: 0px;"></span></p>
+        <div class="OutlineElement Ltr SCXW74870920 BCX0" style="color: #000000; background-color: #ffffff; margin: 0px; padding: 0px;">
+        <div class="OutlineElement Ltr SCXW98847835 BCX0" style="color: #000000; background-color: #ffffff; margin: 0px; padding: 0px;">
+        <p class="Paragraph SCXW98847835 BCX0" paraid="1824837875" paraeid="{5a04f89b-b9af-42fc-9ed7-7543f627ec28}{91}" style="color: windowtext; background-color: transparent; margin-right: 0px; margin-left: 0px; padding: 0px;"><span data-contrast="none" class="TextRun SCXW98847835 BCX0" style="margin: 0px; padding: 0px;"><span class="NormalTextRun SCXW98847835 BCX0" style="margin: 0px; padding: 0px;">Your</span><span class="NormalTextRun SCXW98847835 BCX0" style="margin: 0px; padding: 0px;">&nbsp;</span><span class="NormalTextRun SCXW98847835 BCX0" style="margin: 0px; padding: 0px;">claim advisor will explain </span><span class="NormalTextRun SCXW98847835 BCX0" style="margin: 0px; padding: 0px;">your options </span><span class="NormalTextRun SCXW98847835 BCX0" style="margin: 0px; padding: 0px;">and </span><span class="NormalTextRun SCXW98847835 BCX0" style="margin: 0px; padding: 0px;">help</span><span class="NormalTextRun SCXW98847835 BCX0" style="margin: 0px; padding: 0px;"> you through the claims process. </span><span class="NormalTextRun SCXW98847835 BCX0" style="margin: 0px; padding: 0px;">O</span><span class="NormalTextRun SCXW98847835 BCX0" style="margin: 0px; padding: 0px;">nce the incident report has been completed, we'll arrange repairs to your </span><span class="NormalTextRun SCXW98847835 BCX0" style="margin: 0px; padding: 0px;">car</span><span class="NormalTextRun SCXW98847835 BCX0" style="margin: 0px; padding: 0px;"> or pass you to your insurer to </span><span class="NormalTextRun SCXW98847835 BCX0" style="margin: 0px; padding: 0px;">move forward with</span><span class="NormalTextRun SCXW98847835 BCX0" style="margin: 0px; padding: 0px;"> the claim.</span></span></p>
+        <p class="Paragraph SCXW98847835 BCX0" paraid="1824837875" paraeid="{5a04f89b-b9af-42fc-9ed7-7543f627ec28}{91}" style="color: windowtext; background-color: transparent; margin-right: 0px; margin-left: 0px; padding: 0px;"><span data-contrast="none" class="TextRun SCXW98847835 BCX0" style="margin: 0px; padding: 0px;"><span class="NormalTextRun SCXW98847835 BCX0" style="margin: 0px; padding: 0px;"></span></span><span data-contrast="none" class="TextRun SCXW98847835 BCX0" style="background-color: transparent; color: windowtext; margin: 0px; padding: 0px;"><span class="NormalTextRun SCXW98847835 BCX0" style="margin: 0px; padding: 0px;">Your claim advisor will </span><span class="NormalTextRun SCXW98847835 BCX0" style="margin: 0px; padding: 0px;">get in touch</span><span class="NormalTextRun SCXW98847835 BCX0" style="margin: 0px; padding: 0px;"> within a week to </span><span class="NormalTextRun SCXW98847835 BCX0" style="margin: 0px; padding: 0px;">keep you updated.&nbsp;</span></span><span class="EOP SCXW98847835 BCX0" data-ccp-props="{'201341983':0,'335559739':160,'335559740':259}" style="background-color: transparent; color: windowtext; margin: 0px; padding: 0px;"></span></p>
+        <p class="Paragraph SCXW98847835 BCX0" paraid="1824837875" paraeid="{5a04f89b-b9af-42fc-9ed7-7543f627ec28}{91}" style="color: windowtext; background-color: transparent; margin-right: 0px; margin-left: 0px; padding: 0px;"><span class="EOP SCXW98847835 BCX0" data-ccp-props="{'201341983':0,'335559739':160,'335559740':259}" style="background-color: transparent; color: windowtext; margin: 0px; padding: 0px;">&nbsp;</span></p>
+        </div>
+        </div>
+        <hr />
+        <h2>Making a windscreen claim</h2>
+        <p class="Paragraph SCXW172529786 BCX0" paraid="1408536668" paraeid="{5a04f89b-b9af-42fc-9ed7-7543f627ec28}{153}" style="color: windowtext; background-color: transparent; margin-right: 0px; margin-left: 0px; padding: 0px;"><span data-contrast="none" class="TextRun SCXW172529786 BCX0" style="margin: 0px; padding: 0px;"><span class="NormalTextRun SCXW172529786 BCX0" style="margin: 0px; padding: 0px;">Windscreen cracked or chipped? If you&rsquo;ve got </span><span class="NormalTextRun SCXW172529786 BCX0" style="margin: 0px; padding: 0px;">comprehensive</span><span class="NormalTextRun SCXW172529786 BCX0" style="margin: 0px; padding: 0px;"> cover, </span><span class="NormalTextRun SCXW172529786 BCX0" style="margin: 0px; padding: 0px;">you can arrange unlimited repairs</span><span class="NormalTextRun SCXW172529786 BCX0" style="margin: 0px; padding: 0px;">.</span><span class="NormalTextRun SCXW172529786 BCX0" style="margin: 0px; padding: 0px;"> </span><span class="NormalTextRun SCXW172529786 BCX0" style="margin: 0px; padding: 0px;">To make a glass claim and arrange a repair:</span></span><span class="EOP SCXW172529786 BCX0" data-ccp-props="{'201341983':0,'335559739':160,'335559740':259}" style="margin: 0px; padding: 0px;"></span></p>
+        <ul>
+            <li class="Paragraph SCXW172529786 BCX0" paraid="1862875431" paraeid="{5a04f89b-b9af-42fc-9ed7-7543f627ec28}{171}" style="color: windowtext; background-color: transparent; margin-right: 0px; margin-left: 0px; padding: 0px;"><a class="Hyperlink SCXW172529786 BCX0" href="https://www.autowindscreens.co.uk/bookflow/insurance?insurer=aa" target="_blank" rel="noopener noreferrer" style="color: inherit; margin: 0px; padding: 0px;"><span data-contrast="none" class="TextRun Underlined SCXW172529786 BCX0" style="color: #0563c1; margin: 0px; padding: 0px;"><span class="NormalTextRun SCXW172529786 BCX0" data-ccp-charstyle="Hyperlink" style="margin: 0px; padding: 0px;">book an appointment online</span></span></a><span class="EOP SCXW172529786 BCX0" data-ccp-props="{'201341983':0,'335559739':160,'335559740':259}" style="margin: 0px; padding: 0px;"></span></li>
+        </ul>
+        <p class="Paragraph SCXW172529786 BCX0" paraid="1430809100" paraeid="{5a04f89b-b9af-42fc-9ed7-7543f627ec28}{180}" style="color: windowtext; background-color: transparent; margin-right: 0px; margin-left: 0px; padding: 0px;"><span data-contrast="none" class="TextRun SCXW172529786 BCX0" style="margin: 0px; padding: 0px;"><span class="NormalTextRun SCXW172529786 BCX0" style="margin: 0px; padding: 0px;">You'll need to have </span><span class="NormalTextRun SCXW172529786 BCX0" style="margin: 0px; padding: 0px;">your</span><span class="NormalTextRun SCXW172529786 BCX0" style="margin: 0px; padding: 0px;"> policy number, start date and insurer</span><span class="NormalTextRun SCXW172529786 BCX0" style="margin: 0px; padding: 0px;"> to hand</span><span class="NormalTextRun SCXW172529786 BCX0" style="margin: 0px; padding: 0px;">. You can find them all on your Statement of Insurance.</span></span><span class="EOP SCXW172529786 BCX0" data-ccp-props="{'201341983':0,'335559739':160,'335559740':259}" style="margin: 0px; padding: 0px;"></span></p>
+        <p class="Paragraph SCXW172529786 BCX0" paraid="1745803100" paraeid="{5a04f89b-b9af-42fc-9ed7-7543f627ec28}{194}" style="color: windowtext; background-color: transparent; margin-right: 0px; margin-left: 0px; padding: 0px;"><span data-contrast="none" class="TextRun SCXW172529786 BCX0" style="margin: 0px; padding: 0px;"><span class="NormalTextRun SCXW172529786 BCX0" style="margin: 0px; padding: 0px;">A</span><span class="NormalTextRun SCXW172529786 BCX0" style="margin: 0px; padding: 0px;"> </span><span class="NormalTextRun SCXW172529786 BCX0" style="margin: 0px; padding: 0px;">specialist technician will repair or replace your glass as quickly as possible.</span></span><span class="EOP SCXW172529786 BCX0" data-ccp-props="{'201341983':0,'335559739':160,'335559740':259}" style="margin: 0px; padding: 0px;"></span></p>
+        <p class="Paragraph SCXW172529786 BCX0" paraid="2014133552" paraeid="{5a04f89b-b9af-42fc-9ed7-7543f627ec28}{204}" style="color: windowtext; background-color: transparent; margin-right: 0px; margin-left: 0px; padding: 0px;"><span data-contrast="none" class="TextRun SCXW172529786 BCX0" style="margin: 0px; padding: 0px;"><span class="NormalTextRun SCXW172529786 BCX0" style="margin: 0px; padding: 0px;">As long as you use an AA-approved repairer, y</span><span class="NormalTextRun SCXW172529786 BCX0" style="margin: 0px; padding: 0px;">our no claim discount won't be affected</span><span class="NormalTextRun SCXW172529786 BCX0" style="margin: 0px; padding: 0px;">, and you&rsquo;ll only need to pay an excess if your windscreen is being </span><span class="NormalTextRun ContextualSpellingAndGrammarErrorV2 SCXW172529786 BCX0" style="margin: 0px; padding: 0px; border-bottom: 1px solid transparent;">replaced</span><span class="NormalTextRun ContextualSpellingAndGrammarErrorV2 SCXW172529786 BCX0" style="margin: 0px; padding: 0px; border-bottom: 1px solid transparent;">.</span></span></p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220208T094126Z
+  - Version: 10
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220215T100422Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\MartinL
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\MartinL
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "eb74ab14-ef0e-4718-b9d9-abd8601c5995"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\MartinL
+    - ID: "c0148be1-03e2-4b2f-8f81-922f7f0dd2e2"
+      Hint: Title
+      Value: Making a car insurance claim
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220215T100422Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>If you've had an accident, injury, loss or damage &ndash; whoever's at fault &ndash; we're ready to help.
+        </p>
+        <p>You'll get 24/7 access to AA Accident Assist &ndash; so day or night, your claim will be in safe hands.
+        </p>
+        <p>To make a claim, call us on <strong>0330 041 3689</strong>.</p>
+        <p>
+        We&rsquo;ll need:
+        </p>
+        <ul>
+            <li>Your personal details, including your policy number. You can find it on your Statement of Insurance, which was sent to you by post or email when you bought your car insurance.</li>
+            <li>A description of the accident
+            </li>
+            <li>The location of the accident
+            </li>
+            <li>Contact details of any third party, including passengers and witness&nbsp;&nbsp;</li>
+        </ul>
+        <p>
+        If your car was stolen, we&rsquo;ll need your crime reference number. You can get this from the police when you report the theft.
+        </p>
+        <p>Your claim advisor will explain your options and help you through the claims process. Once the incident report has been completed, we'll arrange repairs to your car or pass you to your insurer to move forward with the claim.
+        </p>
+        <p>Your claim advisor will get in touch within a week to keep you updated.</p>
+        <hr />
+        <h2>Making a windscreen claim</h2>
+        Windscreen cracked or chipped? If you&rsquo;ve got comprehensive cover, you can arrange unlimited repairs. To make a glass claim and arrange a repair, <a href="https://www.autowindscreens.co.uk/bookflow/insurance?insurer=aa"><strong>book an appointment online</strong></a>.
+        <p>
+        You'll need to have your policy number, start date and insurer to hand. You can find them all on your Statement of Insurance.
+        </p>
+        <p>A specialist technician will repair or replace your glass as quickly as possible.
+        </p>
+        <p>As long as you use an AA-approved repairer, your no claim discount won't be affected, and you&rsquo;ll only need to pay an excess if your windscreen is being replaced.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220215T111947Z
+  - Version: 11
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220215T112256Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\MartinL
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\MartinL
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c41c9223-c4f8-401b-94f1-f98d9eba126e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\MartinL
+    - ID: "c0148be1-03e2-4b2f-8f81-922f7f0dd2e2"
+      Hint: Title
+      Value: Making a car insurance claim
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220215T112256Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>If you've had an accident, injury, loss or damage &ndash; whoever's at fault &ndash; we're ready to help.
+        </p>
+        <p>You'll get 24/7 access to AA Accident Assist &ndash; so day or night, your claim will be in safe hands.
+        </p>
+        <p>To make a claim, call us on <strong>0330 041 3689</strong>.</p>
+        <p>
+        We&rsquo;ll need:
+        </p>
+        <ul>
+            <li>Your personal details, including your policy number. You can find it on your Statement of Insurance, which was sent to you by post or email when you bought your car insurance.</li>
+            <li>A description of the accident
+            </li>
+            <li>The location of the accident
+            </li>
+            <li>Contact details of any third party, including passengers and witness&nbsp;&nbsp;</li>
+        </ul>
+        <p>
+        If your car was stolen, we&rsquo;ll need your crime reference number. You can get this from the police when you report the theft.
+        </p>
+        <p>Your claim advisor will explain your options and help you through the claims process. Once the incident report has been completed, we'll arrange repairs to your car or pass you to your insurer to move forward with the claim.
+        </p>
+        <p>Your claim advisor will get in touch within a week to keep you updated.</p>
+        <hr />
+        <h2>Making a windscreen claim</h2>
+        <p>
+        Windscreen cracked or chipped? If you&rsquo;ve got comprehensive cover, you can arrange unlimited repairs. To make a glass claim and arrange a repair, <a href="https://www.autowindscreens.co.uk/bookflow/insurance?insurer=aa"><strong>book an appointment online</strong></a>.</p>
+        <p>You'll need to have your policy number, start date and insurer to hand. You can find them all on your Statement of Insurance.</p>
+        <p>A specialist technician will repair or replace your glass as quickly as possible.
+        </p>
+        <p>As long as you use an AA-approved repairer, your no claim discount won't be affected, and you&rsquo;ll only need to pay an excess if your windscreen is being replaced.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220215T112350Z
+  - Version: 12
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220228T123736Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\MartinL
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\MartinL
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a69c37d0-7738-4e88-b87a-7dc2b165fbbd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\MartinL
+    - ID: "c0148be1-03e2-4b2f-8f81-922f7f0dd2e2"
+      Hint: Title
+      Value: Making a car insurance claim
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220228T123736Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>If you've had an accident, injury, loss or damage &ndash; whoever's at fault &ndash; we're ready to help.
+        </p>
+        <p>You'll get 24/7 access to AA Accident Assist &ndash; so day or night, your claim will be in safe hands.
+        </p>
+        <p>To make a claim, call us on <strong>0330 041 3689</strong>.</p>
+        <p>
+        We&rsquo;ll need:
+        </p>
+        <ul>
+            <li>Your personal details, including your policy number. You can find this on your Statement of Insurance, which was sent to you by post or email when you bought your car insurance.</li>
+            <li>A description of the accident
+            </li>
+            <li>The location of the accident
+            </li>
+            <li>Contact details of any third party, including passengers and witness&nbsp;&nbsp;</li>
+        </ul>
+        <p>
+        If your car was stolen, we&rsquo;ll need your crime reference number. You can get this from the police when you report the theft.
+        </p>
+        <p>Your claim advisor will explain your options and help you through the claims process. Once the incident report has been completed, we'll arrange repairs to your car or pass you to your insurer to move forward with the claim.
+        </p>
+        <p>Your claim advisor will get in touch within a week to keep you updated.</p>
+        <hr />
+        <h2>Making a windscreen claim</h2>
+        <p>
+        Windscreen cracked or chipped? If you&rsquo;ve got comprehensive cover, you can arrange unlimited repairs. To make a glass claim and arrange a repair, <a href="https://www.autowindscreens.co.uk/bookflow/insurance?insurer=aa"><strong>book an appointment online</strong></a>.</p>
+        <p>You'll need to have your policy number, start date and insurer to hand. You can find them all on your Statement of Insurance.</p>
+        <p>A specialist technician will repair or replace your glass as quickly as possible.
+        </p>
+        <p>As long as you use an AA Approved Repairer, your no claim discount won't be affected, and you&rsquo;ll only need to pay an excess if your windscreen is being replaced.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220228T124031Z
+  - Version: 13
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220228T144456Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\MartinL
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\MartinL
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6df7e3c4-7ea6-4d59-9496-13456e8b0872"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c0148be1-03e2-4b2f-8f81-922f7f0dd2e2"
+      Hint: Title
+      Value: Making a car insurance claim
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220228T144456Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>If you've had an accident, injury, loss or damage &ndash; whoever's at fault &ndash; we're ready to help.
+        </p>
+        <p>As a BEAM customer, you'll have 24/7 access to AA Accident Assist &ndash; so day or night, your claim will be in safe hands.
+        </p>
+        <p>To make a claim, call us on <strong>0330 041 3689</strong>.</p>
+        <p>
+        We&rsquo;ll need:
+        </p>
+        <ul>
+            <li>Your personal details, including your policy number. You can find this on your Statement of Insurance, which was sent to you by post or email when you bought your car insurance.</li>
+            <li>A description of the accident
+            </li>
+            <li>The location of the accident
+            </li>
+            <li>Contact details of any third party, including passengers and witness&nbsp;&nbsp;</li>
+        </ul>
+        <p>
+        If your car was stolen, we&rsquo;ll need your crime reference number. You can get this from the police when you report the theft.
+        </p>
+        <p>Your claim advisor will explain your options and help you through the claims process. Once the incident report has been completed, we'll arrange repairs to your car or pass you to your insurer to move forward with the claim.
+        </p>
+        <p>Your claim advisor will get in touch within a week to keep you updated.</p>
+        <hr />
+        <h2>Making a windscreen claim</h2>
+        <p>
+        Windscreen cracked or chipped? If you&rsquo;ve got comprehensive cover, you can arrange unlimited repairs. To make a glass claim and arrange a repair, <a href="https://www.autowindscreens.co.uk/bookflow/insurance?insurer=aa"><strong>book an appointment online</strong></a>.</p>
+        <p>You'll need to have your policy number, start date and insurer to hand. You can find them all on your Statement of Insurance.</p>
+        <p>A specialist technician will repair or replace your glass as quickly as possible.
+        </p>
+        <p>As long as you use an AA Approved Repairer, your no claim discount won't be affected, and you&rsquo;ll only need to pay an excess if your windscreen is being replaced.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230531T134806Z
+  - Version: 14
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240912T132804Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\MartinL
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "deb773d1-8f65-4ac7-9212-67f727ea6f6f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "c0148be1-03e2-4b2f-8f81-922f7f0dd2e2"
+      Hint: Title
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240912T132804Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <br />
+        <h2>Making a car insurance claim</h2>
+        <p>If you've had an accident, injury, loss or damage &ndash; whoever's at fault &ndash; we're ready to help.
+        </p>
+        <p>As a BEAM customer, you'll have 24/7 access to AA Accident Assist &ndash; so day or night, your claim will be in safe hands.
+        </p>
+        <p>To make a claim, call us on <strong>0330 041 3689</strong>.</p>
+        <p>
+        We'll need:
+        </p>
+        <ul>
+            <li>Your personal details, including your policy number. You can find this on your Statement of Insurance, which was sent to you by post or email when you bought your car insurance.</li><br />
+            <li>A description of the accident</li><br />
+            <li>The location of the accident.</li><br />
+            <li>Contact details of any third party, including passengers and witness.</li>
+        </ul>
+        <p>
+        If your car was stolen, we'll need the crime reference number. You'll get this from the police when you report the theft.
+        </p>
+        <p>Your claim advisor will help you through the claims process. Once the incident report has been completed, we'll arrange repairs to your car or pass you to your insurer to move forward with the claim.
+        </p>
+        <p>Your claim advisor will get in touch within a week to keep you updated.</p>
+        <hr />
+        <br />
+        <h2>Making a windscreen claim</h2>
+        <p>
+        Windscreen chipped or cracked? </p>
+        <p>BEAM car insurance includes windscreen cover for the repair or replacement for the windscreen, sunroof and the remaining windows. </p>
+        <p>There is an excess of £10&#8211;£25 for a windscreen repair .</p>
+        <p>A windscreen replacement has a minimum £100 excess.</p>
+        <p>To make a glass claim and arrange a repair or replacement, you'll need to <a href="https://www.autowindscreens.co.uk/bookflow/insurance?insurer=aa">book an appointment</a>.</p>
+        <p>Have your policy number, start date and insurer ready &#8211; you can find these on your Statement of Insurance.</p>
+        <p>Your no claims discount isn't affected by a windscreen claim.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241119T125741Z
+  - Version: 15
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241119T134643Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\MartinL
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d0e7478e-8fe4-45a9-b60a-bb9244d724d2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "c0148be1-03e2-4b2f-8f81-922f7f0dd2e2"
+      Hint: Title
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241119T134643Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <br>
+        <div class="article-summary-box grey-bg">
+        <h2>Making a car insurance claim</h2>
+        </div>
+        <p>If you've had an accident, injury, loss or damage &ndash; whoever's at fault &ndash; we're ready to help.
+        </p>
+        <p>As a BEAM customer, you'll have 24/7 access to AA Accident Assist &ndash; so day or night, your claim will be in safe hands.
+        </p>
+        <p>To make a claim, call us on <strong>0330 041 3689</strong>.</p>
+        <p>
+        We'll need:
+        </p>
+        <ul>
+            <li>Your personal details, including your policy number. You can find this on your Statement of Insurance, which was sent to you by post or email when you bought your car insurance.</li><br />
+            <li>A description of the accident</li><br />
+            <li>The location of the accident.</li><br />
+            <li>Contact details of any third party, including passengers and witness.</li>
+        </ul>
+        <p>
+        If your car was stolen, we'll need the crime reference number. You'll get this from the police when you report the theft.
+        </p>
+        <p>Your claim advisor will help you through the claims process. Once the incident report has been completed, we'll arrange repairs to your car or pass you to your insurer to move forward with the claim.
+        </p>
+        <p>Your claim advisor will get in touch within a week to keep you updated.</p>
+        <div class="article-summary-box grey-bg">
+        <h2>Making a windscreen claim</h2>
+        </div>
+        <p>
+        Windscreen chipped or cracked? </p>
+        <p>BEAM car insurance includes windscreen cover for the repair or replacement for the windscreen, sunroof and the remaining windows. </p>
+        <p>There is an excess of £10&#8211;£25 for a windscreen repair .</p>
+        <p>A windscreen replacement has a minimum £100 excess.</p>
+        <p>To make a glass claim and arrange a repair or replacement, you'll need to <a href="https://www.autowindscreens.co.uk/bookflow/insurance?insurer=aa">book an appointment</a>.</p>
+        <p>Have your policy number, start date and insurer ready &#8211; you can find these on your Statement of Insurance.</p>
+        <p>Your no claims discount isn't affected by a windscreen claim.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241119T135117Z

@@ -1,0 +1,121 @@
+﻿---
+ID: "7342e6be-dc17-4b5e-9705-4c011cabb96d"
+Parent: "425711c8-0383-4429-bb40-29147ab3c0fa"
+Template: "e36747b3-6154-423a-b32d-b2d323f5a739"
+Path: "/sitecore/content/AA/Beam/Modules/Rich Text/contact-us/cover-enquiries-confirmation"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230215T114307Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\DicembreS
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dccac409-8cda-45fb-ae5d-e767a3698fb0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: <p>We&rsquo;ll complete your request within 5 working days. If we need more details, we'll let you know.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230215T114342Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230302T123248Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\DicembreS
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2a7226f8-204a-4593-a978-9ffa334909b1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230302T123248Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h4>We&rsquo;ll be in touch</h4>
+        <p>Your message is with our Customer Service team.&nbsp;</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230302T123335Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230302T125248Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\DicembreS
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "280d4611-befa-4608-9e9d-06fa4ba7ff42"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230302T125248Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h4>We&rsquo;ll be in touch</h4>
+        <p>Your message is with our Customer Service team.&nbsp;</p>
+        <p>&nbsp;</p>
+        <h4>Anything else we can help with?</h4>
+        <p>If you've got a question,&nbsp;<a href="https://www.aabeam.co.uk/car-insurance/faqs">our car insurance FAQs page</a>&nbsp;might have the answer you need.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230302T125310Z

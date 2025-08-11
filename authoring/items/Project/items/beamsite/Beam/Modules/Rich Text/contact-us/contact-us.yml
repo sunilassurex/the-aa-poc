@@ -1,0 +1,84 @@
+﻿---
+ID: "d1b5deb1-c269-4e87-bdb0-4b61f58e2f6c"
+Parent: "425711c8-0383-4429-bb40-29147ab3c0fa"
+Template: "e36747b3-6154-423a-b32d-b2d323f5a739"
+Path: "/sitecore/content/AA/Beam/Modules/Rich Text/contact-us/contact-us"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220106T151412Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\damireddye
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\damireddye
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "aa314719-d2b6-4901-8a89-bd812723243d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\damireddye
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>Am I covered for towing caravans or trailers?</h2>
+        <p>When towing a caravan or trailer, you are covered for the costs you are liable to pay if you cause damage to property, or injury or death to someone.</p>
+        <p>Your car insurance also covers a single-axle trailer, worth up to £500 and kept in a safe and roadworthy condition, while attached to your car. For example, if you have comprehensive insurance, your trailer will also be covered on a comprehensive basis, which includes accidental damage, fire and theft.</p>
+        <hr>
+        <br>
+        <h2>When do I need to select business use?</h2>
+        <p>Select business use when you use your car to travel to various places in connection with your work, such as offices or factories. Business use is not required when you travel to a single permanent place of work.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220118T151545Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220209T154823Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\damireddye
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7ea36afe-de03-4ac8-abf8-73a0cec393a5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220209T154823Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <span style="font-size: 18px;">To discuss your car insurance, make changes to your policy or speak to us about your quote, just give us a call. </span>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230531T121657Z

@@ -1,0 +1,198 @@
+﻿---
+ID: "45337e29-bc4e-4ac3-bfa7-1a055e825c37"
+Parent: "c2101aa8-7283-4bd4-acb0-d3997ba525b6"
+Template: "e36747b3-6154-423a-b32d-b2d323f5a739"
+Path: /sitecore/content/AA/Beam/Modules/Rich Text/Change phone/Change phone
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211201T153931Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a1c012b3-e8ce-4776-9e27-70e13cd46c24"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c0148be1-03e2-4b2f-8f81-922f7f0dd2e2"
+      Hint: Title
+      Value: 
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>To change the phone number on your policy, we&rsquo;ll need:</h2>
+        <ul>
+            <li>
+            Either the 16-digit code on your membership card or your insurance policy number, e.g. AAC/A1PHA/AAA</li>
+            <br />
+            <li>Your name, address and date of birth</li>
+            <br />
+            <li>Your old phone number and the new one you&rsquo;d like to use</li>
+            <br />
+        </ul>
+        <p>
+        For your security, only the main policy holder can make this change.</p>
+        <p>
+        We can update the contact number on your car insurance, home insurance or breakdown cover if you&rsquo;ve recently got a new mobile or moved house.</p>
+        <p>
+        You can check the personal details we have on your policy when you <a href="https://auth.theaa.com/auth/XUI/#login/" target="_blank">log in to your account</a>.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211201T154326Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211201T153931Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "194e4038-de2b-4d68-b18b-148f9d73ccde"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c0148be1-03e2-4b2f-8f81-922f7f0dd2e2"
+      Hint: Title
+      Value: 
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h4>Before you start we&rsquo;ll need:</h4>
+        <ul>
+            <li>Insurance policy number from your documents</li>
+            <li>Your name, address and date of birth</li>
+            <li>Your old phone number and the new one you&rsquo;d like to use</li>
+        </ul>
+        <p>For your security, only the main policyholder can make this change. </p>
+        <p>
+        </p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230214T150353Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230214T150611Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7038ed38-b35f-4aeb-99cc-1eabfb15276a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c0148be1-03e2-4b2f-8f81-922f7f0dd2e2"
+      Hint: Title
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230214T150611Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h4>Before you start we&rsquo;ll need your:</h4>
+        <ul>
+            <li>Insurance policy number from your documents</li>
+            <li>Name, address and date of birth</li>
+            <li>Old phone number and the new one you&rsquo;d like to use</li>
+        </ul>
+        <p>For your security, only the main policyholder can make this change. </p>
+        <p>
+        </p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230214T150641Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230214T153149Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e4c97b75-d7a5-491f-b091-964ec64f60c4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c0148be1-03e2-4b2f-8f81-922f7f0dd2e2"
+      Hint: Title
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230214T153149Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h4>Before you start we&rsquo;ll need your:</h4>
+        <ul>
+            <li>Insurance policy number from your documents</li>
+            <li>Name, address and date of birth</li>
+            <li>Old phone number and the new one you&rsquo;d like to use</li>
+        </ul>
+        <p>For your security, only the main policyholder can make this change. </p>
+        <p>
+        </p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230214T153305Z

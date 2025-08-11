@@ -1,0 +1,219 @@
+﻿---
+ID: "07ae3aca-9c5c-48f2-9fb1-28319ec03777"
+Parent: "c2101aa8-7283-4bd4-acb0-d3997ba525b6"
+Template: "e36747b3-6154-423a-b32d-b2d323f5a739"
+Path: /sitecore/content/AA/Beam/Modules/Rich Text/Change phone/Change phone confirmation
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211201T162759Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2ee44f73-5b62-41c6-bc50-84cc7dbcddd8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>We&rsquo;re updating your policy with your new contact details. We&rsquo;ll email you if we need more information.&nbsp;</p>
+        <br />
+        <h3>Anything else we can help with?</h3>
+        <ul>
+            <li><a href="~/link.aspx?_id=7B239AC47A894467BBA0E6218E811D36&amp;_z=z">Change your address</a></li>
+            <br />
+            <li><a href="~/link.aspx?_id=2119F64E76EA48B0BE8876C0A7D67369&amp;_z=z">Change your occupation</a></li>
+            <br />
+        </ul>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211201T162808Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211201T162759Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e7468bba-a8e7-49ed-85c7-d7313597a7cb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>We&rsquo;re updating your policy with your new contact details. We&rsquo;ll email you if we need more information.&nbsp;</p>
+        <br />
+        <h3>Anything else we can help with?</h3>
+        <ul>
+            <li><a href="~/link.aspx?_id=7B239AC47A894467BBA0E6218E811D36&amp;_z=z">Change your address</a></li>
+            <br />
+            <li><a href="~/link.aspx?_id=2119F64E76EA48B0BE8876C0A7D67369&amp;_z=z">Change your occupation</a></li>
+            <br />
+        </ul>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230215T101800Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230215T114051Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "91e96de4-ac1c-4f3d-aab8-9f57347261f6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230215T114051Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>We&rsquo;ll complete your request within 5 working days. If we need more details, we'll let you know</p>
+        <h4>Anything else we can help with?</h4>
+        <ul>
+            <li><a href="https://www.aabeam.co.uk/contact-us/change-job">Change your job</a></li>
+            <li><a href="https://www.aabeam.co.uk/contact-us/change-address">Change your address</a></li>
+            <li><a href="https://www.aabeam.co.uk/contact-us/change-name">Change your name</a></li>
+            <li><a href="https://www.aabeam.co.uk/contact-us/renew-your-cover">Got a question about your renewal</a></li>
+            <li><a href="https://www.aabeam.co.uk/contact-us/cover-enquiries">Got another question about your policy</a></li>
+        </ul>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230215T114124Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230215T114353Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ad0a996c-1a6f-495e-9e04-b45c5d45a1b1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230215T114353Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>We&rsquo;ll complete your request within 5 working days. If we need more details, we'll let you know.</p>
+        <h4>Anything else we can help with?</h4>
+        <ul>
+            <li><a href="https://www.aabeam.co.uk/contact-us/change-job">Change your job</a></li>
+            <li><a href="https://www.aabeam.co.uk/contact-us/change-address">Change your address</a></li>
+            <li><a href="https://www.aabeam.co.uk/contact-us/change-name">Change your name</a></li>
+            <li><a href="https://www.aabeam.co.uk/contact-us/renew-your-cover">Got a question about your renewal</a></li>
+            <li><a href="https://www.aabeam.co.uk/contact-us/cover-enquiries">Got another question about your policy</a></li>
+        </ul>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230215T114417Z
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230302T122536Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ee397965-78d6-426e-88f1-60f325e470f5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230302T122536Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h4>Here's what will happen next</h4>
+        <p>We&rsquo;re updating your policy with your new contact details. We&rsquo;ll email you if we need more information.&nbsp;</p>
+        <p>&nbsp;</p>
+        <h4>Anything else we can help with?</h4>
+        <p>If you've got a question,&nbsp;<a href="https://www.aabeam.co.uk/car-insurance/faqs">our car insurance FAQs page</a>&nbsp;might have the answer you need.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230302T122703Z

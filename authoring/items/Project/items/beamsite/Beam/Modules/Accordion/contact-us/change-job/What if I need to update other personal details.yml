@@ -1,0 +1,291 @@
+﻿---
+ID: "0fff9f58-dd0d-45c8-85fb-e84855ec5ce3"
+Parent: "a25e59f1-a5f3-4dd6-8403-9e76c9657551"
+Template: "11e11bcb-aa73-4cd2-a73e-fbeedfe8da05"
+Path: "/sitecore/content/AA/Beam/Modules/Accordion/contact-us/change-job/What if I need to update other personal details"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161206T111233Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\TebbuttC
+    - ID: "749a64ef-7923-4778-84e9-4c7e1aa9cbe0"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "61beb636-b621-4049-a7bb-daeddb595d9f"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: Only fill in this form after you've moved. For your security, we can't update your details until your address has actually changed.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\TebbuttC
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: "Not changed address yet?"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20161206T114801Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161207T100815Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\TebbuttC
+    - ID: "749a64ef-7923-4778-84e9-4c7e1aa9cbe0"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ac36b2b3-d062-440d-b8d0-a63b420d5eb9"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: Only fill in this form after you've moved. For your security, we can't update your details until your address has actually changed.
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\TebbuttC
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20161207T100815Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: "Changing address soon?"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20161207T100904Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161207T152735Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\TebbuttC
+    - ID: "749a64ef-7923-4778-84e9-4c7e1aa9cbe0"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c801a4b0-7be3-4f7f-a666-41e6bcdcb376"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        Come back and fill in this form after you've moved, once your address has actually changed.<span style="font-size: 11pt; font-family: Calibri, sans-serif;"><br></span>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\TebbuttC
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20161207T152735Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: "Changing address soon?"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20161208T164034Z
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161208T172420Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\TebbuttC
+    - ID: "749a64ef-7923-4778-84e9-4c7e1aa9cbe0"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "554f31c0-c77e-462f-bb1f-8e5e01d518a5"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        Come back and fill in this form after you've moved, once your address has actually changed.<span style="font-size: 11pt; font-family: Calibri, sans-serif;"><br></span>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\TebbuttC
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20161208T172420Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: "Moving house soon?"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20161208T172440Z
+  - Version: 5
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200331T103452Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\BuckleyD
+    - ID: "749a64ef-7923-4778-84e9-4c7e1aa9cbe0"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e10d6f78-5bb5-415a-8d12-49f1aef4e97a"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        Change name accordion 3 copy...<span style="font-size: 11pt; font-family: Calibri, sans-serif;"><br />
+        </span>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\BuckleyD
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200331T103452Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: Change name accordion 3
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200331T103614Z
+  - Version: 6
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200331T125812Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\BuckleyD
+    - ID: "749a64ef-7923-4778-84e9-4c7e1aa9cbe0"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2c1b6098-fca2-4b6b-9529-a0072189f449"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        If you want to change the main policy holder or transfer your policy to somebody else, you&rsquo;ll need to <a><a href="~/link.aspx?_id=F275E46D6E33451B81109A8D5EC4A74A&amp;_z=z">call us</a></a>.<span style="font-size: 11pt; font-family: Calibri, sans-serif;"><br />
+        </span>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\BuckleyD
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200331T125812Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: "What if I want to change the main policy holder?"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200331T130122Z
+  - Version: 7
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200331T162757Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\BuckleyD
+    - ID: "749a64ef-7923-4778-84e9-4c7e1aa9cbe0"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f0156817-2cd9-4243-81eb-1c0ff6ffc307"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <p>You can also <a><a href="~/link.aspx?_id=7B239AC47A894467BBA0E6218E811D36&amp;_z=z">change your address</a></a> and <a><a href="~/link.aspx?_id=823B85E0752E4206B306057351A0DC56&amp;_z=z">change your name</a></a> online.<span style="font-size: 11pt; font-family: Calibri, sans-serif;"><br />
+        </span></p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\BuckleyD
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200331T162757Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: "What if I need to update other personal details?"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200402T104106Z
+  - Version: 8
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200402T105539Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\BuckleyD
+    - ID: "749a64ef-7923-4778-84e9-4c7e1aa9cbe0"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7ded1dc9-b1f2-4908-8477-0d244196d3f9"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <p>You can also <a><a href="~/link.aspx?_id=7B239AC47A894467BBA0E6218E811D36&amp;_z=z">change your address</a></a>, <a><a href="~/link.aspx?_id=6C9855A870784F8C949EFAA81646B026&amp;_z=z">change your phone number</a></a> and <a><a href="~/link.aspx?_id=823B85E0752E4206B306057351A0DC56&amp;_z=z">change your name</a></a> online.<span style="font-size: 11pt; font-family: Calibri, sans-serif;"><br />
+        </span></p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200402T105539Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: "What if I need to update other personal details?"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211130T164237Z

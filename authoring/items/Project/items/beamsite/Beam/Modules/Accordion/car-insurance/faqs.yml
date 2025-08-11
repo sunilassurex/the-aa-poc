@@ -1,0 +1,27 @@
+﻿---
+ID: "6c71b77b-8fa2-44a6-897c-71563c8b451b"
+Parent: "afb01237-a8a2-4b00-9710-fc86be2e06ae"
+Template: "991f757c-6948-4e2c-988a-870fe0c59f48"
+Path: "/sitecore/content/AA/Beam/Modules/Accordion/car-insurance/faqs"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200527T131651Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b73a85b7-e89a-4b49-a7bd-0f1b50eb563a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240910T063845Z

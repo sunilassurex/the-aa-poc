@@ -1,0 +1,40 @@
+﻿---
+ID: "8ef1a375-4958-4f12-bb13-b941234739e9"
+Parent: "32a3d876-09a3-4687-9a92-66c8b731e376"
+Template: "ac2fa349-6529-4b17-9471-a0b91afeaa33"
+Path: "/sitecore/content/AA/Beam/Modules/Product Builder/Features/insurance/car-insurance/compare-cover-levels/Named drivers no claims discount/f2"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "20abb247-0219-40d3-a16f-090bda05af54"
+      Hint: Title
+      Value: f2
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160707T134704Z
+    - ID: "365c540c-49ec-48eb-946b-8e5f1614dd04"
+      Hint: Icon
+      Value: Dash
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jincaa
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "571e31d8-4418-41e2-97f4-edce4840325a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220126T164611Z

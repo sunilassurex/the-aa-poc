@@ -1,0 +1,807 @@
+﻿---
+ID: "71d3708a-7525-48a6-8a44-3e9e6a263679"
+Parent: "b193012f-2ea4-4340-ab4b-6cd8965dd2ca"
+Template: "8703a280-ec4e-43a2-8f83-dc29485a490a"
+Path: "/sitecore/content/AA/Beam/Modules/Accordion/car-insurance/renewals/your-policy/About your cover"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p>1. Only for comprehensive cover and non-fault claims where the other driver is identified and not insured. Registration number, make and model of the other vehicle is required.</p>
+        <p>2. Up to &pound;500 for all occupants (maximum limits apply per person). You'll need to pay for your travel and hotel expenses, then reclaim them from your insurer.</p>
+        <p>3. The service is limited to 1 call-out during the policy year, but additional call-outs are available on a pay-for-use basis.</p>
+        <p>The underwriter of your car insurance policy will be provided from our panel of insurers.</p>
+        <p>BEAM car insurance is arranged by Automobile Association Insurance Services Limited. Registered office: Fanum House, Basing View, Basingstoke, Hampshire RG21 4EA. Registered in England and Wales number 2414212.</p>
+        <p>Automobile Association Insurance Services Limited is authorised and regulated by the Financial Conduct Authority (FCA), <a href="https://register.fca.org.uk/">Financial Services Register number 310562</a>.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220201T130809Z
+    - ID: "34075d39-34f4-467d-82f9-649af4a3137a"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "75f64937-f182-455e-b073-02113b7033ce"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240513T091130Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Important information
+  - Version: 2
+    Fields:
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p>1.&nbsp;Comprehensive cover provides a courtesy car while your car is being repaired at an approved garage.</p>
+        <p>2. Only for comprehensive cover and non-fault claims where the other driver is identified and not insured. Registration number, make and model of the other vehicle is required.</p>
+        <p>3. Up to &pound;500 for all occupants (maximum limits apply per person). You'll need to pay for your travel and hotel expenses, then reclaim them from your insurer.</p>
+        <p>4. The service is limited to 1 call-out during the policy year, but additional call-outs are available on a pay-for-use basis.</p>
+        <p>The underwriter of your car insurance policy will be provided from our panel of insurers.</p>
+        <p>BEAM car insurance is arranged by Automobile Association Insurance Services Limited. Registered office: Fanum House, Basing View, Basingstoke, Hampshire RG21 4EA. Registered in England and Wales number 2414212.</p>
+        <p>Automobile Association Insurance Services Limited is authorised and regulated by the Financial Conduct Authority (FCA), <a href="https://register.fca.org.uk/">Financial Services Register number 310562</a>.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220315T083539Z
+    - ID: "34075d39-34f4-467d-82f9-649af4a3137a"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "86415825-06bd-47ce-8dc6-39188b62dfae"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220315T083539Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240513T091130Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Important information
+  - Version: 3
+    Fields:
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p><sup>1</sup>&nbsp;Comprehensive cover provides a courtesy car while your car is being repaired at an approved garage.</p>
+        <p><sup>2</sup>&nbsp;Only for comprehensive cover and non-fault claims where the other driver is identified and not insured. Registration number, make and model of the other vehicle is required.</p>
+        <p><sup>3</sup>&nbsp;Up to &pound;500 for all occupants (maximum limits apply per person). You'll need to pay for your travel and hotel expenses, then reclaim them from your insurer.</p>
+        <p><sup>4</sup>&nbsp;The service is limited to 1 call-out during the policy year, but additional call-outs are available on a pay-for-use basis.</p>
+        <p>The underwriter of your car insurance policy will be provided from our panel of insurers.</p>
+        <p>BEAM car insurance is arranged by Automobile Association Insurance Services Limited. Registered office: Fanum House, Basing View, Basingstoke, Hampshire RG21 4EA. Registered in England and Wales number 2414212.</p>
+        <p>Automobile Association Insurance Services Limited is authorised and regulated by the Financial Conduct Authority (FCA), <a href="https://register.fca.org.uk/">Financial Services Register number 310562</a>.</p>
+        <br class="t-last-br" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221128T112657Z
+    - ID: "34075d39-34f4-467d-82f9-649af4a3137a"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "013d1976-6bf6-4652-998b-104d8c8ddd7f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20221128T112657Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240513T091130Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Important information
+  - Version: 4
+    Fields:
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p style="text-align: left;"><strong>Where can I find proof of my no claims discount?</strong></p>
+        <p style="text-align: left;">Your no claims discount is recorded on page 3 of your renewal invitation, or it's on your cancellation letter if you cancelled your policy before the renewal date. Allow up to 7 working days for your cancellation letter to arrive after you cancelled your policy. We can't issue an official letter as proof of your no claim discount until after your policy has ended.</p>
+        <p style="text-align: left;">&nbsp;</p>
+        <p style="text-align: left;"><strong>I pay by monthly instalments. What happens if I cancel my policy?</strong></p>
+        <p style="text-align: left;">The final instalment is normally due the day before your policy expires, as payments are made in arrears. If you cancelled your Direct Debit before the last payment has been collected, contact our instalments team directly on <strong>0330 041 3690</strong>.</p>
+        <p style="text-align: left;">&nbsp;</p>
+        <p style="text-align: left;"><strong>Does cancelling my car insurance or the renewal also cancel my AA breakdown cover, if I have any?</strong></p>
+        <p style="text-align: left;">If you&rsquo;ve added the optional extras for AA Breakdown: Roadside or AA Breakdown: Roadside and National Recovery, they&rsquo;ll be cancelled if you cancel or don&rsquo;t renew your BEAM car insurance policy. If you have separate AA breakdown cover it won&rsquo;t be affected by changes to your BEAM car insurance.</p>
+        <p style="text-align: left;">If you want to discuss your breakdown cover renewal, call the AA Membership team direct on <strong>0343 316 4444</strong>.</p>
+        <p style="text-align: left;">&nbsp;</p>
+        <p style="text-align: left;"><strong>My policy isn't due for renewal but my details or the vehicle has changed.</strong></p>
+        <p style="text-align: left;">If you'd like to make a change to your policy, contact our service team on <strong>0330 041 3684</strong>.&nbsp;
+        </p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230124T085906Z
+    - ID: "34075d39-34f4-467d-82f9-649af4a3137a"
+      Hint: OpenByDefault
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1d704eab-7bc2-4cd8-8b06-2fe016dcf366"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230124T085906Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240513T091130Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Good to know
+  - Version: 5
+    Fields:
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p><strong>What happens to any AA breakdown cover&nbsp;<strong>if I don't renew or cancel my BEAM car insurance</strong>?</strong></p>
+        <p>Any&nbsp;AA breakdown optional extras you took out when you bought your BEAM car insurance will be cancelled if you stop your policy. Any AA breakdown cover you took out separately to your BEAM car insurance won&rsquo;t be affected.</p>
+        <p>Call the AA Membership team on&nbsp;<strong>0343 316 4444&nbsp;</strong>if you want to talk about breakdown cover.</p>
+        <p>&nbsp;</p>
+        <p><strong>I want to&nbsp;cancel my policy and I<strong>&nbsp;pay monthly. What do I do?&nbsp;</strong></strong></p>
+        <p>As payments are made in arrears, the final instalment is usually due the day before your policy ends. It's best to wait for this to be collected before you cancel any Direct Debit. If you have cancelled this before the last payment has been taken, call our instalments team on&nbsp;<strong>0330 041 3690</strong>.</p>
+        <p>&nbsp;</p>
+        <p><strong>It's not time for me to&nbsp;renew but I need to make changes to my BEAM car insurance.</strong></p>
+        <p>If you've changed your vehicle or need to update any policy details, call us on&nbsp;<strong>0330 041 3684</strong>.&nbsp;</p>
+        <p>&nbsp;</p>
+        <p><strong>Where can I find details of my no claims discount?</strong></p>
+        <p style="text-align: left;">You can find no claims discount details on page 3 of your renewal invitation. It's also on your cancellation letter if you've already cancelled your policy. We can't send any proof of your no claims discount until after your policy has ended.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230124T101858Z
+    - ID: "34075d39-34f4-467d-82f9-649af4a3137a"
+      Hint: OpenByDefault
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d8d63206-a43c-4a5e-a3dd-d5ca4a793b7b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230124T101858Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240513T091130Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Good to know
+  - Version: 6
+    Fields:
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p><strong>What happens to any AA breakdown cover&nbsp;<strong>if I don't renew or cancel my BEAM car insurance</strong>?</strong></p>
+        <p>Any&nbsp;AA breakdown optional extras you took out when you bought your BEAM car insurance will be cancelled if you stop your policy. Any AA breakdown cover you took out separately to your BEAM car insurance won&rsquo;t be affected.</p>
+        <p>Call the AA Membership team on&nbsp;<strong>0343 316 4444&nbsp;</strong>if you want to talk about breakdown cover.</p>
+        <p>&nbsp;</p>
+        <p><strong>I want to&nbsp;cancel my policy and I<strong>&nbsp;pay monthly. What do I do?&nbsp;</strong></strong></p>
+        <p>As payments are made in arrears, the final instalment is usually due the day before your policy ends. It's best to wait for this to be collected before you cancel any Direct Debit. If you have cancelled this before the last payment has been taken, call our instalments team on&nbsp;<strong>0330 041 3690</strong>.</p>
+        <p>&nbsp;</p>
+        <p><strong>It's not time for me to&nbsp;renew but I need to make changes to my BEAM car insurance.</strong></p>
+        <p>If you've changed your vehicle or need to update any policy details, call us on&nbsp;<strong>0330 041 3684</strong>.&nbsp;</p>
+        <p>&nbsp;</p>
+        <p><strong>Where can I find details of my no claim discount?</strong></p>
+        <p style="text-align: left;">You can find no claim discount details on page 3 of your renewal invitation. It's also on your cancellation letter if you've already cancelled your policy. We can't send any proof of your no claim discount until after your policy has ended.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230126T095453Z
+    - ID: "34075d39-34f4-467d-82f9-649af4a3137a"
+      Hint: OpenByDefault
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a3a6d2ff-11a0-4f0f-9e72-5166c59e4c1a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230126T095453Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240513T091131Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Good to know
+  - Version: 7
+    Fields:
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p><strong>What happens to any AA breakdown cover&nbsp;<strong>if I don't renew or cancel my BEAM car insurance</strong>?</strong></p>
+        <p>Any&nbsp;AA breakdown optional extras you took out when you bought your BEAM car insurance will be cancelled if you stop your policy. Any AA breakdown cover you took out separately to your BEAM car insurance won&rsquo;t be affected.</p>
+        <p>Call the AA Membership team on&nbsp;<strong>0343 316 4444&nbsp;</strong>if you want to talk about breakdown cover.</p>
+        <p>&nbsp;</p>
+        <p><strong>I want to&nbsp;cancel my policy and I<strong>&nbsp;pay monthly. What do I do?&nbsp;</strong></strong></p>
+        <p>As payments are made in arrears, the final instalment is usually due the day before your policy ends. It's best to wait for this to be collected before you cancel any Direct Debit. If you have cancelled this before the last payment has been taken, call our instalments team on&nbsp;<strong>0330 041 3690</strong>.</p>
+        <p>&nbsp;</p>
+        <p><strong>How do I stop the automatic renewal of my BEAM car insurance policy?</strong></p>
+        <p>Fill in the&nbsp;<a href="https://www.aabeam.co.uk/contact-us/stop-auto-renew">cancel automatic renewal form</a>&nbsp;to opt out. Or call us on&nbsp;<strong>0330 041 3685</strong>.</p>
+        <p>After you&rsquo;ve done this, we&rsquo;ll still let you know when it&rsquo;s time to renew and what your quote is. You&rsquo;ll have to contact us to accept it and make a payment before your policy runs out, otherwise you&rsquo;ll have no insurance and be without any cover.</p>
+        <p>&nbsp;</p>
+        <p><strong>Where can I find proof of my no claim discount?</strong></p>
+        <p style="text-align: left;">You can find no claim discount details on page 3 of your renewal invitation. It's also on your cancellation letter if you've already cancelled your policy. Please allow up to 7 working days for your cancellation letter to arrive.</p>
+        <p style="text-align: left;">We can't send any proof of your no claim discount until after your policy has ended.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230126T125133Z
+    - ID: "34075d39-34f4-467d-82f9-649af4a3137a"
+      Hint: OpenByDefault
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8e3e129b-8adb-4273-bc6e-2c99e7233909"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230126T125133Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240513T091131Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Good to know
+  - Version: 8
+    Fields:
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p><strong>Where can I find my policy documents and certificate of insurance?</strong></p>
+        <p>Your documents are either emailed to you or posted to the address you specified when you bought the policy, depending on your chosen preference.</p>
+        <p>If you selected email, check your junk folder.</p>
+        <p>If you can't find your documents, call us on xxxxxxxxxx and we'll resend them.</p>
+        <p>&nbsp;</p>
+        <p><strong>Where can I find proof of my no claim discount?</strong></p>
+        <p>You can find no claim discount details on page 3 of your renewal invitation. It's also on your cancellation letter if you've already cancelled your policy. Please allow up to 7 working days for your cancellation letter to arrive.</p>
+        <p>We can't send any proof of your no claim discount until after your policy has ended.</p>
+        <p>&nbsp;</p>
+        <p><strong>I've renewed my policy but haven't received confirmation. Am I covered to drive?</strong></p>
+        <p>If you opted to receive your policy documents online, the email confirmation will be with you within 24 hours. Or if you chose to have your documents by post, they should arrive within 7 working days. If you still haven't received an email or the documents in the post, call us on XXXX XXXX XXXX.</p>
+        <p>&nbsp;</p>
+        <p><strong>I want to&nbsp;cancel my policy and I<strong>&nbsp;pay monthly. What do I do?&nbsp;</strong></strong></p>
+        <p>As payments are made in arrears, the final instalment is usually due the day before your policy ends. It's best to wait for this to be collected before you cancel any Direct Debit. If you have cancelled this before the last payment has been taken, call our instalments team on&nbsp;<strong>0330 041 3690</strong>.</p>
+        <p>&nbsp;</p>
+        <p><strong>How do I stop the automatic renewal of my BEAM car insurance policy?</strong></p>
+        <p>Fill in the&nbsp;<a href="https://www.aabeam.co.uk/contact-us/stop-auto-renew">cancel automatic renewal form</a>&nbsp;to opt out. Or call us on&nbsp;<strong>0330 041 3685</strong>.</p>
+        <p>After you&rsquo;ve done this, we&rsquo;ll still let you know when it&rsquo;s time to renew and what your quote is. You&rsquo;ll have to contact us to accept it and make a payment before your policy runs out, otherwise you&rsquo;ll have no insurance and be without any cover.</p>
+        <p>&nbsp;</p>
+        <p><strong>What happens to any AA breakdown cover&nbsp;<strong>if I don't renew or cancel my BEAM car insurance</strong>?</strong></p>
+        <p>Any&nbsp;AA breakdown optional extras you took out when you bought your BEAM car insurance will be cancelled if you stop your policy. Any AA breakdown cover you took out separately to your BEAM car insurance won&rsquo;t be affected.</p>
+        <p>Call the AA Membership team on&nbsp;<strong>0343 316 4444&nbsp;</strong>if you want to talk about breakdown cover.</p>
+        <p>&nbsp;</p>
+        <p><strong>Can I create an online account?</strong></p>
+        <p>You can't create an account at the moment. Call us on xxxxxxxxx to talk about anything to do with your BEAM car insurance.</p>
+        <p>&nbsp;</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230126T130008Z
+    - ID: "34075d39-34f4-467d-82f9-649af4a3137a"
+      Hint: OpenByDefault
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1f169788-2a44-402e-99d0-dcd29b786cf4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230126T130008Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240513T091131Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Good to know
+  - Version: 9
+    Fields:
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p><strong>Where can I find my policy documents and certificate of insurance?</strong></p>
+        <p>Your documents are either emailed to you or posted to the address you specified when you bought the policy, depending on your chosen preference.</p>
+        <p>If you selected email, check your junk folder.</p>
+        <p>If you can't find your documents, call us on <strong>0330 041 3685&nbsp;</strong>and we'll resend them.</p>
+        <p>&nbsp;</p>
+        <p><strong>Where can I find proof of my no claims discount?</strong></p>
+        <p>You can find no claims discount details on page 3 of your renewal invitation. It's also on your cancellation letter if you've already cancelled your policy. Please allow up to 7 working days for your cancellation letter to arrive.</p>
+        <p>We can't send any proof of your no claims discount until after your policy has ended.</p>
+        <p>&nbsp;</p>
+        <p><strong>I've renewed my policy but haven't received confirmation. Am I covered to drive?</strong></p>
+        <p>If you chose to receive your policy documents online, an email confirmation will be with you within 24 hours. If you told us to send your documents by post, they should arrive within 7 working days. If you still haven't received an email or the documents in the post, call us on <strong>0330 041 3685 </strong>and we'll confirm if you're covered.</p>
+        <p>&nbsp;</p>
+        <p><strong>I want to&nbsp;cancel my policy and I<strong>&nbsp;pay monthly. What do I do?&nbsp;</strong></strong></p>
+        <p>As payments are made in arrears, the final instalment is usually due the day before your policy ends. It's best to wait for this to be collected before you cancel any Direct Debit. If you have cancelled this before the last payment has been taken, call our instalments team on&nbsp;<strong>0330 041 3690</strong>.</p>
+        <p>&nbsp;</p>
+        <p><strong>How do I stop the automatic renewal of my BEAM car insurance policy?</strong></p>
+        <p>Fill in the&nbsp;<a href="https://www.aabeam.co.uk/contact-us/stop-auto-renew">cancel automatic renewal form</a>&nbsp;to opt out. Or call us on&nbsp;<strong>0330 041 3685</strong>.</p>
+        <p>After you&rsquo;ve done this, we&rsquo;ll still let you know when it&rsquo;s time to renew and what your quote is. You&rsquo;ll have to contact us to accept it and make a payment before your policy runs out, otherwise you&rsquo;ll have no insurance and be without any cover.</p>
+        <p>&nbsp;</p>
+        <p><strong>What happens to any AA breakdown cover&nbsp;<strong>if I don't renew or cancel my BEAM car insurance</strong>?</strong></p>
+        <p>Any&nbsp;AA breakdown optional extras you took out when you bought your BEAM car insurance will be cancelled if you stop your policy. Any AA breakdown cover you took out separately to your BEAM car insurance won&rsquo;t be affected.</p>
+        <p>Call the AA Membership team on&nbsp;<strong>0343 316 4444&nbsp;</strong>if you want to talk about breakdown cover.</p>
+        <p>&nbsp;</p>
+        <p><strong>Can I create an online account?</strong></p>
+        <p>You can't create an account at the moment. Call us on <strong>0330 041 3685</strong>&nbsp;to talk about anything to do with your BEAM car insurance.</p>
+        <p>&nbsp;</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230126T140722Z
+    - ID: "34075d39-34f4-467d-82f9-649af4a3137a"
+      Hint: OpenByDefault
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c58a89ca-ae6c-4d80-8872-81f2dd527805"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230126T140722Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240513T091131Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Good to know
+  - Version: 10
+    Fields:
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p><strong>Where can I find my policy documents and certificate of insurance?</strong></p>
+        <p>Your documents are either emailed to you or posted to the address you specified when you bought the policy, depending on your chosen preference.</p>
+        <p>If you selected email, check your junk folder.</p>
+        <p>If you can't find your documents, call us on <strong>0330 041 3685&nbsp;</strong>and we'll resend them.</p>
+        <p>&nbsp;</p>
+        <p><strong>Where can I find proof of my no claims discount?</strong></p>
+        <p>You can find no claims discount details on page 3 of your renewal invitation. It's also on your cancellation letter if you've already cancelled your policy. Please allow up to 7 working days for your cancellation letter to arrive.</p>
+        <p>We can't send any proof of your no claims discount until after your policy has ended.</p>
+        <p>&nbsp;</p>
+        <p><strong>I've renewed my policy but haven't received confirmation. Am I covered to drive?</strong></p>
+        <p>If you chose to receive your policy documents online, an email confirmation will be with you within 24 hours. If you told us to send your documents by post, they should arrive within 7 working days. If you still haven't received an email or the documents in the post, call us on <strong>0330 041 3685 </strong>and we'll confirm if you're covered.</p>
+        <p>&nbsp;</p>
+        <p><strong>I want to&nbsp;cancel my policy and I<strong>&nbsp;pay monthly. What do I do?&nbsp;</strong></strong></p>
+        <p>As payments are made in arrears, the final instalment is usually due the day before your policy ends. It's best to wait for this to be collected before you cancel any Direct Debit. If you have cancelled this before the last payment has been taken, call our instalments team on&nbsp;<strong>0330 041 3690</strong>.</p>
+        <p>&nbsp;</p>
+        <p><strong>How do I stop the automatic renewal of my BEAM car insurance policy?</strong></p>
+        <p>Fill in the&nbsp;<a href="https://www.aabeam.co.uk/contact-us/stop-auto-renew">cancel automatic renewal form</a>&nbsp;to opt out. Or call us on&nbsp;<strong>0330 041 3685</strong>.</p>
+        <p>After you&rsquo;ve done this, we&rsquo;ll still let you know when it&rsquo;s time to renew and what your quote is. You&rsquo;ll have to contact us to accept it and make a payment before your policy runs out, otherwise you&rsquo;ll have no insurance and be without any cover.&nbsp;Don't forget, it's a legal requirement to have motor insurance unless your car has been registered as off the road.</p>
+        <p>&nbsp;</p>
+        <p><strong>What happens to any AA breakdown cover&nbsp;<strong>if I don't renew or cancel my BEAM car insurance</strong>?</strong></p>
+        <p>Any&nbsp;AA breakdown optional extras you took out when you bought your BEAM car insurance will be cancelled if you stop your policy. Any AA breakdown cover you took out separately to your BEAM car insurance won&rsquo;t be affected.</p>
+        <p>Call the AA Membership team on&nbsp;<strong>0343 316 4444&nbsp;</strong>if you want to talk about breakdown cover.</p>
+        <p>&nbsp;</p>
+        <p><strong>Can I create an online account?</strong></p>
+        <p>You can't create an account at the moment. Call us on <strong>0330 041 3685</strong>&nbsp;to talk about anything to do with your BEAM car insurance.</p>
+        <p>&nbsp;</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230126T143516Z
+    - ID: "34075d39-34f4-467d-82f9-649af4a3137a"
+      Hint: OpenByDefault
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8cbb04a8-b32c-4de6-b629-f66b9c1c63f9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230126T143516Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240513T091131Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Good to know
+  - Version: 11
+    Fields:
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p><strong>Where can I find my policy documents and certificate of insurance?</strong></p>
+        <p>Your documents are either emailed to you or posted to the address you specified when you bought the policy, depending on your chosen preference.</p>
+        <p>If you selected email, check your junk folder.</p>
+        <p>If you can't find your documents, call us on <strong>0330 041 3685&nbsp;</strong>and we'll resend them.</p>
+        <p>&nbsp;</p>
+        <p><strong>Where can I find proof of my no claims discount?</strong></p>
+        <p>You can find no claims discount details on page 3 of your renewal invitation. It's also on your cancellation letter if you've already cancelled your policy. Please allow up to 7 working days for your cancellation letter to arrive.</p>
+        <p>We can't send any proof of your no claims discount until after your policy has ended.</p>
+        <p>&nbsp;</p>
+        <p><strong>I've renewed my policy but haven't received confirmation. Am I covered to drive?</strong></p>
+        <p>If you chose to receive your policy documents online, an email confirmation will be with you within 24 hours. If you told us to send your documents by post, they should arrive within 7 working days. If you still haven't received an email or the documents in the post, call us on <strong>0330 041 3685 </strong>and we'll confirm if you're covered.</p>
+        <p>&nbsp;</p>
+        <p><strong>I want to&nbsp;cancel my policy and I<strong>&nbsp;pay monthly. What do I do?&nbsp;</strong></strong></p>
+        <p>As payments are made in arrears, the final instalment is usually due the day before your policy ends. It's best to wait for this to be collected before you cancel any Direct Debit. If you have cancelled this before the last payment has been taken, call our instalments team on&nbsp;<strong>0330 041 3690</strong>.</p>
+        <p>&nbsp;</p>
+        <p><strong>How do I stop the automatic renewal of my BEAM car insurance policy?</strong></p>
+        <p>Fill in the&nbsp;<a href="https://www.aabeam.co.uk/contact-us/stop-auto-renew">cancel automatic renewal form</a>&nbsp;to opt out. Or call us on&nbsp;<strong>0330 041 3685</strong>. After you&rsquo;ve done this, we&rsquo;ll still let you know when your policy is due for renewal and what your renewal quote is.</p>
+        <p>Having your policy set to renew automatically gives you peace of mind that as your cover will continue uninterrupted and you&rsquo;ll never miss your renewal date. If you still decide to opt out of renewing automatically, your policy will end on your renewal date and your cover will stop unless you contact us to renew and make payment. Don&rsquo;t forget, it&rsquo;s a legal requirement to have motor insurance unless your car has been registered as off the road.</p>
+        <div>&nbsp;</div>
+        <p><strong>What happens to any AA breakdown cover&nbsp;<strong>if I don't renew or cancel my BEAM car insurance</strong>?</strong></p>
+        <p>Any&nbsp;AA breakdown optional extras you took out when you bought your BEAM car insurance will be cancelled if you stop your policy. Any AA breakdown cover you took out separately to your BEAM car insurance won&rsquo;t be affected.</p>
+        <p>Call the AA Membership team on&nbsp;<strong>0343 316 4444&nbsp;</strong>if you want to talk about breakdown cover.</p>
+        <p>&nbsp;</p>
+        <p><strong>Can I create an online account?</strong></p>
+        <p>You can't create an account at the moment. Call us on <strong>0330 041 3685</strong>&nbsp;to talk about anything to do with your BEAM car insurance.</p>
+        <p>&nbsp;</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230202T091828Z
+    - ID: "34075d39-34f4-467d-82f9-649af4a3137a"
+      Hint: OpenByDefault
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fe08e523-6221-4e4a-9d8f-9d49f6cec256"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230202T091828Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240513T091131Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Good to know
+  - Version: 12
+    Fields:
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p><strong>Where can I find my policy documents and certificate of insurance?</strong></p>
+        <p>Your documents are either emailed to you or posted to the address you specified when you bought the policy, depending on your chosen preference.</p>
+        <p>If you selected email, check your junk folder.</p>
+        <p>If you can't find your documents, call us on <strong>0330 041 3685&nbsp;</strong>and we'll resend them.</p>
+        <p>&nbsp;</p>
+        <p><strong>Where can I find proof of my no claims discount?</strong></p>
+        <p>You can find no claims discount details on page 3 of your renewal invitation. It's also on your cancellation letter if you've already cancelled your policy. Please allow up to 7 working days for your cancellation letter to arrive.</p>
+        <p>We can't send any proof of your no claims discount until after your policy has ended.</p>
+        <p>&nbsp;</p>
+        <p><strong>I've renewed my policy but haven't received confirmation. Am I covered to drive?</strong></p>
+        <p>If you chose to receive your policy documents online, an email confirmation will be with you within 24 hours. If you told us to send your documents by post, they should arrive within 7 working days. If you still haven't received an email or the documents in the post, call us on <strong>0330 041 3685 </strong>and we'll confirm if you're covered.</p>
+        <p>&nbsp;</p>
+        <p><strong>I want to&nbsp;cancel my policy and I<strong>&nbsp;pay monthly. What do I do?&nbsp;</strong></strong></p>
+        <p>As payments are made in arrears, the final instalment is usually due the day before your policy ends. It's best to wait for this to be collected before you cancel any Direct Debit. If you have cancelled this before the last payment has been taken, call our instalments team on&nbsp;<strong>0330 041 3690</strong>.</p>
+        <p>&nbsp;</p>
+        <p><strong>How do I stop the automatic renewal of my BEAM car insurance policy?</strong></p>
+        <p>Fill in the&nbsp;<a href="https://www.aabeam.co.uk/contact-us/stop-auto-renew">cancel automatic renewal form</a>&nbsp;to opt out. Or call us on&nbsp;<strong>0330 041 3685</strong>. After you&rsquo;ve done this, we&rsquo;ll still let you know when your policy is due for renewal and what your renewal quote is.</p>
+        <p>Having your policy set to renew automatically gives you peace of mind that your cover will continue uninterrupted and you&rsquo;ll never miss your renewal date. If you still decide to opt out of renewing automatically, your policy will end on your renewal date and your cover will stop unless you contact us to renew and make payment. Don&rsquo;t forget, it&rsquo;s a legal requirement to have motor insurance unless your car has been registered as off the road.</p>
+        <div>&nbsp;</div>
+        <p><strong>What happens to any AA breakdown cover&nbsp;<strong>if I don't renew or cancel my BEAM car insurance</strong>?</strong></p>
+        <p>Any&nbsp;AA breakdown optional extras you took out when you bought your BEAM car insurance will be cancelled if you stop your policy. Any AA breakdown cover you took out separately to your BEAM car insurance won&rsquo;t be affected.</p>
+        <p>Call the AA Membership team on&nbsp;<strong>0343 316 4444&nbsp;</strong>if you want to talk about breakdown cover.</p>
+        <p>&nbsp;</p>
+        <p><strong>Can I create an online account?</strong></p>
+        <p>You can't create an account at the moment. Call us on <strong>0330 041 3685</strong>&nbsp;to talk about anything to do with your BEAM car insurance.</p>
+        <p>&nbsp;</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230202T143554Z
+    - ID: "34075d39-34f4-467d-82f9-649af4a3137a"
+      Hint: OpenByDefault
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7d348a34-8763-4137-94e4-568fb428735d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230202T143554Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240513T091131Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Good to know
+  - Version: 13
+    Fields:
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p><strong>Where can I find my policy documents and certificate of insurance?</strong></p>
+        <p>Your documents are either emailed to you or posted to the address you specified when you bought the policy, depending on your chosen preference.</p>
+        <p>If you selected email, check your junk folder.</p>
+        <p>If you can't find your documents, call us on <strong>0330 041 3685&nbsp;</strong>and we'll resend them.</p>
+        <p>&nbsp;</p>
+        <p><strong>Where can I find proof of my no claims discount?</strong></p>
+        <p>You can find no claims discount details on page 3 of your renewal invitation. It's also on your cancellation letter if you've already cancelled your policy. Please allow up to 7 working days for your cancellation letter to arrive.</p>
+        <p>We can't send any proof of your no claims discount until after your policy has ended.</p>
+        <p>&nbsp;</p>
+        <p><strong>I've renewed my policy but haven't received confirmation. Am I covered to drive?</strong></p>
+        <p>If you chose to receive your policy documents online, an email confirmation will be with you within 24 hours. If you told us to send your documents by post, they should arrive within 7 working days. If you still haven't received an email or the documents in the post, call us on <strong>0330 041 3685 </strong>and we'll confirm if you're covered.</p>
+        <p>&nbsp;</p>
+        <p><strong>I want to&nbsp;cancel my policy and I<strong>&nbsp;pay monthly. What do I do?&nbsp;</strong></strong></p>
+        <p>As payments are made in arrears, the final instalment is usually due the day before your policy ends. It's best to wait for this to be collected before you cancel any Direct Debit. If you have cancelled this before the last payment has been taken, call our instalments team on&nbsp;<strong>0330 041 3690</strong>.</p>
+        <p>&nbsp;</p>
+        <p><strong>How do I stop the automatic renewal of my BEAM car insurance policy?</strong></p>
+        <p>Fill in the&nbsp;<a href="/contact-us/stop-auto-renew">cancel automatic renewal form</a>&nbsp;to opt out. Or call us on&nbsp;<strong>0330 041 3685</strong>. After you&rsquo;ve done this, we&rsquo;ll still let you know when your policy is due for renewal and what your renewal quote is.</p>
+        <p>Having your policy set to renew automatically gives you peace of mind that your cover will continue uninterrupted and you&rsquo;ll never miss your renewal date. If you still decide to opt out of renewing automatically, your policy will end on your renewal date and your cover will stop unless you contact us to renew and make payment. Don&rsquo;t forget, it&rsquo;s a legal requirement to have motor insurance unless your car has been registered as off the road.</p>
+        <div>&nbsp;</div>
+        <p><strong>What happens to any AA breakdown cover&nbsp;<strong>if I don't renew or cancel my BEAM car insurance</strong>?</strong></p>
+        <p>Any&nbsp;AA breakdown optional extras you took out when you bought your BEAM car insurance will be cancelled if you stop your policy. Any AA breakdown cover you took out separately to your BEAM car insurance won&rsquo;t be affected.</p>
+        <p>Call the AA Membership team on&nbsp;<strong>0343 316 4444&nbsp;</strong>if you want to talk about breakdown cover.</p>
+        <p>&nbsp;</p>
+        <p><strong>Can I create an online account?</strong></p>
+        <p>You can't create an account at the moment. Call us on <strong>0330 041 3685</strong>&nbsp;to talk about anything to do with your BEAM car insurance.</p>
+        <p>&nbsp;</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230525T124321Z
+    - ID: "34075d39-34f4-467d-82f9-649af4a3137a"
+      Hint: OpenByDefault
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1a103305-e095-42b3-8327-3decee2817d3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230525T124321Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240513T091131Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Good to know
+  - Version: 14
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: |
+        <r owner="sitecore\Jenny.Armstrong" date="20240513T091220Z" />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <br />
+        <a name="Whycoverchanging" id="Whycoverchanging"></a>
+        <h2>Why is my cover changing?</h2>
+        <p>We're always looking for ways to improve our products and services to meet your needs in the best way possible. </p>
+        <p>Our new level of cover includes new features and benefits, giving you a competitively priced product that's right for you. </p>
+        <hr />
+        <br />
+        <a name="Whatsincluded" id="Whatsincluded"></a>
+        <h2>What's included &ndash; do I have the same level of protection as before?</h2>
+        <p>Your new cover closely matches your current benefits and protection, but there may be some small differences.</p>
+        <p>Make sure you read the Important Notice in your renewal invitation, as this will highlight any differences between your current policy and your new one.</p>
+        <hr />
+        <br />
+        <h2>Why's my premium gone up?</h2>
+        <p>You might see an increase in your premium. This is because car insurance prices, across all insurance providers, have risen due to inflation.</p>
+        <p>We&rsquo;re committed to making sure that your new cover is competitively priced and offers just as much value for money as your current policy.</p>
+        <hr />
+        <br />
+        <h2>Will my no claims discount be affected?</h2>
+        <p>Your no claims discount will carry over from your current policy, and will continue to be applied to your cover.</p>
+        <p>You can find your number of no claims discount years on your renewal invitation.</p>
+        <hr />
+        <br />
+        <h2>Will my policy excess change?</h2>
+        <p>Check your renewal letter and invitation to find out your policy excess.</p>
+        <hr />
+        <br />
+        <h2>Can I create an online account?</h2>
+        <p>You can't create an account at the moment. Call us on <strong>0330 041 3685</strong> to talk about anything to do with your BEAM car insurance.</p>
+        <hr />
+        <br />
+        <h2>How do I make a claim?</h2>
+        <p>Call us 24/7 on <strong>0330 041 3689</strong>. You'll need to have your policy number handy. Find out more on <a href="~/link.aspx?_id=195C6D3B20B04B228D455D50A9C7C6C3&amp;_z=z">how to make a car insurance claim</a>.</p>
+        <br class="t-last-br" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230606T084634Z
+    - ID: "34075d39-34f4-467d-82f9-649af4a3137a"
+      Hint: OpenByDefault
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c3bb3597-6d93-4b7d-bedb-1b6d737cd6a5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230606T084634Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240514T094304Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: About your cover

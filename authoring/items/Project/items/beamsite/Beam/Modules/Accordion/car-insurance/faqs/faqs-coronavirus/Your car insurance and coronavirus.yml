@@ -1,0 +1,2002 @@
+﻿---
+ID: "ba30d31b-4877-406f-b072-682e361f19d1"
+Parent: "623dd28d-a456-4199-8202-76bb7a77bcde"
+Template: "11e11bcb-aa73-4cd2-a73e-fbeedfe8da05"
+Path: "/sitecore/content/AA/Beam/Modules/Accordion/car-insurance/faqs/faqs-coronavirus/Your car insurance and coronavirus"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: "-50"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200402T133214Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "749a64ef-7923-4778-84e9-4c7e1aa9cbe0"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "82673012-0e83-4e66-81d2-c9bc3d77aff4"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h2>Claims and repairs</h2>
+        <p><strong>I need to make a claim</strong></p>
+        <p>Our claims team is operating as normal, and you can report your car insurance claim by calling us on <strong>0800 269 622</strong>.</p>
+        <p><strong>I've had an accident and my vehicle isn't drivable</strong></p>
+        <p>Don't worry, we'll recover your vehicle to a place of safety. If our local approved repairer is open, they'll book it in and provide an estimated completion date. </p>
+        <p>Due to parts availability, the repairs could take longer than usual.</p>
+        <p><strong>I've had an accident but my vehicle is drivable</strong></p>
+        <p>If our local approved repairer is open, they'll book it in for an estimate. If the repairer has capacity, they'll book it in for repairs and give you an estimated completion date. </p>
+        <p>Due to parts availability, the repairs could take longer than usual.</p>
+        <p><strong>Will I get a courtesy car while my vehicle is being repaired?</strong></p>
+        <p>We'll discuss your particular needs for mobility. However, courtesy cars and replacement hire vehicles might be in short supply and they'll be prioritised for key workers, in particular NHS and emergency services staff, as well as vulnerable customers.</p>
+        <p><strong>What if my vehicle is already with the approved repairer?</strong></p>
+        <p>The approved repairer will contact you about the status of your repair, and say when they can complete the work. </p>
+        <p>If your vehicle is driveable and the work has yet to start, we might have to return it to you and rebook when the repairer has the capacity.</p>
+        <p><strong>What if I've got the Car Hire policy?</strong></p>
+        <p>This additional cover provides you with a hire car if your vehicle is deemed a total loss. We'll endeavour to provide you with a car. </p>
+        <p>If you currently have a hire car, we'll liaise with you regarding its continued use if you're a key worker, even if this goes beyond the number of days the policy allows.</p>
+        <hr />
+        <br />
+        <h2> Drivers who have self-isolated</h2>
+        <p><strong>I have to self-isolate and need someone to drive my car to get essential supplies. Will they be insured?</strong></p>
+        <p>You've a choice of options if the helper has a valid driving licence.</p>
+        <p>If the person has <strong>Driving Other Cars</strong> cover on their car insurance, they can use your vehicle with your permission. However, they'll only have third-party cover, and Driving Other Cars cover is intended for short-term emergency use. </p>
+        <p>Or if you have comprehensive insurance, and want to ensure that damage is covered when someone else uses your car, call us on <strong>0370 533 2211</strong> to add them to your policy as a named driver.</p>
+        <p><strong>Can I pause my car insurance while I'm self-isolated?</strong></p>
+        <p>No, you can't pause your car insurance. It's a legal requirement to have valid car insurance unless you apply for a <a href="https://www.gov.uk/make-a-sorn" title="https://www.gov.uk/make-a-sorn">Statutory Off Road Notification.</a> If your car has a SORN and you want to cancel your insurance, call us on <strong>0370 533 2211</strong>. </p>
+        <p>Although you might not be driving your car, keeping it insured will cover you for theft and vandalism.</p>
+        <hr />
+        <br />
+        <h2> I must now drive to work instead of using public transport. Will my car insurance still be valid?</h2>
+        <p>If you need to drive to your workplace because of the coronavirus situation, your insurance policy will be valid. You don't need to contact us either to update your policy or extend your cover.</p>
+        <p>If you work in one of the critical sectors <a href="https://www.gov.uk/government/publications/coronavirus-covid-19-maintaining-educational-provision/guidance-for-schools-colleges-and-local-authorities-on-maintaining-educational-provision">listed by the government</a> and need to drive to different work locations because of the coronavirus situation, your cover won't be affected. You don't need to contact us.</p>
+        <hr />
+        <br />
+        <h2>What if I'm struggling to pay my monthly insurance payment?</h2>
+        <p>We're aware of the impact of the coronavirus situation on people's jobs and income. </p>
+        <p>If you've concerns about paying for your insurance, call us as soon as possible on <strong>0370 533 2211</strong>, and we can discuss the right option for you.</p>
+        <hr />
+        <br />
+        <h2>I drive for a voluntary organisation to help people who can't leave their homes. Is my insurance still valid?</h2>
+        <p>If you're using your car for voluntary purposes to transport medicines or groceries to help others impacted by coronavirus, your cover won't be affected. </p>
+        <p>In addition, if you've become an NHS Volunteer Responder your car will also be covered for community response, patient transport and NHS transport volunteering. </p>
+        <p>You don't need to contact us either to update your policy or extend your cover.</p>
+        <hr />
+        <br />
+        <h2>Am I still insured to drive if my car's MOT has expired?</h2>
+        <p><strong>MOT expiry date up to 29 March 2020 and you're not self-isolating</strong></p>
+        <p>If you're not self-isolating or extremely vulnerable to the coronavirus, you still need an MOT to make sure your vehicle meets road safety and environmental standards.</p>
+        <p>Accordingly, book your test at an MOT centre. These centres and garages are allowed to stay open.</p>
+        <p><strong>MOT expiry date from 30 March 2020 onwards</strong></p>
+        <p>Vehicle owners have been granted a 6-month exemption from MOT testing. This will enable them to continue to drive to work, where this can't be done from home, or shop for necessities. </p>
+        <p>All cars, vans and motorcycles whose MOT expiry date is 30 March 2020 or later will be exempt from a test for 6 months. </p>
+        <p>During the 6-month exemption you'll still be insured to drive your car, and we won't decline any claims for failure to have an MOT.</p>
+        <p>Meanwhile, your vehicle must be kept in a roadworthy condition, and garages will remain open for essential repair work. Drivers can still be prosecuted if they drive an unsafe vehicle. </p>
+        <hr />
+        <br />
+        <h2>Renewing your car insurance</h2>
+        <p><strong>How can I renew my policy?</strong></p>
+        <p>If you have automatic renewal in place &ndash; whether you pay monthly or by annual payment &ndash; and the cover still meets your needs, then you don't need to do anything. </p>
+        <p>We'll send or email your renewal documents once your policy has renewed. </p>
+        <p>If you don't have automatic renewal, you'll need to call us on the number in your renewal invitation. Do bear with us, our phone lines are really busy.</p>
+        <p><strong>What if I have a question about my renewal?</strong></p>
+        <p>To discuss your renewal, you can call us on the number in your renewal invitation. </p>
+        <p>We're also helping our customers via email too. If your renewal date is more than 10 days away, email your query to our <a href="mailto:insurancerenewals@theaa.com">renewals team</a>. </p>
+        <hr />
+        <br />
+        <h2>What if I can't spend my retail shopping voucher at the moment?</h2>
+        <p>If you've received a retail shopping voucher from us, we understand that spending it may be not be possible now. </p>
+        <p>Don't worry, we're giving you longer to spend it. The redemption period has been extended from 3 to 6 months from the date your policy renewed. </p>
+        <hr />
+        <br />
+        <h2>Can you still send my policy documents?</h2>
+        <p>When buying your insurance, you could choose to receive your documents either by email or post. </p>
+        <p>If you chose email, you can <a href="https://auth.theaa.com/auth/XUI/">log in and view your documents here</a>. </p>
+        <p>If you chose documents by post, they won't also be available online. </p>
+        <p>However, if there are postal delays we may send documents by email as well as post, plus text messages for anything important about your policy.</p>
+        <hr />
+        <br />
+        <h2>How long will it take for my policy documents to arrive by post?</h2>
+        <p>
+        </p>
+        <p>Normally, they should arrive within 5 to 7 working days. Due to the coronavirus situation there may be postal delays, so please allow up to 14 working days.
+        </p>
+        <p>If you requested alternative format documents &ndash; large print, audio and braille &ndash; they'll now come separately from your standard pack. Again, allow up to 14 days for them to arrive.</p>
+        <hr />
+        <p><strong>Find out how the AA is responding to the <a href="/about-us/coronavirus-covid-19">coronavirus situation</a>.</strong></p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200402T133214Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: "Your car insurance during coronavirus (COVID-19)"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200408T142509Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200408T142652Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "749a64ef-7923-4778-84e9-4c7e1aa9cbe0"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c2e0468f-36ae-4038-8c9a-335a9fec18bb"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h2>Claims and repairs</h2>
+        <p><strong>I need to make a claim</strong></p>
+        <p>Our claims team is operating as normal, and you can report your car insurance claim by calling us on <strong>0800 269 622</strong>.</p>
+        <p><strong>I've had an accident and my vehicle isn't drivable</strong></p>
+        <p>Don't worry, we'll recover your vehicle to a place of safety. If our local approved repairer is open, they'll book it in and provide an estimated completion date. </p>
+        <p>Due to parts availability, the repairs could take longer than usual.</p>
+        <p><strong>I've had an accident but my vehicle is drivable</strong></p>
+        <p>If our local approved repairer is open, they'll book it in for an estimate. If the repairer has capacity, they'll book it in for repairs and give you an estimated completion date. </p>
+        <p>Due to parts availability, the repairs could take longer than usual.</p>
+        <p><strong>Will I get a courtesy car while my vehicle is being repaired?</strong></p>
+        <p>We'll discuss your particular needs for mobility. However, courtesy cars and replacement hire vehicles might be in short supply and they'll be prioritised for key workers, in particular NHS and emergency services staff, as well as vulnerable customers.</p>
+        <p><strong>What if my vehicle is already with the approved repairer?</strong></p>
+        <p>The approved repairer will contact you about the status of your repair, and say when they can complete the work. </p>
+        <p>If your vehicle is driveable and the work has yet to start, we might have to return it to you and rebook when the repairer has the capacity.</p>
+        <p><strong>What if I've got the Car Hire policy?</strong></p>
+        <p>This additional cover provides you with a hire car if your vehicle is deemed a total loss. We'll endeavour to provide you with a car. </p>
+        <p>If you currently have a hire car, we'll liaise with you regarding its continued use if you're a key worker, even if this goes beyond the number of days the policy allows.</p>
+        <hr />
+        <br />
+        <h2> Drivers who have self-isolated</h2>
+        <p><strong>I have to self-isolate and need someone to drive my car to get essential supplies. Will they be insured?</strong></p>
+        <p>You've a choice of options if the helper has a valid driving licence.</p>
+        <p>If the person has <strong>Driving Other Cars</strong> cover on their car insurance, they can use your vehicle with your permission. However, they'll only have third-party cover, and Driving Other Cars cover is intended for short-term emergency use. </p>
+        <p>Or if you have comprehensive insurance, and want to ensure that damage is covered when someone else uses your car, call us on <strong>0370 533 2211</strong> to add them to your policy as a named driver.</p>
+        <p><strong>Can I pause my car insurance while I'm self-isolated?</strong></p>
+        <p>No, you can't pause your car insurance. It's a legal requirement to have valid car insurance unless you apply for a <a href="https://www.gov.uk/make-a-sorn" title="https://www.gov.uk/make-a-sorn">Statutory Off Road Notification.</a> If your car has a SORN and you want to cancel your insurance, call us on <strong>0370 533 2211</strong>. </p>
+        <p>Although you might not be driving your car, keeping it insured will cover you for theft and vandalism.</p>
+        <hr />
+        <br />
+        <h2> I must now drive to work instead of using public transport. Will my car insurance still be valid?</h2>
+        <p>If you need to drive to your workplace because of the coronavirus situation, your insurance policy will be valid. You don't need to contact us either to update your policy or extend your cover.</p>
+        <p>If you work in one of the critical sectors <a href="https://www.gov.uk/government/publications/coronavirus-covid-19-maintaining-educational-provision/guidance-for-schools-colleges-and-local-authorities-on-maintaining-educational-provision">listed by the government</a> and need to drive to different work locations because of the coronavirus situation, your cover won't be affected. You don't need to contact us.</p>
+        <hr />
+        <br />
+        <h2>What if I'm struggling to pay my monthly insurance payment?</h2>
+        <p>We're aware of the impact of the coronavirus situation on people's jobs and income. </p>
+        <p>If you've concerns about paying for your insurance, call us as soon as possible on <strong>0370 533 2211</strong>, and we can discuss the right option for you.</p>
+        <hr />
+        <br />
+        <h2>I drive for a voluntary organisation to help people who can't leave their homes. Is my insurance still valid?</h2>
+        <p>If you're using your car for voluntary purposes to transport medicines or groceries to help others impacted by coronavirus, your cover won't be affected. </p>
+        <p>In addition, if you've become an NHS Volunteer Responder your car will also be covered for community response, patient transport and NHS transport volunteering. </p>
+        <p>You don't need to contact us either to update your policy or extend your cover.</p>
+        <hr />
+        <br />
+        <h2>Am I still insured to drive if my car's MOT has expired?</h2>
+        <p><strong>MOT expiry date up to 29 March 2020 and you're not self-isolating</strong></p>
+        <p>If you're not self-isolating or extremely vulnerable to the coronavirus, you still need an MOT to make sure your vehicle meets road safety and environmental standards.</p>
+        <p>Accordingly, book your test at an MOT centre. These centres and garages are allowed to stay open.</p>
+        <p><strong>MOT expiry date from 30 March 2020 onwards</strong></p>
+        <p>Vehicle owners have been granted a 6-month exemption from MOT testing. This will enable them to continue to drive to work, where this can't be done from home, or shop for necessities. </p>
+        <p>All cars, vans and motorcycles whose MOT expiry date is 30 March 2020 or later will be exempt from a test for 6 months. </p>
+        <p>During the 6-month exemption you'll still be insured to drive your car, and we won't decline any claims for failure to have an MOT.</p>
+        <p>Meanwhile, your vehicle must be kept in a roadworthy condition, and garages will remain open for essential repair work. Drivers can still be prosecuted if they drive an unsafe vehicle. </p>
+        <hr />
+        <br />
+        <h2>Renewing your car insurance</h2>
+        <p><strong>How can I renew my policy?</strong></p>
+        <p>If you have automatic renewal in place &ndash; whether you pay monthly or by annual payment &ndash; and the cover still meets your needs, then you don't need to do anything. </p>
+        <p>We'll send or email your renewal documents once your policy has renewed. </p>
+        <p>If you don't have automatic renewal, you'll need to call us on the number in your renewal invitation. Do bear with us, our phone lines are really busy.</p>
+        <p><strong>What if I have a question about my renewal?</strong></p>
+        <p>To discuss your renewal, you can call us on the number in your renewal invitation. </p>
+        <p>We're also helping our customers via email too. If your renewal date is more than 10 days away, email your query to our <a href="mailto:insurancerenewals@theaa.com">renewals team</a>. </p>
+        <hr />
+        <br />
+        <h2>What if I can't spend my retail shopping voucher at the moment?</h2>
+        <p>If you've received a retail shopping voucher from us, we understand that spending it may be not be possible now. </p>
+        <p>Don't worry, we're giving you longer to spend it. The redemption period has been extended from 3 to 6 months from the date your policy renewed. </p>
+        <hr />
+        <br />
+        <h2>Can you still send my policy documents?</h2>
+        <p>When buying your insurance, you could choose to receive your documents either by email or post. </p>
+        <p>If you chose email, you can <a href="https://auth.theaa.com/auth/XUI/">log in and view your documents here</a>. </p>
+        <p>If you chose documents by post, they won't also be available online. </p>
+        <p>However, if there are postal delays we may send documents by email as well as post, plus text messages for anything important about your policy.</p>
+        <hr />
+        <br />
+        <h2>How long will it take for my policy documents to arrive by post?</h2>
+        <p>Normally, they should arrive within 5 to 7 working days. Due to the coronavirus situation there may be postal delays, so please allow up to 14 working days.</p>
+        <p>If you requested alternative format documents &ndash; large print, audio and braille &ndash; they'll now come separately from your standard pack. Again, allow up to 14 days for them to arrive.</p>
+        <hr />
+        <p><strong>Find out how the AA is responding to the <a href="/about-us/coronavirus-covid-19">coronavirus situation</a>.</strong></p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200408T142652Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: "Your car insurance during coronavirus (COVID-19)"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200408T142727Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200408T143020Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "749a64ef-7923-4778-84e9-4c7e1aa9cbe0"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3d127780-1a8a-421a-a8c4-e41222d7a854"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h2>Claims and repairs</h2>
+        <p><strong>I need to make a claim</strong></p>
+        <p>Our claims team is operating as normal, and you can report your car insurance claim by calling us on <strong>0800 269 622</strong>.</p>
+        <p><strong>I've had an accident and my vehicle isn't drivable</strong></p>
+        <p>Don't worry, we'll recover your vehicle to a place of safety. If our local approved repairer is open, they'll book it in and provide an estimated completion date. </p>
+        <p>Due to parts availability, the repairs could take longer than usual.</p>
+        <p><strong>I've had an accident but my vehicle is drivable</strong></p>
+        <p>If our local approved repairer is open, they'll book it in for an estimate. If the repairer has capacity, they'll book it in for repairs and give you an estimated completion date. </p>
+        <p>Due to parts availability, the repairs could take longer than usual.</p>
+        <p><strong>Will I get a courtesy car while my vehicle is being repaired?</strong></p>
+        <p>We'll discuss your particular needs for mobility. However, courtesy cars and replacement hire vehicles might be in short supply and they'll be prioritised for key workers, in particular NHS and emergency services staff, as well as vulnerable customers.</p>
+        <p><strong>What if my vehicle is already with the approved repairer?</strong></p>
+        <p>The approved repairer will contact you about the status of your repair, and say when they can complete the work. </p>
+        <p>If your vehicle is driveable and the work has yet to start, we might have to return it to you and rebook when the repairer has the capacity.</p>
+        <p><strong>What if I've got the Car Hire policy?</strong></p>
+        <p>This additional cover provides you with a hire car if your vehicle is deemed a total loss. We'll endeavour to provide you with a car. </p>
+        <p>If you currently have a hire car, we'll liaise with you regarding its continued use if you're a key worker, even if this goes beyond the number of days the policy allows.</p>
+        <hr />
+        <br />
+        <h2> Drivers who have self-isolated</h2>
+        <p><strong>I have to self-isolate and need someone to drive my car to get essential supplies. Will they be insured?</strong></p>
+        <p>You've a choice of options if the helper has a valid driving licence.</p>
+        <p>If the person has <strong>Driving Other Cars</strong> cover on their car insurance, they can use your vehicle with your permission. However, they'll only have third-party cover, and Driving Other Cars cover is intended for short-term emergency use. </p>
+        <p>Or if you have comprehensive insurance, and want to ensure that damage is covered when someone else uses your car, call us on <strong>0370 533 2211</strong> to add them to your policy as a named driver.</p>
+        <p><strong>Can I pause my car insurance while I'm self-isolated?</strong></p>
+        <p>No, you can't pause your car insurance. It's a legal requirement to have valid car insurance unless you apply for a <a href="https://www.gov.uk/make-a-sorn" title="https://www.gov.uk/make-a-sorn">Statutory Off Road Notification.</a> If your car has a SORN and you want to cancel your insurance, call us on <strong>0370 533 2211</strong>. </p>
+        <p>Although you might not be driving your car, keeping it insured will cover you for theft and vandalism.</p>
+        <hr />
+        <br />
+        <h2> I must now drive to work instead of using public transport. Will my car insurance still be valid?</h2>
+        <p>If you need to drive to your workplace because of the coronavirus situation, your insurance policy will be valid. You don't need to contact us either to update your policy or extend your cover.</p>
+        <p>If you work in one of the critical sectors <a href="https://www.gov.uk/government/publications/coronavirus-covid-19-maintaining-educational-provision/guidance-for-schools-colleges-and-local-authorities-on-maintaining-educational-provision">listed by the government</a> and need to drive to different work locations because of the coronavirus situation, your cover won't be affected. You don't need to contact us.</p>
+        <hr />
+        <br />
+        <h2>What if I'm struggling to pay my monthly insurance payment?</h2>
+        <p>We're aware of the impact of the coronavirus situation on people's jobs and income. </p>
+        <p>If you've concerns about paying for your insurance, call us as soon as possible on <strong>0370 533 2211</strong>, and we can discuss the right option for you.</p>
+        <hr />
+        <br />
+        <h2>I drive for a voluntary organisation to help people who can't leave their homes. Is my insurance still valid?</h2>
+        <p>If you're using your car for voluntary purposes to transport medicines or groceries to help others impacted by coronavirus, your cover won't be affected. </p>
+        <p>In addition, if you've become an NHS Volunteer Responder your car will also be covered for community response, patient transport and NHS transport volunteering. </p>
+        <p>You don't need to contact us either to update your policy or extend your cover.</p>
+        <hr />
+        <br />
+        <h2>Am I still insured to drive if my car's MOT has expired?</h2>
+        <p><strong>MOT expiry date up to 29 March 2020 and you're not self-isolating</strong></p>
+        <p>If you're not self-isolating or extremely vulnerable to the coronavirus, you still need an MOT to make sure your vehicle meets road safety and environmental standards.</p>
+        <p>Accordingly, book your test at an MOT centre. These centres and garages are allowed to stay open.</p>
+        <p><strong>MOT expiry date from 30 March 2020 onwards</strong></p>
+        <p>Vehicle owners have been granted a 6-month exemption from MOT testing. This will enable them to continue to drive to work, where this can't be done from home, or shop for necessities. </p>
+        <p>All cars, vans and motorcycles whose MOT expiry date is 30 March 2020 or later will be exempt from a test for 6 months. </p>
+        <p>During the 6-month exemption you'll still be insured to drive your car, and we won't decline any claims for failure to have an MOT.</p>
+        <p>Meanwhile, your vehicle must be kept in a roadworthy condition, and garages will remain open for essential repair work. Drivers can still be prosecuted if they drive an unsafe vehicle. </p>
+        <hr />
+        <br />
+        <h2>Renewing your car insurance</h2>
+        <p><strong>How can I renew my policy?</strong></p>
+        <p>If you have automatic renewal in place &ndash; whether you pay monthly or by annual payment &ndash; and the cover still meets your needs, then you don't need to do anything. </p>
+        <p>We'll send or email your renewal documents once your policy has renewed. </p>
+        <p>If you don't have automatic renewal, you'll need to call us on the number in your renewal invitation. Do bear with us, our phone lines are really busy.</p>
+        <p><strong>What if I have a question about my renewal?</strong></p>
+        <p>To discuss your renewal, you can call us on the number in your renewal invitation. </p>
+        <p>We're also helping our customers via email too. If your renewal date is more than 10 days away, email your query to our <a href="mailto:insurancerenewals@theaa.com">renewals team</a>. </p>
+        <hr />
+        <br />
+        <h2>What if I can't spend my retail shopping voucher at the moment?</h2>
+        <p>If you've received a retail shopping voucher from us, we understand that spending it may be not be possible now. </p>
+        <p>Don't worry, we're giving you longer to spend it. The redemption period has been extended from 3 to 6 months from the date your policy renewed. </p>
+        <hr />
+        <br />
+        <h2>Can you still send my policy documents?</h2>
+        <p>When buying your insurance, you could choose to receive your documents either by email or post. </p>
+        <p>If you chose email, you can <a href="https://auth.theaa.com/auth/XUI/">log in and view your documents here</a>. </p>
+        <p>If you chose documents by post, they won't also be available online. </p>
+        <p>However, if there are postal delays we may send documents by email as well as post, plus text messages for anything important about your policy.</p>
+        <hr />
+        <br />
+        <h2>How long will it take for my policy documents to arrive by post?</h2>
+        <p>Normally, they should arrive within 5 to 7 working days. Due to the coronavirus situation there may be postal delays, so please allow up to 14 working days.</p>
+        <p>If you requested alternative format documents &ndash; large print, audio and braille &ndash; they'll now come separately from your standard pack. Again, allow up to 14 days for them to arrive.</p>
+        <hr />
+        <p><strong>Find out how the AA is responding to the <a href="/about-us/coronavirus-covid-19">coronavirus situation</a>.</strong></p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200408T143020Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: "Your car insurance during coronavirus (COVID-19)"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200408T143036Z
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200415T121346Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "749a64ef-7923-4778-84e9-4c7e1aa9cbe0"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b5804a17-3fc7-426c-abed-9c6e56c34da1"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h2>Changes to our opening hours</h2>
+        <p>Some of the call centre times listed in our emails and letters have changed due to the coronavirus situation.&nbsp; </p>
+        <p>Because the lines are very busy, and to ensure we can offer the best service, we're constantly reviewing these times.</p>
+        <p>Currently, for quotes, policy queries and renewals our lines are open Monday to Friday 9am to 6 pm. And you can still report a claim anytime by calling us on <strong>0800 269 622</strong>.
+        </p>
+        <hr />
+        <br />
+        <h2>Claims and repairs</h2>
+        <p><strong>I need to make a claim</strong></p>
+        <p>Our claims team is operating as normal, and you can report your car insurance claim by calling us on <strong>0800 269 622</strong>.</p>
+        <p><strong>I've had an accident and my vehicle isn't drivable</strong></p>
+        <p>Don't worry, we'll recover your vehicle to a place of safety. If our local approved repairer is open, they'll book it in and provide an estimated completion date. </p>
+        <p>Due to parts availability, the repairs could take longer than usual.</p>
+        <p><strong>I've had an accident but my vehicle is drivable</strong></p>
+        <p>If our local approved repairer is open, they'll book it in for an estimate. If the repairer has capacity, they'll book it in for repairs and give you an estimated completion date. </p>
+        <p>Due to parts availability, the repairs could take longer than usual.</p>
+        <p><strong>Will I get a courtesy car while my vehicle is being repaired?</strong></p>
+        <p>We'll discuss your particular needs for mobility. However, courtesy cars and replacement hire vehicles might be in short supply and they'll be prioritised for key workers, in particular NHS and emergency services staff, as well as vulnerable customers.</p>
+        <p><strong>What if my vehicle is already with the approved repairer?</strong></p>
+        <p>The approved repairer will contact you about the status of your repair, and say when they can complete the work. </p>
+        <p>If your vehicle is driveable and the work has yet to start, we might have to return it to you and rebook when the repairer has the capacity.</p>
+        <p><strong>What if I've got the Car Hire policy?</strong></p>
+        <p>This additional cover provides you with a hire car if your vehicle is deemed a total loss. We'll endeavour to provide you with a car. </p>
+        <p>If you currently have a hire car, we'll liaise with you regarding its continued use if you're a key worker, even if this goes beyond the number of days the policy allows.</p>
+        <hr />
+        <br />
+        <h2> Drivers who have self-isolated</h2>
+        <p><strong>I have to self-isolate and need someone to drive my car to get essential supplies. Will they be insured?</strong></p>
+        <p>You've a choice of options if the helper has a valid driving licence.</p>
+        <p>If the person has <strong>Driving Other Cars</strong> cover on their car insurance, they can use your vehicle with your permission. However, they'll only have third-party cover, and Driving Other Cars cover is intended for short-term emergency use. </p>
+        <p>Or if you have comprehensive insurance, and want to ensure that damage is covered when someone else uses your car, call us on <strong>0370 533 2211</strong> to add them to your policy as a named driver.</p>
+        <p><strong>Can I pause my car insurance while I'm self-isolated?</strong></p>
+        <p>No, you can't pause your car insurance. It's a legal requirement to have valid car insurance unless you apply for a <a href="https://www.gov.uk/make-a-sorn" title="https://www.gov.uk/make-a-sorn">Statutory Off Road Notification.</a> If your car has a SORN and you want to cancel your insurance, call us on <strong>0370 533 2211</strong>. </p>
+        <p>Although you might not be driving your car, keeping it insured will cover you for theft and vandalism.</p>
+        <p><strong>Am I insured if I drive someone else's car?</strong></p>
+        <p>If you have Driving Other Cars cover on your certificate of insurance, then with the owner&rsquo;s permission you can drive their car. However you&rsquo;ll only have third-party cover, and Driving Other Cars cover is intended for short-term emergency use. More details about this benefit are in your <a href="~/link.aspx?_id=234F348F5D13407E8305BC33FF67F8AE&amp;_z=z">Car Insurance Policy Booklet</a>.</p>
+        <hr />
+        <br />
+        <h2> I must now drive to work instead of using public transport. Will my car insurance still be valid?</h2>
+        <p>If you need to drive to your workplace because of the coronavirus situation, your insurance policy will be valid. You don't need to contact us either to update your policy or extend your cover.</p>
+        <p>If you work in one of the critical sectors <a href="https://www.gov.uk/government/publications/coronavirus-covid-19-maintaining-educational-provision/guidance-for-schools-colleges-and-local-authorities-on-maintaining-educational-provision">listed by the government</a> and need to drive to different work locations because of the coronavirus situation, your cover won't be affected. You don't need to contact us.</p>
+        <hr />
+        <br />
+        <h2>What if I'm struggling to pay my monthly insurance payment?</h2>
+        <p>We're aware of the impact of the coronavirus situation on people's jobs and income. </p>
+        <p>If you're concerned about paying for your insurance, email us at <a href="mailto:instalments@theaa.com">instalments@theaa.com</a>, or call us  on <strong>0370 533 2211</strong> as soon as possible, and we'll try to help.</p>
+        <hr />
+        <br />
+        <h2>I drive for a voluntary organisation to help people who can't leave their homes. Is my insurance still valid?</h2>
+        <p>If you're using your car for voluntary purposes to transport medicines or groceries to help others impacted by coronavirus, your cover won't be affected. </p>
+        <p>In addition, if you've become an NHS Volunteer Responder your car will also be covered for community response, patient transport and NHS transport volunteering. </p>
+        <p>You don't need to contact us either to update your policy or extend your cover.</p>
+        <hr />
+        <br />
+        <h2>Am I still insured to drive if my car's MOT has expired?</h2>
+        <p><strong>MOT expiry date up to 29 March 2020 and you're not self-isolating</strong></p>
+        <p>If you're not self-isolating or extremely vulnerable to the coronavirus, you still need an MOT to make sure your vehicle meets road safety and environmental standards.</p>
+        <p>Accordingly, book your test at an MOT centre. These centres and garages are allowed to stay open.</p>
+        <p><strong>MOT expiry date from 30 March 2020 onwards</strong></p>
+        <p>Vehicle owners have been granted a 6-month exemption from MOT testing. This will enable them to continue to drive to work, where this can't be done from home, or shop for necessities. </p>
+        <p>All cars, vans and motorcycles whose MOT expiry date is 30 March 2020 or later will be exempt from a test for 6 months. </p>
+        <p>During the 6-month exemption you'll still be insured to drive your car, and we won't decline any claims for failure to have an MOT.</p>
+        <p>Meanwhile, your vehicle must be kept in a roadworthy condition, and garages will remain open for essential repair work. Drivers can still be prosecuted if they drive an unsafe vehicle. </p>
+        <hr />
+        <br />
+        <h2>My car insurance policy</h2>
+        <p><strong>Can you still send my policy documents?</strong></p>
+        <p>When buying your insurance, you could choose to receive your documents either by email or post. </p>
+        <p>If you chose email, you can <a href="https://auth.theaa.com/auth/XUI/">log in and view your documents here</a>. </p>
+        <p>If you chose documents by post, they won't also be available online. </p>
+        <p>Normally, they should arrive within 5 to 7 working days. Due to the coronavirus situation there may be postal delays, so please allow up to 14 working days. If there are delays we may send documents by email as well as post, plus text messages for anything important about your policy. </p>
+        <p>If you requested alternative format documents &ndash; large print, audio and braille &ndash; they'll now come separately from your standard pack. Again, allow up to 14 days for them to arrive.</p>
+        <p><strong>How can I renew my policy?</strong></p>
+        <p>We send you a renewal invitation at least 3 weeks before the policy is due for renewal. It tells you if your policy will renew automatically, or if you need to call to renew.</p>
+        <p>If you have automatic renewal in place &ndash; whether you pay monthly or by annual payment &ndash; and the cover still meets your needs, and your details are correct, then you don't need to do anything. </p>
+        <p>We'll send or email your renewal documents once your policy has renewed. </p>
+        <p>If you don't have automatic renewal, you'll need to call us on the number in your renewal invitation. Do bear with us, our phone lines are really busy.</p>
+        <p><strong>What if I have a question about my renewal?</strong></p>
+        <p>To discuss your renewal, you can call us on the number in your renewal invitation. </p>
+        <p>We can also help you by email. If your renewal date is more than 10 days away, send your query to our <a href="mailto:insurancerenewals@theaa.com">renewals team</a>. They'll get back to you within 2 days.</p>
+        <p><strong>Can a friend, family member or carer manage my policy on my behalf?</strong></p>
+        <p>If you're unwell or for any other reason need a trusted friend or family member to contact us about your policy, let us know and we'll arrange to add their details to your account.</p>
+        <p><strong>I'm a previous customer. Where can I find proof of my no claim discount?</strong></p>
+        <p>If you no longer have car insurance with us, the renewal notice in your renewal invitation will be proof of the number of years no claim discount earned by you.&nbsp;
+        </p>
+        <hr />
+        <br />
+        <h2>I've been furloughed or become unemployed as a result of the coronavirus situation. Should my policy be updated to reflect this change in occupation?</h2>
+        <p>If you're now on furlough, your car insurance is still valid. There's no need to contact us to update your policy. </p>
+        <p>If you&rsquo;ve been made unemployed, let us know <a href="~/link.aspx?_id=2119F64E76EA48B0BE8876C0A7D67369&amp;_z=z">using this form</a>. Your policy is still valid. When it's due for renewal, tell us if you're back in employment and we can update your policy.</p>
+        <hr />
+        <br />
+        <h2>Your insurance offers</h2>
+        <p><strong>I can't spend my retail shopping voucher at the moment</strong></p>
+        <p>If you've received a retail shopping voucher from us, we understand that spending it may be not be possible now. </p>
+        <p>Don't worry, we're giving you longer to spend it. The redemption period has been extended from 3 to 6 months from the date your policy renewed. </p>
+        <p><strong>Can I still collect my dash cam from Halfords?</strong></p>
+        <p>Yes. Halfords have reopened for click and collect orders. Use your AA dash cam redemption code via the link on your email and use the click and collect service.</p>
+        <p>For the safety of customers and staff, Halfords aren&rsquo;t currently offering a fitting service. If you want this service, keep your code and redeem your dash cam once the fitting service is available. Your dash cam code is valid for 12 months.</p>
+        <hr />
+        <p><strong>Find out how the AA is responding to the <a href="/about-us/coronavirus-covid-19">coronavirus situation</a>.</strong></p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200415T121346Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: "Your car insurance during coronavirus (COVID-19)"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200416T144156Z
+  - Version: 5
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200416T144554Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "749a64ef-7923-4778-84e9-4c7e1aa9cbe0"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "da51b027-35b0-4dab-a123-b37fbebc9eaf"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h2>Changes to our opening hours</h2>
+        <p>Some of the call centre times listed in our emails and letters have changed due to the coronavirus situation.&nbsp; </p>
+        <p>Because the lines are very busy, and to ensure we can offer the best service, we're constantly reviewing these times.</p>
+        <p>Currently, for quotes, policy queries and renewals our lines are open Monday to Friday 9am to 6 pm. And you can still report a claim anytime by calling us on <strong>0800 269 622</strong>.
+        </p>
+        <hr />
+        <br />
+        <h2>Claims and repairs</h2>
+        <p><strong>I need to make a claim</strong></p>
+        <p>Our claims team is operating as normal, and you can report your car insurance claim by calling us on <strong>0800 269 622</strong>.</p>
+        <p><strong>I've had an accident and my vehicle isn't drivable</strong></p>
+        <p>Don't worry, we'll recover your vehicle to a place of safety. If our local approved repairer is open, they'll book it in and provide an estimated completion date. </p>
+        <p>Due to parts availability, the repairs could take longer than usual.</p>
+        <p><strong>I've had an accident but my vehicle is drivable</strong></p>
+        <p>If our local approved repairer is open, they'll book it in for an estimate. If the repairer has capacity, they'll book it in for repairs and give you an estimated completion date. </p>
+        <p>Due to parts availability, the repairs could take longer than usual.</p>
+        <p><strong>Will I get a courtesy car while my vehicle is being repaired?</strong></p>
+        <p>We'll discuss your particular needs for mobility. However, courtesy cars and replacement hire vehicles might be in short supply and they'll be prioritised for key workers, in particular NHS and emergency services staff, as well as vulnerable customers.</p>
+        <p><strong>What if my vehicle is already with the approved repairer?</strong></p>
+        <p>The approved repairer will contact you about the status of your repair, and say when they can complete the work. </p>
+        <p>If your vehicle is driveable and the work has yet to start, we might have to return it to you and rebook when the repairer has the capacity.</p>
+        <p><strong>What if I've got the Car Hire policy?</strong></p>
+        <p>This additional cover provides you with a hire car if your vehicle is deemed a total loss. We'll endeavour to provide you with a car. </p>
+        <p>If you currently have a hire car, we'll liaise with you regarding its continued use if you're a key worker, even if this goes beyond the number of days the policy allows.</p>
+        <hr />
+        <br />
+        <h2> Drivers who have self-isolated</h2>
+        <p><strong>I have to self-isolate and need someone to drive my car to get essential supplies. Will they be insured?</strong></p>
+        <p>You've a choice of options if the helper has a valid driving licence.</p>
+        <p>If the person has <strong>Driving Other Cars</strong> cover on their car insurance, they can use your vehicle with your permission. However, they'll only have third-party cover, and Driving Other Cars cover is intended for short-term emergency use. </p>
+        <p>Or if you have comprehensive insurance, and want to ensure that damage is covered when someone else uses your car, call us on <strong>0370 533 2211</strong> to add them to your policy as a named driver.</p>
+        <p><strong>Can I pause my car insurance while I'm self-isolated?</strong></p>
+        <p>No, you can't pause your car insurance. It's a legal requirement to have valid car insurance unless you apply for a <a href="https://www.gov.uk/make-a-sorn" title="https://www.gov.uk/make-a-sorn">Statutory Off Road Notification.</a> If your car has a SORN and you want to cancel your insurance, call us on <strong>0370 533 2211</strong>. </p>
+        <p>Although you might not be driving your car, keeping it insured will cover you for theft and vandalism.</p>
+        <p><strong>Am I insured if I drive someone else's car?</strong></p>
+        <p>If you have Driving Other Cars cover on your certificate of insurance, then with the owner&rsquo;s permission you can drive their car. However you&rsquo;ll only have third-party cover, and Driving Other Cars cover is intended for short-term emergency use. More details about this benefit are in your <a href="~/link.aspx?_id=234F348F5D13407E8305BC33FF67F8AE&amp;_z=z">Car Insurance Policy Booklet</a>.</p>
+        <hr />
+        <br />
+        <h2> I must now drive to work instead of using public transport. Will my car insurance still be valid?</h2>
+        <p>If you need to drive to your workplace because of the coronavirus situation, your insurance policy will be valid. You don't need to contact us either to update your policy or extend your cover.</p>
+        <p>If you work in one of the critical sectors <a href="https://www.gov.uk/government/publications/coronavirus-covid-19-maintaining-educational-provision/guidance-for-schools-colleges-and-local-authorities-on-maintaining-educational-provision">listed by the government</a> and need to drive to different work locations because of the coronavirus situation, your cover won't be affected. You don't need to contact us.</p>
+        <hr />
+        <br />
+        <h2>What if I'm struggling to pay my monthly insurance payment?</h2>
+        <p>We're aware of the impact of the coronavirus situation on people's jobs and income. </p>
+        <p>If you're concerned about paying for your insurance, email us at <a href="mailto:instalments@theaa.com">instalments@theaa.com</a>, or call us  on <strong>0370 533 2211</strong> as soon as possible, and we'll try to help.</p>
+        <hr />
+        <br />
+        <h2>I drive for a voluntary organisation to help people who can't leave their homes. Is my insurance still valid?</h2>
+        <p>If you're using your car for voluntary purposes to transport medicines or groceries to help others impacted by coronavirus, your cover won't be affected. </p>
+        <p>In addition, if you've become an NHS Volunteer Responder your car will also be covered for community response, patient transport and NHS transport volunteering. </p>
+        <p>You don't need to contact us either to update your policy or extend your cover.</p>
+        <hr />
+        <br />
+        <h2>Am I still insured to drive if my car's MOT has expired?</h2>
+        <p><strong>MOT expiry date up to 29 March 2020 and you're not self-isolating</strong></p>
+        <p>If you're not self-isolating or extremely vulnerable to the coronavirus, you still need an MOT to make sure your vehicle meets road safety and environmental standards.</p>
+        <p>Accordingly, book your test at an MOT centre. These centres and garages are allowed to stay open.</p>
+        <p><strong>MOT expiry date from 30 March 2020 onwards</strong></p>
+        <p>Vehicle owners have been granted a 6-month exemption from MOT testing. This will enable them to continue to drive to work, where this can't be done from home, or shop for necessities. </p>
+        <p>All cars, vans and motorcycles whose MOT expiry date is 30 March 2020 or later will be exempt from a test for 6 months. </p>
+        <p>During the 6-month exemption you'll still be insured to drive your car, and we won't decline any claims for failure to have an MOT.</p>
+        <p>Meanwhile, your vehicle must be kept in a roadworthy condition, and garages will remain open for essential repair work. Drivers can still be prosecuted if they drive an unsafe vehicle. </p>
+        <hr />
+        <br />
+        <h2>My car insurance policy</h2>
+        <p><strong>Can you still send my policy documents?</strong></p>
+        <p>When buying your insurance, you could choose to receive your documents either by email or post. </p>
+        <p>If you chose email, you can <a href="https://auth.theaa.com/auth/XUI/">log in and view your documents here</a>. </p>
+        <p>If you chose documents by post, they won't also be available online. </p>
+        <p>Normally, they should arrive within 5 to 7 working days. Due to the coronavirus situation there may be postal delays, so please allow up to 14 working days. If there are delays we may send documents by email as well as post, plus text messages for anything important about your policy. </p>
+        <p>If you requested alternative format documents &ndash; large print, audio and braille &ndash; they'll now come separately from your standard pack. Again, allow up to 14 days for them to arrive.</p>
+        <p><strong>How can I renew my policy?</strong></p>
+        <p>We send you a renewal invitation at least 3 weeks before the policy is due for renewal. It tells you if your policy will renew automatically, or if you need to call to renew.</p>
+        <p>If you have automatic renewal in place &ndash; whether you pay monthly or by annual payment &ndash; and the cover still meets your needs, and your details are correct, then you don't need to do anything. </p>
+        <p>We'll send or email your renewal documents once your policy has renewed. </p>
+        <p>If you don't have automatic renewal, you'll need to call us on the number in your renewal invitation. Do bear with us, our phone lines are really busy.</p>
+        <p><strong>What if I have a question about my renewal?</strong></p>
+        <p>To discuss your renewal, you can call us on the number in your renewal invitation. </p>
+        <p>We can also help you by email. If your renewal date is more than 10 days away, send your query to our <a href="mailto:insurancerenewals@theaa.com">renewals team</a>. They'll get back to you within 2 days.</p>
+        <p><strong>Can a friend, family member or carer manage my policy on my behalf?</strong></p>
+        <p>If you're unwell or for any other reason need a trusted friend or family member to contact us about your policy, let us know and we'll arrange to add their details to your account.</p>
+        <p><strong>I'm a previous customer. Where can I find proof of my no claim discount?</strong></p>
+        <p>If you no longer have car insurance with us, the renewal notice in your renewal invitation will be proof of the number of years no claim discount earned by you.&nbsp;
+        </p>
+        <hr />
+        <br />
+        <h2>I've been furloughed or become unemployed as a result of the coronavirus situation. Should my policy be updated to reflect this change in occupation?</h2>
+        <p>If you're now on furlough, your car insurance is still valid. There's no need to contact us to update your policy. </p>
+        <p>If you&rsquo;ve been made unemployed, let us know <a href="~/link.aspx?_id=2119F64E76EA48B0BE8876C0A7D67369&amp;_z=z">using this form</a>. Your policy is still valid. When it's due for renewal, tell us if you're back in employment and we can update your policy.</p>
+        <hr />
+        <br />
+        <h2>Your insurance offers</h2>
+        <p><strong>I can't spend my retail shopping voucher at the moment</strong></p>
+        <p>If you've received a retail shopping voucher from us, we understand that spending it may be not be possible now. </p>
+        <p>Don't worry, we're giving you longer to spend it. The redemption period has been extended from 3 to 6 months from the date your policy renewed. </p>
+        <p><strong>Can I still collect my dash cam from Halfords?</strong></p>
+        <p>Yes. Halfords have reopened for click and collect orders. Use your AA dash cam redemption code via the link on your email and use the click and collect service.</p>
+        <p>For the safety of customers and staff, Halfords aren&rsquo;t currently offering a fitting service. If you want this service, keep your code and redeem your dash cam once the fitting service is available. Your dash cam code is valid for 12 months.</p>
+        <hr />
+        <p><strong>Find out how the AA is responding to the <a href="/about-us/coronavirus-covid-19">coronavirus situation</a>.</strong></p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200416T144554Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: "Your car insurance during coronavirus (COVID-19)"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200416T144611Z
+  - Version: 6
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200501T093034Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "749a64ef-7923-4778-84e9-4c7e1aa9cbe0"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f103e27d-581f-4c78-99a7-ac78ccd37127"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h2>Changes to our opening hours</h2>
+        <p>Some of the call centre times listed in our emails and letters have changed due to the coronavirus situation.&nbsp; </p>
+        <p>Because the lines are very busy, and to ensure we can offer the best service, we're constantly reviewing these times.</p>
+        <p>Currently, for quotes, policy queries and renewals our lines are open Monday to Friday 9am to 6 pm. And you can still report a claim anytime by calling us on <strong>0800 269 622</strong>.
+        </p>
+        <p>You can also contact us about a policy query by using our <a href="/help-support/cover-enquiries-email" data-di-id="di-id-f2e08177-a6cc510">online form</a>.</p>
+        <hr />
+        <br />
+        <h2>Claims and repairs</h2>
+        <p><strong>I need to make a claim</strong></p>
+        <p>Our claims team is operating as normal, and you can report your car insurance claim by calling us on <strong>0800 269 622</strong>.</p>
+        <p><strong>I've had an accident and my vehicle isn't drivable</strong></p>
+        <p>Don't worry, we'll recover your vehicle to a place of safety. If our local approved repairer is open, they'll book it in and provide an estimated completion date. </p>
+        <p>Due to parts availability, the repairs could take longer than usual.</p>
+        <p><strong>I've had an accident but my vehicle is drivable</strong></p>
+        <p>If our local approved repairer is open, they'll book it in for an estimate. If the repairer has capacity, they'll book it in for repairs and give you an estimated completion date. </p>
+        <p>Due to parts availability, the repairs could take longer than usual.</p>
+        <p><strong>Will I get a courtesy car while my vehicle is being repaired?</strong></p>
+        <p>We'll discuss your particular needs for mobility. However, courtesy cars and replacement hire vehicles might be in short supply and they'll be prioritised for key workers, in particular NHS and emergency services staff, as well as vulnerable customers.</p>
+        <p><strong>What if my vehicle is already with the approved repairer?</strong></p>
+        <p>The approved repairer will contact you about the status of your repair, and say when they can complete the work. </p>
+        <p>If your vehicle is driveable and the work has yet to start, we might have to return it to you and rebook when the repairer has the capacity.</p>
+        <p><strong>What if I've got the Car Hire policy?</strong></p>
+        <p>This additional cover provides you with a hire car if your vehicle is deemed a total loss. We'll endeavour to provide you with a car. </p>
+        <p>If you currently have a hire car, we'll liaise with you regarding its continued use if you're a key worker, even if this goes beyond the number of days the policy allows.</p>
+        <hr />
+        <br />
+        <h2> Drivers who have self-isolated</h2>
+        <p><strong>I have to self-isolate and need someone to drive my car to get essential supplies. Will they be insured?</strong></p>
+        <p>You've a choice of options if the helper has a valid driving licence.</p>
+        <p>If the person has <strong>Driving Other Cars</strong> cover on their car insurance, they can use your vehicle with your permission. However, they'll only have third-party cover, and Driving Other Cars cover is intended for short-term emergency use. </p>
+        <p>Or if you have comprehensive insurance, and want to ensure that damage is covered when someone else uses your car, call us on <strong>0370 533 2211</strong> to add them to your policy as a named driver.</p>
+        <p><strong>Can I pause my car insurance while I'm self-isolated?</strong></p>
+        <p>No, you can't pause your car insurance. It's a legal requirement to have valid car insurance unless you apply for a <a href="https://www.gov.uk/make-a-sorn" title="https://www.gov.uk/make-a-sorn">Statutory Off Road Notification.</a> If your car has a SORN and you want to cancel your insurance, call us on <strong>0370 533 2211</strong>. </p>
+        <p>Although you might not be driving your car, keeping it insured will cover you for theft and vandalism.</p>
+        <p><strong>Am I insured if I drive someone else's car?</strong></p>
+        <p>If you have Driving Other Cars cover on your certificate of insurance, then with the owner&rsquo;s permission you can drive their car. However you&rsquo;ll only have third-party cover, and Driving Other Cars cover is intended for short-term emergency use. More details about this benefit are in your <a href="~/link.aspx?_id=234F348F5D13407E8305BC33FF67F8AE&amp;_z=z">Car Insurance Policy Booklet</a>.</p>
+        <hr />
+        <br />
+        <h2> I must now drive to work instead of using public transport. Will my car insurance still be valid?</h2>
+        <p>If you need to drive to your workplace because of the coronavirus situation, your insurance policy will be valid. You don't need to contact us either to update your policy or extend your cover.</p>
+        <p>If you work in one of the critical sectors <a href="https://www.gov.uk/government/publications/coronavirus-covid-19-maintaining-educational-provision/guidance-for-schools-colleges-and-local-authorities-on-maintaining-educational-provision">listed by the government</a> and need to drive to different work locations because of the coronavirus situation, your cover won't be affected. You don't need to contact us.</p>
+        <hr />
+        <br />
+        <h2>What if I'm struggling to pay my monthly insurance payment?</h2>
+        <p>We're aware of the impact of the coronavirus situation on people's jobs and income. </p>
+        <p>If you're concerned about paying for your insurance, email us at <a href="mailto:instalments@theaa.com">instalments@theaa.com</a>, or call us  on <strong>0370 533 2211</strong> as soon as possible, and we'll try to help.</p>
+        <hr />
+        <br />
+        <h2>I drive for a voluntary organisation to help people who can't leave their homes. Is my insurance still valid?</h2>
+        <p>If you're using your car for voluntary purposes to transport medicines or groceries to help others impacted by coronavirus, your cover won't be affected. </p>
+        <p>In addition, if you've become an NHS Volunteer Responder your car will also be covered for community response, patient transport and NHS transport volunteering. </p>
+        <p>You don't need to contact us either to update your policy or extend your cover.</p>
+        <hr />
+        <br />
+        <h2>Am I still insured to drive if my car's MOT has expired?</h2>
+        <p><strong>MOT expiry date up to 29 March 2020 and you're not self-isolating</strong></p>
+        <p>If you're not self-isolating or extremely vulnerable to the coronavirus, you still need an MOT to make sure your vehicle meets road safety and environmental standards.</p>
+        <p>Accordingly, book your test at an MOT centre. These centres and garages are allowed to stay open.</p>
+        <p><strong>MOT expiry date from 30 March 2020 onwards</strong></p>
+        <p>Vehicle owners have been granted a 6-month exemption from MOT testing. This will enable them to continue to drive to work, where this can't be done from home, or shop for necessities. </p>
+        <p>All cars, vans and motorcycles whose MOT expiry date is 30 March 2020 or later will be exempt from a test for 6 months. </p>
+        <p>During the 6-month exemption you'll still be insured to drive your car, and we won't decline any claims for failure to have an MOT.</p>
+        <p>Meanwhile, your vehicle must be kept in a roadworthy condition, and garages will remain open for essential repair work. Drivers can still be prosecuted if they drive an unsafe vehicle. </p>
+        <hr />
+        <br />
+        <h2>My car insurance policy</h2>
+        <p><strong>Can you still send my policy documents?</strong></p>
+        <p>When buying your insurance, you could choose to receive your documents either by email or post. </p>
+        <p>If you chose email, you can <a href="https://auth.theaa.com/auth/XUI/">log in and view your documents here</a>. </p>
+        <p>If you chose documents by post, they won't also be available online. </p>
+        <p>Normally, they should arrive within 5 to 7 working days. Due to the coronavirus situation there may be postal delays, so please allow up to 14 working days. If there are delays we may send documents by email as well as post, plus text messages for anything important about your policy. </p>
+        <p>If you requested alternative format documents &ndash; large print, audio and braille &ndash; they'll now come separately from your standard pack. Again, allow up to 14 days for them to arrive.</p>
+        <p><strong>How can I renew my policy?</strong></p>
+        <p>We send you a renewal invitation at least 3 weeks before the policy is due for renewal. It tells you if your policy will renew automatically, or if you need to call to renew.</p>
+        <p>If you have automatic renewal in place &ndash; whether you pay monthly or by annual payment &ndash; and the cover still meets your needs, and your details are correct, then you don't need to do anything. </p>
+        <p>We'll send or email your renewal documents once your policy has renewed. </p>
+        <p>If you don't have automatic renewal, you'll need to call us on the number in your renewal invitation. Do bear with us, our phone lines are really busy.</p>
+        <p><strong>What if I have a question about my renewal?</strong></p>
+        <p>To discuss your renewal, you can call us on the number in your renewal invitation. </p>
+        <p>We can also help you by email. If your renewal date is more than 10 days away, send your query to our <a href="mailto:insurancerenewals@theaa.com">renewals team</a>. They'll get back to you within 2 days.</p>
+        <p><strong>Can a friend, family member or carer manage my policy on my behalf?</strong></p>
+        <p>If you're unwell or for any other reason need a trusted friend or family member to contact us about your policy, let us know and we'll arrange to add their details to your account.</p>
+        <p><strong>I'm a previous customer. Where can I find proof of my no claim discount?</strong></p>
+        <p>If you no longer have car insurance with us, the renewal notice in your renewal invitation will be proof of the number of years no claim discount earned by you.&nbsp;
+        </p>
+        <hr />
+        <br />
+        <h2>I've been furloughed or become unemployed as a result of the coronavirus situation. Should my policy be updated to reflect this change in occupation?</h2>
+        <p>If you're now on furlough, your car insurance is still valid. There's no need to contact us to update your policy. </p>
+        <p>If you&rsquo;ve been made unemployed, let us know <a href="~/link.aspx?_id=2119F64E76EA48B0BE8876C0A7D67369&amp;_z=z">using this form</a>. Your policy is still valid. When it's due for renewal, tell us if you're back in employment and we can update your policy.</p>
+        <hr />
+        <br />
+        <h2>Your insurance offers</h2>
+        <p><strong>I can't spend my retail shopping voucher at the moment</strong></p>
+        <p>If you've received a retail shopping voucher from us, we understand that spending it may be not be possible now. </p>
+        <p>Don't worry, we're giving you longer to spend it. The redemption period has been extended from 3 to 6 months from the date your policy renewed. </p>
+        <p><strong>Can I still collect my dash cam from Halfords?</strong></p>
+        <p>Yes. Halfords have reopened for click and collect orders. Use your AA dash cam redemption code via the link on your email and use the click and collect service.</p>
+        <p>For the safety of customers and staff, Halfords aren&rsquo;t currently offering a fitting service. If you want this service, keep your code and redeem your dash cam once the fitting service is available. Your dash cam code is valid for 12 months.</p>
+        <hr />
+        <p><strong>Find out how the AA is responding to the <a href="/about-us/coronavirus-covid-19">coronavirus situation</a>.</strong></p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200501T093034Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: "Your car insurance during coronavirus (COVID-19)"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200501T093407Z
+  - Version: 7
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200506T080346Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "749a64ef-7923-4778-84e9-4c7e1aa9cbe0"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3054d14e-46df-47e6-8f09-fc3eca5bcff4"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h2>Changes to our opening hours</h2>
+        <p>Some of the call centre times listed in our emails and letters have changed due to the coronavirus situation.&nbsp; </p>
+        <p>Because the lines are very busy, and to ensure we can offer the best service, we're constantly reviewing these times.</p>
+        <p>Currently, for quotes, policy queries and renewals our lines are open Monday to Friday 9am to 6 pm. And you can still report a claim anytime by calling us on <strong>0800 269 622</strong>.
+        </p>
+        <p>You can also contact us about a policy query by using our <a href="/car-insurance/already-with-us#policy-query">online form</a>.</p>
+        <hr />
+        <br />
+        <h2>Help for drivers during the coronavirus crisis</h2>
+        <p><strong>I'm struggling to pay my monthly insurance payment</strong></p>
+        <p>We're aware of the impact of the coronavirus crisis on people's jobs and income, and have a range of options to support you.</p>
+        <p>If you're concerned about paying for your insurance, email us at <a href="mailto:instalments@theaa.com">instalments@theaa.com</a>, or call us  on <strong>0370 533 2211</strong> as soon as possible, and we'll try to help.</p>
+        <p><strong>I want to alter or cancel my policy &ndash; do you charge a fee?</strong></p>
+        <p>No, we won't charge you a fee to change or cancel your policy during May. </p>
+        <p>As a responsible broker we're doing as much as we can to support our customers in these difficult times, so we've suspended the usual adjustment and cancellation fees. </p>
+        <p>If you need to make a change or cancel your policy, call us on <strong>0370 533 2211</strong>.</p>
+        <p>Or you can request a change by using our <a href="/car-insurance/already-with-us#policy-query">online form</a>.</p>
+        <p><strong>I've been furloughed or become unemployed as a result of the coronavirus situation. Should my policy be updated to reflect this change in occupation?</strong></p>
+        <p>If you're now on furlough, your car insurance is still valid. There's no need to contact us to update your policy. </p>
+        <p>If you've been made unemployed, let us know <a href="~/link.aspx?_id=2119F64E76EA48B0BE8876C0A7D67369&amp;_z=z">using this form</a>. Your policy is still valid. When it's due for renewal, tell us if you're back in employment and we can update your policy.</p>
+        <hr />
+        <br />
+        <h2>My car insurance policy</h2>
+        <p><strong>Can you still send my policy documents?</strong></p>
+        <p>When buying your insurance, you could choose to receive your documents either by email or post. </p>
+        <p>If you chose email, you can <a href="https://auth.theaa.com/auth/XUI/">log in and view your documents here</a>. </p>
+        <p>If you chose documents by post, they won't also be available online. </p>
+        <p>Normally, they should arrive within 5 to 7 working days. Due to the coronavirus situation there may be postal delays, so please allow up to 14 working days. If there are delays we may send documents by email as well as post, plus text messages for anything important about your policy. </p>
+        <p>If you requested alternative format documents &ndash; large print, audio and braille &ndash; they'll now come separately from your standard pack. Again, allow up to 14 days for them to arrive.</p>
+        <p><strong>How can I renew my policy?</strong></p>
+        <p>We send you a renewal invitation at least 3 weeks before the policy is due for renewal. It tells you if your policy will renew automatically, or if you need to call to renew.</p>
+        <p>If you have automatic renewal in place &ndash; whether you pay monthly or by annual payment &ndash; and the cover still meets your needs, and your details are correct, then you don't need to do anything. </p>
+        <p>We'll send or email your renewal documents once your policy has renewed. </p>
+        <p>If you don't have automatic renewal, you'll need to call us on the number in your renewal invitation. Do bear with us, our phone lines are really busy.</p>
+        <p><strong>What if I have a question about my renewal?</strong></p>
+        <p>To discuss your renewal, you can call us on the number in your renewal invitation. </p>
+        <p>We can also help you by email. If your renewal date is more than 10 days away, send your query to our <a href="mailto:insurancerenewals@theaa.com">renewals team</a>. They'll get back to you within 2 days.</p>
+        <p><strong>Can a friend, family member or carer manage my policy on my behalf?</strong></p>
+        <p>If you're unwell or for any other reason need a trusted friend or family member to contact us about your policy, let us know and we'll arrange to add their details to your account.</p>
+        <p><strong>I'm a previous customer. Where can I find proof of my no claim discount?</strong></p>
+        <p>If you no longer have car insurance with us, the renewal notice in your renewal invitation will be proof of the number of years no claim discount earned by you.</p>
+        <hr />
+        <br />
+        <h2>Claims and repairs</h2>
+        <p><strong>I need to make a claim</strong></p>
+        <p>Our claims team is operating as normal, and you can report your car insurance claim by calling us on <strong>0800 269 622</strong>.</p>
+        <p><strong>I've had an accident and my vehicle isn't drivable</strong></p>
+        <p>Don't worry, we'll recover your vehicle to a place of safety. If our local approved repairer is open, they'll book it in and provide an estimated completion date. </p>
+        <p>Due to parts availability, the repairs could take longer than usual.</p>
+        <p><strong>I've had an accident but my vehicle is drivable</strong></p>
+        <p>If our local approved repairer is open, they'll book it in for an estimate. If the repairer has capacity, they'll book it in for repairs and give you an estimated completion date. </p>
+        <p>Due to parts availability, the repairs could take longer than usual.</p>
+        <p><strong>Will I get a courtesy car while my vehicle is being repaired?</strong></p>
+        <p>We'll discuss your particular needs for mobility. However, courtesy cars and replacement hire vehicles might be in short supply and they'll be prioritised for key workers, in particular NHS and emergency services staff, as well as vulnerable customers.</p>
+        <p><strong>What if my vehicle is already with the approved repairer?</strong></p>
+        <p>The approved repairer will contact you about the status of your repair, and say when they can complete the work. </p>
+        <p>If your vehicle is driveable and the work has yet to start, we might have to return it to you and rebook when the repairer has the capacity.</p>
+        <p><strong>What if I've got the Car Hire policy?</strong></p>
+        <p>This additional cover provides you with a hire car if your vehicle is deemed a total loss. We'll endeavour to provide you with a car. </p>
+        <p>If you currently have a hire car, we'll liaise with you regarding its continued use if you're a key worker, even if this goes beyond the number of days the policy allows.</p>
+        <hr />
+        <br />
+        <h2> Drivers who have self-isolated</h2>
+        <p><strong>I have to self-isolate and need someone to drive my car to get essential supplies. Will they be insured?</strong></p>
+        <p>You've a choice of options if the helper has a valid driving licence.</p>
+        <p>If the person has <strong>Driving Other Cars</strong> cover on their car insurance, they can use your vehicle with your permission. However, they'll only have third-party cover, and Driving Other Cars cover is intended for short-term emergency use. </p>
+        <p>Or if you have comprehensive insurance, and want to ensure that damage is covered when someone else uses your car, call us on <strong>0370 533 2211</strong> to add them to your policy as a named driver.</p>
+        <p><strong>Can I pause my car insurance while I'm self-isolated?</strong></p>
+        <p>No, you can't pause your car insurance. It's a legal requirement to have valid car insurance unless you apply for a <a href="https://www.gov.uk/make-a-sorn" title="https://www.gov.uk/make-a-sorn">Statutory Off Road Notification.</a> If your car has a SORN and you want to cancel your insurance, call us on <strong>0370 533 2211</strong>. </p>
+        <p>Although you might not be driving your car, keeping it insured will cover you for theft and vandalism.</p>
+        <p><strong>Am I insured if I drive someone else's car?</strong></p>
+        <p>If you have Driving Other Cars cover on your certificate of insurance, then with the owner&rsquo;s permission you can drive their car. However you&rsquo;ll only have third-party cover, and Driving Other Cars cover is intended for short-term emergency use. More details about this benefit are in your <a href="~/link.aspx?_id=234F348F5D13407E8305BC33FF67F8AE&amp;_z=z">Car Insurance Policy Booklet</a>.</p>
+        <hr />
+        <br />
+        <h2> I must now drive to work instead of using public transport. Will my car insurance still be valid?</h2>
+        <p>If you need to drive to your workplace because of the coronavirus situation, your insurance policy will be valid. You don't need to contact us either to update your policy or extend your cover.</p>
+        <p>If you work in one of the critical sectors <a href="https://www.gov.uk/government/publications/coronavirus-covid-19-maintaining-educational-provision/guidance-for-schools-colleges-and-local-authorities-on-maintaining-educational-provision">listed by the government</a> and need to drive to different work locations because of the coronavirus situation, your cover won't be affected. You don't need to contact us.</p>
+        <hr />
+        <br />
+        <h2>I drive for a voluntary organisation to help people who can't leave their homes. Is my insurance still valid?</h2>
+        <p>If you're using your car for voluntary purposes to transport medicines or groceries to help others impacted by coronavirus, your cover won't be affected. </p>
+        <p>In addition, if you've become an NHS Volunteer Responder your car will also be covered for community response, patient transport and NHS transport volunteering. </p>
+        <p>You don't need to contact us either to update your policy or extend your cover.</p>
+        <hr />
+        <br />
+        <h2>Am I still insured to drive if my car's MOT has expired?</h2>
+        <p><strong>MOT expiry date up to 29 March 2020 and you're not self-isolating</strong></p>
+        <p>If you're not self-isolating or extremely vulnerable to the coronavirus, you still need an MOT to make sure your vehicle meets road safety and environmental standards.</p>
+        <p>Accordingly, book your test at an MOT centre. These centres and garages are allowed to stay open.</p>
+        <p><strong>MOT expiry date from 30 March 2020 onwards</strong></p>
+        <p>Vehicle owners have been granted a 6-month exemption from MOT testing. This will enable them to continue to drive to work, where this can't be done from home, or shop for necessities. </p>
+        <p>All cars, vans and motorcycles whose MOT expiry date is 30 March 2020 or later will be exempt from a test for 6 months. </p>
+        <p>During the 6-month exemption you'll still be insured to drive your car, and we won't decline any claims for failure to have an MOT.</p>
+        <p>Meanwhile, your vehicle must be kept in a roadworthy condition, and garages will remain open for essential repair work. Drivers can still be prosecuted if they drive an unsafe vehicle. </p>
+        <hr />
+        <br />
+        <h2>Your insurance offers</h2>
+        <p><strong>I can't spend my retail shopping voucher at the moment</strong></p>
+        <p>If you've received a retail shopping voucher from us, we understand that spending it may be not be possible now. </p>
+        <p>Don't worry, we're giving you longer to spend it. The redemption period has been extended from 3 to 6 months from the date your policy renewed. </p>
+        <p><strong>Can I still collect my dash cam from Halfords?</strong></p>
+        <p>Yes. Halfords have reopened for click and collect orders. Use your AA dash cam redemption code via the link on your email and use the click and collect service.</p>
+        <p>For the safety of customers and staff, Halfords aren&rsquo;t currently offering a fitting service. If you want this service, keep your code and redeem your dash cam once the fitting service is available. Your dash cam code is valid for 12 months.</p>
+        <hr />
+        <p><strong>Find out how the AA is responding to the <a href="/about-us/coronavirus-covid-19">coronavirus situation</a>.</strong></p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200506T080346Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: "Your car insurance during coronavirus (COVID-19)"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200511T144906Z
+  - Version: 8
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200521T104232Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "749a64ef-7923-4778-84e9-4c7e1aa9cbe0"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c1bd7f15-b316-4f3c-acfc-4f44bcfb81c8"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h2>Changes to our opening hours</h2>
+        <p>Some of the call centre times listed in our emails and letters have changed due to the coronavirus situation.</p>
+        <p>Because the lines are very busy, and to ensure we can offer the best service, we're constantly reviewing these times.</p>
+        <p>For quotes, policy queries and renewals you can find our <a href="#times">current times below</a>. And you can still report a claim anytime by calling us on <strong>0800 269 622</strong>.
+        </p>
+        <p>You can also contact us about a policy query by using our <a href="/car-insurance/already-with-us#policy-query">online form</a>.</p>
+        <hr />
+        <br />
+        <h2>Help for drivers during the coronavirus crisis</h2>
+        <p><strong>I'm struggling to pay my monthly insurance payment</strong></p>
+        <p>We're aware of the impact of the coronavirus crisis on people's jobs and income, and have a range of options to support you.</p>
+        <p>If you're concerned about paying for your insurance, email us at <a href="mailto:instalments@theaa.com">instalments@theaa.com</a>, or call us  on <strong>0370 533 2211</strong> as soon as possible, and we'll try to help.</p>
+        <p><strong>I want to alter or cancel my policy &ndash; do you charge a fee?</strong></p>
+        <p>No, we won't charge you a fee to change or cancel your policy during May. </p>
+        <p>As a responsible broker we're doing as much as we can to support our customers in these difficult times, so we've suspended the usual adjustment and cancellation fees. </p>
+        <p>If you need to make a change or cancel your policy, call us on <strong>0370 533 2211</strong>.</p>
+        <p>Or you can request a change by using our <a href="/car-insurance/already-with-us#policy-query">online form</a>.</p>
+        <p><strong>I've been furloughed or become unemployed as a result of the coronavirus situation. Should my policy be updated to reflect this change in occupation?</strong></p>
+        <p>If you're now on furlough, your car insurance is still valid. There's no need to contact us to update your policy. </p>
+        <p>If you've been made unemployed, let us know <a href="~/link.aspx?_id=2119F64E76EA48B0BE8876C0A7D67369&amp;_z=z">using this form</a>. Your policy is still valid. When it's due for renewal, tell us if you're back in employment and we can update your policy.</p>
+        <hr />
+        <br />
+        <h2>My car insurance policy</h2>
+        <p><strong>Can you still send my policy documents?</strong></p>
+        <p>When buying your insurance, you could choose to receive your documents either by email or post. </p>
+        <p>If you chose email, you can <a href="https://auth.theaa.com/auth/XUI/">log in and view your documents here</a>. </p>
+        <p>If you chose documents by post, they won't also be available online. </p>
+        <p>Normally, they should arrive within 5 to 7 working days. Due to the coronavirus situation there may be postal delays, so please allow up to 14 working days. If there are delays we may send documents by email as well as post, plus text messages for anything important about your policy. </p>
+        <p>If you requested alternative format documents &ndash; large print, audio and braille &ndash; they'll now come separately from your standard pack. Again, allow up to 14 days for them to arrive.</p>
+        <p><strong>How can I renew my policy?</strong></p>
+        <p>We send you a renewal invitation at least 3 weeks before the policy is due for renewal. It tells you if your policy will renew automatically, or if you need to call to renew.</p>
+        <p>If you have automatic renewal in place &ndash; whether you pay monthly or by annual payment &ndash; and the cover still meets your needs, and your details are correct, then you don't need to do anything. </p>
+        <p>We'll send or email your renewal documents once your policy has renewed. </p>
+        <p>If you don't have automatic renewal, you'll need to call us on the number in your renewal invitation. Do bear with us, our phone lines are really busy.</p>
+        <p><strong>What if I have a question about my renewal?</strong></p>
+        <p>To discuss your renewal, you can call us on the number in your renewal invitation. </p>
+        <p>We can also help you by email. If your renewal date is more than 10 days away, send your query to our <a href="mailto:insurancerenewals@theaa.com">renewals team</a>. They'll get back to you within 2 days.</p>
+        <p><strong>Can a friend, family member or carer manage my policy on my behalf?</strong></p>
+        <p>If you're unwell or for any other reason need a trusted friend or family member to contact us about your policy, let us know and we'll arrange to add their details to your account.</p>
+        <p><strong>I'm a previous customer. Where can I find proof of my no claim discount?</strong></p>
+        <p>If you no longer have car insurance with us, the renewal notice in your renewal invitation will be proof of the number of years no claim discount earned by you.</p>
+        <hr />
+        <br />
+        <h2>Claims and repairs</h2>
+        <p><strong>I need to make a claim</strong></p>
+        <p>Our claims team is operating as normal, and you can report your car insurance claim by calling us on <strong>0800 269 622</strong>.</p>
+        <p><strong>I've had an accident and my vehicle isn't drivable</strong></p>
+        <p>Don't worry, we'll recover your vehicle to a place of safety. If our local approved repairer is open, they'll book it in and provide an estimated completion date. </p>
+        <p>Due to parts availability, the repairs could take longer than usual.</p>
+        <p><strong>I've had an accident but my vehicle is drivable</strong></p>
+        <p>If our local approved repairer is open, they'll book it in for an estimate. If the repairer has capacity, they'll book it in for repairs and give you an estimated completion date. </p>
+        <p>Due to parts availability, the repairs could take longer than usual.</p>
+        <p><strong>Will I get a courtesy car while my vehicle is being repaired?</strong></p>
+        <p>We'll discuss your particular needs for mobility. However, courtesy cars and replacement hire vehicles might be in short supply and they'll be prioritised for key workers, in particular NHS and emergency services staff, as well as vulnerable customers.</p>
+        <p><strong>What if my vehicle is already with the approved repairer?</strong></p>
+        <p>The approved repairer will contact you about the status of your repair, and say when they can complete the work. </p>
+        <p>If your vehicle is driveable and the work has yet to start, we might have to return it to you and rebook when the repairer has the capacity.</p>
+        <p><strong>What if I've got the Car Hire policy?</strong></p>
+        <p>This additional cover provides you with a hire car if your vehicle is deemed a total loss. We'll endeavour to provide you with a car. </p>
+        <p>If you currently have a hire car, we'll liaise with you regarding its continued use if you're a key worker, even if this goes beyond the number of days the policy allows.</p>
+        <hr />
+        <br />
+        <h2> Drivers who have self-isolated</h2>
+        <p><strong>I have to self-isolate and need someone to drive my car to get essential supplies. Will they be insured?</strong></p>
+        <p>You've a choice of options if the helper has a valid driving licence.</p>
+        <p>If the person has <strong>Driving Other Cars</strong> cover on their car insurance, they can use your vehicle with your permission. However, they'll only have third-party cover, and Driving Other Cars cover is intended for short-term emergency use. </p>
+        <p>Or if you have comprehensive insurance, and want to ensure that damage is covered when someone else uses your car, call us on <strong>0370 533 2211</strong> to add them to your policy as a named driver.</p>
+        <p><strong>Can I pause my car insurance while I'm self-isolated?</strong></p>
+        <p>No, you can't pause your car insurance. It's a legal requirement to have valid car insurance unless you apply for a <a href="https://www.gov.uk/make-a-sorn" title="https://www.gov.uk/make-a-sorn">Statutory Off Road Notification.</a> If your car has a SORN and you want to cancel your insurance, call us on <strong>0370 533 2211</strong>. </p>
+        <p>Although you might not be driving your car, keeping it insured will cover you for theft and vandalism.</p>
+        <p><strong>Am I insured if I drive someone else's car?</strong></p>
+        <p>If you have Driving Other Cars cover on your certificate of insurance, then with the owner&rsquo;s permission you can drive their car. However you&rsquo;ll only have third-party cover, and Driving Other Cars cover is intended for short-term emergency use. More details about this benefit are in your <a href="~/link.aspx?_id=234F348F5D13407E8305BC33FF67F8AE&amp;_z=z">Car Insurance Policy Booklet</a>.</p>
+        <hr />
+        <br />
+        <h2> I must now drive to work instead of using public transport. Will my car insurance still be valid?</h2>
+        <p>If you need to drive to your workplace because of the coronavirus situation, your insurance policy will be valid. You don't need to contact us either to update your policy or extend your cover.</p>
+        <p>If you work in one of the critical sectors <a href="https://www.gov.uk/government/publications/coronavirus-covid-19-maintaining-educational-provision/guidance-for-schools-colleges-and-local-authorities-on-maintaining-educational-provision">listed by the government</a> and need to drive to different work locations because of the coronavirus situation, your cover won't be affected. You don't need to contact us.</p>
+        <hr />
+        <br />
+        <h2>I drive for a voluntary organisation to help people who can't leave their homes. Is my insurance still valid?</h2>
+        <p>If you're using your car for voluntary purposes to transport medicines or groceries to help others impacted by coronavirus, your cover won't be affected. </p>
+        <p>In addition, if you've become an NHS Volunteer Responder your car will also be covered for community response, patient transport and NHS transport volunteering. </p>
+        <p>You don't need to contact us either to update your policy or extend your cover.</p>
+        <hr />
+        <br />
+        <h2>Am I still insured to drive if my car's MOT has expired?</h2>
+        <p><strong>MOT expiry date up to 29 March 2020 and you're not self-isolating</strong></p>
+        <p>If you're not self-isolating or extremely vulnerable to the coronavirus, you still need an MOT to make sure your vehicle meets road safety and environmental standards.</p>
+        <p>Accordingly, book your test at an MOT centre. These centres and garages are allowed to stay open.</p>
+        <p><strong>MOT expiry date from 30 March 2020 onwards</strong></p>
+        <p>Vehicle owners have been granted a 6-month exemption from MOT testing. This will enable them to continue to drive to work, where this can't be done from home, or shop for necessities. </p>
+        <p>All cars, vans and motorcycles whose MOT expiry date is 30 March 2020 or later will be exempt from a test for 6 months. </p>
+        <p>During the 6-month exemption you'll still be insured to drive your car, and we won't decline any claims for failure to have an MOT.</p>
+        <p>Meanwhile, your vehicle must be kept in a roadworthy condition, and garages will remain open for essential repair work. Drivers can still be prosecuted if they drive an unsafe vehicle. </p>
+        <hr />
+        <br />
+        <h2>Your insurance offers</h2>
+        <p><strong>I can't spend my retail shopping voucher at the moment</strong></p>
+        <p>If you've received a retail shopping voucher from us, we understand that spending it may be not be possible now. </p>
+        <p>Don't worry, we're giving you longer to spend it. The redemption period has been extended from 3 to 6 months from the date your policy renewed. </p>
+        <p><strong>Can I still collect my dash cam from Halfords?</strong></p>
+        <p>Yes. Halfords have reopened for click and collect orders. Use your AA dash cam redemption code via the link on your email and use the click and collect service.</p>
+        <p>For the safety of customers and staff, Halfords aren&rsquo;t currently offering a fitting service. If you want this service, keep your code and redeem your dash cam once the fitting service is available. Your dash cam code is valid for 12 months.</p>
+        <hr />
+        <p><strong>Find out how the AA is responding to the <a href="/about-us/coronavirus-covid-19">coronavirus situation</a>.</strong></p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200521T104232Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: "Your car insurance during coronavirus (COVID-19)"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200521T104844Z
+  - Version: 9
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200615T093353Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "749a64ef-7923-4778-84e9-4c7e1aa9cbe0"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "46c90270-f819-4cb4-acba-36e54dc67768"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h2>Changes to our opening hours</h2>
+        <p>Some of the call centre times listed in our emails and letters have changed due to the coronavirus situation.</p>
+        <p>Because the lines are very busy, and to ensure we can offer the best service, we're constantly reviewing these times.</p>
+        <p>For quotes, policy queries and renewals you can find our <a href="#times">current times below</a>. And you can still report a claim anytime by calling us on <strong>0800 269 622</strong>.
+        </p>
+        <p>You can also contact us about a policy query by using our <a href="/car-insurance/already-with-us#policy-query">online form</a>.</p>
+        <hr />
+        <br />
+        <h2>Help for drivers during the coronavirus crisis</h2>
+        <p><strong>I'm struggling to pay my monthly insurance payment</strong></p>
+        <p>We're aware of the impact of the coronavirus crisis on people's jobs and income, and have a range of options to support you.</p>
+        <p>If you're concerned about paying for your insurance, email us at <a href="mailto:instalments@theaa.com">instalments@theaa.com</a>, or call us  on <strong>0370 533 2211</strong> as soon as possible, and we'll try to help.</p>
+        <p><strong>I need to alter or cancel my policy &ndash; do you charge a fee?</strong></p>
+        <p>While there's usually a fee to change or cancel your policy, as a responsible broker we&rsquo;re supporting our customers as much as we can in these difficult times. So if you need to make a change or cancel your policy as a result of the coronavirus situation, we'll waive our usual adjustment and cancellation fees.
+        </p>
+        <p>You can call us on <strong>0370 533 221, </strong>or you can request a change by using our <a href="/car-insurance/already-with-us#policy-query">online form</a>.
+        </p>
+        <p><strong>I've been furloughed or become unemployed as a result of the coronavirus situation. Should my policy be updated to reflect this change in occupation?</strong></p>
+        <p>If you're now on furlough, your car insurance is still valid. There's no need to contact us to update your policy. </p>
+        <p>If you've been made unemployed, let us know <a href="~/link.aspx?_id=2119F64E76EA48B0BE8876C0A7D67369&amp;_z=z">using this form</a>. Your policy is still valid. When it's due for renewal, tell us if you're back in employment and we can update your policy.</p>
+        <hr />
+        <br />
+        <h2>My car insurance policy</h2>
+        <p><strong>Can you still send my policy documents?</strong></p>
+        <p>When buying your insurance, you could choose to receive your documents either by email or post. </p>
+        <p>If you chose email, you can <a href="https://auth.theaa.com/auth/XUI/">log in and view your documents here</a>. </p>
+        <p>If you chose documents by post, they won't also be available online. </p>
+        <p>Normally, they should arrive within 5 to 7 working days. Due to the coronavirus situation there may be postal delays, so please allow up to 14 working days. If there are delays we may send documents by email as well as post, plus text messages for anything important about your policy. </p>
+        <p>If you requested alternative format documents &ndash; large print, audio and braille &ndash; they'll now come separately from your standard pack. Again, allow up to 14 days for them to arrive.</p>
+        <p><strong>How can I renew my policy?</strong></p>
+        <p>We send you a renewal invitation at least 3 weeks before the policy is due for renewal. It tells you if your policy will renew automatically, or if you need to call to renew.</p>
+        <p>If you have automatic renewal in place &ndash; whether you pay monthly or by annual payment &ndash; and the cover still meets your needs, and your details are correct, then you don't need to do anything. </p>
+        <p>We'll send or email your renewal documents once your policy has renewed. </p>
+        <p>If you don't have automatic renewal, you'll need to call us on the number in your renewal invitation. Do bear with us, our phone lines are really busy.</p>
+        <p><strong>What if I have a question about my renewal?</strong></p>
+        <p>To discuss your renewal, you can call us on the number in your renewal invitation. </p>
+        <p>We can also help you by email. If your renewal date is more than 10 days away, send your query to our <a href="mailto:insurancerenewals@theaa.com">renewals team</a>. They'll get back to you within 2 days.</p>
+        <p><strong>Can a friend, family member or carer manage my policy on my behalf?</strong></p>
+        <p>If you're unwell or for any other reason need a trusted friend or family member to contact us about your policy, let us know and we'll arrange to add their details to your account.</p>
+        <p><strong>I'm a previous customer. Where can I find proof of my no claim discount?</strong></p>
+        <p>If you no longer have car insurance with us, the renewal notice in your renewal invitation will be proof of the number of years no claim discount earned by you.</p>
+        <hr />
+        <br />
+        <h2>Claims and repairs</h2>
+        <p><strong>I need to make a claim</strong></p>
+        <p>Our claims team is operating as normal, and you can report your car insurance claim by calling us on <strong>0800 269 622</strong>.</p>
+        <p><strong>I've had an accident and my vehicle isn't drivable</strong></p>
+        <p>Don't worry, we'll recover your vehicle to a place of safety. If our local approved repairer is open, they'll book it in and provide an estimated completion date. </p>
+        <p>Due to parts availability, the repairs could take longer than usual.</p>
+        <p><strong>I've had an accident but my vehicle is drivable</strong></p>
+        <p>If our local approved repairer is open, they'll book it in for an estimate. If the repairer has capacity, they'll book it in for repairs and give you an estimated completion date. </p>
+        <p>Due to parts availability, the repairs could take longer than usual.</p>
+        <p><strong>Will I get a courtesy car while my vehicle is being repaired?</strong></p>
+        <p>We'll discuss your particular needs for mobility. However, courtesy cars and replacement hire vehicles might be in short supply and they'll be prioritised for key workers, in particular NHS and emergency services staff, as well as vulnerable customers.</p>
+        <p><strong>What if my vehicle is already with the approved repairer?</strong></p>
+        <p>The approved repairer will contact you about the status of your repair, and say when they can complete the work. </p>
+        <p>If your vehicle is driveable and the work has yet to start, we might have to return it to you and rebook when the repairer has the capacity.</p>
+        <p><strong>What if I've got the Car Hire policy?</strong></p>
+        <p>This additional cover provides you with a hire car if your vehicle is deemed a total loss. We'll endeavour to provide you with a car. </p>
+        <p>If you currently have a hire car, we'll liaise with you regarding its continued use if you're a key worker, even if this goes beyond the number of days the policy allows.</p>
+        <hr />
+        <br />
+        <h2> Drivers who have self-isolated</h2>
+        <p><strong>I have to self-isolate and need someone to drive my car to get essential supplies. Will they be insured?</strong></p>
+        <p>You've a choice of options if the helper has a valid driving licence.</p>
+        <p>If the person has <strong>Driving Other Cars</strong> cover on their car insurance, they can use your vehicle with your permission. However, they'll only have third-party cover, and Driving Other Cars cover is intended for short-term emergency use. </p>
+        <p>Or if you have comprehensive insurance, and want to ensure that damage is covered when someone else uses your car, call us on <strong>0370 533 2211</strong> to add them to your policy as a named driver.</p>
+        <p><strong>Can I pause my car insurance while I'm self-isolated?</strong></p>
+        <p>No, you can't pause your car insurance. It's a legal requirement to have valid car insurance unless you apply for a <a href="https://www.gov.uk/make-a-sorn" title="https://www.gov.uk/make-a-sorn">Statutory Off Road Notification.</a> If your car has a SORN and you want to cancel your insurance, call us on <strong>0370 533 2211</strong>. </p>
+        <p>Although you might not be driving your car, keeping it insured will cover you for theft and vandalism.</p>
+        <p><strong>Am I insured if I drive someone else's car?</strong></p>
+        <p>If you have Driving Other Cars cover on your certificate of insurance, then with the owner&rsquo;s permission you can drive their car. However you&rsquo;ll only have third-party cover, and Driving Other Cars cover is intended for short-term emergency use. More details about this benefit are in your <a href="~/link.aspx?_id=234F348F5D13407E8305BC33FF67F8AE&amp;_z=z">Car Insurance Policy Booklet</a>.</p>
+        <hr />
+        <br />
+        <h2> I must now drive to work instead of using public transport. Will my car insurance still be valid?</h2>
+        <p>If you need to drive to your workplace because of the coronavirus situation, your insurance policy will be valid. You don't need to contact us either to update your policy or extend your cover.</p>
+        <p>If you work in one of the critical sectors <a href="https://www.gov.uk/government/publications/coronavirus-covid-19-maintaining-educational-provision/guidance-for-schools-colleges-and-local-authorities-on-maintaining-educational-provision">listed by the government</a> and need to drive to different work locations because of the coronavirus situation, your cover won't be affected. You don't need to contact us.</p>
+        <hr />
+        <br />
+        <h2>I drive for a voluntary organisation to help people who can't leave their homes. Is my insurance still valid?</h2>
+        <p>If you're using your car for voluntary purposes to transport medicines or groceries to help others impacted by coronavirus, your cover won't be affected. </p>
+        <p>In addition, if you've become an NHS Volunteer Responder your car will also be covered for community response, patient transport and NHS transport volunteering. </p>
+        <p>You don't need to contact us either to update your policy or extend your cover.</p>
+        <hr />
+        <br />
+        <h2>Am I still insured to drive if my car's MOT has expired?</h2>
+        <p><strong>MOT expiry date up to 29 March 2020 and you're not self-isolating</strong></p>
+        <p>If you're not self-isolating or extremely vulnerable to the coronavirus, you still need an MOT to make sure your vehicle meets road safety and environmental standards.</p>
+        <p>Accordingly, book your test at an MOT centre. These centres and garages are allowed to stay open.</p>
+        <p><strong>MOT expiry date from 30 March 2020 onwards</strong></p>
+        <p>Vehicle owners have been granted a 6-month exemption from MOT testing. This will enable them to continue to drive to work, where this can't be done from home, or shop for necessities. </p>
+        <p>All cars, vans and motorcycles whose MOT expiry date is 30 March 2020 or later will be exempt from a test for 6 months. </p>
+        <p>During the 6-month exemption you'll still be insured to drive your car, and we won't decline any claims for failure to have an MOT.</p>
+        <p>Meanwhile, your vehicle must be kept in a roadworthy condition, and garages will remain open for essential repair work. Drivers can still be prosecuted if they drive an unsafe vehicle. </p>
+        <hr />
+        <br />
+        <h2>Your insurance offers</h2>
+        <p><strong>I can't spend my retail shopping voucher at the moment</strong></p>
+        <p>If you've received a retail shopping voucher from us, we understand that spending it may be not be possible now. </p>
+        <p>Don't worry, we're giving you longer to spend it. The redemption period has been extended from 3 to 6 months from the date your policy renewed. </p>
+        <p><strong>Can I still collect my dash cam from Halfords?</strong></p>
+        <p>Yes. Halfords have reopened for click and collect orders. Use your AA dash cam redemption code via the link on your email and use the click and collect service.</p>
+        <p>For the safety of customers and staff, Halfords aren&rsquo;t currently offering a fitting service. If you want this service, keep your code and redeem your dash cam once the fitting service is available. Your dash cam code is valid for 12 months.</p>
+        <hr />
+        <p><strong>Find out how the AA is responding to the <a href="/about-us/coronavirus-covid-19">coronavirus situation</a>.</strong></p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200615T093353Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: "Your car insurance during coronavirus (COVID-19)"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200615T141432Z
+  - Version: 10
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200707T093113Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "749a64ef-7923-4778-84e9-4c7e1aa9cbe0"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8293bf6a-a8e9-4cb4-89aa-9e347652db7c"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h2>Changes to our opening hours</h2>
+        <p>Some of the call centre times listed in our emails and letters have changed due to the coronavirus situation.</p>
+        <p>Because the lines are very busy, and to ensure we can offer the best service, we're constantly reviewing these times.</p>
+        <p>For quotes, policy queries and renewals you can find our <a href="#times">current times below</a>. And you can still report a claim anytime by calling us on <strong>0800 269 622</strong>.
+        </p>
+        <p>You can also contact us about a policy query by using our <a href="/car-insurance/already-with-us#policy-query">online form</a>.</p>
+        <hr />
+        <br />
+        <h2>Help for drivers during the coronavirus crisis</h2>
+        <p><strong>I'm struggling to pay my monthly insurance payment</strong></p>
+        <p>We're aware of the impact of the coronavirus crisis on people's jobs and income, and have a range of options to support you.</p>
+        <p>If you're concerned about paying for your insurance, email us at <a href="mailto:instalments@theaa.com">instalments@theaa.com</a>, or call us  on <strong>0370 533 2211</strong> as soon as possible, and we'll try to help.</p>
+        <p><strong>I need to alter or cancel my policy &ndash; do you charge a fee?</strong></p>
+        <p>While there's usually a fee to change or cancel your policy, as a responsible broker we&rsquo;re supporting our customers as much as we can in these difficult times. So if you need to make a change or cancel your policy as a result of the coronavirus situation, we'll waive our usual adjustment and cancellation fees.
+        </p>
+        <p>You can call us on <strong>0370 533 221, </strong>or you can request a change by using our <a href="/car-insurance/already-with-us#policy-query">online form</a>.
+        </p>
+        <p><strong>I've been furloughed or become unemployed as a result of the coronavirus situation. Should my policy be updated to reflect this change in occupation?</strong></p>
+        <p>If you're now on furlough, your car insurance is still valid. There's no need to contact us to update your policy. </p>
+        <p>If you've been made unemployed, let us know <a href="~/link.aspx?_id=2119F64E76EA48B0BE8876C0A7D67369&amp;_z=z">using this form</a>. Your policy is still valid. When it's due for renewal, tell us if you're back in employment and we can update your policy.</p>
+        <hr />
+        <br />
+        <h2>My car insurance policy</h2>
+        <p><strong>Can you still send my policy documents?</strong></p>
+        <p>When buying your insurance, you could choose to receive your documents either by email or post. </p>
+        <p>If you chose email, you can <a href="https://auth.theaa.com/auth/XUI/">log in and view your documents here</a>. </p>
+        <p>If you chose documents by post, they won't also be available online. </p>
+        <p>Normally, they should arrive within 5 to 7 working days. Due to the coronavirus situation there may be postal delays, so please allow up to 14 working days. If there are delays we may send documents by email as well as post, plus text messages for anything important about your policy. </p>
+        <p>If you requested alternative format documents &ndash; large print, audio and braille &ndash; they'll now come separately from your standard pack. Again, allow up to 14 days for them to arrive.</p>
+        <p><strong>How can I renew my policy?</strong></p>
+        <p>We send you a renewal invitation at least 3 weeks before the policy is due for renewal. It tells you if your policy will renew automatically, or if you need to call to renew.</p>
+        <p>If you have automatic renewal in place &ndash; whether you pay monthly or by annual payment &ndash; and the cover still meets your needs, and your details are correct, then you don't need to do anything. </p>
+        <p>We'll send or email your renewal documents once your policy has renewed. </p>
+        <p>If you don't have automatic renewal, you'll need to call us on the number in your renewal invitation. Do bear with us, our phone lines are really busy.</p>
+        <p><strong>What if I have a question about my renewal?</strong></p>
+        <p>To discuss your renewal, you can call us on the number in your renewal invitation. </p>
+        <p>We can also help you by email. If your renewal date is more than 10 days away, send your query to our <a href="mailto:insurancerenewals@theaa.com">renewals team</a>. They'll get back to you within 2 days.</p>
+        <p><strong>Can a friend, family member or carer manage my policy on my behalf?</strong></p>
+        <p>If you're unwell or for any other reason need a trusted friend or family member to contact us about your policy, let us know and we'll arrange to add their details to your account.</p>
+        <p><strong>I'm a previous customer. Where can I find proof of my no claim discount?</strong></p>
+        <p>If you no longer have car insurance with us, the renewal notice in your renewal invitation will be proof of the number of years no claim discount earned by you.</p>
+        <hr />
+        <br />
+        <h2>Claims and repairs</h2>
+        <p><strong>I need to make a claim</strong></p>
+        <p>Our claims team is operating as normal, and you can report your car insurance claim by calling us on <strong>0800 269 622</strong>.</p>
+        <p><strong>I've had an accident and my vehicle isn't drivable</strong></p>
+        <p>Don't worry, we'll recover your vehicle to a place of safety. If our local approved repairer is open, they'll book it in and provide an estimated completion date. </p>
+        <p>Due to parts availability, the repairs could take longer than usual.</p>
+        <p><strong>I've had an accident but my vehicle is drivable</strong></p>
+        <p>If our local approved repairer is open, they'll book it in for an estimate. If the repairer has capacity, they'll book it in for repairs and give you an estimated completion date. </p>
+        <p>Due to parts availability, the repairs could take longer than usual.</p>
+        <p><strong>Will I get a courtesy car while my vehicle is being repaired?</strong></p>
+        <p>We'll discuss your particular needs for mobility. However, courtesy cars and replacement hire vehicles might be in short supply and they'll be prioritised for key workers, in particular NHS and emergency services staff, as well as vulnerable customers.</p>
+        <p><strong>What if my vehicle is already with the approved repairer?</strong></p>
+        <p>The approved repairer will contact you about the status of your repair, and say when they can complete the work. </p>
+        <p>If your vehicle is driveable and the work has yet to start, we might have to return it to you and rebook when the repairer has the capacity.</p>
+        <p><strong>What if I've got the Car Hire policy?</strong></p>
+        <p>This additional cover provides you with a hire car if your vehicle is deemed a total loss. We'll endeavour to provide you with a car. </p>
+        <p>If you currently have a hire car, we'll liaise with you regarding its continued use if you're a key worker, even if this goes beyond the number of days the policy allows.</p>
+        <hr />
+        <br />
+        <h2> Drivers who have self-isolated</h2>
+        <p><strong>I have to self-isolate and need someone to drive my car to get essential supplies. Will they be insured?</strong></p>
+        <p>You've a choice of options if the helper has a valid driving licence.</p>
+        <p>If the person has <strong>Driving Other Cars</strong> cover on their car insurance, they can use your vehicle with your permission. However, they'll only have third-party cover, and Driving Other Cars cover is intended for short-term emergency use. </p>
+        <p>Or if you have comprehensive insurance, and want to ensure that damage is covered when someone else uses your car, call us on <strong>0370 533 2211</strong> to add them to your policy as a named driver.</p>
+        <p><strong>Can I pause my car insurance while I'm self-isolated?</strong></p>
+        <p>No, you can't pause your car insurance. It's a legal requirement to have valid car insurance unless you apply for a <a href="https://www.gov.uk/make-a-sorn" title="https://www.gov.uk/make-a-sorn">Statutory Off Road Notification.</a> If your car has a SORN and you want to cancel your insurance, call us on <strong>0370 533 2211</strong>. </p>
+        <p>Although you might not be driving your car, keeping it insured will cover you for theft and vandalism.</p>
+        <p><strong>Am I insured if I drive someone else's car?</strong></p>
+        <p>If you have Driving Other Cars cover on your certificate of insurance, then with the owner&rsquo;s permission you can drive their car. However you&rsquo;ll only have third-party cover, and Driving Other Cars cover is intended for short-term emergency use. More details about this benefit are in your <a href="~/link.aspx?_id=234F348F5D13407E8305BC33FF67F8AE&amp;_z=z">Car Insurance Policy Booklet</a>.</p>
+        <hr />
+        <br />
+        <h2> I must now drive to work instead of using public transport. Will my car insurance still be valid?</h2>
+        <p>If you need to drive to your workplace because of the coronavirus situation, your insurance policy will be valid. You don't need to contact us either to update your policy or extend your cover.</p>
+        <p>If you work in one of the critical sectors <a href="https://www.gov.uk/government/publications/coronavirus-covid-19-maintaining-educational-provision/guidance-for-schools-colleges-and-local-authorities-on-maintaining-educational-provision">listed by the government</a> and need to drive to different work locations because of the coronavirus situation, your cover won't be affected. You don't need to contact us.</p>
+        <hr />
+        <br />
+        <h2>I drive for a voluntary organisation to help people who can't leave their homes. Is my insurance still valid?</h2>
+        <p>If you're using your car for voluntary purposes to transport medicines or groceries to help others impacted by coronavirus, your cover won't be affected. </p>
+        <p>In addition, if you've become an NHS Volunteer Responder your car will also be covered for community response, patient transport and NHS transport volunteering. </p>
+        <p>You don't need to contact us either to update your policy or extend your cover.</p>
+        <hr />
+        <br />
+        <h2>Am I still insured to drive if my car's MOT has expired? </h2>
+        <p>If the MOT certificate of your vehicle expires between 30 March and 31 July 2020, the expiry date will be extended for 6 months by the Driver &amp; Vehicle Standards Agency. </p>
+        <p>Your car insurance will still be valid during the extension, and we won't decline any claims for failure to have an MOT.</p>
+        <p>Meanwhile, your vehicle must be kept taxed and in a roadworthy condition, and garages are open for repairs. Drivers can still be prosecuted if they drive an unsafe vehicle. </p>
+        <p>MOT certificates that expire from 1 August 2020 onwards require an MOT test as usual. </p>
+        <p>The extension was put in place to limit the spread of the coronavirus, and enable you to drive to work, where this can't be done from home, or shop for necessities.
+        </p>
+        <hr />
+        <br />
+        <h2>Your insurance offers</h2>
+        <p><strong>I can't spend my retail shopping voucher at the moment</strong></p>
+        <p>If you've received a retail shopping voucher from us, we understand that spending it may be not be possible now. </p>
+        <p>Don't worry, we're giving you longer to spend it. The redemption period has been extended from 3 to 6 months from the date your policy renewed. </p>
+        <p><strong>Can I still collect my dash cam from Halfords?</strong></p>
+        <p>Yes. Halfords have reopened for click and collect orders. Use your AA dash cam redemption code via the link on your email and use the click and collect service.</p>
+        <p>For the safety of customers and staff, Halfords aren&rsquo;t currently offering a fitting service. If you want this service, keep your code and redeem your dash cam once the fitting service is available. Your dash cam code is valid for 12 months.</p>
+        <hr />
+        <p><strong>Find out how the AA is responding to the <a href="/about-us/coronavirus-covid-19">coronavirus situation</a>.</strong></p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200707T093113Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: "Your car insurance during coronavirus (COVID-19)"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200716T080313Z
+  - Version: 11
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200804T092348Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "43f5ad66-1639-4ea4-9a7b-23c493cbbc94"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h2>Changes to our opening hours</h2>
+        <p>Some of the call centre times listed in our emails and letters have changed due to the coronavirus situation.</p>
+        <p>Because the lines are very busy, and to ensure we can offer the best service, we're constantly reviewing these times.</p>
+        <p>For quotes, policy queries and renewals you can find our <a href="#times">current times below</a>. And you can still report a claim anytime by calling us on <strong>0800 269 622</strong>.
+        </p>
+        <p>You can also contact us about a policy query by using our <a href="/car-insurance/already-with-us#policy-query">online form</a>.</p>
+        <hr />
+        <br />
+        <h2>Help for drivers during the coronavirus crisis</h2>
+        <p><strong>I'm struggling to pay my monthly insurance payment</strong></p>
+        <p>We're aware of the impact of the coronavirus crisis on people's jobs and income, and have a range of options to support you.</p>
+        <p>If you're concerned about paying for your insurance, email us at <a href="mailto:instalments@theaa.com">instalments@theaa.com</a>, or call us  on <strong>0370 533 2211</strong> as soon as possible, and we'll try to help.</p>
+        <p><strong>I need to alter or cancel my policy &ndash; do you charge a fee?</strong></p>
+        <p>While there's usually a fee to change or cancel your policy, as a responsible broker we&rsquo;re supporting our customers as much as we can in these difficult times. So if you need to make a change or cancel your policy as a result of the coronavirus situation, we'll waive our usual adjustment and cancellation fees.
+        </p>
+        <p>You can call us on <strong>0370 533 221, </strong>or you can request a change by using our <a href="/car-insurance/already-with-us#policy-query">online form</a>.
+        </p>
+        <p><strong>I've been furloughed or become unemployed as a result of the coronavirus situation. Should my policy be updated to reflect this change in occupation?</strong></p>
+        <p>If you're now on furlough, your car insurance is still valid. There's no need to contact us to update your policy. </p>
+        <p>If you've been made unemployed, let us know <a href="~/link.aspx?_id=2119F64E76EA48B0BE8876C0A7D67369&amp;_z=z">using this form</a>. Your policy is still valid. When it's due for renewal, tell us if you're back in employment and we can update your policy.</p>
+        <hr />
+        <br />
+        <h2>My car insurance policy</h2>
+        <p><strong>Can you still send my policy documents?</strong></p>
+        <p>When buying your insurance, you could choose to receive your documents either by email or post. </p>
+        <p>If you chose email, you can <a href="https://auth.theaa.com/auth/XUI/">log in and view your documents here</a>. </p>
+        <p>If you chose documents by post, they won't also be available online. </p>
+        <p>Normally, they should arrive within 5 to 7 working days. Due to the coronavirus situation there may be postal delays, so please allow up to 14 working days. If there are delays we may send documents by email as well as post, plus text messages for anything important about your policy. </p>
+        <p>If you requested alternative format documents &ndash; large print, audio and braille &ndash; they'll now come separately from your standard pack. Again, allow up to 14 days for them to arrive.</p>
+        <p><strong>How can I renew my policy?</strong></p>
+        <p>We send you a renewal invitation at least 3 weeks before the policy is due for renewal. It tells you if your policy will renew automatically, or if you need to call to renew.</p>
+        <p>If you have automatic renewal in place &ndash; whether you pay monthly or by annual payment &ndash; and the cover still meets your needs, and your details are correct, then you don't need to do anything. </p>
+        <p>We'll send or email your renewal documents once your policy has renewed. </p>
+        <p>If you don't have automatic renewal, you'll need to call us on the number in your renewal invitation. Do bear with us, our phone lines are really busy.</p>
+        <p><strong>What if I have a question about my renewal?</strong></p>
+        <p>To discuss your renewal, you can call us on the number in your renewal invitation. </p>
+        <p>We can also help you by email. If your renewal date is more than 10 days away, send your query to our <a href="mailto:insurancerenewals@theaa.com">renewals team</a>. They'll get back to you within 2 days.</p>
+        <p><strong>Can a friend, family member or carer manage my policy on my behalf?</strong></p>
+        <p>If you're unwell or for any other reason need a trusted friend or family member to contact us about your policy, let us know and we'll arrange to add their details to your account.</p>
+        <p><strong>I'm a previous customer. Where can I find proof of my no claim discount?</strong></p>
+        <p>If you no longer have car insurance with us, the renewal notice in your renewal invitation will be proof of the number of years no claim discount earned by you.</p>
+        <hr />
+        <br />
+        <h2>Claims and repairs</h2>
+        <p><strong>I need to make a claim</strong></p>
+        <p>Our claims team is operating as normal, and you can report your car insurance claim by calling us on <strong>0800 269 622</strong>.</p>
+        <p><strong>I've had an accident and my vehicle isn't drivable</strong></p>
+        <p>Don't worry, we'll recover your vehicle to a place of safety. If our local approved repairer is open, they'll book it in and provide an estimated completion date. </p>
+        <p>Due to parts availability, the repairs could take longer than usual.</p>
+        <p><strong>I've had an accident but my vehicle is drivable</strong></p>
+        <p>If our local approved repairer is open, they'll book it in for an estimate. If the repairer has capacity, they'll book it in for repairs and give you an estimated completion date. </p>
+        <p>Due to parts availability, the repairs could take longer than usual.</p>
+        <p><strong>Will I get a courtesy car while my vehicle is being repaired?</strong></p>
+        <p>We'll discuss your particular needs for mobility. However, courtesy cars and replacement hire vehicles might be in short supply and they'll be prioritised for key workers, in particular NHS and emergency services staff, as well as vulnerable customers.</p>
+        <p><strong>What if my vehicle is already with the approved repairer?</strong></p>
+        <p>The approved repairer will contact you about the status of your repair, and say when they can complete the work. </p>
+        <p>If your vehicle is driveable and the work has yet to start, we might have to return it to you and rebook when the repairer has the capacity.</p>
+        <p><strong>What if I've got the Car Hire policy?</strong></p>
+        <p>This additional cover provides you with a hire car if your vehicle is deemed a total loss. We'll endeavour to provide you with a car. </p>
+        <p>If you currently have a hire car, we'll liaise with you regarding its continued use if you're a key worker, even if this goes beyond the number of days the policy allows.</p>
+        <hr />
+        <br />
+        <h2> Drivers who have self-isolated</h2>
+        <p><strong>I have to self-isolate and need someone to drive my car to get essential supplies. Will they be insured?</strong></p>
+        <p>You've a choice of options if the helper has a valid driving licence.</p>
+        <p>If the person has <strong>Driving Other Cars</strong> cover on their car insurance, they can use your vehicle with your permission. However, they'll only have third-party cover, and Driving Other Cars cover is intended for short-term emergency use. </p>
+        <p>Or if you have comprehensive insurance, and want to ensure that damage is covered when someone else uses your car, call us on <strong>0370 533 2211</strong> to add them to your policy as a named driver.</p>
+        <p><strong>Can I pause my car insurance while I'm self-isolated?</strong></p>
+        <p>No, you can't pause your car insurance. It's a legal requirement to have valid car insurance unless you apply for a <a href="https://www.gov.uk/make-a-sorn" title="https://www.gov.uk/make-a-sorn">Statutory Off Road Notification.</a> If your car has a SORN and you want to cancel your insurance, call us on <strong>0370 533 2211</strong>. </p>
+        <p>Although you might not be driving your car, keeping it insured will cover you for theft and vandalism.</p>
+        <p><strong>Am I insured if I drive someone else's car?</strong></p>
+        <p>If you have Driving Other Cars cover on your certificate of insurance, then with the owner&rsquo;s permission you can drive their car. However you&rsquo;ll only have third-party cover, and Driving Other Cars cover is intended for short-term emergency use. More details about this benefit are in your <a href="~/link.aspx?_id=234F348F5D13407E8305BC33FF67F8AE&amp;_z=z">Car Insurance Policy Booklet</a>.</p>
+        <hr />
+        <br />
+        <h2> I must now drive to work instead of using public transport. Will my car insurance still be valid?</h2>
+        <p>If you need to drive to your workplace because of the coronavirus situation, your insurance policy will be valid. You don't need to contact us either to update your policy or extend your cover.</p>
+        <p>If you work in one of the critical sectors <a href="https://www.gov.uk/government/publications/coronavirus-covid-19-maintaining-educational-provision/guidance-for-schools-colleges-and-local-authorities-on-maintaining-educational-provision">listed by the government</a> and need to drive to different work locations because of the coronavirus situation, your cover won't be affected. You don't need to contact us.</p>
+        <hr />
+        <br />
+        <h2>I drive for a voluntary organisation to help people who can't leave their homes. Is my insurance still valid?</h2>
+        <p>If you're using your car for voluntary purposes to transport medicines or groceries to help others impacted by coronavirus, your cover won't be affected. </p>
+        <p>In addition, if you've become an NHS Volunteer Responder your car will also be covered for community response, patient transport and NHS transport volunteering. </p>
+        <p>You don't need to contact us either to update your policy or extend your cover.</p>
+        <hr />
+        <br />
+        <h2>Am I still insured to drive if my car's MOT has expired? </h2>
+        <p>If the MOT certificate of your vehicle expires between 30 March and 31 July 2020, the expiry date will be extended for 6 months by the Driver &amp; Vehicle Standards Agency. </p>
+        <p>Your car insurance will still be valid during the extension, and we won't decline any claims for failure to have an MOT.</p>
+        <p>Meanwhile, your vehicle must be kept taxed and in a roadworthy condition, and garages are open for repairs. Drivers can still be prosecuted if they drive an unsafe vehicle. </p>
+        <p>MOT certificates that expire from 1 August 2020 onwards require an MOT test as usual. </p>
+        <p>The extension was put in place to limit the spread of the coronavirus, and enable you to drive to work, where this can't be done from home, or shop for necessities.
+        </p>
+        <hr />
+        <br />
+        <h2>Your insurance offers</h2>
+        <p><strong>I can't spend my retail shopping voucher at the moment</strong></p>
+        <p>If you've received a retail shopping voucher from us, we understand that spending it may be not be possible now. </p>
+        <p>Don't worry, we're giving you longer to spend it. The redemption period has been extended from 3 to 6 months from the date your policy renewed. </p>
+        <p><strong>Can I still collect my dash cam from Halfords?</strong></p>
+        <p>Yes. Halfords have reopened for click and collect orders. Use your AA dash cam redemption code via the link on your email and use the click and collect service.</p>
+        <p>For the safety of customers and staff, Halfords aren&rsquo;t currently offering a fitting service. If you want this service, keep your code and redeem your dash cam once the fitting service is available. Your dash cam code is valid for 12 months.</p>
+        <hr />
+        <p><strong>Find out how the AA is responding to the <a href="/about-us/coronavirus-covid-19">coronavirus situation</a>.</strong></p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200804T092348Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: "Your car insurance during coronavirus (COVID-19)"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201015T082748Z
+  - Version: 12
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201015T085339Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "749a64ef-7923-4778-84e9-4c7e1aa9cbe0"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b66a6b1d-7856-43e1-ab13-7f43b74b7b33"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h2>Changes to our opening hours</h2>
+        <p>Some of the call centre times listed in our emails and letters have changed due to the coronavirus situation.</p>
+        <p>Because the lines are very busy, and to ensure we can offer the best service, we're constantly reviewing these times.</p>
+        <p>For quotes, policy queries and renewals you can find our <a href="#times">current times below</a>. And you can still report a claim anytime by calling us on <strong>0800 269 622</strong>.
+        </p>
+        <p>You can also contact us about a policy query by using our <a href="/car-insurance/already-with-us#policy-query">online form</a>.</p>
+        <hr />
+        <br />
+        <h2>Help for drivers during the coronavirus crisis</h2>
+        <p><strong>I'm struggling to pay my monthly insurance payment</strong></p>
+        <p>We're aware of the impact of the coronavirus crisis on people's jobs and income, and have a range of options to support you.</p>
+        <p>If you're concerned about paying for your insurance, email us at <a href="mailto:instalments@theaa.com">instalments@theaa.com</a>, or call us  on <strong>0370 533 2211</strong> as soon as possible, and we'll try to help.</p>
+        <p><strong>I need to alter or cancel my policy &ndash; do you charge a fee?</strong></p>
+        <p>While there's usually a fee to change or cancel your policy, as a responsible broker we&rsquo;re supporting our customers as much as we can in these difficult times. So if you need to make a change or cancel your policy as a result of the coronavirus situation, we'll waive our usual adjustment and cancellation fees.
+        </p>
+        <p>You can call us on <strong>0370 533 221, </strong>or you can request a change by using our <a href="/car-insurance/already-with-us#policy-query">online form</a>.
+        </p>
+        <p><strong>I've been furloughed or become unemployed as a result of the coronavirus situation. Should my policy be updated to reflect this change in occupation?</strong></p>
+        <p>If you're now on furlough, your car insurance is still valid. There's no need to contact us to update your policy. </p>
+        <p>If you've been made unemployed, let us know <a href="~/link.aspx?_id=2119F64E76EA48B0BE8876C0A7D67369&amp;_z=z">using this form</a>. Your policy is still valid. When it's due for renewal, tell us if you're back in employment and we can update your policy.</p>
+        <hr />
+        <br />
+        <h2>My car insurance policy</h2>
+        <p><strong>Can you still send my policy documents?</strong></p>
+        <p>When buying your insurance, you could choose to receive your documents either by email or post. </p>
+        <p>If you chose email, you can <a href="https://auth.theaa.com/auth/XUI/">log in and view your documents here</a>. </p>
+        <p>If you chose documents by post, they won't also be available online. </p>
+        <p>Normally, they should arrive within 5 to 7 working days. Due to the coronavirus situation there may be postal delays, so please allow up to 14 working days. If there are delays we may send documents by email as well as post, plus text messages for anything important about your policy. </p>
+        <p>If you requested alternative format documents &ndash; large print, audio and braille &ndash; they'll now come separately from your standard pack. Again, allow up to 14 days for them to arrive.</p>
+        <p><strong>How can I renew my policy?</strong></p>
+        <p>We send you a renewal invitation at least 3 weeks before the policy is due for renewal. It tells you if your policy will renew automatically, or if you need to call to renew.</p>
+        <p>If you have automatic renewal in place &ndash; whether you pay monthly or by annual payment &ndash; and the cover still meets your needs, and your details are correct, then you don't need to do anything. </p>
+        <p>We'll send or email your renewal documents once your policy has renewed. </p>
+        <p>If you don't have automatic renewal, you'll need to call us on the number in your renewal invitation. Do bear with us, our phone lines are really busy.</p>
+        <p><strong>What if I have a question about my renewal?</strong></p>
+        <p>To discuss your renewal, you can call us on the number in your renewal invitation. </p>
+        <p>We can also help you by email. If your renewal date is more than 10 days away, send your query to our <a href="mailto:insurancerenewals@theaa.com">renewals team</a>. They'll get back to you within 2 days.</p>
+        <p><strong>Can a friend, family member or carer manage my policy on my behalf?</strong></p>
+        <p>If you're unwell or for any other reason need a trusted friend or family member to contact us about your policy, let us know and we'll arrange to add their details to your account.</p>
+        <p><strong>I'm a previous customer. Where can I find proof of my no claim discount?</strong></p>
+        <p>If you no longer have car insurance with us, the renewal notice in your renewal invitation will be proof of the number of years no claim discount earned by you.</p>
+        <hr />
+        <br />
+        <h2>Claims and repairs</h2>
+        <p><strong>I need to make a claim</strong></p>
+        <p>Our claims team is operating as normal, and you can report your car insurance claim by calling us on <strong>0800 269 622</strong>.</p>
+        <p><strong>I've had an accident and my vehicle isn't drivable</strong></p>
+        <p>Don't worry, we'll recover your vehicle to a place of safety. If our local approved repairer is open, they'll book it in and provide an estimated completion date. </p>
+        <p>Due to parts availability, the repairs could take longer than usual.</p>
+        <p><strong>I've had an accident but my vehicle is drivable</strong></p>
+        <p>If our local approved repairer is open, they'll book it in for an estimate. If the repairer has capacity, they'll book it in for repairs and give you an estimated completion date. </p>
+        <p>Due to parts availability, the repairs could take longer than usual.</p>
+        <p><strong>Will I get a courtesy car while my vehicle is being repaired?</strong></p>
+        <p>We'll discuss your particular needs for mobility. However, courtesy cars and replacement hire vehicles might be in short supply and they'll be prioritised for key workers, in particular NHS and emergency services staff, as well as vulnerable customers.</p>
+        <p><strong>What if my vehicle is already with the approved repairer?</strong></p>
+        <p>The approved repairer will contact you about the status of your repair, and say when they can complete the work. </p>
+        <p>If your vehicle is driveable and the work has yet to start, we might have to return it to you and rebook when the repairer has the capacity.</p>
+        <p><strong>What if I've got the Car Hire policy?</strong></p>
+        <p>This additional cover provides you with a hire car if your vehicle is deemed a total loss. We'll endeavour to provide you with a car. </p>
+        <p>If you currently have a hire car, we'll liaise with you regarding its continued use if you're a key worker, even if this goes beyond the number of days the policy allows.</p>
+        <hr />
+        <br />
+        <h2> Drivers who have self-isolated</h2>
+        <p><strong>I have to self-isolate and need someone to drive my car to get essential supplies. Will they be insured?</strong></p>
+        <p>You've a choice of options if the helper has a valid driving licence.</p>
+        <p>If the person has <strong>Driving Other Cars</strong> cover on their car insurance, they can use your vehicle with your permission. However, they'll only have third-party cover, and Driving Other Cars cover is intended for short-term emergency use. </p>
+        <p>Or if you have comprehensive insurance, and want to ensure that damage is covered when someone else uses your car, call us on <strong>0370 533 2211</strong> to add them to your policy as a named driver.</p>
+        <p><strong>Can I pause my car insurance while I'm self-isolated?</strong></p>
+        <p>No, you can't pause your car insurance. It's a legal requirement to have valid car insurance unless you apply for a <a href="https://www.gov.uk/make-a-sorn" title="https://www.gov.uk/make-a-sorn">Statutory Off Road Notification.</a> If your car has a SORN and you want to cancel your insurance, call us on <strong>0370 533 2211</strong>. </p>
+        <p>Although you might not be driving your car, keeping it insured will cover you for theft and vandalism.</p>
+        <p><strong>Am I insured if I drive someone else's car?</strong></p>
+        <p>If you have Driving Other Cars cover on your certificate of insurance, then with the owner&rsquo;s permission you can drive their car. However you&rsquo;ll only have third-party cover, and Driving Other Cars cover is intended for short-term emergency use. More details about this benefit are in your <a href="~/link.aspx?_id=234F348F5D13407E8305BC33FF67F8AE&amp;_z=z">Car Insurance Policy Booklet</a>.</p>
+        <hr />
+        <br />
+        <h2> I must now drive to work instead of using public transport. Will my car insurance still be valid?</h2>
+        <p>If you need to drive to your workplace because of the coronavirus situation, your insurance policy will be valid. You don't need to contact us either to update your policy or extend your cover.</p>
+        <p>If you work in one of the critical sectors <a href="https://www.gov.uk/government/publications/coronavirus-covid-19-maintaining-educational-provision/guidance-for-schools-colleges-and-local-authorities-on-maintaining-educational-provision">listed by the government</a> and need to drive to different work locations because of the coronavirus situation, your cover won't be affected. You don't need to contact us.</p>
+        <hr />
+        <br />
+        <h2>I drive for a voluntary organisation to help people who can't leave their homes. Is my insurance still valid?</h2>
+        <p>If you're using your car for voluntary purposes to transport medicines or groceries to help others impacted by coronavirus, your cover won't be affected. </p>
+        <p>In addition, if you've become an NHS Volunteer Responder your car will also be covered for community response, patient transport and NHS transport volunteering. </p>
+        <p>You don't need to contact us either to update your policy or extend your cover.</p>
+        <hr />
+        <br />
+        <h2>Am I still insured to drive if my car's MOT has expired? </h2>
+        <p>If the MOT certificate of your vehicle expires between 30 March and 31 July 2020, the expiry date will be extended for 6 months by the Driver &amp; Vehicle Standards Agency. </p>
+        <p>Your car insurance will still be valid during the extension, and we won't decline any claims for failure to have an MOT.</p>
+        <p>Meanwhile, your vehicle must be kept taxed and in a roadworthy condition, and garages are open for repairs. Drivers can still be prosecuted if they drive an unsafe vehicle. </p>
+        <p>MOT certificates that expire from 1 August 2020 onwards require an MOT test as usual. </p>
+        <p>The extension was put in place to limit the spread of the coronavirus, and enable you to drive to work, where this can't be done from home, or shop for necessities.
+        </p>
+        <hr />
+        <br />
+        <h2>Your insurance offers</h2>
+        <p><strong>I can't spend my retail shopping voucher at the moment</strong></p>
+        <p>If you've received a retail shopping voucher from us, we understand that spending it may be not be possible now. </p>
+        <p>Don't worry, we're giving you longer to spend it. The redemption period has been extended from 3 to 6 months from the date your policy renewed. </p>
+        <p><strong>Can I still collect my dash cam from Halfords?</strong></p>
+        <p>Yes. Halfords have reopened for click and collect orders. Use your AA dash cam redemption code via the link on your email and use the click and collect service.</p>
+        <p>For the safety of customers and staff, Halfords aren&rsquo;t currently offering a fitting service. If you want this service, keep your code and redeem your dash cam once the fitting service is available. Your dash cam code is valid for 12 months.</p>
+        <hr />
+        <p><strong>Find out how the AA is responding to the <a href="/about-us/coronavirus-covid-19">coronavirus situation</a>.</strong></p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201015T085339Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: "Your car insurance during coronavirus (COVID-19)"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201015T085357Z
+  - Version: 13
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201015T085400Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "436a8cea-11e4-457a-9f8e-09180708df7c"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h2>Changes to our opening hours</h2>
+        <p>Some of the call centre times listed in our emails and letters have changed due to the coronavirus situation.</p>
+        <p>Because the lines are very busy, and to ensure we can offer the best service, we're constantly reviewing these times.</p>
+        <p>For quotes, policy queries and renewals you can find our <a href="#times">current times below</a>. And you can still report a claim anytime by calling us on <strong>0800 269 622</strong>.
+        </p>
+        <p>You can also contact us about a policy query by using our <a href="/car-insurance/already-with-us#policy-query">online form</a>.</p>
+        <hr />
+        <br />
+        <h2>Help for drivers during the coronavirus crisis</h2>
+        <p><strong>I'm struggling to pay my monthly insurance payment</strong></p>
+        <p>We're aware of the impact of the coronavirus crisis on people's jobs and income, and have a range of options to support you.</p>
+        <p>If you're concerned about paying for your insurance, email us at <a href="mailto:instalments@theaa.com">instalments@theaa.com</a>, or call us  on <strong>0370 533 2211</strong> as soon as possible, and we'll try to help.</p>
+        <p><strong>I need to alter or cancel my policy &ndash; do you charge a fee?</strong></p>
+        <p>While there's usually a fee to change or cancel your policy, as a responsible broker we&rsquo;re supporting our customers as much as we can in these difficult times. So if you need to make a change or cancel your policy as a result of the coronavirus situation, we'll waive our usual adjustment and cancellation fees.
+        </p>
+        <p>You can call us on <strong>0370 533 221, </strong>or you can request a change by using our <a href="/car-insurance/already-with-us#policy-query">online form</a>.
+        </p>
+        <p><strong>I've been furloughed or become unemployed as a result of the coronavirus situation. Should my policy be updated to reflect this change in occupation?</strong></p>
+        <p>If you're now on furlough, your car insurance is still valid. There's no need to contact us to update your policy. </p>
+        <p>If you've been made unemployed, let us know <a href="~/link.aspx?_id=2119F64E76EA48B0BE8876C0A7D67369&amp;_z=z">using this form</a>. Your policy is still valid. When it's due for renewal, tell us if you're back in employment and we can update your policy.</p>
+        <hr />
+        <br />
+        <h2>My car insurance policy</h2>
+        <p><strong>Can you still send my policy documents?</strong></p>
+        <p>When buying your insurance, you could choose to receive your documents either by email or post. </p>
+        <p>If you chose email, you can <a href="https://auth.theaa.com/auth/XUI/">log in and view your documents here</a>. </p>
+        <p>If you chose documents by post, they won't also be available online. </p>
+        <p>Normally, they should arrive within 5 to 7 working days. Due to the coronavirus situation there may be postal delays, so please allow up to 14 working days. If there are delays we may send documents by email as well as post, plus text messages for anything important about your policy. </p>
+        <p>If you requested alternative format documents &ndash; large print, audio and braille &ndash; they'll now come separately from your standard pack. Again, allow up to 14 days for them to arrive.</p>
+        <p><strong>How can I renew my policy?</strong></p>
+        <p>We send you a renewal invitation at least 3 weeks before the policy is due for renewal. It tells you if your policy will renew automatically, or if you need to call to renew.</p>
+        <p>If you have automatic renewal in place &ndash; whether you pay monthly or by annual payment &ndash; and the cover still meets your needs, and your details are correct, then you don't need to do anything. </p>
+        <p>We'll send or email your renewal documents once your policy has renewed. </p>
+        <p>If you don't have automatic renewal, you'll need to call us on the number in your renewal invitation. Do bear with us, our phone lines are really busy.</p>
+        <p><strong>What if I have a question about my renewal?</strong></p>
+        <p>To discuss your renewal, you can call us on the number in your renewal invitation. </p>
+        <p>We can also help you by email. If your renewal date is more than 10 days away, send your query to our <a href="mailto:insurancerenewals@theaa.com">renewals team</a>. They'll get back to you within 2 days.</p>
+        <p><strong>Can a friend, family member or carer manage my policy on my behalf?</strong></p>
+        <p>If you're unwell or for any other reason need a trusted friend or family member to contact us about your policy, let us know and we'll arrange to add their details to your account.</p>
+        <p><strong>I'm a previous customer. Where can I find proof of my no claim discount?</strong></p>
+        <p>If you no longer have car insurance with us, the renewal notice in your renewal invitation will be proof of the number of years no claim discount earned by you.</p>
+        <hr />
+        <br />
+        <h2>Claims and repairs</h2>
+        <p><strong>I need to make a claim</strong></p>
+        <p>Our claims team is operating as normal, and you can report your car insurance claim by calling us on <strong>0800 269 622</strong>.</p>
+        <p><strong>I've had an accident and my vehicle isn't drivable</strong></p>
+        <p>Don't worry, we'll recover your vehicle to a place of safety. If our local approved repairer is open, they'll book it in and provide an estimated completion date. </p>
+        <p>Due to parts availability, the repairs could take longer than usual.</p>
+        <p><strong>I've had an accident but my vehicle is drivable</strong></p>
+        <p>If our local approved repairer is open, they'll book it in for an estimate. If the repairer has capacity, they'll book it in for repairs and give you an estimated completion date. </p>
+        <p>Due to parts availability, the repairs could take longer than usual.</p>
+        <p><strong>Will I get a courtesy car while my vehicle is being repaired?</strong></p>
+        <p>We'll discuss your particular needs for mobility. However, courtesy cars and replacement hire vehicles might be in short supply and they'll be prioritised for key workers, in particular NHS and emergency services staff, as well as vulnerable customers.</p>
+        <p><strong>What if my vehicle is already with the approved repairer?</strong></p>
+        <p>The approved repairer will contact you about the status of your repair, and say when they can complete the work. </p>
+        <p>If your vehicle is driveable and the work has yet to start, we might have to return it to you and rebook when the repairer has the capacity.</p>
+        <p><strong>What if I've got the Car Hire policy?</strong></p>
+        <p>This additional cover provides you with a hire car if your vehicle is deemed a total loss. We'll endeavour to provide you with a car. </p>
+        <p>If you currently have a hire car, we'll liaise with you regarding its continued use if you're a key worker, even if this goes beyond the number of days the policy allows.</p>
+        <hr />
+        <br />
+        <h2> Drivers who have self-isolated</h2>
+        <p><strong>I have to self-isolate and need someone to drive my car to get essential supplies. Will they be insured?</strong></p>
+        <p>You've a choice of options if the helper has a valid driving licence.</p>
+        <p>If the person has <strong>Driving Other Cars</strong> cover on their car insurance, they can use your vehicle with your permission. However, they'll only have third-party cover, and Driving Other Cars cover is intended for short-term emergency use. </p>
+        <p>Or if you have comprehensive insurance, and want to ensure that damage is covered when someone else uses your car, call us on <strong>0370 533 2211</strong> to add them to your policy as a named driver.</p>
+        <p><strong>Can I pause my car insurance while I'm self-isolated?</strong></p>
+        <p>No, you can't pause your car insurance. It's a legal requirement to have valid car insurance unless you apply for a <a href="https://www.gov.uk/make-a-sorn" title="https://www.gov.uk/make-a-sorn">Statutory Off Road Notification.</a> If your car has a SORN and you want to cancel your insurance, call us on <strong>0370 533 2211</strong>. </p>
+        <p>Although you might not be driving your car, keeping it insured will cover you for theft and vandalism.</p>
+        <p><strong>Am I insured if I drive someone else's car?</strong></p>
+        <p>If you have Driving Other Cars cover on your certificate of insurance, then with the owner&rsquo;s permission you can drive their car. However you&rsquo;ll only have third-party cover, and Driving Other Cars cover is intended for short-term emergency use. More details about this benefit are in your <a href="~/link.aspx?_id=234F348F5D13407E8305BC33FF67F8AE&amp;_z=z">Car Insurance Policy Booklet</a>.</p>
+        <hr />
+        <br />
+        <h2> I must now drive to work instead of using public transport. Will my car insurance still be valid?</h2>
+        <p>If you need to drive to your workplace because of the coronavirus situation, your insurance policy will be valid. You don't need to contact us either to update your policy or extend your cover.</p>
+        <p>If you work in one of the critical sectors <a href="https://www.gov.uk/government/publications/coronavirus-covid-19-maintaining-educational-provision/guidance-for-schools-colleges-and-local-authorities-on-maintaining-educational-provision">listed by the government</a> and need to drive to different work locations because of the coronavirus situation, your cover won't be affected. You don't need to contact us.</p>
+        <hr />
+        <br />
+        <h2>I drive for a voluntary organisation to help people who can't leave their homes. Is my insurance still valid?</h2>
+        <p>If you're using your car for voluntary purposes to transport medicines or groceries to help others impacted by coronavirus, your cover won't be affected. </p>
+        <p>In addition, if you've become an NHS Volunteer Responder your car will also be covered for community response, patient transport and NHS transport volunteering. </p>
+        <p>You don't need to contact us either to update your policy or extend your cover.</p>
+        <hr />
+        <br />
+        <h2>Am I still insured to drive if my car's MOT has expired? </h2>
+        <p>If the MOT certificate of your vehicle expires between 30 March and 31 July 2020, the expiry date will be extended for 6 months by the Driver &amp; Vehicle Standards Agency. </p>
+        <p>Your car insurance will still be valid during the extension, and we won't decline any claims for failure to have an MOT.</p>
+        <p>Meanwhile, your vehicle must be kept taxed and in a roadworthy condition, and garages are open for repairs. Drivers can still be prosecuted if they drive an unsafe vehicle. </p>
+        <p>MOT certificates that expire from 1 August 2020 onwards require an MOT test as usual. </p>
+        <p>The extension was put in place to limit the spread of the coronavirus, and enable you to drive to work, where this can't be done from home, or shop for necessities.
+        </p>
+        <hr />
+        <br />
+        <h2>Your insurance offers</h2>
+        <p><strong>I can't spend my retail shopping voucher at the moment</strong></p>
+        <p>If you've received a retail shopping voucher from us, we understand that spending it may be not be possible now. </p>
+        <p>Don't worry, we're giving you longer to spend it. The redemption period has been extended from 3 to 6 months from the date your policy renewed. </p>
+        <p><strong>Can I still collect my dash cam from Halfords?</strong></p>
+        <p>Yes. Halfords have reopened for click and collect orders. Use your AA dash cam redemption code via the link on your email and use the click and collect service.</p>
+        <p>For the safety of customers and staff, Halfords aren&rsquo;t currently offering a fitting service. If you want this service, keep your code and redeem your dash cam once the fitting service is available. Your dash cam code is valid for 12 months.</p>
+        <hr />
+        <p><strong>Find out how the AA is responding to the <a href="/about-us/coronavirus-covid-19">coronavirus situation</a>.</strong></p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201015T085400Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: "Your car insurance during coronavirus (COVID-19)"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201015T085413Z
+  - Version: 14
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201015T092111Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "22fda74c-3f78-40ec-83e6-28f920d0399c"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h2>Changes to our opening hours</h2>
+        <p>Some of the call centre times listed in our emails and letters have changed due to the coronavirus situation.</p>
+        <p>Because the lines are very busy, and to ensure we can offer the best service, we're constantly reviewing these times.</p>
+        <p>For quotes, policy queries and renewals you can find our <a href="#times">current times below</a>. And you can still report a claim anytime by calling us on <strong>0800 269 622</strong>.
+        </p>
+        <p>You can also contact us about a policy query by using our <a href="/car-insurance/already-with-us#policy-query">online form</a>.</p>
+        <hr />
+        <br />
+        <h2>Help for drivers during the coronavirus crisis</h2>
+        <p><strong>I'm struggling to pay my monthly insurance payment</strong></p>
+        <p>We're aware of the impact of the coronavirus crisis on people's jobs and income, and have a range of options to support you.</p>
+        <p>If you're concerned about paying for your insurance, email us at <a href="mailto:instalments@theaa.com">instalments@theaa.com</a>, or call us  on <strong>0370 533 2211</strong> as soon as possible, and we'll try to help.</p>
+        <p><strong>I need to alter or cancel my policy &ndash; do you charge a fee?</strong></p>
+        <p>While there's usually a fee to change or cancel your policy, as a responsible broker we&rsquo;re supporting our customers as much as we can in these difficult times. So if you need to make a change or cancel your policy as a result of the coronavirus situation, we'll waive our usual adjustment and cancellation fees.
+        </p>
+        <p>You can call us on <strong>0370 533 221, </strong>or you can request a change by using our <a href="/car-insurance/already-with-us#policy-query">online form</a>.
+        </p>
+        <p><strong>I've been furloughed or become unemployed as a result of the coronavirus situation. Should my policy be updated to reflect this change in occupation?</strong></p>
+        <p>If you're now on furlough, your car insurance is still valid. There's no need to contact us to update your policy. </p>
+        <p>If you've been made unemployed, let us know <a href="~/link.aspx?_id=2119F64E76EA48B0BE8876C0A7D67369&amp;_z=z">using this form</a>. Your policy is still valid. When it's due for renewal, tell us if you're back in employment and we can update your policy.</p>
+        <hr />
+        <br />
+        <h2>My car insurance policy</h2>
+        <p><strong>Can you still send my policy documents?</strong></p>
+        <p>When buying your insurance, you could choose to receive your documents either by email or post. </p>
+        <p>If you chose email, you can <a href="https://auth.theaa.com/auth/XUI/">log in and view your documents here</a>. </p>
+        <p>If you chose documents by post, they won't also be available online. </p>
+        <p>Normally, they should arrive within 5 to 7 working days. Due to the coronavirus situation there may be postal delays, so please allow up to 14 working days. If there are delays we may send documents by email as well as post, plus text messages for anything important about your policy. </p>
+        <p>If you requested alternative format documents &ndash; large print, audio and braille &ndash; they'll now come separately from your standard pack. Again, allow up to 14 days for them to arrive.</p>
+        <p><strong>How can I renew my policy?</strong></p>
+        <p>We send you a renewal invitation at least 3 weeks before the policy is due for renewal. It tells you if your policy will renew automatically, or if you need to call to renew.</p>
+        <p>If you have automatic renewal in place &ndash; whether you pay monthly or by annual payment &ndash; and the cover still meets your needs, and your details are correct, then you don't need to do anything. </p>
+        <p>We'll send or email your renewal documents once your policy has renewed. </p>
+        <p>If you don't have automatic renewal, you'll need to call us on the number in your renewal invitation. Do bear with us, our phone lines are really busy.</p>
+        <p><strong>What if I have a question about my renewal?</strong></p>
+        <p>To discuss your renewal, you can call us on the number in your renewal invitation. </p>
+        <p>We can also help you by email. If your renewal date is more than 10 days away, send your query to our <a href="mailto:insurancerenewals@theaa.com">renewals team</a>. They'll get back to you within 2 days.</p>
+        <p><strong>Can a friend, family member or carer manage my policy on my behalf?</strong></p>
+        <p>If you're unwell or for any other reason need a trusted friend or family member to contact us about your policy, let us know and we'll arrange to add their details to your account.</p>
+        <p><strong>I'm a previous customer. Where can I find proof of my no claim discount?</strong></p>
+        <p>If you no longer have car insurance with us, the renewal notice in your renewal invitation will be proof of the number of years no claim discount earned by you.</p>
+        <hr />
+        <br />
+        <h2>Claims and repairs</h2>
+        <p><strong>I need to make a claim</strong></p>
+        <p>Our claims team is operating as normal, and you can report your car insurance claim by calling us on <strong>0800 269 622</strong>.</p>
+        <p><strong>I've had an accident and my vehicle isn't drivable</strong></p>
+        <p>Don't worry, we'll recover your vehicle to a place of safety. If our local approved repairer is open, they'll book it in and provide an estimated completion date. </p>
+        <p>Due to parts availability, the repairs could take longer than usual.</p>
+        <p><strong>I've had an accident but my vehicle is drivable</strong></p>
+        <p>If our local approved repairer is open, they'll book it in for an estimate. If the repairer has capacity, they'll book it in for repairs and give you an estimated completion date. </p>
+        <p>Due to parts availability, the repairs could take longer than usual.</p>
+        <p><strong>Will I get a courtesy car while my vehicle is being repaired?</strong></p>
+        <p>We'll discuss your particular needs for mobility. However, courtesy cars and replacement hire vehicles might be in short supply and they'll be prioritised for key workers, in particular NHS and emergency services staff, as well as vulnerable customers.</p>
+        <p><strong>What if my vehicle is already with the approved repairer?</strong></p>
+        <p>The approved repairer will contact you about the status of your repair, and say when they can complete the work. </p>
+        <p>If your vehicle is driveable and the work has yet to start, we might have to return it to you and rebook when the repairer has the capacity.</p>
+        <p><strong>What if I've got the Car Hire policy?</strong></p>
+        <p>This additional cover provides you with a hire car if your vehicle is deemed a total loss. We'll endeavour to provide you with a car. </p>
+        <p>If you currently have a hire car, we'll liaise with you regarding its continued use if you're a key worker, even if this goes beyond the number of days the policy allows.</p>
+        <hr />
+        <br />
+        <h2> Drivers who have self-isolated</h2>
+        <p><strong>I have to self-isolate and need someone to drive my car to get essential supplies. Will they be insured?</strong></p>
+        <p>You've a choice of options if the helper has a valid driving licence.</p>
+        <p>If the person has <strong>Driving Other Cars</strong> cover on their car insurance, they can use your vehicle with your permission. However, they'll only have third-party cover, and Driving Other Cars cover is intended for short-term emergency use. </p>
+        <p>Or if you have comprehensive insurance, and want to ensure that damage is covered when someone else uses your car, call us on <strong>0370 533 2211</strong> to add them to your policy as a named driver.</p>
+        <p><strong>Can I pause my car insurance while I'm self-isolated?</strong></p>
+        <p>No, you can't pause your car insurance. It's a legal requirement to have valid car insurance unless you apply for a <a href="https://www.gov.uk/make-a-sorn" title="https://www.gov.uk/make-a-sorn">Statutory Off Road Notification.</a> If your car has a SORN and you want to cancel your insurance, call us on <strong>0370 533 2211</strong>. </p>
+        <p>Although you might not be driving your car, keeping it insured will cover you for theft and vandalism.</p>
+        <p><strong>Am I insured if I drive someone else's car?</strong></p>
+        <p>If you have Driving Other Cars cover on your certificate of insurance, then with the owner&rsquo;s permission you can drive their car. However you&rsquo;ll only have third-party cover, and Driving Other Cars cover is intended for short-term emergency use. More details about this benefit are in your <a href="~/link.aspx?_id=234F348F5D13407E8305BC33FF67F8AE&amp;_z=z">Car Insurance Policy Booklet</a>.</p>
+        <hr />
+        <br />
+        <h2> I must now drive to work instead of using public transport. Will my car insurance still be valid?</h2>
+        <p>If you need to drive to your workplace because of the coronavirus situation, your insurance policy will be valid. You don't need to contact us either to update your policy or extend your cover.</p>
+        <p>If you work in one of the critical sectors <a href="https://www.gov.uk/government/publications/coronavirus-covid-19-maintaining-educational-provision/guidance-for-schools-colleges-and-local-authorities-on-maintaining-educational-provision">listed by the government</a> and need to drive to different work locations because of the coronavirus situation, your cover won't be affected. You don't need to contact us.</p>
+        <hr />
+        <br />
+        <h2>I drive for a voluntary organisation to help people who can't leave their homes. Is my insurance still valid?</h2>
+        <p>If you're using your car for voluntary purposes to transport medicines or groceries to help others impacted by coronavirus, your cover won't be affected. </p>
+        <p>In addition, if you've become an NHS Volunteer Responder your car will also be covered for community response, patient transport and NHS transport volunteering. </p>
+        <p>You don't need to contact us either to update your policy or extend your cover.</p>
+        <hr />
+        <br />
+        <h2>Am I still insured to drive if my car's MOT has expired? </h2>
+        <p>If the MOT certificate of your vehicle expires between 30 March and 31 July 2020, the expiry date will be extended for 6 months by the Driver &amp; Vehicle Standards Agency. </p>
+        <p>Your car insurance will still be valid during the extension, and we won't decline any claims for failure to have an MOT.</p>
+        <p>Meanwhile, your vehicle must be kept taxed and in a roadworthy condition, and garages are open for repairs. Drivers can still be prosecuted if they drive an unsafe vehicle. </p>
+        <p>MOT certificates that expire from 1 August 2020 onwards require an MOT test as usual. </p>
+        <p>The extension was put in place to limit the spread of the coronavirus, and enable you to drive to work, where this can't be done from home, or shop for necessities.
+        </p>
+        <hr />
+        <br />
+        <h2>Your insurance offers</h2>
+        <p><strong>I can't spend my retail shopping voucher at the moment</strong></p>
+        <p>If you've received a retail shopping voucher from us, we understand that spending it may be not be possible now. </p>
+        <p>Don't worry, we're giving you longer to spend it. The redemption period has been extended from 3 to 6 months from the date your policy renewed. </p>
+        <p><strong>Can I still collect my dash cam from Halfords?</strong></p>
+        <p>Yes. Halfords have reopened for click and collect orders. Use your AA dash cam redemption code via the link on your email and use the click and collect service.</p>
+        <p>For the safety of customers and staff, Halfords aren&rsquo;t currently offering a fitting service. If you want this service, keep your code and redeem your dash cam once the fitting service is available. Your dash cam code is valid for 12 months.</p>
+        <hr />
+        <p><strong>Find out how the AA is responding to the <a href="/about-us/coronavirus-covid-19">coronavirus situation</a>.</strong></p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201015T092111Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: "Your car insurance during coronavirus (COVID-19)"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201015T092356Z
+  - Version: 15
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201015T092859Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b68f1fcf-5d01-4e48-a332-455d22860383"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h2>Changes to our opening hours</h2>
+        <p>Some of the call centre times listed in our emails and letters have changed due to the coronavirus situation.</p>
+        <p>Because the lines are very busy, and to ensure we can offer the best service, we're constantly reviewing these times.</p>
+        <p>For quotes, policy queries and renewals you can find our <a href="#times">current times below</a>. And you can still report a claim anytime by calling us on <strong>0800 269 622</strong>.
+        </p>
+        <p>You can also contact us about a policy query by using our <a href="/car-insurance/already-with-us#policy-query">online form</a>.</p>
+        <hr />
+        <br />
+        <h2>Help for drivers during the coronavirus crisis</h2>
+        <p><strong>I'm struggling to pay my monthly insurance payment</strong></p>
+        <p>We're aware of the impact of the coronavirus crisis on people's jobs and income, and have a range of options to support you.</p>
+        <p>If you're concerned about paying for your insurance, email us at <a href="mailto:instalments@theaa.com">instalments@theaa.com</a>, or call us  on <strong>0370 533 2211</strong> as soon as possible, and we'll try to help.</p>
+        <p><strong>I need to alter or cancel my policy &ndash; do you charge a fee?</strong></p>
+        <p>While there's usually a fee to change or cancel your policy, as a responsible broker we're supporting our customers as much as we can in these difficult times. So if you need to make a change or cancel your policy as a result of the coronavirus situation, we'll waive our usual adjustment and cancellation fees.
+        </p>
+        <p>You can call us on <strong>0370 533 221, </strong>or you can request a change by using our <a href="/car-insurance/already-with-us#policy-query">online form</a>.
+        </p>
+        <p><strong>I've been furloughed or become unemployed as a result of the coronavirus situation. Should my policy be updated to reflect this change in occupation?</strong></p>
+        <p>If you're now on furlough, your car insurance is still valid. There's no need to contact us to update your policy. </p>
+        <p>If you've been made unemployed, let us know <a href="~/link.aspx?_id=2119F64E76EA48B0BE8876C0A7D67369&amp;_z=z">using this form</a>. Your policy is still valid. When it's due for renewal, tell us if you're back in employment and we can update your policy.</p>
+        <hr />
+        <br />
+        <h2>My car insurance policy</h2>
+        <p><strong>Can you still send my policy documents?</strong></p>
+        <p>When buying your insurance, you could choose to receive your documents either by email or post. </p>
+        <p>If you chose email, you can <a href="https://auth.theaa.com/auth/XUI/">log in and view your documents here</a>. </p>
+        <p>If you chose documents by post, they won't also be available online. </p>
+        <p>Normally, they should arrive within 5 to 7 working days. Due to the coronavirus situation there may be postal delays, so please allow up to 14 working days. If there are delays we may send documents by email as well as post, plus text messages for anything important about your policy. </p>
+        <p>If you requested alternative format documents &ndash; large print, audio and braille &ndash; they'll now come separately from your standard pack. Again, allow up to 14 days for them to arrive.</p>
+        <p><strong>How can I renew my policy?</strong></p>
+        <p>We send you a renewal invitation at least 3 weeks before the policy is due for renewal. It tells you if your policy will renew automatically, or if you need to call to renew.</p>
+        <p>If you have automatic renewal in place &ndash; whether you pay monthly or by annual payment &ndash; and the cover still meets your needs, and your details are correct, then you don't need to do anything. </p>
+        <p>We'll send or email your renewal documents once your policy has renewed. </p>
+        <p>If you don't have automatic renewal, you'll need to call us on the number in your renewal invitation. Do bear with us, our phone lines are really busy.</p>
+        <p><strong>What if I have a question about my renewal?</strong></p>
+        <p>To discuss your renewal, you can call us on the number in your renewal invitation. </p>
+        <p>We can also help you by email. If your renewal date is more than 10 days away, send your query to our <a href="mailto:insurancerenewals@theaa.com">renewals team</a>. They'll get back to you within 2 days.</p>
+        <p><strong>Can a friend, family member or carer manage my policy on my behalf?</strong></p>
+        <p>If you're unwell or for any other reason need a trusted friend or family member to contact us about your policy, let us know and we'll arrange to add their details to your account.</p>
+        <p><strong>I'm a previous customer. Where can I find proof of my no claim discount?</strong></p>
+        <p>If you no longer have car insurance with us, the renewal notice in your renewal invitation will be proof of the number of years no claim discount earned by you.</p>
+        <hr />
+        <br />
+        <h2>Claims and repairs</h2>
+        <p><strong>I need to make a claim</strong></p>
+        <p>Our claims team is operating as normal, and you can report your car insurance claim by calling us on <strong>0800 269 622</strong>.</p>
+        <p><strong>I've had an accident and my vehicle isn't drivable</strong></p>
+        <p>Don't worry, we'll recover your vehicle to a place of safety. If our local approved repairer is open, they'll book it in and provide an estimated completion date. </p>
+        <p>Due to parts availability, the repairs could take longer than usual.</p>
+        <p><strong>I've had an accident but my vehicle is drivable</strong></p>
+        <p>If our local approved repairer is open, they'll book it in for an estimate. If the repairer has capacity, they'll book it in for repairs and give you an estimated completion date. </p>
+        <p>Due to parts availability, the repairs could take longer than usual.</p>
+        <p><strong>Will I get a courtesy car while my vehicle is being repaired?</strong></p>
+        <p>We'll discuss your particular needs for mobility. However, courtesy cars and replacement hire vehicles might be in short supply and they'll be prioritised for key workers, in particular NHS and emergency services staff, as well as vulnerable customers.</p>
+        <p><strong>What if my vehicle is already with the approved repairer?</strong></p>
+        <p>The approved repairer will contact you about the status of your repair, and say when they can complete the work. </p>
+        <p>If your vehicle is driveable and the work has yet to start, we might have to return it to you and rebook when the repairer has the capacity.</p>
+        <p><strong>What if I've got the Car Hire policy?</strong></p>
+        <p>This additional cover provides you with a hire car if your vehicle is deemed a total loss. We'll endeavour to provide you with a car. </p>
+        <p>If you currently have a hire car, we'll liaise with you regarding its continued use if you're a key worker, even if this goes beyond the number of days the policy allows.</p>
+        <hr />
+        <br />
+        <h2> Drivers who have self-isolated</h2>
+        <p><strong>I have to self-isolate and need someone to drive my car to get essential supplies. Will they be insured?</strong></p>
+        <p>You've a choice of options if the helper has a valid driving licence.</p>
+        <p>If the person has <strong>Driving Other Cars</strong> cover on their car insurance, they can use your vehicle with your permission. However, they'll only have third-party cover, and Driving Other Cars cover is intended for short-term emergency use. </p>
+        <p>Or if you have comprehensive insurance, and want to ensure that damage is covered when someone else uses your car, call us on <strong>0370 533 2211</strong> to add them to your policy as a named driver.</p>
+        <p><strong>Can I pause my car insurance while I'm self-isolated?</strong></p>
+        <p>No, you can't pause your car insurance. It's a legal requirement to have valid car insurance unless you apply for a <a href="https://www.gov.uk/make-a-sorn">Statutory Off Road Notification.</a> If your car has a SORN and you want to cancel your insurance, call us on <strong>0370 533 2211</strong>. </p>
+        <p>Although you might not be driving your car, keeping it insured will cover you for theft and vandalism.</p>
+        <p><strong>Am I insured if I drive someone else's car?</strong></p>
+        <p>If you have Driving Other Cars cover on your certificate of insurance, then with the owner&rsquo;s permission you can drive their car. However you&rsquo;ll only have third-party cover, and Driving Other Cars cover is intended for short-term emergency use. More details about this benefit are in your <a href="~/link.aspx?_id=234F348F5D13407E8305BC33FF67F8AE&amp;_z=z">Car Insurance Policy Booklet</a>.</p>
+        <hr />
+        <br />
+        <h2> I must now drive to work instead of using public transport. Will my car insurance still be valid?</h2>
+        <p>If you need to drive to your workplace because of the coronavirus situation, your insurance policy will be valid. You don't need to contact us either to update your policy or extend your cover.</p>
+        <p>If you work in one of the critical sectors <a href="https://www.gov.uk/government/publications/coronavirus-covid-19-maintaining-educational-provision/guidance-for-schools-colleges-and-local-authorities-on-maintaining-educational-provision">listed by the government</a> and need to drive to different work locations because of the coronavirus situation, your cover won't be affected. You don't need to contact us.</p>
+        <hr />
+        <br />
+        <h2>I drive for a voluntary organisation to help people who can't leave their homes. Is my insurance still valid?</h2>
+        <p>If you're using your car for voluntary purposes to transport medicines or groceries to help others impacted by coronavirus, your cover won't be affected. </p>
+        <p>In addition, if you've become an NHS Volunteer Responder your car will also be covered for community response, patient transport and NHS transport volunteering. </p>
+        <p>You don't need to contact us either to update your policy or extend your cover.</p>
+        <hr />
+        <br />
+        <h2>Am I still insured to drive if my car's MOT has expired? </h2>
+        <p>If the MOT certificate of your vehicle expires between 30 March and 31 July 2020, the expiry date will be extended for 6 months by the Driver &amp; Vehicle Standards Agency. </p>
+        <p>Your car insurance will still be valid during the extension, and we won't decline any claims for failure to have an MOT.</p>
+        <p>Meanwhile, your vehicle must be kept taxed and in a roadworthy condition, and garages are open for repairs. Drivers can still be prosecuted if they drive an unsafe vehicle. </p>
+        <p>MOT certificates that expire from 1 August 2020 onwards require an MOT test as usual. </p>
+        <p>The extension was put in place to limit the spread of the coronavirus, and enable you to drive to work, where this can't be done from home, or shop for necessities.
+        </p>
+        <hr />
+        <br />
+        <h2>Your insurance offers</h2>
+        <p><strong>I can't spend my retail shopping voucher at the moment</strong></p>
+        <p>If you've received a retail shopping voucher from us, we understand that spending it may be not be possible now. </p>
+        <p>Don't worry, we're giving you longer to spend it. The redemption period has been extended from 3 to 6 months from the date your policy renewed. </p>
+        <p><strong>Can I still collect my dash cam from Halfords?</strong></p>
+        <p>Yes. Halfords have reopened for click and collect orders. Use your AA dash cam redemption code via the link on your email and use the click and collect service.</p>
+        <p>For the safety of customers and staff, Halfords aren't currently offering a fitting service. If you want this service, keep your code and redeem your dash cam once the fitting service is available. Your dash cam code is valid for 12 months.</p>
+        <hr />
+        <p><strong>Find out how the AA is responding to the <a><a href="~/link.aspx?_id=1162736BF3C347CAA870832701E451F2&amp;_z=z">coronavirus situation</a></a>.</strong></p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201015T092859Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: "Your car insurance during coronavirus (COVID-19)"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211207T114647Z

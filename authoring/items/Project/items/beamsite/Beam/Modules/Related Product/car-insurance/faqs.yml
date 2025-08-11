@@ -1,0 +1,215 @@
+﻿---
+ID: "bee6cbf1-20f4-476e-b5f9-7844c52655da"
+Parent: "25af4835-a90b-40be-bc3a-00dfd25ab4bb"
+Template: "7a33a0c3-80aa-4a5f-a21e-154cf421ff4d"
+Path: "/sitecore/content/AA/Beam/Modules/Related Product/car-insurance/faqs"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0b25eea9-cb1a-448c-81c4-315bbf6aff2a"
+      Hint: SupportingText
+      Value: If you've got a question about your renewal, we can help.
+    - ID: "0bac74a9-e487-451e-9fee-31e8a08d37a2"
+      Hint: Title
+      Value: "Time to renew your policy?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211216T173015Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2c6d50b7-2c5b-4854-a946-e1b22cd14055"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "cb3b892e-89a4-44c6-84a7-f42c2294354a"
+      Hint: PrimaryCta
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220407T092507Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0b25eea9-cb1a-448c-81c4-315bbf6aff2a"
+      Hint: SupportingText
+      Value: "Got a question that hasn’t been answered here? Our FAQs page might have the answer you need."
+    - ID: "0bac74a9-e487-451e-9fee-31e8a08d37a2"
+      Hint: Title
+      Value: FAQs
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220125T175147Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7ec71f72-da47-4614-9c1b-75bd5e6b0687"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220125T175147Z
+    - ID: "cb3b892e-89a4-44c6-84a7-f42c2294354a"
+      Hint: PrimaryCta
+      Value: |
+        <link class="" querystring="" id="{18D4D05B-BF5A-42C1-AC08-7855E6DBB6B9}" anchor="" target="" title="" linktype="internal" text="Explore our FAQs" url="/AA/Beam/Home/car-insurance/faqs" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250805T075737Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0b25eea9-cb1a-448c-81c4-315bbf6aff2a"
+      Hint: SupportingText
+      Value: "Got a question that hasn’t been answered here? Our FAQs page might have the answer you need."
+    - ID: "0bac74a9-e487-451e-9fee-31e8a08d37a2"
+      Hint: Title
+      Value: FAQs
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220125T180106Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ffa1d7ee-4c86-4706-ab3f-1462045dccb2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220125T180106Z
+    - ID: "cb3b892e-89a4-44c6-84a7-f42c2294354a"
+      Hint: PrimaryCta
+      Value: |
+        <link class="" querystring="" id="{18D4D05B-BF5A-42C1-AC08-7855E6DBB6B9}" anchor="" target="" title="" linktype="internal" text="Explore our FAQs" url="/AA/Beam/Home/car-insurance/faqs" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250805T075737Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0b25eea9-cb1a-448c-81c4-315bbf6aff2a"
+      Hint: SupportingText
+      Value: "Got a question that hasn’t been answered here? Our FAQs page might have the answer."
+    - ID: "0bac74a9-e487-451e-9fee-31e8a08d37a2"
+      Hint: Title
+      Value: FAQs
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230525T122649Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9230f884-ca30-471a-bc9f-019d4b410e42"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230525T122649Z
+    - ID: "cb3b892e-89a4-44c6-84a7-f42c2294354a"
+      Hint: PrimaryCta
+      Value: |
+        <link class="" querystring="" id="{18D4D05B-BF5A-42C1-AC08-7855E6DBB6B9}" anchor="" target="" title="" linktype="internal" text="Explore our FAQs" url="/AA/Beam/Home/car-insurance/faqs" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250805T075738Z
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0b25eea9-cb1a-448c-81c4-315bbf6aff2a"
+      Hint: SupportingText
+      Value: "Got a question that hasn’t been answered here? Our FAQs page could have the answer."
+    - ID: "0bac74a9-e487-451e-9fee-31e8a08d37a2"
+      Hint: Title
+      Value: FAQs
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241113T103851Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "20b0595d-e55b-46bf-8968-140ad77f84c6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241113T103851Z
+    - ID: "cb3b892e-89a4-44c6-84a7-f42c2294354a"
+      Hint: PrimaryCta
+      Value: |
+        <link class="" querystring="" id="{18D4D05B-BF5A-42C1-AC08-7855E6DBB6B9}" anchor="" target="" title="" linktype="internal" text="Explore our FAQs" url="/AA/Beam/Home/car-insurance/faqs" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250805T075738Z

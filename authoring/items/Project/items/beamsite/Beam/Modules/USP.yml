@@ -1,0 +1,27 @@
+﻿---
+ID: "3dde6bcf-3f5c-49a8-aa81-a7bf89df3bbd"
+Parent: "f4f8517a-cc4b-4ef8-88b8-fcc703133396"
+Template: "71864362-db47-4ac4-a87c-99eccc910e2b"
+Path: /sitecore/content/AA/Beam/Modules/USP
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211207T122549Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f8eedd1a-3807-489b-bc0e-d132f0cf0bbf"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\damireddye
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220201T101218Z

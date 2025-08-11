@@ -1,0 +1,42 @@
+﻿---
+ID: "6b9092a1-e560-4b06-8108-0cb5e068bcd3"
+Parent: "43c3884a-f1c3-4bfa-8d93-134711a55fa9"
+Template: "38a7b794-b3b3-4e28-9ddf-e40b4a9d1f43"
+Path: /sitecore/content/AA/Beam/Modules/RTB/RTBs/test 3
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220218T190013Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5023cfba-dd44-4a2c-9863-d79897b496f5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\patils
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220222T105724Z
+    - ID: "e8e2c6ae-20bd-4752-9d08-03308b238898"
+      Hint: Content
+      Value: |
+        <figure><img src="~/media/the-aa/top-width-component/product-builder/roadside-assistance.svg" alt=""></figure>
+                                 <p>We fix 8/10 cars at the roadside</p>

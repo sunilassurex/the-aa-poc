@@ -1,0 +1,37 @@
+﻿---
+ID: "7a19d773-f3c9-493f-905c-a9d3eecf54e6"
+Parent: "b2acfd33-e889-4299-a2d1-ebd30bc8e38e"
+Template: "d72990ff-9d30-44f7-837d-65a022d997de"
+Path: "/sitecore/content/AA/Beam/Modules/Product Builder/Products/insurance/car-insurance/compare-cover-levels/Third Party"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160707T141711Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jincaa
+    - ID: "630c85d8-33b4-48a8-b135-5b9a7245104b"
+      Hint: ProductName
+      Value: Third Party
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5761b4ca-eefa-43cc-8326-bdafb60d8cd1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220126T164607Z

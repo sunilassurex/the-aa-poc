@@ -1,0 +1,40 @@
+﻿---
+ID: "a0790b3e-2ebf-47bf-9397-7bb0b02393ec"
+Parent: "28642a9a-f112-4a9d-bc3c-451d483e06e9"
+Template: "0a5c5947-73d8-447e-b2a1-717aba2811ae"
+Path: "/sitecore/content/AA/Beam/Modules/Product Builder/Features/insurance/car-insurance/compare-cover-levels/No claims discount"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 800
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1cb022c4-8a5b-4b2a-96fb-1ccd449845cc"
+      Hint: ProductFeatureName
+      Value: "No claims discount for claim-free driving"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160707T132945Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jincaa
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4ed0a507-1784-4229-a255-ddbabb86b317"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220126T164609Z

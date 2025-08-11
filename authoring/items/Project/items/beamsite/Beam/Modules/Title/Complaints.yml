@@ -1,0 +1,31 @@
+﻿---
+ID: "1675b295-7aa0-4046-8b17-ef8022e5150f"
+Parent: "be4969e6-c1af-4dce-b749-98bd243c69e4"
+Template: "991f757c-6948-4e2c-988a-870fe0c59f48"
+Path: /sitecore/content/AA/Beam/Modules/Title/Complaints
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211230T111659Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "42aa79db-8d9a-4428-8a8f-f6f160015b39"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220822T120002Z

@@ -1,0 +1,32 @@
+﻿---
+ID: "729b2f9a-ce14-4d15-b021-5c97222b541f"
+Parent: "fcd94127-8016-400c-b548-87e07da10bb2"
+Template: "5b10f495-3982-49f0-9b30-4dd7df468946"
+Path: /sitecore/content/AA/Beam/Modules/Tealium/TealiumTag
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220303T094024Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fc223a73-d0a2-4e33-907a-c982f9b5af04"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\damireddye
+    - ID: "c7c1c99b-4f24-426a-98eb-ec1638abb327"
+      Hint: EnvironmentName
+      Value: prod
+    - ID: "d5667896-95fe-4b7a-95b9-bf9ea15458da"
+      Hint: AccountName
+      Value: theaa
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220407T084741Z
+    - ID: "e62b8d0f-737f-4099-8ab6-a2bbd9bf96bd"
+      Hint: TealiumProfileType
+      Value: beam

@@ -1,0 +1,182 @@
+﻿---
+ID: "e23bec16-65cb-464a-82cd-fcf49f836b09"
+Parent: "3e35cbc6-bed1-4914-8cda-f760c1eaaf3f"
+Template: "a29a23e3-b641-4a9b-a6e6-61a6c2d8464c"
+Path: "/sitecore/content/AA/Beam/Modules/Title/car-insurance/faqs"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211201T152304Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4414712e-7c92-4c88-8124-97e66f49b058"
+      Hint: H3Text
+      Value: Whether you're a new customer or need to ask about your cover, we're here to help
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8a02c8b4-aae1-43a3-bb73-ba6b96c5c4fb"
+      Hint: H1AltTitleText
+      Value: Car insurance FAQs
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ef458592-3b84-427a-bab9-d6b340b799a0"
+    - ID: "a5253c24-2be4-45d7-9b30-165f1b2b26bf"
+      Hint: H1TitleText
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\damireddye
+    - ID: "cc3019ff-3d43-4cfa-ad9b-ae23e7aba49c"
+      Hint: HeroTitleText
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220113T122619Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220202T141725Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4414712e-7c92-4c88-8124-97e66f49b058"
+      Hint: H3Text
+      Value: Whether you're a new customer or need to ask about your cover, we're here to help
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8a02c8b4-aae1-43a3-bb73-ba6b96c5c4fb"
+      Hint: H1AltTitleText
+      Value: Car insurance FAQs
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "11f58579-6036-4688-91c9-ab6fb00aae25"
+    - ID: "a5253c24-2be4-45d7-9b30-165f1b2b26bf"
+      Hint: H1TitleText
+      Value: CAR INSURANCE FAQS
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220202T141725Z
+    - ID: "cc3019ff-3d43-4cfa-ad9b-ae23e7aba49c"
+      Hint: HeroTitleText
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220202T141809Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220202T152526Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4414712e-7c92-4c88-8124-97e66f49b058"
+      Hint: H3Text
+      Value: Whether you're a new customer or need to ask about your cover, we're here to help
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8a02c8b4-aae1-43a3-bb73-ba6b96c5c4fb"
+      Hint: H1AltTitleText
+      Value: 
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c12fc1bd-3fbb-401f-aa8f-e1d29585592b"
+    - ID: "a5253c24-2be4-45d7-9b30-165f1b2b26bf"
+      Hint: H1TitleText
+      Value: CAR INSURANCE FAQS
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220202T152526Z
+    - ID: "cc3019ff-3d43-4cfa-ad9b-ae23e7aba49c"
+      Hint: HeroTitleText
+      Value: Car insurance FAQs
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220822T115628Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241113T104201Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4414712e-7c92-4c88-8124-97e66f49b058"
+      Hint: H3Text
+      Value: Whether you're a new customer or need to ask about your cover, we're here to help
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "8a02c8b4-aae1-43a3-bb73-ba6b96c5c4fb"
+      Hint: H1AltTitleText
+      Value: Car insurance FAQs
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a00481f5-c550-425e-b2fa-54754c98f5bc"
+    - ID: "a5253c24-2be4-45d7-9b30-165f1b2b26bf"
+      Hint: H1TitleText
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241113T104201Z
+    - ID: "cc3019ff-3d43-4cfa-ad9b-ae23e7aba49c"
+      Hint: HeroTitleText
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241113T104427Z

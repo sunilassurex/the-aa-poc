@@ -1,0 +1,326 @@
+﻿---
+ID: "bded7d2c-ebf5-4fa6-af39-699879b7cfed"
+Parent: "4d9dbd3f-507f-4332-8ed4-dcec335f8a50"
+Template: "11e11bcb-aa73-4cd2-a73e-fbeedfe8da05"
+Path: "/sitecore/content/AA/Beam/Modules/Accordion/car-insurance/existing-customers/existing-customers-row7/Where can I find my policy documents"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160701T154142Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jincaa
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "adbcb8a1-634e-41ab-9145-142cf6bea0d9"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <p>If you already hold car insurance with us, you can <a href="/myAA/viewSignInRegister.do">sign in</a> to access your policy documents.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jincaa
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: "Where can I find my policy documents?"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20160715T134517Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160722T112053Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Carruthersk
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "930b4622-8d74-4b43-bf2e-c606e2e4e2ec"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <p>If you already hold car insurance with us, you can <a href="/myAA/viewSignInRegister.do">sign in</a> to access your policy documents.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Carruthersk
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20160722T112053Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: "Where can I find my policy documents?"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20160722T112111Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160725T102814Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jincaa
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e8cf474f-dd79-49fa-a027-d202f8290994"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h5><a href="/myAA/viewSignInRegister.do">Sign in</a></h5>
+        <p>If you already hold car insurance with us, you can sign in to access your policy documents.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jincaa
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20160725T102814Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: "Where can I find my policy documents?"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20160725T102952Z
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160727T102836Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jincaa
+    - ID: "749a64ef-7923-4778-84e9-4c7e1aa9cbe0"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c1136f61-1277-447e-bbf9-a7acb84f8bcf"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h5><a href="/myAA/viewSignInRegister.do">Sign in</a></h5>
+        <p>If you already hold car insurance with us, you can sign in to access your policy documents.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jincaa
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20160727T102836Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: "Where can I find my policy documents?"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20160727T102857Z
+  - Version: 5
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181011T143930Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "749a64ef-7923-4778-84e9-4c7e1aa9cbe0"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3170767e-029f-4b6c-bf69-f476921a6ca7"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h5><a href="~/link.aspx?_id=696317C92C9443E5917575A761C705E1&amp;_z=z">Sign in</a></h5>
+        <p>If you already hold car insurance with us, you can sign in to access your policy documents.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20181011T143930Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: "Where can I find my policy documents?"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20181011T144117Z
+  - Version: 6
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181012T075244Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "749a64ef-7923-4778-84e9-4c7e1aa9cbe0"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1df98d68-2b0f-4661-99b8-f29106ff109c"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h5><a><a href="~/link.aspx?_id=696317C92C9443E5917575A761C705E1&amp;_z=z">Sign in</a></a></h5>
+        <p>If you already hold car insurance with us, you can sign in to access your policy documents.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20181012T075244Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: "Where can I find my policy documents?"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20181012T075521Z
+  - Version: 7
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181023T123513Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "749a64ef-7923-4778-84e9-4c7e1aa9cbe0"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "966771f8-b240-4df1-bebd-1e12b90c2c6c"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <p>Learn more about <a href="~/link.aspx?_id=FF2F608273B645D1BAA39600A040E025&amp;_z=z">setting up your account</a> and seeing your policy documents online.</p>
+        <p>Or if you already hold car insurance with us, <a href="https://auth.theaa.com/auth/XUI/#login/">log in</a> to access your documents.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20181023T123513Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: "Where can I find my policy documents?"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20181023T125749Z
+  - Version: 8
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190121T142327Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "749a64ef-7923-4778-84e9-4c7e1aa9cbe0"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7a06d3a9-b4a5-4d02-b88e-06436a525dc5"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <p><a href="https://auth.theaa.com/auth/XUI/#login/">Log in or register</a> to find your insurance documents online.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190121T142327Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: "Where can I find my policy documents?"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20191219T105743Z
+  - Version: 9
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200803T133726Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "749a64ef-7923-4778-84e9-4c7e1aa9cbe0"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "df87bfeb-6fb6-4886-af81-23fd92f8cefa"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <p>When you bought your insurance, you could choose to receive your documents either by email or post. </p>
+        <p>If you chose email, you can <a href="https://auth.theaa.com/auth/XUI/">log in and view your documents here</a>. </p>
+        <p>If you chose documents by post, they won't also be available online.&nbsp; </p>
+        <p>Haven't received an email or postal documents yet? We can help, give us a call on <a href="tel:0370 533 2211">0370 533 2211</a>.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200803T133726Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: "Where can I find my policy documents?"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211125T121609Z

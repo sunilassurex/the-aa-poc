@@ -1,0 +1,174 @@
+﻿---
+ID: "73a3d228-1bfa-4151-9981-fc6b6b969ac9"
+Parent: "25af4835-a90b-40be-bc3a-00dfd25ab4bb"
+Template: "7a33a0c3-80aa-4a5f-a21e-154cf421ff4d"
+Path: "/sitecore/content/AA/Beam/Modules/Related Product/car-insurance/renewals"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0b25eea9-cb1a-448c-81c4-315bbf6aff2a"
+      Hint: SupportingText
+      Value: With Smart Insurance, get competitive cover powered by your driving. Ideal for less experienced drivers, our insurance has a 4 Star Rating by Defaqto.
+    - ID: "0bac74a9-e487-451e-9fee-31e8a08d37a2"
+      Hint: Title
+      Value: Switch to something smarter
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211216T114702Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "242245ad-c527-46e4-b94c-19d3e2d353b0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "cb3b892e-89a4-44c6-84a7-f42c2294354a"
+      Hint: PrimaryCta
+      Value: |
+        <link class="" querystring="" id="{BF67023F-5CB4-461A-A89C-0007BBCF8070}" anchor="" target="" title="" linktype="internal" text="Find out more" url="/AA/Beam/Home/car-insurance" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250805T075725Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0b25eea9-cb1a-448c-81c4-315bbf6aff2a"
+      Hint: SupportingText
+      Value: Fill in our dedicated renewals form and our team will get back to you as soon as possible. Don't use the form if your cover expires in the next 10 days or your query is urgent.
+    - ID: "0bac74a9-e487-451e-9fee-31e8a08d37a2"
+      Hint: Title
+      Value: "Still got a question about your renewal?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220125T175048Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b2eafaf8-a756-4d10-a02d-62b7af78fef0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220125T175048Z
+    - ID: "cb3b892e-89a4-44c6-84a7-f42c2294354a"
+      Hint: PrimaryCta
+      Value: |
+        <link class="" querystring="" id="{1C080300-D27D-404F-95AC-66D6DCC0C6C8}" anchor="" target="" title="" linktype="internal" text="Ask your renewals question" url="/AA/Beam/Home/contact-us/renew-your-cover" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250805T075738Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0b25eea9-cb1a-448c-81c4-315bbf6aff2a"
+      Hint: SupportingText
+      Value: Fill in the renewals form and we'll get back to you as soon as possible. <br />Don't use the form if your cover expires in the next 10 days or your query is urgent.
+    - ID: "0bac74a9-e487-451e-9fee-31e8a08d37a2"
+      Hint: Title
+      Value: "Still got a question about your renewal?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230525T122431Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7f2c6f7e-a46d-4e7a-b2f4-fb7a5d2748cc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230525T122431Z
+    - ID: "cb3b892e-89a4-44c6-84a7-f42c2294354a"
+      Hint: PrimaryCta
+      Value: |
+        <link class="" querystring="" id="{1C080300-D27D-404F-95AC-66D6DCC0C6C8}" anchor="" target="" title="" linktype="internal" text="Ask your renewals question" url="/AA/Beam/Home/contact-us/renew-your-cover" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250805T075738Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0b25eea9-cb1a-448c-81c4-315bbf6aff2a"
+      Hint: SupportingText
+      Value: Fill in the renewals form and we'll get back to you as soon as possible. <br /><br />Don't use the form if your cover expires in the next 10 days or your query is urgent.
+    - ID: "0bac74a9-e487-451e-9fee-31e8a08d37a2"
+      Hint: Title
+      Value: "Still got a question about your renewal?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230525T125310Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9c3af886-81e2-47d1-ba34-948083eaca39"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230525T125310Z
+    - ID: "cb3b892e-89a4-44c6-84a7-f42c2294354a"
+      Hint: PrimaryCta
+      Value: |
+        <link class="" querystring="" id="{1C080300-D27D-404F-95AC-66D6DCC0C6C8}" anchor="" target="" title="" linktype="internal" text="Ask your renewals question" url="/AA/Beam/Home/contact-us/renew-your-cover" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250805T075738Z

@@ -1,0 +1,898 @@
+﻿---
+ID: "9bd9d651-b3f3-4fd0-8294-aa7c8f9d606a"
+Parent: "1f850dcf-1877-455d-a69c-fdac0b8bda20"
+Template: "f77d37bc-9d0f-4052-9cc2-64962ddec63e"
+Path: /sitecore/content/AA/Beam/Modules/USP/home/home
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0d44057d-176e-4036-8e43-ae86e0faa2d1"
+      Hint: Feature2
+      Value: Defaqto 4 Star Rating
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220224T130714Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "526ec905-dfd3-470f-8587-98c485db6a8e"
+      Hint: FeatureDescription1
+      Value: Everything you need, nothing you don&rsquo;t &ndash; get the great cover you&rsquo;d expect from a top brand.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "74ece68f-5090-4d66-b734-a3642bbcbe2f"
+      Hint: FeatureDescription3
+      Value: At renewal, you&rsquo;ll never pay more than a new customer.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8a31dc48-c662-44b8-a022-c7f1d45fa3c6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c0186a62-6525-4a8e-b02c-4f4b7bf9e90f"
+      Hint: Feature1
+      Value: Quality, not compromise
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220224T130714Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220224T130905Z
+    - ID: "e1da9f38-c17d-4029-9572-7211e338a552"
+      Hint: Feature3
+      Value: Fair Price Promise
+    - ID: "e691e972-dfd6-4ae3-a588-b7f779920110"
+      Hint: FeatureDescription2
+      Value: Our car insurance has been rated 4 stars by Defaqto.
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0d44057d-176e-4036-8e43-ae86e0faa2d1"
+      Hint: Feature2
+      Value: Defaqto 4 Star Rating
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220224T195720Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "526ec905-dfd3-470f-8587-98c485db6a8e"
+      Hint: FeatureDescription1
+      Value: Everything you need, nothing you don&rsquo;t &ndash; get the great cover you&rsquo;d expect from a top brand.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "74ece68f-5090-4d66-b734-a3642bbcbe2f"
+      Hint: FeatureDescription3
+      Value: At renewal, you&rsquo;ll never pay more than a new customer.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1bfca178-9199-4061-99ca-75cb6f68bb56"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c0186a62-6525-4a8e-b02c-4f4b7bf9e90f"
+      Hint: Feature1
+      Value: Quality, not compromise
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220224T195720Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220224T195823Z
+    - ID: "e1da9f38-c17d-4029-9572-7211e338a552"
+      Hint: Feature3
+      Value: Fair Price Promise
+    - ID: "e691e972-dfd6-4ae3-a588-b7f779920110"
+      Hint: FeatureDescription2
+      Value: |
+        <p><img src="~/media/0C59437C3D51468FA58CDFBC8D34043D.ashx" style="height:45px; width:268px;" alt="Defaqto 4 Star Award logo" /></p>
+        <p>Our car insurance has been rated 4 Stars by Defaqto.</p>
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0d44057d-176e-4036-8e43-ae86e0faa2d1"
+      Hint: Feature2
+      Value: Defaqto 4 Star Rating
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220224T195847Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "526ec905-dfd3-470f-8587-98c485db6a8e"
+      Hint: FeatureDescription1
+      Value: Everything you need, nothing you don&rsquo;t &ndash; get the great cover you&rsquo;d expect from a top brand.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "74ece68f-5090-4d66-b734-a3642bbcbe2f"
+      Hint: FeatureDescription3
+      Value: At renewal, you&rsquo;ll never pay more than a new customer.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "be9dc223-f0c0-41dd-bd3a-f683451e4425"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c0186a62-6525-4a8e-b02c-4f4b7bf9e90f"
+      Hint: Feature1
+      Value: Quality, not compromise
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220224T195847Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220224T195915Z
+    - ID: "e1da9f38-c17d-4029-9572-7211e338a552"
+      Hint: Feature3
+      Value: Fair Price Promise
+    - ID: "e691e972-dfd6-4ae3-a588-b7f779920110"
+      Hint: FeatureDescription2
+      Value: |
+        <p><img src="~/media/0C59437C3D51468FA58CDFBC8D34043D.ashx" style="height:45px; width:268px;" alt="Defaqto 4 Star Award logo" /></p>
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0d44057d-176e-4036-8e43-ae86e0faa2d1"
+      Hint: Feature2
+      Value: Defaqto 4 Star Rating
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220224T201744Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "526ec905-dfd3-470f-8587-98c485db6a8e"
+      Hint: FeatureDescription1
+      Value: Everything you need, nothing you don&rsquo;t &ndash; get the great cover you&rsquo;d expect from a top brand.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "74ece68f-5090-4d66-b734-a3642bbcbe2f"
+      Hint: FeatureDescription3
+      Value: At renewal, you&rsquo;ll never pay more than a new customer.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2c5a705a-1e9c-482c-9385-ec8be8bbd27f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c0186a62-6525-4a8e-b02c-4f4b7bf9e90f"
+      Hint: Feature1
+      Value: Quality, not compromise
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220224T201744Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220224T201836Z
+    - ID: "e1da9f38-c17d-4029-9572-7211e338a552"
+      Hint: Feature3
+      Value: Fair Price Promise
+    - ID: "e691e972-dfd6-4ae3-a588-b7f779920110"
+      Hint: FeatureDescription2
+      Value: |
+        <p><img src="~/media/0C59437C3D51468FA58CDFBC8D34043D.ashx" style="height:45px; width:268px;" alt="Defaqto 4 Star Award logo" /></p>
+        Our comprehensive cover has a 4 Star Defaqto rating.
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0d44057d-176e-4036-8e43-ae86e0faa2d1"
+      Hint: Feature2
+      Value: Defaqto 4 Star Rating
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220224T201908Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "526ec905-dfd3-470f-8587-98c485db6a8e"
+      Hint: FeatureDescription1
+      Value: Everything you need, nothing you don&rsquo;t &ndash; get the great cover you&rsquo;d expect from a top brand.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "74ece68f-5090-4d66-b734-a3642bbcbe2f"
+      Hint: FeatureDescription3
+      Value: At renewal, you&rsquo;ll never pay more than a new customer.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0667a4e6-9447-4ef2-bc13-ef0d57cff599"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c0186a62-6525-4a8e-b02c-4f4b7bf9e90f"
+      Hint: Feature1
+      Value: Quality, not compromise
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220224T201908Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220224T201943Z
+    - ID: "e1da9f38-c17d-4029-9572-7211e338a552"
+      Hint: Feature3
+      Value: Fair Price Promise
+    - ID: "e691e972-dfd6-4ae3-a588-b7f779920110"
+      Hint: FeatureDescription2
+      Value: |
+        <p><img src="~/media/0C59437C3D51468FA58CDFBC8D34043D.ashx" style="height:45px; width:268px;" alt="Defaqto 4 Star Award logo" /></p>
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0d44057d-176e-4036-8e43-ae86e0faa2d1"
+      Hint: Feature2
+      Value: Defaqto 4 Star rated cover
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220224T204130Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "526ec905-dfd3-470f-8587-98c485db6a8e"
+      Hint: FeatureDescription1
+      Value: Everything you need, nothing you don&rsquo;t &ndash; get the great cover you&rsquo;d expect from a top brand.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "74ece68f-5090-4d66-b734-a3642bbcbe2f"
+      Hint: FeatureDescription3
+      Value: At renewal, you&rsquo;ll never pay more than a new customer.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "807ab7d6-b610-4461-94fa-24eaa2fe35fa"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c0186a62-6525-4a8e-b02c-4f4b7bf9e90f"
+      Hint: Feature1
+      Value: Quality, not compromise
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220224T204130Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220224T204202Z
+    - ID: "e1da9f38-c17d-4029-9572-7211e338a552"
+      Hint: Feature3
+      Value: Fair Price Promise
+    - ID: "e691e972-dfd6-4ae3-a588-b7f779920110"
+      Hint: FeatureDescription2
+      Value: |
+        <p><img src="~/media/0C59437C3D51468FA58CDFBC8D34043D.ashx" style="height:45px; width:268px;" alt="Defaqto 4 Star Award logo" /></p>
+  - Version: 7
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0851099c-147a-492c-bc01-f2fb40b0eaa2"
+      Hint: Icon1
+      Value: |
+        <image mediaid="{20E6EE38-F987-400A-9FD5-545E48F18957}" />
+    - ID: "0d44057d-176e-4036-8e43-ae86e0faa2d1"
+      Hint: Feature2
+      Value: Defaqto 4 Star Rating
+    - ID: "1e303c5c-b7e8-4672-b453-8118da98a2d7"
+      Hint: Icon2
+      Value: |
+        <image mediaid="{520E40BC-6846-4EB3-AA10-CE591CA88E83}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220225T132323Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "526ec905-dfd3-470f-8587-98c485db6a8e"
+      Hint: FeatureDescription1
+      Value: Everything you need, nothing you don&rsquo;t &ndash; get the great cover you&rsquo;d expect from a top brand.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "74ece68f-5090-4d66-b734-a3642bbcbe2f"
+      Hint: FeatureDescription3
+      Value: At renewal, you&rsquo;ll never pay more than a new customer.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2edda69b-5983-4086-8efa-5c659c017eca"
+    - ID: "90bd6064-2f24-427d-8b6d-49c293117334"
+      Hint: Icon3
+      Value: |
+        <image mediaid="{8E61921A-2513-49E1-B6CF-B43916376F2F}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\patils
+    - ID: "c0186a62-6525-4a8e-b02c-4f4b7bf9e90f"
+      Hint: Feature1
+      Value: Quality, not compromise
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220225T132323Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220228T152524Z
+    - ID: "e1da9f38-c17d-4029-9572-7211e338a552"
+      Hint: Feature3
+      Value: Fair Price Promise
+    - ID: "e691e972-dfd6-4ae3-a588-b7f779920110"
+      Hint: FeatureDescription2
+      Value: |
+        <p><img src="~/media/0C59437C3D51468FA58CDFBC8D34043D.ashx" style="height:45px; width:268px;" alt="Defaqto 4 Star Award logo" /></p>
+  - Version: 8
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0851099c-147a-492c-bc01-f2fb40b0eaa2"
+      Hint: Icon1
+      Value: |
+        <image mediaid="{20E6EE38-F987-400A-9FD5-545E48F18957}" />
+    - ID: "0d44057d-176e-4036-8e43-ae86e0faa2d1"
+      Hint: Feature2
+      Value: Defaqto 4 Star Rating
+    - ID: "1e303c5c-b7e8-4672-b453-8118da98a2d7"
+      Hint: Icon2
+      Value: |
+        <image mediaid="{520E40BC-6846-4EB3-AA10-CE591CA88E83}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220301T094018Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "526ec905-dfd3-470f-8587-98c485db6a8e"
+      Hint: FeatureDescription1
+      Value: Everything you need, nothing you don&rsquo;t &ndash; get the great cover you&rsquo;d expect from a top brand.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "74ece68f-5090-4d66-b734-a3642bbcbe2f"
+      Hint: FeatureDescription3
+      Value: At renewal, you&rsquo;ll never pay more than a new customer.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6964d171-32d1-47eb-898d-0aaf68fa90ab"
+    - ID: "90bd6064-2f24-427d-8b6d-49c293117334"
+      Hint: Icon3
+      Value: |
+        <image mediaid="{8E61921A-2513-49E1-B6CF-B43916376F2F}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c0186a62-6525-4a8e-b02c-4f4b7bf9e90f"
+      Hint: Feature1
+      Value: Quality, not compromise
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220301T094018Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220301T094114Z
+    - ID: "e1da9f38-c17d-4029-9572-7211e338a552"
+      Hint: Feature3
+      Value: Fair Price Promise
+    - ID: "e691e972-dfd6-4ae3-a588-b7f779920110"
+      Hint: FeatureDescription2
+      Value: |
+        <p><img src="~/media/0C59437C3D51468FA58CDFBC8D34043D.ashx" style="height:45px; width:268px;" alt="Defaqto 4 Star Award logo" /></p>
+        Our comprehensive cover is rated 4 Stars by Defaqto.
+  - Version: 9
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0851099c-147a-492c-bc01-f2fb40b0eaa2"
+      Hint: Icon1
+      Value: |
+        <image mediaid="{20E6EE38-F987-400A-9FD5-545E48F18957}" />
+    - ID: "0d44057d-176e-4036-8e43-ae86e0faa2d1"
+      Hint: Feature2
+      Value: Defaqto 4 Star Rating
+    - ID: "1e303c5c-b7e8-4672-b453-8118da98a2d7"
+      Hint: Icon2
+      Value: |
+        <image mediaid="{520E40BC-6846-4EB3-AA10-CE591CA88E83}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220301T094247Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "526ec905-dfd3-470f-8587-98c485db6a8e"
+      Hint: FeatureDescription1
+      Value: Everything you need, nothing you don&rsquo;t &ndash; get the great cover you&rsquo;d expect from a top brand.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "74ece68f-5090-4d66-b734-a3642bbcbe2f"
+      Hint: FeatureDescription3
+      Value: At renewal, you&rsquo;ll never pay more than a new customer.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3532fd46-ce75-445e-b082-40eaf5adb637"
+    - ID: "90bd6064-2f24-427d-8b6d-49c293117334"
+      Hint: Icon3
+      Value: |
+        <image mediaid="{8E61921A-2513-49E1-B6CF-B43916376F2F}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c0186a62-6525-4a8e-b02c-4f4b7bf9e90f"
+      Hint: Feature1
+      Value: Quality, not compromise
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220301T094247Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220301T094357Z
+    - ID: "e1da9f38-c17d-4029-9572-7211e338a552"
+      Hint: Feature3
+      Value: Fair Price Promise
+    - ID: "e691e972-dfd6-4ae3-a588-b7f779920110"
+      Hint: FeatureDescription2
+      Value: |
+        Our comprehensive cover is rated 4 Stars by Defaqto.
+        <p><img src="~/media/0C59437C3D51468FA58CDFBC8D34043D.ashx" style="height:45px; width:268px;" alt="Defaqto 4 Star Award logo" /></p>
+  - Version: 10
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0851099c-147a-492c-bc01-f2fb40b0eaa2"
+      Hint: Icon1
+      Value: |
+        <image mediaid="{20E6EE38-F987-400A-9FD5-545E48F18957}" />
+    - ID: "0d44057d-176e-4036-8e43-ae86e0faa2d1"
+      Hint: Feature2
+      Value: Defaqto 4 Star Rating
+    - ID: "1e303c5c-b7e8-4672-b453-8118da98a2d7"
+      Hint: Icon2
+      Value: |
+        <image mediaid="{520E40BC-6846-4EB3-AA10-CE591CA88E83}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220301T094427Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "526ec905-dfd3-470f-8587-98c485db6a8e"
+      Hint: FeatureDescription1
+      Value: Everything you need, nothing you don&rsquo;t &ndash; get the great cover you&rsquo;d expect from a top brand.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "74ece68f-5090-4d66-b734-a3642bbcbe2f"
+      Hint: FeatureDescription3
+      Value: At renewal, you&rsquo;ll never pay more than a new customer.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "48ceb303-5bc4-47c3-8ba0-03f1a11095b2"
+    - ID: "90bd6064-2f24-427d-8b6d-49c293117334"
+      Hint: Icon3
+      Value: |
+        <image mediaid="{8E61921A-2513-49E1-B6CF-B43916376F2F}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c0186a62-6525-4a8e-b02c-4f4b7bf9e90f"
+      Hint: Feature1
+      Value: Quality, not compromise
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220301T094427Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220301T094450Z
+    - ID: "e1da9f38-c17d-4029-9572-7211e338a552"
+      Hint: Feature3
+      Value: Fair Price Promise
+    - ID: "e691e972-dfd6-4ae3-a588-b7f779920110"
+      Hint: FeatureDescription2
+      Value: |
+        <p>Our comprehensive cover is rated 4 Stars by Defaqto.</p>
+        <p><img src="~/media/0C59437C3D51468FA58CDFBC8D34043D.ashx" style="height:45px; width:268px;" alt="Defaqto 4 Star Award logo" /></p>
+  - Version: 11
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0851099c-147a-492c-bc01-f2fb40b0eaa2"
+      Hint: Icon1
+      Value: |
+        <image mediaid="{20E6EE38-F987-400A-9FD5-545E48F18957}" />
+    - ID: "0d44057d-176e-4036-8e43-ae86e0faa2d1"
+      Hint: Feature2
+      Value: Defaqto 4 Star Rating
+    - ID: "1e303c5c-b7e8-4672-b453-8118da98a2d7"
+      Hint: Icon2
+      Value: |
+        <image mediaid="{520E40BC-6846-4EB3-AA10-CE591CA88E83}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220309T163026Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "526ec905-dfd3-470f-8587-98c485db6a8e"
+      Hint: FeatureDescription1
+      Value: We don't cut corners &ndash; get great cover and excellent service.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "74ece68f-5090-4d66-b734-a3642bbcbe2f"
+      Hint: FeatureDescription3
+      Value: At renewal, you&rsquo;ll never pay more than if you were a new customer.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fdb90ac5-f8ee-4516-887a-9d9df2ca5ffa"
+    - ID: "90bd6064-2f24-427d-8b6d-49c293117334"
+      Hint: Icon3
+      Value: |
+        <image mediaid="{8E61921A-2513-49E1-B6CF-B43916376F2F}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c0186a62-6525-4a8e-b02c-4f4b7bf9e90f"
+      Hint: Feature1
+      Value: Quality, not compromise
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220309T163026Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220309T164151Z
+    - ID: "e1da9f38-c17d-4029-9572-7211e338a552"
+      Hint: Feature3
+      Value: Fair Price Promise
+    - ID: "e691e972-dfd6-4ae3-a588-b7f779920110"
+      Hint: FeatureDescription2
+      Value: |
+        <p>Rated 4 Stars by industry experts, Defaqto.</p>
+        <p><img src="~/media/0C59437C3D51468FA58CDFBC8D34043D.ashx" style="height:45px; width:268px;" alt="Defaqto 4 Star Award logo" /></p>
+  - Version: 12
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: |
+        <r owner="sitecore\evansd" date="20220310T161123Z" />
+    - ID: "0851099c-147a-492c-bc01-f2fb40b0eaa2"
+      Hint: Icon1
+      Value: |
+        <image mediaid="{20E6EE38-F987-400A-9FD5-545E48F18957}" />
+    - ID: "0d44057d-176e-4036-8e43-ae86e0faa2d1"
+      Hint: Feature2
+      Value: Defaqto 4 Star Rating
+    - ID: "1e303c5c-b7e8-4672-b453-8118da98a2d7"
+      Hint: Icon2
+      Value: |
+        <image mediaid="{520E40BC-6846-4EB3-AA10-CE591CA88E83}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220309T164254Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "526ec905-dfd3-470f-8587-98c485db6a8e"
+      Hint: FeatureDescription1
+      Value: We don't cut corners &ndash; get great cover and excellent service.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "74ece68f-5090-4d66-b734-a3642bbcbe2f"
+      Hint: FeatureDescription3
+      Value: At renewal, you&rsquo;ll never pay more than if you were a new customer.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "676b8598-7f05-4663-af5d-40cb4918b138"
+    - ID: "90bd6064-2f24-427d-8b6d-49c293117334"
+      Hint: Icon3
+      Value: |
+        <image mediaid="{8E61921A-2513-49E1-B6CF-B43916376F2F}" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c0186a62-6525-4a8e-b02c-4f4b7bf9e90f"
+      Hint: Feature1
+      Value: Quality, not compromise
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220309T164254Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220310T161123Z
+    - ID: "e1da9f38-c17d-4029-9572-7211e338a552"
+      Hint: Feature3
+      Value: Fair Price Promise
+    - ID: "e691e972-dfd6-4ae3-a588-b7f779920110"
+      Hint: FeatureDescription2
+      Value: |
+        <p>Rated by independent industry experts, Defaqto.</p>
+        <p><img src="~/media/0C59437C3D51468FA58CDFBC8D34043D.ashx" style="height:45px; width:268px;" alt="Defaqto 4 Star Award logo" /></p>
+  - Version: 13
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0851099c-147a-492c-bc01-f2fb40b0eaa2"
+      Hint: Icon1
+      Value: <image mediaid=
+    - ID: "0d44057d-176e-4036-8e43-ae86e0faa2d1"
+      Hint: Feature2
+      Value: What our customers say
+    - ID: "1e303c5c-b7e8-4672-b453-8118da98a2d7"
+      Hint: Icon2
+      Value: <image mediaid=
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220310T161123Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "526ec905-dfd3-470f-8587-98c485db6a8e"
+      Hint: FeatureDescription1
+      Value: We don't cut corners &ndash; get great cover and excellent service.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "74ece68f-5090-4d66-b734-a3642bbcbe2f"
+      Hint: FeatureDescription3
+      Value: At renewal, you&rsquo;ll never pay more than if you were a new customer.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a3a24d5f-f1b1-43cd-8247-55edd22050f5"
+    - ID: "90bd6064-2f24-427d-8b6d-49c293117334"
+      Hint: Icon3
+      Value: <image mediaid=
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c0186a62-6525-4a8e-b02c-4f4b7bf9e90f"
+      Hint: Feature1
+      Value: Quality, not compromise
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220310T161123Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221209T154232Z
+    - ID: "e1da9f38-c17d-4029-9572-7211e338a552"
+      Hint: Feature3
+      Value: Fair Price Promise
+    - ID: "e691e972-dfd6-4ae3-a588-b7f779920110"
+      Hint: FeatureDescription2
+      Value: |
+        <!-- <p>Rated by independent industry experts, Defaqto.</p>
+        <p><img src="~/media/0C59437C3D51468FA58CDFBC8D34043D.ashx" style="height:45px; width:268px;" alt="Defaqto 4 Star Award logo" /></p> -->
+        <!-- TrustBox widget - Mini -->
+        <div class="trustpilot-widget" data-locale="en-GB" data-template-id="53aa8807dec7e10d38f59f32" data-businessunit-id="62690d983965f59c10b222c2" data-style-height="150px" data-style-width="100%" data-theme="light">
+          <a href="https://uk.trustpilot.com/review/www.aabeam.co.uk" target="_blank" rel="noopener">Trustpilot</a>
+        </div>
+        <!-- End TrustBox widget -->
+  - Version: 14
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0851099c-147a-492c-bc01-f2fb40b0eaa2"
+      Hint: Icon1
+      Value: <image mediaid=
+    - ID: "0d44057d-176e-4036-8e43-ae86e0faa2d1"
+      Hint: Feature2
+      Value: What our customers say
+    - ID: "1e303c5c-b7e8-4672-b453-8118da98a2d7"
+      Hint: Icon2
+      Value: <image mediaid=
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230621T141101Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "526ec905-dfd3-470f-8587-98c485db6a8e"
+      Hint: FeatureDescription1
+      Value: We don't cut corners &ndash; get great cover and excellent service.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\BuckleyD
+    - ID: "74ece68f-5090-4d66-b734-a3642bbcbe2f"
+      Hint: FeatureDescription3
+      Value: At renewal, you&rsquo;ll never pay more than if you were a new customer.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5e3804dd-2b7d-4544-840f-6315c3c4882f"
+    - ID: "90bd6064-2f24-427d-8b6d-49c293117334"
+      Hint: Icon3
+      Value: <image mediaid=
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\BuckleyD
+    - ID: "c0186a62-6525-4a8e-b02c-4f4b7bf9e90f"
+      Hint: Feature1
+      Value: Quality, not compromise
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230621T141101Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230621T143050Z
+    - ID: "e1da9f38-c17d-4029-9572-7211e338a552"
+      Hint: Feature3
+      Value: Fair Price Promise
+    - ID: "e691e972-dfd6-4ae3-a588-b7f779920110"
+      Hint: FeatureDescription2
+      Value: |
+        <!-- <p>Rated by independent industry experts, Defaqto.</p>
+        <p><img src="~/media/0C59437C3D51468FA58CDFBC8D34043D.ashx" style="height:45px; width:268px;" alt="Defaqto 4 Star Award logo" /></p> -->
+        <!-- TrustBox widget - Mini --> 
+        <div class="trustpilot-widget" data-locale="en-GB" data-template-id="53aa8807dec7e10d38f59f32" data-businessunit-id="635265b208b220f460cc5b78" data-style-height="150px" data-style-width="100%" data-theme="light"> <a href="https://uk.trustpilot.com/review/beam.co.uk" target="_blank" rel="noopener">Trustpilot</a> </div> 
+        <!-- End TrustBox widget -->
+  - Version: 15
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: |
+        <r owner="sitecore\Tony.Chapman" date="20240906T085935Z" />
+    - ID: "0851099c-147a-492c-bc01-f2fb40b0eaa2"
+      Hint: Icon1
+      Value: <image mediaid=
+    - ID: "0d44057d-176e-4036-8e43-ae86e0faa2d1"
+      Hint: Feature2
+      Value: What our customers say
+    - ID: "1e303c5c-b7e8-4672-b453-8118da98a2d7"
+      Hint: Icon2
+      Value: <image mediaid=
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240906T085935Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "526ec905-dfd3-470f-8587-98c485db6a8e"
+      Hint: FeatureDescription1
+      Value: We don't cut corners &ndash; get great cover and excellent service.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "74ece68f-5090-4d66-b734-a3642bbcbe2f"
+      Hint: FeatureDescription3
+      Value: At renewal, you&rsquo;ll never pay more than if you were a new customer.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "61af567a-978f-4585-a444-9f2d4f6d3c5d"
+    - ID: "90bd6064-2f24-427d-8b6d-49c293117334"
+      Hint: Icon3
+      Value: <image mediaid=
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "c0186a62-6525-4a8e-b02c-4f4b7bf9e90f"
+      Hint: Feature1
+      Value: Quality, not compromise
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240906T085935Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240906T085935Z
+    - ID: "e1da9f38-c17d-4029-9572-7211e338a552"
+      Hint: Feature3
+      Value: Fair Price Promise
+    - ID: "e691e972-dfd6-4ae3-a588-b7f779920110"
+      Hint: FeatureDescription2
+      Value: |
+        <!-- <p>Rated by independent industry experts, Defaqto.</p>
+        <p><img src="~/media/0C59437C3D51468FA58CDFBC8D34043D.ashx" style="height:45px; width:268px;" alt="Defaqto 4 Star Award logo" /></p> -->
+        <!-- TrustBox widget - Mini --> 
+        <div class="trustpilot-widget" data-locale="en-GB" data-template-id="53aa8807dec7e10d38f59f32" data-businessunit-id="635265b208b220f460cc5b78" data-style-height="150px" data-style-width="100%" data-theme="light"> <a href="https://uk.trustpilot.com/review/beam.co.uk" target="_blank" rel="noopener">Trustpilot</a> </div> 
+        <!-- End TrustBox widget -->

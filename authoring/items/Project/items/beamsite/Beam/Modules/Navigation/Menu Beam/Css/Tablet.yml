@@ -1,0 +1,102 @@
+﻿---
+ID: "9d599f05-1305-4c4a-89af-f28c96db70a3"
+Parent: "9cc11d43-5573-41a0-b14f-f170385e63bd"
+Template: "739c5a9d-d1e8-4f49-9d52-fb806eb17b43"
+Path: /sitecore/content/AA/Beam/Modules/Navigation/Menu Beam/Css/Tablet
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211025T131802Z
+    - ID: "2f7f296b-d5f5-4088-a5dd-4ab5fa9f4d1a"
+      Hint: Contents
+      Value: |
+        
+        @media screen and (width:1024px)
+        {
+        	header#site-header-yellow .wrapper {
+        		    padding-left: 8px;
+                    padding-right: 8px;
+        	}
+        
+        }
+        
+        
+        @media screen and (min-width: 768px) and (max-width:1023px)
+        {
+        	
+        	/* logo 212px width* 24px height */
+        	/* reduce font size to 16px */
+        	
+        	
+        	header#site-header-yellow .logo a{
+        		padding:0px;
+        		border:0px;
+        	}
+        	
+        	header#site-header-yellow .wrapper {
+        		    padding-left: 5px;
+                    padding-right: 5px;
+        	}
+        	header#site-header-yellow .main-nav ul.aa-main-nav li.primary:hover > a:after {
+        		left: 8px;
+        		width: calc(100% - 18px);
+        	}
+        	header#site-header-yellow{height:96px}
+        	
+        	header#site-header-yellow .main-nav ul li {
+        		padding-left:0px;
+        		padding-right:0px;
+        	}
+        	header#site-header-yellow ul.aa-main-nav li.primary:last-child a{
+                padding-right:0px;
+            }
+        	
+        	header#site-header-yellow ul.aa-main-nav li a{
+                font-size: 16px;
+            }
+        	
+        	header#site-header-yellow .svg-desktop svg
+        	{
+        		    width: 212px;
+        			height: 24px;
+        	}
+        	
+        	header#site-header-yellow .logo a {
+            margin-top: 36px;
+        	}
+        }
+        
+        
+        
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e3d62fec-3a07-4659-b4b4-ffc4eae90693"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\patils
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220207T165919Z

@@ -1,0 +1,175 @@
+﻿---
+ID: "68f9a8af-adf4-4499-b624-514a4505138d"
+Parent: "25af4835-a90b-40be-bc3a-00dfd25ab4bb"
+Template: "7a33a0c3-80aa-4a5f-a21e-154cf421ff4d"
+Path: "/sitecore/content/AA/Beam/Modules/Related Product/car-insurance/claims"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0b25eea9-cb1a-448c-81c4-315bbf6aff2a"
+      Hint: SupportingText
+      Value: With Smart Insurance, get competitive cover powered by your driving. Ideal for less experienced drivers, our insurance has a 4 Star Rating by Defaqto.
+    - ID: "0bac74a9-e487-451e-9fee-31e8a08d37a2"
+      Hint: Title
+      Value: Switch to something smarter
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211216T114702Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b15e8eea-25df-4a98-bdff-ce6336f3da0d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "cb3b892e-89a4-44c6-84a7-f42c2294354a"
+      Hint: PrimaryCta
+      Value: |
+        <link class="" querystring="" id="{BF67023F-5CB4-461A-A89C-0007BBCF8070}" anchor="" target="" title="" linktype="internal" text="Find out more" url="/AA/Beam/Home/car-insurance" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250805T075724Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0b25eea9-cb1a-448c-81c4-315bbf6aff2a"
+      Hint: SupportingText
+      Value: "Had an accident? Whether you’re currently at the side of the road, or you’re back at home, we can help."
+    - ID: "0bac74a9-e487-451e-9fee-31e8a08d37a2"
+      Hint: Title
+      Value: Claims
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220125T175048Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "297cdfdf-d320-46c5-b99a-d4c230f01564"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220125T175048Z
+    - ID: "cb3b892e-89a4-44c6-84a7-f42c2294354a"
+      Hint: PrimaryCta
+      Value: |
+        <link class="" querystring="" id="{195C6D3B-20B0-4B22-8D45-5D50A9C7C6C3}" anchor="" target="" title="" linktype="internal" text="Make a claim" url="/AA/Beam/Home/car-insurance/claims" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250805T075735Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: |
+        <r owner="sitecore\ChapmanT" date="20230519T144907Z" />
+    - ID: "0b25eea9-cb1a-448c-81c4-315bbf6aff2a"
+      Hint: SupportingText
+      Value: "Had an accident? Whether you’re at the side of the road or back at home, we can help."
+    - ID: "0bac74a9-e487-451e-9fee-31e8a08d37a2"
+      Hint: Title
+      Value: Claims
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230519T144907Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c4920f08-ea0e-46f5-b835-0265426c83df"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230519T144907Z
+    - ID: "cb3b892e-89a4-44c6-84a7-f42c2294354a"
+      Hint: PrimaryCta
+      Value: |
+        <link text="Make a claim" linktype="external" url="https://beam.co.uk/Home/claims" anchor="" title="Make a claim" target="" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230519T145106Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0b25eea9-cb1a-448c-81c4-315bbf6aff2a"
+      Hint: SupportingText
+      Value: "Had an accident? Whether you’re beside the road or back at home, we can help."
+    - ID: "0bac74a9-e487-451e-9fee-31e8a08d37a2"
+      Hint: Title
+      Value: Claims
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230522T082817Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "049ee840-4468-4ae0-9b50-88a9501c3778"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230522T082817Z
+    - ID: "cb3b892e-89a4-44c6-84a7-f42c2294354a"
+      Hint: PrimaryCta
+      Value: |
+        <link class="" querystring="" id="{195C6D3B-20B0-4B22-8D45-5D50A9C7C6C3}" anchor="" target="" title="" linktype="internal" text="Make a claim" url="/AA/Beam/Home/car-insurance/claims" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250805T075735Z

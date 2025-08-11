@@ -1,0 +1,48 @@
+﻿---
+ID: "63074085-22ae-48e3-b723-427f6f179821"
+Parent: "116e2a36-1bda-4b8f-82bc-a5b70d99a0c6"
+Template: "739c5a9d-d1e8-4f49-9d52-fb806eb17b43"
+Path: "/sitecore/content/AA/Beam/Modules/Navigation/Menu-Yellow/Css/Mobile"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211025T131802Z
+    - ID: "2f7f296b-d5f5-4088-a5dd-4ab5fa9f4d1a"
+      Hint: Contents
+      Value: |
+        @media screen and (max-width:737px) {
+        header#site-header-yellow{height:64px}
+        
+        }
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a9bee6b3-2682-4b62-8375-88d8bfbe2f11"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ashishp
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211110T081917Z

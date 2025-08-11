@@ -1,0 +1,861 @@
+﻿---
+ID: "d748dcee-4bab-42e4-aec0-beb335afe5dc"
+Parent: "82fd1b7b-76c8-4c81-a4ea-c428c6737485"
+Template: "739c5a9d-d1e8-4f49-9d52-fb806eb17b43"
+Path: /sitecore/content/AA/Beam/Modules/Navigation/Menu Beam/Primary Navigation/Claims
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 20
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191217T122447Z
+    - ID: "2f7f296b-d5f5-4088-a5dd-4ab5fa9f4d1a"
+      Hint: Contents
+      Value: |
+        <nav class="mega-menu wrapper four-column cf" tabindex="-1" style="max-width: 1884px;">
+        	<article class="col component container cast-shadow">
+        		<ul class="second-level-navigation">
+        			<li class="back-to-primary-link mobile-view">
+        				<div class="button-lnk">Vehicle<span class="toggle"></span></div>
+        			</li>
+        			<li class="secondary-item" data-secondary="nav-section-83ABE2DBC4F1433581A9B116E8EA6E20">
+        				<a href="?&menu=vehicle-insure" class="nojs">Insure your vehicle <span class="toggle"></span></a>
+        			</li>
+        			<li class="secondary-item" data-secondary="nav-section-FF84C8CF60DA4B4196870724F809B45D">
+        				<a href="?menu=vehicle-accident" class="nojs">Had an accident? <span class="toggle"></span></a>
+        			</li>
+        			<li class="secondary-item" data-secondary="nav-section-D958C10064644FE19AEEF9EF58CC8C5B">
+        				<a href="?menu=vehicle-lookingafter" class="nojs">Looking after your car <span class="toggle"></span></a>
+        			</li>
+        			<li class="secondary-item" data-secondary="nav-section-F28CFB180F04417E80887B0C7D3697EB">
+        				<a href="?menu=vehicle-buyingselling" class="nojs">Buying or selling <span class="toggle"></span></a>
+        			</li>
+        			<li class="secondary-item" data-secondary="nav-section-B35FABE4570C4AF2A08247B7CA950C02">
+        				<a href="?menu=vehicle-learning" class="nojs">Learning to drive <span class="toggle"></span></a>
+        			</li>
+        		</ul>
+        		<!-- <div class="second-level-nav-overlay"></div> -->
+        	</article>
+        	<section id="nav-section-83ABE2DBC4F1433581A9B116E8EA6E20" class="nav-panels cf vehicle-insure---open">
+        		<div class="experience-editor-display">Insure your vehicle</div>
+        		<article class="back-to-secondary-link cf mobile-view">
+        			<div class="button-lnk">Insure your vehicle<span class="toggle"></span></div>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext content">
+        				<h5 class="headline">What do you need?</h5>
+        				<div class="introduction-text">
+        				</div>
+        			</div>
+        			<ul class="links-group">
+        				<li>
+        					<a href="/car-insurance/" data-di-id="di-id-2add2b0c-f8bac6eb">Car insurance</a>
+        				</li>
+        				<li>
+        					<a href="/motorbike-insurance" data-di-id="di-id-f43b2f7f-63138d0a">Motorbike insurance</a>
+        				</li>
+        				<li>
+        					<a href="/van-insurance/" data-di-id="di-id-2add2b0c-28838822">Van insurance</a>
+        				</li>
+        				<li>
+        					<a href="/caravan-insurance" data-di-id="di-id-e0f05e45-6323bbc3">Caravan insurance</a>
+        				</li>
+        			</ul>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext content">
+        				<h5 class="headline">Advice</h5>
+        				<div class="introduction-text">
+        				</div>
+        			</div>
+        			<ul class="links-group">
+        				<li>
+        					<a href="/car-insurance/advice/car-insurance-jargon-buster" data-di-id="di-id-a52d34ea-48fa9e6f">Car insurance jargon buster</a>
+        				</li>
+        				<li>
+        					<a href="/car-insurance/advice/car-insurance-groups" data-di-id="di-id-6f9239ed-377d6c45">Car insurance groups</a>
+        				</li>
+        				<li>
+        					<a href="/car-insurance/advice/cheap-car-insurance" data-di-id="di-id-6f9239ed-d650d699">How to get cheap insurance</a>
+        				</li>
+        				<li>
+        					<a href="/car-insurance/advice/why-you-should-install-a-dash-cam" data-di-id="di-id-6da9faca-a465d16">Dash cam advice</a>
+        				</li>
+        				<li>
+        					<a href="/car-insurance/advice" data-di-id="di-id-5648957c-684e622c">More advice</a>
+        				</li>
+        			</ul>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext cf content">
+        				<h5 class="headline">Buy car insurance</h5>
+        				<div class="info-block cf">
+        					Guaranteed courtesy car with our comprehensive policies when you buy direct.
+        				</div>
+        				<div class="feature-list">
+        				</div>
+        				<div class="dual-cta cf">
+        					<a class="primary button cta ra cf" href="https://www.theaa.com/car-insurance/" data-di-id="di-id-e0f05e45-42b7e0e0">Buy car insurance</a>
+        				</div>
+        			</div>
+        		</article>
+        	</section>
+        	<section id="nav-section-FF84C8CF60DA4B4196870724F809B45D" class="nav-panels cf vehicle-accident---open">
+        		<div class="experience-editor-display">Had an accident?</div>
+        		<article class="back-to-secondary-link cf mobile-view">
+        			<div class="button-lnk">Had an accident?<span class="toggle"></span></div>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext cf content">
+        				<h5 class="headline">Need to make a claim?</h5>
+        				<div class="info-block cf">
+        					<p>
+        						We're here for you - 24 hours a day, 7&nbsp;days a week.<br>
+        						Call us
+        					</p>
+        				</div>
+        				<h3 class="contact-number cf">0800 269622</h3>
+        				<p class="mobile-view cf centred">
+        					<a href="tel:0800 269622" class="button primary ra" data-di-id="di-id-e9a30858-25bcdce">0800 269622</a>
+        				</p>
+        				<div class="disclaimer cf">
+        				</div>
+        			</div>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext content">
+        				<h5 class="headline">Advice</h5>
+        				<div class="introduction-text">
+        				</div>
+        			</div>
+        			<ul class="links-group">
+        				<li>
+        					<a href="/driving-advice/legal/what-to-do-after-an-accident" data-di-id="di-id-6d5f73f5-adc367bd">What to do after an accident</a>
+        				</li>
+        				<li>
+        					<a href="/car-insurance/claims" data-di-id="di-id-b06d5ed4-ff23b1e4">Making a claim</a>
+        				</li>
+        				<li>
+        					<a href="/driving-advice/legal/what-to-do-after-an-accident" data-di-id="di-id-6d5f73f5-adc367bd">Letting your insurance know</a>
+        				</li>
+        				<li>
+        					<a href="/breakdown-cover/advice/pothole-damage-how-to-claim" data-di-id="di-id-47d0fa7c-1d1af4e6">How to claim for pothole damage</a>
+        				</li>
+        				<li>
+        					<a href="/driving-advice/legal/crash-for-cash" data-di-id="di-id-daab9d91-34edf9ad">What's crash for cash?</a>
+        				</li>
+        			</ul>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext cf content">
+        				<h5 class="headline">Need to get your car repaired?</h5>
+        				<div class="info-block cf">
+        					Find a trusted, local mechanic and book online with our garage guide.
+        				</div>
+        				<div class="feature-list">
+        				</div>
+        				<div class="dual-cta cf">
+        					<a class="primary button cta ra cf" href="https://garageguide.theaa.com/" data-di-id="di-id-3bbdc7c2-7f1022c8">Find out more</a>
+        				</div>
+        			</div>
+        		</article>
+        	</section>
+        	<section id="nav-section-D958C10064644FE19AEEF9EF58CC8C5B" class="nav-panels cf vehicle-lookingafter---open">
+        		<div class="experience-editor-display">Looking after your car</div>
+        		<article class="back-to-secondary-link cf mobile-view">
+        			<div class="button-lnk">Looking after your car<span class="toggle"></span></div>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext content">
+        				<h5 class="headline">What do you need?</h5>
+        				<div class="introduction-text">
+        				</div>
+        			</div>
+        			<ul class="links-group">
+        				<li>
+        					<a href="https://tyres.theaa.com/ " data-di-id="di-id-d67b933d-3d566650">New tyres</a>
+        				</li>
+        				<li>
+        					<a href="/car-battery" data-di-id="di-id-87045299-6b0ff2ad">Car battery replacement</a>
+        				</li>
+        				<li>
+        					<a href="/breakdown-cover/key-assist" data-di-id="di-id-7d524587-8bf0a02b">Replacement car keys</a>
+        				</li>
+        				<li>
+        					<a href="https://garageguide.theaa.com/ " data-di-id="di-id-39b3bd2-be897ca9">Find a garage</a>
+        				</li>
+        				<li>
+        					<a href="https://automyze.theaa.com/" data-di-id="di-id-bed201f3-c821d23c">Set service and MOT reminders</a>
+        				</li>
+        				<li>
+        					<a href="https://www.amazon.co.uk/AA-Emergency-Triangle-European-Standard/dp/B0039O2JSU?ref=ast_p_ep" data-di-id="di-id-c292ea39-650ab123">Buy a car warning triangle</a>
+        				</li>
+        			</ul>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext content">
+        				<h5 class="headline">Advice</h5>
+        				<div class="introduction-text">
+        				</div>
+        			</div>
+        			<ul class="links-group">
+        				<li>
+        					<a href="/breakdown-cover/advice/flat-battery" data-di-id="di-id-e3b1adff-d4d03a0f">What to do when you have a flat battery</a>
+        				</li>
+        				<li>
+        					<a href="/motoring_advice/safety/windscreen-vision-safety.html" data-di-id="di-id-af21df2a-9d7cc6eb">Windscreen maintenance</a>
+        				</li>
+        				<li>
+        					<a href="/driving-advice/security/keys" data-di-id="di-id-e5a78638-5bbe9672">All about keys and remotes</a>
+        				</li>
+        				<li>
+        					<a href="/breakdown-cover/advice/basic-car-checks" data-di-id="di-id-d5aba605-5bd85000">Basic car checks</a>
+        				</li>
+        				<li>
+        					<a href="/driving-advice/laying-up" data-di-id="di-id-5ab14689-1c49c842">SORN car maintenance</a>
+        				</li>
+        				<li>
+        					<a href="/driving-advice/service-repair" data-di-id="di-id-e5a78638-2120181f">Service and repair advice</a>
+        				</li>
+        			</ul>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext cf content">
+        				<h5 class="headline">Keep on top of car admin</h5>
+        				<div class="info-block cf">
+        					Members can set MOT, tax and service reminders – so your car is taken care of.
+        				</div>
+        				<div class="feature-list">
+        				</div>
+        				<div class="dual-cta cf">
+        					<a class="primary button cta ra cf" href="https://automyze.theaa.com/" data-di-id="di-id-22b3aec8-22a836d7">Find out more</a>
+        				</div>
+        			</div>
+        		</article>
+        	</section>
+        	<section id="nav-section-F28CFB180F04417E80887B0C7D3697EB" class="nav-panels cf vehicle-buyingselling---open">
+        		<div class="experience-editor-display">Buying or selling</div>
+        		<article class="back-to-secondary-link cf mobile-view">
+        			<div class="button-lnk">Buying or selling<span class="toggle"></span></div>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext content">
+        				<h5 class="headline">What do you need?</h5>
+        				<div class="introduction-text">
+        				</div>
+        			</div>
+        			<ul class="links-group">
+        				<li>
+        					<a href="https://www.theaa.com/cars/" title="Search used cars for sale" data-di-id="di-id-e1d653d-9c62964c">Search used cars for sale</a>
+        				</li>
+        				<li>
+        					<a href="https://www.theaa.com/cars/finance" title="Car finance" data-di-id="di-id-3e776233-1fdfa8a7">Car finance</a>
+        				</li>
+        				<li>
+        					<a href="/loans/car-loans" title="Car loans" data-di-id="di-id-ac8de452-568cc17c">Car loans</a>
+        				</li>
+        				<li>
+        					<a href="https://www.theaa.com/vehicle-inspection/#/mini-details" title="Book a vehicle inspection" data-di-id="di-id-dbd806d4-60f12e07">Book a vehicle inspection</a>
+        				</li>
+        				<li>
+        					<a href="/vehicle-check" title="Car history check" data-di-id="di-id-3e776233-3f1ce65c">Car history check</a>
+        				</li>
+        				<li>
+        					<a href="https://www.theaa.com/used-cars/valuation" title="Value my car" data-di-id="di-id-dbd806d4-9439018e">Value my car</a>
+        				</li>
+        				<li>
+        					<a href="/car-insurance/short-term" data-di-id="di-id-bebbb208-890d401c">Buy short-term car insurance</a>
+        				</li>
+        			</ul>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext content">
+        				<h5 class="headline">Advice </h5>
+        				<div class="introduction-text">
+        				</div>
+        			</div>
+        			<ul class="links-group">
+        				<li>
+        					<a href="/car-buying/buying-a-new-car-tips" data-di-id="di-id-676c5929-c751d191">Buying a new car</a>
+        				</li>
+        				<li>
+        					<a href="/car-reviews" data-di-id="di-id-167f98e1-511bcbae">Car reviews</a>
+        				</li>
+        				<li>
+        					<a href="/car-buying/how-to-sell-a-car" data-di-id="di-id-7deffd3d-3fcb33f5">How to sell your car</a>
+        				</li>
+        				<li>
+        					<a href="/car-buying/test-drive-tips" data-di-id="di-id-e709fcc5-295fcb13">Test drive tips</a>
+        				</li>
+        				<li>
+        					<a href="https://www.theaa.com/cars/news/motoring-advice/aa-cars-used-car-checklist-8222.html" title="Used car checklist" data-di-id="di-id-79597957-3d4ae10f">Used car checklist</a>
+        				</li>
+        				<li>
+        					<a href="/motoring_advice/motoring_costs.html" data-di-id="di-id-51b60613-5f36102d">Cost of a used car</a>
+        				</li>
+        			</ul>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext cf content">
+        				<h5 class="headline">Over 150,000 approved cars</h5>
+        				<div class="info-block cf">
+        					<p>Through our vehicle checks and approved dealer network, AA Cars helps you buy with confidence.</p>
+        				</div>
+        				<div class="feature-list">
+        				</div>
+        				<div class="dual-cta cf">
+        					<a class="primary button cta ra cf" href="https://www.theaa.com/cars/" title="Search used cars" data-di-id="di-id-5edf8e1b-76eb72a7">Search used cars</a>
+        				</div>
+        			</div>
+        		</article>
+        	</section>
+        	<section id="nav-section-B35FABE4570C4AF2A08247B7CA950C02" class="nav-panels cf vehicle-learning---open">
+        		<div class="experience-editor-display">Learning to drive</div>
+        		<article class="back-to-secondary-link cf mobile-view">
+        			<div class="button-lnk">Learning to drive<span class="toggle"></span></div>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext content">
+        				<h5 class="headline">What do you need?</h5>
+        				<div class="introduction-text">
+        				</div>
+        			</div>
+        			<ul class="links-group">
+        				<li>
+        					<a href="/driving-school" data-di-id="di-id-d14c5224-25a74a51">Driving school</a>
+        				</li>
+        				<li>
+        					<a href="/driving-school/driving-lessons" data-di-id="di-id-4c159e7f-148088d3">Book driving lessons</a>
+        				</li>
+        				<li>
+        					<a href="/car-insurance/learner-drivers" data-di-id="di-id-73e4516e-f9d110b0">Learner driver insurance</a>
+        				</li>
+        				<li>
+        					<a href="https://www.amazon.co.uk/stores/page/516C6EA6-5F0F-4CF8-B9FE-B62E615D31AB" data-di-id="di-id-798174e-424b936">Shop for driving test guides</a>
+        				</li>
+        				<li>
+        					<a href="/driving-school/driving-instructor-training" data-di-id="di-id-d17b34c2-2ab132f0">Become a driving instructor</a>
+        				</li>
+        				<li>
+        					<a href="/driving-school/driving-instructor-franchise" data-di-id="di-id-d17b34c2-9cb2a538">Join the AA Franchise Driving School</a>
+        				</li>
+        			</ul>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext content">
+        				<h5 class="headline">Advice</h5>
+        				<div class="introduction-text">
+        				</div>
+        			</div>
+        			<ul class="links-group">
+        				<li>
+        					<a href="/driving-school/driving-lessons/before-you-start-learning-to-drive" data-di-id="di-id-294ff880-70cf7a7">Before you begin</a>
+        				</li>
+        				<li>
+        					<a href="/driving-school/driving-lessons/practical-driving-test" data-di-id="di-id-96015ae9-35ebd6d6">About the practical test</a>
+        				</li>
+        				<li>
+        					<a href="/driving-school/driving-lessons/pass-driving-test-more-quickly" data-di-id="di-id-5d53af56-4e6483e1">Tips to pass first time</a>
+        				</li>
+        				<li>
+        					<a href="/driving-school/driving-lessons/advice" data-di-id="di-id-6015c819-9cae310a">More advice</a>
+        				</li>
+        			</ul>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext cf content">
+        				<h5 class="headline">Manage your lessons</h5>
+        				<div class="info-block cf">
+        					Book lessons and top up your account.
+        				</div>
+        				<div class="feature-list">
+        				</div>
+        				<div class="dual-cta cf">
+        					<a class="primary button cta ra cf" href="https://www.theaa.com/driving-school/lessons/login" data-di-id="di-id-ee2170bf-c636cf72">Sign in</a>
+        				</div>
+        			</div>
+        		</article>
+        	</section>
+        </nav>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d63fc384-74eb-4c7a-bfce-9377536a04b6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200114T121151Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200319T135606Z
+    - ID: "2f7f296b-d5f5-4088-a5dd-4ab5fa9f4d1a"
+      Hint: Contents
+      Value: |
+        <nav class="mega-menu wrapper four-column cf" tabindex="-1" style="max-width: 1884px;">
+        	<article class="col component container cast-shadow">
+        		<ul class="second-level-navigation">
+        			<li class="back-to-primary-link mobile-view">
+        				<div class="button-lnk">Vehicle<span class="toggle"></span></div>
+        			</li>
+        			<li class="secondary-item" data-secondary="nav-section-83ABE2DBC4F1433581A9B116E8EA6E20">
+        				<a href="?&menu=vehicle-insure" class="nojs">Insure your vehicle <span class="toggle"></span></a>
+        			</li>
+        			<li class="secondary-item" data-secondary="nav-section-FF84C8CF60DA4B4196870724F809B45D">
+        				<a href="?menu=vehicle-accident" class="nojs">Had an accident? <span class="toggle"></span></a>
+        			</li>
+        			<li class="secondary-item" data-secondary="nav-section-D958C10064644FE19AEEF9EF58CC8C5B">
+        				<a href="?menu=vehicle-lookingafter" class="nojs">Looking after your car <span class="toggle"></span></a>
+        			</li>
+        			<li class="secondary-item" data-secondary="nav-section-F28CFB180F04417E80887B0C7D3697EB">
+        				<a href="?menu=vehicle-buyingselling" class="nojs">Buying or selling <span class="toggle"></span></a>
+        			</li>
+        			<li class="secondary-item" data-secondary="nav-section-B35FABE4570C4AF2A08247B7CA950C02">
+        				<a href="?menu=vehicle-learning" class="nojs">Learning to drive <span class="toggle"></span></a>
+        			</li>
+        		</ul>
+        		<!-- <div class="second-level-nav-overlay"></div> -->
+        	</article>
+        	<section id="nav-section-83ABE2DBC4F1433581A9B116E8EA6E20" class="nav-panels cf vehicle-insure---open">
+        		<article class="back-to-secondary-link cf mobile-view">
+        			<div class="button-lnk">Insure your vehicle<span class="toggle"></span></div>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext content">
+        				<h5 class="headline">What do you need?</h5>
+        				<div class="introduction-text">
+        				</div>
+        			</div>
+        			<ul class="links-group">
+        				<li>
+        					<a href="/car-insurance/" data-di-id="di-id-2add2b0c-f8bac6eb">Car insurance</a>
+        				</li>
+        				<li>
+        					<a href="/motorbike-insurance" data-di-id="di-id-f43b2f7f-63138d0a">Motorbike insurance</a>
+        				</li>
+        				<li>
+        					<a href="/van-insurance/" data-di-id="di-id-2add2b0c-28838822">Van insurance</a>
+        				</li>
+        				<li>
+        					<a href="/caravan-insurance" data-di-id="di-id-e0f05e45-6323bbc3">Caravan insurance</a>
+        				</li>
+        			</ul>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext content">
+        				<h5 class="headline">Advice</h5>
+        				<div class="introduction-text">
+        				</div>
+        			</div>
+        			<ul class="links-group">
+        				<li>
+        					<a href="/car-insurance/advice/car-insurance-jargon-buster" data-di-id="di-id-a52d34ea-48fa9e6f">Car insurance jargon buster</a>
+        				</li>
+        				<li>
+        					<a href="/car-insurance/advice/car-insurance-groups" data-di-id="di-id-6f9239ed-377d6c45">Car insurance groups</a>
+        				</li>
+        				<li>
+        					<a href="/car-insurance/advice/cheap-car-insurance" data-di-id="di-id-6f9239ed-d650d699">How to get cheap insurance</a>
+        				</li>
+        				<li>
+        					<a href="/car-insurance/advice/why-you-should-install-a-dash-cam" data-di-id="di-id-6da9faca-a465d16">Dash cam advice</a>
+        				</li>
+        				<li>
+        					<a href="/car-insurance/advice" data-di-id="di-id-5648957c-684e622c">More advice</a>
+        				</li>
+        			</ul>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext cf content">
+        				<h5 class="headline">Buy car insurance</h5>
+        				<div class="info-block cf">
+        					Guaranteed courtesy car with our comprehensive policies when you buy direct.
+        				</div>
+        				<div class="feature-list">
+        				</div>
+        				<div class="dual-cta cf">
+        					<a class="primary button cta ra cf" href="https://www.theaa.com/car-insurance/" data-di-id="di-id-e0f05e45-42b7e0e0">Buy car insurance</a>
+        				</div>
+        			</div>
+        		</article>
+        	</section>
+        	<section id="nav-section-FF84C8CF60DA4B4196870724F809B45D" class="nav-panels cf vehicle-accident---open">
+        		<article class="back-to-secondary-link cf mobile-view">
+        			<div class="button-lnk">Had an accident?<span class="toggle"></span></div>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext cf content">
+        				<h5 class="headline">Need to make a claim?</h5>
+        				<div class="info-block cf">
+        					<p>
+        						We're here for you - 24 hours a day, 7&nbsp;days a week.<br>
+        						Call us
+        					</p>
+        				</div>
+        				<h3 class="contact-number cf">0800 269622</h3>
+        				<p class="mobile-view cf centred">
+        					<a href="tel:0800 269622" class="button primary ra" data-di-id="di-id-e9a30858-25bcdce">0800 269622</a>
+        				</p>
+        				<div class="disclaimer cf">
+        				</div>
+        			</div>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext content">
+        				<h5 class="headline">Advice</h5>
+        				<div class="introduction-text">
+        				</div>
+        			</div>
+        			<ul class="links-group">
+        				<li>
+        					<a href="/driving-advice/legal/what-to-do-after-an-accident" data-di-id="di-id-6d5f73f5-adc367bd">What to do after an accident</a>
+        				</li>
+        				<li>
+        					<a href="/car-insurance/claims" data-di-id="di-id-b06d5ed4-ff23b1e4">Making a claim</a>
+        				</li>
+        				<li>
+        					<a href="/driving-advice/legal/what-to-do-after-an-accident" data-di-id="di-id-6d5f73f5-adc367bd">Letting your insurance know</a>
+        				</li>
+        				<li>
+        					<a href="/breakdown-cover/advice/pothole-damage-how-to-claim" data-di-id="di-id-47d0fa7c-1d1af4e6">How to claim for pothole damage</a>
+        				</li>
+        				<li>
+        					<a href="/driving-advice/legal/crash-for-cash" data-di-id="di-id-daab9d91-34edf9ad">What's crash for cash?</a>
+        				</li>
+        			</ul>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext cf content">
+        				<h5 class="headline">Need to get your car repaired?</h5>
+        				<div class="info-block cf">
+        					Find a trusted, local mechanic and book online with our garage guide.
+        				</div>
+        				<div class="feature-list">
+        				</div>
+        				<div class="dual-cta cf">
+        					<a class="primary button cta ra cf" href="https://garageguide.theaa.com/" data-di-id="di-id-3bbdc7c2-7f1022c8">Find out more</a>
+        				</div>
+        			</div>
+        		</article>
+        	</section>
+        	<section id="nav-section-D958C10064644FE19AEEF9EF58CC8C5B" class="nav-panels cf vehicle-lookingafter---open">
+        		<article class="back-to-secondary-link cf mobile-view">
+        			<div class="button-lnk">Looking after your car<span class="toggle"></span></div>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext content">
+        				<h5 class="headline">What do you need?</h5>
+        				<div class="introduction-text">
+        				</div>
+        			</div>
+        			<ul class="links-group">
+        				<li>
+        					<a href="https://tyres.theaa.com/ " data-di-id="di-id-d67b933d-3d566650">New tyres</a>
+        				</li>
+        				<li>
+        					<a href="/car-battery" data-di-id="di-id-87045299-6b0ff2ad">Car battery replacement</a>
+        				</li>
+        				<li>
+        					<a href="/breakdown-cover/key-assist" data-di-id="di-id-7d524587-8bf0a02b">Replacement car keys</a>
+        				</li>
+        				<li>
+        					<a href="https://garageguide.theaa.com/ " data-di-id="di-id-39b3bd2-be897ca9">Find a garage</a>
+        				</li>
+        				<li>
+        					<a href="https://automyze.theaa.com/" data-di-id="di-id-bed201f3-c821d23c">Set service and MOT reminders</a>
+        				</li>
+        				<li>
+        					<a href="https://www.amazon.co.uk/AA-Emergency-Triangle-European-Standard/dp/B0039O2JSU?ref=ast_p_ep" data-di-id="di-id-c292ea39-650ab123">Buy a car warning triangle</a>
+        				</li>
+        			</ul>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext content">
+        				<h5 class="headline">Advice</h5>
+        				<div class="introduction-text">
+        				</div>
+        			</div>
+        			<ul class="links-group">
+        				<li>
+        					<a href="/breakdown-cover/advice/flat-battery" data-di-id="di-id-e3b1adff-d4d03a0f">What to do when you have a flat battery</a>
+        				</li>
+        				<li>
+        					<a href="/motoring_advice/safety/windscreen-vision-safety.html" data-di-id="di-id-af21df2a-9d7cc6eb">Windscreen maintenance</a>
+        				</li>
+        				<li>
+        					<a href="/driving-advice/security/keys" data-di-id="di-id-e5a78638-5bbe9672">All about keys and remotes</a>
+        				</li>
+        				<li>
+        					<a href="/breakdown-cover/advice/basic-car-checks" data-di-id="di-id-d5aba605-5bd85000">Basic car checks</a>
+        				</li>
+        				<li>
+        					<a href="/driving-advice/laying-up" data-di-id="di-id-5ab14689-1c49c842">SORN car maintenance</a>
+        				</li>
+        				<li>
+        					<a href="/driving-advice/service-repair" data-di-id="di-id-e5a78638-2120181f">Service and repair advice</a>
+        				</li>
+        			</ul>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext cf content">
+        				<h5 class="headline">Keep on top of car admin</h5>
+        				<div class="info-block cf">
+        					Members can set MOT, tax and service reminders – so your car is taken care of.
+        				</div>
+        				<div class="feature-list">
+        				</div>
+        				<div class="dual-cta cf">
+        					<a class="primary button cta ra cf" href="https://automyze.theaa.com/" data-di-id="di-id-22b3aec8-22a836d7">Find out more</a>
+        				</div>
+        			</div>
+        		</article>
+        	</section>
+        	<section id="nav-section-F28CFB180F04417E80887B0C7D3697EB" class="nav-panels cf vehicle-buyingselling---open">
+        		<article class="back-to-secondary-link cf mobile-view">
+        			<div class="button-lnk">Buying or selling<span class="toggle"></span></div>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext content">
+        				<h5 class="headline">What do you need?</h5>
+        				<div class="introduction-text">
+        				</div>
+        			</div>
+        			<ul class="links-group">
+        				<li>
+        					<a href="https://www.theaa.com/cars/" title="Search used cars for sale" data-di-id="di-id-e1d653d-9c62964c">Search used cars for sale</a>
+        				</li>
+        				<li>
+        					<a href="https://www.theaa.com/cars/finance" title="Car finance" data-di-id="di-id-3e776233-1fdfa8a7">Car finance</a>
+        				</li>
+        				<li>
+        					<a href="/loans/car-loans" title="Car loans" data-di-id="di-id-ac8de452-568cc17c">Car loans</a>
+        				</li>
+        				<li>
+        					<a href="https://www.theaa.com/vehicle-inspection/#/mini-details" title="Book a vehicle inspection" data-di-id="di-id-dbd806d4-60f12e07">Book a vehicle inspection</a>
+        				</li>
+        				<li>
+        					<a href="/vehicle-check" title="Car history check" data-di-id="di-id-3e776233-3f1ce65c">Car history check</a>
+        				</li>
+        				<li>
+        					<a href="https://www.theaa.com/used-cars/valuation" title="Value my car" data-di-id="di-id-dbd806d4-9439018e">Value my car</a>
+        				</li>
+        				<li>
+        					<a href="/car-insurance/short-term" data-di-id="di-id-bebbb208-890d401c">Buy short-term car insurance</a>
+        				</li>
+        			</ul>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext content">
+        				<h5 class="headline">Advice </h5>
+        				<div class="introduction-text">
+        				</div>
+        			</div>
+        			<ul class="links-group">
+        				<li>
+        					<a href="/car-buying/buying-a-new-car-tips" data-di-id="di-id-676c5929-c751d191">Buying a new car</a>
+        				</li>
+        				<li>
+        					<a href="/car-reviews" data-di-id="di-id-167f98e1-511bcbae">Car reviews</a>
+        				</li>
+        				<li>
+        					<a href="/car-buying/how-to-sell-a-car" data-di-id="di-id-7deffd3d-3fcb33f5">How to sell your car</a>
+        				</li>
+        				<li>
+        					<a href="/car-buying/test-drive-tips" data-di-id="di-id-e709fcc5-295fcb13">Test drive tips</a>
+        				</li>
+        				<li>
+        					<a href="https://www.theaa.com/cars/news/motoring-advice/aa-cars-used-car-checklist-8222.html" title="Used car checklist" data-di-id="di-id-79597957-3d4ae10f">Used car checklist</a>
+        				</li>
+        				<li>
+        					<a href="/motoring_advice/motoring_costs.html" data-di-id="di-id-51b60613-5f36102d">Cost of a used car</a>
+        				</li>
+        			</ul>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext cf content">
+        				<h5 class="headline">Over 150,000 approved cars</h5>
+        				<div class="info-block cf">
+        					<p>Through our vehicle checks and approved dealer network, AA Cars helps you buy with confidence.</p>
+        				</div>
+        				<div class="feature-list">
+        				</div>
+        				<div class="dual-cta cf">
+        					<a class="primary button cta ra cf" href="https://www.theaa.com/cars/" title="Search used cars" data-di-id="di-id-5edf8e1b-76eb72a7">Search used cars</a>
+        				</div>
+        			</div>
+        		</article>
+        	</section>
+        	<section id="nav-section-B35FABE4570C4AF2A08247B7CA950C02" class="nav-panels cf vehicle-learning---open">
+        		<article class="back-to-secondary-link cf mobile-view">
+        			<div class="button-lnk">Learning to drive<span class="toggle"></span></div>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext content">
+        				<h5 class="headline">What do you need?</h5>
+        				<div class="introduction-text">
+        				</div>
+        			</div>
+        			<ul class="links-group">
+        				<li>
+        					<a href="/driving-school" data-di-id="di-id-d14c5224-25a74a51">Driving school</a>
+        				</li>
+        				<li>
+        					<a href="/driving-school/driving-lessons" data-di-id="di-id-4c159e7f-148088d3">Book driving lessons</a>
+        				</li>
+        				<li>
+        					<a href="/car-insurance/learner-drivers" data-di-id="di-id-73e4516e-f9d110b0">Learner driver insurance</a>
+        				</li>
+        				<li>
+        					<a href="https://www.amazon.co.uk/stores/page/516C6EA6-5F0F-4CF8-B9FE-B62E615D31AB" data-di-id="di-id-798174e-424b936">Shop for driving test guides</a>
+        				</li>
+        				<li>
+        					<a href="/driving-school/driving-instructor-training" data-di-id="di-id-d17b34c2-2ab132f0">Become a driving instructor</a>
+        				</li>
+        				<li>
+        					<a href="/driving-school/driving-instructor-franchise" data-di-id="di-id-d17b34c2-9cb2a538">Join the AA Franchise Driving School</a>
+        				</li>
+        			</ul>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext content">
+        				<h5 class="headline">Advice</h5>
+        				<div class="introduction-text">
+        				</div>
+        			</div>
+        			<ul class="links-group">
+        				<li>
+        					<a href="/driving-school/driving-lessons/before-you-start-learning-to-drive" data-di-id="di-id-294ff880-70cf7a7">Before you begin</a>
+        				</li>
+        				<li>
+        					<a href="/driving-school/driving-lessons/practical-driving-test" data-di-id="di-id-96015ae9-35ebd6d6">About the practical test</a>
+        				</li>
+        				<li>
+        					<a href="/driving-school/driving-lessons/pass-driving-test-more-quickly" data-di-id="di-id-5d53af56-4e6483e1">Tips to pass first time</a>
+        				</li>
+        				<li>
+        					<a href="/driving-school/driving-lessons/advice" data-di-id="di-id-6015c819-9cae310a">More advice</a>
+        				</li>
+        			</ul>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext cf content">
+        				<h5 class="headline">Manage your lessons</h5>
+        				<div class="info-block cf">
+        					Book lessons and top up your account.
+        				</div>
+        				<div class="feature-list">
+        				</div>
+        				<div class="dual-cta cf">
+        					<a class="primary button cta ra cf" href="https://www.theaa.com/driving-school/lessons/login" data-di-id="di-id-ee2170bf-c636cf72">Sign in</a>
+        				</div>
+        			</div>
+        		</article>
+        	</section>
+        </nav>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9a88c259-2dab-4845-8933-96049856a263"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\paul_petersen
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200319T135606Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200813T095010Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200817T140558Z
+    - ID: "2f7f296b-d5f5-4088-a5dd-4ab5fa9f4d1a"
+      Hint: Contents
+      Value: |
+        <a href="/car-insurance/claims" tabindex="3">Claims</a>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\paul_petersen
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e9c8bd80-8164-4b96-a064-313f0381beb3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\damireddye
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200817T140558Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220225T160934Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230601T103409Z
+    - ID: "2f7f296b-d5f5-4088-a5dd-4ab5fa9f4d1a"
+      Hint: Contents
+      Value: |
+        <a href="/car-insurance/claims" tabindex="3">Claims</a>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "88391881-7d2e-4745-aa75-27c322c97b77"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230601T103409Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230601T103418Z

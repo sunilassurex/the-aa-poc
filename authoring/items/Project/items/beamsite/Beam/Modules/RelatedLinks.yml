@@ -1,0 +1,33 @@
+﻿---
+ID: "60431a57-436a-4949-a57e-bf6dd1ece128"
+Parent: "f4f8517a-cc4b-4ef8-88b8-fcc703133396"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/AA/Beam/Modules/RelatedLinks
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {991F757C-6948-4E2C-988A-870FE0C59F48}
+    {8867F7FC-D06B-4885-8275-B58305162E2E}
+    {702E6638-329C-4657-85A1-0E5C7599C071}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 800
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211209T151707Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4a958a59-f56f-4f0a-b993-0346c595075b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\damireddye
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220201T101218Z

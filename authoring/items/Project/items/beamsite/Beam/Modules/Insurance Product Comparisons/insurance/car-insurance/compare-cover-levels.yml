@@ -1,0 +1,416 @@
+﻿---
+ID: "316c2c24-fb0d-4300-8899-d96a31439e0a"
+Parent: "f50fafe6-24cc-454c-801f-fb2499115218"
+Template: "3b139bef-ac56-4208-a7a2-76d17a75532c"
+Path: "/sitecore/content/AA/Beam/Modules/Insurance Product Comparisons/insurance/car-insurance/compare-cover-levels"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160707T130330Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jincaa
+    - ID: "8061d25a-30da-4f53-9820-528f8840ec6c"
+      Hint: Row1Features
+      Value: |
+        {AB98ABE7-9F44-4B8A-B106-EF7C8BA651E7}
+        {A80CD76A-FBA2-41AF-9426-A0E73C79B4D7}
+        {7BC65E2B-7539-4CC0-A9B5-C84443B00402}
+        {EE9E6021-51F9-4ED5-B462-E8B93612DE3C}
+        {8302C773-E8C3-4517-9B5E-B2678A191173}
+        {F81E7901-FD90-40BC-A859-6A70DD6DF71E}
+        {8316A188-9722-4E20-8853-EAC446E99280}
+        {6199A774-97EA-46E3-AF2C-4A36FAE50CD8}
+        {F5C6BCDA-C988-413A-BD97-E592706D7EAD}
+        {34B79E01-2C2E-48E3-9654-97B6011D4CD5}
+        {063180B2-9E21-4A8A-8230-A3EE2799DB05}
+        {736082A6-D23C-4933-9737-43A50DA2C59F}
+        {1817AA12-A3AE-4590-9D11-BBCEB457E41F}
+        {158D6ABD-0E90-4169-8F31-B4F70C5D49AA}
+        {3DE08D79-4E0D-4CAF-B720-D63A8DDF262D}
+        {0A16C000-0676-42D0-B863-A5811A633577}
+        {E9BFDC26-A33E-4A70-BFD4-32D8C1905F42}
+        {4E934DEF-75AF-4F3B-A726-1D2AEB8DB8F9}
+        {10D75441-5E98-40BC-9DFC-C873900A966E}
+        {D836BCE2-3E89-41E8-9E46-93B61CA7CB2A}
+        {B12945D9-C87D-4F5D-9235-4C876F0C50B8}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3062ca30-c0ac-474d-8e91-6034784b6764"
+    - ID: "b4f6cb6d-2249-49d4-ba81-c8bf134eeb35"
+      Hint: Title
+      Value: Compare car insurance cover
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jincaa
+    - ID: "beb72758-7baa-4d96-8e04-636e1ee702ff"
+      Hint: Products
+      Value: |
+        {8E9F0F1B-7CAA-4EDC-B346-2592BF337FA5}
+        {FEC3BE25-EC32-49D3-B84A-1BE90F329035}
+        {D3703CA1-9B0F-4A2E-A131-E996A9CC2D97}
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20160715T140150Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160726T085239Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Carruthersk
+    - ID: "8061d25a-30da-4f53-9820-528f8840ec6c"
+      Hint: Row1Features
+      Value: |
+        {AB98ABE7-9F44-4B8A-B106-EF7C8BA651E7}
+        {A80CD76A-FBA2-41AF-9426-A0E73C79B4D7}
+        {7BC65E2B-7539-4CC0-A9B5-C84443B00402}
+        {EE9E6021-51F9-4ED5-B462-E8B93612DE3C}
+        {8302C773-E8C3-4517-9B5E-B2678A191173}
+        {F81E7901-FD90-40BC-A859-6A70DD6DF71E}
+        {8316A188-9722-4E20-8853-EAC446E99280}
+        {6199A774-97EA-46E3-AF2C-4A36FAE50CD8}
+        {F5C6BCDA-C988-413A-BD97-E592706D7EAD}
+        {34B79E01-2C2E-48E3-9654-97B6011D4CD5}
+        {063180B2-9E21-4A8A-8230-A3EE2799DB05}
+        {736082A6-D23C-4933-9737-43A50DA2C59F}
+        {1817AA12-A3AE-4590-9D11-BBCEB457E41F}
+        {158D6ABD-0E90-4169-8F31-B4F70C5D49AA}
+        {3DE08D79-4E0D-4CAF-B720-D63A8DDF262D}
+        {0A16C000-0676-42D0-B863-A5811A633577}
+        {E9BFDC26-A33E-4A70-BFD4-32D8C1905F42}
+        {4E934DEF-75AF-4F3B-A726-1D2AEB8DB8F9}
+        {10D75441-5E98-40BC-9DFC-C873900A966E}
+        {D836BCE2-3E89-41E8-9E46-93B61CA7CB2A}
+        {B12945D9-C87D-4F5D-9235-4C876F0C50B8}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9a52dc32-8886-48e5-ae29-d0f80209971a"
+    - ID: "b4f6cb6d-2249-49d4-ba81-c8bf134eeb35"
+      Hint: Title
+      Value: Compare cover
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\OMalleyG
+    - ID: "beb72758-7baa-4d96-8e04-636e1ee702ff"
+      Hint: Products
+      Value: |
+        {8E9F0F1B-7CAA-4EDC-B346-2592BF337FA5}
+        {FEC3BE25-EC32-49D3-B84A-1BE90F329035}
+        {D3703CA1-9B0F-4A2E-A131-E996A9CC2D97}
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20160726T085239Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20160920T104226Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160726T085245Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Carruthersk
+    - ID: "8061d25a-30da-4f53-9820-528f8840ec6c"
+      Hint: Row1Features
+      Value: |
+        {AB98ABE7-9F44-4B8A-B106-EF7C8BA651E7}
+        {A80CD76A-FBA2-41AF-9426-A0E73C79B4D7}
+        {7BC65E2B-7539-4CC0-A9B5-C84443B00402}
+        {EE9E6021-51F9-4ED5-B462-E8B93612DE3C}
+        {8302C773-E8C3-4517-9B5E-B2678A191173}
+        {F81E7901-FD90-40BC-A859-6A70DD6DF71E}
+        {8316A188-9722-4E20-8853-EAC446E99280}
+        {6199A774-97EA-46E3-AF2C-4A36FAE50CD8}
+        {F5C6BCDA-C988-413A-BD97-E592706D7EAD}
+        {34B79E01-2C2E-48E3-9654-97B6011D4CD5}
+        {063180B2-9E21-4A8A-8230-A3EE2799DB05}
+        {736082A6-D23C-4933-9737-43A50DA2C59F}
+        {1817AA12-A3AE-4590-9D11-BBCEB457E41F}
+        {158D6ABD-0E90-4169-8F31-B4F70C5D49AA}
+        {3DE08D79-4E0D-4CAF-B720-D63A8DDF262D}
+        {0A16C000-0676-42D0-B863-A5811A633577}
+        {E9BFDC26-A33E-4A70-BFD4-32D8C1905F42}
+        {4E934DEF-75AF-4F3B-A726-1D2AEB8DB8F9}
+        {10D75441-5E98-40BC-9DFC-C873900A966E}
+        {D836BCE2-3E89-41E8-9E46-93B61CA7CB2A}
+        {B12945D9-C87D-4F5D-9235-4C876F0C50B8}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e6bf9075-c72f-48f4-82bb-9d466b74b440"
+    - ID: "b4f6cb6d-2249-49d4-ba81-c8bf134eeb35"
+      Hint: Title
+      Value: Compare cover
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Armstrongj
+    - ID: "beb72758-7baa-4d96-8e04-636e1ee702ff"
+      Hint: Products
+      Value: |
+        {8E9F0F1B-7CAA-4EDC-B346-2592BF337FA5}
+        {FEC3BE25-EC32-49D3-B84A-1BE90F329035}
+        {D3703CA1-9B0F-4A2E-A131-E996A9CC2D97}
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20160726T085245Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20160727T145656Z
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20161121T150121Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8061d25a-30da-4f53-9820-528f8840ec6c"
+      Hint: Row1Features
+      Value: |
+        {474A6BD8-BD09-403C-9BFD-6A401F5157DE}
+        {E3AE778A-E533-4755-9CA1-2893810C27A4}
+        {DAEDC935-6E43-4666-9335-CAA3E9CE85CB}
+        {6C6B849D-8A15-4C7C-A6D4-0BBA558D8A5D}
+        {B0B553C2-589A-4D68-81F4-981FE558BBDC}
+        {CEBEB5A5-8468-4449-A875-4191416DC6F4}
+        {81B79B8E-9DDD-4C9B-A2CA-92C3E9959B3C}
+        {4CA1299B-1E04-4FDA-A8D2-2B4FE73FD289}
+        {580D24F0-0F85-447D-A890-8DBD99F0203A}
+        {F310411E-A200-429D-9C7B-C36CCA231E2D}
+        {98A88917-1127-4E24-880A-B7E29081DD97}
+        {43007991-4DD1-47D6-9483-E1AD7DB8E3A9}
+        {335A2963-65DB-49D3-8709-4111898A9020}
+        {D4470498-3C2E-4F67-B354-2615CA68DEBC}
+        {A87F2F0D-43A1-4422-ADAC-61B9884EA243}
+        {AC70C986-3DB0-4688-B03A-AF77848E72F4}
+        {89E5F56E-31B0-4D32-8FF6-EF24031F7F99}
+        {F44BBC22-6E7B-4D0B-9FA1-2E69F2C70130}
+        {0BC3CFB1-06B3-43DB-8A17-C97BE8803B3D}
+        {F2266A7F-1C2E-44E2-87B5-D7AF24D54681}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fea78acd-ebe8-4fac-9675-33ae84c98d67"
+    - ID: "b4f6cb6d-2249-49d4-ba81-c8bf134eeb35"
+      Hint: Title
+      Value: Cover features
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ShahzadK
+    - ID: "beb72758-7baa-4d96-8e04-636e1ee702ff"
+      Hint: Products
+      Value: |
+        {C0489226-0042-4CEA-8B20-7B5F574C359D}
+        {07550B40-21FA-4FC5-857D-F4B0B23843B2}
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20161121T150121Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220218T171759Z
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220221T122035Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8061d25a-30da-4f53-9820-528f8840ec6c"
+      Hint: Row1Features
+      Value: |
+        {130146AE-6BB6-4D7F-BD56-FB99F86917A1}
+        {8530350F-564B-4828-8824-D14BA388A329}
+        {F92962F6-A0CB-4334-9CF5-F60AAB3AC7D7}
+        {EE873C3C-D4E5-4294-A963-EAD6A485619E}
+        {F3DF7F7D-E1A8-43B5-98A8-F8956BA1676D}
+        {32A3D876-09A3-4687-9A92-66C8B731E376}
+        {3C501AA2-0703-4EA8-9711-953147FC0E69}
+        {FF5AE65B-B6A7-48E2-9AC6-1728F3CD09BD}
+        {A0790B3E-2EBF-47BF-9397-7BB0B02393EC}
+        {B1E705B6-599E-4CE5-9E23-AE72F98A354B}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3799ab1b-c354-4346-8980-f210db8006e9"
+    - ID: "b4f6cb6d-2249-49d4-ba81-c8bf134eeb35"
+      Hint: Title
+      Value: Cover features
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\patils
+    - ID: "beb72758-7baa-4d96-8e04-636e1ee702ff"
+      Hint: Products
+      Value: |
+        {BD77CD5F-FA3B-4B05-877A-B6C6E93DAE7A}
+        {7A19D773-F3C9-493F-905C-A9D3EECF54E6}
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220221T122035Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220223T114744Z
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220225T153723Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8061d25a-30da-4f53-9820-528f8840ec6c"
+      Hint: Row1Features
+      Value: |
+        {130146AE-6BB6-4D7F-BD56-FB99F86917A1}
+        {F3DF7F7D-E1A8-43B5-98A8-F8956BA1676D}
+        {F92962F6-A0CB-4334-9CF5-F60AAB3AC7D7}
+        {EE873C3C-D4E5-4294-A963-EAD6A485619E}
+        {32A3D876-09A3-4687-9A92-66C8B731E376}
+        {3C501AA2-0703-4EA8-9711-953147FC0E69}
+        {FF5AE65B-B6A7-48E2-9AC6-1728F3CD09BD}
+        {A0790B3E-2EBF-47BF-9397-7BB0B02393EC}
+        {B1E705B6-599E-4CE5-9E23-AE72F98A354B}
+        {E512B808-FE54-44F7-8869-46AA898533E6}
+        {44A8EE1C-F631-495B-B217-29606DFD0522}
+        {3D3F15F3-D8B2-4168-B579-8AEF5F1269E5}
+        {A9DD4A01-58CB-490B-BFB7-B54176946F10}
+        {501CDEC6-ABC5-46BE-A795-85C075E28F1D}
+        {5AC3D62F-BCB4-4057-A45E-C0A638D005C7}
+        {46602B7C-F5B9-4F3A-8657-AFE5ADA0C72A}
+        {4F80C030-513E-46C9-A8B5-D5B36265DA0E}
+        {5C30566C-80CB-47CD-B896-6240918AB5EB}
+        {4CD50C5C-FF18-4548-9055-B73F6E0F02F0}
+        {2C376911-749B-40C9-82D2-BAEB175D72F3}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "80b0519e-2f20-44eb-b88b-210505b6899f"
+    - ID: "b4f6cb6d-2249-49d4-ba81-c8bf134eeb35"
+      Hint: Title
+      Value: Cover features
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "beb72758-7baa-4d96-8e04-636e1ee702ff"
+      Hint: Products
+      Value: |
+        {BD77CD5F-FA3B-4B05-877A-B6C6E93DAE7A}
+        {C1B1F728-260F-466C-974E-72440A83EF3D}
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220225T153723Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220225T154059Z
+  - Version: 7
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240906T092241Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "8061d25a-30da-4f53-9820-528f8840ec6c"
+      Hint: Row1Features
+      Value: |
+        {130146AE-6BB6-4D7F-BD56-FB99F86917A1}
+        {F3DF7F7D-E1A8-43B5-98A8-F8956BA1676D}
+        {F92962F6-A0CB-4334-9CF5-F60AAB3AC7D7}
+        {EE873C3C-D4E5-4294-A963-EAD6A485619E}
+        {32A3D876-09A3-4687-9A92-66C8B731E376}
+        {3C501AA2-0703-4EA8-9711-953147FC0E69}
+        {FF5AE65B-B6A7-48E2-9AC6-1728F3CD09BD}
+        {A0790B3E-2EBF-47BF-9397-7BB0B02393EC}
+        {B1E705B6-599E-4CE5-9E23-AE72F98A354B}
+        {E512B808-FE54-44F7-8869-46AA898533E6}
+        {44A8EE1C-F631-495B-B217-29606DFD0522}
+        {3D3F15F3-D8B2-4168-B579-8AEF5F1269E5}
+        {A9DD4A01-58CB-490B-BFB7-B54176946F10}
+        {501CDEC6-ABC5-46BE-A795-85C075E28F1D}
+        {5AC3D62F-BCB4-4057-A45E-C0A638D005C7}
+        {46602B7C-F5B9-4F3A-8657-AFE5ADA0C72A}
+        {4F80C030-513E-46C9-A8B5-D5B36265DA0E}
+        {5C30566C-80CB-47CD-B896-6240918AB5EB}
+        {4CD50C5C-FF18-4548-9055-B73F6E0F02F0}
+        {2C376911-749B-40C9-82D2-BAEB175D72F3}
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "257e186e-a269-4694-a1d6-c13c07563197"
+    - ID: "b4f6cb6d-2249-49d4-ba81-c8bf134eeb35"
+      Hint: Title
+      Value: Cover features
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "beb72758-7baa-4d96-8e04-636e1ee702ff"
+      Hint: Products
+      Value: "{BD77CD5F-FA3B-4B05-877A-B6C6E93DAE7A}"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240906T092241Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241119T131214Z

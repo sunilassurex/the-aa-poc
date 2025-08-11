@@ -1,0 +1,27 @@
+﻿---
+ID: "b2ea7d07-0b86-4320-a59f-3812dba2a49c"
+Parent: "f4f8517a-cc4b-4ef8-88b8-fcc703133396"
+Template: "dc4dd075-1cb5-45e4-8615-bd8ce0589f84"
+Path: /sitecore/content/AA/Beam/Modules/Accordion
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211125T121332Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3c8ed3ea-f465-4e39-b5c5-22acf220ab57"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\damireddye
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220201T101217Z

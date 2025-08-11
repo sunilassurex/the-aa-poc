@@ -1,0 +1,195 @@
+﻿---
+ID: "a14d6c02-29a8-423c-a5c3-22aeb9fa3a85"
+Parent: "08fe4c12-8787-409d-8d7f-2b7081b63e65"
+Template: "8703a280-ec4e-43a2-8f83-dc29485a490a"
+Path: "/sitecore/content/AA/Beam/Modules/Accordion/car-insurance/car-insurance-important-information/Important information"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p>1. Only for comprehensive cover and non-fault claims where the other driver is identified and not insured. Registration number, make and model of the other vehicle is required.</p>
+        <p>2. Up to &pound;500 for all occupants (maximum limits apply per person). You'll need to pay for your travel and hotel expenses, then reclaim them from your insurer.</p>
+        <p>3. The service is limited to 1 call-out during the policy year, but additional call-outs are available on a pay-for-use basis.</p>
+        <p>The underwriter of your car insurance policy will be provided from our panel of insurers.</p>
+        <p>BEAM car insurance is arranged by Automobile Association Insurance Services Limited. Registered office: Fanum House, Basing View, Basingstoke, Hampshire RG21 4EA. Registered in England and Wales number 2414212.</p>
+        <p>Automobile Association Insurance Services Limited is authorised and regulated by the Financial Conduct Authority (FCA), <a href="https://register.fca.org.uk/">Financial Services Register number 310562</a>.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220201T130809Z
+    - ID: "34075d39-34f4-467d-82f9-649af4a3137a"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "25a94933-fd0f-4946-8c61-f3dacd45a61c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220201T131234Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Important information
+  - Version: 2
+    Fields:
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p>1.&nbsp;Comprehensive cover provides a courtesy car while your car is being repaired at an approved garage.</p>
+        <p>2. Only for comprehensive cover and non-fault claims where the other driver is identified and not insured. Registration number, make and model of the other vehicle is required.</p>
+        <p>3. Up to &pound;500 for all occupants (maximum limits apply per person). You'll need to pay for your travel and hotel expenses, then reclaim them from your insurer.</p>
+        <p>4. The service is limited to 1 call-out during the policy year, but additional call-outs are available on a pay-for-use basis.</p>
+        <p>The underwriter of your car insurance policy will be provided from our panel of insurers.</p>
+        <p>BEAM car insurance is arranged by Automobile Association Insurance Services Limited. Registered office: Fanum House, Basing View, Basingstoke, Hampshire RG21 4EA. Registered in England and Wales number 2414212.</p>
+        <p>Automobile Association Insurance Services Limited is authorised and regulated by the Financial Conduct Authority (FCA), <a href="https://register.fca.org.uk/">Financial Services Register number 310562</a>.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220315T083539Z
+    - ID: "34075d39-34f4-467d-82f9-649af4a3137a"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3a9fa2a7-e4f9-49a4-a2bd-dd256e5dd1f5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220315T083539Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221128T111816Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Important information
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p><sup>1</sup>&nbsp;Comprehensive cover provides a courtesy car while your car is being repaired at an approved garage.</p>
+        <p><sup>2</sup>&nbsp;Only for comprehensive cover and non-fault claims where the other driver is identified and not insured. Registration number, make and model of the other vehicle is required.</p>
+        <p><sup>3</sup>&nbsp;Up to &pound;500 for all occupants (maximum limits apply per person). You'll need to pay for your travel and hotel expenses, then reclaim them from your insurer.</p>
+        <p><sup>4</sup>&nbsp;The service is limited to 1 call-out during the policy year, but additional call-outs are available on a pay-for-use basis.</p>
+        <p>The underwriter of your car insurance policy will be provided from our panel of insurers.</p>
+        <p>BEAM car insurance is arranged by Automobile Association Insurance Services Limited. Registered office: Fanum House, Basing View, Basingstoke, Hampshire RG21 4EA. Registered in England and Wales number 2414212.</p>
+        <p>Automobile Association Insurance Services Limited is authorised and regulated by the Financial Conduct Authority (FCA), <a href="https://register.fca.org.uk/">Financial Services Register number 310562</a>.</p>
+        <br class="t-last-br" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221128T112657Z
+    - ID: "34075d39-34f4-467d-82f9-649af4a3137a"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1bb2739e-9020-42fe-8cbd-4e282cf18d9b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20221128T112657Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221128T125512Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Important information
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p><sup>1</sup>&nbsp;Comprehensive cover provides a courtesy car while your car is being repaired at an approved garage.</p>
+        <p><sup>2</sup>&nbsp;Only for non-fault claims where the other driver is identified and not insured. We'll need the registration number, make and model of the other vehicle.</p>
+        <p><sup>3</sup>&nbsp;Up to &pound;500 for all of the occupants. You'll need to pay for your travel and hotel expenses, then reclaim them from your insurer.</p>
+        <p><sup>4</sup>&nbsp;The service is limited to 1 call-out during the policy year, but additional call-outs are available on a pay-for-use basis.</p>
+        <p>The underwriter of your car insurance policy will be provided from our panel of insurers.</p>
+        <p>BEAM car insurance is arranged by Automobile Association Insurance Services Limited. Registered office: Level 3, Plant, Basing View, Basingstoke, Hampshire RG21 4HG. Registered in England and Wales number 2414212.</p>
+        <p>Automobile Association Insurance Services Limited is authorised and regulated by the Financial Conduct Authority (FCA), <a href="https://register.fca.org.uk/">Financial Services Register number 310562</a>.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230525T122805Z
+    - ID: "34075d39-34f4-467d-82f9-649af4a3137a"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "65e3a47f-a368-46c0-96a3-ec0660e0f182"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230525T122805Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250522T060904Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Important information

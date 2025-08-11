@@ -1,0 +1,400 @@
+﻿---
+ID: "871bd141-d662-434f-9507-8744d6d84313"
+Parent: "c0a17c5e-4619-4995-a65d-d584eb4da39d"
+Template: "11e11bcb-aa73-4cd2-a73e-fbeedfe8da05"
+Path: "/sitecore/content/AA/Beam/Modules/Accordion/car-insurance/faqs/faqs/About your payment"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 200
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200527T133003Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2c7df926-452c-4843-befa-9e1867a954cc"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h2>Can I spread my payments and pay by monthly instalments?</h2>
+        <p>Yes, you can pay by monthly instalments. We'll ask for an initial payment by debit or credit card and the rest of your payment will be made in 11 monthly instalments. Credit will be provided by Automobile Association Insurance Services Limited, and you must be over 18.</p>
+        <hr />
+        <h2>How secure is my online payment?</h2>
+        <p>We keep your personal details and your credit or debit card information private and secure when you buy online. We do this by using secure server software that encrypts any information you give us. It takes the characters you enter and converts them into a secret code, which is then securely sent to us.</p>
+        <hr />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: About your payment
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201015T074117Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201015T092616Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "af67ea1d-342e-442d-8932-fd901f24d19f"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h2>Can I spread my payments and pay by monthly instalments?</h2>
+        <p>Yes, you can pay by monthly instalments. We'll ask for an initial payment by debit or credit card and the rest of your payment will be made in 11 monthly instalments. Credit will be provided by Automobile Association Insurance Services Limited, and you must be over 18.</p>
+        <hr />
+        <br />
+        <h2>How secure is my online payment?</h2>
+        <p>We keep your personal details and your credit or debit card information private and secure when you buy online. We do this by using secure server software that encrypts any information you give us. It takes the characters you enter and converts them into a secret code, which is then securely sent to us.</p>
+        <hr />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201015T092616Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: About your payment
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220307T143923Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220307T144843Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "74adf341-7e8e-4926-8894-9235c36dcc04"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h3><span style="font-size: 24px;"><strong>Can I spread my payments and pay by monthly instalments?</strong></span></h3>
+        <p>Yes, you can pay by monthly instalments. We'll ask for an initial payment by debit or credit card and the rest of your payment will be made in 11 monthly instalments. Credit will be provided by Automobile Association Insurance Services Limited, and you must be over 18.</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>When will my monthly payments be taken?</strong></span></h3>
+        <p>When you buy your insurance by monthly instalments an initial deposit is paid by card, then the first monthly Direct Debit is taken 59 days after the cover starts.</p>
+        <p>The remaining 10 monthly Direct Debits are taken on or around this date unless you request a specific date.</p>
+        <p>You should have received a credit agreement for the monthly payments by post &ndash; it takes about 5 working days to arrive.</p>
+        <p>If you want to change the Direct Debit date, or you've missed a payment, call our instalment team on&nbsp;<strong>0330 041 3690</strong>. Lines are open Monday to Friday 8am to 7pm, Saturdays 9am to 5pm.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">How secure is my online payment?</span></strong></h3>
+        <p>We keep your personal details and your credit or debit card information private and secure when you buy online. We do this by using secure server software that encrypts any information you give us. It takes the characters you enter and converts them into a secret code, which is then securely sent to us.</p>
+        <hr />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220307T144843Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: About your payment
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220307T145304Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220307T150415Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e506a511-0e5c-4e34-8caf-15b140d6c537"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h3><span style="font-size: 24px;"><strong>Can I spread my payments and pay by monthly instalments?</strong></span></h3>
+        <p>Yes, you can pay by monthly instalments. We'll ask for an initial payment by debit or credit card and the rest of your payment will be made in 11 monthly instalments. Credit will be provided by Automobile Association Insurance Services Limited, and you must be over 18.</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>When will my monthly payments be taken?</strong></span></h3>
+        <p>When you buy your insurance by monthly instalments an initial deposit is paid by card, then the first monthly Direct Debit is taken 59 days after the cover starts.</p>
+        <p>The remaining 10 monthly Direct Debits are taken on or around this date unless you request a specific date.</p>
+        <p>You should have received a credit agreement for the monthly payments by post &ndash; it takes about 5 working days to arrive.</p>
+        <p>If you want to change the Direct Debit date, or you've missed a payment, call our instalment team on&nbsp;<strong>0330 041 3690</strong>. Lines are open Monday to Friday 8am to 7pm, Saturdays 9am to 5pm.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">How secure is my online payment?</span></strong></h3>
+        <p>We keep your personal details and your credit or debit card information private and secure when you buy online.We do this by using secure server software that encrypts any information you give us. It takes the characters you enter and converts them into a secret code, which is then securely sent to us.</p>
+        <p>For more information about how your personal data is handled, read our <a href="~/link.aspx?_id=0A48D2BC2C374ADCBED2C5A581B584BA&amp;_z=z">privacy notice</a>.</p>
+        <hr />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220307T150415Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: About your payment
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220307T150600Z
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220307T151708Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6195f89b-499b-41fa-a324-5ce00904bc61"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h3><span style="font-size: 24px;"><strong>Can I spread my payments and pay by monthly instalments?</strong></span></h3>
+        <p>Yes, you can pay by monthly instalments. We'll ask for an initial payment by debit or credit card and the rest of your payment will be made in 11 monthly instalments. Credit will be provided by Automobile Association Insurance Services Limited, and you must be over 18.</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>When will my monthly payments be taken?</strong></span></h3>
+        <p>When you buy your insurance by monthly instalments an initial deposit is paid by card, then the first monthly Direct Debit is taken 59 days after the cover starts.</p>
+        <p>The remaining 10 monthly Direct Debits are taken on or around this date unless you request a specific date.</p>
+        <p>You should have received a credit agreement for the monthly payments by post &ndash; it takes about 5 working days to arrive.</p>
+        <p>If you want to change the Direct Debit date, or you've missed a payment, call our instalment team on&nbsp;<strong>0330 041 3690</strong>. Lines are open Monday to Friday 8am to 7pm, Saturdays 9am to 5pm.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">How secure is my online payment?</span></strong></h3>
+        <p>We keep your personal details and your credit or debit card information private and secure when you buy online.We do this by using secure server software that encrypts any information you give us. It takes the characters you enter and converts them into a secret code, which is then securely sent to us.</p>
+        <p>For more information about how your personal data is handled, read our <a href="/privacy-notice">privacy notice</a>.</p>
+        <hr />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220307T151708Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: About your payment
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220307T151805Z
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220921T125959Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "36e56cf3-46f0-494d-a4f7-086ea38c6564"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h3><span style="font-size: 24px;"><strong>Can I spread my payment in monthly instalments?</strong></span></h3>
+        <p>Yes, you can pay by monthly instalments. When you buy your insurance by monthly instalments an initial deposit is paid by card, then the rest of your payment will be made in 11 monthly instalments by Direct Debit.</p>
+        <p>The dates of the instalments will be shown in the Credit Agreement sent to you by post &ndash; it takes about 5 working days to arrive.</p>
+        <p>Credit will be provided by Automobile Association Insurance Services Limited, and you must be over 18.</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>When will my monthly payments be taken?</strong></span></h3>
+        <p>When you buy your insurance by monthly instalments an initial deposit is paid by card, then the first monthly Direct Debit is taken 59 days after the cover starts.</p>
+        <p>The remaining 10 monthly Direct Debits are taken on or around this date unless you request a specific date.</p>
+        <p>You should have received a credit agreement for the monthly payments by post &ndash; it takes about 5 working days to arrive.</p>
+        <p>If you want to change the Direct Debit date, or you've missed a payment, call our instalment team on&nbsp;<strong>0330 041 3690</strong>. Lines are open Monday to Friday 8am to 7pm, Saturdays 9am to 5pm.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">How secure is my online payment?</span></strong></h3>
+        <p>We keep your personal details and your credit or debit card information private and secure when you buy online.We do this by using secure server software that encrypts any information you give us. It takes the characters you enter and converts them into a secret code, which is then securely sent to us.</p>
+        <p>For more information about how your personal data is handled, read our <a href="/privacy-notice">privacy notice</a>.</p>
+        <hr />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220921T125959Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: About your payment
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220921T130907Z
+  - Version: 7
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230525T100646Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f77e4dad-4752-473d-ad32-cd17ad56f17e"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h3><span style="font-size: 24px;"><strong>Can I spread my payment in monthly instalments?</strong></span></h3>
+        <p>Yes, you can pay by monthly instalments. When you buy your insurance by monthly instalments an initial deposit is paid by card, then the rest of your payment will be made in 11 monthly instalments by Direct Debit.</p>
+        <p>The dates of the instalments will be shown in the Credit Agreement sent to you by post &ndash; it takes about 5 working days to arrive.</p>
+        <p>Credit will be provided by Automobile Association Insurance Services Limited, and you must be over 18.</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>When will my monthly payments be taken?</strong></span></h3>
+        <p>When you buy your insurance by monthly instalments an initial deposit is paid by card, then the first monthly Direct Debit is taken 59 days after the cover starts.</p>
+        <p>The remaining 10 monthly Direct Debits are taken on or around this date unless you request a specific date.</p>
+        <p>You should have received a credit agreement for the monthly payments by post &ndash; it takes about 5 working days to arrive.</p>
+        <p>If you want to change the Direct Debit date, or you've missed a payment, call our instalment team on&nbsp;<strong>0330 041 3690</strong>. Lines are open Monday to Friday 8am to 7pm, Saturdays 9am to 5pm.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">How secure is my online payment?</span></strong></h3>
+        <p>We keep your personal details and your credit or debit card information private and secure when you buy online.We do this by using secure server software that encrypts any information you give us. It takes the characters you enter and converts them into a secret code, which is then securely sent to us.</p>
+        <p>For more information about how your personal data is handled, read our <a href="/privacy-notice">privacy notice</a>.</p>
+        <hr />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230525T100646Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: About your payment
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230525T102831Z
+  - Version: 8
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240910T065309Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "141afdb7-b9ff-47f3-b594-91436d1e1bd7"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <br />
+        <h2>Can I spread the cost of my insurance?</h2>
+        <p>Yes, you can pay by monthly payments. When you buy your insurance by monthly payments an initial deposit is paid by card, then the rest of your payment will be made in 11 monthly payments by Direct Debit.</p>
+        <p>The dates of the payments will be shown in the Credit Agreement sent to you by post &ndash; it takes about 5 working days to arrive.</p>
+        <p>Credit will be provided by Automobile Association Insurance Services Limited, and you must be over 18.</p>
+        <!-- CDI-3203 <hr />
+        <h2>When will my monthly payments be taken?</h2>
+        <p>When you buy your insurance by monthly instalments an initial deposit is paid by card, then the first monthly Direct Debit is taken 59 days after the cover starts.</p>
+        <p>The remaining 10 monthly Direct Debits are taken on or around this date unless you request a specific date.</p>
+        <p>You should have received a credit agreement for the monthly payments by post &ndash; it takes about 5 working days to arrive.</p>
+        <p>If you want to change the Direct Debit date, or you've missed a payment, call our instalment team on&nbsp;<strong>0330 041 3690</strong>. Lines are open Monday to Friday 8am to 7pm, Saturdays 9am to 5pm.</p> -->
+        <hr />
+        <br />
+        <h2>How secure is my online payment?</h2>
+        <p>We keep your personal details and your credit or debit card information private and secure when you buy online.</p>
+        <p>We do this by using secure server software that encrypts any information you give us. It takes the characters you enter and converts them into a secret code, which is then securely sent to us.</p>
+        <hr />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240910T065309Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: About your payment
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241119T124931Z

@@ -1,0 +1,993 @@
+﻿---
+ID: "0b37522a-a88b-4f60-990d-521082b7e995"
+Parent: "625f682b-fdda-4aed-b036-8a4f6737b00d"
+Template: "8703a280-ec4e-43a2-8f83-dc29485a490a"
+Path: "/sitecore/content/AA/Beam/Modules/Accordion/car-insurance/claims/claims/After an accident"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: "-50"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p>Here's our advice if you've had an accident.
+        </p>
+        <p>- The accident
+        </p>
+        <p>- Following the accident
+        </p>
+        <p>- Finding fault
+        </p>
+        <p>- Policy excesses explained
+        </p>
+        <p>The accident</p>
+        <p>The accident involved a collision with another driver
+        </p>
+        <p>In a collision with one or more drivers, stay calm and don't admit fault or liability. If another driver admits fault, tell us.
+        &emsp;</p>
+        <p>- Swap details with the other driver(s): name, address, phone number, car registration number, insurance company details and policy number.
+        &emsp;</p>
+        <p>- Take a note of names, addresses and phone numbers of witnesses.
+        &emsp;</p>
+        <p>- Write down how the accident happened. If it's safe to do so, take photos of the scene, the road layout and the damage to the cars involved.
+        </p>
+        <p>Then report the accident to the 24-hour AA Accident Assist team on 0330 041 3689.
+        </p>
+        <p>After the accident
+        </p>
+        <p>Who will handle my claim?
+        </p>
+        <p>Your claim will be handled by your AA Accident Assist claim advisor. They&rsquo;ll record the details of your claim and explain your options. They'll let you know what your policy covers, and whether you could get a replacement vehicle.
+        Your claim advisor will also make sure you benefit from any upgrades you&rsquo;ve purchased.
+        </p>
+        <p>If you can&rsquo;t continue your journey, we'll tell you if your policy covers travelling expenses to reach your destination, or hotel accommodation for one night.
+        </p>
+        <p>If you or your passengers suffer injury because of the accident and it wasn't your fault, we can put you in touch with our expert panel of solicitors to deal with your injury claim.
+        </p>
+        <p>Confused? Don&rsquo;t worry -- your AA Accident Assist claim advisor will be on hand if you have any questions. And they'll keep in touch to make sure everything is progressing well.
+        </p>
+        <p>What happens if my car can be repaired?
+        </p>
+        <p>AA Accident Assist has a network of Approved Repairers throughout the UK. They'll contact you to arrange repair work to your car, and even provide a replacement car while yours is in the shop.
+        </p>
+        <p>As long as you use an Approved Repairer, your repairs are guaranteed for a minimum of 3 years. Our Repairers use only high-quality approved parts, and they&rsquo;ll collect and return your car to you &ndash; they'll even clean it inside and out.
+        </p>
+        <p>Your Approved Repairer will tell you when the repairs are done and your car is ready to go. If you have a policy excess, you&rsquo;ll pay this to the Repairer directly.
+        If you want to use your own repair bodyshop, let your AA Accident Assist advisor or your insurer know first. They might approve this &ndash; just be aware that the repairs won't be guaranteed by BEAM.
+        </p>
+        <p>What if my car is written off?
+        </p>
+        <p>A write-off is also known as a total loss. If it would be too expensive to fix your car, your insurer will pay you its fair market value before the accident.
+        The insurer's engineer will check motor trade guides and your car&rsquo;s retail value, considering the model, age, mileage and condition, and any extras that are fitted. They&rsquo;ll determine how much your car is worth.
+        If you're the first and only registered keeper and your car is less than 13 months old, we&rsquo;ll replace it with a brand new one.
+        </p>
+        <p>What if I was injured in the accident?
+        </p>
+        <p>If you or your passengers suffered any form of injury because of the accident, and you don't believe it was your fault, we may be able to provide you with a solicitor.
+        They'll make a claim for compensation on your behalf, including any other losses that you may have incurred, for example your policy excess or loss of earnings.
+        If you included the optional Motor Accident Plan on your policy, this significantly improves on the personal injury cover included in our comprehensive policy. For example, Motor Accident Plan pays up to &pound;60,000 if you, or a named driver on your policy, are injured or die as a result of a car crash.
+        </p>
+        <p>Finding fault
+        Finding fault
+        </p>
+        <p>What if the accident wasn't my fault?
+        </p>
+        <p>If you've been involved in an accident which is 100% not your fault, AA Accident Assist may be able to:
+        &emsp;</p>
+        <p>- Authorise repairs to your car directly without you having to pay the policy excess, and your no claim discount may not be affected.
+        &emsp;</p>
+        <p>- Provide a replacement car similar to your own for the duration of repairs, or for up to 7 days after a settlement from your insurer, if your vehicle is deemed a total loss.
+        </p>
+        <p>AA Accident Assist will recover all the costs incurred directly from the third-party insurer.
+        If you decide not to use the AA Accident Assist service, your insurer will arrange the repairs to your car. However, you'll have to pay your policy excess, and your no claim discount will be affected until the insurer successfully recovers their financial outlay.
+        To find out more, call us on 0800 000000.
+        </p>
+        <p>What if the accident was my fault?
+        </p>
+        <p>If you have comprehensive cover, your insurer will arrange repairs to your car or negotiate a settlement if the car is written off. The insurer will also pay for the third-party claim.
+        </p>
+        <p>What if the other party contacts me?
+        </p>
+        <p>If you receive any messages from the third party, their insurer or solicitor through any means, don&rsquo;t reply. Instead, forward the message immediately to your own insurer. They'll respond on your behalf.
+        And if you're contacted by phone, ask the person calling to contact us on 0330 041 3689.
+        Don't agree to any services offered without talking to us first &ndash; they may not be in your best interest.
+        </p>
+        <p>What if the other driver disagrees about the accident circumstances?
+        </p>
+        <p>Your insurer will always try to obtain an admission of liability from the other driver or their insurer.
+        They'll do this by providing evidence and the information you've given them. If the evidence provided does not fully support either driver's version of events, then both insurers may need to share the responsibility.
+        </p>
+        <p>Policy excesses explained
+        </p>
+        <p>Policy excesses 101
+        </p>
+        <p>What is the excess?
+        </p>
+        <p>An excess is the first 'portion' of a claim which you pay, regardless of blame, when your car is repaired or if it's a total loss. The excess is individual to each policy and you&rsquo;ll only ever have to pay your own excess. Your policy has a compulsory excess, and also a voluntary excess that you agreed to when you took out the policy.
+        If you have the Excess Protection upgrade, you can claim back your policy excess on a claim where you're at fault or the other party involved can't be identified.
+        </p>
+        <p>Where can I find information about my excesses?
+        </p>
+        <p>This is on your Statement of Insurance.
+        </p>
+        <p>Who do I pay my excess to?
+        </p>
+        <p>If your car needs repairs, you'll pay the excess directly to the repairer.
+        If your car is a total loss, stolen or not recovered, your excess will come out of the settlement issued to you from your insurer.
+        If you were involved in an accident that wasn't your fault and you bought Motor Legal Assistance from us, or it's included as standard within your policy, we may be able to recover the excess fee from the third-party's insurer.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220204T145749Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\MartinL
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\MartinL
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2a7542f7-a26a-4942-b643-afceb7a0fb1f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\MartinL
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220208T085430Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: What to do after an accident
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p>Here's our advice if you've had an accident.
+        </p>
+        <ul>
+            <li><a href="#the accident">The accident</a>
+            </li>
+            <li><a href="#after the accident">After</a><a href="#after the accident">&nbsp;the accident</a>
+            </li>
+            <li><a href="#finding fault">Finding fault</a>
+            </li>
+            <li><a href="#policy excesses explained">Policy excesses explained</a></li>
+        </ul>
+        <p><span class="divider">&nbsp;</span></p>
+        <h2><a name="the accident" id="anchor_1644312540877">The accident</a></h2>
+        <h3>The accident involved a collision with another driver</h3>
+        <p>In a collision with one or more drivers, stay calm and don't admit fault or liability. If another driver admits fault, tell us.
+        &emsp;</p>
+        <ul>
+            <li><span class="rich-text">Swap details with the other driver(s): name, address, phone number, car registration number, insurance company details and policy number.
+            &emsp;</span></li>
+            <li><span class="rich-text">Take a note of names, addresses and phone numbers of witnesses.
+            &emsp;</span></li>
+            <li><span class="rich-text">Write down how the accident happened. If it's safe to do so, take photos of the scene, the road layout and the damage to the cars involved.</span>
+            </li>
+        </ul>
+        <p>Then report the accident to the 24-hour AA Accident Assist team on <strong>0330 041 3689</strong>.</p>
+        <p><span class="divider">&nbsp;</span></p>
+        <h2><a name="after the accident" id="anchor_1644312563521">After the accident</a>
+        </h2>
+        <h3>Who will handle my claim?
+        </h3>
+        <p>Your claim will be handled by your AA Accident Assist claim advisor. They&rsquo;ll record the details of your claim and explain your options. They'll let you know what your policy covers, and whether you could get a replacement vehicle.
+        Your claim advisor will also make sure you benefit from any upgrades you&rsquo;ve purchased.
+        </p>
+        <p>If you can&rsquo;t continue your journey, we'll tell you if your policy covers travelling expenses to reach your destination, or hotel accommodation for one night.
+        </p>
+        <p>If you or your passengers suffer injury because of the accident and it wasn't your fault, we can put you in touch with our expert panel of solicitors to deal with your injury claim.
+        </p>
+        <p>Confused? Don&rsquo;t worry&nbsp;<span style="background-color: #ffffff; color: #4d5156;">&ndash;</span> your AA Accident Assist claim advisor will be on hand if you have any questions. And they'll keep in touch to make sure everything is progressing well.
+        </p>
+        <h3>What happens if my car can be repaired?
+        </h3>
+        <p>AA Accident Assist has a network of Approved Repairers throughout the UK. They'll contact you to arrange repair work to your car, and even provide a replacement car while yours is in the shop.
+        </p>
+        <p>As long as you use an Approved Repairer, your repairs are guaranteed for a minimum of 3 years. Our Repairers use only high-quality approved parts, and they&rsquo;ll collect and return your car to you &ndash; they'll even clean it inside and out.
+        </p>
+        <p>Your Approved Repairer will tell you when the repairs are done and your car is ready to go. If you have a policy excess, you&rsquo;ll pay this to the Repairer directly.
+        If you want to use your own repair bodyshop, let your AA Accident Assist advisor or your insurer know first. They might approve this &ndash; just be aware that the repairs won't be guaranteed by BEAM.
+        </p>
+        <h3>What if my car is written off?
+        </h3>
+        <p>A write-off is also known as a total loss. If it would be too expensive to fix your car, your insurer will pay you its fair market value before the accident.
+        The insurer's engineer will check motor trade guides and your car&rsquo;s retail value, considering the model, age, mileage and condition, and any extras that are fitted. They&rsquo;ll determine how much your car is worth.
+        If you're the first and only registered keeper and your car is less than 13 months old, we&rsquo;ll replace it with a brand new one.
+        </p>
+        <h3>What if I was injured in the accident?
+        </h3>
+        <p>If you or your passengers suffered any form of injury because of the accident, and you don't believe it was your fault, we may be able to provide you with a solicitor.
+        They'll make a claim for compensation on your behalf, including any other losses that you may have incurred, for example your policy excess or loss of earnings.
+        If you included the optional Motor Accident Plan on your policy, this significantly improves on the personal injury cover included in our comprehensive policy. For example, Motor Accident Plan pays up to &pound;60,000 if you, or a named driver on your policy, are injured or die as a result of a car crash.</p>
+        <p><span class="divider">&nbsp;</span></p>
+        <h2><a name="finding fault" id="anchor_1644312577585">Finding fault</a></h2>
+        <h3>What if the accident wasn't my fault?
+        </h3>
+        <p>If you've been involved in an accident which is 100% not your fault, AA Accident Assist may be able to:
+        &emsp;</p>
+        <ul>
+            <li>Authorise repairs to your car directly without you having to pay the policy excess, and your no claim discount may not be affected.
+            &emsp;</li>
+            <li>Provide a replacement car similar to your own for the duration of repairs, or for up to 7 days after a settlement from your insurer, if your vehicle is deemed a total loss.
+            </li>
+        </ul>
+        <p>AA Accident Assist will recover all the costs incurred directly from the third-party insurer.
+        If you decide not to use the AA Accident Assist service, your insurer will arrange the repairs to your car. However, you'll have to pay your policy excess, and your no claim discount will be affected until the insurer successfully recovers their financial outlay.
+        To find out more, call us on 0800 000000.
+        </p>
+        <h3>What if the accident was my fault?
+        </h3>
+        <p>If you have comprehensive cover, your insurer will arrange repairs to your car or negotiate a settlement if the car is written off. The insurer will also pay for the third-party claim.
+        </p>
+        <h3>What if the other party contacts me?
+        </h3>
+        <p>If you receive any messages from the third party, their insurer or solicitor through any means, don&rsquo;t reply. Instead, forward the message immediately to your own insurer. They'll respond on your behalf.
+        And if you're contacted by phone, ask the person calling to contact us on <strong>0330 041 3689</strong>.
+        Don't agree to any services offered without talking to us first &ndash; they may not be in your best interest.
+        </p>
+        <h3>What if the other driver disagrees about the accident circumstances?
+        </h3>
+        <p>Your insurer will always try to obtain an admission of liability from the other driver or their insurer.
+        They'll do this by providing evidence and the information you've given them. If the evidence provided does not fully support either driver's version of events, then both insurers may need to share the responsibility.</p>
+        <p><span class="divider">&nbsp;</span></p>
+        <h2><a name="policy excesses explained" id="anchor_1644312602554">Policy excesses explained</a></h2>
+        <h3>What is the excess?
+        </h3>
+        <p>An excess is the first 'portion' of a claim which you pay, regardless of blame, when your car is repaired or if it's a total loss. The excess is individual to each policy and you&rsquo;ll only ever have to pay your own excess. Your policy has a compulsory excess, and also a voluntary excess that you agreed to when you took out the policy.
+        If you have the Excess Protection upgrade, you can claim back your policy excess on a claim where you're at fault or the other party involved can't be identified.
+        </p>
+        <h3>Where can I find information about my excesses?
+        </h3>
+        <p>It's on your Statement of Insurance.
+        </p>
+        <h3>Who do I pay my excess to?
+        </h3>
+        <p>If your car needs repairs, you'll pay the excess directly to the repairer.
+        If your car is a total loss, stolen or not recovered, your excess will come out of the settlement issued to you from your insurer.
+        If you were involved in an accident that wasn't your fault and you bought Motor Legal Assistance from us, or it's included as standard within your policy, we may be able to recover the excess fee from the third-party's insurer.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220208T090820Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\MartinL
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\MartinL
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dc80b4cc-f128-4009-99bc-548c17a60f96"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\MartinL
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220208T090820Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220208T093145Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: What to do after an accident
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p>Here's our advice if you've had an accident.
+        </p>
+        <ul>
+            <li><a href="#the accident">The accident</a>
+            </li>
+            <li><a href="#after the accident">After</a><a href="#after the accident">&nbsp;the accident</a>
+            </li>
+            <li><a href="#finding fault">Finding fault</a>
+            </li>
+            <li><a href="#policy excesses explained">Policy excesses explained</a></li>
+        </ul>
+        <p><span class="divider">&nbsp;</span></p>
+        <h2><a name="the accident" id="anchor_1644312540877">The accident</a></h2>
+        <h3>The accident involved a collision with another driver</h3>
+        <p>In a collision with one or more drivers, stay calm and don't admit fault or liability. If another driver admits fault, tell us.
+        &emsp;</p>
+        <ul>
+            <li><span class="rich-text">Swap details with the other driver(s): name, address, phone number, car registration number, insurance company details and policy number.</span></li>
+            <li><span class="rich-text"></span><span class="rich-text">Take a note of names, addresses and phone numbers of witnesses.</span></li>
+            <li><span class="rich-text"></span><span class="rich-text">Write down how the accident happened. If it's safe to do so, take photos of the scene, the road layout and the damage to the cars involved.</span>
+            </li>
+        </ul>
+        <p>Then report the accident to the 24-hour AA Accident Assist team on <strong>0330 041 3689</strong>.</p>
+        <p><span class="divider">&nbsp;</span></p>
+        <h2><a name="after the accident" id="anchor_1644312563521">After the accident</a>
+        </h2>
+        <h3>Who will handle my claim?
+        </h3>
+        <p>Your claim will be handled by your AA Accident Assist claim advisor. They&rsquo;ll record the details of your claim and explain your options. They'll let you know what your policy covers, and whether you could get a replacement vehicle.
+        Your claim advisor will also make sure you benefit from any upgrades you&rsquo;ve purchased.
+        </p>
+        <p>If you can&rsquo;t continue your journey, we'll tell you if your policy covers travelling expenses to reach your destination, or hotel accommodation for one night.
+        </p>
+        <p>If you or your passengers suffer injury because of the accident and it wasn't your fault, we can put you in touch with our expert panel of solicitors to deal with your injury claim.
+        </p>
+        <p>Confused? Don&rsquo;t worry&nbsp;<span style="background-color: #ffffff; color: #4d5156;">&ndash;</span> your AA Accident Assist claim advisor will be on hand if you have any questions. And they'll keep in touch to make sure everything is progressing well.
+        </p>
+        <h3>What happens if my car can be repaired?
+        </h3>
+        <p>AA Accident Assist has a network of Approved Repairers throughout the UK. They'll contact you to arrange repair work to your car, and even provide a replacement car while yours is in the shop.
+        </p>
+        <p>As long as you use an Approved Repairer, your repairs are guaranteed for a minimum of 3 years. Our Repairers use only high-quality approved parts, and they&rsquo;ll collect and return your car to you &ndash; they'll even clean it inside and out.
+        </p>
+        <p>Your Approved Repairer will tell you when the repairs are done and your car is ready to go. If you have a policy excess, you&rsquo;ll pay this to the Repairer directly.
+        If you want to use your own repair bodyshop, let your AA Accident Assist advisor or your insurer know first. They might approve this &ndash; just be aware that the repairs won't be guaranteed by BEAM.
+        </p>
+        <h3>What if my car is written off?
+        </h3>
+        <p>A write-off is also known as a total loss. If it would be too expensive to fix your car, your insurer will pay you its fair market value before the accident.
+        The insurer's engineer will check motor trade guides and your car&rsquo;s retail value, considering the model, age, mileage and condition, and any extras that are fitted. They&rsquo;ll determine how much your car is worth.
+        If you're the first and only registered keeper and your car is less than 13 months old, we&rsquo;ll replace it with a brand new one.
+        </p>
+        <h3>What if I was injured in the accident?
+        </h3>
+        <p>If you or your passengers suffered any form of injury because of the accident, and you don't believe it was your fault, we may be able to provide you with a solicitor.
+        They'll make a claim for compensation on your behalf, including any other losses that you may have incurred, for example your policy excess or loss of earnings.
+        If you added the optional Motor Accident Plan to your policy, you could get a lot more than with the personal injury cover included with our comprehensive policy. For example, Motor Accident Plan pays up to &pound;60,000 if you, or a named driver on your policy, are injured or die as a result of a car crash.</p>
+        <p><span class="divider">&nbsp;</span></p>
+        <h2><a name="finding fault" id="anchor_1644312577585">Finding fault</a></h2>
+        <h3>What if the accident wasn't my fault?
+        </h3>
+        <p>If you've been involved in an accident which is 100% not your fault, AA Accident Assist may be able to:
+        &emsp;</p>
+        <ul>
+            <li>Authorise repairs to your car directly without you having to pay the policy excess, and your no claim discount may not be affected.
+            &emsp;</li>
+            <li>Provide a replacement car similar to your own for the duration of repairs, or for up to 7 days after a settlement from your insurer, if your vehicle is deemed a total loss.
+            </li>
+        </ul>
+        <p>AA Accident Assist will recover all the costs incurred directly from the third-party insurer.
+        If you decide not to use the AA Accident Assist service, your insurer will arrange the repairs to your car. However, you'll have to pay your policy excess, and your no claim discount will be affected until the insurer successfully recovers their financial outlay.
+        &nbsp;</p>
+        <h3>What if the accident was my fault?
+        </h3>
+        <p>If you have comprehensive cover, your insurer will arrange repairs to your car or negotiate a settlement if the car is written off. The insurer will also pay for the third-party claim.
+        </p>
+        <h3>What if the other party contacts me?
+        </h3>
+        <p>If you receive any messages from the third party, their insurer or solicitor through any means, don&rsquo;t reply. Instead, forward the message immediately to your own insurer. They'll respond on your behalf.
+        And if you're contacted by phone, ask the person calling to contact us on <strong>0330 041 3689</strong>.
+        Don't agree to any services offered without talking to us first &ndash; they may not be in your best interest.
+        </p>
+        <h3>What if the other driver disagrees about the accident circumstances?
+        </h3>
+        <p>Your insurer will always try to obtain an admission of liability from the other driver or their insurer.
+        They'll do this by providing evidence and the information you've given them. If the evidence provided does not fully support either driver's version of events, then both insurers may need to share the responsibility.</p>
+        <p><span class="divider">&nbsp;</span></p>
+        <h2><a name="policy excesses explained" id="anchor_1644312602554">Policy excesses explained</a></h2>
+        <h3>What is the excess?
+        </h3>
+        <p>An excess is the first 'portion' of a claim which you pay, regardless of blame, when your car is repaired or if it's a total loss. The excess is individual to each policy and you&rsquo;ll only ever have to pay your own excess. Your policy has a compulsory excess, and also a voluntary excess that you agreed to when you took out the policy.
+        If you have the Excess Protection upgrade, you can claim back your policy excess on a claim where you're at fault or the other party involved can't be identified.
+        </p>
+        <h3>Where can I find information about my excesses?
+        </h3>
+        <p>You can find this on your Statement of Insurance.
+        </p>
+        <h3>Who do I pay my excess to?
+        </h3>
+        <p>If your car needs repairs, you'll pay the excess directly to the repairer.
+        If your car is a total loss, stolen or not recovered, your excess will come out of the settlement issued to you from your insurer.
+        If you were involved in an accident that wasn't your fault and you bought Motor Legal Assistance from us, or it's included as standard within your policy, we may be able to recover the excess fee from the third-party's insurer.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220215T100521Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\MartinL
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\MartinL
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "480bc5ac-0e4c-41e5-84be-e8bac33caca2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\MartinL
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220215T100521Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220215T114816Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: What to do after an accident
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p>Here's our advice if you've had an accident.
+        </p>
+        <ul>
+            <li><a href="#the accident">The accident</a>
+            </li>
+            <li><a href="#after the accident">After</a><a href="#after the accident">&nbsp;the accident</a>
+            </li>
+            <li><a href="#finding fault">Finding fault</a>
+            </li>
+            <li><a href="#policy excesses explained">Policy excesses explained</a></li>
+        </ul>
+        <p><span class="divider">&nbsp;</span></p>
+        <h2><a name="the accident" id="anchor_1644312540877">The accident</a></h2>
+        <h3>The accident involved a collision with another driver</h3>
+        <p>In a collision with one or more drivers, stay calm and don't admit fault or liability. If another driver admits fault, tell us.
+        &emsp;</p>
+        <ul>
+            <li><span class="rich-text">Swap details with the other driver(s): name, address, phone number, car registration number, insurance company details and policy number.</span></li>
+            <li><span class="rich-text"></span><span class="rich-text">Take a note of names, addresses and phone numbers of witnesses.</span></li>
+            <li><span class="rich-text"></span><span class="rich-text">Write down how the accident happened. If it's safe to do so, take photos of the scene, the road layout and the damage to the cars involved.</span>
+            </li>
+        </ul>
+        <p>Then report the accident to the 24-hour AA Accident Assist team on <strong>0330 041 3689</strong>.</p>
+        <p><span class="divider">&nbsp;</span></p>
+        <h2><a name="after the accident" id="anchor_1644312563521">After the accident</a>
+        </h2>
+        <h3>Who will handle my claim?
+        </h3>
+        <p>Your claim will be handled by your AA Accident Assist claim advisor. They&rsquo;ll record the details of your claim and explain your options. They'll let you know what your policy covers, and whether you could get a replacement vehicle.
+        Your claim advisor will also make sure you benefit from any upgrades you&rsquo;ve purchased.
+        </p>
+        <p>If you can&rsquo;t continue your journey, we'll tell you if your policy covers travelling expenses to reach your destination, or hotel accommodation for one night.
+        </p>
+        <p>If you or your passengers suffer injury because of the accident and it wasn't your fault, we can put you in touch with our expert panel of solicitors to deal with your injury claim.
+        </p>
+        <p>Confused? Don&rsquo;t worry&nbsp;<span style="background-color: #ffffff; color: #4d5156;">&ndash;</span> your AA Accident Assist claim advisor will be on hand if you have any questions. And they'll keep in touch to make sure everything is progressing well.
+        </p>
+        <h3>What happens if my car can be repaired?
+        </h3>
+        <p>AA Accident Assist has a network of Approved Repairers throughout the UK. They'll contact you to arrange repair work to your car, and even provide a replacement car while yours is in the shop.
+        </p>
+        <p>As long as you use an Approved Repairer, your repairs are guaranteed for a minimum of 3 years. They use only high-quality approved parts, and they&rsquo;ll collect and return your car to you &ndash; they'll even clean it inside and out.
+        </p>
+        <p>Your Approved Repairer will tell you when the repairs are done and your car is ready to go. If you have a policy excess, you&rsquo;ll pay this to the repairer directly.
+        If you want to use your own repair bodyshop, let your AA Accident Assist advisor or your insurer know first. They might approve this &ndash; just be aware that the repairs won't be guaranteed by BEAM.
+        </p>
+        <h3>What if my car is written off?
+        </h3>
+        <p>A write-off is also known as a total loss. If it would be too expensive to fix your car, your insurer will pay you its fair market value before the accident.
+        The insurer's engineer will check motor trade guides and your car&rsquo;s retail value, considering the model, age, mileage and condition, and any extras that are fitted. They&rsquo;ll determine how much your car is worth.
+        If you're the first and only registered keeper and your car is less than 13 months old, we&rsquo;ll replace it with a brand new one.
+        </p>
+        <h3>What if I was injured in the accident?
+        </h3>
+        <p>If you or your passengers suffered any form of injury because of the accident, and you don't believe it was your fault, we may be able to provide you with a solicitor.
+        They'll make a claim for compensation on your behalf, including any other losses that you may have incurred, for example your policy excess or loss of earnings.
+        If you added the optional Motor Accident Plan to your policy, you could get a lot more than with the personal injury cover included with our comprehensive policy. For example, Motor Accident Plan pays up to &pound;60,000 if you, or a named driver on your policy, are injured or die as a result of a car crash.</p>
+        <p><span class="divider">&nbsp;</span></p>
+        <h2><a name="finding fault" id="anchor_1644312577585">Finding fault</a></h2>
+        <h3>What if the accident wasn't my fault?
+        </h3>
+        <p>If you've been involved in an accident which is 100% not your fault, AA Accident Assist may be able to:
+        &emsp;</p>
+        <ul>
+            <li>Authorise repairs to your car directly without you having to pay the policy excess, and your no claim discount may not be affected.
+            &emsp;</li>
+            <li>Provide a replacement car similar to your own for the duration of repairs, or for up to 7 days after a settlement from your insurer, if your vehicle is deemed a total loss.
+            </li>
+        </ul>
+        <p>AA Accident Assist will recover all the costs incurred directly from the third-party insurer.
+        If you decide not to use the AA Accident Assist service, your insurer will arrange the repairs to your car. However, you'll have to pay your policy excess, and your no claim discount will be affected until the insurer successfully recovers their financial outlay.
+        &nbsp;</p>
+        <h3>What if the accident was my fault?
+        </h3>
+        <p>If you have comprehensive cover, your insurer will arrange repairs to your car or negotiate a settlement if the car is written off. The insurer will also pay for the third-party claim.
+        </p>
+        <h3>What if the other party contacts me?
+        </h3>
+        <p>If you receive any messages from the third party, their insurer or solicitor through any means, don&rsquo;t reply. Instead, forward the message immediately to your own insurer. They'll respond on your behalf.
+        And if you're contacted by phone, ask the person calling to contact us on <strong>0330 041 3689</strong>.
+        Don't agree to any services offered without talking to us first &ndash; they may not be in your best interest.
+        </p>
+        <h3>What if the other driver disagrees about the accident circumstances?
+        </h3>
+        <p>Your insurer will always try to obtain an admission of liability from the other driver or their insurer.
+        They'll do this by providing evidence and the information you've given them. If the evidence provided does not fully support either driver's version of events, then both insurers may need to share the responsibility.</p>
+        <p><span class="divider">&nbsp;</span></p>
+        <h2><a name="policy excesses explained" id="anchor_1644312602554">Policy excesses explained</a></h2>
+        <h3>What is the excess?
+        </h3>
+        <p>An excess is the first 'portion' of a claim which you pay, regardless of blame, when your car is repaired or if it's a total loss. The excess is individual to each policy and you&rsquo;ll only ever have to pay your own excess. Your policy has a compulsory excess, and also a voluntary excess that you agreed to when you took out the policy.
+        If you have the Excess Protection upgrade, you can claim back your policy excess on a claim where you're at fault or the other party involved can't be identified.
+        </p>
+        <h3>Where can I find information about my excesses?
+        </h3>
+        <p>You can find this on your Statement of Insurance.
+        </p>
+        <h3>Who do I pay my excess to?
+        </h3>
+        <p>If your car needs repairs, you'll pay the excess directly to the repairer.
+        If your car is a total loss, stolen or not recovered, your excess will come out of the settlement issued to you from your insurer.
+        If you were involved in an accident that wasn't your fault and you bought Motor Legal Assistance from us, or it's included as standard within your policy, we may be able to recover the excess fee from the third-party's insurer.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220228T124149Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\MartinL
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\MartinL
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e85d4aff-1beb-44c8-a04a-4022b4133ff8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\MartinL
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220228T124149Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220228T124345Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: What to do after an accident
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p>Here's our advice if you've had an accident.
+        </p>
+        <ul>
+            <li><a href="#the accident">The accident</a>
+            </li>
+            <li><a href="#after the accident">After the accident</a>
+            </li>
+            <li><a href="#finding fault">Finding fault</a>
+            </li>
+            <li><a href="#policy excesses explained">Policy excesses explained</a></li>
+        </ul>
+        <p><span class="divider">&nbsp;</span></p>
+        <h2><a name="the accident" id="anchor_1644312540877">The accident</a></h2>
+        <h3>The accident involved a collision with another driver</h3>
+        <p>In a collision with one or more drivers, stay calm and don't admit fault or liability. If another driver admits fault, tell us.
+        &emsp;</p>
+        <ul>
+            <li><span class="rich-text">Swap details with the other driver(s): name, address, phone number, car registration number, insurance company details and policy number.</span></li>
+            <li><span class="rich-text"></span><span class="rich-text">Take a note of names, addresses and phone numbers of witnesses.</span></li>
+            <li><span class="rich-text"></span><span class="rich-text">Write down how the accident happened. If it's safe to do so, take photos of the scene, the road layout and the damage to the cars involved.</span>
+            </li>
+        </ul>
+        <p>Then report the accident to the 24-hour AA Accident Assist team on <strong>0330 041 3689</strong>.</p>
+        <p><span class="divider">&nbsp;</span></p>
+        <h2><a name="after the accident" id="anchor_1644312563521">After the accident</a>
+        </h2>
+        <h3>Who will handle my claim?
+        </h3>
+        <p>Your claim will be handled by your AA Accident Assist claim advisor. They&rsquo;ll record the details of your claim and explain your options. They'll let you know what your policy covers, and whether you could get a replacement vehicle.
+        Your claim advisor will also make sure you benefit from any upgrades you&rsquo;ve purchased.
+        </p>
+        <p>If you can&rsquo;t continue your journey, we'll tell you if your policy covers travelling expenses to reach your destination, or hotel accommodation for one night.
+        </p>
+        <p>If you or your passengers suffer injury because of the accident and it wasn't your fault, we can put you in touch with our expert panel of solicitors to deal with your injury claim.
+        </p>
+        <p>Confused? Don&rsquo;t worry&nbsp;<span style="background-color: #ffffff; color: #4d5156;">&ndash;</span> your AA Accident Assist claim advisor will be on hand if you have any questions. And they'll keep in touch to make sure everything is progressing well.
+        </p>
+        <h3>What happens if my car can be repaired?
+        </h3>
+        <p>AA Accident Assist has a network of Approved Repairers throughout the UK. They'll contact you to arrange repair work to your car, and even provide a replacement car while yours is in the shop.
+        </p>
+        <p>As long as you use an Approved Repairer, your repairs are guaranteed for a minimum of 3 years. They use only high-quality approved parts, and they&rsquo;ll collect and return your car to you &ndash; they'll even clean it inside and out.
+        </p>
+        <p>Your Approved Repairer will tell you when the repairs are done and your car is ready to go. If you have a policy excess, you&rsquo;ll pay this to the repairer directly.
+        If you want to use your own repair bodyshop, let your AA Accident Assist advisor or your insurer know first. They might approve this &ndash; just be aware that the repairs won't be guaranteed by BEAM.
+        </p>
+        <h3>What if my car is written off?
+        </h3>
+        <p>A write-off is also known as a total loss. If it would be too expensive to fix your car, your insurer will pay you its fair market value before the accident.
+        The insurer's engineer will check motor trade guides and your car&rsquo;s retail value, considering the model, age, mileage and condition, and any extras that are fitted. They&rsquo;ll determine how much your car is worth.
+        If you're the first and only registered keeper and your car is less than 13 months old, we&rsquo;ll replace it with a brand new one.
+        </p>
+        <h3>What if I was injured in the accident?
+        </h3>
+        <p>If you or your passengers suffered any form of injury because of the accident, and you don't believe it was your fault, we may be able to provide you with a solicitor.
+        They'll make a claim for compensation on your behalf, including any other losses that you may have incurred, for example your policy excess or loss of earnings.
+        If you added the optional Motor Accident Plan to your policy, you could get a lot more than with the personal injury cover included with our comprehensive policy. For example, Motor Accident Plan pays up to &pound;60,000 if you, or a named driver on your policy, are injured or die as a result of a car crash.</p>
+        <p><span class="divider">&nbsp;</span></p>
+        <h2><a name="finding fault" id="anchor_1644312577585">Finding fault</a></h2>
+        <h3>What if the accident wasn't my fault?
+        </h3>
+        <p>If you've been involved in an accident which is 100% not your fault, AA Accident Assist may be able to:
+        &emsp;</p>
+        <ul>
+            <li>Authorise repairs to your car directly without you having to pay the policy excess, and your no claim discount may not be affected.
+            &emsp;</li>
+            <li>Provide a replacement car similar to your own for the duration of repairs, or for up to 7 days after a settlement from your insurer, if your vehicle is deemed a total loss.
+            </li>
+        </ul>
+        <p>AA Accident Assist will recover all the costs incurred directly from the third-party insurer.
+        If you decide not to use the AA Accident Assist service, your insurer will arrange the repairs to your car. However, you'll have to pay your policy excess, and your no claim discount will be affected until the insurer successfully recovers their financial outlay.
+        &nbsp;</p>
+        <h3>What if the accident was my fault?
+        </h3>
+        <p>If you have comprehensive cover, your insurer will arrange repairs to your car or negotiate a settlement if the car is written off. The insurer will also pay for the third-party claim.
+        </p>
+        <h3>What if the other party contacts me?
+        </h3>
+        <p>If you receive any messages from the third party, their insurer or solicitor through any means, don&rsquo;t reply. Instead, forward the message immediately to your own insurer. They'll respond on your behalf.
+        And if you're contacted by phone, ask the person calling to contact us on <strong>0330 041 3689</strong>.
+        Don't agree to any services offered without talking to us first &ndash; they may not be in your best interest.
+        </p>
+        <h3>What if the other driver disagrees about the accident circumstances?
+        </h3>
+        <p>Your insurer will always try to obtain an admission of liability from the other driver or their insurer.
+        They'll do this by providing evidence and the information you've given them. If the evidence provided does not fully support either driver's version of events, then both insurers may need to share the responsibility.</p>
+        <p><span class="divider">&nbsp;</span></p>
+        <h2><a name="policy excesses explained" id="anchor_1644312602554">Policy excesses explained</a></h2>
+        <h3>What is the excess?
+        </h3>
+        <p>An excess is the first 'portion' of a claim which you pay, regardless of blame, when your car is repaired or if it's a total loss. The excess is individual to each policy and you&rsquo;ll only ever have to pay your own excess. Your policy has a compulsory excess, and also a voluntary excess that you agreed to when you took out the policy.
+        If you have the Excess Protection upgrade, you can claim back your policy excess on a claim where you're at fault or the other party involved can't be identified.
+        </p>
+        <h3>Where can I find information about my excesses?
+        </h3>
+        <p>You can find this on your Statement of Insurance.
+        </p>
+        <h3>Who do I pay my excess to?
+        </h3>
+        <p>If your car needs repairs, you'll pay the excess directly to the repairer.
+        If your car is a total loss, stolen or not recovered, your excess will come out of the settlement issued to you from your insurer.
+        If you were involved in an accident that wasn't your fault and you bought Motor Legal Assistance from us, or it's included as standard within your policy, we may be able to recover the excess fee from the third-party's insurer.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220325T105047Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\MartinL
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\EvansD
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "77847f64-d71a-48c4-b5fe-1496bf0adfad"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\EvansD
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220325T105047Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220325T105132Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: What to do after an accident
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p>Here's our advice if you've had an accident.
+        </p>
+        <ul>
+            <li><a href="#the accident">The accident</a>
+            </li>
+            <li><a href="#after the accident">After the accident</a>
+            </li>
+            <li><a href="#finding fault">Finding fault</a>
+            </li>
+            <li><a href="#policy excesses explained">Policy excesses explained</a></li>
+        </ul>
+        <p><span class="divider">&nbsp;</span></p>
+        <h2><a name="the accident" id="anchor_1644312540877">The accident</a></h2>
+        <h3>The accident involved a collision with another driver</h3>
+        <p>In a collision with one or more drivers, stay calm and don't admit fault or liability. If another driver admits fault, tell us.
+        &emsp;</p>
+        <ul>
+            <li><span class="rich-text">Swap details with the other driver(s): name, address, phone number, car registration number, insurance company details and policy number.</span></li>
+            <li><span class="rich-text"></span><span class="rich-text">Take a note of names, addresses and phone numbers of witnesses.</span></li>
+            <li><span class="rich-text"></span><span class="rich-text">Write down how the accident happened. If it's safe to do so, take photos of the scene, the road layout and the damage to the cars involved.</span>
+            </li>
+        </ul>
+        <p>Then report the accident to the 24-hour AA Accident Assist team on <strong>0330 041 3689</strong>.</p>
+        <p><span class="divider">&nbsp;</span></p>
+        <h2><a name="after the accident" id="anchor_1644312563521">After the accident</a>
+        </h2>
+        <h3>Who will handle my claim?
+        </h3>
+        <p>Your claim will be handled by your AA Accident Assist claim advisor. They&rsquo;ll record the details of your claim and explain your options. They'll let you know what your policy covers, and whether you could get a replacement vehicle.
+        Your claim advisor will also make sure you benefit from any upgrades you&rsquo;ve purchased.
+        </p>
+        <p>If you can&rsquo;t continue your journey, we'll tell you if your policy covers travelling expenses to reach your destination, or hotel accommodation for one night.
+        </p>
+        <p>If you or your passengers suffer injury because of the accident and it wasn't your fault, we can put you in touch with our expert panel of solicitors to deal with your injury claim.
+        </p>
+        <p>Confused? Don&rsquo;t worry&nbsp;<span style="background-color: #ffffff; color: #4d5156;">&ndash;</span> your AA Accident Assist claim advisor will be on hand if you have any questions. And they'll keep in touch to make sure everything is progressing well.
+        </p>
+        <h3>What happens if my car can be repaired?
+        </h3>
+        <p>AA Accident Assist has a network of Approved Repairers throughout the UK. They'll contact you to arrange repair work to your car, and even provide a replacement car while yours is in the shop.
+        </p>
+        <p>As long as you use an Approved Repairer, your repairs are guaranteed for a minimum of 3 years. They use only high-quality approved parts, and they&rsquo;ll collect and return your car to you &ndash; they'll even clean it inside and out.
+        </p>
+        <p>Your Approved Repairer will tell you when the repairs are done and your car is ready to go. If you have a policy excess, you&rsquo;ll pay this to the repairer directly.
+        If you want to use your own repair bodyshop, let your AA Accident Assist advisor or your insurer know first. They might approve this &ndash; just be aware that the repairs won't be guaranteed by BEAM.
+        </p>
+        <h3>What if my car is written off?
+        </h3>
+        <p>A write-off is also known as a total loss. If it would be too expensive to fix your car, your insurer will pay you its fair market value before the accident.
+        The insurer's engineer will check motor trade guides and your car&rsquo;s retail value, considering the model, age, mileage and condition, and any extras that are fitted. They&rsquo;ll determine how much your car is worth.
+        If you're the first and only registered keeper and your car is less than 13 months old, we&rsquo;ll replace it with a brand new one.
+        </p>
+        <h3>What if I was injured in the accident?
+        </h3>
+        <p>If you or your passengers suffered any form of injury because of the accident, and you don't believe it was your fault, we may be able to provide you with a solicitor.
+        They'll make a claim for compensation on your behalf, including any other losses that you may have incurred, for example your policy excess or loss of earnings.
+        If you added the optional Motor Accident Plan to your policy, you could get a lot more than with the personal injury cover included with our comprehensive policy. For example, Motor Accident Plan pays up to &pound;60,000 if you, or a named driver on your policy, are injured or die as a result of a car crash.</p>
+        <p><span class="divider">&nbsp;</span></p>
+        <h2><a name="finding fault" id="anchor_1644312577585">Finding fault</a></h2>
+        <h3>What if the accident wasn't my fault?
+        </h3>
+        <p>If you've been involved in an accident which is 100% not your fault, AA Accident Assist may be able to:
+        &emsp;</p>
+        <ul>
+            <li>Authorise repairs to your car directly without you having to pay the policy excess, and your no claim discount may not be affected.
+            &emsp;</li>
+            <li>Provide a replacement car similar to your own for the duration of repairs, or for up to 7 days after a settlement from your insurer, if your vehicle is deemed a total loss.
+            </li>
+        </ul>
+        <p>AA Accident Assist will recover all the costs incurred directly from the third-party insurer.
+        If you decide not to use the AA Accident Assist service, your insurer will arrange the repairs to your car. However, you'll have to pay your policy excess, and your no claim discount will be affected until the insurer successfully recovers their financial outlay.
+        &nbsp;</p>
+        <h3>What if the accident was my fault?
+        </h3>
+        <p>If you have comprehensive cover, your insurer will arrange repairs to your car or negotiate a settlement if the car is written off. The insurer will also pay for the third-party claim.
+        </p>
+        <h3>What if the other party contacts me?
+        </h3>
+        <p>If you receive any messages from the third party, their insurer or solicitor through any means, don&rsquo;t reply. Instead, forward the message immediately to your own insurer. They'll respond on your behalf.
+        And if you're contacted by phone, ask the person calling to contact us on <strong>0330 041 3689</strong>.
+        Don't agree to any services offered without talking to us first &ndash; they may not be in your best interest.
+        </p>
+        <h3>What if the other driver disagrees about the accident circumstances?
+        </h3>
+        <p>Your insurer will always try to obtain an admission of liability from the other driver or their insurer.
+        They'll do this by providing evidence and the information you've given them. If the evidence provided does not fully support either driver's version of events, then both insurers may need to share the responsibility.</p>
+        <p><span class="divider">&nbsp;</span></p>
+        <h2><a name="policy excesses explained" id="anchor_1644312602554">Policy excesses explained</a></h2>
+        <h3>What is the excess?
+        </h3>
+        <p>An excess is the first 'portion' of a claim which you pay, regardless of blame, when your car is repaired or if it's a total loss. The excess is individual to each policy and you&rsquo;ll only ever have to pay your own excess. Your policy has a compulsory excess, and also a voluntary excess that you agreed to when you took out the policy.
+        If you have the Excess Protection upgrade, you can claim back your policy excess on a claim where you're at fault or the other party involved can't be identified.
+        </p>
+        <h3>Where can I find information about my excesses?
+        </h3>
+        <p>You can find this on your Statement of Insurance.
+        </p>
+        <h3>Who do I pay my excess to?
+        </h3>
+        <p>If your car needs repairs, you'll pay the excess directly to the repairer.
+        If your car is a total loss, stolen or not recovered, your excess will come out of the settlement issued to you from your insurer.
+        If you were involved in an accident that wasn't your fault and you bought Motor Legal Assistance from us, or it's included as standard within your policy, we may be able to recover the excess fee from the third-party's insurer.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230124T134155Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\MartinL
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "72f50847-d4cd-4163-a92a-466e28e9b6d7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230124T134155Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230124T134256Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: What to do after an accident
+  - Version: 7
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <br />
+        <h2><p>Here's our advice if you've had an accident</h2>
+        <ul>
+            <li><a href="#the accident">The accident</a>
+            </li><br />
+            <li><a href="#after the accident">After the accident</a>
+            </li><br />
+            <li><a href="#finding fault">Finding fault</a>
+            </li><br />
+            <li><a href="#policy excesses explained">Policy excesses explained</a></li>
+        </ul>
+        <a name="the accident" id="anchor_1644312540877"></a>
+        <br />
+        <h3>The accident</h3>
+         <br /><h2>The accident involved a collision with another driver</h2>
+        <p>In a collision with one or more drivers, stay calm and don't admit fault or liability. If another driver admits fault, tell us.
+        &emsp;</p>
+        <ul>
+            <li>Swap details with the other driver(s): name, address, phone number, car registration number, insurance company details and policy number.</li><br />
+            <li>Take a note of names, addresses and phone numbers of witnesses.</li><br >
+            <li>Write down how the accident happened. If it's safe to do so, take photos of the scene, the road layout and the damage to the cars involved.
+            </li>
+        </ul>
+        <p>Then report the accident to the 24-hour AA Accident Assist team on <strong>0330 041 3689</strong>.</p>
+        <a name="after the accident" id="anchor_1644312563521"></a>
+        <br />
+        <h3>After the accident</h3>
+         <br /><h2>Who will handle my claim?</h2>
+        <p>Your claim will be handled by your AA Accident Assist claim advisor. They'll record the details of your claim and explain your options. They'll let you know what your policy covers, and whether you could get a replacement vehicle.
+        Your claim advisor will also make sure you benefit from any upgrades you've purchased.
+        </p>
+        <p>If you can't continue your journey, we'll tell you if your policy covers travelling expenses to reach your destination, or hotel accommodation for one night.
+        </p>
+        <p>If you or your passengers suffer injury because of the accident and it wasn't your fault, we can put you in touch with our expert panel of solicitors to deal with your injury claim.
+        </p>
+        <p>Confused? Don't worry &ndash; your AA Accident Assist claim advisor will be on hand if you have any questions. And they'll keep in touch to make sure everything is progressing well.
+        </p>
+         <br /><h2>What happens if my car can be repaired?</h2>
+        <p>AA Accident Assist has a network of approved repairers throughout the UK. They'll contact you to arrange repair work to your car, and even provide a replacement car while yours is in the shop.
+        </p>
+        <p>As long as you use an approved repairer, your repairs are guaranteed for a minimum of 3 years. They use only high-quality approved parts, and they'll collect and return your car to you &ndash; they'll even clean it inside and out.
+        </p>
+        <p>Your approved repairer will tell you when the repairs are done and your car is ready to go. If you have a policy excess, you'll pay this to the repairer directly.
+        If you want to use your own repair bodyshop, let your AA Accident Assist advisor or your insurer know first. They might approve this &ndash; just be aware that the repairs won't be guaranteed by BEAM.
+        </p>
+         <br /><h2>What if my car is written off?</h2>
+        <p>A write-off is also known as a total loss. If it would be too expensive to fix your car, your insurer will pay you its fair market value before the accident.
+        </p>
+        <p>The insurer's engineer will check motor trade guides and your car's retail value, considering the model, age, mileage and condition, and any extras that are fitted. They'll determine how much your car is worth.
+          If you're the first and only registered keeper and your car is less than 13 months old, we'll replace it with a brand new one. </p>
+         <br /><h2>What if I was injured in the accident?</h2>
+        <p>If you or your passengers suffered any form of injury because of the accident, and you don't believe it was your fault, we may be able to provide you with a solicitor.
+        They'll make a claim for compensation on your behalf, including any other losses that you may have incurred, for example your policy excess or loss of earnings.</p>
+        <p>If you added the optional Motor Accident Plan to your policy, you could get a lot more than with the personal injury cover included with our comprehensive policy. For example, Motor Accident Plan pays up to &pound;100,000 if you, or a named driver on your policy, are injured or die as a result of a car crash.</p>
+        <a name="finding fault" id="anchor_1644312577585"></a>
+        <br />
+        <h3>Finding fault</h3>
+         <br /><h2>What if the accident wasn't my fault?</h2>
+        <p>If you've been involved in an accident which is 100% not your fault, AA Accident Assist may be able to:
+        &emsp;</p>
+        <ul>
+            <li>Authorise repairs to your car directly without you having to pay the policy excess, and your no claim discount may not be affected.
+            &emsp;</li><br />
+            <li>Provide a replacement car similar to your own for the duration of repairs, or for up to 7 days after a settlement from your insurer, if your vehicle is deemed a total loss.
+            </li>
+        </ul>
+        <p>AA Accident Assist will recover all the costs incurred directly from the third-party insurer.
+        If you decide not to use the AA Accident Assist service, your insurer will arrange the repairs to your car. </p>
+        <p>However, you'll have to pay your policy excess, and your no claim discount will be affected until the insurer successfully recovers their financial outlay.
+          &nbsp;</p>
+         <br /><h2>What if the accident was my fault?
+        </h2>
+        <p>If you have comprehensive cover, your insurer will arrange repairs to your car or negotiate a settlement if the car is written off. The insurer will also pay for the third-party claim.
+        </p>
+         <br /><h2>What if the other party contacts me?</h2>
+        <p>If you receive any messages from the third party, their insurer or solicitor through any means, don't reply. Instead, forward the message immediately to your own insurer. They'll respond on your behalf.
+        </p>
+        <p>And if you're contacted by phone, ask the person calling to contact us on <strong>0330 041 3689</strong>.
+          Don't agree to any services offered without talking to us first &ndash; they may not be in your best interest.
+        </p>
+         <br /><h2>What if the other driver disagrees about the accident circumstances?</h2>
+        <p>Your insurer will always try to obtain an admission of liability from the other driver or their insurer.
+        They'll do this by providing evidence and the information you've given them. If the evidence provided does not fully support either driver's version of events, then both insurers may need to share the responsibility.</p>
+        <a name="policy excesses explained" id="anchor_1644312602554"></a>
+        <br />
+        <h3>Policy excesses explained</h3>
+         <br /><h2>What is the policy claim excess?</h2>
+        <p>An excess is the first 'portion' of a claim which you pay, regardless of blame, when your car is repaired or if it's a total loss. The excess is individual to each policy and you'll only ever have to pay your own excess. </p>
+        <p>Your policy has a compulsory excess, and also a voluntary excess that you agreed to when you took out the policy.
+          If you have the Excess Protection upgrade, you can claim back your policy excess on a claim where you're at fault or the other party involved can't be identified. </p>
+         <br /><h2>Where can I find information about my excesses?</h2>
+        <p>You can find this on your Statement of Insurance.
+        </p>
+         <br /><h2>Who do I pay my excess to?</h2>
+        <p>If your car needs repairs, you'll pay the excess directly to the repairer.
+        If your car is a total loss, stolen or not recovered, your excess will come out of the settlement issued to you from your insurer.</p>
+        <p>If you were involved in an accident that wasn't your fault and you bought Motor Legal Assistance from us, or it's included as standard within your policy, we may be able to recover the excess fee from the third-party's insurer.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240912T135441Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\MartinL
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5bdb55f8-45d4-42fb-971f-1771cd80a637"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240912T135441Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241119T134402Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: What to do after an accident

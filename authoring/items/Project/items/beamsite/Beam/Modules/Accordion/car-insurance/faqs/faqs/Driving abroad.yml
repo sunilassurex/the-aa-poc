@@ -1,0 +1,165 @@
+﻿---
+ID: "dabd6d6b-eea5-4c29-a655-9b67146166a5"
+Parent: "c0a17c5e-4619-4995-a65d-d584eb4da39d"
+Template: "11e11bcb-aa73-4cd2-a73e-fbeedfe8da05"
+Path: "/sitecore/content/AA/Beam/Modules/Accordion/car-insurance/faqs/faqs/Driving abroad"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 600
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200804T125420Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5f13676b-53d6-4e4c-9070-98b4ddb277bf"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h2>Can I drive abroad with my car insurance?</h2>
+        <p>AA Car Insurance provides the same cover you get in the UK in any EU country for up to 90 days in a year. So as a comprehensive policyholder, you have comprehensive cover when you drive within the EU.</p>
+        <p>Depending on your insurer, and for an additional premium, you may be able to extend the 90-day period, and be insured in countries outside the EU.</p>
+        <p>See our advice page for <a href="~/link.aspx?_id=515B0F7026CA48AF98071E389D2F25E5&amp;_z=z">driving abroad in Europe</a>.</p>
+        <hr />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: Driving abroad
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220307T144006Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220307T144900Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e18c5f8a-7b4b-4e53-8d29-307439228d9a"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h3><span style="font-size: 24px;"><strong>Can I drive abroad with my car insurance?</strong></span></h3>
+        <p>You can drive anywhere in the EU, and in several other European countries, and get the same level of cover you have in the UK for up to 90 days during the 12 months of your policy.</p>
+        <p>Depending on your insurer, and for an additional premium, you may be able to extend the 90-day period. You might also get cover for countries that we don't include as standard.</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>Do I need a car insurance Green Card?</strong></span></h3>
+        <p>Since 2 August 2021 you no longer require a Green Card (or International Motor Insurance Card) for travel in the EU and the EEA states.</p>
+        <p>You also don't need a Green Card for Andorra, Bosnia and Herzegovina, Serbia and Switzerland.</p>
+        <p>Instead of the Green Card, your Certificate of Motor Insurance now proves you have the minimum insurance cover needed by law in the country you're visiting.</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>Which countries are in the EEA or the EU?</strong></span></h3>
+        <p>The European Economic Area includes all the European Union countries plus Iceland, Liechtenstein and Norway.</p>
+        <p>The EU countries are:</p>
+        <p>Austria, Belgium, Bulgaria, Croatia, Republic of Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden.</p>
+        <hr />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220307T144900Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: Driving abroad
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220307T145651Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240910T095606Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0263e2e9-4aeb-432c-859a-2fb1cedd95b5"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <br />
+        <h2>Can I drive abroad with my car insurance?</h2>
+        <p>You can drive drive anywhere in the EU, and in several other European countries, with the same level of cover you have in the UK for up to 90 days during your policy year.</p>
+        <p>Your car insurance is valid in the following countries:</p>
+        <p>Andorra, Austria, Belgium,
+          Bosnia and Herzegovina, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Gibraltar, Germany, Greece, Hungary, Iceland, Italy, Latvia, Liechtenstien, Lithuania, Luxembourg, Malta, Monaco, Montenegro, Netherlands, Norway, Poland, Portugal, Romania, San Marino, Serbia, Slovakia, Slovenia, Spain, Sweden, Switzerland, Vatican City.
+          
+        <p>The Republic of Ireland is within the territorial limit of our car insurance, so policyholders get the same level as cover there as they do in the UK all year round.
+        <p>Remember, as a tourist or for other reasons you can stay within the EU for 90 days in any 180-day period. You may need a visa for a stay longer than 90 days.</p>
+        <p>Depending on your insurer, you could get cover for countries that we don't include as standard.</p>
+        <hr />
+        <br />
+        <h2>What documents do I need for driving in Europe</h2>
+        <p>You'll need to take:</p>
+        <ul>
+            <li>Your Certificate of Motor Insurance </li>
+            <li>The vehicle log book (V5C)</li>
+            <li>Your driving licence</li>
+            <li>Your passport</li>
+        </ul>
+        <!-- CDI-3203 <hr />
+        <br />
+        <h2>Do I need a car insurance Green Card?</h2>
+        <p>Since 2 August 2021 you no longer require a Green Card (or International Motor Insurance Card) for travel in the EU and the EEA states.</p>
+        <p>You also don't need a Green Card for Andorra, Bosnia and Herzegovina, Serbia and Switzerland.</p>
+        <p>Instead of the Green Card, your Certificate of Motor Insurance now proves you have the minimum insurance cover needed by law in the country you're visiting.</p> -->
+        <hr />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240910T095606Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: Driving abroad
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241119T125025Z

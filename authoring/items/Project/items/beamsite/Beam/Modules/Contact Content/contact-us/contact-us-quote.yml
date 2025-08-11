@@ -1,0 +1,803 @@
+﻿---
+ID: "224861f1-ea47-44e5-8cab-8c062333ac4a"
+Parent: "0e3debb3-0a1d-4742-9491-97fe2494b326"
+Template: "52fe6315-2837-41ef-af0d-ec50c51a088b"
+Path: "/sitecore/content/AA/Beam/Modules/Contact Content/contact-us/contact-us-quote"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220915T133535Z
+    - ID: "3953133e-e192-4719-9699-fdab109750a7"
+      Hint: PhoneNumberButtonText
+      Value: Call about your quote
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "76216102-2b3e-4f8c-aac5-ca4e935df44f"
+      Hint: PhoneNumber
+      Value: 0330 041 3686
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3c3e4561-b50e-4fea-a55c-6365e014a888"
+    - ID: "8f133065-f4c6-44a2-b9d3-52637d644513"
+      Hint: Title
+      Value: To discuss your quote
+    - ID: "ab9edffc-4cd6-490c-b3ac-5ca45a563d52"
+      Hint: OpeningTimes
+      Value: |
+        <p>Lines are open Monday to Friday 8am to 7pm, Saturday 9am to 5pm.</p>
+        <hr />
+        <p>Closed bank holiday Monday 19 September.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220915T133535Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220915T143415Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220920T064444Z
+    - ID: "3953133e-e192-4719-9699-fdab109750a7"
+      Hint: PhoneNumberButtonText
+      Value: Call about your quote
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "76216102-2b3e-4f8c-aac5-ca4e935df44f"
+      Hint: PhoneNumber
+      Value: 0330 041 3686
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d0db4947-d7fc-4efa-8870-906b5d29280c"
+    - ID: "8f133065-f4c6-44a2-b9d3-52637d644513"
+      Hint: Title
+      Value: To discuss your quote
+    - ID: "ab9edffc-4cd6-490c-b3ac-5ca45a563d52"
+      Hint: OpeningTimes
+      Value: |
+        <p>Lines are open Monday to Friday 8am to 7pm, Saturday 9am to 5pm.</p>
+        <!--<hr />
+        <p>Closed bank holiday Monday 19 September.</p>-->
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220920T064444Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220920T064557Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221216T102441Z
+    - ID: "3953133e-e192-4719-9699-fdab109750a7"
+      Hint: PhoneNumberButtonText
+      Value: Call about your quote
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "76216102-2b3e-4f8c-aac5-ca4e935df44f"
+      Hint: PhoneNumber
+      Value: 0330 041 3686
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "265425b2-7f4c-476c-94af-50522efce24d"
+    - ID: "8f133065-f4c6-44a2-b9d3-52637d644513"
+      Hint: Title
+      Value: To discuss your quote
+    - ID: "ab9edffc-4cd6-490c-b3ac-5ca45a563d52"
+      Hint: OpeningTimes
+      Value: |
+        <p>Lines are open Monday to Friday 8am to 7pm, Saturday 9am to 5pm.</p>
+        <hr />
+        <!-- <p>Closed bank holiday Monday 19 September.</p> -->
+        <p>24, 27, 31 December, 2 January 9am to 1pm.</p>
+        <p>28&ndash;30 December 8am to 6pm.</p>
+        <p>Closed 25&ndash;26 December, 1 January.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20221216T102441Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221216T103510Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230103T083045Z
+    - ID: "3953133e-e192-4719-9699-fdab109750a7"
+      Hint: PhoneNumberButtonText
+      Value: Call about your quote
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "76216102-2b3e-4f8c-aac5-ca4e935df44f"
+      Hint: PhoneNumber
+      Value: 0330 041 3686
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "68c8545a-f24a-48b4-9c7c-9f9dc7a772ad"
+    - ID: "8f133065-f4c6-44a2-b9d3-52637d644513"
+      Hint: Title
+      Value: To discuss your quote
+    - ID: "ab9edffc-4cd6-490c-b3ac-5ca45a563d52"
+      Hint: OpeningTimes
+      Value: |
+        <p>Lines are open Monday to Friday 8am to 7pm, Saturday 9am to 5pm.</p>
+        <!-- <hr />
+        <p>Closed bank holiday Monday 19 September.</p>
+        <p>24, 27, 31 December, 2 January 9am to 1pm.</p>
+        <p>28&ndash;30 December 8am to 6pm.</p>
+        <p>Closed 25&ndash;26 December, 1 January.</p> -->
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230103T083045Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230103T084318Z
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230209T093306Z
+    - ID: "3953133e-e192-4719-9699-fdab109750a7"
+      Hint: PhoneNumberButtonText
+      Value: Call about your quote
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "76216102-2b3e-4f8c-aac5-ca4e935df44f"
+      Hint: PhoneNumber
+      Value: 0330 041 3686
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e8019e47-3a52-41de-8553-5315a925c6b1"
+    - ID: "8f133065-f4c6-44a2-b9d3-52637d644513"
+      Hint: Title
+      Value: To discuss your quote
+    - ID: "ab9edffc-4cd6-490c-b3ac-5ca45a563d52"
+      Hint: OpeningTimes
+      Value: |
+        <p>Lines are open 8am to 7pm, Monday to Friday; 9am to 5pm, Saturday.</p>
+        <!-- <hr />
+        <p>Closed bank holiday Monday 19 September.</p>
+        <p>24, 27, 31 December, 2 January 9am to 1pm.</p>
+        <p>28&ndash;30 December 8am to 6pm.</p>
+        <p>Closed 25&ndash;26 December, 1 January.</p> -->
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230209T093306Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230209T093349Z
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230404T094843Z
+    - ID: "3953133e-e192-4719-9699-fdab109750a7"
+      Hint: PhoneNumberButtonText
+      Value: Call about your quote
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "76216102-2b3e-4f8c-aac5-ca4e935df44f"
+      Hint: PhoneNumber
+      Value: 0330 041 3686
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1a1cda8a-8eee-4b7e-815a-e355dd2bbeca"
+    - ID: "8f133065-f4c6-44a2-b9d3-52637d644513"
+      Hint: Title
+      Value: To discuss your quote
+    - ID: "ab9edffc-4cd6-490c-b3ac-5ca45a563d52"
+      Hint: OpeningTimes
+      Value: |
+        <p>Lines are open Monday to Friday 8am to 7pm, Saturday 9am to 5pm.</p>
+        <!-- <hr />
+        <p>Closed bank holiday Monday 19 September.</p>
+        <p>24, 27, 31 December, 2 January 9am to 1pm.</p>
+        <p>28&ndash;30 December 8am to 6pm.</p>
+        <p>Closed 25&ndash;26 December, 1 January.</p> -->
+        <hr />
+        <p>Friday 7 April, Monday 10 April 9am to 5pm.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230404T094843Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230404T095720Z
+  - Version: 7
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230411T073219Z
+    - ID: "3953133e-e192-4719-9699-fdab109750a7"
+      Hint: PhoneNumberButtonText
+      Value: Call about your quote
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "76216102-2b3e-4f8c-aac5-ca4e935df44f"
+      Hint: PhoneNumber
+      Value: 0330 041 3686
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b3e62182-d94d-49ee-af0e-eaa4acf2a323"
+    - ID: "8f133065-f4c6-44a2-b9d3-52637d644513"
+      Hint: Title
+      Value: To discuss your quote
+    - ID: "ab9edffc-4cd6-490c-b3ac-5ca45a563d52"
+      Hint: OpeningTimes
+      Value: |
+        <p>Lines are open Monday to Friday 8am to 7pm, Saturday 9am to 5pm.</p>
+        <!-- <hr />
+        <p>Closed bank holiday Monday 19 September.</p>
+        <p>24, 27, 31 December, 2 January 9am to 1pm.</p>
+        <p>28&ndash;30 December 8am to 6pm.</p>
+        <p>Closed 25&ndash;26 December, 1 January.</p> -->
+        <!--<hr />
+        <p>Friday 7 April, Monday 10 April 9am to 5pm.</p>-->
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230411T073219Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230411T073804Z
+  - Version: 8
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230424T104354Z
+    - ID: "3953133e-e192-4719-9699-fdab109750a7"
+      Hint: PhoneNumberButtonText
+      Value: Call about your quote
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "76216102-2b3e-4f8c-aac5-ca4e935df44f"
+      Hint: PhoneNumber
+      Value: 0330 041 3686
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0e28706e-c2d1-4bdd-b302-3227d400f628"
+    - ID: "8f133065-f4c6-44a2-b9d3-52637d644513"
+      Hint: Title
+      Value: To discuss your quote
+    - ID: "ab9edffc-4cd6-490c-b3ac-5ca45a563d52"
+      Hint: OpeningTimes
+      Value: |
+        <p>Lines are open Monday to Friday 8am to 7pm, Saturday 9am to 5pm.</p>
+        <!-- <hr />
+        <p>Closed bank holiday Monday 19 September.</p>
+        <p>24, 27, 31 December, 2 January 9am to 1pm.</p>
+        <p>28&ndash;30 December 8am to 6pm.</p>
+        <p>Closed 25&ndash;26 December, 1 January.</p> -->
+        <!--<hr />
+        <p>Friday 7 April, Monday 10 April 9am to 5pm.</p>-->
+        <hr />
+        <p>Monday 1 May, Monday 8 May 9am to 5pm.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230424T104354Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230424T105126Z
+  - Version: 9
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230509T091836Z
+    - ID: "3953133e-e192-4719-9699-fdab109750a7"
+      Hint: PhoneNumberButtonText
+      Value: Call about your quote
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "76216102-2b3e-4f8c-aac5-ca4e935df44f"
+      Hint: PhoneNumber
+      Value: 0330 041 3686
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c9518d45-1156-4d2a-b170-dc1a715f8335"
+    - ID: "8f133065-f4c6-44a2-b9d3-52637d644513"
+      Hint: Title
+      Value: To discuss your quote
+    - ID: "ab9edffc-4cd6-490c-b3ac-5ca45a563d52"
+      Hint: OpeningTimes
+      Value: |
+        <p>Lines are open Monday to Friday 8am to 7pm, Saturday 9am to 5pm.</p>
+        <!-- <hr />
+        <p>Closed bank holiday Monday 19 September.</p>
+        <p>24, 27, 31 December, 2 January 9am to 1pm.</p>
+        <p>28&ndash;30 December 8am to 6pm.</p>
+        <p>Closed 25&ndash;26 December, 1 January.</p> -->
+        <!--<hr />
+        <p>Friday 7 April, Monday 10 April 9am to 5pm.</p>-->
+        <!--<hr />
+        <p>Monday 1 May, Monday 8 May 9am to 5pm.</p>-->
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230509T091836Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230509T092807Z
+  - Version: 10
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230821T081735Z
+    - ID: "3953133e-e192-4719-9699-fdab109750a7"
+      Hint: PhoneNumberButtonText
+      Value: Call about your quote
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "76216102-2b3e-4f8c-aac5-ca4e935df44f"
+      Hint: PhoneNumber
+      Value: 0330 041 3686
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "179b725d-8bf8-4020-933d-f1ef42ee55f9"
+    - ID: "8f133065-f4c6-44a2-b9d3-52637d644513"
+      Hint: Title
+      Value: To discuss your quote
+    - ID: "ab9edffc-4cd6-490c-b3ac-5ca45a563d52"
+      Hint: OpeningTimes
+      Value: |
+        <p>Lines are open Monday to Friday 8am to 7pm, Saturday 9am to 5pm.</p>
+        <!-- <hr />
+        <p>Closed bank holiday Monday 19 September.</p>
+        <p>24, 27, 31 December, 2 January 9am to 1pm.</p>
+        <p>28&ndash;30 December 8am to 6pm.</p>
+        <p>Closed 25&ndash;26 December, 1 January.</p> -->
+        <!--<hr />
+        <p>Friday 7 April, Monday 10 April 9am to 5pm.</p>-->
+        <!--<hr />
+        <p>Monday 1 May, Monday 8 May 9am to 5pm.</p>-->
+        <hr />
+        <p>August Bank Holiday Monday 9am to 5pm.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230821T081735Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230821T084645Z
+  - Version: 11
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230829T083101Z
+    - ID: "3953133e-e192-4719-9699-fdab109750a7"
+      Hint: PhoneNumberButtonText
+      Value: Call about your quote
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "76216102-2b3e-4f8c-aac5-ca4e935df44f"
+      Hint: PhoneNumber
+      Value: 0330 041 3686
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f876768d-5b2a-4a3b-b8c4-3a8c06d0e15c"
+    - ID: "8f133065-f4c6-44a2-b9d3-52637d644513"
+      Hint: Title
+      Value: To discuss your quote
+    - ID: "ab9edffc-4cd6-490c-b3ac-5ca45a563d52"
+      Hint: OpeningTimes
+      Value: |
+        <p>Lines are open Monday to Friday 8am to 7pm, Saturday 9am to 5pm.</p>
+        <!-- <hr />
+        <p>24, 27, 31 December, 2 January 9am to 1pm.</p>
+        <p>28&ndash;30 December 8am to 6pm.</p>
+        <p>Closed 25&ndash;26 December, 1 January.</p> -->
+        <!--<hr />
+        <p>Friday 7 April, Monday 10 April 9am to 5pm.</p>-->
+        <!--<hr />
+        <p>Monday 1 May, Monday 8 May 9am to 5pm.</p>-->
+        <!-- <hr />
+        <p>August Bank Holiday Monday 9am to 5pm.</p>-->
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230829T083101Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230829T095527Z
+  - Version: 12
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231215T150754Z
+    - ID: "3953133e-e192-4719-9699-fdab109750a7"
+      Hint: PhoneNumberButtonText
+      Value: Call about your quote
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "76216102-2b3e-4f8c-aac5-ca4e935df44f"
+      Hint: PhoneNumber
+      Value: 0330 041 3686
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6ddef543-bbd4-4959-9651-feb9666c9d54"
+    - ID: "8f133065-f4c6-44a2-b9d3-52637d644513"
+      Hint: Title
+      Value: To discuss your quote
+    - ID: "ab9edffc-4cd6-490c-b3ac-5ca45a563d52"
+      Hint: OpeningTimes
+      Value: |
+        <p>Lines are open Monday to Friday 8am to 7pm, Saturday 9am to 5pm.</p>
+        <hr />
+        <p>23 December 9am to 3pm.</p>
+        <p>27&ndash;29 December 8am to 6pm.</p>
+        <p>30 December 9am to 3pm.</p>
+        <p>Closed 25&ndash;26 December, 1 January.</p>
+        <!--<hr />
+        <p>Friday 7 April, Monday 10 April 9am to 5pm.</p>-->
+        <!--<hr />
+        <p>Monday 1 May, Monday 8 May 9am to 5pm.</p>-->
+        <!-- <hr />
+        <p>August Bank Holiday Monday 9am to 5pm.</p>-->
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20231215T150754Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231215T153528Z
+  - Version: 13
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240102T075517Z
+    - ID: "3953133e-e192-4719-9699-fdab109750a7"
+      Hint: PhoneNumberButtonText
+      Value: Call about your quote
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "76216102-2b3e-4f8c-aac5-ca4e935df44f"
+      Hint: PhoneNumber
+      Value: 0330 041 3686
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "825321f6-4d20-4f75-b830-9fba3b03d6d3"
+    - ID: "8f133065-f4c6-44a2-b9d3-52637d644513"
+      Hint: Title
+      Value: To discuss your quote
+    - ID: "ab9edffc-4cd6-490c-b3ac-5ca45a563d52"
+      Hint: OpeningTimes
+      Value: |
+        <p>Lines are open Monday to Friday 8am to 7pm, Saturday 9am to 5pm.</p>
+        <!--<hr />
+        <p>23 December 9am to 3pm.</p>
+        <p>27&ndash;29 December 8am to 6pm.</p>
+        <p>30 December 9am to 3pm.</p>
+        <p>Closed 25&ndash;26 December, 1 January.</p>-->
+        <!--<hr />
+        <p>Friday 7 April, Monday 10 April 9am to 5pm.</p>-->
+        <!--<hr />
+        <p>Monday 1 May, Monday 8 May 9am to 5pm.</p>-->
+        <!-- <hr />
+        <p>August Bank Holiday Monday 9am to 5pm.</p>-->
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240102T075517Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240102T075831Z
+  - Version: 14
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250416T110717Z
+    - ID: "3953133e-e192-4719-9699-fdab109750a7"
+      Hint: PhoneNumberButtonText
+      Value: Call about your quote
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "76216102-2b3e-4f8c-aac5-ca4e935df44f"
+      Hint: PhoneNumber
+      Value: 0330 041 3686
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "42123200-0e70-4c0e-a851-6646d6185481"
+    - ID: "8f133065-f4c6-44a2-b9d3-52637d644513"
+      Hint: Title
+      Value: To discuss your quote
+    - ID: "ab9edffc-4cd6-490c-b3ac-5ca45a563d52"
+      Hint: OpeningTimes
+      Value: |
+        <p>We're open Monday to Friday 8am to 7pm, Saturday 9am to 5pm.</p>
+        <!--<hr />
+        <p>23 December 9am to 3pm.</p>
+        <p>27&ndash;29 December 8am to 6pm.</p>
+        <p>30 December 9am to 3pm.</p>
+        <p>Closed 25&ndash;26 December, 1 January.</p>-->
+        <!--<hr />
+        <p>Friday 7 April, Monday 10 April 9am to 5pm.</p>-->
+        <!--<hr />
+        <p>Monday 1 May, Monday 8 May 9am to 5pm.</p>-->
+        <!-- <hr />
+        <p>August Bank Holiday Monday 9am to 5pm.</p>-->
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20250416T110717Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250416T110855Z
+  - Version: 15
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250416T111351Z
+    - ID: "3953133e-e192-4719-9699-fdab109750a7"
+      Hint: PhoneNumberButtonText
+      Value: Call about your quote
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "76216102-2b3e-4f8c-aac5-ca4e935df44f"
+      Hint: PhoneNumber
+      Value: 0330 041 3686
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "94892db4-4e98-49c6-b74a-33308954ca15"
+    - ID: "8f133065-f4c6-44a2-b9d3-52637d644513"
+      Hint: Title
+      Value: Your quote
+    - ID: "ab9edffc-4cd6-490c-b3ac-5ca45a563d52"
+      Hint: OpeningTimes
+      Value: |
+        <p>We're open Monday to Friday 8am to 7pm, Saturday 9am to 5pm.</p>
+        <!--<hr />
+        <p>23 December 9am to 3pm.</p>
+        <p>27&ndash;29 December 8am to 6pm.</p>
+        <p>30 December 9am to 3pm.</p>
+        <p>Closed 25&ndash;26 December, 1 January.</p>-->
+        <!--<hr />
+        <p>Friday 7 April, Monday 10 April 9am to 5pm.</p>-->
+        <!--<hr />
+        <p>Monday 1 May, Monday 8 May 9am to 5pm.</p>-->
+        <!-- <hr />
+        <p>August Bank Holiday Monday 9am to 5pm.</p>-->
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20250416T111351Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250417T122702Z

@@ -1,0 +1,344 @@
+﻿---
+ID: "5c5e5d99-8f12-4156-b781-a19f40ce02d7"
+Parent: "c0a17c5e-4619-4995-a65d-d584eb4da39d"
+Template: "11e11bcb-aa73-4cd2-a73e-fbeedfe8da05"
+Path: "/sitecore/content/AA/Beam/Modules/Accordion/car-insurance/faqs/faqs/Using the car"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200804T094045Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bdafac8e-554e-45f1-9eb6-483f1c3ada93"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h2>Am I covered for towing caravans or trailers?</h2>
+        <p>When towing a caravan or trailer, you are covered for the costs you are liable to pay if you cause damage to property, or injury or death to someone.</p>
+        <p>Your car insurance also covers a single-axle trailer, worth up to &pound;500 and kept in a safe and roadworthy condition, while attached to your car. For example, if you have comprehensive insurance, your trailer will also be covered on a comprehensive basis, which includes accidental damage, fire and theft.</p>
+        <hr />
+        <h2>When do I need to select business use?</h2>
+        <p>Select business use when you use your car to travel to various places in connection with your work, such as offices or factories. Business use is not required when you travel to a single permanent place of work.</p>
+        <hr />
+        <h2>If I do voluntary work, do I need to select business use?</h2>
+        <p>When you only commute to and from one permanent place of voluntary work, then select 'Social, Domestic, Pleasure &amp; Commuting' for the use of your car.</p>
+        <p>If you travel to more than one place of voluntary work, our panel of insurers has agreed that 'Social, Domestic, Pleasure &amp; Commuting' is sufficient cover and should be selected.</p>
+        <p>But if you transport goods or people as part of your voluntary work, then please call <strong>0800 197 7178</strong> for a quote.</p>
+        <p>Please note, we do not charge an administration fee if you call us to update your policy to show you now do voluntary work.</p>
+        <p>Our panel of insurers operates under the statement below, issued on the Association of British Insurers website.</p>
+        <p>"The insurer will insure their policyholders to carry out voluntary driving, that is, the use of a vehicle they own in connection with, or for the benefit of, charities, voluntary organisations, clubs or societies, where payment does not exceed the HMRC mileage rates in force at that time. This does not cover use for hire or reward or vehicles owned by, hired to or lent to the voluntary organisation."</p>
+        <hr />
+        <h2>Can I drive other cars?</h2>
+        <p>Yes, our comprehensive policy allows you to drive other vehicles with third-party cover, unless it's specifically excluded by your insurer. If this is excluded, we'll state this when you get a quote. If you've already bought car insurance from us, check your certificate of insurance. The conditions that apply to this benefit are in your Car Insurance Policy Booklet.</p>
+        <hr />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: Using the car
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201015T074123Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201015T092642Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2292fa65-ea09-42cc-b095-c79e194084d5"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h2>Am I covered for towing caravans or trailers?</h2>
+        <p>When towing a caravan or trailer, you are covered for the costs you are liable to pay if you cause damage to property, or injury or death to someone.</p>
+        <p>Your car insurance also covers a single-axle trailer, worth up to &pound;500 and kept in a safe and roadworthy condition, while attached to your car. For example, if you have comprehensive insurance, your trailer will also be covered on a comprehensive basis, which includes accidental damage, fire and theft.</p>
+        <hr />
+        <br />
+        <h2>When do I need to select business use?</h2>
+        <p>Select business use when you use your car to travel to various places in connection with your work, such as offices or factories. Business use is not required when you travel to a single permanent place of work.</p>
+        <hr />
+        <br />
+        <h2>If I do voluntary work, do I need to select business use?</h2>
+        <p>When you only commute to and from one permanent place of voluntary work, then select 'Social, Domestic, Pleasure &amp; Commuting' for the use of your car.</p>
+        <p>If you travel to more than one place of voluntary work, our panel of insurers has agreed that 'Social, Domestic, Pleasure &amp; Commuting' is sufficient cover and should be selected.</p>
+        <p>But if you transport goods or people as part of your voluntary work, then please call <strong>0800 197 7178</strong> for a quote.</p>
+        <p>Please note, we do not charge an administration fee if you call us to update your policy to show you now do voluntary work.</p>
+        <p>Our panel of insurers operates under the statement below, issued on the Association of British Insurers website.</p>
+        <p>"The insurer will insure their policyholders to carry out voluntary driving, that is, the use of a vehicle they own in connection with, or for the benefit of, charities, voluntary organisations, clubs or societies, where payment does not exceed the HMRC mileage rates in force at that time. This does not cover use for hire or reward or vehicles owned by, hired to or lent to the voluntary organisation."</p>
+        <hr />
+        <br />
+        <h2>Can I drive other cars?</h2>
+        <p>Yes, our comprehensive policy allows you to drive other vehicles with third-party cover, unless it's specifically excluded by your insurer. If this is excluded, we'll state this when you get a quote. If you've already bought car insurance from us, check your certificate of insurance. The conditions that apply to this benefit are in your Car Insurance Policy Booklet.</p>
+        <hr />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201015T092642Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: Using the car
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220307T143923Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220307T144847Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9a4f7946-f36f-403a-ad52-76ec4bb4383e"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h3><span style="font-size: 24px;"><strong>Am I covered for towing caravans or trailers?</strong></span></h3>
+        <p>When towing a caravan or trailer, you're covered for the costs you're liable to pay if you cause damage to property, or injury or death to someone.</p>
+        <p>Your car insurance also covers a single-axle trailer, worth up to &pound;500 and kept in a safe and roadworthy condition, while attached to your car. For example, if you have comprehensive insurance, your trailer will also be covered on a comprehensive basis, which includes accidental damage, fire and theft.</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>When do I need to select business use?</strong></span></h3>
+        <p>Select business use when you use your car to travel to various places in connection with your work, such as offices or factories. Business use isn't required when you travel to a single permanent place of work.</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>If I do voluntary work, do I need to select business use?</strong></span></h3>
+        <p>When you only commute to and from one permanent place of voluntary work, then select 'Social, Domestic, Pleasure &amp; Commuting' for the use of your car.</p>
+        <p>If you travel to more than one place of voluntary work, our panel of insurers has agreed that 'Social, Domestic, Pleasure &amp; Commuting' is sufficient cover and should be selected.</p>
+        <p>But if you transport goods or people as part of your voluntary work, then please call&nbsp;<strong>0330 041 3686</strong>&nbsp;for a quote.</p>
+        <p>We don&rsquo;t charge an administration fee if you call us to update your policy to show you now do voluntary work.</p>
+        <p>Our panel of insurers operates under the statement below, issued on the Association of British Insurers website.</p>
+        <p>"The insurer will insure their policyholders to carry out voluntary driving, that is, the use of a vehicle they own in connection with, or for the benefit of, charities, voluntary organisations, clubs or societies, where payment does not exceed the HMRC mileage rates in force at that time. This does not cover use for hire or reward or vehicles owned by, hired to or lent to the voluntary organisation."</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>Can I drive other cars?</strong></span></h3>
+        <p>Yes, our comprehensive policy allows you to drive other vehicles with third party cover, unless it's specifically excluded by your insurer. If this is excluded, we'll state this when you get a quote. If you've already bought car insurance from us, check your certificate of insurance. The conditions that apply to this benefit are in your&nbsp;<strong><span style="text-decoration: underline;">Car Insurance Policy Booklet</span></strong>.</p>
+        <hr />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220307T144847Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: Using the car
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220307T145348Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220412T084308Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "538fdf39-24d6-42cf-aa53-ace0d020f532"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h3><span style="font-size: 24px;"><strong>Am I covered for towing caravans or trailers?</strong></span></h3>
+        <p>When towing a caravan or trailer, you're covered for the costs you're liable to pay if you cause damage to property, or injury or death to someone.</p>
+        <p>Your car insurance also covers a single-axle trailer, worth up to &pound;500 and kept in a safe and roadworthy condition, while attached to your car. For example, if you have comprehensive insurance, your trailer will also be covered on a comprehensive basis, which includes accidental damage, fire and theft.</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>When do I need to select business use?</strong></span></h3>
+        <p>Select business use when you use your car to travel to various places in connection with your work, such as offices or factories. Business use isn't required when you travel to a single permanent place of work.</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>If I do voluntary work, do I need to select business use?</strong></span></h3>
+        <p>When you only commute to and from one permanent place of voluntary work, then select 'Social, Domestic, Pleasure &amp; Commuting' for the use of your car.</p>
+        <p>If you travel to more than one place of voluntary work, our panel of insurers has agreed that 'Social, Domestic, Pleasure &amp; Commuting' is sufficient cover and should be selected.</p>
+        <p>But if you transport goods or people as part of your voluntary work, then please call&nbsp;<strong>0330 041 3686</strong>&nbsp;for a quote.</p>
+        <p>We don&rsquo;t charge an administration fee if you call us to update your policy to show you now do voluntary work.</p>
+        <p>Our panel of insurers operates under the statement below, issued on the Association of British Insurers website.</p>
+        <p>"The insurer will insure their policyholders to carry out voluntary driving, that is, the use of a vehicle they own in connection with, or for the benefit of, charities, voluntary organisations, clubs or societies, where payment does not exceed the HMRC mileage rates in force at that time. This does not cover use for hire or reward or vehicles owned by, hired to or lent to the voluntary organisation."</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>Can I drive other cars?</strong></span></h3>
+        <p>Yes, our comprehensive policy allows you to drive other vehicles with third party cover, unless it's specifically excluded by your insurer. If this is excluded, we'll state this when you get a quote. If you've already bought car insurance from us, check your certificate of insurance. The conditions that apply to this benefit are in your&nbsp;<a href="~/media/56B257729DCA494C9F8C2481F85F1637.ashx">Car Insurance Policy Booklet</a>.</p>
+        <hr />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220412T084308Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: Using the car
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220412T084439Z
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230525T100749Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4e36b4e5-ce26-4b09-97b1-eead60222a37"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h3><span style="font-size: 24px;"><strong>Am I covered for towing caravans or trailers?</strong></span></h3>
+        <p>When towing a caravan or trailer, you're covered for the costs you're liable to pay if you cause damage to property, or injury or death to someone.</p>
+        <p>Your car insurance also covers a single-axle trailer, worth up to &pound;500 and kept in a safe and roadworthy condition, while attached to your car. For example, if you have comprehensive insurance, your trailer will also be covered on a comprehensive basis, which includes accidental damage, fire and theft.</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>When do I need to select business use?</strong></span></h3>
+        <p>Select business use when you use your car to travel to various places in connection with your work, such as offices or factories. Business use isn't required when you travel to a single permanent place of work.</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>If I do voluntary work, do I need to select business use?</strong></span></h3>
+        <p>When you only commute to and from one permanent place of voluntary work, then select 'Social, Domestic, Pleasure &amp; Commuting' for the use of your car.</p>
+        <p>If you travel to more than one place of voluntary work, our panel of insurers has agreed that 'Social, Domestic, Pleasure &amp; Commuting' is sufficient cover and should be selected.</p>
+        <p>But if you transport goods or people as part of your voluntary work, then please call&nbsp;<strong>0330 041 3686</strong>&nbsp;for a quote.</p>
+        <p>We don&rsquo;t charge an administration fee if you call us to update your policy to show you now do voluntary work.</p>
+        <p>Our panel of insurers operates under the statement below, issued on the Association of British Insurers website.</p>
+        <p>"The insurer will insure their policyholders to carry out voluntary driving, that is, the use of a vehicle they own in connection with, or for the benefit of, charities, voluntary organisations, clubs or societies, where payment does not exceed the HMRC mileage rates in force at that time. This does not cover use for hire or reward or vehicles owned by, hired to or lent to the voluntary organisation."</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>Can I drive other cars?</strong></span></h3>
+        <p>Yes, our comprehensive policy allows you to drive other vehicles with third party cover, unless it's specifically excluded by your insurer. If this is excluded, we'll state this when you get a quote. If you've already bought car insurance from us, check your certificate of insurance. The conditions that apply to this benefit are in your&nbsp;<a href="~/media/56B257729DCA494C9F8C2481F85F1637.ashx">Car Insurance Policy Booklet</a>.</p>
+        <hr />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230525T100749Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: Using the car
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230525T102927Z
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240910T065926Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c01f1066-835d-495b-b6d5-01d444123a23"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <br />
+        <h2>Am I covered for towing caravans or trailers?</h2>
+        <p>When towing a caravan or trailer, you're covered for costs you're liable to pay if you cause damage to property, or injury or death to someone.</p>
+        <p> Under comprehensive insurance, a single-axle trailer attached to your car will also be covered for damage up to &pound;500. The trailer must be in a safe and roadworthy condition.</p>
+        <hr />
+        <br />
+        <h2>When do I need to declare business use?</h2>
+        <p>When you get a quote, select 'Social, domestic, pleasure, commuting and business use' for journeys to various places in connection with your work, such as offices or factories. </p>
+        <p>Whereas when you travel to a single permanent place of work, select 'Social, domestic, pleasure and commuting'.</p>
+        <hr />
+        <br />
+        <h2>If I do voluntary work, do I select business use?</h2>
+        <p> No. When you get a quote, select 'Social, domestic and pleasure' if you use your car for voluntary work.</p>
+        <p>Our panel of insurers operates under the statement issued by the <a href="https://www.abi.org.uk/globalassets/files/publications/public/motor/2021/abi-guide-to-volunteer-driving---the-motor-insurance-commitment-2021.pdf">Association of British Insurers</a>:</p>
+        <p>'The insurers will insure their policyholders to carry out voluntary driving, that is, the use of a vehicle they own in connection with, or for the
+         benefit of, charities, voluntary organisations, clubs or societies &#8230; where payment does not exceed the HMRC
+        mileage rates in force at that time. This does not cover use for hire or reward or vehicles owned by, hired to or lent to the voluntary organisation.'</p>
+        <p>But if you transport goods or people as part of your voluntary work, then please call <strong>0330 041 3684</strong> for a quote.</p>
+        <p>If you call us about an existing policy to say you now do voluntary work, we won't charge an administration fee to update it.</p>
+        <hr />
+        <br />
+        <h2>Can I drive other cars?</h2>
+        <p>Yes, our comprehensive insurance allows you to drive other vehicles with third-party cover, unless specifically excluded by your insurer. If this cover is excluded, it will be shown on your quote as an endorsement. </p>
+        <p>If you've already bought car&nbsp;insurance from us, the Certificate of Insurance will confirm you can drive other cars. The conditions that apply to this benefit are in the <a href="/car-insurance/compare-cover-levels">Car Insurance Policy Booklet</a>.</p>
+        <hr />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240910T065926Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: Using the car
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241119T124944Z

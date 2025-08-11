@@ -1,0 +1,303 @@
+﻿---
+ID: "57435e80-a984-4b44-9b45-c45e2f5afebd"
+Parent: "25af4835-a90b-40be-bc3a-00dfd25ab4bb"
+Template: "7a33a0c3-80aa-4a5f-a21e-154cf421ff4d"
+Path: "/sitecore/content/AA/Beam/Modules/Related Product/car-insurance/quote-retrieval"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0b25eea9-cb1a-448c-81c4-315bbf6aff2a"
+      Hint: SupportingText
+      Value: If you’ve already got a quote from a comparison site, you can retrieve it using your reference number to pick up where you left off.
+    - ID: "0bac74a9-e487-451e-9fee-31e8a08d37a2"
+      Hint: Title
+      Value: "Got a quote and want to buy BEAM?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211216T172851Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bf35ca52-c0c4-4afd-87b3-09090b052af5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "cb3b892e-89a4-44c6-84a7-f42c2294354a"
+      Hint: PrimaryCta
+      Value: |
+        <link text="Retrieve your quote" linktype="external" url="/car-insurance/sales/your-quote/quote-retrieval" anchor="" target="" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220125T180246Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0b25eea9-cb1a-448c-81c4-315bbf6aff2a"
+      Hint: SupportingText
+      Value: If you’ve already got a quote from a comparison site, retrieve it with your reference number and pick up where you left off.
+    - ID: "0bac74a9-e487-451e-9fee-31e8a08d37a2"
+      Hint: Title
+      Value: "Got a quote and want to buy BEAM?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220126T112526Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e548cd7c-816e-42b6-8ecc-e707e1b30581"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220126T112526Z
+    - ID: "cb3b892e-89a4-44c6-84a7-f42c2294354a"
+      Hint: PrimaryCta
+      Value: |
+        <link text="Retrieve your quote" linktype="external" url="/car-insurance/sales/your-quote/quote-retrieval" anchor="" target="" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220126T112551Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0b25eea9-cb1a-448c-81c4-315bbf6aff2a"
+      Hint: SupportingText
+      Value: If you’ve already got a quote from a comparison site, retrieve it with your reference number to pick up where you left off.
+    - ID: "0bac74a9-e487-451e-9fee-31e8a08d37a2"
+      Hint: Title
+      Value: "Got a quote and want to buy BEAM?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220126T112608Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "779ad896-3bd6-43cc-af24-1f5b4f898f12"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220126T112608Z
+    - ID: "cb3b892e-89a4-44c6-84a7-f42c2294354a"
+      Hint: PrimaryCta
+      Value: |
+        <link text="Retrieve your quote" linktype="external" url="/car-insurance/sales/your-quote/quote-retrieval" anchor="" target="" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220126T112621Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0b25eea9-cb1a-448c-81c4-315bbf6aff2a"
+      Hint: SupportingText
+      Value: If you’ve already got a quote from a comparison site, just enter your reference number to pick up where you left off.
+    - ID: "0bac74a9-e487-451e-9fee-31e8a08d37a2"
+      Hint: Title
+      Value: "Got a quote and want to buy BEAM?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220215T133750Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c3c26ef6-a15f-4a05-9c39-78df89740182"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220215T133750Z
+    - ID: "cb3b892e-89a4-44c6-84a7-f42c2294354a"
+      Hint: PrimaryCta
+      Value: |
+        <link text="Retrieve your quote" linktype="external" url="/car-insurance/sales/your-quote/quote-retrieval" anchor="" target="" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230518T140031Z
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0b25eea9-cb1a-448c-81c4-315bbf6aff2a"
+      Hint: SupportingText
+      Value: If you’ve already got a quote from a comparison site, just enter your reference number to pick up where you left off.
+    - ID: "0bac74a9-e487-451e-9fee-31e8a08d37a2"
+      Hint: Title
+      Value: "Got a quote and want to buy BEAM?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240905T105557Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ffc9b303-d0c6-46c9-ae6d-a9d1e2eab215"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240905T105557Z
+    - ID: "cb3b892e-89a4-44c6-84a7-f42c2294354a"
+      Hint: PrimaryCta
+      Value: |
+        <link text="Retrieve your quote" linktype="external" url="/car-insurance/sales/your-quote/quote-retrieval" anchor="" title="Retrieve your quote" target="" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240912T115743Z
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0b25eea9-cb1a-448c-81c4-315bbf6aff2a"
+      Hint: SupportingText
+      Value: If you’ve already got a quote from a comparison site, just enter your reference number to pick up where you left off.
+    - ID: "0bac74a9-e487-451e-9fee-31e8a08d37a2"
+      Hint: Title
+      Value: "Got a quote and want to buy BEAM?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240912T115829Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e650cd98-0cd5-4914-8df6-57788678e450"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240912T115829Z
+    - ID: "cb3b892e-89a4-44c6-84a7-f42c2294354a"
+      Hint: PrimaryCta
+      Value: |
+        <link text="Retrieve your quote" linktype="external" url="https://www.beam.co.uk/car-insurance/sales/your-quote/quote-retrieval" anchor="" title="Retrieve your quote" target="" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240912T120150Z
+  - Version: 7
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "0b25eea9-cb1a-448c-81c4-315bbf6aff2a"
+      Hint: SupportingText
+      Value: If you’ve already got a quote from a comparison site, just enter your reference number to pick up where you left off.
+    - ID: "0bac74a9-e487-451e-9fee-31e8a08d37a2"
+      Hint: Title
+      Value: "Got a quote and want to buy BEAM?"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240912T120403Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c0b7d5ce-9f1c-41b8-8b1c-4b739be734c4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240912T120403Z
+    - ID: "cb3b892e-89a4-44c6-84a7-f42c2294354a"
+      Hint: PrimaryCta
+      Value: |
+        <link text="Retrieve your quote" linktype="external" url="https://www.beam.co.uk/car-insurance/sales/tiers/your-quote/retrieve" anchor="" title="Retrieve your quote" target="" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241119T130259Z

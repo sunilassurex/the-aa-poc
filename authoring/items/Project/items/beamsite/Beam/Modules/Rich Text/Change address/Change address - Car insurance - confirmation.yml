@@ -1,0 +1,530 @@
+﻿---
+ID: "9d5eb5ac-1091-48a7-bb92-7d7a928c571b"
+Parent: "10bc18e5-317e-4363-8040-f7d59ea9a29b"
+Template: "e36747b3-6154-423a-b32d-b2d323f5a739"
+Path: "/sitecore/content/AA/Beam/Modules/Rich Text/Change address/Change address - Car insurance - confirmation"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 650
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200519T130244Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\THOMASZ
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2b92aad1-b024-4a6e-bfec-3df933a0598c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h3>Here's what will happen next</h3>
+        <ol>
+            <li>We'll email you with your new car insurance quote. If we need more information before we can give you a quote, we'll contact you.</li>
+            <br />
+            <li>After you receive your quote, you&rsquo;ll need to let us know that you&rsquo;d like to proceed before we update your details.</li>
+        </ol>
+        <br />
+        <p>Like all businesses, we're having to work differently during the coronavirus (COVID-19) situation. Staff levels in our contact centres may be reduced, so you might experience longer response times.</p>
+        <p>We appreciate your patience and will answer your request as soon as possible. We're monitoring the situation closely and fully intend to maintain the highest possible levels of service.</p>
+        <br />
+        <h3>Anything else we can help with?</h3>
+        <ul>
+            <li><a></a><a href="~/link.aspx?_id=6C9855A870784F8C949EFAA81646B026&amp;_z=z">Change your phone number</a></li>
+            <br />
+            <li><a></a><a href="~/link.aspx?_id=7EA96CBC5DBB460EAA8A116CFA5B3C65&amp;_z=z">Get special offers in your area with our app</a></li>
+            <br />
+            <li><a href="https://www.theaa.com/home-insurance/">Get a new home insurance quote</a>
+            </li>
+        </ul>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211202T150455Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200522T140934Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\THOMASZ
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e4cdb50b-1fdd-4e06-a9ee-506c1aa0bc6b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200522T140934Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h3>Here's what will happen next</h3>
+        <ol>
+            <li>We'll email you with your new car insurance quote. If we need more information before we can give you a quote, we'll let you know.</li>
+            <br />
+            <li>If you're happy to proceed, you'll need to tell us so we can update your address. The email will explain how to get in touch.</li>
+        </ol>
+        <br />
+        <p>Like all businesses, we're having to work differently during the coronavirus (COVID-19) situation. Staff levels in our contact centres may be reduced, so you might experience longer response times.</p>
+        <p>We appreciate your patience and will answer your request as soon as possible. We're monitoring the situation closely and fully intend to maintain the highest possible levels of service.</p>
+        <br />
+        <h3>Anything else we can help with?</h3>
+        <ul>
+            <li><a></a><a href="~/link.aspx?_id=6C9855A870784F8C949EFAA81646B026&amp;_z=z">Change your phone number</a></li>
+            <br />
+            <li><a></a><a href="~/link.aspx?_id=7EA96CBC5DBB460EAA8A116CFA5B3C65&amp;_z=z">Get special offers in your area with our app</a></li>
+            <br />
+            <li><a href="https://www.theaa.com/home-insurance/">Get a new home insurance quote</a>
+            </li>
+        </ul>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211202T150455Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200609T143541Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\BuckleyD
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a3f95e5a-5e45-41f1-b2bb-aa1d22924d2e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200609T143541Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h3>Here's what will happen next</h3>
+        <ol>
+            <li>We'll email you with your new car insurance quote. If we need more information before we can give you a quote, we'll let you know.</li>
+            <br />
+            <li>If you're happy to proceed, you'll need to tell us so we can update your address. The email will explain how to get in touch.</li>
+        </ol>
+        <br />
+        <p>Like all businesses, we're having to work differently during the coronavirus (COVID-19) situation. Staff levels in our contact centres may be reduced, so you might experience longer response times.</p>
+        <p>We appreciate your patience and will answer your request as soon as possible. We're monitoring the situation closely and fully intend to maintain the highest possible levels of service.</p>
+        <br />
+        <h3>Anything else we can help with?</h3>
+        <ul>
+            <li><a><a href="~/link.aspx?_id=6C9855A870784F8C949EFAA81646B026&amp;_z=z">Change your phone number</a></li>
+            <br />
+            <li><a href="~/link.aspx?_id=7EA96CBC5DBB460EAA8A116CFA5B3C65&amp;_z=z">Get special offers in your area with our app</a></li>
+            <br />
+            <li><a href="https://www.theaa.com/home-insurance/">Get a new home insurance quote</a></li>
+        <br />
+        </ul>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211202T150455Z
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200612T105452Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\BuckleyD
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "46286159-dee5-484d-baba-02c23260341a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200612T105452Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h3>Here's what will happen next</h3>
+        <ol>
+            <li>We'll email you with your new car insurance quote. If we need more information before we can give you a quote, we'll let you know.</li>
+            <br />
+            <li>If you're happy to proceed, you'll need to tell us so we can update your address. The email will explain how to get in touch.</li>
+        </ol>
+        <br />
+        <p>Like all businesses, we're having to work differently during the coronavirus (COVID-19) situation. Staff levels in our contact centres may be reduced, so you might experience longer response times.</p>
+        <p>We appreciate your patience and will answer your request as soon as possible. We're monitoring the situation closely and fully intend to maintain the highest possible levels of service.</p>
+        <br />
+        <h3>Anything else we can help with?</h3>
+        <ul>
+            <li><a><a href="~/link.aspx?_id=6C9855A870784F8C949EFAA81646B026&amp;_z=z">Change your phone number</a></li>
+            <br />
+            <li><a href="~/link.aspx?_id=7EA96CBC5DBB460EAA8A116CFA5B3C65&amp;_z=z">Get special offers in your area with our app</a></li>
+            <br />
+            <li><a href="https://www.theaa.com/home-insurance/">Get a new home insurance quote</a></li>
+        <br />
+        </ul>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211202T150456Z
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201111T104939Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\MartinL
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "61d62fdf-368d-4d50-a1d3-8391f50f14ef"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201111T104939Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h3>Here's what will happen next</h3>
+        <ol>
+            <li>We'll email you with your new car insurance quote within 5 working days. If we need more information before we can give you a quote, we'll let you know.<br />
+            <br />
+            </li>
+            <li>If you're happy to proceed, you'll need to tell us so that we can update your address. The email will explain how to get in touch.<br />
+            <br />
+            If your address is due to change within the next 5 days, you'll need to call us on 0370 533 2211 to update your details.</li>
+        </ol>
+        <br />
+        <h3>Anything else we can help with?</h3>
+        <ul>
+            <li><a></a><a href="~/link.aspx?_id=6C9855A870784F8C949EFAA81646B026&amp;_z=z">Change your phone number</a></li>
+            <br />
+            <li><a href="~/link.aspx?_id=7EA96CBC5DBB460EAA8A116CFA5B3C65&amp;_z=z">Get special offers in your area with our app</a></li>
+            <br />
+            <li><a href="https://www.theaa.com/home-insurance/">Get a new home insurance quote</a></li>
+            <br />
+        </ul>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211202T150543Z
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230215T112805Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\DicembreS
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9f90c7e4-6e58-467f-a686-f5c6dfff4539"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230215T112805Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h3>Here's what will happen next</h3>
+        <ol>
+            <li>We'll email you with your new car insurance quote within 5 working days. If we need more information before we can give you a quote, we'll let you know.<br />
+            <br />
+            </li>
+            <li>If you're happy to proceed, you'll need to tell us so that we can update your address. The email will explain how to get in touch.<br />
+            <br />
+            If your address is due to change within the next 5 days, you'll need to call us on 0370 533 2211 to update your details.</li>
+        </ol>
+        <br />
+        <h4>Anything else we can help with?</h4>
+        <ul>
+            <li><a></a><a href="~/link.aspx?_id=6C9855A870784F8C949EFAA81646B026&amp;_z=z">Change your phone number</a></li>
+            <br />
+            <li><a href="~/link.aspx?_id=7EA96CBC5DBB460EAA8A116CFA5B3C65&amp;_z=z">Get special offers in your area with our app</a></li>
+            <br />
+            <li><a href="https://www.theaa.com/home-insurance/">Get a new home insurance quote</a></li>
+            <br />
+        </ul>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230215T112843Z
+  - Version: 7
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230215T112909Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\DicembreS
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6b2d4d92-1120-49ee-bda5-28ab337e7ff7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230215T112909Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>We&rsquo;ll complete your request within 5 working days. If we need more details, we'll let you know</p>
+        <h4>Anything else we can help with?</h4>
+        <ul>
+            <li><a></a><a href="https://www.aabeam.co.uk/contact-us/change-phone">Change your phone</a></li>
+            <li><a href="https://www.aabeam.co.uk/contact-us/change-job">Change your job</a></li>
+            <li><a href="https://www.aabeam.co.uk/contact-us/change-name">Change your name</a></li>
+            <li><a href="https://www.aabeam.co.uk/contact-us/renew-your-cover">Got a question about your renewal</a></li>
+            <li><a href="https://www.aabeam.co.uk/contact-us/cover-enquiries">Got another question about your policy</a></li>
+        </ul>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230215T113715Z
+  - Version: 8
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230215T114524Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\DicembreS
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b1535f86-3c2e-424d-b781-a649f650709d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230215T114524Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>We&rsquo;ll complete your request within 5 working days. If we need more details, we'll let you know.</p>
+        <h4>Anything else we can help with?</h4>
+        <ul>
+            <li><a></a><a href="https://www.aabeam.co.uk/contact-us/change-phone">Change your phone</a></li>
+            <li><a href="https://www.aabeam.co.uk/contact-us/change-job">Change your job</a></li>
+            <li><a href="https://www.aabeam.co.uk/contact-us/change-name">Change your name</a></li>
+            <li><a href="https://www.aabeam.co.uk/contact-us/renew-your-cover">Got a question about your renewal</a></li>
+            <li><a href="https://www.aabeam.co.uk/contact-us/cover-enquiries">Got another question about your policy</a></li>
+        </ul>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230215T114538Z
+  - Version: 9
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230302T111928Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\DicembreS
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "995f3ad0-5ff8-45a1-bcc2-d35e93cd0da9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230302T111928Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h4>Here's what will happen next</h4>
+        <ol>
+            <li>We'll email you with your new car insurance quote within 5 working days. If we need more information before we can give you a quote, we'll let you know.</li>
+            <li>If you're happy to proceed, you'll need to tell us so that we can update your address. The email will explain how to get in touch.</li>
+            <li>If your address is due to change within the next 5 days, you'll need to call us on <strong>0330 041 3684</strong> to update your details.</li>
+        </ol>
+        <p>&nbsp;</p>
+        <h4>Anything else we can help with?</h4>
+        <ul>
+            <li><a></a><a href="https://www.aabeam.co.uk/contact-us/change-phone">Change your phone</a></li>
+            <li><a href="https://www.aabeam.co.uk/contact-us/change-job">Change your job</a></li>
+            <li><a href="https://www.aabeam.co.uk/contact-us/change-name">Change your name</a></li>
+            <li><a href="https://www.aabeam.co.uk/contact-us/renew-your-cover">Got a question about your renewal</a></li>
+            <li><a href="https://www.aabeam.co.uk/contact-us/cover-enquiries">Got another question about your policy</a></li>
+        </ul>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230302T112155Z
+  - Version: 10
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230302T120413Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\DicembreS
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0880560b-99c6-4e77-9c1e-ce386efd9bd7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230302T120413Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h4>Here's what will happen next</h4>
+        <ol>
+            <li>We'll email you with your new car insurance quote within 5 working days. If we need more information before we can give you a quote, we'll let you know.</li>
+            <li>If you're happy to proceed, you'll need to tell us so that we can update your address. The email will explain how to get in touch.</li>
+            <li>If your address is due to change within the next 5 days, you'll need to call us on <strong>0330 041 3684</strong> to update your details.</li>
+        </ol>
+        <p>&nbsp;</p>
+        <h4>Anything else we can help with?</h4>
+        <p>If you've got a question, <a href="https://www.aabeam.co.uk/car-insurance/faqs">our car insurance FAQs page</a> might have the answer you need.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230302T120655Z
+  - Version: 11
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230302T122150Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\DicembreS
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cbba5d89-2a1f-4ea3-a749-2d39a9811d80"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230302T122150Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h4>Here's what will happen next</h4>
+        <ol>
+            <li>We'll email you with your new car insurance quote within 5 working days. If we need more information before we can give you a quote, we'll let you know.</li>
+            <li>If you're happy to proceed, you'll need to tell us so that we can update your address. The email will explain how to get in touch.</li>
+            <li>If your address is due to change within the next 5 days, you'll need to call us on <strong>0330 041 3684</strong> to update your details.</li>
+        </ol>
+        <p>&nbsp;</p>
+        <h4>Anything else we can help with?</h4>
+        <p>If you've got a question, <a href="https://www.aabeam.co.uk/car-insurance/faqs">our car insurance FAQs page</a> might have the answer you need.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230302T122207Z

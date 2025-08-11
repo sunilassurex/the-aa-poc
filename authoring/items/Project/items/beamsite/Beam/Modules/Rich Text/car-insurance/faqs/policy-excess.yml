@@ -1,0 +1,192 @@
+﻿---
+ID: "cfab849c-1d51-4841-bf83-096bbc519059"
+Parent: "77d67223-dcd7-46e5-a768-42cd5cc00aeb"
+Template: "e36747b3-6154-423a-b32d-b2d323f5a739"
+Path: "/sitecore/content/AA/Beam/Modules/Rich Text/car-insurance/faqs/policy-excess"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 900
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220202T145802Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b4f1f90e-10f2-4493-8b25-525715614092"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>The policy excess</h2>
+        <h3>What is a policy excess?</h3>
+        <p>An excess is the part of the costs of a claim for loss or damage to your car that you have to pay out of your own pocket. Your insurance will be cheaper if you agree to pay more of these costs yourself. There are two types of policy excess:</p>
+        <p>Compulsory excess &ndash; the insurer will decide how much you'll be asked to pay for each claim before you buy the motor insurance policy. Check that you are comfortable with how much you'll have to pay for each claim before you buy a car insurance policy.</p>
+        <p>Voluntary excess &ndash; the amount you'd be prepared to pay on top of the compulsory amount. The higher you go, the lower your premium.</p>
+        <hr />
+        <h3>Can I pay a voluntary excess?</h3>
+        <p>Yes, you can pay a higher voluntary excess for when you make a claim, usually up to &pound;500. Typically, you pay less for your car insurance if you select a higher voluntary excess.</p>
+        <hr />
+        <h2></h2>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220202T152800Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220210T151516Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "21f867ff-aa43-40bd-86ad-8db44fb62a27"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220210T151516Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>The policy excess</h2>
+        <h3>What is a policy excess?</h3>
+        <p>An excess is the part of the costs of a claim for loss or damage to your car that you have to pay out of your own pocket. Your insurance will be cheaper if you agree to pay more of these costs yourself. There are 2 types of policy excess:</p>
+        <p>Compulsory excess &ndash; the insurer will decide how much you'll be asked to pay for each claim before you buy the motor insurance policy. Check that you're comfortable with how much you'll have to pay for each claim before you buy a car insurance policy.</p>
+        <p>Voluntary excess &ndash; the amount you'd be prepared to pay on top of the compulsory amount. The higher you go, the lower your premium.</p>
+        <hr />
+        <h3>Can I pay a voluntary excess?</h3>
+        <p>Yes, you can pay a higher voluntary excess for when you make a claim, usually up to &pound;500. Typically, you pay less for your car insurance if you select a higher voluntary excess.</p>
+        <hr />
+        <h2></h2>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220210T151644Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220224T170506Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f58655dc-aeae-42ff-b6f9-afaa625890ea"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220224T170506Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2><span style="font-size: 32px;">The policy excess</span></h2>
+        <br />
+        <h3><span style="font-size: 24px;"><strong>What is a policy excess?</strong></span></h3>
+        <p>An excess is the part of the costs of a claim for loss or damage to your car that you have to pay out of your own pocket. Your insurance will be cheaper if you agree to pay more of these costs yourself. There are 2 types of policy excess:</p>
+        <p>Compulsory excess &ndash; the insurer will decide how much you'll be asked to pay for each claim before you buy the motor insurance policy. Check that you're comfortable with how much you'll have to pay for each claim before you buy a car insurance policy.</p>
+        <p>Voluntary excess &ndash; the amount you'd be prepared to pay on top of the compulsory amount. The higher you go, the lower your premium.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">Can I pay a voluntary excess?</span></strong></h3>
+        <p>Yes, you can pay a higher voluntary excess for when you make a claim, usually up to &pound;500. Typically, you pay less for your car insurance if you select a higher voluntary excess.</p>
+        <hr />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220224T170552Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220307T145915Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "97bb5ac4-88df-4496-8ee8-81bb4e1b2005"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220307T145915Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2><span style="font-size: 32px;">The policy excess</span></h2>
+        <br />
+        <h3><span style="font-size: 24px;"><strong>What is a policy excess?</strong></span></h3>
+        <p>An excess is the part of the costs of a claim for loss or damage to your car that you have to pay out of your own pocket. Your insurance will be cheaper if you agree to pay more of these costs yourself. There are 2 types of policy excess:</p>
+        <p>Compulsory excess &ndash; the insurer will decide how much you'll be asked to pay for each claim before you buy the motor insurance policy. Check that you're comfortable with how much you'll have to pay for each claim before you buy a car insurance policy.</p>
+        <p>Voluntary excess &ndash; the amount you'd be prepared to pay on top of the compulsory amount. The higher you go, the lower your premium.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">Can I pay a voluntary excess?</span></strong></h3>
+        <p>Yes, you can pay a higher voluntary excess for when you make a claim, usually up to &pound;500. Typically, you pay less for your car insurance if you select a higher voluntary excess.</p>
+        <hr />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231102T142938Z

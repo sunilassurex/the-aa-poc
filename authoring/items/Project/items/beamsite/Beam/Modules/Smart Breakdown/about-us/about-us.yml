@@ -1,0 +1,209 @@
+﻿---
+ID: "16500a32-aa34-4f97-8333-b605db51449c"
+Parent: "08fcef3e-0ce8-4db5-ae60-179b615038a7"
+Template: "3fccdfdf-8417-4741-98d2-a8c99cb1d91f"
+Path: "/sitecore/content/AA/Beam/Modules/Smart Breakdown/about-us/about-us"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: We’re BEAM. We do insurance.
+    - ID: "250bc641-b691-43f7-aedd-b65846f93bb9"
+      Hint: Image
+      Value: |
+        <image mediaid="{41376F04-8FDD-4B7B-BBDE-4069EBB3D11E}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220131T142835Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b0aa544b-52bf-4e27-ab8e-b10dacce3097"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: |
+        <p>And we want to keep you on the road, as well as look after you if you come off it.</p>
+        <p>So, what do we do? Simple car insurance with a 4 Star Defaqto Rating. It&rsquo;s affordable cover provided by the AA, so you can include their award-winning breakdown cover from just &pound;15.</p>
+        <p>Plus, if anything does go wrong, just speak to the AA&rsquo;s Accident Assist team and they&rsquo;ll take care of everything. Insurance claims made easy.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220201T105212Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: We’re BEAM. We do insurance.
+    - ID: "250bc641-b691-43f7-aedd-b65846f93bb9"
+      Hint: Image
+      Value: |
+        <image mediaid="{41376F04-8FDD-4B7B-BBDE-4069EBB3D11E}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220201T113206Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "58f550b4-f8d0-4093-8449-c470d070129b"
+      Hint: Link
+      Value: |
+        <link class="" querystring="" id="{BF67023F-5CB4-461A-A89C-0007BBCF8070}" anchor="" target="" title="" linktype="internal" text="BEAM car insurance" url="/AA/Beam/Home/car-insurance" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d96ac2f9-e9d8-44b1-b49e-7bfb03687cd7"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: |
+        <p>And we want to keep you on the road, not just look after you if you come off it.</p>
+        <p>So, what do we do? Simple car insurance with a 4 Star Defaqto Rating. It&rsquo;s affordable cover provided by the AA. You can even include their award-winning breakdown cover from just &pound;15.</p>
+        <p>Plus, if anything does go wrong, just speak to the AA&rsquo;s Accident Assist team and they&rsquo;ll take care of everything. We make insurance claims easy.</p>
+        <p>We're only available on comparison websites at the moment,so if you'd like to join BEAM, that's the place to start.</p>
+        <p>Or, feel free to learn more about our car insurance before you buy.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220201T113206Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250805T075724Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: We’re BEAM. We do insurance.
+    - ID: "250bc641-b691-43f7-aedd-b65846f93bb9"
+      Hint: Image
+      Value: |
+        <image mediaid="{41376F04-8FDD-4B7B-BBDE-4069EBB3D11E}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220201T115154Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "58f550b4-f8d0-4093-8449-c470d070129b"
+      Hint: Link
+      Value: |
+        <link class="" querystring="" id="{BF67023F-5CB4-461A-A89C-0007BBCF8070}" anchor="" target="" title="" linktype="internal" text="BEAM car insurance" url="/AA/Beam/Home/car-insurance" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cf9f4df9-539c-4adf-bc64-ff5425de4891"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: |
+        <p>And we want to keep you on the road, not just look after you if you come off it.</p>
+        <p>So, what do we do? Simple car insurance with a 4 Star Defaqto Rating. That's it.</p>
+        <p>It's affordable cover provided by the AA. You can even include their award-winning breakdown cover from just &pound;15.</p>
+        <p>Plus, if anything does go wrong, just speak to the AA&rsquo;s Accident Assist team and they&rsquo;ll take care of everything. We make insurance claims easy.</p>
+        <p>We're only available on comparison websites at the moment,so if you'd like to join BEAM, that's the place to start.</p>
+        <p>Or, feel free to learn more about our car insurance before you buy.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220201T115154Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250805T075724Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: We’re BEAM. We do insurance.
+    - ID: "250bc641-b691-43f7-aedd-b65846f93bb9"
+      Hint: Image
+      Value: |
+        <image mediaid="{41376F04-8FDD-4B7B-BBDE-4069EBB3D11E}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220201T153338Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "58f550b4-f8d0-4093-8449-c470d070129b"
+      Hint: Link
+      Value: |
+        <link class="" querystring="" id="{BF67023F-5CB4-461A-A89C-0007BBCF8070}" anchor="" target="" title="" linktype="internal" text="BEAM car insurance" url="/AA/Beam/Home/car-insurance" />
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ecfd1734-4e79-48fb-baa6-7e46bda67bd5"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: |
+        <p>And we want to keep you on the road, not just look after you if you come off it.</p>
+        <p>So, what do we do? Simple car insurance with a 4 Star Defaqto Rating. That's it.</p>
+        <p>It's affordable cover provided by the AA. You can even include their award-winning breakdown cover from just &pound;15.</p>
+        <p>Plus, if anything does go wrong, just speak to the AA&rsquo;s Accident Assist team and they&rsquo;ll take care of everything. We make insurance claims easy.</p>
+        <p>We're only available on comparison websites at the moment, so if you'd like to join BEAM, that's the place to start.</p>
+        <p>Or, feel free to learn more about our car insurance before you buy.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220201T153338Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250805T075725Z

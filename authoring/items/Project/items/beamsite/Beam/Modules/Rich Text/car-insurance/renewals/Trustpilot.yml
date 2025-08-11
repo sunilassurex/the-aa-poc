@@ -1,0 +1,994 @@
+﻿---
+ID: "fc5221f9-ffba-476e-8e10-0610b5378ea3"
+Parent: "d2c0b85c-ed39-4070-a983-513fda4a1d6f"
+Template: "e36747b3-6154-423a-b32d-b2d323f5a739"
+Path: "/sitecore/content/AA/Beam/Modules/Rich Text/car-insurance/renewals/Trustpilot"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230124T141648Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\DicembreS
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "407af853-e2ff-48d5-9cf6-53d8c7d8762d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230124T141648Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <a id="anchor_1674569540055" name="how do i automatically renew my policy so im always covered"></a><a name="how do i stop the automatic renewal of my beam car insurance policy" id="anchor_1674569460685"></a>
+        <p style="text-align: left;">Here's our advice if you've had an accident.</p>
+        <ul>
+            <li style="text-align: left;"><a href="#the accident">What happens when it's time to renew my BEAM car insurance policy?</a></li>
+            <li style="text-align: left;"><a href="#after the accident">What do I do once I receive my renewal quote and pack?</a></li>
+            <li style="text-align: left;"><a href="#finding fault">Do I need to call you to renew my BEAM policy?</a></li>
+            <li style="text-align: left;"><a href="#policy excesses explained">I haven't received my renewal information. What should I do?</a></li>
+            <li style="text-align: left;"><a href="#how do i automatically renew my policy so im always covered">How do I automatically renew my policy so I&rsquo;m always covered?</a></li>
+            <li style="text-align: left;"><a href="#how do i stop the automatic renewal of my beam car insurance policy">How do I stop the automatic renewal of my BEAM car insurance policy?</a></li>
+        </ul>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="the accident" id="anchor_1644312540877">What happens when it's time to renew my BEAM car insurance policy?</a></h2>
+        <p style="text-align: left;">Twenty-eight days before your renewal date we&rsquo;ll generate your renewal quote and pack. If you receive your documents by email, you&rsquo;ll got all those details on the same day. If you&rsquo;ve told us to send your renewal information by post, it can take up to 7 working days to get to you.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="after the accident" id="anchor_1644312563521">What do I do once I receive my renewal quote and pack?</a></h2>
+        <p style="text-align: left;">After you&rsquo;ve gone through the pack, checked the details and are happy with your quote &lt;TBC&gt;</p>
+        <p style="text-align: left;">If you need to tell us about any changes or want to discuss your renewal, call us on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="finding fault" id="anchor_1644312577585">Do I need to call you to renew my BEAM car insurance?</a></h2>
+        <p style="text-align: left;">If If you&rsquo;re happy with your renewal quote, there are no changes to tell us about and your policy&rsquo;s set up to automatically renew, there&rsquo;s no need to call us.</p>
+        <p style="text-align: left;">If you have questions, read our renewal FAQs&nbsp;to see if they can give you the information you need. And if you do want to talk to us about anything to do with your renewal, call us on<strong> 0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="policy excesses explained" id="anchor_1644312602554">I haven't received my renewal information. What should I do?</a></h2>
+        <p style="text-align: left;">If it&rsquo;s more than 28 days to your renewal date, do nothing for now. If it&rsquo;s less than 28 days to your renewal and you receive your documents by email, check your junk folder. If you receive your documents by post, it can up to 7 working days before you receive your pack.</p>
+        <p style="text-align: left;">If you still haven&rsquo;t received your renewal quote, let us know on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;">How do I automatically renew my policy so I&rsquo;m always covered?</h2>
+        <p style="text-align: left;">If you opted in to automatically renew your BEAM car insurance when you originally bought it, you&rsquo;ll already be set up for this.</p>
+        <p style="text-align: left;">If you didn&rsquo;t opt in, you can change this at any time. Just give us a call on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="how do i stop the automatic renewal of my beam car insurance policy">How do I stop the automatic renewal of my BEAM car insurance policy?</a></h2>
+        <p style="text-align: left;">Fill in the cancel automatic renewal form&nbsp;to opt out. Or call us on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;">After you&rsquo;ve done this, we&rsquo;ll still let you know when it&rsquo;s time to renew and what your quote is. You&rsquo;ll have to contact us to accept it and make a payment before your policy runs out, otherwise you&rsquo;ll have no insurance and be without any cover.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240514T094818Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230124T142336Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\DicembreS
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "36941986-e674-4cc7-a136-d09066778cb3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230124T142336Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <a id="anchor_1674569540055" name="how do i automatically renew my policy so im always covered"></a><a name="how do i stop the automatic renewal of my beam car insurance policy" id="anchor_1674569460685"></a>
+        <p style="text-align: left;">Here's our advice if you've had an accident.</p>
+        <ul>
+            <li style="text-align: left;"><a href="#the accident">What happens when it's time to renew my BEAM car insurance policy?</a></li>
+            <li style="text-align: left;"><a href="#after the accident">What do I do once I receive my renewal quote and pack?</a></li>
+            <li style="text-align: left;"><a href="#finding fault">Do I need to call you to renew my BEAM policy?</a></li>
+            <li style="text-align: left;"><a href="#policy excesses explained">I haven't received my renewal information. What should I do?</a></li>
+            <li style="text-align: left;"><a href="#automatic renew" id="link_1674570331698">How do I automatically renew my policy so I&rsquo;m always covered?</a></li>
+            <li style="text-align: left;">How do I stop the automatic renewal of my BEAM car insurance policy?</li>
+        </ul>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="the accident" id="anchor_1644312540877">What happens when it's time to renew my BEAM car insurance policy?</a></h2>
+        <p style="text-align: left;">Twenty-eight days before your renewal date we&rsquo;ll generate your renewal quote and pack. If you receive your documents by email, you&rsquo;ll got all those details on the same day. If you&rsquo;ve told us to send your renewal information by post, it can take up to 7 working days to get to you.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="after the accident" id="anchor_1644312563521">What do I do once I receive my renewal quote and pack?</a></h2>
+        <p style="text-align: left;">After you&rsquo;ve gone through the pack, checked the details and are happy with your quote &lt;TBC&gt;</p>
+        <p style="text-align: left;">If you need to tell us about any changes or want to discuss your renewal, call us on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="finding fault" id="anchor_1644312577585">Do I need to call you to renew my BEAM car insurance?</a></h2>
+        <p style="text-align: left;">If If you&rsquo;re happy with your renewal quote, there are no changes to tell us about and your policy&rsquo;s set up to automatically renew, there&rsquo;s no need to call us.</p>
+        <p style="text-align: left;">If you have questions, read our renewal FAQs&nbsp;to see if they can give you the information you need. And if you do want to talk to us about anything to do with your renewal, call us on<strong> 0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="policy excesses explained" id="anchor_1644312602554">I haven't received my renewal information. What should I do?</a></h2>
+        <p style="text-align: left;">If it&rsquo;s more than 28 days to your renewal date, do nothing for now. If it&rsquo;s less than 28 days to your renewal and you receive your documents by email, check your junk folder. If you receive your documents by post, it can up to 7 working days before you receive your pack.</p>
+        <p style="text-align: left;">If you still haven&rsquo;t received your renewal quote, let us know on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="automatic renew" id="anchor_1674570307554">How do I automatically renew my policy so I&rsquo;m always covered?</a></h2>
+        <p style="text-align: left;">If you opted in to automatically renew your BEAM car insurance when you originally bought it, you&rsquo;ll already be set up for this.</p>
+        <p style="text-align: left;">If you didn&rsquo;t opt in, you can change this at any time. Just give us a call on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;">How do I stop the automatic renewal of my BEAM car insurance policy?</h2>
+        <p style="text-align: left;">Fill in the cancel automatic renewal form&nbsp;to opt out. Or call us on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;">After you&rsquo;ve done this, we&rsquo;ll still let you know when it&rsquo;s time to renew and what your quote is. You&rsquo;ll have to contact us to accept it and make a payment before your policy runs out, otherwise you&rsquo;ll have no insurance and be without any cover.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240514T094818Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230124T142607Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\DicembreS
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ef1774de-3142-4e87-8a33-c48052045ec3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230124T142607Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <a id="anchor_1674569540055" name="how do i automatically renew my policy so im always covered"></a><a name="how do i stop the automatic renewal of my beam car insurance policy" id="anchor_1674569460685"></a>
+        <p style="text-align: left;">Here's our advice if you've had an accident.</p>
+        <ul>
+            <li style="text-align: left;"><a href="#the accident">What happens when it's time to renew my BEAM car insurance policy?</a></li>
+            <li style="text-align: left;"><a href="#after the accident">What do I do once I receive my renewal quote and pack?</a></li>
+            <li style="text-align: left;"><a href="#finding fault">Do I need to call you to renew my BEAM policy?</a></li>
+            <li style="text-align: left;"><a href="#policy excesses explained">I haven't received my renewal information. What should I do?</a></li>
+            <li style="text-align: left;"><a href="#automatic renew" id="link_1674570331698">How do I automatically renew my policy so I&rsquo;m always covered?</a></li>
+            <li style="text-align: left;"><a href="#stop auto renew">How do I stop the automatic renewal of my BEAM car insurance policy?</a></li>
+        </ul>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="the accident" id="anchor_1644312540877">What happens when it's time to renew my BEAM car insurance policy?</a></h2>
+        <p style="text-align: left;">Twenty-eight days before your renewal date we&rsquo;ll generate your renewal quote and pack. If you receive your documents by email, you&rsquo;ll got all those details on the same day. If you&rsquo;ve told us to send your renewal information by post, it can take up to 7 working days to get to you.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="after the accident" id="anchor_1644312563521">What do I do once I receive my renewal quote and pack?</a></h2>
+        <p style="text-align: left;">After you&rsquo;ve gone through the pack, checked the details and are happy with your quote &lt;TBC&gt;</p>
+        <p style="text-align: left;">If you need to tell us about any changes or want to discuss your renewal, call us on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="finding fault" id="anchor_1644312577585">Do I need to call you to renew my BEAM car insurance?</a></h2>
+        <p style="text-align: left;">If If you&rsquo;re happy with your renewal quote, there are no changes to tell us about and your policy&rsquo;s set up to automatically renew, there&rsquo;s no need to call us.</p>
+        <p style="text-align: left;">If you have questions, read our renewal FAQs&nbsp;to see if they can give you the information you need. And if you do want to talk to us about anything to do with your renewal, call us on<strong> 0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="policy excesses explained" id="anchor_1644312602554">I haven't received my renewal information. What should I do?</a></h2>
+        <p style="text-align: left;">If it&rsquo;s more than 28 days to your renewal date, do nothing for now. If it&rsquo;s less than 28 days to your renewal and you receive your documents by email, check your junk folder. If you receive your documents by post, it can up to 7 working days before you receive your pack.</p>
+        <p style="text-align: left;">If you still haven&rsquo;t received your renewal quote, let us know on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="automatic renew" id="anchor_1674570307554">How do I automatically renew my policy so I&rsquo;m always covered?</a></h2>
+        <p style="text-align: left;">If you opted in to automatically renew your BEAM car insurance when you originally bought it, you&rsquo;ll already be set up for this.</p>
+        <p style="text-align: left;">If you didn&rsquo;t opt in, you can change this at any time. Just give us a call on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="stop auto renew">How do I stop the automatic renewal of my BEAM car insurance policy?</a></h2>
+        <p style="text-align: left;">Fill in the cancel automatic renewal form&nbsp;to opt out. Or call us on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;">After you&rsquo;ve done this, we&rsquo;ll still let you know when it&rsquo;s time to renew and what your quote is. You&rsquo;ll have to contact us to accept it and make a payment before your policy runs out, otherwise you&rsquo;ll have no insurance and be without any cover.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240514T094818Z
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230124T142716Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\DicembreS
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cc1612d6-efc9-49f0-9bf6-a0c279c24824"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230124T142716Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <a id="anchor_1674569540055" name="how do i automatically renew my policy so im always covered"></a><a name="how do i stop the automatic renewal of my beam car insurance policy" id="anchor_1674569460685"></a>
+        <p style="text-align: left;">We want to make renewing your BEAM car insurance as painless and simple as possible. Here's everything we think you need to know when it comes to the renewals process.</p>
+        <ul>
+            <li style="text-align: left;"><a href="#the accident">What happens when it's time to renew my BEAM car insurance policy?</a></li>
+            <li style="text-align: left;"><a href="#after the accident">What do I do once I receive my renewal quote and pack?</a></li>
+            <li style="text-align: left;"><a href="#finding fault">Do I need to call you to renew my BEAM policy?</a></li>
+            <li style="text-align: left;"><a href="#policy excesses explained">I haven't received my renewal information. What should I do?</a></li>
+            <li style="text-align: left;"><a href="#automatic renew" id="link_1674570331698">How do I automatically renew my policy so I&rsquo;m always covered?</a></li>
+            <li style="text-align: left;"><a href="#stop auto renew">How do I stop the automatic renewal of my BEAM car insurance policy?</a></li>
+        </ul>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="the accident" id="anchor_1644312540877">What happens when it's time to renew my BEAM car insurance policy?</a></h2>
+        <p style="text-align: left;">Twenty-eight days before your renewal date we&rsquo;ll generate your renewal quote and pack. If you receive your documents by email, you&rsquo;ll got all those details on the same day. If you&rsquo;ve told us to send your renewal information by post, it can take up to 7 working days to get to you.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="after the accident" id="anchor_1644312563521">What do I do once I receive my renewal quote and pack?</a></h2>
+        <p style="text-align: left;">After you&rsquo;ve gone through the pack, checked the details and are happy with your quote &lt;TBC&gt;</p>
+        <p style="text-align: left;">If you need to tell us about any changes or want to discuss your renewal, call us on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="finding fault" id="anchor_1644312577585">Do I need to call you to renew my BEAM car insurance?</a></h2>
+        <p style="text-align: left;">If If you&rsquo;re happy with your renewal quote, there are no changes to tell us about and your policy&rsquo;s set up to automatically renew, there&rsquo;s no need to call us.</p>
+        <p style="text-align: left;">If you have questions, <a href="~/link.aspx?_id=18D4D05BBF5A42C1AC087855E6DBB6B9&amp;_z=z">read our renewal FAQs</a>&nbsp;to see if they can give you the information you need. And if you do want to talk to us about anything to do with your renewal, call us on<strong> 0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="policy excesses explained" id="anchor_1644312602554">I haven't received my renewal information. What should I do?</a></h2>
+        <p style="text-align: left;">If it&rsquo;s more than 28 days to your renewal date, do nothing for now. If it&rsquo;s less than 28 days to your renewal and you receive your documents by email, check your junk folder. If you receive your documents by post, it can up to 7 working days before you receive your pack.</p>
+        <p style="text-align: left;">If you still haven&rsquo;t received your renewal quote, let us know on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="automatic renew" id="anchor_1674570307554">How do I automatically renew my policy so I&rsquo;m always covered?</a></h2>
+        <p style="text-align: left;">If you opted in to automatically renew your BEAM car insurance when you originally bought it, you&rsquo;ll already be set up for this.</p>
+        <p style="text-align: left;">If you didn&rsquo;t opt in, you can change this at any time. Just give us a call on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="stop auto renew">How do I stop the automatic renewal of my BEAM car insurance policy?</a></h2>
+        <p style="text-align: left;">Fill in the <a href="~/link.aspx?_id=CDEDD3325C8146E68C24833EE2493EC8&amp;_z=z">cancel automatic renewal form</a>&nbsp;to opt out. Or call us on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;">After you&rsquo;ve done this, we&rsquo;ll still let you know when it&rsquo;s time to renew and what your quote is. You&rsquo;ll have to contact us to accept it and make a payment before your policy runs out, otherwise you&rsquo;ll have no insurance and be without any cover.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240514T094818Z
+  - Version: 5
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230124T143650Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\DicembreS
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "196eb4a2-0dd2-4258-99fb-9c00a6098958"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230124T143650Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <a id="anchor_1674569540055" name="how do i automatically renew my policy so im always covered"></a><a name="how do i stop the automatic renewal of my beam car insurance policy" id="anchor_1674569460685"></a>
+        <p style="text-align: left;">We want to make renewing your BEAM car insurance as painless and simple as possible. Here's everything we think you need to know when it comes to the renewals process.</p>
+        <ul>
+            <li style="text-align: left;"><a href="#the accident">What happens when it's time to renew my BEAM car insurance policy?</a></li>
+            <li style="text-align: left;"><a href="#after the accident">What do I do once I receive my renewal quote and pack?</a></li>
+            <li style="text-align: left;"><a href="#finding fault">Do I need to call you to renew my BEAM policy?</a></li>
+            <li style="text-align: left;"><a href="#policy excesses explained">I haven't received my renewal information. What should I do?</a></li>
+            <li style="text-align: left;"><a href="#automatic renew" id="link_1674570331698">How do I automatically renew my policy so I&rsquo;m always covered?</a></li>
+            <li style="text-align: left;"><a href="#stop auto renew">How do I stop the automatic renewal of my BEAM car insurance policy?</a></li>
+        </ul>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="the accident" id="anchor_1644312540877">What happens when it's time to renew my BEAM car insurance policy?</a></h2>
+        <p style="text-align: left;">Twenty-eight days before your renewal date we&rsquo;ll generate your renewal quote and pack. If you receive your documents by email, you&rsquo;ll got all those details on the same day. If you&rsquo;ve told us to send your renewal information by post, it can take up to 7 working days to get to you.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="after the accident" id="anchor_1644312563521">What do I do once I receive my renewal quote and pack?</a></h2>
+        <p style="text-align: left;">After you&rsquo;ve gone through the pack, checked the details and are happy with your quote &lt;TBC&gt;</p>
+        <p style="text-align: left;">If you need to tell us about any changes or want to discuss your renewal, call us on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="finding fault" id="anchor_1644312577585">Do I need to call you to renew my BEAM car insurance?</a></h2>
+        <p style="text-align: left;">If If you&rsquo;re happy with your renewal quote, there are no changes to tell us about and your policy&rsquo;s set up to automatically renew, there&rsquo;s no need to call us.</p>
+        <p style="text-align: left;">If you have questions, <a href="https://www.aabeam.co.uk/car-insurance/faqs">read our renewal FAQs</a>&nbsp;to see if they can give you the information you need. And if you do want to talk to us about anything to do with your renewal, call us on<strong> 0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="policy excesses explained" id="anchor_1644312602554">I haven't received my renewal information. What should I do?</a></h2>
+        <p style="text-align: left;">If it&rsquo;s more than 28 days to your renewal date, do nothing for now. If it&rsquo;s less than 28 days to your renewal and you receive your documents by email, check your junk folder. If you receive your documents by post, it can up to 7 working days before you receive your pack.</p>
+        <p style="text-align: left;">If you still haven&rsquo;t received your renewal quote, let us know on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="automatic renew" id="anchor_1674570307554">How do I automatically renew my policy so I&rsquo;m always covered?</a></h2>
+        <p style="text-align: left;">If you opted in to automatically renew your BEAM car insurance when you originally bought it, you&rsquo;ll already be set up for this.</p>
+        <p style="text-align: left;">If you didn&rsquo;t opt in, you can change this at any time. Just give us a call on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="stop auto renew">How do I stop the automatic renewal of my BEAM car insurance policy?</a></h2>
+        <p style="text-align: left;">Fill in the <a href="~/link.aspx?_id=CDEDD3325C8146E68C24833EE2493EC8&amp;_z=z">cancel automatic renewal form</a>&nbsp;to opt out. Or call us on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;">After you&rsquo;ve done this, we&rsquo;ll still let you know when it&rsquo;s time to renew and what your quote is. You&rsquo;ll have to contact us to accept it and make a payment before your policy runs out, otherwise you&rsquo;ll have no insurance and be without any cover.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240514T094818Z
+  - Version: 6
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230124T143925Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\DicembreS
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7b852995-4f62-4d13-bb8f-1a409cb2e104"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230124T143925Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <a id="anchor_1674569540055" name="how do i automatically renew my policy so im always covered"></a><a name="how do i stop the automatic renewal of my beam car insurance policy" id="anchor_1674569460685"></a>
+        <p style="text-align: left;">We want to make renewing your BEAM car insurance as painless and simple as possible. Here's everything we think you need to know when it comes to the renewals process.</p>
+        <ul>
+            <li style="text-align: left;"><a href="#the accident">What happens when it's time to renew my BEAM car insurance policy?</a></li>
+            <li style="text-align: left;"><a href="#after the accident">What do I do once I receive my renewal quote and pack?</a></li>
+            <li style="text-align: left;"><a href="#finding fault">Do I need to call you to renew my BEAM policy?</a></li>
+            <li style="text-align: left;"><a href="#policy excesses explained">I haven't received my renewal information. What should I do?</a></li>
+            <li style="text-align: left;"><a href="#automatic renew" id="link_1674570331698">How do I automatically renew my policy so I&rsquo;m always covered?</a></li>
+            <li style="text-align: left;"><a href="#stop auto renew">How do I stop the automatic renewal of my BEAM car insurance policy?</a></li>
+        </ul>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="the accident" id="anchor_1644312540877">What happens when it's time to renew my BEAM car insurance policy?</a></h2>
+        <p style="text-align: left;">Twenty-eight days before your renewal date we&rsquo;ll generate your renewal quote and pack. If you receive your documents by email, you&rsquo;ll got all those details on the same day. If you&rsquo;ve told us to send your renewal information by post, it can take up to 7 working days to get to you.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="after the accident" id="anchor_1644312563521">What do I do once I receive my renewal quote and pack?</a></h2>
+        <p style="text-align: left;">After you&rsquo;ve gone through the pack, checked the details and are happy with your quote &lt;TBC&gt;</p>
+        <p style="text-align: left;">If you need to tell us about any changes or want to discuss your renewal, call us on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="finding fault" id="anchor_1644312577585">Do I need to call you to renew my BEAM car insurance?</a></h2>
+        <p style="text-align: left;">If If you&rsquo;re happy with your renewal quote, there are no changes to tell us about and your policy&rsquo;s set up to automatically renew, there&rsquo;s no need to call us.</p>
+        <p style="text-align: left;">If you have questions, <a href="https://www.aabeam.co.uk/car-insurance/faqs">read our renewal FAQs</a>&nbsp;to see if they can give you the information you need. And if you do want to talk to us about anything to do with your renewal, call us on<strong> 0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="policy excesses explained" id="anchor_1644312602554">I haven't received my renewal information. What should I do?</a></h2>
+        <p style="text-align: left;">If it&rsquo;s more than 28 days to your renewal date, do nothing for now. If it&rsquo;s less than 28 days to your renewal and you receive your documents by email, check your junk folder. If you receive your documents by post, it can up to 7 working days before you receive your pack.</p>
+        <p style="text-align: left;">If you still haven&rsquo;t received your renewal quote, let us know on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="automatic renew" id="anchor_1674570307554">How do I automatically renew my policy so I&rsquo;m always covered?</a></h2>
+        <p style="text-align: left;">If you opted in to automatically renew your BEAM car insurance when you originally bought it, you&rsquo;ll already be set up for this.</p>
+        <p style="text-align: left;">If you didn&rsquo;t opt in, you can change this at any time. Just give us a call on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="stop auto renew">How do I stop the automatic renewal of my BEAM car insurance policy?</a></h2>
+        <p style="text-align: left;">Fill in the <a href="https://www.aabeam.co.uk/contact-us/stop-auto-renew">cancel automatic renewal form</a>&nbsp;to opt out. Or call us on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;">After you&rsquo;ve done this, we&rsquo;ll still let you know when it&rsquo;s time to renew and what your quote is. You&rsquo;ll have to contact us to accept it and make a payment before your policy runs out, otherwise you&rsquo;ll have no insurance and be without any cover.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240514T094819Z
+  - Version: 7
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230126T123217Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\DicembreS
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "789668ff-8e03-474c-bed3-3c3fb09c01de"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230126T123217Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <a id="anchor_1674569540055" name="how do i automatically renew my policy so im always covered"></a><a name="how do i stop the automatic renewal of my beam car insurance policy" id="anchor_1674569460685"></a>
+        <h2 style="text-align: left;">Got a question about your BEAM renewal?</h2>
+        <p style="text-align: left;">We want to make renewing your BEAM car insurance as painless and simple as possible. Here's everything we think you need to know when it comes to the renewals process.</p>
+        <ul>
+            <li style="text-align: left;"><a href="#the accident">What happens when it's time to renew my BEAM car insurance policy?</a></li>
+            <li style="text-align: left;"><a href="#after the accident">What do I do once I receive my renewal quote and pack?</a></li>
+            <li style="text-align: left;"><a href="#finding fault">Do I need to call you to renew my BEAM policy?</a></li>
+            <li style="text-align: left;"><a href="#policy excesses explained">I haven't received my renewal information. What should I do?</a></li>
+            <li style="text-align: left;"><a href="#automatic renew" id="link_1674570331698">How do I automatically renew my policy so I&rsquo;m always covered?</a></li>
+        </ul>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="the accident" id="anchor_1644312540877">What happens when it's time to renew my BEAM car insurance policy?</a></h2>
+        <p style="text-align: left;">Twenty-eight days before your renewal date we&rsquo;ll generate your renewal quote and pack. If you receive your documents by email, you&rsquo;ll got all those details on the same day. If you&rsquo;ve told us to send your renewal information by post, it can take up to 7 working days to get to you.</p>
+        <p style="text-align: left;">We're always happy to talk to you about your car insurance renewal, Call us on&nbsp;<strong>0330 041 3685 </strong>and have your policy or quote reference to hand.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="after the accident" id="anchor_1644312563521">What do I do once I receive my renewal quote and pack?</a></h2>
+        <p style="text-align: left;">After you&rsquo;ve checked all the details, you're happy with your quote and you've opted in to automatically renew, you're good to go.&nbsp;</p>
+        <p style="text-align: left;">If you haven't chosen to automatically renew or need to discuss your renewal, you'll need to call us on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="finding fault" id="anchor_1644312577585">Do I need to call you to renew my BEAM car insurance?</a></h2>
+        <p style="text-align: left;">If If you&rsquo;re happy with your renewal quote, there are no changes to tell us about and your policy&rsquo;s set up to automatically renew, there&rsquo;s no need to call us. If you haven't opted in to automatically renew, you will have to call us&nbsp;on<strong>&nbsp;0330 041 3685</strong>.</p>
+        <p style="text-align: left;">If you have questions, <a href="https://www.aabeam.co.uk/car-insurance/faqs">read our FAQs</a>&nbsp;to see if they can help. And if you do want to talk to us about anything to do with your renewal, call us on the number above.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="policy excesses explained" id="anchor_1644312602554">I haven't received my renewal information. What should I do?</a></h2>
+        <p style="text-align: left;">If it&rsquo;s more than 28 days to your renewal date, do nothing for now. If it&rsquo;s less than 28 days to your renewal and you receive your documents by email, check your junk folder. If you receive your documents by post, it can up to 7 working days before you receive your pack.</p>
+        <p style="text-align: left;">If you still haven&rsquo;t received your renewal quote, let us know on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="automatic renew" id="anchor_1674570307554">How do I automatically renew my policy so I&rsquo;m always covered?</a></h2>
+        <p style="text-align: left;">If you opted in to automatically renew your BEAM car insurance when you originally bought it, you&rsquo;ll already be set up for this. Choosing to automatically renew gives you peace of mind as you'll always be covered. And don't worry if you want to make a change; we always send your renewal quote around 28 days before your policy expires.</p>
+        <p style="text-align: left;">If you didn&rsquo;t opt in, you can change this at any time. Just give us a call on <strong>0330 041 3685</strong>.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240514T094819Z
+  - Version: 8
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230126T125455Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\DicembreS
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f6fd5d11-4c87-4ce6-9d7a-049fa4d474af"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230126T125455Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <a id="anchor_1674569540055" name="how do i automatically renew my policy so im always covered"></a><a name="how do i stop the automatic renewal of my beam car insurance policy" id="anchor_1674569460685"></a>
+        <h2 style="text-align: left;">Got a question about your BEAM renewal?</h2>
+        <p style="text-align: left;">We want to make renewing your BEAM car insurance as painless and simple as possible. Here's everything we think you need to know when it comes to the renewals process.</p>
+        <ul>
+            <li style="text-align: left;"><a href="#the accident">What happens when it's time to renew my BEAM car insurance policy?</a></li>
+            <li style="text-align: left;"><a href="#after the accident">What do I do once I receive my renewal quote and pack?</a></li>
+            <li style="text-align: left;"><a href="#finding fault">Do I need to call you to renew my BEAM policy?</a></li>
+            <li style="text-align: left;"><a href="#policy excesses explained">I haven't received my renewal information. What should I do?</a></li>
+            <li style="text-align: left;"><a href="#automatic renew" id="link_1674570331698">How do I automatically renew my policy so I&rsquo;m always covered?</a></li>
+            <li style="text-align: left;">
+            <p><a href="#not time">It's not time for me to renew but I need to make changes to my BEAM car insurance</a></p>
+            </li>
+        </ul>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="the accident" id="anchor_1644312540877">What happens when it's time to renew my BEAM car insurance policy?</a></h2>
+        <p style="text-align: left;">Twenty-eight days before your renewal date we&rsquo;ll generate your renewal quote and pack. If you receive your documents by email, you&rsquo;ll got all those details on the same day. If you&rsquo;ve told us to send your renewal information by post, it can take up to 7 working days to get to you.</p>
+        <p style="text-align: left;">We're always happy to talk to you about your car insurance renewal, Call us on&nbsp;<strong>0330 041 3685 </strong>and have your policy or quote reference to hand.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="after the accident" id="anchor_1644312563521">What do I do once I receive my renewal quote and pack?</a></h2>
+        <p style="text-align: left;">After you&rsquo;ve checked all the details, you're happy with your quote and you've opted in to automatically renew, you're good to go.&nbsp;</p>
+        <p style="text-align: left;">If you haven't chosen to automatically renew or need to discuss your renewal, you'll need to call us on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="finding fault" id="anchor_1644312577585">Do I need to call you to renew my BEAM car insurance?</a></h2>
+        <p style="text-align: left;">If If you&rsquo;re happy with your renewal quote, there are no changes to tell us about and your policy&rsquo;s set up to automatically renew, there&rsquo;s no need to call us. If you haven't opted in to automatically renew, you will have to call us&nbsp;on<strong>&nbsp;0330 041 3685</strong>.</p>
+        <p style="text-align: left;">If you have questions, <a href="https://www.aabeam.co.uk/car-insurance/faqs">read our FAQs</a>&nbsp;to see if they can help. And if you do want to talk to us about anything to do with your renewal, call us on the number above.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="policy excesses explained" id="anchor_1644312602554">I haven't received my renewal information. What should I do?</a></h2>
+        <p style="text-align: left;">If it&rsquo;s more than 28 days to your renewal date, do nothing for now. If it&rsquo;s less than 28 days to your renewal and you receive your documents by email, check your junk folder. If you receive your documents by post, it can up to 7 working days before you receive your pack.</p>
+        <p style="text-align: left;">If you still haven&rsquo;t received your renewal quote, let us know on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="automatic renew" id="anchor_1674570307554">How do I automatically renew my policy so I&rsquo;m always covered?</a></h2>
+        <p style="text-align: left;">If you opted in to automatically renew your BEAM car insurance when you originally bought it, you&rsquo;ll already be set up for this. Choosing to automatically renew gives you peace of mind as you'll always be covered. And don't worry if you want to make a change; we always send your renewal quote around 28 days before your policy expires.</p>
+        <p style="text-align: left;">If you didn&rsquo;t opt in, you can change this at any time. Just give us a call on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="not time">It's not time for me to renew but I need to make changes to my BEAM car insurance</a></h2>
+        <p style="text-align: left;">If you've changed your vehicle or need to update any policy details, call us on <strong>0330 041 3684 </strong>and have your policy reference number to hand. It's on any of your car insurance documents.</p>
+        <p style="text-align: left;">&nbsp;</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240514T094819Z
+  - Version: 9
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230126T135336Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\DicembreS
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8869e0b3-f585-4229-b115-e0ae4dcb5acb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230126T135336Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <a id="anchor_1674569540055" name="how do i automatically renew my policy so im always covered"></a><a name="how do i stop the automatic renewal of my beam car insurance policy" id="anchor_1674569460685"></a>
+        <h2 style="text-align: left;">Got a question about your BEAM renewal?</h2>
+        <p style="text-align: left;">We want to make renewing your BEAM car insurance as painless and simple as possible. Here's everything we think you need to know when it comes to the renewals process.</p>
+        <ul>
+            <li style="text-align: left;"><a href="#the accident">What happens when it's time to renew my BEAM car insurance policy?</a></li>
+            <li style="text-align: left;"><a href="#after the accident">What do I do once I receive my renewal quote and pack?</a></li>
+            <li style="text-align: left;"><a href="#finding fault">Do I need to call you to renew my BEAM policy?</a></li>
+            <li style="text-align: left;"><a href="#policy excesses explained">I haven't received my renewal information. What should I do?</a></li>
+            <li style="text-align: left;"><a href="#automatic renew" id="link_1674570331698">How do I automatically renew my policy so I&rsquo;m always covered?</a></li>
+            <li style="text-align: left;">
+            <p><a href="#not time">It's not time for me to renew but I need to make changes to my BEAM car insurance</a></p>
+            </li>
+        </ul>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="the accident" id="anchor_1644312540877">What happens when it's time to renew my BEAM car insurance policy?</a></h2>
+        <p style="text-align: left;">Around 28 days before your renewal date we&rsquo;ll generate your renewal quote and pack. If you receive your documents by email, you&rsquo;ll got all those details on the same day. If you&rsquo;ve told us to send your renewal information by post, it can take up to 7 working days to get to you.</p>
+        <p style="text-align: left;">We're always happy to talk to you about your car insurance renewal. Call us on&nbsp;<strong>0330 041 3685 </strong>and have your policy or quote reference to hand.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="after the accident" id="anchor_1644312563521">What do I do once I receive my renewal quote and pack?</a></h2>
+        <p style="text-align: left;">After you&rsquo;ve checked all the details, you're happy with your quote and you've opted in to automatically renew, you're good to go.&nbsp;</p>
+        <p style="text-align: left;">If you haven't chosen to automatically renew or want to discuss your renewal, you'll need to call us on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="finding fault" id="anchor_1644312577585">Do I need to call you to renew my BEAM car insurance?</a></h2>
+        <p style="text-align: left;">If you&rsquo;re happy with your renewal quote, there are no changes to tell us about and your policy&rsquo;s set up to automatically renew, there&rsquo;s no need to call us. If you haven't opted in to automatically renew, you'll have to call us&nbsp;on<strong>&nbsp;0330 041 3685</strong>.</p>
+        <p style="text-align: left;">If you have questions, <a href="https://www.aabeam.co.uk/car-insurance/faqs">read our FAQs</a>&nbsp;to see if they can help. And if you want to talk to us about anything to do with your renewal, call us on the number above.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="policy excesses explained" id="anchor_1644312602554">I haven't received my renewal information. What should I do?</a></h2>
+        <p style="text-align: left;">If it&rsquo;s more than 28 days to your renewal date, do nothing for now. If it&rsquo;s less than 28 days to your renewal and you receive your documents by email, check your junk folder. If you receive your documents by post, it can up to 7 working days before you receive your pack.</p>
+        <p style="text-align: left;">If you still haven&rsquo;t received your renewal quote, let us know on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="automatic renew" id="anchor_1674570307554">How do I automatically renew my policy so I&rsquo;m always covered?</a></h2>
+        <p style="text-align: left;">If you opted in to automatically renew your BEAM car insurance when you originally bought it, you&rsquo;ll already be set up for this. Choosing to automatically renew gives you peace of mind as you'll always be covered. And don't worry if you want to make a change; we always send your renewal quote around 28 days before your policy expires.</p>
+        <p style="text-align: left;">If you didn&rsquo;t opt in, you can change this at renewal. Give us a call on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="not time">It's not time for me to renew but I need to make changes to my BEAM car insurance</a></h2>
+        <p style="text-align: left;">If you've changed your vehicle or need to update any policy details, call us on <strong>0330 041 3684 </strong>and have your policy reference number to hand. It's on any of your car insurance documents.</p>
+        <p style="text-align: left;">&nbsp;</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240514T094819Z
+  - Version: 10
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230202T091228Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\DicembreS
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1039a2b1-6fe8-4eac-a698-b05ab9bc1bab"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230202T091228Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <a id="anchor_1674569540055" name="how do i automatically renew my policy so im always covered"></a><a name="how do i stop the automatic renewal of my beam car insurance policy" id="anchor_1674569460685"></a>
+        <h2 style="text-align: left;">Got a question about your BEAM renewal?</h2>
+        <p style="text-align: left;">We want to make renewing your BEAM car insurance as painless and simple as possible. Here's everything we think you need to know when it comes to the renewals process.</p>
+        <ul>
+            <li style="text-align: left;"><a href="#the accident">What happens when it's time to renew my BEAM car insurance policy?</a></li>
+            <li style="text-align: left;"><a href="#after the accident">What do I do once I receive my renewal quote and pack?</a></li>
+            <li style="text-align: left;"><a href="#finding fault">Do I need to call you to renew my BEAM policy?</a></li>
+            <li style="text-align: left;"><a href="#policy excesses explained">I haven't received my renewal information. What should I do?</a></li>
+            <li style="text-align: left;"><a href="#automatic renew" id="link_1674570331698">How do I automatically renew my policy so I&rsquo;m always covered?</a></li>
+            <li style="text-align: left;">
+            <p><a href="#not time">It's not time for me to renew but I need to make changes to my BEAM car insurance</a></p>
+            </li>
+        </ul>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="the accident" id="anchor_1644312540877">What happens when it's time to renew my BEAM car insurance policy?</a></h2>
+        <p style="text-align: left;">Around 28 days before your renewal date we&rsquo;ll generate your renewal quote. If you receive your documents by email, you&rsquo;ll get all those details on the same day. If you&rsquo;ve told us to send your renewal quote by post, it can take up to 7 working days to get to you.</p>
+        <p style="text-align: left;">We&rsquo;re always happy to talk to you about your car insurance renewal. Call us on <strong>0330 041 3685</strong> and have your policy number to hand.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="after the accident" id="anchor_1644312563521">What do I do once I receive my renewal quote and pack?</a></h2>
+        <p style="text-align: left;">After you&rsquo;ve checked all the details, you're happy with your renewal quote and if your policy is set to automatically renew, you're good to go.</p>
+        <p style="text-align: left;">Otherwise, if you&rsquo;ve previously opted out of renewing automatically, you'll need to call us on <strong>0330 041 3685</strong> to accept your renewal and make payment.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="finding fault" id="anchor_1644312577585">Do I need to call you to renew my BEAM car insurance?</a></h2>
+        <p style="text-align: left;">If you&rsquo;re happy with your renewal quote, there are no changes to tell us about and your policy is set up to renew automatically, there&rsquo;s no need to call us.</p>
+        <p style="text-align: left;">If you have previously opted out of renewing automatically, either when you bought your policy or at another time, then you&rsquo;ll have to call us on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;">If you have questions, <a href="~/link.aspx?_id=18D4D05BBF5A42C1AC087855E6DBB6B9&amp;_z=z">read our FAQs</a>&nbsp;to see if they can help. And, if you want to talk to us about anything to do with your renewal, call us on the number above.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="policy excesses explained" id="anchor_1644312602554">I haven't received my renewal information. What should I do?</a></h2>
+        <p style="text-align: left;">If it&rsquo;s more than 28 days to your renewal date, do nothing for now. If it&rsquo;s less than 28 days to your renewal and you receive your documents by email, check your junk folder. If you receive your documents by post, it can up to 7 working days before you receive your pack.</p>
+        <p style="text-align: left;">If you still haven&rsquo;t received your renewal quote, let us know on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="automatic renew" id="anchor_1674570307554">How do I automatically renew my policy so I&rsquo;m always covered?</a></h2>
+        <p style="text-align: left;">Check that your policy isn&rsquo;t already set up to renew automatically. If it is, that&rsquo;s great news; automatic renewal gives you peace of mind that you&rsquo;ll never miss your renewal date and your cover will continue uninterrupted.&nbsp;</p>
+        <p style="text-align: left;">If you've previously opted out of renewing automatically, either when you bought your policy or at another time, then you can easily opt back in by changing your auto renewal preference. You can do this at renewal by giving us a call on <strong>0330 041 3685</strong>.&nbsp;</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="not time">It's not time for me to renew but I need to make changes to my BEAM car insurance</a></h2>
+        <p style="text-align: left;">If you've changed your vehicle or need to update any policy details, call us on <strong>0330 041 3684 </strong>and have your policy reference number to hand. It's on any of your car insurance documents.</p>
+        <p style="text-align: left;">&nbsp;</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240514T094819Z
+  - Version: 11
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230214T144603Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\DicembreS
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "39b5947c-6b32-4038-bc2b-0d77f5ca909c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230214T144603Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <a id="anchor_1674569540055" name="how do i automatically renew my policy so im always covered"></a><a name="how do i stop the automatic renewal of my beam car insurance policy" id="anchor_1674569460685"></a>
+        <h2 style="text-align: left;">Got a question about your BEAM renewal?</h2>
+        <p style="text-align: left;">We want to make renewing your BEAM car insurance as painless and simple as possible. Here's everything we think you need to know when it comes to the renewals process.</p>
+        <ul>
+            <li style="text-align: left;"><a href="#the accident">What happens when it's time to renew my BEAM car insurance policy?</a></li>
+            <li style="text-align: left;"><a href="#after the accident">What do I do once I receive my renewal quote and pack?</a></li>
+            <li style="text-align: left;"><a href="#finding fault">Do I need to call you to renew my BEAM policy?</a></li>
+            <li style="text-align: left;"><a href="#policy excesses explained">I haven't received my renewal information. What should I do?</a></li>
+            <li style="text-align: left;"><a href="#automatic renew" id="link_1674570331698">How do I automatically renew my policy so I&rsquo;m always covered?</a></li>
+            <li style="text-align: left;">
+            <p><a href="#not time">It's not time for me to renew but I need to make changes to my BEAM car insurance</a></p>
+            </li>
+        </ul>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="the accident" id="anchor_1644312540877">What happens when it's time to renew my BEAM car insurance policy?</a></h2>
+        <p style="text-align: left;">Around 28 days before your renewal date we&rsquo;ll generate your renewal quote. If you receive your documents by email, you&rsquo;ll get all those details on the same day. If you&rsquo;ve told us to send your renewal quote by post, it can take up to 7 working days to get to you.</p>
+        <p style="text-align: left;">We&rsquo;re always happy to talk to you about your car insurance renewal. Call us on <strong>0330 041 3685</strong> and have your policy number to hand.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="after the accident" id="anchor_1644312563521">What do I do once I receive my renewal quote and pack?</a></h2>
+        <p style="text-align: left;">After you&rsquo;ve checked all the details, you're happy with your renewal quote and if your policy is set to automatically renew, you're good to go.</p>
+        <p style="text-align: left;">Otherwise, if you&rsquo;ve previously opted out of renewing automatically, you'll need to call us on <strong>0330 041 3685</strong> to accept your renewal and make payment.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="finding fault" id="anchor_1644312577585">Do I need to call you to renew my BEAM car insurance?</a></h2>
+        <p style="text-align: left;">If you&rsquo;re happy with your renewal quote, there are no changes to tell us about and your policy is set up to renew automatically, there&rsquo;s no need to call us.</p>
+        <p style="text-align: left;">If you have previously opted out of renewing automatically, either when you bought your policy or at another time, then you&rsquo;ll have to call us on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;">If you have questions, <a href="https://www.aabeam.co.uk/car-insurance/faqs">read our FAQs</a>&nbsp;to see if they can help. And, if you want to talk to us about anything to do with your renewal, call us on the number above.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="policy excesses explained" id="anchor_1644312602554">I haven't received my renewal information. What should I do?</a></h2>
+        <p style="text-align: left;">If it&rsquo;s more than 28 days to your renewal date, do nothing for now. If it&rsquo;s less than 28 days to your renewal and you receive your documents by email, check your junk folder. If you receive your documents by post, it can up to 7 working days before you receive your pack.</p>
+        <p style="text-align: left;">If you still haven&rsquo;t received your renewal quote, let us know on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="automatic renew" id="anchor_1674570307554">How do I automatically renew my policy so I&rsquo;m always covered?</a></h2>
+        <p style="text-align: left;">Check that your policy isn&rsquo;t already set up to renew automatically. If it is, that&rsquo;s great news; automatic renewal gives you peace of mind that you&rsquo;ll never miss your renewal date and your cover will continue uninterrupted.&nbsp;</p>
+        <p style="text-align: left;">If you've previously opted out of renewing automatically, either when you bought your policy or at another time, then you can easily opt back in by changing your auto renewal preference. You can do this at renewal by giving us a call on <strong>0330 041 3685</strong>.&nbsp;</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="not time">It's not time for me to renew but I need to make changes to my BEAM car insurance</a></h2>
+        <p style="text-align: left;">If you've changed your vehicle or need to update any policy details, call us on <strong>0330 041 3684 </strong>and have your policy reference number to hand. It's on any of your car insurance documents.</p>
+        <p style="text-align: left;">&nbsp;</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240514T094819Z
+  - Version: 12
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230215T151300Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\DicembreS
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "12c4b057-d83a-483b-8190-bdb1d142fd6b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230215T151300Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <a id="anchor_1674569540055" name="how do i automatically renew my policy so im always covered"></a><a name="how do i stop the automatic renewal of my beam car insurance policy" id="anchor_1674569460685"></a>
+        <h2 style="text-align: left;">Got a question about your BEAM renewal?</h2>
+        <p style="text-align: left;">We want to make renewing your BEAM car insurance as painless and simple as possible. Here's everything we think you need to know when it comes to the renewals process.</p>
+        <ul>
+            <li style="text-align: left;"><a href="#the accident">What happens when it's time to renew my BEAM car insurance policy?</a></li>
+            <li style="text-align: left;"><a href="#after the accident">What do I do once I receive my renewal quote and pack?</a></li>
+            <li style="text-align: left;"><a href="#finding fault">Do I need to call you to renew my BEAM policy?</a></li>
+            <li style="text-align: left;"><a href="#policy excesses explained">I haven't received my renewal information. What should I do?</a></li>
+            <li style="text-align: left;"><a href="#automatic renew" id="link_1674570331698">How do I automatically renew my policy so I&rsquo;m always covered?</a></li>
+            <li style="text-align: left;"><a href="#not time">It's not time for me to renew but I need to make changes to my BEAM car insurance</a>
+            </li>
+        </ul>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="the accident" id="anchor_1644312540877">What happens when it's time to renew my BEAM car insurance policy?</a></h2>
+        <p style="text-align: left;">Around 28 days before your renewal date we&rsquo;ll generate your renewal quote. If you receive your documents by email, you&rsquo;ll get all those details on the same day. If you&rsquo;ve told us to send your renewal quote by post, it can take up to 7 working days to get to you.</p>
+        <p style="text-align: left;">We&rsquo;re always happy to talk to you about your car insurance renewal. Call us on <strong>0330 041 3685</strong> and have your policy number to hand.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="after the accident" id="anchor_1644312563521">What do I do once I receive my renewal quote and pack?</a></h2>
+        <p style="text-align: left;">After you&rsquo;ve checked all the details, you're happy with your renewal quote and if your policy is set to automatically renew, you're good to go.</p>
+        <p style="text-align: left;">Otherwise, if you&rsquo;ve previously opted out of renewing automatically, you'll need to call us on <strong>0330 041 3685</strong> to accept your renewal and make payment.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="finding fault" id="anchor_1644312577585">Do I need to call you to renew my BEAM car insurance?</a></h2>
+        <p style="text-align: left;">If you&rsquo;re happy with your renewal quote, there are no changes to tell us about and your policy is set up to renew automatically, there&rsquo;s no need to call us.</p>
+        <p style="text-align: left;">If you have previously opted out of renewing automatically, either when you bought your policy or at another time, then you&rsquo;ll have to call us on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;">If you have questions, <a href="https://www.aabeam.co.uk/car-insurance/faqs">read our FAQs</a>&nbsp;to see if they can help. And, if you want to talk to us about anything to do with your renewal, call us on the number above.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="policy excesses explained" id="anchor_1644312602554">I haven't received my renewal information. What should I do?</a></h2>
+        <p style="text-align: left;">If it&rsquo;s more than 28 days to your renewal date, do nothing for now. If it&rsquo;s less than 28 days to your renewal and you receive your documents by email, check your junk folder. If you receive your documents by post, it can up to 7 working days before you receive your pack.</p>
+        <p style="text-align: left;">If you still haven&rsquo;t received your renewal quote, let us know on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="automatic renew" id="anchor_1674570307554">How do I automatically renew my policy so I&rsquo;m always covered?</a></h2>
+        <p style="text-align: left;">Check that your policy isn&rsquo;t already set up to renew automatically. If it is, that&rsquo;s great news; automatic renewal gives you peace of mind that you&rsquo;ll never miss your renewal date and your cover will continue uninterrupted.&nbsp;</p>
+        <p style="text-align: left;">If you've previously opted out of renewing automatically, either when you bought your policy or at another time, then you can easily opt back in by changing your auto renewal preference. You can do this at renewal by giving us a call on <strong>0330 041 3685</strong>.&nbsp;</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="not time">It's not time for me to renew but I need to make changes to my BEAM car insurance</a></h2>
+        <p style="text-align: left;">If you've changed your vehicle or need to update any policy details, call us on <strong>0330 041 3684 </strong>and have your policy reference number to hand. It's on any of your car insurance documents.</p>
+        <p style="text-align: left;">&nbsp;</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240514T094819Z
+  - Version: 13
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230215T151513Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\DicembreS
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3e31099b-f52f-4e26-b394-45a1b64dfd31"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230215T151513Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <a id="anchor_1674569540055" name="how do i automatically renew my policy so im always covered"></a><a name="how do i stop the automatic renewal of my beam car insurance policy" id="anchor_1674569460685"></a>
+        <h2 style="text-align: left;">Got a question about your BEAM renewal?</h2>
+        <p style="text-align: left;">We want to make renewing your BEAM car insurance as painless and simple as possible. Here's everything we think you need to know when it comes to the renewals process.</p>
+        <ul>
+            <li style="text-align: left;"><a href="#the accident">What happens when it's time to renew my BEAM car insurance policy?</a></li>
+            <li style="text-align: left;"><a href="#after the accident">What do I do once I receive my renewal quote and pack?</a></li>
+            <li style="text-align: left;"><a href="#finding fault">Do I need to call you to renew my BEAM policy?</a></li>
+            <li style="text-align: left;"><a href="#policy excesses explained">I haven't received my renewal information. What should I do?</a></li>
+            <li style="text-align: left;"><a href="#automatic renew" id="link_1674570331698">How do I automatically renew my policy so I&rsquo;m always covered?</a></li>
+            <li style="text-align: left;"><a href="#not time">It's not time for me to renew but I need to make changes to my BEAM car insurance</a>
+            </li>
+        </ul>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="the accident" id="anchor_1644312540877">What happens when it's time to renew my BEAM car insurance policy?</a></h2>
+        <p style="text-align: left;">Around 28 days before your renewal date we&rsquo;ll generate your renewal quote. If you receive your documents by email, you&rsquo;ll get all those details on the same day. If you&rsquo;ve told us to send your renewal quote by post, it can take up to 7 working days to get to you.</p>
+        <p style="text-align: left;">We&rsquo;re always happy to talk to you about your car insurance renewal. Call us on <strong>0330 041 3685</strong> and have your policy number to hand.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="after the accident" id="anchor_1644312563521">What do I do once I receive my renewal quote and pack?</a></h2>
+        <p style="text-align: left;">After you&rsquo;ve checked all the details, you're happy with your renewal quote and if your policy is set to automatically renew, you're good to go.</p>
+        <p style="text-align: left;">Otherwise, if you&rsquo;ve previously opted out of renewing automatically, you'll need to call us on <strong>0330 041 3685</strong> to accept your renewal and make payment.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="finding fault" id="anchor_1644312577585">Do I need to call you to renew my BEAM car insurance?</a></h2>
+        <p style="text-align: left;">If you&rsquo;re happy with your renewal quote, there are no changes to tell us about and your policy is set up to renew automatically, there&rsquo;s no need to call us.</p>
+        <p style="text-align: left;">If you have previously opted out of renewing automatically, either when you bought your policy or at another time, then you&rsquo;ll have to call us on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;">If you have questions, <a href="https://www.aabeam.co.uk/car-insurance/faqs">read our FAQs</a>&nbsp;to see if they can help. And, if you want to talk to us about anything to do with your renewal, call us on the number above.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="policy excesses explained" id="anchor_1644312602554">I haven't received my renewal information. What should I do?</a></h2>
+        <p style="text-align: left;">If it&rsquo;s more than 28 days to your renewal date, do nothing for now. If it&rsquo;s less than 28 days to your renewal and you receive your documents by email, check your junk folder. If you receive your documents by post, it can up to 7 working days before you receive your pack.</p>
+        <p style="text-align: left;">If you still haven&rsquo;t received your renewal quote, let us know on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="automatic renew" id="anchor_1674570307554">How do I automatically renew my policy so I&rsquo;m always covered?</a></h2>
+        <p style="text-align: left;">Check that your policy isn&rsquo;t already set up to renew automatically. If it is, that&rsquo;s great news; automatic renewal gives you peace of mind that you&rsquo;ll never miss your renewal date and your cover will continue uninterrupted.&nbsp;</p>
+        <p style="text-align: left;">If you've previously opted out of renewing automatically, either when you bought your policy or at another time, then you can easily opt back in by changing your auto renewal preference. You can do this at renewal by giving us a call on <strong>0330 041 3685</strong>.&nbsp;</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="not time">It's not time for me to renew but I need to make changes to my BEAM car insurance</a></h2>
+        <p style="text-align: left;">If you've changed your vehicle or need to update any policy details, call us on <strong>0330 041 3684 </strong>and have your policy reference number to hand. It's on any of your car insurance documents.</p>
+        <p style="text-align: left;">&nbsp;</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240514T094819Z
+  - Version: 14
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230525T123219Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\DicembreS
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a94ac730-d11f-4460-8eb7-e09bbfd73d70"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230525T123219Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <a id="anchor_1674569540055" name="how do i automatically renew my policy so im always covered"></a><a name="how do i stop the automatic renewal of my beam car insurance policy" id="anchor_1674569460685"></a>
+        <h2 style="text-align: left;">Got a question about your BEAM renewal?</h2>
+        <p style="text-align: left;">We want to make renewing your BEAM car insurance as painless and simple as possible. Here's everything we think you need to know when it comes to the renewals process.</p>
+        <ul>
+            <li style="text-align: left;"><a href="#the accident">What happens when it's time to renew my BEAM car insurance policy?</a></li>
+            <li style="text-align: left;"><a href="#after the accident">What do I do once I receive my renewal quote and pack?</a></li>
+            <li style="text-align: left;"><a href="#finding fault">Do I need to call you to renew my BEAM policy?</a></li>
+            <li style="text-align: left;"><a href="#policy excesses explained">I haven't received my renewal information. What should I do?</a></li>
+            <li style="text-align: left;"><a href="#automatic renew" id="link_1674570331698">How do I automatically renew my policy so I&rsquo;m always covered?</a></li>
+            <li style="text-align: left;"><a href="#not time">It's not time for me to renew but I need to make changes to my BEAM car insurance</a>
+            </li>
+        </ul>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="the accident" id="anchor_1644312540877">What happens when it's time to renew my BEAM car insurance policy?</a></h2>
+        <p style="text-align: left;">Around 28 days before your renewal date we&rsquo;ll generate your renewal quote. If you receive your documents by email, you&rsquo;ll get all those details on the same day. If you&rsquo;ve told us to send your renewal quote by post, it can take up to 7 working days to get to you.</p>
+        <p style="text-align: left;">We&rsquo;re always happy to talk to you about your car insurance renewal. Call us on <strong>0330 041 3685</strong> and have your policy number to hand.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="after the accident" id="anchor_1644312563521">What do I do once I receive my renewal quote and pack?</a></h2>
+        <p style="text-align: left;">After you&rsquo;ve checked all the details, you're happy with your renewal quote and if your policy is set to automatically renew, you're good to go.</p>
+        <p style="text-align: left;">Otherwise, if you&rsquo;ve previously opted out of renewing automatically, you'll need to call us on <strong>0330 041 3685</strong> to accept your renewal and make payment.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="finding fault" id="anchor_1644312577585">Do I need to call you to renew my BEAM car insurance?</a></h2>
+        <p style="text-align: left;">If you&rsquo;re happy with your renewal quote, there are no changes to tell us about and your policy is set up to renew automatically, there&rsquo;s no need to call us.</p>
+        <p style="text-align: left;">If you have previously opted out of renewing automatically, either when you bought your policy or at another time, then you&rsquo;ll have to call us on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;">If you have questions, <a href="/car-insurance/faqs">read our FAQs</a>&nbsp;to see if they can help. And, if you want to talk to us about anything to do with your renewal, call us on the number above.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="policy excesses explained" id="anchor_1644312602554">I haven't received my renewal information. What should I do?</a></h2>
+        <p style="text-align: left;">If it&rsquo;s more than 28 days to your renewal date, do nothing for now. If it&rsquo;s less than 28 days to your renewal and you receive your documents by email, check your junk folder. If you receive your documents by post, it can up to 7 working days before you receive your pack.</p>
+        <p style="text-align: left;">If you still haven&rsquo;t received your renewal quote, let us know on <strong>0330 041 3685</strong>.</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="automatic renew" id="anchor_1674570307554">How do I automatically renew my policy so I&rsquo;m always covered?</a></h2>
+        <p style="text-align: left;">Check that your policy isn&rsquo;t already set up to renew automatically. If it is, that&rsquo;s great news; automatic renewal gives you peace of mind that you&rsquo;ll never miss your renewal date and your cover will continue uninterrupted.&nbsp;</p>
+        <p style="text-align: left;">If you've previously opted out of renewing automatically, either when you bought your policy or at another time, then you can easily opt back in by changing your auto renewal preference. You can do this at renewal by giving us a call on <strong>0330 041 3685</strong>.&nbsp;</p>
+        <p style="text-align: left;"><span class="divider">&nbsp;</span></p>
+        <h2 style="text-align: left;"><a name="not time">It's not time for me to renew but I need to make changes to my BEAM car insurance</a></h2>
+        <p style="text-align: left;">If you've changed your vehicle or need to update any policy details, call us on <strong>0330 041 3684 </strong>and have your policy reference number to hand. It's on any of your car insurance documents.</p>
+        <p style="text-align: left;">&nbsp;</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240514T094820Z
+  - Version: 15
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: |
+        <r owner="sitecore\Jenny.Armstrong" date="20240514T094820Z" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230606T082858Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\DicembreS
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ddd3d5be-ff0f-4ff5-8560-38e883e63cdd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230606T082858Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <!-- TrustBox widget - Mini -->
+        <div class="trustpilot-widget" data-locale="en-GB" data-template-id="53aa8807dec7e10d38f59f32" data-businessunit-id="60acfeea1aeec100018cedf1" data-style-height="150px" data-style-width="100%" data-theme="light">
+        <a href="https://uk.trustpilot.com/review/beam.co.uk" target="_blank" rel="noopener noreferrer">Trustpilot</a>
+        </div>
+        <!-- End TrustBox widget -->
+        <p>Don't just take our word for it &ndash; we're rated Excellent by our satisfied customers on Trustpilot.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240514T094841Z

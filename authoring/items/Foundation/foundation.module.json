@@ -2,7 +2,7 @@
   "$schema": "../../.sitecore/schemas/ModuleFile.schema.json",
   "namespace": "Foundation.TheAA",
   "items": {
-    "includes": [    
+    "includes": [
       {
         "name": "templatesAllSites",
         "path": "/sitecore/templates/AllSites",
@@ -37,6 +37,17 @@
       {
         "name": "ValidationRules",
         "path": "/sitecore/system/Settings/Validation Rules/Field Rules/TheAA",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "TheAALayoutFolder",
+        "path": "/sitecore/layout/Layouts/TheAA",
+        "scope": "SingleItem",
+        "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name": "TheAALayout",
+        "path": "/sitecore/layout/Layouts/TheAA/EmptyLayout",
         "allowedPushOperations": "CreateUpdateAndDelete"
       },
       {

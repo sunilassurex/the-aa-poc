@@ -1,0 +1,48 @@
+﻿---
+ID: "01a76481-7802-410a-b1c5-43215cec98c9"
+Parent: "d089d357-2c38-498b-9239-3e22cf0cca4c"
+Template: "8c8ed504-a13d-46f4-8f11-4e4b51785373"
+Path: /sitecore/content/AA/Beam/Modules/Navigation/Footer/Complaints
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 254
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220124T102006Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\CurrieM
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\CurrieM
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1c4d3a19-8d7d-458f-8fa5-aea3b19d1632"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250805T075738Z
+    - ID: "e9484be3-0240-4833-91e3-acd4242483ca"
+      Hint: Link
+      Value: |
+        <link class="" id="{5D3DECBA-3234-45A9-A8B8-C77995E0B042}" querystring="" anchor="" target="" title="" linktype="internal" text="Complaints" url="/AA/Beam/Home/contact-us/complaints" />

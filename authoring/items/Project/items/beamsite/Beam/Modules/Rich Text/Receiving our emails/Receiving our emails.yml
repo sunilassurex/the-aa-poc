@@ -1,0 +1,507 @@
+﻿---
+ID: "576c4fb7-0c69-4538-a7ef-0af6f1bf7e81"
+Parent: "5bfaae42-5f76-4e3d-ba55-7458f2dc7539"
+Template: "e36747b3-6154-423a-b32d-b2d323f5a739"
+Path: /sitecore/content/AA/Beam/Modules/Rich Text/Receiving our emails/Receiving our emails
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220224T175507Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c77ee9f0-f323-4871-90ec-ed1fbbb4a534"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>We&rsquo;ll only contact you by email if you&rsquo;ve given your permission. But sometimes emails that you&rsquo;ve asked for may not make it to your inbox.</p>
+        <p>If this happens, to make sure you get the emails from us that that you&rsquo;ve asked for, simply add email@info.theaa.com, email2@info.theaa.com and noreply@theaa.com to your address book.</p>
+        <h3><span style="font-size: 24px;">Email 'allowed lists'</span></h3>
+        <p>Your spam filter &ndash; whether it's a program you've bought or one that came with your email platform &ndash; will have an 'allowed list' and a 'blocked list' of senders and keywords. So, you can set which type of emails you want to receive and which you don't.</p>
+        <p>Emails from addresses, domains or internet providers (IPs) that are in the allowed list will be let through until you remove that sender from the list.</p>
+        <p>You can usually add an email address to your allowed list by adding it to your address book.</p>
+        <p>If you have an anti-virus program installed on your computer, such as Norton's or McAfee, check the instructions for your program to make sure that emails you need to read will appear in your inbox.</p>
+        <h3><span style="font-size: 24px;"><strong>How to add an email to your address book</strong></span></h3>
+        <h4>Microsoft Outlook Office 2007</h4>
+        <ul>
+            <li>In the 'Tools' menu, choose 'Options'.</li>
+            <li>In the 'Preferences' tab, under 'Email' pick 'Junk email'.</li>
+            <li>Choose the 'Safe Senders' tab.</li>
+            <li>Select 'Add'.</li>
+            <li>In the 'Enter an email address or internet domain name to be added to the list&rsquo; field, enter the name or address you&rsquo;d like to add.</li>
+            <li>Choose 'OK'.</li>
+        </ul>
+        <h4>Microsoft Outlook Office 2010</h4>
+        <ul>
+            <li>Open the email.</li>
+            <li>In the &lsquo;Home&rsquo; tab, choose &lsquo;Junk&rsquo; and &lsquo;Never Block Sender&rsquo; or &lsquo;Never Block Sender&rsquo;s Domain&rsquo;.</li>
+        </ul>
+        <h4>Microsoft Outlook newer versions</h4>
+        <ul>
+            <li>Open the email.</li>
+            <li>In the 'Home' tab, in the 'Delete' group, choose 'Junk'.</li>
+            <li>Pick &lsquo;Junk email options&rsquo;.</li>
+            <li>On the &lsquo;Safe Senders&rsquo; tab, choose &lsquo;Add&rsquo;.</li>
+            <li>In the &lsquo;Enter an email address or internet domain name to be added to the list&rsquo; field, enter the name or address you&rsquo;d like to add.</li>
+            <li>Choose 'OK'.</li>
+        </ul>
+        <h4>AOL Mail</h4>
+        <ul>
+            <li>Choose the &lsquo;Addresses&rsquo; tab.</li>
+            <li>Choose the &lsquo;New&rsquo; drop down menu and pick &lsquo;New Contact&rsquo;.</li>
+            <li>In &lsquo;Screen Name&rsquo;, type in the email address you need to add.</li>
+            <li>Choose &lsquo;Save&rsquo;.</li>
+        </ul>
+        <h4>Gmail</h4>
+        <ul>
+            <li>In your inbox, hover over the sender&rsquo;s name and a contact card will appear.</li>
+            <li>Choose &lsquo;Add to contacts&rsquo;.</li>
+        </ul>
+        <h4>Yahoo! mail</h4>
+        <ul>
+            <li>Right click the email in your inbox.</li>
+            <li>Choose &lsquo;Add Sender to Contacts&rsquo;.</li>
+        </ul>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220224T180630Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220224T181649Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "46248a87-4c73-40e8-8aa8-ffcc17b59d84"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220224T181649Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>We&rsquo;ll only contact you by email if you&rsquo;ve given your permission. But sometimes emails that you&rsquo;ve asked for may not make it to your inbox.</p>
+        <p>If this happens, to make sure you get the emails from us that that you&rsquo;ve asked for, simply add email@info.theaa.com, email2@info.theaa.com and noreply@theaa.com to your address book.</p>
+        <h3><span style="font-size: 24px;"><strong>Email 'allowed lists'</strong></span></h3>
+        <p>Your spam filter &ndash; whether it's a program you've bought or one that came with your email platform &ndash; will have an 'allowed list' and a 'blocked list' of senders and keywords. So, you can set which type of emails you want to receive and which you don't.</p>
+        <p>Emails from addresses, domains or internet providers (IPs) that are in the allowed list will be let through until you remove that sender from the list.</p>
+        <p>You can usually add an email address to your allowed list by adding it to your address book.</p>
+        <p>If you have an anti-virus program installed on your computer, such as Norton's or McAfee, check the instructions for your program to make sure that emails you need to read will appear in your inbox.</p>
+        <h3><span style="font-size: 24px;"><strong>How to add an email to your address book</strong></span></h3>
+        <h4><span style="font-size: 18px;">Microsoft Outlook Office 2007</span></h4>
+        <ul>
+            <li>In the 'Tools' menu, choose 'Options'.</li>
+            <li>In the 'Preferences' tab, under 'Email' pick 'Junk email'.</li>
+            <li>Choose the 'Safe Senders' tab.</li>
+            <li>Select 'Add'.</li>
+            <li>In the 'Enter an email address or internet domain name to be added to the list&rsquo; field, enter the name or address you&rsquo;d like to add.</li>
+            <li>Choose 'OK'.</li>
+        </ul>
+        <h4><span style="font-size: 18px;">Microsoft Outlook Office 2010</span></h4>
+        <ul>
+            <li>Open the email.</li>
+            <li>In the &lsquo;Home&rsquo; tab, choose &lsquo;Junk&rsquo; and &lsquo;Never Block Sender&rsquo; or &lsquo;Never Block Sender&rsquo;s Domain&rsquo;.</li>
+        </ul>
+        <h4><span style="font-size: 18px;">Microsoft Outlook newer versions</span></h4>
+        <ul>
+            <li>Open the email.</li>
+            <li>In the 'Home' tab, in the 'Delete' group, choose 'Junk'.</li>
+            <li>Pick &lsquo;Junk email options&rsquo;.</li>
+            <li>On the &lsquo;Safe Senders&rsquo; tab, choose &lsquo;Add&rsquo;.</li>
+            <li>In the &lsquo;Enter an email address or internet domain name to be added to the list&rsquo; field, enter the name or address you&rsquo;d like to add.</li>
+            <li>Choose 'OK'.</li>
+        </ul>
+        <h4><span style="font-size: 18px;">AOL Mail</span></h4>
+        <ul>
+            <li>Choose the &lsquo;Addresses&rsquo; tab.</li>
+            <li>Choose the &lsquo;New&rsquo; drop down menu and pick &lsquo;New Contact&rsquo;.</li>
+            <li>In &lsquo;Screen Name&rsquo;, type in the email address you need to add.</li>
+            <li>Choose &lsquo;Save&rsquo;.</li>
+        </ul>
+        <h4><span style="font-size: 18px;">Gmail</span></h4>
+        <ul>
+            <li>In your inbox, hover over the sender&rsquo;s name and a contact card will appear.</li>
+            <li>Choose &lsquo;Add to contacts&rsquo;.</li>
+        </ul>
+        <h4><span style="font-size: 18px;">Yahoo! mail</span></h4>
+        <ul>
+            <li>Right click the email in your inbox.</li>
+            <li>Choose &lsquo;Add Sender to Contacts&rsquo;.</li>
+        </ul>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220224T181841Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220224T182805Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "638309f5-bccd-4147-9c6a-517091144e9a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220224T182805Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>We&rsquo;ll only contact you by email if you&rsquo;ve given your permission. But sometimes emails that you&rsquo;ve asked for may not make it to your inbox.</p>
+        <p>If this happens, to make sure you get the emails from us that that you&rsquo;ve asked for, simply add email@info.theaa.com, email2@info.theaa.com and noreply@theaa.com to your address book.</p>
+        <h2><span style="font-size: 24px;">Email 'allowed lists'</span></h2>
+        <p>Your spam filter &ndash; whether it's a program you've bought or one that came with your email platform &ndash; will have an 'allowed list' and a 'blocked list' of senders and keywords. So, you can set which type of emails you want to receive and which you don't.</p>
+        <p>Emails from addresses, domains or internet providers (IPs) that are in the allowed list will be let through until you remove that sender from the list.</p>
+        <p>You can usually add an email address to your allowed list by adding it to your address book.</p>
+        <p>If you have an anti-virus program installed on your computer, such as Norton's or McAfee, check the instructions for your program to make sure that emails you need to read will appear in your inbox.</p>
+        <h2><span style="font-size: 24px;">How to add an email to your address book</span></h2>
+        <h3><span style="font-size: 18px;"><strong>Microsoft Outlook Office 2007</strong></span></h3>
+        <ul>
+            <li>In the 'Tools' menu, choose 'Options'.</li>
+            <li>In the 'Preferences' tab, under 'Email' pick 'Junk email'.</li>
+            <li>Choose the 'Safe Senders' tab.</li>
+            <li>Select 'Add'.</li>
+            <li>In the 'Enter an email address or internet domain name to be added to the list&rsquo; field, enter the name or address you&rsquo;d like to add.</li>
+            <li>Choose 'OK'.</li>
+        </ul>
+        <h3><span style="font-size: 18px;"><strong>Microsoft Outlook Office 2010</strong></span></h3>
+        <ul>
+            <li>Open the email.</li>
+            <li>In the &lsquo;Home&rsquo; tab, choose &lsquo;Junk&rsquo; and &lsquo;Never Block Sender&rsquo; or &lsquo;Never Block Sender&rsquo;s Domain&rsquo;.</li>
+        </ul>
+        <h3><span style="font-size: 18px;"><strong>Microsoft Outlook newer versions</strong></span></h3>
+        <ul>
+            <li>Open the email.</li>
+            <li>In the 'Home' tab, in the 'Delete' group, choose 'Junk'.</li>
+            <li>Pick &lsquo;Junk email options&rsquo;.</li>
+            <li>On the &lsquo;Safe Senders&rsquo; tab, choose &lsquo;Add&rsquo;.</li>
+            <li>In the &lsquo;Enter an email address or internet domain name to be added to the list&rsquo; field, enter the name or address you&rsquo;d like to add.</li>
+            <li>Choose 'OK'.</li>
+        </ul>
+        <h3><span style="font-size: 18px;"><strong>AOL Mail</strong></span></h3>
+        <ul>
+            <li>Choose the &lsquo;Addresses&rsquo; tab.</li>
+            <li>Choose the &lsquo;New&rsquo; drop down menu and pick &lsquo;New Contact&rsquo;.</li>
+            <li>In &lsquo;Screen Name&rsquo;, type in the email address you need to add.</li>
+            <li>Choose &lsquo;Save&rsquo;.</li>
+        </ul>
+        <h3><span style="font-size: 18px;"><strong>Gmail</strong></span></h3>
+        <ul>
+            <li>In your inbox, hover over the sender&rsquo;s name and a contact card will appear.</li>
+            <li>Choose &lsquo;Add to contacts&rsquo;.</li>
+        </ul>
+        <h3><span style="font-size: 18px;"><strong>Yahoo! mail</strong></span></h3>
+        <ul>
+            <li>Right click the email in your inbox.</li>
+            <li>Choose &lsquo;Add Sender to Contacts&rsquo;.</li>
+        </ul>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220224T183003Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220224T183015Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ca44bf51-0def-4e9d-8b25-e30d84527c19"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220224T183015Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>We&rsquo;ll only contact you by email if you&rsquo;ve given your permission. But sometimes emails that you&rsquo;ve asked for may not make it to your inbox.</p>
+        <p>If this happens, to make sure you get the emails from us that that you&rsquo;ve asked for, simply add email@info.theaa.com, email2@info.theaa.com and noreply@theaa.com to your address book.</p>
+        <h2><span style="font-size: 24px;">Email 'allowed lists'</span></h2>
+        <p>Your spam filter &ndash; whether it's a program you've bought or one that came with your email platform &ndash; will have an 'allowed list' and a 'blocked list' of senders and keywords. So, you can set which type of emails you want to receive and which you don't.</p>
+        <p>Emails from addresses, domains or internet providers (IPs) that are in the allowed list will be let through until you remove that sender from the list.</p>
+        <p>You can usually add an email address to your allowed list by adding it to your address book.</p>
+        <p>If you have an anti-virus program installed on your computer, such as Norton's or McAfee, check the instructions for your program to make sure that emails you need to read will appear in your inbox.</p>
+        <h2><span style="font-size: 24px;">How to add an email to your address book</span></h2>
+        <h3><span style="font-size: 18px;"><strong>Microsoft Outlook Office 2007</strong></span></h3>
+        <ul>
+            <li>In the 'Tools' menu, choose 'Options'.</li>
+            <li>In the 'Preferences' tab, under 'Email' pick 'Junk email'.</li>
+            <li>Choose the 'Safe Senders' tab.</li>
+            <li>Select 'Add'.</li>
+            <li>In the 'Enter an email address or internet domain name to be added to the list&rsquo; field, enter the name or address you&rsquo;d like to add.</li>
+            <li>Choose 'OK'.</li>
+        </ul>
+        <h3><span style="font-size: 18px;"><strong>Microsoft Outlook Office 2010</strong></span></h3>
+        <ul>
+            <li>Open the email.</li>
+            <li>In the &lsquo;Home&rsquo; tab, choose &lsquo;Junk&rsquo; and &lsquo;Never Block Sender&rsquo; or &lsquo;Never Block Sender&rsquo;s Domain&rsquo;.</li>
+        </ul>
+        <h3><span style="font-size: 18px;"><strong>Microsoft Outlook newer versions</strong></span></h3>
+        <ul>
+            <li>Open the email.</li>
+            <li>In the 'Home' tab, in the 'Delete' group, choose 'Junk'.</li>
+            <li>Pick &lsquo;Junk email options&rsquo;.</li>
+            <li>On the &lsquo;Safe Senders&rsquo; tab, choose &lsquo;Add&rsquo;.</li>
+            <li>In the &lsquo;Enter an email address or internet domain name to be added to the list&rsquo; field, enter the name or address you&rsquo;d like to add.</li>
+            <li>Choose 'OK'.</li>
+        </ul>
+        <h3><span style="font-size: 18px;"><strong>AOL Mail</strong></span></h3>
+        <ul>
+            <li>Choose the &lsquo;Addresses&rsquo; tab.</li>
+            <li>Choose the &lsquo;New&rsquo; drop down menu and pick &lsquo;New Contact&rsquo;.</li>
+            <li>In &lsquo;Screen Name&rsquo;, type in the email address you need to add.</li>
+            <li>Choose &lsquo;Save&rsquo;.</li>
+        </ul>
+        <h3><span style="font-size: 18px;"><strong>Gmail</strong></span></h3>
+        <ul>
+            <li>In your inbox, hover over the sender&rsquo;s name and a contact card will appear.</li>
+            <li>Choose &lsquo;Add to contacts&rsquo;.</li>
+        </ul>
+        <h3><span style="font-size: 18px;"><strong>Yahoo! mail</strong></span></h3>
+        <ul>
+            <li>Right click the email in your inbox.</li>
+            <li>Choose &lsquo;Add Sender to Contacts&rsquo;.</li>
+        </ul>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220224T183128Z
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220404T120542Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\EvansD
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b092740c-bd9e-4660-8ead-8891586ac101"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\EvansD
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220404T120542Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>We&rsquo;ll only contact you by email if you&rsquo;ve given your permission. But sometimes emails that you&rsquo;ve asked for may not make it to your inbox.</p>
+        <p>If this happens, to make sure you get the emails from us that that you&rsquo;ve asked for, simply add info@aabeam.co.uk, email@beam.co.uk and noreply@beam.co.uk to your address book.</p>
+        <h2><span style="font-size: 24px;">Email 'allowed lists'</span></h2>
+        <p>Your spam filter &ndash; whether it's a program you've bought or one that came with your email platform &ndash; will have an 'allowed list' and a 'blocked list' of senders and keywords. So, you can set which type of emails you want to receive and which you don't.</p>
+        <p>Emails from addresses, domains or internet providers (IPs) that are in the allowed list will be let through until you remove that sender from the list.</p>
+        <p>You can usually add an email address to your allowed list by adding it to your address book.</p>
+        <p>If you have an anti-virus program installed on your computer, such as Norton's or McAfee, check the instructions for your program to make sure that emails you need to read will appear in your inbox.</p>
+        <h2><span style="font-size: 24px;">How to add an email to your address book</span></h2>
+        <h3><span style="font-size: 18px;"><strong>Microsoft Outlook Office 2007</strong></span></h3>
+        <ul>
+            <li>In the 'Tools' menu, choose 'Options'.</li>
+            <li>In the 'Preferences' tab, under 'Email' pick 'Junk email'.</li>
+            <li>Choose the 'Safe Senders' tab.</li>
+            <li>Select 'Add'.</li>
+            <li>In the 'Enter an email address or internet domain name to be added to the list&rsquo; field, enter the name or address you&rsquo;d like to add.</li>
+            <li>Choose 'OK'.</li>
+        </ul>
+        <h3><span style="font-size: 18px;"><strong>Microsoft Outlook Office 2010</strong></span></h3>
+        <ul>
+            <li>Open the email.</li>
+            <li>In the &lsquo;Home&rsquo; tab, choose &lsquo;Junk&rsquo; and &lsquo;Never Block Sender&rsquo; or &lsquo;Never Block Sender&rsquo;s Domain&rsquo;.</li>
+        </ul>
+        <h3><span style="font-size: 18px;"><strong>Microsoft Outlook newer versions</strong></span></h3>
+        <ul>
+            <li>Open the email.</li>
+            <li>In the 'Home' tab, in the 'Delete' group, choose 'Junk'.</li>
+            <li>Pick &lsquo;Junk email options&rsquo;.</li>
+            <li>On the &lsquo;Safe Senders&rsquo; tab, choose &lsquo;Add&rsquo;.</li>
+            <li>In the &lsquo;Enter an email address or internet domain name to be added to the list&rsquo; field, enter the name or address you&rsquo;d like to add.</li>
+            <li>Choose 'OK'.</li>
+        </ul>
+        <h3><span style="font-size: 18px;"><strong>AOL Mail</strong></span></h3>
+        <ul>
+            <li>Choose the &lsquo;Addresses&rsquo; tab.</li>
+            <li>Choose the &lsquo;New&rsquo; drop down menu and pick &lsquo;New Contact&rsquo;.</li>
+            <li>In &lsquo;Screen Name&rsquo;, type in the email address you need to add.</li>
+            <li>Choose &lsquo;Save&rsquo;.</li>
+        </ul>
+        <h3><span style="font-size: 18px;"><strong>Gmail</strong></span></h3>
+        <ul>
+            <li>In your inbox, hover over the sender&rsquo;s name and a contact card will appear.</li>
+            <li>Choose &lsquo;Add to contacts&rsquo;.</li>
+        </ul>
+        <h3><span style="font-size: 18px;"><strong>Yahoo! mail</strong></span></h3>
+        <ul>
+            <li>Right click the email in your inbox.</li>
+            <li>Choose &lsquo;Add Sender to Contacts&rsquo;.</li>
+        </ul>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220404T121004Z
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220413T140638Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ce8fa992-907c-4cfe-ac11-757401155873"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220413T140638Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <p>We&rsquo;ll only contact you by email if you&rsquo;ve given your permission. But sometimes emails that you&rsquo;ve asked for may not make it to your inbox.</p>
+        <p>If this happens, to make sure you get the emails from us that that you&rsquo;ve asked for, simply add info@aabeam.co.uk, email@aabeam.co.uk and noreply@aabeam.co.uk to your address book.</p>
+        <h2><span style="font-size: 24px;">Email 'allowed lists'</span></h2>
+        <p>Your spam filter &ndash; whether it's a program you've bought or one that came with your email platform &ndash; will have an 'allowed list' and a 'blocked list' of senders and keywords. So, you can set which type of emails you want to receive and which you don't.</p>
+        <p>Emails from addresses, domains or internet providers (IPs) that are in the allowed list will be let through until you remove that sender from the list.</p>
+        <p>You can usually add an email address to your allowed list by adding it to your address book.</p>
+        <p>If you have an anti-virus program installed on your computer, such as Norton's or McAfee, check the instructions for your program to make sure that emails you need to read will appear in your inbox.</p>
+        <h2><span style="font-size: 24px;">How to add an email to your address book</span></h2>
+        <h3><span style="font-size: 18px;"><strong>Microsoft Outlook Office 2007</strong></span></h3>
+        <ul>
+            <li>In the 'Tools' menu, choose 'Options'.</li>
+            <li>In the 'Preferences' tab, under 'Email' pick 'Junk email'.</li>
+            <li>Choose the 'Safe Senders' tab.</li>
+            <li>Select 'Add'.</li>
+            <li>In the 'Enter an email address or internet domain name to be added to the list&rsquo; field, enter the name or address you&rsquo;d like to add.</li>
+            <li>Choose 'OK'.</li>
+        </ul>
+        <h3><span style="font-size: 18px;"><strong>Microsoft Outlook Office 2010</strong></span></h3>
+        <ul>
+            <li>Open the email.</li>
+            <li>In the &lsquo;Home&rsquo; tab, choose &lsquo;Junk&rsquo; and &lsquo;Never Block Sender&rsquo; or &lsquo;Never Block Sender&rsquo;s Domain&rsquo;.</li>
+        </ul>
+        <h3><span style="font-size: 18px;"><strong>Microsoft Outlook newer versions</strong></span></h3>
+        <ul>
+            <li>Open the email.</li>
+            <li>In the 'Home' tab, in the 'Delete' group, choose 'Junk'.</li>
+            <li>Pick &lsquo;Junk email options&rsquo;.</li>
+            <li>On the &lsquo;Safe Senders&rsquo; tab, choose &lsquo;Add&rsquo;.</li>
+            <li>In the &lsquo;Enter an email address or internet domain name to be added to the list&rsquo; field, enter the name or address you&rsquo;d like to add.</li>
+            <li>Choose 'OK'.</li>
+        </ul>
+        <h3><span style="font-size: 18px;"><strong>AOL Mail</strong></span></h3>
+        <ul>
+            <li>Choose the &lsquo;Addresses&rsquo; tab.</li>
+            <li>Choose the &lsquo;New&rsquo; drop down menu and pick &lsquo;New Contact&rsquo;.</li>
+            <li>In &lsquo;Screen Name&rsquo;, type in the email address you need to add.</li>
+            <li>Choose &lsquo;Save&rsquo;.</li>
+        </ul>
+        <h3><span style="font-size: 18px;"><strong>Gmail</strong></span></h3>
+        <ul>
+            <li>In your inbox, hover over the sender&rsquo;s name and a contact card will appear.</li>
+            <li>Choose &lsquo;Add to contacts&rsquo;.</li>
+        </ul>
+        <h3><span style="font-size: 18px;"><strong>Yahoo! mail</strong></span></h3>
+        <ul>
+            <li>Right click the email in your inbox.</li>
+            <li>Choose &lsquo;Add Sender to Contacts&rsquo;.</li>
+        </ul>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220413T140813Z

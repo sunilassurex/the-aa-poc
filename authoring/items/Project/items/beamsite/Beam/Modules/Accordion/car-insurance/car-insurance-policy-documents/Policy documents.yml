@@ -1,0 +1,1011 @@
+﻿---
+ID: "5ec8878f-bb49-4337-b89c-79b4c96640c2"
+Parent: "85065e47-3b89-4d4e-8bb4-8c4fe33205a3"
+Template: "8703a280-ec4e-43a2-8f83-dc29485a490a"
+Path: "/sitecore/content/AA/Beam/Modules/Accordion/car-insurance/car-insurance-policy-documents/Policy documents"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <a id="documents"></a>
+        <h3>Car insurance</h3>
+        <p>The Car Insurance Policy Booklet contains the full terms and conditions for BEAM car insurance and tells you about the main features and limits of the policy.</p>
+        <p><a href="~/media/56B257729DCA494C9F8C2481F85F1637.ashx">Car Insurance Policy Booklet</a> [PDF 1.77 MB]</p>
+        <p>If you need the policy booklet information in large print, audio or Braille, please call us on:</p>
+        <p>0370 533 2211</p>
+        <p>You can also contact us using Relay UK (formerly Next Generation Text).</p>
+        <h3>About your contract</h3>
+        <p>Please read this PDF summarising your contract with Automobile Association Insurance Services Limited, trading as BEAM:</p>
+        <p><a href="~/media/81ADCF3236B94DB0B352D3F26B040FE9.ashx">About your contract with AA Insurance Services</a> [PDF 40 KB]</p>
+        <h3>Information and policy documents for additional extras</h3>
+        <p><a href="~/media/EBB196A3914346BD85591E62E8D43472.ashx">Excess Protection</a> [PDF 64 KB]</p>
+        <p><a href="~/media/50F77FF6CD3147CD9A05C04FE6BB84FC.ashx">Motor Accident Plan</a> [PDF 72 KB]</p>
+        <p><a href="~/media/1A8B65EB746D45FD8B46228BA6F96B8D.ashx">Motor Legal Assistance</a> [PDF 85 KB]</p>
+        <p><a href="~/media/880D231FBA9F4F3291886E5FF4CD3096.ashx">Roadside Breakdown</a> [PDF 67 KB]</p>
+        <p><a href="~/media/5D796BCE1CF142ECBB3110FB8727D273.ashx">Roadside and National Recovery</a> [PDF 67 KB]</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220310T153440Z
+    - ID: "34075d39-34f4-467d-82f9-649af4a3137a"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4a7199d5-24c8-43cd-8ace-00cce492d109"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220310T153440Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220310T153508Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Policy documents
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <a id="documents"></a>
+        <h3>Car insurance</h3>
+        <p>The Car Insurance Policy Booklet contains the full terms and conditions for BEAM car insurance and tells you about the main features and limits of the policy.</p>
+        <p><a href="~/media/56B257729DCA494C9F8C2481F85F1637.ashx">Car Insurance Policy Booklet</a> [PDF 1.77 MB]</p>
+        <p>If you need the policy booklet information in large print, audio or Braille, please call us on:</p>
+        <p>0370 533 2211</p>
+        <p>You can also contact us using Relay UK (formerly Next Generation Text).</p>
+        <h3>About your contract</h3>
+        <p>Please read this PDF summarising your contract with Automobile Association Insurance Services Limited, trading as BEAM:</p>
+        <p><a href="~/media/81ADCF3236B94DB0B352D3F26B040FE9.ashx">About your contract with AA Insurance Services</a> [PDF 40 KB]</p>
+        <h3>Information and policy documents for additional extras</h3>
+        <p><a href="~/media/880D231FBA9F4F3291886E5FF4CD3096.ashx">Roadside Breakdown</a> [PDF 67 KB]</p>
+        <p><a href="~/media/5D796BCE1CF142ECBB3110FB8727D273.ashx">Roadside and National Recovery</a> [PDF 67 KB]</p>
+        <p><a href="~/media/1A8B65EB746D45FD8B46228BA6F96B8D.ashx">Motor Legal Assistance</a> [PDF 85 KB]</p>
+        <p><a href="~/media/EBB196A3914346BD85591E62E8D43472.ashx">Excess Protection</a> [PDF 64 KB]</p>
+        <p><a href="~/media/50F77FF6CD3147CD9A05C04FE6BB84FC.ashx">Motor Accident Plan</a> [PDF 72 KB]</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220412T081915Z
+    - ID: "34075d39-34f4-467d-82f9-649af4a3137a"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "698339a7-e2aa-4305-bb2a-0b814f5974f6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220412T081915Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220412T082019Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Policy documents
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <a id="documents"></a>
+        <h3>Car insurance</h3>
+        <p>The Car Insurance Policy Booklet contains the full terms and conditions for BEAM car insurance and tells you about the main features and limits of the policy.</p>
+        <p><a href="~/media/56B257729DCA494C9F8C2481F85F1637.ashx">Car Insurance Policy Booklet</a> [PDF 1.77 MB]</p>
+        <p>If you need the policy booklet information in large print, audio or Braille, please call us on:</p>
+        <p>0370 533 2211</p>
+        <p>You can also contact us using Relay UK (formerly Next Generation Text).</p>
+        <h3>About your contract</h3>
+        <p>Please read this PDF summarising your contract with Automobile Association Insurance Services Limited, trading as BEAM:</p>
+        <p><a href="~/media/81ADCF3236B94DB0B352D3F26B040FE9.ashx">About your contract with AA Insurance Services</a> [PDF 40 KB]</p>
+        <h3>Information and policy documents for additional extras</h3>
+        <p><a href="~/media/8591171A980D430C94F7824A202293F8.ashx">Roadside Breakdown</a> [PDF 67 KB]</p>
+        <p><a href="~/media/8591171A980D430C94F7824A202293F8.ashx">Roadside and National Recovery</a> [PDF 67 KB]</p>
+        <p><a href="~/media/1A8B65EB746D45FD8B46228BA6F96B8D.ashx">Motor Legal Assistance</a> [PDF 85 KB]</p>
+        <p><a href="~/media/EBB196A3914346BD85591E62E8D43472.ashx">Excess Protection</a> [PDF 64 KB]</p>
+        <p><a href="~/media/50F77FF6CD3147CD9A05C04FE6BB84FC.ashx">Motor Accident Plan</a> [PDF 72 KB]</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220412T082142Z
+    - ID: "34075d39-34f4-467d-82f9-649af4a3137a"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ed07d3e8-3000-4f6e-8937-ae4259ad9770"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220412T082142Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220412T084241Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Policy documents
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <a id="documents"></a>
+        <h3>Car insurance</h3>
+        <p>The Car Insurance Policy Booklet contains the full terms and conditions for BEAM car insurance and tells you about the main features and limits of the policy.</p>
+        <p><a href="~/media/56B257729DCA494C9F8C2481F85F1637.ashx">Car Insurance Policy Booklet</a> [PDF 1.77 MB]</p>
+        <p>If you need the policy booklet information in large print, audio or Braille, please call us on:</p>
+        <p>0800 262 050</p>
+        <p>You can also contact us using Relay UK (formerly Next Generation Text).</p>
+        <h3>About your contract</h3>
+        <p>Please read this PDF summarising your contract with Automobile Association Insurance Services Limited, trading as BEAM:</p>
+        <p><a href="~/media/81ADCF3236B94DB0B352D3F26B040FE9.ashx">About your contract with AA Insurance Services</a> [PDF 40 KB]</p>
+        <h3>Information and policy documents for additional extras</h3>
+        <p><a href="~/media/8591171A980D430C94F7824A202293F8.ashx">Roadside Breakdown</a> [PDF 67 KB]</p>
+        <p><a href="~/media/8591171A980D430C94F7824A202293F8.ashx">Roadside and National Recovery</a> [PDF 67 KB]</p>
+        <p><a href="~/media/1A8B65EB746D45FD8B46228BA6F96B8D.ashx">Motor Legal Assistance</a> [PDF 85 KB]</p>
+        <p><a href="~/media/EBB196A3914346BD85591E62E8D43472.ashx">Excess Protection</a> [PDF 64 KB]</p>
+        <p><a href="~/media/50F77FF6CD3147CD9A05C04FE6BB84FC.ashx">Motor Accident Plan</a> [PDF 72 KB]</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220429T140345Z
+    - ID: "34075d39-34f4-467d-82f9-649af4a3137a"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1506db57-2d50-43b2-a1f1-80ee0f563994"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220429T140345Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220429T140450Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Policy documents
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <a id="documents"></a>
+        <h3>Car insurance</h3>
+        <p>The Car Insurance Policy Booklet contains the full terms and conditions for BEAM car insurance and tells you about the main features and limits of the policy.</p>
+        <p><a href="~/media/56B257729DCA494C9F8C2481F85F1637.ashx">Car Insurance Policy Booklet</a> [PDF 1.77 MB]</p>
+        <p>If you need the policy booklet information in large print, audio or Braille, please call us on:</p>
+        <p>0800 262 050</p>
+        <p>You can also contact us using Relay UK (formerly Next Generation Text).</p>
+        <h3>About your contract</h3>
+        <p>Please read this PDF summarising your contract with Automobile Association Insurance Services Limited, trading as BEAM:</p>
+        <p><a href="~/media/81ADCF3236B94DB0B352D3F26B040FE9.ashx">About your contract with AA Insurance Services</a> [PDF 40 KB]</p>
+        <h3>Information and policy documents for additional extras</h3>
+        <p><a href="~/media/8591171A980D430C94F7824A202293F8.ashx">Roadside Breakdown</a> [PDF 67 KB]</p>
+        <p><a href="~/media/8591171A980D430C94F7824A202293F8.ashx">Roadside and National Recovery</a> [PDF 67 KB]</p>
+        <p><a href="~/media/EBB196A3914346BD85591E62E8D43472.ashx">Excess Protection</a> [PDF 64 KB]</p>
+        <p><a href="~/media/50F77FF6CD3147CD9A05C04FE6BB84FC.ashx">Motor Accident Plan</a> [PDF 72 KB]</p>
+        <p><a href="~/media/1A8B65EB746D45FD8B46228BA6F96B8D.ashx">Motor Legal Assistance</a> [PDF 85 KB]</p>
+        <h3>Online legal documents service</h3>
+        <p>Our Motor Legal Assistance add on comes with an online legal documents service, for both our BEAM and AA customers. </p>
+        <p>For customers that have bought Motor Legal Assistance and want to&nbsp;access the service, just register with your car insurance policy number on our <a href="https://aalegaldocuments.co.uk/Account/LogOn">legal documents portal</a>.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220509T134755Z
+    - ID: "34075d39-34f4-467d-82f9-649af4a3137a"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d60aed49-2264-400b-a05b-9cfa52fad53f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220509T134755Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220511T125622Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Policy documents
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p>The Car Insurance Policy Booklet contains the full terms and conditions for BEAM car insurance and tells you about the main features and limits of the policy.</p>
+        <p><a href="~/media/56B257729DCA494C9F8C2481F85F1637.ashx">Car Insurance Policy Booklet</a></p>
+        <p>If you need the policy booklet information in large print, audio or Braille, please call us on:</p>
+        <p>0800 262 050</p>
+        <p>You can also contact us using Relay UK (formerly Next Generation Text).</p>
+        <hr />
+        <br />
+        <h2>About your contract</h2>
+        <p>Please read this PDF summarising your contract with Automobile Association Insurance Services Limited, trading as BEAM:</p>
+        <p><a href="~/media/81ADCF3236B94DB0B352D3F26B040FE9.ashx">About your contract with AA Insurance Services</a></p>
+        <hr />
+        <br />
+        <h2>Policy documents for additional cover</h2>
+        <p><a href="~/media/8591171A980D430C94F7824A202293F8.ashx">Breakdown Cover &ndash; Roadside </a></p>
+        <p><a href="~/media/8591171A980D430C94F7824A202293F8.ashx">Breakdown Cover &ndash; Roadside and National Recovery</a></p>
+        <p><a href="~/media/EBB196A3914346BD85591E62E8D43472.ashx">Excess Protection</a></p>
+        <p><a href="~/media/50F77FF6CD3147CD9A05C04FE6BB84FC.ashx">Motor Accident Plan</a></p>
+        <p><a href="~/media/1A8B65EB746D45FD8B46228BA6F96B8D.ashx">Motor Legal Assistance</a></p>
+        <hr />
+        <br />
+        <h2>Online legal documents service</h2>
+        <p>Our Motor Legal Assistance add on comes with an online legal documents service, for both our BEAM and AA customers. </p>
+        <p>For customers that have bought Motor Legal Assistance and want to&nbsp;access the service, just register with your car insurance policy number on our <a href="https://aalegaldocuments.co.uk/Account/LogOn">legal documents portal</a>.</p>
+        <hr />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221128T110706Z
+    - ID: "34075d39-34f4-467d-82f9-649af4a3137a"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "efd9392f-a9e6-4564-81b4-204911069e58"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20221128T110706Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221128T125522Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Policy documents
+  - Version: 7
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p>The Car Insurance Policy Booklet contains the full terms and conditions for BEAM car insurance and tells you about the main features and limits of the policy.</p>
+        <p><a href="~/media/56B257729DCA494C9F8C2481F85F1637.ashx">Car Insurance Policy Booklet</a></p>
+        <p>If you need the policy booklet information in large print, audio or Braille, please call us on:</p>
+        <p>0800 262 050</p>
+        <p>You can also contact us using Relay UK (formerly Next Generation Text).</p>
+        <hr />
+        <br />
+        <h2>About your contract</h2>
+        <p>Please read this PDF summarising your contract with Automobile Association Insurance Services Limited, trading as BEAM:</p>
+        <p><a href="~/media/81ADCF3236B94DB0B352D3F26B040FE9.ashx">About your contract with AA Insurance Services</a></p>
+        <hr />
+        <br />
+        <h2>Policy documents for additional cover</h2>
+        <p><a href="~/media/8591171A980D430C94F7824A202293F8.ashx">Breakdown Cover &ndash; Roadside </a></p>
+        <p><a href="~/media/8591171A980D430C94F7824A202293F8.ashx">Breakdown Cover &ndash; Roadside and National Recovery</a></p>
+        <p><a href="~/media/EBB196A3914346BD85591E62E8D43472.ashx">Excess Protection</a></p>
+        <p><a href="~/media/50F77FF6CD3147CD9A05C04FE6BB84FC.ashx">Motor Accident Plan</a></p>
+        <p><a href="~/media/1A8B65EB746D45FD8B46228BA6F96B8D.ashx">Motor Legal Assistance</a></p>
+        <hr />
+        <br />
+        <h2>Online legal documents service</h2>
+        <p>Motor Legal Assistance additional cover comes with an online legal documents service, for both BEAM and AA customers. </p>
+        <p>If you've bought Motor Legal Assistance and want to access the service, just register with your car insurance policy number on our <a href="https://aalegaldocuments.co.uk/Account/LogOn">legal documents portal</a>.</p>
+        <hr />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221128T131955Z
+    - ID: "34075d39-34f4-467d-82f9-649af4a3137a"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b397beae-e6a7-40f0-bad7-23cbd33b5e9b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20221128T131955Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221128T132251Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Policy documents
+  - Version: 8
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p>The Car Insurance Policy Booklet contains the full terms and conditions for BEAM car insurance and tells you about the main features and limits of the policy.</p>
+        <p><a href="~/media/56B257729DCA494C9F8C2481F85F1637.ashx">Car Insurance Policy Booklet</a></p>
+        <p>If you need the policy booklet information in large print, audio or Braille, please call us on:</p>
+        <p>0800 262 050</p>
+        <p>You can also contact us using Relay UK (formerly Next Generation Text).</p>
+        <hr />
+        <br />
+        <h2>About your contract</h2>
+        <p>Please read this PDF summarising your contract with Automobile Association Insurance Services Limited, trading as BEAM:</p>
+        <p><a href="~/media/910F79B04B644DDB89DFAD1F52861FD0.ashx">About your contract with AA Insurance Services</a></p>
+        <p>Updated 1 December 2022.</p>
+        <hr />
+        <br />
+        <h2>Policy documents for additional cover</h2>
+        <p><a href="~/media/8591171A980D430C94F7824A202293F8.ashx">Breakdown Cover &ndash; Roadside </a></p>
+        <p><a href="~/media/8591171A980D430C94F7824A202293F8.ashx">Breakdown Cover &ndash; Roadside and National Recovery</a></p>
+        <p><a href="~/media/EBB196A3914346BD85591E62E8D43472.ashx">Excess Protection</a></p>
+        <p><a href="~/media/50F77FF6CD3147CD9A05C04FE6BB84FC.ashx">Motor Accident Plan</a></p>
+        <p><a href="~/media/1A8B65EB746D45FD8B46228BA6F96B8D.ashx">Motor Legal Assistance</a></p>
+        <hr />
+        <br />
+        <h2>Online legal documents service</h2>
+        <p>Motor Legal Assistance additional cover comes with an online legal documents service, for both BEAM and AA customers. </p>
+        <p>If you've bought Motor Legal Assistance and want to access the service, just register with your car insurance policy number on our <a href="https://aalegaldocuments.co.uk/Account/LogOn">legal documents portal</a>.</p>
+        <hr />
+        <br class="t-last-br" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221128T133116Z
+    - ID: "34075d39-34f4-467d-82f9-649af4a3137a"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a1a1f519-1da3-4dd3-b653-411459ac15ea"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20221128T133116Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221201T075010Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Policy documents
+  - Version: 9
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p>The Car Insurance Policy Booklet contains the full terms and conditions for BEAM car insurance and tells you about the main features and limits of the policy.</p>
+        <p><a href="~/media/56B257729DCA494C9F8C2481F85F1637.ashx">Car Insurance Policy Booklet</a></p>
+        <p>If you need the policy booklet information in large print, audio or Braille, please call us on:</p>
+        <p>0800 262 050</p>
+        <p>You can also contact us using Relay UK (formerly Next Generation Text).</p>
+        <hr />
+        <br />
+        <h2>About your contract</h2>
+        <p>Please read this PDF summarising your contract with Automobile Association Insurance Services Limited, trading as BEAM:</p>
+        <p><a href="~/media/910F79B04B644DDB89DFAD1F52861FD0.ashx">About your contract with AA Insurance Services</a></p>
+        <p>Updated 1 December 2022.</p>
+        <hr />
+        <br />
+        <h2>Policy documents for additional cover</h2>
+        <p><a href="~/media/8591171A980D430C94F7824A202293F8.ashx">Breakdown Cover &ndash; Roadside </a></p>
+        <p><a href="~/media/8591171A980D430C94F7824A202293F8.ashx">Breakdown Cover &ndash; Roadside and National Recovery</a></p>
+        <p><a href="~/media/EBB196A3914346BD85591E62E8D43472.ashx">Excess Protection</a></p>
+        <p><a href="~/media/50F77FF6CD3147CD9A05C04FE6BB84FC.ashx">Motor Accident Plan</a></p>
+        <p><a href="~/media/1A8B65EB746D45FD8B46228BA6F96B8D.ashx">Motor Legal Assistance</a></p>
+        <hr />
+        <br />
+        <h2>Online legal documents service</h2>
+        <p>Motor Legal Assistance additional cover comes with an online legal documents service, for both BEAM and AA customers. </p>
+        <p>If you've bought Motor Legal Assistance and want to access the service, just register with your car insurance policy number on our <a href="https://aalegaldocuments.co.uk/Account/LogOn">legal documents portal</a>.</p>
+        <hr />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230523T133301Z
+    - ID: "34075d39-34f4-467d-82f9-649af4a3137a"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a33c12e3-daf3-4e64-bfbe-aa79f7d772b6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230523T133301Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230523T133416Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Policy documents
+  - Version: 10
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: |
+        <r owner="sitecore\ChapmanT" date="20230913T080703Z" />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p>The Car Insurance Policy Booklet contains the full terms and conditions for BEAM car insurance and tells you about the main features and limits of the policy.</p>
+        <p><a href="~/media/56B257729DCA494C9F8C2481F85F1637.ashx">Car Insurance Policy Booklet</a></p>
+        <p>If you need the policy booklet information in large print, audio or Braille, please call us on:</p>
+        <p>0800 262 050</p>
+        <p>You can also contact us using Relay UK (formerly Next Generation Text).</p>
+        <hr />
+        <br />
+        <h2>About your contract</h2>
+        <p>Please read this PDF summarising your contract with Automobile Association Insurance Services Limited, trading as BEAM:</p>
+        <p><a href="~/media/910F79B04B644DDB89DFAD1F52861FD0.ashx">About your contract with AA Insurance Services</a></p>
+        <p>Updated 1 December 2022.</p>
+        <hr />
+        <br />
+        <h2>Policy documents for additional cover</h2>
+        <p><a href="~/media/8591171A980D430C94F7824A202293F8.ashx">Breakdown Cover &ndash; Roadside </a></p>
+        <p><a href="~/media/8591171A980D430C94F7824A202293F8.ashx">Breakdown Cover &ndash; Roadside and National Recovery</a></p>
+        <p><a href="~/media/BE919172B7634BD3AE9CE16D08EABA15.ashx">Excess Protection</a></p>
+        <p><a href="~/media/FEEC3E56A71240CCAF2DF61487EEF5F4.ashx">Motor Accident Plan</a></p>
+        <p><a href="~/media/EAAFD52A32CB4937B31432B3440E0958.ashx">Motor Legal Assistance</a></p>
+        <hr />
+        <br />
+        <h2>Online legal documents service</h2>
+        <p>Motor Legal Assistance additional cover comes with an online legal documents service, for both BEAM and AA customers. </p>
+        <p>If you've bought Motor Legal Assistance and want to access the service, just register with your car insurance policy number on our <a href="https://aalegaldocuments.co.uk/Account/LogOn">legal documents portal</a>.</p>
+        <hr />
+        <br class="t-last-br" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230913T080702Z
+    - ID: "34075d39-34f4-467d-82f9-649af4a3137a"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1012f2b6-c3b6-4192-9297-63ec816c0fb8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230913T080702Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230913T090501Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Policy documents
+  - Version: 11
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p>The Car Insurance Policy Booklet contains the full terms and conditions for BEAM car insurance and tells you about the main features and limits of the policy.</p>
+        <p><a href="~/media/56B257729DCA494C9F8C2481F85F1637.ashx">Car Insurance Policy Booklet</a></p>
+        <p>If you need the policy booklet information in large print, audio or Braille, please call us on:</p>
+        <p>0800 262 050</p>
+        <p>You can also contact us using Relay UK (formerly Next Generation Text).</p>
+        <hr />
+        <br />
+        <h2>About your contract</h2>
+        <p>Please read this PDF summarising your contract with Automobile Association Insurance Services Limited, trading as BEAM:</p>
+        <p><a href="~/media/910F79B04B644DDB89DFAD1F52861FD0.ashx">About your contract with AA Insurance Services</a></p>
+        <p>Updated 1 December 2022.</p>
+        <hr />
+        <br />
+        <h2>Policy documents for additional cover</h2>
+        <p><a href="~/media/A201CADACA9245AA9EC14AB6260BBCDF.ashx">Breakdown Cover &ndash; Roadside</a> </p>
+        <p><a href="~/media/A201CADACA9245AA9EC14AB6260BBCDF.ashx">Breakdown Cover &ndash; Roadside and National Recovery</a> </p>
+        <p><a href="~/media/EBB196A3914346BD85591E62E8D43472.ashx">Excess Protection</a></p>
+        <p><a href="~/media/50F77FF6CD3147CD9A05C04FE6BB84FC.ashx">Motor Accident Plan</a></p>
+        <p><a href="~/media/1A8B65EB746D45FD8B46228BA6F96B8D.ashx">Motor Legal Assistance</a></p>
+        <hr />
+        <br />
+        <h2>Online legal documents service</h2>
+        <p>Motor Legal Assistance additional cover comes with an online legal documents service, for both BEAM and AA customers. </p>
+        <p>If you've bought Motor Legal Assistance and want to access the service, just register with your car insurance policy number on our <a href="https://aalegaldocuments.co.uk/Account/LogOn">legal documents portal</a>.</p>
+        <hr />
+        <br class="t-last-br" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230913T095710Z
+    - ID: "34075d39-34f4-467d-82f9-649af4a3137a"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2fd5bc7a-9536-4a2c-8463-5bc99a8a2fa5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230913T095710Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230913T100000Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Policy documents
+  - Version: 12
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p>The Car Insurance Policy Booklet contains the full terms and conditions for BEAM car insurance and tells you about the main features and limits of the policy.</p>
+        <p><a href="~/media/E1469A6EC03D4D11B545B31C56937969.ashx">Car Insurance Policy Booklet</a></p>
+        <p>If you need the policy booklet information in large print, audio or Braille, please call us on:</p>
+        <p>0800 262 050</p>
+        <p>You can also contact us using Relay UK (formerly Next Generation Text).</p>
+        <hr />
+        <br />
+        <h2>About your contract</h2>
+        <p>Please read this PDF summarising your contract with Automobile Association Insurance Services Limited, trading as BEAM:</p>
+        <p><a href="~/media/9F36E52228004614B0A3A0A7BA482E14.ashx">About your contract with AA Insurance Services</a></p>
+        <p>Updated 1 December 2022.</p>
+        <hr />
+        <br />
+        <h2>Policy documents for additional cover</h2>
+        <p><a href="~/media/A201CADACA9245AA9EC14AB6260BBCDF.ashx">Breakdown Cover &ndash; Roadside</a> </p>
+        <p><a href="~/media/A201CADACA9245AA9EC14AB6260BBCDF.ashx">Breakdown Cover &ndash; Roadside and National Recovery</a> </p>
+        <p><a href="~/media/93701FC13F054AA2816AAA0BC9D5B7D0.ashx">Excess Protection</a></p>
+        <p><a href="~/media/FEEC3E56A71240CCAF2DF61487EEF5F4.ashx">Motor Accident Plan</a></p>
+        <p><a href="~/media/EAAFD52A32CB4937B31432B3440E0958.ashx">Motor Legal Assistance</a></p>
+        <hr />
+        <br />
+        <h2>Online legal documents service</h2>
+        <p>Motor Legal Assistance additional cover comes with an online legal documents service, for both BEAM and AA customers. </p>
+        <p>If you've bought Motor Legal Assistance and want to access the service, just register with your car insurance policy number on our <a href="https://aalegaldocuments.co.uk/Account/LogOn">legal documents portal</a>.</p>
+        <hr />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230913T101636Z
+    - ID: "34075d39-34f4-467d-82f9-649af4a3137a"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7f1c34ee-a462-4e5c-ba1f-99e599b3dc85"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230913T101636Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231004T100329Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Policy documents
+  - Version: 13
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p>The Car Insurance Policy Booklet contains the full terms and conditions for BEAM car insurance and tells you about the main features and limits of the policy.</p>
+        <p><a href="~/media/E1469A6EC03D4D11B545B31C56937969.ashx">Car Insurance Policy Booklet</a></p>
+        <p>If you need the policy booklet information in large print, audio or Braille, please call us on:</p>
+        <p>0800 262 050</p>
+        <p>You can also contact us using Relay UK (formerly Next Generation Text).</p>
+        <hr />
+        <br />
+        <h2>About your contract</h2>
+        <p>Please read this PDF summarising your contract with Automobile Association Insurance Services Limited, trading as BEAM:</p>
+        <p><a href="~/media/9F36E52228004614B0A3A0A7BA482E14.ashx">About your contract with AA Insurance Services</a></p>
+        <p>Updated 1 December 2022.</p>
+        <hr />
+        <br />
+        <h2>Policy documents for additional cover</h2>
+        <p><a href="~/media/A201CADACA9245AA9EC14AB6260BBCDF.ashx">Breakdown Cover &ndash; Roadside</a> </p>
+        <p><a href="~/media/A201CADACA9245AA9EC14AB6260BBCDF.ashx">Breakdown Cover &ndash; Roadside and National Recovery</a> </p>
+        <p><a href="~/media/BE919172B7634BD3AE9CE16D08EABA15.ashx">Excess Protection</a></p>
+        <p><a href="~/media/FEEC3E56A71240CCAF2DF61487EEF5F4.ashx">Motor Accident Plan</a></p>
+        <p><a href="~/media/EAAFD52A32CB4937B31432B3440E0958.ashx">Motor Legal Assistance</a></p>
+        <hr />
+        <br />
+        <h2>Online legal documents service</h2>
+        <p>Motor Legal Assistance additional cover comes with an online legal documents service, for both BEAM and AA customers. </p>
+        <p>If you've bought Motor Legal Assistance and want to access the service, just register with your car insurance policy number on our <a href="https://aalegaldocuments.co.uk/Account/LogOn">legal documents portal</a>.</p>
+        <hr />
+        <br class="t-last-br" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231004T100843Z
+    - ID: "34075d39-34f4-467d-82f9-649af4a3137a"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "989ab94c-601e-4e93-92db-cf0fc9a6afff"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20231004T100843Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231004T101012Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Policy documents
+  - Version: 14
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p>The Car Insurance Policy Booklet contains the full terms and conditions for BEAM car insurance and tells you about the main features and limits of the policy.</p>
+        <p><a href="https://www.beam.co.uk/car-insurance/~/media/the-aa/beam/pdfs/beam-motor-policy-booklet-0422.pdf">Car Insurance Policy Booklet</a></p>
+        <p>If you need the policy booklet information in large print, audio or Braille, please call us on:</p>
+        <p>0800 262 050</p>
+        <p>You can also contact us using Relay UK (formerly Next Generation Text).</p>
+        <hr />
+        <br />
+        <h2>About your contract</h2>
+        <p>Please read this PDF summarising your contract with Automobile Association Insurance Services Limited, trading as BEAM:</p>
+        <p><a href="https://www.beam.co.uk/car-insurance/~/media/the-aa/beam/pdfs/beam-motor-idd-november-2023.pdf">About your contract with AA Insurance Services</a></p>
+        <p>Updated November 2023.</p>
+        <hr />
+        <br />
+        <h2>Additional cover</h2>
+        <p><strong>Breakdown Cover</strong></p>
+        <p><a href="https://www.theaa.com/~/media/the-aa/pdf/insurance/aa-breakdown-cover-policy-booklet-december-2021.pdf">Breakdown Cover Policy Booklet&ndash; Roadside</a> </p>
+        <p><a href="https://www.theaa.com/~/media/the-aa/pdf/insurance/aa-breakdown-cover-policy-booklet-december-2021.pdf">Breakdown Cover Policy Booklet &ndash; Roadside and National Recovery</a> </p>
+        <br />
+        <p><strong>Motor Legal Assistance</strong></p>
+        <p><a href="https://www.beam.co.uk/car-insurance/~/media/the-aa/beam/pdfs/beam-motor-legal-assistance-policy-wording-0422.pdf">Motor Legal Assistance Policy Wording</a></p>
+        <br />
+        <p><strong>Excess Protection</strong></p>
+        <p>Policies starting or renewed from 30 December 2023:</p>
+        <p><a href="https://www.beam.co.uk/car-insurance/~/media/the-aa/beam/pdfs/beam-excess-protection-policy-wording-december-2023.pdf">Excess Protection Policy Wording</a></p>
+        <p>Policies starting or renewed on or before 29 December 2023:</p>
+        <p><a href="https://www.beam.co.uk/car-insurance/~/media/the-aa/beam/pdfs/beam-excess-protection-policy-wording-0422.pdf">Excess Protection Policy Wording</a></p>
+        <br />
+        <p><strong>Motor Accident Plan</strong></p>
+        <p>Policies starting or renewed from 30 December 2023:</p>
+        <p><a href="https://www.beam.co.uk/car-insurance/~/media/the-aa/beam/pdfs/beam-motor-accident-plan-policy-wording-december-2023.pdf">Motor Accident Plan Policy Wording</a></p>
+        <p>Policies starting or renewed on or before 29 December 2023:</p>
+        <p><a href="https://www.beam.co.uk/car-insurance/~/media/the-aa/beam/pdfs/beam-motor-accident-plan-policy-wording-0422.pdf">Motor Accident Plan Policy Wording</a></p>
+        <hr />
+        <br />
+        <h2>Online legal documents service</h2>
+        <p>Motor Legal Assistance additional cover comes with an online legal documents service, for both BEAM and AA customers. </p>
+        <p>If you've bought Motor Legal Assistance and want to access the service, just register with your car insurance policy number on our <a href="https://aalegaldocuments.co.uk/Account/LogOn">legal documents portal</a>.</p>
+        <hr />
+        <br class="t-last-br" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20231116T143753Z
+    - ID: "34075d39-34f4-467d-82f9-649af4a3137a"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0800dc1f-533b-477a-955c-041f160802a1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20231116T143753Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231124T101924Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Policy documents
+  - Version: 15
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p>The policy booklet contains the terms and conditions for BEAM car insurance, and tells you about the main features and limits of the cover.</p>
+        <p>If you need the policy booklet in large print, audio or Braille, please call us on: </p>
+        <h6>0330 0413684</h6>
+        <p>You can also contact us using Relay UK (formerly Next Generation Text).</p>
+        <div class="article-summary-box grey-bg">
+        <h5>BEAM car insurance &ndash; purchased from 1 October 2024</h5>
+        </div>
+        <p>Please read this PDF summarising your contract with AA Insurance Services and the services we offer,  trading as BEAM:</p>
+        <p><a href="/car-insurance/~/media/the-aa/beam/pdfs/beam-car-insurance-idd-2024-september.pdf">About your contract with AA Insurance Services</a></p>
+        <p>Updated September 2024.</p>
+        <hr />
+        <p>Policies purchased or renewed from 1 October 2024:</p>
+        <p><a href="/car-insurance/~/media/the-aa/beam/pdfs/beam-car-insurance-policy-booklet-2024-september.pdf">Car Insurance Policy Booklet</a> </p>
+        <hr />
+        <p>Find out what's insured and what isn't covered in our comprehensive insurance:</p>
+        <ul>
+            <li><a href="/car-insurance/~/media/the-aa/beam/pdfs/beam-car-insurance-comprehensive-ipid-2024-september.pdf
+        ">BEAM car insurance - Insurance Product Information Document</a></li>
+        </ul>
+        <div class="article-summary-box grey-bg">
+        <h5>BEAM car insurance &ndash; purchased before 1 October 2024</h5>
+        </div>
+        <p>Please read this PDF summarising your contract with Automobile Association Insurance Services Limited, trading as BEAM:</p>
+        <p><a href="/car-insurance/~/media/the-aa/beam/pdfs/beam-motor-idd-november-2023.pdf">About your contract with AA Insurance Services</a></p>
+        <p>Updated November 2023.</p>
+        <hr />
+        <p>Policies purchased or renewed between 1 April 2022 and 30 September 2024:
+        </p>
+        <p><a href="/car-insurance/~/media/the-aa/beam/pdfs/beam-motor-policy-booklet-0422.pdf">Car Insurance Policy Booklet</a></p>
+        <hr />
+        <br />
+        <h2>Additional cover</h2>
+        <p><strong>Breakdown Cover</strong></p>
+        <p><a href="https://www.theaa.com/~/media/the-aa/pdf/insurance/aa-breakdown-cover-policy-booklet-december-2021.pdf">Breakdown Cover Policy Booklet&ndash; Roadside</a> </p>
+        <p><a href="https://www.theaa.com/~/media/the-aa/pdf/insurance/aa-breakdown-cover-policy-booklet-december-2021.pdf">Breakdown Cover Policy Booklet &ndash; Roadside and National Recovery</a> </p>
+        <br />
+        <p><strong>Motor Legal Assistance</strong></p>
+        <p><a href="/car-insurance/~/media/the-aa/beam/pdfs/beam-motor-legal-assistance-policy-wording-0422.pdf">Motor Legal Assistance Policy Wording</a></p>
+        <br />
+        <p><strong>Excess Protection</strong></p>
+        <p>Policies starting or renewed from 30 December 2023:</p>
+        <p><a href="/car-insurance/~/media/the-aa/beam/pdfs/beam-excess-protection-policy-wording-december-2023.pdf">Excess Protection Policy Wording</a></p>
+        <p>Policies starting or renewed on or before 29 December 2023:</p>
+        <p><a href="/car-insurance/~/media/the-aa/beam/pdfs/beam-excess-protection-policy-wording-0422.pdf">Excess Protection Policy Wording</a></p>
+        <br />
+        <p><strong>Motor Accident Plan</strong></p>
+        <p>Policies starting or renewed from 30 December 2023:</p>
+        <p><a href="/car-insurance/~/media/the-aa/beam/pdfs/beam-motor-accident-plan-policy-wording-december-2023.pdf">Motor Accident Plan Policy Wording</a></p>
+        <p>Policies starting or renewed on or before 29 December 2023:</p>
+        <p><a href="/car-insurance/~/media/the-aa/beam/pdfs/beam-motor-accident-plan-policy-wording-0422.pdf">Motor Accident Plan Policy Wording</a></p>
+        <hr />
+        <br />
+        <h2>Online legal documents service</h2>
+        <p>Motor Legal Assistance additional cover comes with an online legal documents service, for both BEAM and AA customers. </p>
+        <p>If you've bought Motor Legal Assistance and want to access the service, just register with your car insurance policy number on our <a href="https://aalegaldocuments.co.uk/Account/LogOn">legal documents portal</a>.</p>
+        <hr />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240906T134350Z
+    - ID: "34075d39-34f4-467d-82f9-649af4a3137a"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "01a666b1-f24d-4414-a7af-ac95c7a64b52"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240906T134350Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250522T061123Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Policy documents

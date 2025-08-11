@@ -1,0 +1,42 @@
+﻿---
+ID: "f4f8517a-cc4b-4ef8-88b8-fcc703133396"
+Parent: "c582eb62-1743-4117-b495-278c1a4f051c"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/AA/Beam/Modules
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 81
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "faba3c46-f363-43b3-9f63-b6dc856ea4db"
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: |
+    ar|sitecore\AA Basic Editor|pd|+item:rename|+item:write|+item:read|+item:delete|+item:create|ar|sitecore\AA Advanced Editor|pd|+item:create|+item:read|+item:rename|+item:delete|+item:write|+item:admin|ar|sitecore\AA Power User|pd|+item:create|+item:read|+item:rename|+item:delete|+item:write|+item:admin|ar|sitecore\AA Approver|pe|+item:write|+item:admin|pd|+item:admin|+item:write|+item:read|
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211115T160234Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\patils
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\patils
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a921085e-7374-4b9e-96d8-5cdbef7cbf2c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250805T075804Z
