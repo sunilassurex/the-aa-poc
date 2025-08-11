@@ -27,8 +27,9 @@ const mobiledata = async (req: NextApiRequest, res: NextApiResponse): Promise<vo
     }
 
     res.status(404).json({ error: 'No Data Found' });
-  } catch (error: any) {
-    res.status(500).json({ error: 'Failed to fetch data', details: error.message });
+  } catch (error: unknown) {
+    const errorMessage = error instanceof Error ? error.message : 'Unknown error';
+    res.status(500).json({ error: 'Failed to fetch data', details: errorMessage });
   }
 };
 
