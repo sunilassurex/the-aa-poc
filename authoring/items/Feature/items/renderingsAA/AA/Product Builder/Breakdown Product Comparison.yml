@@ -1,0 +1,229 @@
+﻿---
+ID: "2300b7c5-d4ce-4cc3-9a7d-413bc0354155"
+Parent: "0e6ab559-138a-4ffd-86cb-222af1157b91"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: /sitecore/layout/Renderings/Feature/AA/Product Builder/Breakdown Product Comparison
+SharedFields:
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/TheAA/Modules/BreakdownProductComparison
+- ID: "3ad2506a-dc39-4b1e-959f-9d524addbf50"
+  Hint: VaryByParm
+  Value: 1
+- ID: "3d08db46-2267-41b0-bc52-be69fd618633"
+  Hint: Cacheable
+  Value: 1
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+- ID: "56776edf-261c-4abc-9fe7-70c618795239"
+  Hint: __Help link
+  Value: |
+    <link text="Breakdown Product comparison" linktype="anchor" url="https://theaacom.atlassian.net/wiki/spaces/SIT/pages/5019533680/Breakdown+Product+Comparison" anchor="https://theaacom.atlassian.net/wiki/spaces/SIT/pages/5019533680/Breakdown+Product+Comparison" title="" class="" />
+- ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
+  Hint: Parameters Template
+  Value: "{5AFE192F-03C5-407F-A436-7549D5C616A0}"
+- ID: "8b6d532b-6128-4486-a044-ca06d90948ba"
+  Hint: VaryByData
+  Value: 1
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "query:/sitecore/content/TheAA/Modules/Breakdown Product Comparison"
+Languages:
+- Language: en
+  Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: Displays the comparison table for different products
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: Displays the comparison table for different products
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20240812T061515:638590401154920426Z"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c4b98295-d201-41ad-8d9c-b43821060d58"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240829T015445Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240702T085737Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "99d1a9d1-6b10-419d-af95-e1c9c3f1ce77"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using Sitecore.Mvc.Presentation
+        @using TheAA.Foundation.Rendering
+        @using TheAA.Application.ViewModels
+        @using TheAA.Foundation.Rendering.Query
+        
+        @inherits HtmlTemplateBase<ContentViewRenderingModel>
+        
+        @if (!string.IsNullOrEmpty(Model.Rendering.DataSource))
+        {
+            var showLoader = string.Empty;
+            var isDynamicCall = string.Empty;
+        
+            var encryptGuid = Model.Rendering.Item.ID.Guid.ToString();
+            <div id="guid-container" data-guid=@encryptGuid></div>
+        
+            <div class="cf best-comparison-table">
+                <div class="cf wrapper best-comparison-table-inner">
+                    <div class="best-bundle-top-head">
+                        <h4>@Model.GetField("Title").RenderValue()</h4>
+                        <p>@Model.GetField("Subtitle").RenderValue()</p>
+                    </div>
+                    <div class="best-bundle-table">
+        
+                        @{
+                            int i = 0;
+        
+                            foreach (var productItem in Model.GetField("Products").SelectedItems())
+                            {
+                                if (productItem != null)
+                                {
+                                    bool popularRecommended = productItem.GetField("IsPopularRecommended").Checked;
+                                    var prefix = productItem.GetField("BeforePriceText");
+                                    var displayPrice = productItem.GetField("Price");
+                                    var suffix = productItem.GetField("AfterPriceText");
+                                    var strikePrice = productItem.GetField("StrikethroughPrice");
+                                    var saleLabelText = productItem.GetField("FlashSaleSaveLabel");
+                                    var primaryCtaItem = productItem.GetField("PrimaryCTA");
+        
+        
+                                    if (i == 0)
+                                    {
+                                        var displayPriceContains = displayPrice.Contains("##OfferPrice##");
+                                        if (displayPriceContains)
+                                        {
+                                            showLoader = "block";
+                                            isDynamicCall = "none";
+                                        }
+                                        else
+                                        {
+                                            showLoader = "none";
+                                            isDynamicCall = "block";
+                                        }
+                                    }
+                                    <div class="best-bundle-item @(popularRecommended ? " best-bundle-most-popular" : string.Empty)" data-index="1">
+                                        <div class="best-bundle-head">
+                                            <div class="best-bundle-price">
+                                                @if (saleLabelText.HasValueToRender())
+                                                {
+                                                    <div class="sale-label">@saleLabelText.RenderValue()</div>
+                                                }
+                                                @if (prefix.HasValueToRender())
+                                                {
+                                                    <div class="best-bundle-price-prefix">
+                                                        <p class="best-bundle-price-prefix">@prefix.RenderValue()</p>
+        
+                                                        <div class="stage">
+                                                            <div class="dot-typing" style="display:@showLoader;"></div>
+                                                        </div>
+                                                        <div class="best-bundle-price-value dynamiContentHolder" style="display:@isDynamicCall;">
+                                                            <!-- Container to display the loading indicator until the dynamic API loads correctly -->
+                                                            <div id="offerPrice@(i)">£@displayPrice.RenderValue()</div>
+                                                        </div>
+                                                    </div>
+                                                }
+                                                else
+                                                {
+                                                    <div class="best-bundle-price-value">
+                                                        <div>£@displayPrice.RenderValue()</div>
+                                                        <div></div>
+                                                    </div>
+                                                }
+                                                @if (strikePrice.HasValueToRender())
+                                                {
+                                                    <div class="best-bundle-strike-price dynamiContentHolder" id="renewalPrice@(i)">
+                                                        <p>
+                                                            @strikePrice.RenderValue()
+                                                        </p>
+                                                    </div>
+                                                }
+                                                @if (suffix.HasValueToRender())
+                                                {
+                                                    <div class="best-bundle-price-description">
+                                                        <p class="best-bundle-price-description">@suffix.RenderValue()</p>
+                                                    </div>
+                                                }
+                                                else
+                                                {
+                                                    <div class="sale-price-label">@productItem.GetField("DiscountedSalePriceText").RenderValue()</div>
+                                                }
+                                            </div>
+                                        </div>
+                                        @{
+                                            string divId = string.Empty;
+                                            string aClass = string.Empty;
+                                            int featureIndex = 0;
+                                        }
+                                        @if (i == 0)
+                                        {
+                                            divId = "leftBundleCTAtrack";
+                                            aClass = "leftBundleTrack";
+                                        }
+                                        @if (i == 1)
+                                        {
+                                            divId = "middleBundleCTAtrack";
+                                            aClass = "middleBundleTrack";
+                                        }
+                                        @if (i == 2)
+                                        {
+                                            divId = "rightBundleCTAtrack";
+                                            aClass = "rightBundleTrack";
+                                        }
+                                        <div class="best-bundle-content">
+                                            @foreach (var features in productItem.GetField("Feature").SelectedItems())
+                                            {
+                                                featureIndex++;
+                                                <div class="best-bundle-content-item best-bundle-closed @aClass@featureIndex">
+                                                    <div class="best-bundle-content-item-head">
+                                                        <div class="best-bundle-content-item-head-title">@features.GetField("ProductFeatureName").RenderValue()</div>
+                                                    </div>
+                                                    <div class="best-bundle-content-item-description">
+                                                        <div class="best-bundle-content-item-description-container">
+                                                            @features.GetField("ProductFeatureDescription").RenderValue()
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            }
+                                        </div>
+                                        <div class="best-bundle-footer">
+                                            <div class="best-bundle-footer-cta" id="@divId">
+                                                <a href="@primaryCtaItem.LinkUrl" class="button primary ra @aClass">@primaryCtaItem.LinkText</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                                i++;
+                            }
+                        }
+                    </div>
+                    <div class="best-bundle-table-footer">
+                        <div class="best-bundle-footer-block">
+                            @Model.GetField("FooterText").RenderValue()
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240702T085737Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240829T015446Z

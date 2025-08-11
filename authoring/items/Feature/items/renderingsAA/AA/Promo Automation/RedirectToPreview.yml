@@ -1,0 +1,59 @@
+﻿---
+ID: "25dd2942-fbfa-4a8e-8520-5168ee9e65f3"
+Parent: "effa7a60-0040-466d-a554-89bef403e784"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: /sitecore/layout/Renderings/Feature/AA/Promo Automation/RedirectToPreview
+SharedFields:
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+- ID: "56776edf-261c-4abc-9fe7-70c618795239"
+  Hint: __Help link
+  Value: |
+    <link text="Preview Redirect URL" linktype="anchor" url="https://theaacom.atlassian.net/wiki/spaces/SIT/pages/5017796743/Redirect+To+Preview" anchor="https://theaacom.atlassian.net/wiki/spaces/SIT/pages/5017796743/Redirect+To+Preview" title="" class="" />
+Languages:
+- Language: en
+  Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: This component is used to redirect to the preview URL when clicked on the preview button for an offer.
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: This component is used to redirect to the preview URL when clicked on the preview button for an offer.
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240808T095711Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e34893fc-ecbb-4a9b-9612-ac810c66d782"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using Sitecore.Mvc.Presentation
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        @using TheAA.Domain.DataTransferObjects;
+        @{
+            SitecoreSettings _settings = CompositionRoot.Resolve<SitecoreSettings>();
+            <script>
+        
+               const searchParams = new URLSearchParams(window.location.search);
+               window.location.href= "@_settings.PreviewRedirectUrl/offer-preview-testing-pages/clearcookies?itemid=" + encodeURIComponent(searchParams.get('sc_itemid'));
+        
+            </script>
+        }
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        theaa\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240829T015446Z

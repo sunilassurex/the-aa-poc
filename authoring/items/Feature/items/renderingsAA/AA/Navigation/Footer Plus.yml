@@ -1,0 +1,766 @@
+﻿---
+ID: "1c248456-2734-4619-bc48-4361ce0cd87e"
+Parent: "1a3449e0-81f0-4826-a4e1-b4995c8a178e"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: /sitecore/layout/Renderings/Feature/AA/Navigation/Footer Plus
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Software/32x32/element_add.png
+- ID: "2e51df70-d3e4-458c-b03a-95c734dd39e7"
+  Hint: Data source
+  Value: 
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+- ID: "56776edf-261c-4abc-9fe7-70c618795239"
+  Hint: __Help link
+  Value: |
+    <link text="Footer Plus" linktype="external" url="https://theaacom.atlassian.net/wiki/spaces/SIT/pages/5094965254/Footer+Plus" anchor="" target="_blank" />
+- ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
+  Hint: Parameters Template
+  Value: 
+Languages:
+- Language: en
+  Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: This component renders Footer on Page.
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: This component renders Footer on Page.
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240509T121650Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Paul.Petersen
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "616b863d-795e-47b8-83ae-463b511b22e6"
+    - ID: "9e6a6532-99aa-4a0e-aba3-e7259e5429ba"
+      Hint: StyleSheets
+      Value: |
+        footer {
+          background-color: var(--color-mono-darkest);
+          color: var(--color-white);
+          padding-top: var(--space-xxx-large);
+          padding-bottom: var(--space-x-large);
+        }
+        footer ul {
+          list-style-type: none;
+        }
+        footer a:link,
+        footer a:visited {
+          font-family: var(--font-family-transport-regular);
+          color: var(--color-white);
+          text-decoration: none;
+        }
+        footer a:hover {
+          text-decoration: underline;
+        }
+        footer a:focus {
+          outline: none;
+          border-radius: 4px;
+          box-shadow: 0 0 0 2px var(--color-white), 0 0 0 5px var(--color-blue-focus);
+        }
+        footer .footer-col-heading:focus {
+          outline: none;
+          border-radius: 4px;
+          box-shadow: 0 0 0 2px var(--color-white), 0 0 0 5px var(--color-blue-focus);
+        }
+        
+        .footer-cols {
+          display: flex;
+          gap: var(--space-x-large);
+          flex-wrap: wrap;
+          padding-bottom: var(--space-x-large);
+          margin-bottom: var(--space-x-large);
+          border-bottom: 1px solid var(--color-mono-dark);
+        }
+        .footer-cols a:link,
+        .footer-cols a:visited {
+          font-size: var(--font-size-large);
+          line-height: var(--line-height-small);
+        }
+        
+        .footer-col {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          gap: var(--space-x-large);
+        }
+        
+        .footer-col-links {
+          display: flex;
+          flex-direction: column;
+          gap: var(--space-x-large);
+        }
+        
+        .footer-social-media {
+          display: flex;
+          gap: var(--space-x-large);
+        }
+        .footer-social-media a:link,
+        .footer-social-media a:visited {
+          line-height: 0px;
+        }
+        
+        .footer-bottom {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        
+        .footer-copyright {
+          display: flex;
+          gap: var(--space-large);
+          align-items: center;
+        }
+        .footer-copyright a:link,
+        .footer-copyright a:visited {
+          line-height: 0px;
+        }
+        
+        .footer-bottom-links {
+          display: flex;
+          flex-wrap: wrap;
+          gap: var(--space-medium);
+        }
+        
+        .footer-bottom-links li:not(:last-child)::after {
+          margin-left: var(--space-medium);
+          content: "|";
+        }
+        
+        .footer-col-heading img {
+          display: none;
+        }
+        
+        /***************************************/
+        /********** Media Queries **************/
+        /***************************************/
+        @media (max-width: 1024px) {
+          .footer-bottom {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-x-large);
+            align-items: flex-start;
+          }
+        }
+        @media (max-width: 480px) {
+          .footer-cols {
+            flex-direction: column;
+          }
+          .accordion .footer-col-links {
+            display: none;
+            transition: display 0.3s ease-out;
+          }
+          .footer-col-heading img {
+            display: block;
+          }
+          .footer-col-heading {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+          .footer-col-exp img {
+            transform: rotate(180deg);
+          }
+        }
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @using Sitecore.Data.Items;
+        @using System.Linq;
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        @{
+        
+        	var categoryItems = Model.GetField("Categories").SelectedItems();
+        	
+        	var callUsHeadingField = Model.GetField("CallUsHeading");
+        	var callUsItems = Model.GetField("CallUsItems").SelectedItems();
+        	
+        	var socialMediaHeadingField = Model.GetField("SocialMediaHeading");
+        	var socialMediaItems = Model.GetField("SocialMediaItems").SelectedItems();
+        	
+        	var copyrightTextField = Model.GetField("CopyrightText");
+        	var utilityLinks = Model.GetField("UtilityLinks").SelectedItems();
+        	var currentYear = DateTime.Now.Year.ToString();
+        
+        <footer>
+        	<div class="container">
+        	@if(categoryItems.Any() || callUsItems.Any() || socialMediaItems.Any())
+        	{
+        		<div class="footer-cols">
+        		@foreach(var category in categoryItems)
+        		{
+        			if(category.HasChildren)
+        			{
+        				var categoryNameField = category.GetField("CategoryName");
+        				<div class="footer-col accordion">
+        				@if(categoryNameField.HasValueToRender())
+        				{
+        					<div class="footer-col-heading">
+        						<h2 class="small">@categoryNameField.RenderValue()</h2>
+        						<img src="/Assets/images/icons/white-down-arrow.svg" 
+        								alt="arrow" 
+        								height="24px" 
+        								width="24px" />
+        					</div>
+        				}
+        					<ul class="footer-col-links">
+        					@foreach(Item linkItem in category.Children)
+        					{
+        						var ctaField = linkItem.GetField("Link");
+        						if(Model.IsExperienceEditor)
+        						{
+        							<li>@ctaField.RenderValue()</li>
+        						}
+        						else if(ctaField.HasValueToRender())
+        						{
+        							<li><a href="@ctaField.LinkUrl" target="@ctaField.LinkTarget">@ctaField.LinkText</a></li>
+        						}
+        					}
+        					</ul>
+        				</div>
+        			}			
+        		}
+        		
+        		@if(callUsItems.Any() || socialMediaItems.Any())
+        		{
+        			<div class="footer-col">
+        			@if(callUsItems.Any())
+        			{
+        				if(callUsHeadingField.HasValueToRender())
+        				{
+        					<h2 class="small">@callUsHeadingField.RenderValue()</h2>
+        				}
+        				<div class="footer-col-links">
+        				@foreach(var callUs in callUsItems)
+        				{
+        					var contentsField = callUs.GetField("Contents");
+        					if(contentsField.HasValueToRender())
+        					{
+        						@contentsField.RenderValue()
+        					}
+        				}
+        				</div>
+        			}
+        			@if(socialMediaItems.Any())
+        			{
+        				if(socialMediaHeadingField.HasValueToRender())
+        				{
+        					<h2 class="small">@socialMediaHeadingField.RenderValue()</h2>
+        				}
+        				<div class="footer-social-media">
+        				@foreach(var socialMedia in socialMediaItems)
+        				{
+        					var ctaField = socialMedia.GetField("Cta");
+        					var ctaImageField = socialMedia.GetField("CtaImage");
+        					if(ctaField.HasValueToRender() && ctaImageField.HasValueToRender())
+        					{
+        						<a href="@ctaField.LinkUrl" target="@ctaField.LinkTarget">
+        							<img src="@ctaImageField.MediaURL" alt="@ctaImageField.MediaAltText" height="@ctaImageField.Height" width="@ctaImageField.Width" />
+        						</a>
+        					}
+        				}
+        				</div>
+        			}
+        			</div>
+        		}
+        			
+        		</div>
+        	}
+        		<div class="footer-bottom">
+        			<div class="footer-copyright">
+        				<a href="/">
+        				  <img
+        					src="/Assets/images/icons/breadcrumb.svg"
+        					alt="The AA"
+        					height="24px"
+        					width="24px" />
+        				</a>
+        				
+        				@if(Model.IsExperienceEditor)
+        				{
+        					<p>@copyrightTextField.RenderValue()</p>
+        				}
+        				else if(copyrightTextField.HasValueToRender())
+        				{
+        					var crText = copyrightTextField.Value().Replace("$$YEAR$$", currentYear);
+        					<p>@Model.Html.Raw(string.Format(crText, currentYear))</p>
+        				}
+        				
+        			</div>
+        		  
+        		  @if(utilityLinks.Any())
+        		  {
+        			<ul class="footer-bottom-links">
+        			@foreach(var linkItem in utilityLinks)
+        			{
+        				var ctaField = linkItem.GetField("Link");
+        				if(Model.IsExperienceEditor)
+        				{
+        					<li>@ctaField.RenderValue()</li>
+        				}
+        				else if(ctaField.HasValueToRender())
+        				{
+        					<li><a href="@ctaField.LinkUrl" target="@ctaField.LinkTarget">@ctaField.LinkText</a></li>
+        				}
+        			}
+        			</ul>
+        		  }
+        		</div>
+        	</div>
+        </footer>
+        <script>
+              document.addEventListener("DOMContentLoaded", () => {
+                const headings = document.querySelectorAll(".footer-col-heading");
+                if (window.innerWidth <= 480) {
+                  headings.forEach((heading) => {
+                    attachAccordionEvent(heading);
+                  });
+                }
+              });
+        
+              function attachAccordionEvent(heading) {
+                document.querySelector(
+                  ".footer-col:first-child .footer-col-links"
+                ).style.display = "flex";
+                document
+                  .querySelector(".footer-col:first-child .footer-col-heading")
+                  .classList.add("footer-col-exp");
+        
+                //Click Event Handler
+                heading.addEventListener("click", () => {
+                  toggleAccordion(heading);
+                });
+        
+                //Enter and Space Keydown Event Handler
+                heading.addEventListener("keydown", (event) => {
+                  if (event.key === "Enter" || event.key === " ") {
+                    event.preventDefault();
+                    toggleAccordion(heading);
+                  }
+                });
+        
+                heading.tabIndex = 0;
+              }
+        
+              function toggleAccordion(heading) {
+                const content = heading.nextElementSibling;
+                // Close all other open accordion contents
+                document.querySelectorAll(".accordion").forEach((col) => {
+                  const links = col.querySelector(".footer-col-links");
+                  const h2 = col.querySelector("h2");
+        
+                  if (links !== content) {
+                    links.style.display = "none";
+                    h2.classList.remove("footer-col-exp");
+                  }
+                });
+        
+                if (heading.classList.contains("footer-col-exp")) {
+                  heading.classList.remove("footer-col-exp");
+                  content.style.display = "none";
+                } else {
+                  heading.classList.add("footer-col-exp");
+                  content.style.display = "flex";
+                }
+              }
+            </script>
+        
+        }
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250318T005305Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250303T054446Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b323f7d2-7d75-4627-87d9-6e2ffaf2ea8f"
+    - ID: "9e6a6532-99aa-4a0e-aba3-e7259e5429ba"
+      Hint: StyleSheets
+      Value: |
+        footer {
+          background-color: var(--color-mono-darkest);
+          color: var(--color-white);
+          padding-top: var(--space-xxx-large);
+          padding-bottom: var(--space-x-large);
+        }
+        footer ul {
+          list-style-type: none;
+        }
+        footer a:link,
+        footer a:visited {
+          font-family: var(--font-family-transport-regular);
+          color: var(--color-white);
+          text-decoration: none;
+        }
+        footer a:hover {
+          text-decoration: underline;
+        }
+        footer a:focus {
+          outline: none;
+          border-radius: 4px;
+          box-shadow: 0 0 0 2px var(--color-white), 0 0 0 5px var(--color-blue-focus);
+        }
+        footer .footer-col-heading:focus {
+          outline: none;
+          border-radius: 4px;
+          box-shadow: 0 0 0 2px var(--color-white), 0 0 0 5px var(--color-blue-focus);
+        }
+        
+        .footer-cols {
+          display: flex;
+          gap: var(--space-x-large);
+          flex-wrap: wrap;
+          padding-bottom: var(--space-x-large);
+          margin-bottom: var(--space-x-large);
+          border-bottom: 1px solid var(--color-mono-dark);
+        }
+        .footer-cols a:link,
+        .footer-cols a:visited {
+          font-size: var(--font-size-large);
+          line-height: var(--line-height-small);
+        }
+        
+        .footer-col {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          gap: var(--space-x-large);
+        }
+        
+        .footer-col-links {
+          display: flex;
+          flex-direction: column;
+          gap: var(--space-x-large);
+        }
+        
+        .footer-social-media {
+          display: flex;
+          gap: var(--space-x-large);
+        }
+        .footer-social-media a:link,
+        .footer-social-media a:visited {
+          line-height: 0px;
+        }
+        
+        .footer-bottom {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        
+        .footer-copyright {
+          display: flex;
+          gap: var(--space-large);
+          align-items: center;
+        }
+        .footer-copyright a:link,
+        .footer-copyright a:visited {
+          line-height: 0px;
+        }
+        
+        .footer-bottom-links {
+          display: flex;
+          flex-wrap: wrap;
+          gap: var(--space-medium);
+        }
+        
+        .footer-bottom-links li:not(:last-child)::after {
+          margin-left: var(--space-medium);
+          content: "|";
+        }
+        
+        .footer-col-heading img {
+          display: none;
+        }
+        
+        /***************************************/
+        /********** Media Queries **************/
+        /***************************************/
+        @media (max-width: 1024px) {
+          .footer-bottom {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-x-large);
+            align-items: flex-start;
+          }
+        }
+        @media (max-width: 480px) {
+          .footer-cols {
+            flex-direction: column;
+          }
+          .accordion .footer-col-links {
+            display: none;
+            transition: display 0.3s ease-out;
+          }
+          .footer-col-heading img {
+            display: block;
+          }
+          .footer-col-heading {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+          }
+          .footer-col-exp img {
+            transform: rotate(180deg); 
+          }
+        }
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @using Sitecore.Data.Items;
+        @using System.Linq;
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        @{
+            var categoryItems = Model.GetField("Categories").SelectedItems();
+        
+            var callUsHeadingField = Model.GetField("CallUsHeading");
+            var callUsItems = Model.GetField("CallUsItems").SelectedItems();
+        
+            var socialMediaHeadingField = Model.GetField("SocialMediaHeading");
+            var socialMediaItems = Model.GetField("SocialMediaItems").SelectedItems();
+        
+            var copyrightTextField = Model.GetField("CopyrightText");
+            var utilityLinks = Model.GetField("UtilityLinks").SelectedItems();
+            var currentYear = DateTime.Now.Year.ToString();
+        
+            <footer>
+                <div class="container">
+                    @if(categoryItems.Any() || callUsItems.Any() || socialMediaItems.Any())
+                    {
+                        <div class="footer-cols">
+                            @foreach(var category in categoryItems)
+                            {
+                                if(category.HasChildren)
+                                {
+                                    var categoryNameField = category.GetField("CategoryName");
+                                    <div class="footer-col accordion">
+                                        @if(categoryNameField.HasValueToRender())
+                                        {
+                                            <div class="footer-col-heading">
+                                                <h2 class="small">@categoryNameField.RenderValue()</h2>
+                                                <img src="/Assets/images/icons/white-down-arrow.svg"
+                                                     alt=""
+                                                     height="24px"
+                                                     width="24px" />
+                                            </div>
+                                        }
+                                        <ul class="footer-col-links">
+                                            @foreach(Item linkItem in category.Children)
+                                            {
+                                                var ctaField = linkItem.GetField("Link");
+                                                if(Model.IsExperienceEditor)
+                                                {
+                                                    <li>@ctaField.RenderValue()</li>
+                                                }
+                                                else if(ctaField.HasValueToRender())
+                                                {
+                                                    <li><a href="@ctaField.LinkUrl" target="@ctaField.LinkTarget">@ctaField.LinkText</a></li>
+                                                }
+                                            }
+                                        </ul>
+                                    </div>
+                                }
+                            }
+        
+                            @if(callUsItems.Any() || socialMediaItems.Any())
+                            {
+                                <div class="footer-col">
+                                    @if(callUsItems.Any())
+                                    {
+                                        if(callUsHeadingField.HasValueToRender())
+                                        {
+                                            <h2 class="small">@callUsHeadingField.RenderValue()</h2>
+                                        }
+                                        <div class="footer-col-links">
+                                            @foreach(var callUs in callUsItems)
+                                            {
+                                                var contentsField = callUs.GetField("Contents");
+                                                if(contentsField.HasValueToRender())
+                                                {
+                                                    @contentsField.RenderValue()
+                                                }
+                                            }
+                                        </div>
+                                    }
+                                    @if(socialMediaItems.Any())
+                                    {
+                                        if(socialMediaHeadingField.HasValueToRender())
+                                        {
+                                            <h2 class="small">@socialMediaHeadingField.RenderValue()</h2>
+                                        }
+                                        <div class="footer-social-media">
+                                            @foreach(var socialMedia in socialMediaItems)
+                                            {
+                                                var ctaField = socialMedia.GetField("Cta");
+                                                var ctaImageField = socialMedia.GetField("CtaImage");
+                                                if(ctaField.HasValueToRender() && ctaImageField.HasValueToRender())
+                                                {
+                                                    <a href="@ctaField.LinkUrl" target="@ctaField.LinkTarget">
+                                                        <img src="@ctaImageField.MediaURL" alt="@ctaImageField.MediaAltText" height="@ctaImageField.Height" width="@ctaImageField.Width" />
+                                                    </a>
+                                                }
+                                            }
+                                        </div>
+                                    }
+                                </div>
+                            }
+        
+                        </div>
+                    }
+                    <div class="footer-bottom">
+                        <div class="footer-copyright">
+                            <a href="/">
+                                <img src="/Assets/images/icons/breadcrumb.svg"
+                                     alt="The AA"
+                                     height="24px"
+                                     width="24px" />
+                            </a>
+        
+                            @if(Model.IsExperienceEditor)
+                            {
+                                <p>@copyrightTextField.RenderValue()</p>
+                            }
+                            else if(copyrightTextField.HasValueToRender())
+                            {
+                                var crText = copyrightTextField.Value().Replace("$$YEAR$$", currentYear);
+                                <p>@Model.Html.Raw(string.Format(crText, currentYear))</p>
+                            }
+        
+                        </div>
+        
+                        @if(utilityLinks.Any())
+                        {
+                            <ul class="footer-bottom-links">
+                                @foreach(var linkItem in utilityLinks)
+                                {
+                                    var ctaField = linkItem.GetField("Link");
+                                    if(Model.IsExperienceEditor)
+                                    {
+                                        <li>@ctaField.RenderValue()</li>
+                                    }
+                                    else if(ctaField.HasValueToRender())
+                                    {
+                                        <li><a href="@ctaField.LinkUrl" target="@ctaField.LinkTarget">@ctaField.LinkText</a></li>
+                                    }
+                                }
+                            </ul>
+                        }
+                    </div>
+                </div>
+            </footer>
+            <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                    const headings = document.querySelectorAll("footer .footer-col-heading");
+                    if (window.innerWidth <= 480) {
+                        headings.forEach((heading) => {
+                            attachAccordionEvent(heading);
+                        });
+                        //Set aria-expanded="true" for the first accordion and "false" for the rest
+                        headings.forEach((heading, index) => {
+                            heading.setAttribute('role', 'button');
+                            if (index === 0) {
+                                heading.setAttribute('aria-expanded', 'true');
+                            } else {
+                                heading.setAttribute('aria-expanded', 'false');
+                            }
+                        });
+                    }
+                    updateAriaAttributes();
+                    //Update on window resize
+                    window.addEventListener('resize', () => updateAriaAttributes());
+                });
+        
+                function attachAccordionEvent(heading) {
+                    document.querySelector(
+                        "footer .footer-col:first-child .footer-col-links"
+                    ).style.display = "flex";
+                    document.querySelector("footer .footer-col:first-child .footer-col-heading").classList.add("footer-col-exp");
+        
+                    //Click Event Handler
+                    heading.addEventListener("click", () => {
+                        toggleAccordion(heading);
+                    });
+        
+                    //Enter and Space Keydown Event Handler
+                    heading.addEventListener("keydown", (event) => {
+                        if (event.key === "Enter" || event.key === " ") {
+                            event.preventDefault();
+                            toggleAccordion(heading);
+                        }
+                    });
+        
+                    heading.tabIndex = 0;
+                }
+        
+                function toggleAccordion(heading) {
+                    const content = heading.nextElementSibling;
+                    const arrowImg = heading.querySelector('img');
+        
+                    // Close all other open accordion contents
+                    document.querySelectorAll("footer .accordion").forEach((col) => {
+                        const links = col.querySelector(".footer-col-links");
+                        const h2 = col.querySelector("h2");
+        
+                        if (links !== content) {
+                            links.style.display = "none";
+                            col.querySelector(".footer-col-heading").classList.remove("footer-col-exp");
+                            col.querySelector(".footer-col-heading").setAttribute('aria-expanded', 'false');
+                        }
+                    });
+        
+                    if (heading.classList.contains("footer-col-exp")) {
+                        heading.classList.remove("footer-col-exp");
+                        content.style.display = "none";
+                        heading.setAttribute('aria-expanded', 'false');
+                    } else {
+                        heading.classList.add("footer-col-exp");
+                        content.style.display = "flex";
+                        heading.setAttribute('aria-expanded', 'true');
+                    }
+                }
+                function updateAriaAttributes() {
+                    const arrowImgElements = document.querySelectorAll("footer .footer-col-heading img");
+                    const isNotMobile = window.innerWidth > 480;
+                    arrowImgElements.forEach(arrowImg => {
+                        if (isNotMobile) {
+                            arrowImg.setAttribute('aria-hidden', 'true');
+                            arrowImg.parentElement.removeAttribute('role');
+                            arrowImg.parentElement.removeAttribute('aria-expanded');
+                        } else {
+                            arrowImg.removeAttribute('aria-hidden');
+                        }
+                    });
+                }
+            </script>
+        }
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20250303T054446Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250318T005305Z

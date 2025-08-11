@@ -1,0 +1,95 @@
+﻿---
+ID: "231240f1-10e9-492d-be33-060212ab973a"
+Parent: "ad31cd89-3849-4f83-8125-b9e194580de4"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: /sitecore/layout/Renderings/Feature/AA/Basic Content/InfoComponent
+SharedFields:
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/Feature/AA/Basic Content/Info Component/InfoComponent
+- ID: "308e88f5-cd6e-4f8f-bafe-95a47dedefdc"
+  Hint: Editable
+  Value: 
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+- ID: "56776edf-261c-4abc-9fe7-70c618795239"
+  Hint: __Help link
+  Value: |
+    <link linktype="external" url="https://theaacom.atlassian.net/wiki/spaces/SIT/pages/4818305213/InfoComponent" anchor="" target="_blank" />
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: /sitecore/content/TheAA/Modules/InfoComponent
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{C6136EE2-C9D3-4004-A6CE-21E5B63E1745}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "849ea1aa-4039-44fb-bb6f-96125649c6e5"
+- ID: "f172b787-7b88-4bd5-ae4d-6308e102ef11"
+  Hint: Enable Datasource Query
+  Value: 
+Languages:
+- Language: en
+  Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: This component can be used to show informational content.
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: This component can be used to show informational content.
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240216T063421Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ab44937f-359e-4233-a8e7-eb86bc2b41e3"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        
+        @if (Model == null)
+        {
+            return;
+        }
+        @{
+            var heading = Model.GetField("Heading");
+            var headingIcon = Model.GetField("HeadingIcon");
+        }
+        <div class="info-component">
+            <div class="heading">
+                @if (headingIcon.HasValueToRender())
+                {
+                    <img src="@headingIcon.MediaURL" alt="@headingIcon.MediaAltText" class="heading-icon" />
+                }
+                @if (heading.HasValueToRender())
+                {
+                    <h3>@heading.RenderValue()</h3>
+                }
+            </div>
+            <div class="body">
+                @Model.GetField("Body").RenderValue()
+            </div>
+        </div>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250801T130913Z

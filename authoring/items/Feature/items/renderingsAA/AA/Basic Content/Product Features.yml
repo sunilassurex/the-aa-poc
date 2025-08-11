@@ -1,0 +1,95 @@
+﻿---
+ID: "1736ca7b-f2ea-42bb-a5e1-e90648975b0e"
+Parent: "ad31cd89-3849-4f83-8125-b9e194580de4"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: /sitecore/layout/Renderings/Feature/AA/Basic Content/Product Features
+SharedFields:
+- ID: "308e88f5-cd6e-4f8f-bafe-95a47dedefdc"
+  Hint: Editable
+  Value: 
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+- ID: "f172b787-7b88-4bd5-ae4d-6308e102ef11"
+  Hint: Enable Datasource Query
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230517T101745Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a49f9814-8a14-488b-aa38-6cce640508f8"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        
+        @{
+        	var html = Model.Html;
+        }
+        @{
+        	<article class="wrapper add-extras cf">
+        		@if (Model.GetField("Title").HasValueToRender())
+        		{
+        			<h2>@Model.GetField("Title").RenderValue()</h2>
+        		}
+        
+        		@if (Model.GetField("Subtitle").HasValueToRender())
+        		{
+        			<h3>@Model.GetField("Subtitle").RenderValue()</h3>
+        		}
+        
+        		<div class="add-extras-wrapper">
+        
+        			@foreach (var rowItem in Model.GetField("ExtrasTiles").SelectedItems())
+        			{
+        				var iconField = Model.GetField("Icon", rowItem);
+        
+        				<div class="add-extra">
+        					@if (iconField.HasValueToRender())
+        					{
+        						<figure>
+        							<img src="@iconField.MediaURL" alt="@rowItem.GetField("Subtitle").Value()" loading="lazy">
+        						</figure>
+        					}
+        
+        				<div class="text-content">
+        					@if (rowItem.GetField("Subtitle").HasValueToRender())
+        					{
+        						<h5>@rowItem.GetField("Subtitle").RenderValue()</h5>
+        					}
+        					@if (rowItem.GetField("Description").HasValueToRender())
+        					{
+        						@html.Raw(@rowItem.GetField("Description").RenderValue())
+        					}
+        					@if (rowItem.GetField("TileLinkText").HasValueToRender())
+        					{
+        						<p class="link"><a href="">@rowItem.GetField("TileLinkText").RenderValue()</a></p>
+        					}
+        				</div>
+        				</div>
+        			}
+        		</div>
+        		<div class="cta-btns">
+        			<a href="@Model.GetField("CtaButtonLink").LinkUrl" class="button ra primary shadow">@Model.GetField("CtaButtonText").RenderValue()</a>
+        		</div>
+        	</article>
+        }
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240718T014320Z

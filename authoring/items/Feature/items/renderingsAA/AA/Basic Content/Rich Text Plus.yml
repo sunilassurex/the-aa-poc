@@ -1,0 +1,166 @@
+﻿---
+ID: "d99de943-d992-406e-a934-385c1bdbcd20"
+Parent: "ad31cd89-3849-4f83-8125-b9e194580de4"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: /sitecore/layout/Renderings/Feature/AA/Basic Content/Rich Text Plus
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Software/32x32/element_add.png
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+- ID: "56776edf-261c-4abc-9fe7-70c618795239"
+  Hint: __Help link
+  Value: |
+    <link text="Rich Text Plus" linktype="external" url="https://theaacom.atlassian.net/wiki/spaces/SIT/pages/5076287513/Rich+Text+Plus" anchor="" target="_blank" />
+- ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
+  Hint: Parameters Template
+  Value: "{3B2E4285-683C-4200-B729-31E035B23F42}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: This component renders Rich Text Contents on the Page.
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: This component renders Rich Text Contents on the Page.
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240509T121650Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Paul.Petersen
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b600a5eb-207a-4778-bf51-3f2a9ba55f26"
+    - ID: "9e6a6532-99aa-4a0e-aba3-e7259e5429ba"
+      Hint: StyleSheets
+      Value: 
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @using TheAA.Foundation.Rendering.Query;
+        @using System.Collections.Generic;
+        @using Sitecore.Mvc;
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        
+        @functions {
+            public static List<string> GetPlaceholderParts(string richText)
+            {
+                // Define the start and end tags for placeholders
+                string startTag = "<placeholder>";
+                string endTag = "</placeholder>";
+        		
+        		string contentPrefix = "$$CONTENT$$";
+        		string placeholderPrefix = "$$PLCHLDR$$";
+        
+                // Initialize the position to start searching
+                int startIndex = 0;
+        
+                // Initialize the result list to hold text and placeholder parts
+                var parts = new List<string>();
+        
+                while ((startIndex = richText.IndexOf(startTag, startIndex)) != -1)
+                {
+                    // Find the end of the placeholder tag
+                    int endIndex = richText.IndexOf(endTag, startIndex);
+                    if (endIndex == -1)
+                    {
+                        break; // No closing tag found, exit the loop
+                    }
+        			
+        			// Add text before the placeholder to the list
+                    if (startIndex > 0)
+                    {
+                        string textBeforePlaceholder = richText.Substring(0, startIndex);
+                        parts.Add(contentPrefix + textBeforePlaceholder);
+                    }
+        			
+                    // Extract the placeholder content
+                    string placeholderText = richText.Substring(startIndex + startTag.Length, endIndex - startIndex - startTag.Length);
+        
+                    // Add the placeholder name to the list
+                    parts.Add(placeholderPrefix + placeholderText);
+        
+                    // Move past the end tag for the next iteration
+                    startIndex = endIndex + endTag.Length;
+                    richText = richText.Substring(startIndex);
+                    startIndex = 0;
+                }
+        
+                // Add any remaining text after the last placeholder
+                if (!string.IsNullOrEmpty(richText))
+                {
+                    parts.Add(contentPrefix + richText);
+                }
+        		
+                return parts;
+            }
+        }
+        
+        @{
+        	
+        	string contentPrefix = "$$CONTENT$$";
+        	string placeholderPrefix = "$$PLCHLDR$$";
+        	QField richTextField;
+            var richTextFieldName = Model.GetRenderingParameter("RichTextFieldName");
+        	var hasPlaceholder = Model.GetRenderingParameter("HasPlaceholders");
+            if(!string.IsNullOrWhiteSpace(richTextFieldName))
+        	{
+        		richTextField = Model.GetField(richTextFieldName);
+        	}
+        	else
+        	{
+        		richTextField = Model.GetField("BodyText");
+        		if (!richTextField.HasValueToRender())
+        		{
+        			richTextField = Model.GetField("Contents");
+        		}
+        	}
+        
+            if (!richTextField.Type.Equals("Rich Text") || !richTextField.HasValueToRender())
+            {
+        		return;
+        	}
+        	
+        	if(Model.IsExperienceEditor)
+        	{
+        		@Model.Html.Raw(richTextField.RenderValue());
+        		return;
+        	}
+        	
+        	var richTextContent = richTextField.Value();
+        	if(hasPlaceholder != "1")
+        	{
+        		@Model.Html.Raw(richTextContent);
+        		return;
+        	}
+        		
+        	List<string> parts = GetPlaceholderParts(richTextContent);
+        	foreach (var part in parts)
+        	{
+        		if (part.StartsWith(contentPrefix))
+        		{
+        			@Model.Html.Raw(part.Substring(contentPrefix.Length));
+        		}
+        		else if (part.StartsWith(placeholderPrefix))
+        		{
+        			@Model.RenderPlaceholder(part.Substring(placeholderPrefix.Length));
+        		}
+        	}
+        }
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        theaa\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241001T014700Z

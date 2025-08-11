@@ -1,0 +1,88 @@
+﻿---
+ID: "299bdddc-8141-4149-a90c-afd57aff4cff"
+Parent: "8570e54a-8042-4367-b598-778bc707713d"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: /sitecore/layout/Renderings/Feature/AA/RTB/RTB
+SharedFields:
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/Feature/AA/RTB/RTB Row
+- ID: "3ad2506a-dc39-4b1e-959f-9d524addbf50"
+  Hint: VaryByParm
+  Value: 1
+- ID: "3d08db46-2267-41b0-bc52-be69fd618633"
+  Hint: Cacheable
+  Value: 1
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+- ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
+  Hint: Parameters Template
+  Value: "{A37E315B-A881-43D0-8FC1-936EC7EBB076}"
+- ID: "8b6d532b-6128-4486-a044-ca06d90948ba"
+  Hint: VaryByData
+  Value: 1
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "query:./ancestor::*[@@templatename='Siteroot']/Modules/RTB/RTB Row"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "05b5043f-c613-4612-948b-9e28d71c9131"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200811T125633Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\paul_petersen
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a0f65c4a-5601-4744-9722-abba2ca1c68b"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using Sitecore.Mvc.Presentation
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @model ContentViewRenderingModel
+        
+        @if(!string.IsNullOrEmpty(Model.Rendering.DataSource))
+        {
+        
+            var backgroundStyle = Model.GetRenderingParameterLookup("BackgroundStyle");
+            var rtbRowsField = Model.GetField("RTB Rows");
+            var rtbRows = rtbRowsField.SelectedItems();
+        
+            <article class="title-row-intro @backgroundStyle">
+            
+                @{
+                    if (rtbRows != null && rtbRows.Any())
+                    {
+                        foreach (var child in rtbRows)
+                        {
+                            <div class="intro-box">
+        
+                                @Model.GetField("Content",child).RenderValue()
+        
+                            </div>
+                        }
+                    }
+                }
+            
+            </article>
+        }
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200811T125633Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250801T130754Z

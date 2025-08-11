@@ -1,0 +1,495 @@
+﻿---
+ID: "170910ba-349c-4ba6-8b24-d0f7c1b556d1"
+Parent: "1a3449e0-81f0-4826-a4e1-b4995c8a178e"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: /sitecore/layout/Renderings/Feature/AA/Navigation/Menu Yellow Optimised
+SharedFields:
+- ID: "1084d3d2-0457-456a-abbc-eb4cc0966072"
+  Hint: VaryByQueryString
+  Value: 1
+- ID: "2e51df70-d3e4-458c-b03a-95c734dd39e7"
+  Hint: Data source
+  Value: 
+- ID: "3ad2506a-dc39-4b1e-959f-9d524addbf50"
+  Hint: VaryByParm
+  Value: 
+- ID: "3d08db46-2267-41b0-bc52-be69fd618633"
+  Hint: Cacheable
+  Value: 
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+- ID: "8b6d532b-6128-4486-a044-ca06d90948ba"
+  Hint: VaryByData
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240612T023510Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fb2ad4be-2f3a-4fce-b243-affea05a3b68"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Foundation.Rendering;
+        @using System.Text;
+        @using System.Text.RegularExpressions;
+        @using System.Web;
+        @using System.Web.Mvc;
+        @using Fortis.Model;
+        @using TheAA.SitecoreRepositories.Constants;
+        @using TheAA.Domain.Interfaces.Repositories;
+        @using TheAA.Domain.TheAATemplates.Data;
+        @using TheAA.Domain.DataTransferObjects;
+        @using TheAA.Domain.TheAATemplates.Modules;
+        @using TheAA.Application.Constants;
+        @using TheAA.Domain.Constants;
+        @using TheAA.Domain.Interfaces.Utilities;
+        @using TheAA.Application.ViewModels;
+        
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        
+        @{
+            var html = Model.Html;
+            var resolver = DependencyResolver.Current;
+            var itemFactory = resolver.GetService<IItemFactory>();
+            var model = itemFactory.GetRenderingContextItems<IPresentationBase, IHtml>();
+            var authenticationService = resolver.GetService<ISitecoreAuthenticationService>();
+            var sitecoreSettings =  resolver.GetService<SitecoreSettings>();
+            var sessionUtility =  resolver.GetService<ISessionUtility>();
+            var ssoUrlUtility =  resolver.GetService<ISingleSignOnUrlUtility>();
+        	var defaultModel = itemFactory.Select<IHtml>("/sitecore/content/TheAA/Global/Navigation/Header/Menu-Yellow-Optimised");
+            var navRootItems = model.RenderingItem != null ? model.RenderingItem.Children<IHtml>() : defaultModel.Children<IHtml>();
+        	var linkurl =@System.Configuration.ConfigurationManager.AppSettings["TheAA.AccountLoginUrl"];
+        }
+        
+        @if (navRootItems != null)
+        {
+        
+            IHtml desktopLogo = null, mobileLogo = null;
+            string backgroundColor = string.Empty;
+            MvcHtmlString style = MvcHtmlString.Empty;
+            var css = navRootItems.FirstOrDefault(i => i.Name.Equals("Css"));
+            var js = navRootItems.FirstOrDefault(i => i.Name.Equals("Js"));
+            var logos = navRootItems.FirstOrDefault(i => i.Name.Equals("Logos"));
+            var topNavigation = navRootItems.FirstOrDefault(i => i.Name.Equals("Top Navigation"));
+            var primaryNavigation = navRootItems.FirstOrDefault(i => i.Name.Equals("Primary Navigation"));
+          
+            bool isUserLoggedIn = authenticationService.IsUserLoggedIn();
+            string firstName = authenticationService.GetCurrentUserProfileValue(MyAAUserProfileProperties.FirstName);
+            string initials = string.IsNullOrEmpty(firstName)?string.Empty:char.ToUpper(firstName[0]).ToString();
+            if (logos != null)
+            {
+                var childitems = logos.Children<IHtml>();
+                desktopLogo = childitems.FirstOrDefault(i => i.Name.Equals("Desktop"));
+                mobileLogo = childitems.FirstOrDefault(i => i.Name.Equals("Mobile"));
+            }
+        
+            if (css != null)
+            {
+                <style>
+                    @Utility.RenderHtmlContent(css)
+                </style>
+            }
+        
+            if (js != null)
+            {
+                <script>
+                    @Utility.RenderHtmlContent(js)
+                </script>
+            }
+        
+            <header id="site-header-yellow" class="cf">
+                <div class="wrapper cf">
+                    @if (topNavigation != null)
+                    {
+                        var topNavigationLinks = topNavigation.Children<IHtml>();
+                        var leftLinkItem = topNavigationLinks.FirstOrDefault(i => i.Name.Equals("Left"));
+                        var rightLinkItem = topNavigationLinks.FirstOrDefault(i => i.Name.Equals("Right"));
+        
+                        <div class="top-header-links cf">
+                        @if(leftLinkItem !=null)
+                        {
+                                <div class="left reltive">
+                                    @foreach (var link in  leftLinkItem.Children<IHtml>() ?? Enumerable.Empty<IHtml>())
+                                    {
+                                        @html.Raw(link.ContentsValue);
+                                    }
+                                </div>
+                        }
+        
+                        @if(rightLinkItem !=null)
+                        {
+                                <div class="right mobile-grey">
+                                    <ul class="top-links">
+                                        @foreach (var link in  rightLinkItem.Children<IHtml>() ?? Enumerable.Empty<IHtml>())
+                                        {
+                                            <li>
+                                                @html.Raw(link.ContentsValue)
+                                            </li>
+                                        }
+                                    </ul>
+                                 
+                                </div>
+                         }
+                        </div>
+                    }
+        
+                    @if (desktopLogo != null || mobileLogo != null)
+                    {
+                        <div class="left logo">
+                            <a href="/" title="The AA | Home">
+                                <span class="svg-desktop">@html.Raw(desktopLogo.ContentsValue)</span>
+                                <span class="svg-mobile">@html.Raw(mobileLogo.ContentsValue)</span>
+                            </a>
+                        </div>
+                    }
+                    <button class="mobile-tablet-menu" aria-label="Navigation Menu" aria-expanded="false" style="background:none; border: none;"><span class="menu">Menu</span> </button>
+        
+                    <div class="main-nav cf">
+                        <div class="cf nav-logo">
+                            @if (mobileLogo != null)
+                            {
+                                <div class="left menu-logo">
+                                    <a href="/" title="The AA | Home">
+                                        @html.Raw(mobileLogo.ContentsValue)
+                                    </a>
+                                </div>
+                            }
+                            <button class="mobile-tablet-menu-open" aria-expanded="false" style="background:none; border: none;padding-right:32px;"><span class="close">Close</span></button>
+                        </div>
+        
+                        <div id="mainNavigation" class="right desktop-white">
+                                <ul class="aa-main-nav"  role="menubar" >
+                                    @foreach (var primaryItem in primaryNavigation.Children<IHtml>() ?? Enumerable.Empty<IHtml>())
+                                    {
+                                        var primaryClass = primaryItem.HasChildren ? "childrens" : "";
+                                        bool isAccountMenu = primaryItem.Name.Contains("Account");
+                                        var megaNavAccountClass = isAccountMenu ? "my-account" : string.Empty;
+                                        megaNavAccountClass = isUserLoggedIn ? megaNavAccountClass + " logged-in" : megaNavAccountClass;
+        
+                                        <li class="primary @primaryClass" role="menuitem" aria-haspopup="true">
+                                            @if (isAccountMenu && isUserLoggedIn)
+                                            {
+                                               <button class="anchor">
+        
+        <span class="padlock">
+        
+        <svg width="16" height="21" viewBox="0 0 16 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M14 6.5H13V5.5C13 2.73858 10.7614 0.5 8 0.5C5.23858 0.5 3 2.73858 3 5.5V6.5H2C0.89543 6.5 0 7.39543 0 8.5V18.5C0 19.6046 0.89543 20.5 2 20.5H14C15.1046 20.5 16 19.6046 16 18.5V8.5C16 7.39543 15.1046 6.5 14 6.5ZM5 5.5C5 3.84315 6.34315 2.5 8 2.5C9.65685 2.5 11 3.84315 11 5.5V6.5H5V5.5ZM14 18.5H2V8.5H14V18.5ZM8 15.5C9.10457 15.5 10 14.6046 10 13.5C10 12.3954 9.10457 11.5 8 11.5C6.89543 11.5 6 12.3954 6 13.5C6 14.6046 6.89543 15.5 8 15.5Z" fill="white"/>
+        </svg>
+        </span> Account<hr></button>
+                                            }
+                                            else
+                                            {
+                                                @html.Raw(primaryItem.ContentsValue)
+                                            }
+                                            <nav id="aa-mega-menu" class="@megaNavAccountClass">
+                                                @if (isAccountMenu && isUserLoggedIn)
+                                                {
+                                                    <div class="login-title">@html.Raw(primaryNavigation.ContentsValue)</div>
+                                                }
+                                                <div class="column cf">
+                                                        @foreach (var columnItem in primaryItem.Children<IHtml>() ?? Enumerable.Empty<IHtml>())
+                                                        {
+                                                            <ul class="col">
+                                                                    @foreach (var link in columnItem.Children<IHtml>() ?? Enumerable.Empty<IHtml>())
+                                                                    {
+                                                                        ///Link with name prefix Logged in - are only displayed when user is in logged in state
+                                                                        ///other links with name prefix Logged out - are displayed when user is not authenticated or loggeed out
+        
+                                                                        ///Skip Logged in - links from rendering if user is NOT logged in state
+                                                                        if (!isUserLoggedIn && link.Name.StartsWith("Logged in"))
+                                                                        { continue; }
+                                                                        
+                                                                         ///Skip Logged out - links from rendering if user is in the logged in state
+                                                                        if (isUserLoggedIn && link.Name.StartsWith("Logged out"))
+                                                                        { continue; }
+        
+                                                                        if(isUserLoggedIn && link.ContentsValue.Contains("logout"))
+                                                                        {
+                                                                           ///Render log out link dynamically. Extract href and anchor text set in CMS
+                                                                           ///logout anchor href in CMS has placeholders which needs to be dynamically replaced
+                                                                           var match =  Regex.Match(link.ContentsValue, "<a[^>]*? href=\"(?<url>[^\"]+)\"[^>]*?>(?<text>.*?)</a>");
+                                                                           string href = match.Groups["url"].Value;
+                                                                           string innerText = match.Groups["text"].Value;
+                                                                           
+                                                                           href= string.Format(href,sitecoreSettings.MyAAIdpEntityId
+                                                                           ,sessionUtility.GetValueFromSession<string>(SingleSignOnConstants.SamlSubjectNameId)
+                                                                           ,sessionUtility.GetValueFromSession<string>(SingleSignOnConstants.SamlSessionIndex)
+                                                                           ,"urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+                                                                           ,ssoUrlUtility.GetDefaultRelayStateUrl());
+        
+                                                                           <li><a href="@href" class="logout">@innerText</a></li>
+                                                                        }
+                                                                        else
+                                                                        {
+                                                                           var login_url=String.Format(link.ContentsValue,linkurl.ToString());
+        																	if(link.Name.StartsWith("Logged out")){
+        																		<li>@html.Raw(login_url)</li>
+        																	}	
+        																	else{				
+        																		<li>@html.Raw(link.ContentsValue)</li>
+        																	} 
+                                                                        }
+                                                                        
+                                                                    }
+                                                            </ul>
+                                                        }
+                                                </div>
+                                            </nav>
+                                        </li>
+                                    }
+                                </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        
+            <div id="mainContent"></div>
+        }
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241001T014655Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240919T041734Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4b6d0922-18c4-4b0a-b263-56b9da1e6b6d"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Foundation.Rendering;
+        @using System.Text;
+        @using System.Text.RegularExpressions;
+        @using System.Web;
+        @using System.Web.Mvc;
+        @using Fortis.Model;
+        @using TheAA.SitecoreRepositories.Constants;
+        @using TheAA.Domain.Interfaces.Repositories;
+        @using TheAA.Domain.TheAATemplates.Data;
+        @using TheAA.Domain.DataTransferObjects;
+        @using TheAA.Domain.TheAATemplates.Modules;
+        @using TheAA.Application.Constants;
+        @using TheAA.Domain.Constants;
+        @using TheAA.Domain.Interfaces.Utilities;
+        @using TheAA.Application.ViewModels;
+        
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        
+        @{
+            var html = Model.Html;
+            var resolver = DependencyResolver.Current;
+            var itemFactory = resolver.GetService<IItemFactory>();
+            var model = itemFactory.GetRenderingContextItems<IPresentationBase, IHtml>();
+            var authenticationService = resolver.GetService<ISitecoreAuthenticationService>();
+            var sitecoreSettings = resolver.GetService<SitecoreSettings>();
+            var sessionUtility = resolver.GetService<ISessionUtility>();
+            var ssoUrlUtility = resolver.GetService<ISingleSignOnUrlUtility>();
+            var defaultModel = itemFactory.Select<IHtml>("/sitecore/content/TheAA/Global/Navigation/Header/Menu-Yellow-Optimised");
+            var navRootItems = model.RenderingItem != null ? model.RenderingItem.Children<IHtml>() : defaultModel.Children<IHtml>();
+            var linkurl = @System.Configuration.ConfigurationManager.AppSettings["TheAA.AccountLoginUrl"];
+        }
+        
+        @if (navRootItems != null)
+        {
+        
+            IHtml desktopLogo = null, mobileLogo = null;
+            string backgroundColor = string.Empty;
+            MvcHtmlString style = MvcHtmlString.Empty;
+            var css = navRootItems.FirstOrDefault(i => i.Name.Equals("Css"));
+            var js = navRootItems.FirstOrDefault(i => i.Name.Equals("Js"));
+            var logos = navRootItems.FirstOrDefault(i => i.Name.Equals("Logos"));
+            var topNavigation = navRootItems.FirstOrDefault(i => i.Name.Equals("Top Navigation"));
+            var primaryNavigation = navRootItems.FirstOrDefault(i => i.Name.Equals("Primary Navigation"));
+        
+            bool isUserLoggedIn = authenticationService.IsUserLoggedIn();
+            if (logos != null)
+            {
+                var childitems = logos.Children<IHtml>();
+                desktopLogo = childitems.FirstOrDefault(i => i.Name.Equals("Desktop"));
+                mobileLogo = childitems.FirstOrDefault(i => i.Name.Equals("Mobile"));
+            }
+        
+            if (css != null)
+            {
+                <style>
+                    @html.Raw(Model.MinimiseCss(Utility.RenderHtmlContent(css).ToString()))
+                </style>
+            }
+        
+            if (js != null)
+            {
+                <script>
+                    @html.Raw(Model.MinifyJavascript(Utility.RenderHtmlContent(js).ToString()))
+                </script>
+            }
+        
+            <header id="site-header-yellow" class="cf">
+                <div class="wrapper cf">
+                    @if (topNavigation != null)
+                    {
+                        var topNavigationLinks = topNavigation.Children<IHtml>();
+                        var leftLinkItem = topNavigationLinks.FirstOrDefault(i => i.Name.Equals("Left"));
+                        var rightLinkItem = topNavigationLinks.FirstOrDefault(i => i.Name.Equals("Right"));
+        
+                        <div class="top-header-links cf">
+                            @if (leftLinkItem != null)
+                            {
+                                <div class="left reltive">
+                                    @foreach (var link in leftLinkItem.Children<IHtml>() ?? Enumerable.Empty<IHtml>())
+                                    {
+                                        @html.Raw(link.ContentsValue);
+                                    }
+                                </div>
+                            }
+        
+                            @if (rightLinkItem != null)
+                            {
+                                <div class="right mobile-grey">
+                                    <ul class="top-links">
+                                        @foreach (var link in rightLinkItem.Children<IHtml>() ?? Enumerable.Empty<IHtml>())
+                                        {
+                                            <li>
+                                                @html.Raw(link.ContentsValue)
+                                            </li>
+                                        }
+                                    </ul>
+        
+                                </div>
+                            }
+                        </div>
+                    }
+        
+                    @if (desktopLogo != null || mobileLogo != null)
+                    {
+                        <div class="left logo">
+                            <a href="/" title="The AA | Home">
+                                <span class="svg-desktop">@html.Raw(desktopLogo.ContentsValue)</span>
+                                <span class="svg-mobile">@html.Raw(mobileLogo.ContentsValue)</span>
+                            </a>
+                        </div>
+                    }
+                    <button class="mobile-tablet-menu" aria-label="Navigation Menu" aria-expanded="false" style="background:none; border: none;"><span class="menu">Menu</span> </button>
+        
+                    <div class="main-nav cf">
+                        <div class="cf nav-logo">
+                            @if (mobileLogo != null)
+                            {
+                                <div class="left menu-logo">
+                                    <a href="/" title="The AA | Home">
+                                        @html.Raw(mobileLogo.ContentsValue)
+                                    </a>
+                                </div>
+                            }
+                            <button class="mobile-tablet-menu-open" aria-expanded="false" style="background:none; border: none;padding-right:32px;"><span class="close">Close</span></button>
+                        </div>
+        
+                        <div id="mainNavigation" class="right desktop-white">
+                            <ul class="aa-main-nav" role="menubar">
+                                @foreach (var primaryItem in primaryNavigation.Children<IHtml>() ?? Enumerable.Empty<IHtml>())
+                                {
+                                    var primaryClass = primaryItem.HasChildren ? "childrens" : "";
+                                    bool isAccountMenu = primaryItem.Name.Contains("Account");
+                                    var megaNavAccountClass = isAccountMenu ? "my-account" : string.Empty;
+                                    megaNavAccountClass = isUserLoggedIn ? megaNavAccountClass + " logged-in" : megaNavAccountClass;
+        
+                                    <li class="primary @primaryClass" role="menuitem" aria-haspopup="true">
+                                        @if (isAccountMenu && isUserLoggedIn)
+                                        {
+                                            <button class="anchor">
+        
+                                                <span class="padlock">
+        
+                                                    <svg width="16" height="21" viewBox="0 0 16 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14 6.5H13V5.5C13 2.73858 10.7614 0.5 8 0.5C5.23858 0.5 3 2.73858 3 5.5V6.5H2C0.89543 6.5 0 7.39543 0 8.5V18.5C0 19.6046 0.89543 20.5 2 20.5H14C15.1046 20.5 16 19.6046 16 18.5V8.5C16 7.39543 15.1046 6.5 14 6.5ZM5 5.5C5 3.84315 6.34315 2.5 8 2.5C9.65685 2.5 11 3.84315 11 5.5V6.5H5V5.5ZM14 18.5H2V8.5H14V18.5ZM8 15.5C9.10457 15.5 10 14.6046 10 13.5C10 12.3954 9.10457 11.5 8 11.5C6.89543 11.5 6 12.3954 6 13.5C6 14.6046 6.89543 15.5 8 15.5Z" fill="white" />
+                                                    </svg>
+                                                </span> Account<hr>
+                                            </button>
+                                        }
+                                        else
+                                        {
+                                            @html.Raw(primaryItem.ContentsValue)
+                                        }
+                                        <nav id="aa-mega-menu" class="aa-mega-menu @megaNavAccountClass">
+                                            @if (isAccountMenu && isUserLoggedIn)
+                                            {
+                                                <div class="login-title">@html.Raw(primaryNavigation.ContentsValue)</div>
+                                            }
+                                            <div class="column cf">
+                                                @foreach (var columnItem in primaryItem.Children<IHtml>() ?? Enumerable.Empty<IHtml>())
+                                                {
+                                                    <ul class="sub-menu col">
+                                                        @foreach (var link in columnItem.Children<IHtml>() ?? Enumerable.Empty<IHtml>())
+                                                        {
+                                                            ///Link with name prefix Logged in - are only displayed when user is in logged in state
+                                                            ///other links with name prefix Logged out - are displayed when user is not authenticated or loggeed out
+        
+                                                            ///Skip Logged in - links from rendering if user is NOT logged in state
+                                                            if (!isUserLoggedIn && link.Name.StartsWith("Logged in"))
+                                                            { continue; }
+        
+                                                            ///Skip Logged out - links from rendering if user is in the logged in state
+                                                            if (isUserLoggedIn && link.Name.StartsWith("Logged out"))
+                                                            { continue; }
+        
+                                                            if (isUserLoggedIn && link.ContentsValue.Contains("logout"))
+                                                            {
+                                                                ///Render log out link dynamically. Extract href and anchor text set in CMS
+                                                                ///logout anchor href in CMS has placeholders which needs to be dynamically replaced
+                                                                var match = Regex.Match(link.ContentsValue, "<a[^>]*? href=\"(?<url>[^\"]+)\"[^>]*?>(?<text>.*?)</a>");
+                                                                string href = match.Groups["url"].Value;
+                                                                string innerText = match.Groups["text"].Value;
+        
+                                                                <li class="secondary"><a href="@href" class="logout">@innerText</a></li>
+                                                            }
+                                                            else
+                                                            {
+                                                                var login_url = String.Format(link.ContentsValue, linkurl.ToString());
+                                                                if (link.Name.StartsWith("Logged out"))
+                                                                {
+                                                                    <li class="secondary">@html.Raw(login_url)</li>
+                                                                }
+                                                                else
+                                                                {
+                                                                    <li class="secondary">@html.Raw(link.ContentsValue)</li>
+                                                                }
+                                                            }
+        
+                                                        }
+                                                    </ul>
+                                                }
+                                            </div>
+                                        </nav>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        
+            <div id="mainContent"></div>
+        }
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240919T041734Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241001T014655Z

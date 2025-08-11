@@ -1,0 +1,1618 @@
+﻿---
+ID: "1f14c99e-de1c-4779-9718-3a5fc1d11035"
+Parent: "0e6ab559-138a-4ffd-86cb-222af1157b91"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: "/sitecore/layout/Renderings/Feature/AA/Product Builder/Breakdown Prod Compar - Plus"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Software/32x32/element_add.png
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/TheAA/Modules/BreakdownProductComparison
+- ID: "3ad2506a-dc39-4b1e-959f-9d524addbf50"
+  Hint: VaryByParm
+  Value: 
+- ID: "3d08db46-2267-41b0-bc52-be69fd618633"
+  Hint: Cacheable
+  Value: 
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+- ID: "56776edf-261c-4abc-9fe7-70c618795239"
+  Hint: __Help link
+  Value: |
+    <link linktype="external" url="https://theaacom.atlassian.net/wiki/x/AQDwMgE" />
+- ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
+  Hint: Parameters Template
+  Value: "{CCEA62EF-1EE6-4F5E-A773-AC14DA3DC2CD}"
+- ID: "8b6d532b-6128-4486-a044-ca06d90948ba"
+  Hint: VaryByData
+  Value: 
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "query:/sitecore/content/TheAA/Modules/Breakdown Product Comparison"
+Languages:
+- Language: en
+  Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: Displays the comparison table for different products
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: Displays the comparison table for different products
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Breakdown Product Comparison - Plus"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241003T054442Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8dbeccee-102e-4775-833a-75f1455272a1"
+    - ID: "9e6a6532-99aa-4a0e-aba3-e7259e5429ba"
+      Hint: StyleSheets
+      Value: |
+        section.best-comparison-table .best-bundle-top-head {
+            text-align: center;
+        }
+        
+        section.best-comparison-table .best-bundle-top-head h2 {
+        	margin-bottom: var(--space-large);
+        }
+        section.best-comparison-table p.best-bundle-price-prefix {
+            margin-bottom: var(--space-medium);
+        }
+        section.best-comparison-table .best-bundle-table:has(div.best-bundle-most-popular){
+        	margin-top: 48px;
+        }
+        section.best-comparison-table .best-bundle-table:not(:has(.best-bundle-item.best-bundle-most-popular)) {
+            margin-top: 24px;
+        }
+        section.best-comparison-table .best-bundle-table {
+            display: flex;
+            width: 100%;
+            margin: 0 auto 24px auto;
+            border: 1px solid var(--color-mono-light);
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            background-color: var(--color-white);
+            z-index: -1;
+        }
+        
+        section.best-comparison-table .best-bundle-item {
+            display: block;
+            position: relative;
+            width: 33.3333%;
+            z-index: 0;
+        	padding: var(--space-xx-large) var(--space-large);
+        }
+        
+        section.best-comparison-table .best-bundle-item.best-bundle-most-popular {
+        	border: 2px solid var(--color-aqua);
+            border-radius: 0 0 4px 4px;
+            background-color: var(--color-white);
+            z-index: 1;
+        }
+        
+        section.best-comparison-table .best-bundle-item.best-bundle-most-popular:before {
+        	content: "POPULAR";
+            position: absolute;
+            top: -24px;
+            width: 100%;
+            text-align: center;
+            background: var(--color-aqua);
+            line-height: 20px;
+            color: var(--color-white);
+            border: 2px solid var(--color-aqua);
+            left: -2px;
+            border-radius: 4px 4px 0 0;
+            font-size: var(--h6-font-size);
+            font-family: var(--font-family-transport-bold);
+        }
+        
+        section.best-comparison-table .best-bundle-price {
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            padding-bottom: var(--space-x-large);
+        	gap: var(--space-medium);
+        }
+        /*dot-animation or loading indiactor during price loading through dynamic API*/
+        section.best-comparison-table .show-loader div.dot-typing, section.best-comparison-table .dynamiContentHolder{
+            display: block;
+        }
+        section.best-comparison-table .show-loader .dynamiContentHolder, section.best-comparison-table div.dot-typing{
+            display: none;
+        }
+        section.best-comparison-table .stage {
+            position: relative;
+            z-index: 9999;
+        }
+        
+        section.best-comparison-table .dot-typing {
+            position: relative;
+            left: -9980px;
+            width: 12px;
+            height: 12px;
+            border-radius: 6px;
+            background-color: black;
+            color: black;
+            box-shadow: 9984px 0 0 0 black, 9999px 0 0 0 black, 10014px 0 0 0 black;
+            animation: dotTyping 1.2s infinite linear;
+        }
+        
+        @keyframes dotTyping {
+            0% {
+                box-shadow: 9984px 0 0 0 black, 9999px 0 0 0 black, 10014px 0 0 0 black;
+            }
+        
+            16.667% {
+                box-shadow: 9984px -10px 0 0 black, 9999px 0 0 0 black, 10014px 0 0 0 black;
+            }
+        
+            33.333% {
+                box-shadow: 9984px 0 0 0 black, 9999px 0 0 0 black, 10014px 0 0 0 black;
+            }
+        
+            50% {
+                box-shadow: 9984px 0 0 0 black, 9999px -10px 0 0 black, 10014px 0 0 0 black;
+            }
+        
+            66.667% {
+                box-shadow: 9984px 0 0 0 black, 9999px 0 0 0 black, 10014px 0 0 0 black;
+            }
+        
+            83.333% {
+                box-shadow: 9984px 0 0 0 black, 9999px 0 0 0 black, 10014px -10px 0 0 black;
+            }
+        
+            100% {
+                box-shadow: 9984px 0 0 0 black, 9999px 0 0 0 black, 10014px 0 0 0 black;
+            }
+        }
+        section.best-comparison-table .best-bundle-content {
+            background-color: var(--color-mono-lightest);
+            min-height: 280px;
+            padding: var(--space-large) var(--space-medium);
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        
+        section.best-comparison-table .best-bundle-footer {
+            margin-top: var(--space-x-large);
+        }
+        section.best-comparison-table .best-bundle-content-item-head {
+            cursor: pointer;
+        }
+        
+        section.best-comparison-table .best-bundle-content-item-head-title {
+            font-family: var(--font-family-transport-bold);
+            position: relative;
+            height: 24px;
+            display: block;
+            padding-left: 32px;
+        }
+        
+        section.best-comparison-table .best-bundle-content-item-head-title:before {
+        	content: "";
+            background: url(/Assets/images/icons/circle-tick.svg) no-repeat 0 0 transparent;
+            height: 24px;
+            width: 24px;
+            left: 0;
+            position: absolute;
+        }
+        
+        section.best-comparison-table .best-bundle-content-item-head-title:after {
+        	content: "";
+            height: 24px;
+            top: 0px;
+            width: 24px;
+            right: 0;
+            position: absolute;
+            mask: url(/Assets/images/icons/white-down-arrow.svg) no-repeat center;
+            background-color: var(--color-aqua);
+            -webkit-mask: url(/Assets/images/icons/white-down-arrow.svg) no-repeat center;
+        }
+        section.best-comparison-table .best-bundle-content-item:not(.best-bundle-closed) .best-bundle-content-item-head-title:after {
+            transform: rotate(180deg);
+        }
+        section.best-comparison-table .best-bundle-table .best-bundle-price-value {
+        	font-size: 48px;
+            line-height: 36px;
+            letter-spacing: 0.0025em;
+            color: var(--color-mono-darkest);
+            font-family: var(--font-family-transport-bold);
+        }
+        
+        section.best-comparison-table .best-bundle-content-item-description {
+            padding: 0px 0 8px 32px;
+            position: relative;
+            margin-top: 8px;
+        }
+        section.best-comparison-table .best-bundle-footer-block {
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            padding: 0 32px;
+            text-align: center;
+        	font-size: var(--font-size-normal);
+            line-height: var(--line-height-normal);
+        }
+        section.best-comparison-table p.sale-label {
+            margin: auto 0 0 0;
+        }
+        section.best-comparison-table div.best-bundle-strike-price {
+            flex: 1;
+            -webkit-flex: 1;
+            width: 100%;
+            align-self: flex-end;
+        }
+        section.best-comparison-table div.best-bundle-strike-price > p {
+            line-height: var(--h4-line-height);
+            font-size: var(--h2-small-font-size);
+            letter-spacing: -0.5px;
+            text-decoration-line: line-through;
+            color: var(--color-mono-dark);
+        }
+        section.best-comparison-table .best-bundle-closed .best-bundle-content-item-description{
+        	display: none;
+        }
+        @media screen and (max-width: 737px) {
+            section.best-comparison-table{
+                display: none !important;
+            }
+        }
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using Sitecore.Mvc.Presentation
+        @using TheAA.Foundation.Rendering
+        @using TheAA.Application.ViewModels
+        @using TheAA.Foundation.Rendering.Query
+        
+        @inherits HtmlTemplateBase<ContentViewRenderingModel>
+        
+        @if (!string.IsNullOrEmpty(Model.Rendering.DataSource))
+        {
+            var showLoader = string.Empty;
+        
+            var encryptGuid = Model.Rendering.Item.ID.Guid.ToString();
+            <div id="guid-container" data-guid=@encryptGuid></div>
+        
+            <section class="cf best-comparison-table @Model.GetTopAndBottomPaddings()">
+                <div class="container best-comparison-table-inner">
+                    <div class="best-bundle-top-head">
+                        <h2>@Model.GetField("Title").RenderValue()</h2>
+                        <p>@Model.GetField("Subtitle").RenderValue()</p>
+                    </div>
+                    <div class="best-bundle-table">
+        
+                        @{
+                            int i = 0;
+        
+                            foreach (var productItem in Model.GetField("Products").SelectedItems())
+                            {
+                                bool popularRecommended = productItem.GetField("IsPopularRecommended").Checked;
+                                var prefix = productItem.GetField("BeforePriceText");
+                                var displayPrice = productItem.GetField("Price");
+                                var suffix = productItem.GetField("AfterPriceText");
+                                var strikePrice = productItem.GetField("StrikethroughPrice");
+                                var saleLabelText = productItem.GetField("FlashSaleSaveLabel");
+                                var primaryCtaItem = productItem.GetField("PrimaryCTA");
+        
+        
+                                if (i == 0)
+                                {
+                                    if (displayPrice.Contains("##OfferPrice##"))
+                                    {
+                                        showLoader = "show-loader";
+                                    }
+                                }
+                                <div class="best-bundle-item @(popularRecommended ? " best-bundle-most-popular" : string.Empty)" data-index="1">
+                                    <div class="best-bundle-head">
+                                        <div class="best-bundle-price @showLoader">
+                                            @if (saleLabelText.HasValueToRender())
+                                            {
+                                                <p class="sale-label offer-tag txt-white bg-mono-darkest bold small">@saleLabelText.RenderValue()</p>
+                                            }
+                                            @if (prefix.HasValueToRender())
+                                            {
+                                                <div class="best-bundle-price-prefix">
+                                                    <p class="best-bundle-price-prefix small">@prefix.RenderValue()</p>
+        
+                                                    <div class="stage">
+                                                        <div class="dot-typing"></div>
+                                                    </div>
+                                                    <div class="best-bundle-price-value dynamiContentHolder">
+                                                        <!-- Container to display the loading indicator until the dynamic API loads correctly -->
+                                                        <div id="offerPrice@(i)">£@displayPrice.RenderValue()</div>
+                                                    </div>
+                                                </div>
+                                            }
+                                            else
+                                            {
+                                                <div class="best-bundle-price-value">
+                                                    <div>£@displayPrice.RenderValue()</div>
+                                                    <div></div>
+                                                </div>
+                                            }
+                                            @if (strikePrice.HasValueToRender())
+                                            {
+                                                <div class="best-bundle-strike-price dynamiContentHolder" id="renewalPrice@(i)">
+                                                    <p>
+                                                        @strikePrice.RenderValue()
+                                                    </p>
+                                                </div>
+                                            }
+                                            @if (suffix.HasValueToRender())
+                                            {
+                                                <div class="best-bundle-price-description">
+                                                    <p class="best-bundle-price-description small">@suffix.RenderValue()</p>
+                                                </div>
+                                            }
+                                            else
+                                            {
+                                                <div class="sale-price-label">@productItem.GetField("DiscountedSalePriceText").RenderValue()</div>
+                                            }
+                                        </div>
+                                    </div>
+                                    @{
+                                        string divId = string.Empty;
+                                        string aClass = string.Empty;
+                                        int featureIndex = 0;
+                                        var positionLookup = new Dictionary<int, string>
+                                                            {
+                                                    { 0, "left" },
+                                                    { 1, "middle" },
+                                                    { 2, "right" }
+                                                };
+        
+                                        string position = string.Empty;
+                                        positionLookup.TryGetValue(i, out position);
+        
+                                        if (!string.IsNullOrEmpty(position))
+                                        {
+                                            divId = position + "BundleCTAtrack";
+                                            aClass = position + "BundleTrack";
+                                        }
+                                    }
+        
+                                    <div class="best-bundle-content">
+                                        @foreach (var features in productItem.GetField("Feature").SelectedItems())
+                                        {
+                                            featureIndex++;
+                                            <div class="best-bundle-content-item best-bundle-closed @aClass@featureIndex">
+                                                <div class="best-bundle-content-item-head">
+                                                    <div class="best-bundle-content-item-head-title"><p class="small">@features.GetField("ProductFeatureName").RenderValue()</p></div>
+                                                </div>
+                                                <div class="best-bundle-content-item-description">
+                                                    <div class="best-bundle-content-item-description-container">
+                                                        <p class="small">
+                                                            @features.GetField("ProductFeatureDescription").RenderValue()
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        }
+                                    </div>
+                                    <div class="best-bundle-footer">
+                                        <div class="best-bundle-footer-cta cta-group cta-group-center" id="@divId">
+                                            <a href="@primaryCtaItem.LinkUrl" class="button yellow-button primary ra @aClass">@primaryCtaItem.LinkText</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                i++;
+                            }
+                        }
+                    </div>
+                    <div class="best-bundle-table-footer">
+                        <div class="best-bundle-footer-block">
+                            @Model.GetField("FooterText").RenderValue()
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <script src="/Assets/scripts/road-promotion-get-price-v1.1-min.js"></script>
+        }
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250703T014958Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241216T061233Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d720cb99-cbf0-48aa-8bdc-2a412a39cf90"
+    - ID: "9e6a6532-99aa-4a0e-aba3-e7259e5429ba"
+      Hint: StyleSheets
+      Value: |
+        section.best-comparison-table .best-bundle-top-head {
+            text-align: center;
+        }
+        section.best-comparison-table .best-bundle-top-head h2 {
+        	margin-bottom: var(--space-large);
+        }
+        section.best-comparison-table p.best-bundle-price-prefix {
+            margin-bottom: var(--space-medium);
+        }
+        section.best-comparison-table .best-bundle-table:has(div.best-bundle-most-popular){
+        	margin-top: 48px;
+        }
+        section.best-comparison-table .best-bundle-table:not(:has(.best-bundle-item.best-bundle-most-popular)) {
+            margin-top: 24px;
+        }
+        section.best-comparison-table .best-bundle-table {
+            display: flex;
+            width: 100%;
+            margin: 0 auto 24px auto;
+            border: 1px solid var(--color-mono-light);
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            background-color: var(--color-white);
+            z-index: -1;
+        }
+        section.best-comparison-table .best-bundle-item {
+            display: block;
+            position: relative;
+            width: 33.3333%;
+            z-index: 0;
+        	padding: var(--space-xx-large) var(--space-large);
+        }
+        section.best-comparison-table .best-bundle-item.best-bundle-most-popular {
+        	border: 2px solid var(--color-aqua);
+            border-radius: 0 0 4px 4px;
+            background-color: var(--color-white);
+            z-index: 1;
+        }
+        section.best-comparison-table .best-bundle-item.best-bundle-most-popular:before {
+        	content: "POPULAR";
+            position: absolute;
+            top: -24px;
+            width: 100%;
+            text-align: center;
+            background: var(--color-aqua);
+            line-height: 20px;
+            color: var(--color-white);
+            border: 2px solid var(--color-aqua);
+            left: -2px;
+            border-radius: 4px 4px 0 0;
+            font-size: var(--h6-font-size);
+            font-family: var(--font-family-transport-bold);
+        }
+        
+        section.best-comparison-table .best-bundle-price {
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            padding-bottom: var(--space-x-large);
+        	gap: var(--space-medium);
+        }
+        /*dot-animation or loading indiactor during price loading through dynamic API*/
+        section.best-comparison-table .show-loader div.dot-typing, section.best-comparison-table .dynamiContentHolder{
+            display: block;
+        }
+        section.best-comparison-table .show-loader .dynamiContentHolder, section.best-comparison-table div.dot-typing{
+            display: none;
+        }
+        section.best-comparison-table .stage {
+            position: relative;
+            z-index: 9999;
+        }
+        
+        section.best-comparison-table .dot-typing {
+            position: relative;
+            left: -9980px;
+            width: 12px;
+            height: 12px;
+            border-radius: 6px;
+            background-color: black;
+            color: black;
+            box-shadow: 9984px 0 0 0 black, 9999px 0 0 0 black, 10014px 0 0 0 black;
+            animation: dotTyping 1.2s infinite linear;
+        }
+        
+        @keyframes dotTyping {
+            0% {
+                box-shadow: 9984px 0 0 0 black, 9999px 0 0 0 black, 10014px 0 0 0 black;
+            }
+        
+            16.667% {
+                box-shadow: 9984px -10px 0 0 black, 9999px 0 0 0 black, 10014px 0 0 0 black;
+            }
+        
+            33.333% {
+                box-shadow: 9984px 0 0 0 black, 9999px 0 0 0 black, 10014px 0 0 0 black;
+            }
+        
+            50% {
+                box-shadow: 9984px 0 0 0 black, 9999px -10px 0 0 black, 10014px 0 0 0 black;
+            }
+        
+            66.667% {
+                box-shadow: 9984px 0 0 0 black, 9999px 0 0 0 black, 10014px 0 0 0 black;
+            }
+        
+            83.333% {
+                box-shadow: 9984px 0 0 0 black, 9999px 0 0 0 black, 10014px -10px 0 0 black;
+            }
+        
+            100% {
+                box-shadow: 9984px 0 0 0 black, 9999px 0 0 0 black, 10014px 0 0 0 black;
+            }
+        }
+        section.best-comparison-table .best-bundle-content {
+            background-color: var(--color-mono-lightest);
+            min-height: 280px;
+            padding: var(--space-large) var(--space-medium);
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        section.best-comparison-table ul.best-bundle-content{
+            list-style: none;
+        }
+        section.best-comparison-table .best-bundle-footer {
+            margin-top: var(--space-x-large);
+        }
+        section.best-comparison-table .best-bundle-content-item-head-title {
+            font-family: var(--font-family-transport-bold);
+            position: relative;
+            height: 24px;
+            display: block;
+            padding-left: 32px;
+            cursor: pointer;
+        }
+        
+        section.best-comparison-table .best-bundle-content-item-head-title:before {
+        	content: "";
+            background: url(/Assets/images/icons/circle-tick.svg) no-repeat 0 0 transparent;
+            height: 24px;
+            width: 24px;
+            left: 0;
+            position: absolute;
+        }
+        
+        section.best-comparison-table .best-bundle-content-item-head-title:after {
+        	content: "";
+            height: 24px;
+            top: 0px;
+            width: 24px;
+            right: 0;
+            position: absolute;
+            mask: url(/Assets/images/icons/white-down-arrow.svg) no-repeat center;
+            background-color: var(--color-aqua);
+            -webkit-mask: url(/Assets/images/icons/white-down-arrow.svg) no-repeat center;
+        }
+        section.best-comparison-table .best-bundle-content-item-head-title:focus {
+            outline: none;
+            border-radius: 4px;
+            box-shadow: 0 0 0 2px var(--color-white), 0 0 0 5px var(--color-blue-focus);
+        }
+        section.best-comparison-table .best-bundle-content-item:not(.best-bundle-closed) .best-bundle-content-item-head-title:after {
+            transform: rotate(180deg);
+        }
+        section.best-comparison-table .best-bundle-table .best-bundle-price-value {
+        	font-size: 48px;
+            line-height: 36px;
+            letter-spacing: 0.0025em;
+            color: var(--color-mono-darkest);
+            font-family: var(--font-family-transport-bold);
+        }
+        
+        section.best-comparison-table .best-bundle-content-item-description {
+            padding: 0px 0 8px 32px;
+            position: relative;
+            margin-top: 8px;
+        }
+        section.best-comparison-table .best-bundle-footer-block {
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            padding: 0 32px;
+            text-align: center;
+        	font-size: var(--font-size-normal);
+            line-height: var(--line-height-normal);
+        }
+        section.best-comparison-table p.sale-label {
+            margin: auto 0 0 0;
+        }
+        section.best-comparison-table div.best-bundle-strike-price {
+            flex: 1;
+            -webkit-flex: 1;
+            width: 100%;
+            align-self: flex-end;
+        }
+        section.best-comparison-table div.best-bundle-strike-price > p {
+            line-height: var(--h4-line-height);
+            font-size: var(--h2-small-font-size);
+            letter-spacing: -0.5px;
+            text-decoration-line: line-through;
+            color: var(--color-mono-dark);
+        }
+        section.best-comparison-table .best-bundle-closed .best-bundle-content-item-description{
+        	display: none;
+        }
+        @media screen and (max-width: 737px) {
+            section.best-comparison-table{
+                display: none !important;
+            }
+        }
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using Sitecore.Mvc.Presentation
+        @using TheAA.Foundation.Rendering
+        @using TheAA.Application.ViewModels
+        @using TheAA.Foundation.Rendering.Query
+        
+        @inherits HtmlTemplateBase<ContentViewRenderingModel>
+        
+        @if (!string.IsNullOrEmpty(Model.Rendering.DataSource))
+        {
+            var showLoader = string.Empty;
+        
+            var encryptGuid = Model.Rendering.Item.ID.Guid.ToString();
+            <div id="guid-container" data-guid=@encryptGuid></div>
+        
+            <section class="cf best-comparison-table @Model.GetTopAndBottomPaddings()">
+                <div class="container best-comparison-table-inner">
+                    <div class="best-bundle-top-head">
+                        <h2>@Model.GetField("Title").RenderValue()</h2>
+                        <p>@Model.GetField("Subtitle").RenderValue()</p>
+                    </div>
+                    <div class="best-bundle-table">
+        
+                        @{
+                            int i = 0;
+        
+                            foreach (var productItem in Model.GetField("Products").SelectedItems())
+                            {
+                                bool popularRecommended = productItem.GetField("IsPopularRecommended").Checked;
+                                var prefix = productItem.GetField("BeforePriceText");
+                                var displayPrice = productItem.GetField("Price");
+                                var suffix = productItem.GetField("AfterPriceText");
+                                var strikePrice = productItem.GetField("StrikethroughPrice");
+                                var saleLabelText = productItem.GetField("FlashSaleSaveLabel");
+                                var primaryCtaItem = productItem.GetField("PrimaryCTA");
+        
+        
+                                if (i == 0)
+                                {
+                                    if (displayPrice.Contains("##OfferPrice##"))
+                                    {
+                                        showLoader = "show-loader";
+                                    }
+                                }
+                                <div class="best-bundle-item @(popularRecommended ? " best-bundle-most-popular" : string.Empty)" data-index="1">
+                                    <div class="best-bundle-head">
+                                        <div class="best-bundle-price @showLoader">
+                                            @if (saleLabelText.HasValueToRender())
+                                            {
+                                                <p class="sale-label offer-tag txt-white bg-mono-darkest bold small">@saleLabelText.RenderValue()</p>
+                                            }
+                                            @if (prefix.HasValueToRender())
+                                            {
+                                                <div class="best-bundle-price-prefix">
+                                                    <p class="best-bundle-price-prefix small">@prefix.RenderValue()</p>
+        
+                                                    <div class="stage">
+                                                        <div class="dot-typing"></div>
+                                                    </div>
+                                                    <div class="best-bundle-price-value dynamiContentHolder">
+                                                        <!-- Container to display the loading indicator until the dynamic API loads correctly -->
+                                                        <div id="offerPrice@(i)">£@displayPrice.RenderValue()</div>
+                                                    </div>
+                                                </div>
+                                            }
+                                            else
+                                            {
+                                                <div class="best-bundle-price-value">
+                                                    <div>£@displayPrice.RenderValue()</div>
+                                                    <div></div>
+                                                </div>
+                                            }
+                                            @if (strikePrice.HasValueToRender())
+                                            {
+                                                <div class="best-bundle-strike-price dynamiContentHolder" id="renewalPrice@(i)">
+                                                    <p>
+                                                        @strikePrice.RenderValue()
+                                                    </p>
+                                                </div>
+                                            }
+                                            @if (suffix.HasValueToRender())
+                                            {
+                                                <div class="best-bundle-price-description">
+                                                    <p class="best-bundle-price-description small">@suffix.RenderValue()</p>
+                                                </div>
+                                            }
+                                            else
+                                            {
+                                                <div class="sale-price-label">@productItem.GetField("DiscountedSalePriceText").RenderValue()</div>
+                                            }
+                                        </div>
+                                    </div>
+                                    @{
+                                        string divId = string.Empty;
+                                        string aClass = string.Empty;
+                                        int featureIndex = 0;
+                                        var positionLookup = new Dictionary<int, string>
+                                                                                    {
+                                                    { 0, "left" },
+                                                    { 1, "middle" },
+                                                    { 2, "right" }
+                                                };
+        
+                                        string position = string.Empty;
+                                        positionLookup.TryGetValue(i, out position);
+        
+                                        if (!string.IsNullOrEmpty(position))
+                                        {
+                                            divId = position + "BundleCTAtrack";
+                                            aClass = position + "BundleTrack";
+                                        }
+                                    }
+        
+                                    <ul class="best-bundle-content">
+                                        @foreach (var features in productItem.GetField("Feature").SelectedItems())
+                                        {
+                                            featureIndex++;
+                                            <li class="best-bundle-content-item best-bundle-closed @aClass@featureIndex">
+                                                <div class="best-bundle-content-item-head">
+                                                    <div class="best-bundle-content-item-head-title" tabindex="0"><p class="small">@features.GetField("ProductFeatureName").RenderValue()</p></div>
+                                                </div>
+                                                <div class="best-bundle-content-item-description">
+                                                    <p class="small">
+                                                        @features.GetField("ProductFeatureDescription").RenderValue()
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        }
+                                    </ul>
+                                    <div class="best-bundle-footer">
+                                        <div class="best-bundle-footer-cta cta-group cta-group-center" id="@divId">
+                                            <a href="@primaryCtaItem.LinkUrl" class="button yellow-button primary ra @aClass">@primaryCtaItem.LinkText</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                i++;
+                            }
+                        }
+                    </div>
+                    <div class="best-bundle-table-footer">
+                        <div class="best-bundle-footer-block">
+                            @Model.GetField("FooterText").RenderValue()
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <script src="/Assets/scripts/road-promotion-get-price-v1.1-min.js"></script>
+        }
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241216T061233Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250703T014958Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250508T095117Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "11713ed5-b6e7-4955-89f8-d4909aaf18c2"
+    - ID: "9e6a6532-99aa-4a0e-aba3-e7259e5429ba"
+      Hint: StyleSheets
+      Value: |
+        section.best-comparison-table .best-bundle-top-head { 
+            text-align: center;
+        }
+        section.best-comparison-table .best-bundle-top-head h2 {
+        	margin-bottom: var(--space-large);
+        }
+        section.best-comparison-table p.best-bundle-price-prefix {
+            margin-bottom: var(--space-medium);
+        }
+        section.best-comparison-table .best-bundle-table:has(div.best-bundle-most-popular){
+        	margin-top: 48px;
+        }
+        section.best-comparison-table .best-bundle-table:not(:has(.best-bundle-item.best-bundle-most-popular)) {
+            margin-top: 24px;
+        }
+        section.best-comparison-table .best-bundle-table {
+            display: flex;
+            width: 100%;
+            margin: 0 auto 24px auto;
+            border: 1px solid var(--color-mono-light);
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            background-color: var(--color-white);
+            z-index: -1;
+        }
+        section.best-comparison-table .best-bundle-item {
+            display: block;
+            position: relative;
+            width: 33.3333%;
+            z-index: 0;
+        	padding: var(--space-xx-large) var(--space-large);
+        }
+        section.best-comparison-table .best-bundle-item.best-bundle-most-popular {
+        	border: 2px solid var(--color-aqua);
+            border-radius: 0 0 4px 4px;
+            background-color: var(--color-white);
+            z-index: 1;
+        }
+        section.best-comparison-table .best-bundle-item.best-bundle-most-popular:before {
+        	content: "POPULAR";
+            position: absolute;
+            top: -24px;
+            width: 100%;
+            text-align: center;
+            background: var(--color-aqua);
+            line-height: 20px;
+            color: var(--color-white);
+            border: 2px solid var(--color-aqua);
+            left: -2px;
+            border-radius: 4px 4px 0 0;
+            font-size: var(--h6-font-size);
+            font-family: var(--font-family-transport-bold);
+        }
+        
+        section.best-comparison-table .best-bundle-price {
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            padding-bottom: var(--space-x-large);
+        	gap: var(--space-medium);
+        }
+        /*dot-animation or loading indiactor during price loading through dynamic API*/
+        section.best-comparison-table .show-loader div.dot-typing, section.best-comparison-table .dynamiContentHolder{
+            display: block;
+        }
+        section.best-comparison-table .show-loader .dynamiContentHolder, section.best-comparison-table div.dot-typing{
+            display: none;
+        }
+        section.best-comparison-table .stage {
+            position: relative;
+            z-index: 9999;
+        }
+        
+        section.best-comparison-table .dot-typing {
+            position: relative;
+            left: -9980px;
+            width: 12px;
+            height: 12px;
+            border-radius: 6px;
+            background-color: black;
+            color: black;
+            box-shadow: 9984px 0 0 0 black, 9999px 0 0 0 black, 10014px 0 0 0 black;
+            animation: dotTyping 1.2s infinite linear;
+        }
+        
+        @keyframes dotTyping {
+            0% {
+                box-shadow: 9984px 0 0 0 black, 9999px 0 0 0 black, 10014px 0 0 0 black;
+            }
+        
+            16.667% {
+                box-shadow: 9984px -10px 0 0 black, 9999px 0 0 0 black, 10014px 0 0 0 black;
+            }
+        
+            33.333% {
+                box-shadow: 9984px 0 0 0 black, 9999px 0 0 0 black, 10014px 0 0 0 black;
+            }
+        
+            50% {
+                box-shadow: 9984px 0 0 0 black, 9999px -10px 0 0 black, 10014px 0 0 0 black;
+            }
+        
+            66.667% {
+                box-shadow: 9984px 0 0 0 black, 9999px 0 0 0 black, 10014px 0 0 0 black;
+            }
+        
+            83.333% {
+                box-shadow: 9984px 0 0 0 black, 9999px 0 0 0 black, 10014px -10px 0 0 black;
+            }
+        
+            100% {
+                box-shadow: 9984px 0 0 0 black, 9999px 0 0 0 black, 10014px 0 0 0 black;
+            }
+        }
+        section.best-comparison-table .best-bundle-content {
+            background-color: var(--color-mono-lightest);
+            min-height: 280px;
+            padding: var(--space-large) var(--space-medium);
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        section.best-comparison-table ul.best-bundle-content{
+            list-style: none;
+        }
+        section.best-comparison-table .best-bundle-footer {
+            margin-top: var(--space-x-large);
+        }
+        section.best-comparison-table .best-bundle-content-item-head-title {
+            font-family: var(--font-family-transport-bold);
+            position: relative;
+            height: 24px;
+            display: block;
+            padding-left: 32px;
+            cursor: pointer;
+        }
+        
+        section.best-comparison-table .best-bundle-content-item-head-title:before {
+        	content: "";
+            background: url(/Assets/images/icons/circle-tick.svg) no-repeat 0 0 transparent;
+            height: 24px;
+            width: 24px;
+            left: 0;
+            position: absolute;
+        }
+        
+        section.best-comparison-table .best-bundle-content-item-head-title:after {
+        	content: "";
+            height: 24px;
+            top: 0px;
+            width: 24px;
+            right: 0;
+            position: absolute;
+            mask: url(/Assets/images/icons/white-down-arrow.svg) no-repeat center;
+            background-color: var(--color-aqua);
+            -webkit-mask: url(/Assets/images/icons/white-down-arrow.svg) no-repeat center;
+        }
+        section.best-comparison-table .best-bundle-content-item-head-title:focus {
+            outline: none;
+            border-radius: 4px;
+            box-shadow: 0 0 0 2px var(--color-white), 0 0 0 5px var(--color-blue-focus);
+        }
+        section.best-comparison-table .best-bundle-content-item:not(.best-bundle-closed) .best-bundle-content-item-head-title:after {
+            transform: rotate(180deg);
+        }
+        section.best-comparison-table .best-bundle-table .best-bundle-price-value {
+        	font-size: 48px;
+            line-height: 36px;
+            letter-spacing: 0.0025em;
+            color: var(--color-mono-darkest);
+            font-family: var(--font-family-transport-bold);
+        }
+        
+        section.best-comparison-table .best-bundle-content-item-description {
+            padding: 0px 0 8px 32px;
+            position: relative;
+            margin-top: 8px;
+        }
+        section.best-comparison-table .best-bundle-footer-block {
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            padding: 0 32px;
+            text-align: center;
+        	font-size: var(--font-size-normal);
+            line-height: var(--line-height-normal);
+        }
+        section.best-comparison-table p.sale-label {
+            margin: auto 0 0 0;
+        }
+        section.best-comparison-table div.best-bundle-strike-price {
+            flex: 1;
+            -webkit-flex: 1;
+            width: 100%;
+            align-self: flex-end;
+        }
+        section.best-comparison-table div.best-bundle-strike-price > p {
+            line-height: var(--h4-line-height);
+            font-size: var(--h2-small-font-size);
+            letter-spacing: -0.5px;
+            text-decoration-line: line-through;
+            color: var(--color-mono-dark);
+        }
+        section.best-comparison-table .best-bundle-closed .best-bundle-content-item-description{
+        	display: none;
+        }
+        @media screen and (max-width: 737px) {
+            section.best-comparison-table{
+                display: none !important;
+            }
+        }
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using Sitecore.Mvc.Presentation
+        @using TheAA.Foundation.Rendering
+        @using TheAA.Application.ViewModels
+        @using TheAA.Foundation.Rendering.Query
+        
+        @inherits HtmlTemplateBase<ContentViewRenderingModel>
+        
+        @if (!string.IsNullOrEmpty(Model.Rendering.DataSource))
+        {
+            var showLoader = string.Empty;
+        
+            var encryptGuid = Model.Rendering.Item.ID.Guid.ToString();
+            <div id="guid-container" data-guid=@encryptGuid></div>
+        
+            <section class="cf best-comparison-table @Model.GetTopAndBottomPaddings()">
+                <div class="container best-comparison-table-inner">
+                    <div class="best-bundle-top-head">
+                        <h2>@Model.GetField("Title").RenderValue()</h2>
+                        <p>@Model.GetField("Subtitle").RenderValue()</p>
+                    </div>
+                    <div class="best-bundle-table">
+        
+                        @{
+                            int i = 0;
+        
+                            foreach (var productItem in Model.GetField("Products").SelectedItems())
+                            {
+                                bool popularRecommended = productItem.GetField("IsPopularRecommended").Checked;
+                                var prefix = productItem.GetField("BeforePriceText");
+                                var displayPrice = productItem.GetField("Price");
+                                var suffix = productItem.GetField("AfterPriceText");
+                                var strikePrice = productItem.GetField("StrikethroughPrice");
+                                var saleLabelText = productItem.GetField("FlashSaleSaveLabel");
+                                var primaryCtaItem = productItem.GetField("PrimaryCTA");
+        
+        
+                                if (i == 0)
+                                {
+                                    if (displayPrice.Contains("##OfferPrice##"))
+                                    {
+                                        showLoader = "show-loader";
+                                    }
+                                }
+                                <div class="best-bundle-item @(popularRecommended ? " best-bundle-most-popular" : string.Empty)" data-index="1">
+                                    <div class="best-bundle-head">
+                                        <div class="best-bundle-price @showLoader">
+                                            @if (saleLabelText.HasValueToRender())
+                                            {
+                                                <p class="sale-label offer-tag txt-white bg-mono-darkest bold small">@saleLabelText.RenderValue()</p>
+                                            }
+                                            @if (prefix.HasValueToRender())
+                                            {
+                                                <div class="best-bundle-price-prefix">
+                                                    <p class="best-bundle-price-prefix small">@prefix.RenderValue()</p>
+        
+                                                    <div class="stage">
+                                                        <div class="dot-typing"></div>
+                                                    </div>
+                                                    <div class="best-bundle-price-value dynamiContentHolder">
+                                                        <!-- Container to display the loading indicator until the dynamic API loads correctly -->
+                                                        <div id="offerPrice@(i)">£@displayPrice.RenderValue()</div>
+                                                    </div>
+                                                </div>
+                                            }
+                                            else
+                                            {
+                                                <div class="best-bundle-price-value">
+                                                    <div>£@displayPrice.RenderValue()</div>
+                                                    <div></div>
+                                                </div>
+                                            }
+                                            @if (strikePrice.HasValueToRender())
+                                            {
+                                                <div class="best-bundle-strike-price dynamiContentHolder" id="renewalPrice@(i)">
+                                                    <p>
+                                                        @strikePrice.RenderValue()
+                                                    </p>
+                                                </div>
+                                            }
+                                            @if (suffix.HasValueToRender())
+                                            {
+                                                <div class="best-bundle-price-description">
+                                                    <p class="best-bundle-price-description small">@suffix.RenderValue()</p>
+                                                </div>
+                                            }
+                                            else
+                                            {
+                                                <div class="sale-price-label">@productItem.GetField("DiscountedSalePriceText").RenderValue()</div>
+                                            }
+                                        </div>
+                                    </div>
+                                    @{
+                                        string divId = string.Empty;
+                                        string aClass = string.Empty;
+                                        int featureIndex = 0;
+                                        var positionLookup = new Dictionary<int, string>
+                                                                                                            {
+                                                    { 0, "left" },
+                                                    { 1, "middle" },
+                                                    { 2, "right" }
+                                                };
+        
+                                        string position = string.Empty;
+                                        positionLookup.TryGetValue(i, out position);
+        
+                                        if (!string.IsNullOrEmpty(position))
+                                        {
+                                            divId = position + "BundleCTAtrack";
+                                            aClass = position + "BundleTrack";
+                                        }
+        
+                                    }
+        
+                                    <ul class="best-bundle-content">
+                                        @foreach (var features in productItem.GetField("Feature").SelectedItems())
+                                        {
+                                            featureIndex++;
+                                            <li class="best-bundle-content-item best-bundle-closed @aClass@featureIndex">
+                                                <div class="best-bundle-content-item-head">
+                                                    <div class="best-bundle-content-item-head-title" tabindex="0"><p class="small">@features.GetField("ProductFeatureName").RenderValue()</p></div>
+                                                </div>
+                                                <div class="best-bundle-content-item-description">
+                                                    <p class="small">
+                                                        @features.GetField("ProductFeatureDescription").RenderValue()
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        }
+                                    </ul>
+                                    <div class="best-bundle-footer">
+                                        <div class="best-bundle-footer-cta cta-group cta-group-center" id="@divId">
+                                            <a href="@primaryCtaItem.LinkUrl"  
+                                                @if (!string.IsNullOrEmpty(primaryCtaItem.LinkTitle)) { 
+                                                    <text>aria-label="@primaryCtaItem.LinkTitle"</text> 
+                                                } 
+                                               class="button yellow-button primary ra @aClass">@primaryCtaItem.LinkText</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                i++;
+                            }
+                        }
+                    </div>
+                    <div class="best-bundle-table-footer">
+                        <div class="best-bundle-footer-block">
+                            @Model.GetField("FooterText").RenderValue()
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <script src="/Assets/scripts/road-promotion-get-price-v1.1-min.js"></script>
+        }
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20250508T095117Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250703T014958Z
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250617T085400Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "956a9763-d9fa-4e03-8f96-48db99bc756c"
+    - ID: "9e6a6532-99aa-4a0e-aba3-e7259e5429ba"
+      Hint: StyleSheets
+      Value: |
+        section.best-comparison-table .best-bundle-top-head { 
+            text-align: center;
+        }
+        section.best-comparison-table .best-bundle-top-head h2 {
+        	margin-bottom: var(--space-large);
+        }
+        section.best-comparison-table p.best-bundle-price-prefix {
+            margin-bottom: var(--space-medium);
+        }
+        section.best-comparison-table .best-bundle-table:has(div.best-bundle-most-popular){
+        	margin-top: 48px;
+        }
+        section.best-comparison-table .best-bundle-table:not(:has(.best-bundle-item.best-bundle-most-popular)) {
+            margin-top: 24px;
+        }
+        section.best-comparison-table .best-bundle-table {
+            display: flex;
+            width: 100%;
+            margin: 0 auto 24px auto;
+            border: 1px solid var(--color-mono-light);
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            background-color: var(--color-white);
+            z-index: -1;
+        }
+        section.best-comparison-table .best-bundle-item {
+            display: block;
+            position: relative;
+            width: 33.3333%;
+            z-index: 0;
+        	padding: var(--space-xx-large) var(--space-large);
+        }
+        section.best-comparison-table .best-bundle-item.best-bundle-most-popular {
+        	border: 2px solid var(--color-aqua);
+            border-radius: 0 0 4px 4px;
+            background-color: var(--color-white);
+            z-index: 1;
+        }
+        section.best-comparison-table .best-bundle-item.best-bundle-most-popular:before {
+        	content: "POPULAR";
+            position: absolute;
+            top: -24px;
+            width: 100%;
+            text-align: center;
+            background: var(--color-aqua);
+            line-height: 20px;
+            color: var(--color-white);
+            border: 2px solid var(--color-aqua);
+            left: -2px;
+            border-radius: 4px 4px 0 0;
+            font-size: var(--h6-font-size);
+            font-family: var(--font-family-transport-bold);
+        }
+        
+        section.best-comparison-table .best-bundle-price {
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            padding-bottom: var(--space-x-large);
+        	gap: var(--space-medium);
+        }
+        /*dot-animation or loading indiactor during price loading through dynamic API*/
+        section.best-comparison-table .show-loader div.dot-typing, section.best-comparison-table .dynamiContentHolder{
+            display: block;
+        }
+        section.best-comparison-table .show-loader .dynamiContentHolder, section.best-comparison-table div.dot-typing{
+            display: none;
+        }
+        section.best-comparison-table .stage {
+            position: relative;
+            z-index: 9999;
+        }
+        
+        section.best-comparison-table .dot-typing {
+            position: relative;
+            left: -9980px;
+            width: 12px;
+            height: 12px;
+            border-radius: 6px;
+            background-color: black;
+            color: black;
+            box-shadow: 9984px 0 0 0 black, 9999px 0 0 0 black, 10014px 0 0 0 black;
+            animation: dotTyping 1.2s infinite linear;
+        }
+        
+        @keyframes dotTyping {
+            0% {
+                box-shadow: 9984px 0 0 0 black, 9999px 0 0 0 black, 10014px 0 0 0 black;
+            }
+        
+            16.667% {
+                box-shadow: 9984px -10px 0 0 black, 9999px 0 0 0 black, 10014px 0 0 0 black;
+            }
+        
+            33.333% {
+                box-shadow: 9984px 0 0 0 black, 9999px 0 0 0 black, 10014px 0 0 0 black;
+            }
+        
+            50% {
+                box-shadow: 9984px 0 0 0 black, 9999px -10px 0 0 black, 10014px 0 0 0 black;
+            }
+        
+            66.667% {
+                box-shadow: 9984px 0 0 0 black, 9999px 0 0 0 black, 10014px 0 0 0 black;
+            }
+        
+            83.333% {
+                box-shadow: 9984px 0 0 0 black, 9999px 0 0 0 black, 10014px -10px 0 0 black;
+            }
+        
+            100% {
+                box-shadow: 9984px 0 0 0 black, 9999px 0 0 0 black, 10014px 0 0 0 black;
+            }
+        }
+        section.best-comparison-table .best-bundle-content {
+            background-color: var(--color-mono-lightest);
+            min-height: 280px;
+            padding: var(--space-large) var(--space-medium);
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        section.best-comparison-table ul.best-bundle-content{
+            list-style: none;
+        }
+        section.best-comparison-table .best-bundle-footer {
+            margin-top: var(--space-x-large);
+        }
+        section.best-comparison-table .best-bundle-content-item-head-title {
+            font-family: var(--font-family-transport-bold);
+            position: relative;
+            height: 24px;
+            display: block;
+            padding-left: 32px;
+            cursor: pointer;
+        }
+        
+        section.best-comparison-table .best-bundle-content-item-head-title:before {
+        	content: "";
+            background: url(/Assets/images/icons/circle-tick.svg) no-repeat 0 0 transparent;
+            height: 24px;
+            width: 24px;
+            left: 0;
+            position: absolute;
+        }
+        
+        section.best-comparison-table .best-bundle-content-item-head-title:after {
+        	content: "";
+            height: 24px;
+            top: 0px;
+            width: 24px;
+            right: 0;
+            position: absolute;
+            mask: url(/Assets/images/icons/white-down-arrow.svg) no-repeat center;
+            background-color: var(--color-aqua);
+            -webkit-mask: url(/Assets/images/icons/white-down-arrow.svg) no-repeat center;
+        }
+        section.best-comparison-table .best-bundle-content-item-head-title:focus {
+            outline: none;
+            border-radius: 4px;
+            box-shadow: 0 0 0 2px var(--color-white), 0 0 0 5px var(--color-blue-focus);
+        }
+        section.best-comparison-table .best-bundle-content-item:not(.best-bundle-closed) .best-bundle-content-item-head-title:after {
+            transform: rotate(180deg);
+        }
+        section.best-comparison-table .best-bundle-table .best-bundle-price-value {
+        	font-size: 48px;
+            line-height: 36px;
+            letter-spacing: 0.0025em;
+            color: var(--color-mono-darkest);
+            font-family: var(--font-family-transport-bold);
+        }
+        
+        section.best-comparison-table .best-bundle-content-item-description {
+            padding: 0px 0 8px 32px;
+            position: relative;
+            margin-top: 8px;
+        }
+        section.best-comparison-table .best-bundle-footer-block {
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            padding: 0 32px;
+            text-align: center;
+        	font-size: var(--font-size-normal);
+            line-height: var(--line-height-normal);
+        }
+        section.best-comparison-table p.sale-label {
+            margin: auto 0 0 0;
+        }
+        section.best-comparison-table div.best-bundle-strike-price {
+            flex: 1;
+            -webkit-flex: 1;
+            width: 100%;
+            align-self: flex-end;
+        }
+        section.best-comparison-table div.best-bundle-strike-price > p {
+            line-height: var(--h4-line-height);
+            font-size: var(--h2-small-font-size);
+            letter-spacing: -0.5px;
+            text-decoration-line: line-through;
+            color: var(--color-mono-dark);
+        }
+        section.best-comparison-table .best-bundle-closed .best-bundle-content-item-description{
+        	display: none;
+        }
+        @media (max-width: 1024px) {
+        	section.best-comparison-table .best-bundle-table .best-bundle-price-value{
+        		font-size: 34px;
+        		line-height: 34px;
+        	}
+        }
+        @media screen and (max-width: 737px) {
+            section.best-comparison-table{
+                display: none !important;
+            }
+        }
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using Sitecore.Mvc.Presentation
+        @using TheAA.Foundation.Rendering
+        @using TheAA.Application.ViewModels
+        @using TheAA.Foundation.Rendering.Query
+        
+        @inherits HtmlTemplateBase<ContentViewRenderingModel>
+        
+        @if (!string.IsNullOrEmpty(Model.Rendering.DataSource))
+        {
+            var showLoader = string.Empty;
+        
+            var encryptGuid = Model.Rendering.Item.ID.Guid.ToString();
+            <div id="guid-container" data-guid=@encryptGuid></div>
+        
+            <section class="cf best-comparison-table @Model.GetTopAndBottomPaddings()">
+                <div class="container best-comparison-table-inner">
+                    <div class="best-bundle-top-head">
+                        <h2>@Model.GetField("Title").RenderValue()</h2>
+                        <p>@Model.GetField("Subtitle").RenderValue()</p>
+                    </div>
+                    <div class="best-bundle-table">
+        
+                        @{
+                            int i = 0;
+        
+                            foreach (var productItem in Model.GetField("Products").SelectedItems())
+                            {
+                                bool popularRecommended = productItem.GetField("IsPopularRecommended").Checked;
+                                var prefix = productItem.GetField("BeforePriceText");
+                                var displayPrice = productItem.GetField("Price");
+                                var suffix = productItem.GetField("AfterPriceText");
+                                var strikePrice = productItem.GetField("StrikethroughPrice");
+                                var saleLabelText = productItem.GetField("FlashSaleSaveLabel");
+                                var primaryCtaItem = productItem.GetField("PrimaryCTA");
+        
+        
+                                if (i == 0)
+                                {
+                                    if (displayPrice.Contains("##OfferPrice##"))
+                                    {
+                                        showLoader = "show-loader";
+                                    }
+                                }
+                                <div class="best-bundle-item @(popularRecommended ? " best-bundle-most-popular" : string.Empty)" data-index="1">
+                                    <div class="best-bundle-head">
+                                        <div class="best-bundle-price @showLoader">
+                                            @if (saleLabelText.HasValueToRender())
+                                            {
+                                                <p class="sale-label offer-tag txt-white bg-mono-darkest bold small">@saleLabelText.RenderValue()</p>
+                                            }
+                                            @if (prefix.HasValueToRender())
+                                            {
+                                                <div class="best-bundle-price-prefix">
+                                                    <p class="best-bundle-price-prefix small">@prefix.RenderValue()</p>
+        
+                                                    <div class="stage">
+                                                        <div class="dot-typing"></div>
+                                                    </div>
+                                                    <div class="best-bundle-price-value dynamiContentHolder">
+                                                        <!-- Container to display the loading indicator until the dynamic API loads correctly -->
+                                                        <div id="offerPrice@(i)">£@displayPrice.RenderValue()</div>
+                                                    </div>
+                                                </div>
+                                            }
+                                            else
+                                            {
+                                                <div class="best-bundle-price-value">
+                                                    <div>£@displayPrice.RenderValue()</div>
+                                                    <div></div>
+                                                </div>
+                                            }
+                                            @if (strikePrice.HasValueToRender())
+                                            {
+                                                <div class="best-bundle-strike-price dynamiContentHolder" id="renewalPrice@(i)">
+                                                    <p>
+                                                        @strikePrice.RenderValue()
+                                                    </p>
+                                                </div>
+                                            }
+                                            @if (suffix.HasValueToRender())
+                                            {
+                                                <div class="best-bundle-price-description">
+                                                    <p class="best-bundle-price-description small">@suffix.RenderValue()</p>
+                                                </div>
+                                            }
+                                            else
+                                            {
+                                                <div class="sale-price-label">@productItem.GetField("DiscountedSalePriceText").RenderValue()</div>
+                                            }
+                                        </div>
+                                    </div>
+                                    @{
+                                        string divId = string.Empty;
+                                        string aClass = string.Empty;
+                                        int featureIndex = 0;
+                                        var positionLookup = new Dictionary<int, string>
+                                                                                                            {
+                                                    { 0, "left" },
+                                                    { 1, "middle" },
+                                                    { 2, "right" }
+                                                };
+        
+                                        string position = string.Empty;
+                                        positionLookup.TryGetValue(i, out position);
+        
+                                        if (!string.IsNullOrEmpty(position))
+                                        {
+                                            divId = position + "BundleCTAtrack";
+                                            aClass = position + "BundleTrack";
+                                        }
+        
+                                    }
+        
+                                    <ul class="best-bundle-content">
+                                        @foreach (var features in productItem.GetField("Feature").SelectedItems())
+                                        {
+                                            featureIndex++;
+                                            <li class="best-bundle-content-item best-bundle-closed @aClass@featureIndex">
+                                                <div class="best-bundle-content-item-head">
+                                                    <div class="best-bundle-content-item-head-title" tabindex="0"><p class="small">@features.GetField("ProductFeatureName").RenderValue()</p></div>
+                                                </div>
+                                                <div class="best-bundle-content-item-description">
+                                                    <p class="small">
+                                                        @features.GetField("ProductFeatureDescription").RenderValue()
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        }
+                                    </ul>
+                                    <div class="best-bundle-footer">
+                                        <div class="best-bundle-footer-cta cta-group cta-group-center" id="@divId">
+                                            <a href="@primaryCtaItem.LinkUrl"  
+                                                @if (!string.IsNullOrEmpty(primaryCtaItem.LinkTitle)) { 
+                                                    <text>aria-label="@primaryCtaItem.LinkTitle"</text> 
+                                                } 
+                                               class="button yellow-button primary ra @aClass">@primaryCtaItem.LinkText</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                i++;
+                            }
+                        }
+                    </div>
+                    <div class="best-bundle-table-footer">
+                        <div class="best-bundle-footer-block">
+                            @Model.GetField("FooterText").RenderValue()
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <script src="/Assets/scripts/road-promotion-get-price-v1.1-min.js"></script>
+        }
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20250617T085400Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250703T014958Z

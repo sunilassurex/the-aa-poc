@@ -1,0 +1,486 @@
+﻿---
+ID: "6d6fa8fe-fac1-49d1-91b3-a6410fa39457"
+Parent: "ad31cd89-3849-4f83-8125-b9e194580de4"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: /sitecore/layout/Renderings/Feature/AA/Basic Content/HomePage Accordion
+SharedFields:
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/TheAA/Modules/AccordionSection
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+- ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
+  Hint: Parameters Template
+  Value: "{D8268568-00ED-48EF-9375-33D3BBF87F0D}"
+- ID: "a2f5d9df-8cba-4a1d-99eb-51acb94cb057"
+  Hint: Page Editor Buttons
+  Value: |
+    {31A3A929-C599-4DD3-91A6-F4A9487CC8B7}
+    {6E281DBE-EA70-4F29-9045-265CA310C8F9}
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "query:/sitecore/content/TheAA/Modules/Accordions"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240527T144121Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0de61aaf-d8df-47a3-aae7-bba550187c77"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @using Sitecore.Data.Items;
+        @using System.Collections.Generic;
+        @using TheAA.Customisations.HtmlHelpers;
+        
+        @inherits HtmlTemplateBase<ContentViewRenderingModel>
+        @if (Model.Rendering.Item.HasChildren)
+        {
+            IEnumerable<Item> accordionItemList = Model.Rendering.Item.Children.Where(x => x.TemplateName == "AccordionItem");
+            <div class="accordion cf" data-animating="true" tabindex="-1">
+        
+                @foreach (var child in accordionItemList)
+                {
+                    if (Model.GetRenderingParameterLookup("DynamicallyDownloadHiddenContentValue") == "On")
+                    {
+                        <div class="accordion-item @(Model.GetField("OpenByDefaultValue", child).Checked ? "active" : string.Empty)">
+                            @{
+                                string path = ""; /*HttpContext.Current.Request.Url.AbsolutePath + "?fullhtml=true";*/
+                                <a id="accordionTitle_@Model.GetField("ItemID", child)" href="@path">
+                                    <h5 class="accordion-header shadow-secondary" tabindex="0">
+                                        @using (Model.Html.BeginEditFrame(child.ID.Guid.ToString(), "TheAA/Accordion/AccordionPanel"))
+                                        {
+                                            @Model.GetField("AccordionTitle", child)
+                                            <span class="arrow transition slow"></span>
+                                        }
+                                    </h5>
+                                </a>
+                            }
+        
+                            <div id="accordionText_ @Model.GetField("ItemId", child)" class="accordion-content shadow-secondary @(Model.GetField("OpenByDefaultValue", child).Checked ? "open" : string.Empty)">
+                                <div class="inner cf">
+                                    @{
+                                        bool fullHtml = Convert.ToBoolean(Utility.GetQueryStringParameter("fullhtml"));
+                                        if (!fullHtml && Model.GetField("OpenByDefaultValue", child).Checked)
+                                        {
+                                            @Model.GetField("AccordionText", child)
+        
+                                            <div class="accordion-placeholder">
+                                                @Model.RenderPlaceholder("accordion-panel" + child.ID.ToGuid().ToString("B"))
+                                            </div>
+                                        }
+        
+                                        if (fullHtml && !Model.GetField("OpenByDefaultValue", child).Checked)
+                                        {
+                                            @Model.GetField("AccordionText", child)
+        
+                                            <div class="accordion-placeholder">
+                                                @Model.RenderPlaceholder("accordion-panel" + child.ID.ToGuid().ToString("B"))
+                                            </div>
+                                        }
+        
+                                        if (fullHtml && Model.GetField("OpenByDefaultValue", child).Checked)
+                                        {
+                                            @Model.GetField("AccordionText", child)
+                                            <div class="accordion-placeholder">
+                                                @Model.RenderPlaceholder("accordion-panel" + child.ID.ToGuid().ToString("B"))
+                                            </div>
+                                        }
+        
+        
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    }
+                    else
+                    {
+        
+        
+                        <div class="accordion-item @(Model.GetField("OpenByDefaultValue", child).Checked ? "active" : string.Empty)">
+                            <h5 class="accordion-header shadow-secondary" tabindex="0">
+                                @using (Model.Html.BeginEditFrame(child.ID.Guid.ToString(), "TheAA/Accordion/AccordionPanel"))
+                                {
+                                    @Model.GetField("AccordionTitle", child).RenderValue()
+                                    <span class="arrow transition slow"></span>
+                                }
+                            </h5>
+                            <div class="accordion-content shadow-secondary @(Model.GetField("OpenByDefault", child).Checked ? "open" : string.Empty)">
+                                <div class="inner cf">
+                                    @Model.GetField("AccordionText", child).RenderValue()
+                                    <div class="accordion-placeholder">
+                                        @Model.RenderPlaceholder("accordion-panel" + child.ID.ToGuid().ToString("B"))
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+        }
+        
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240527T144100Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240711T014113Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240604T062123Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d43e9c5e-29bb-4d7e-bf88-43d774cace63"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @using Sitecore.Data.Items;
+        @using System.Collections.Generic;
+        @using TheAA.Customisations.HtmlHelpers;
+        @using System.Web;
+        
+        @inherits HtmlTemplateBase<ContentViewRenderingModel>
+        @if (Model.Rendering.Item.HasChildren)
+        {
+            IEnumerable<Item> accordionItemList = Model.Rendering.Item.Children.Where(x => x.TemplateName == "AccordionItem");
+            <div class="accordion cf" data-animating="true" tabindex="-1">
+        
+                @foreach (var child in accordionItemList)
+                {
+                    if (Model.GetRenderingParameterLookup("DynamicallyDownloadHiddenContentValue") == "On")
+                    {
+                        <div class="accordion-item @(Model.GetField("OpenByDefaultValue", child).Checked ? "active" : string.Empty)">
+                            @{
+                                string path = HttpContext.Current.Request.Url.AbsolutePath + "?fullhtml=true";
+                                <a id="accordionTitle_@Model.GetField("ItemID", child)" href="@path">
+                                    <h5 class="accordion-header shadow-secondary" tabindex="0">
+                                        @using (Model.Html.BeginEditFrame(child.ID.Guid.ToString(), "TheAA/Accordion/AccordionPanel"))
+                                        {
+                                            @Model.GetField("AccordionTitle", child)
+                                            <span class="arrow transition slow"></span>
+                                        }
+                                    </h5>
+                                </a>
+                            }
+        
+                            <div id="accordionText_ @Model.GetField("ItemId", child)" class="accordion-content shadow-secondary @(Model.GetField("OpenByDefaultValue", child).Checked ? "open" : string.Empty)">
+                                <div class="inner cf">
+                                    @{
+                                        bool fullHtml = Convert.ToBoolean(Utility.GetQueryStringParameter("fullhtml"));
+                                        if (!fullHtml && Model.GetField("OpenByDefaultValue", child).Checked)
+                                        {
+                                            @Model.GetField("AccordionText", child)
+        
+                                            <div class="accordion-placeholder">
+                                                @Model.RenderPlaceholder("accordion-panel" + child.ID.ToGuid().ToString("B"))
+                                            </div>
+                                        }
+        
+                                        if (fullHtml && !Model.GetField("OpenByDefaultValue", child).Checked)
+                                        {
+                                            @Model.GetField("AccordionText", child)
+        
+                                            <div class="accordion-placeholder">
+                                                @Model.RenderPlaceholder("accordion-panel" + child.ID.ToGuid().ToString("B"))
+                                            </div>
+                                        }
+        
+                                        if (fullHtml && Model.GetField("OpenByDefaultValue", child).Checked)
+                                        {
+                                            @Model.GetField("AccordionText", child)
+                                            <div class="accordion-placeholder">
+                                                @Model.RenderPlaceholder("accordion-panel" + child.ID.ToGuid().ToString("B"))
+                                            </div>
+                                        }
+        
+        
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    }
+                    else
+                    {
+        
+        
+                        <div class="accordion-item @(Model.GetField("OpenByDefaultValue", child).Checked ? "active" : string.Empty)">
+                            <h5 class="accordion-header shadow-secondary" tabindex="0">
+                                @using (Model.Html.BeginEditFrame(child.ID.Guid.ToString(), "TheAA/Accordion/AccordionPanel"))
+                                {
+                                    @Model.GetField("AccordionTitle", child).RenderValue()
+                                    <span class="arrow transition slow"></span>
+                                }
+                            </h5>
+                            <div class="accordion-content shadow-secondary @(Model.GetField("OpenByDefault", child).Checked ? "open" : string.Empty)">
+                                <div class="inner cf">
+                                    @Model.GetField("AccordionText", child).RenderValue()
+                                    <div class="accordion-placeholder">
+                                        @Model.RenderPlaceholder("accordion-panel" + child.ID.ToGuid().ToString("B"))
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+        }
+        
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240604T062123Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240711T014113Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240604T062751Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4fbee11f-bb48-47e1-b4af-49f41a0dc7f0"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @using Sitecore.Data.Items;
+        @using System.Collections.Generic;
+        @using TheAA.Customisations.HtmlHelpers;
+        @using System.Web;
+        
+        @inherits HtmlTemplateBase<ContentViewRenderingModel>
+        @if (Model.Rendering.Item.HasChildren)
+        {
+            IEnumerable<Item> accordionItemList = Model.Rendering.Item.Children.Where(x => x.TemplateName == "AccordionItem");
+            <div class="accordion cf" data-animating="true" tabindex="-1">
+        
+                @foreach (var child in accordionItemList)
+                {
+                    if (Model.GetRenderingParameterLookup("DynamicallyDownloadHiddenContent") == "On")
+                    {
+                        <div class="accordion-item @(Model.GetField("OpenByDefault", child).Checked ? "active" : string.Empty)">
+                            @{
+                                string path = HttpContext.Current.Request.Url.AbsolutePath + "?fullhtml=true";
+                                <a id="accordionTitle_@Model.GetField("ItemID", child)" href="@path">
+                                    <h5 class="accordion-header shadow-secondary" tabindex="0">
+                                        @using (Model.Html.BeginEditFrame(child.ID.Guid.ToString(), "TheAA/Accordion/AccordionPanel"))
+                                        {
+                                            @Model.GetField("AccordionTitle", child)
+                                            <span class="arrow transition slow"></span>
+                                        }
+                                    </h5>
+                                </a>
+                            }
+        
+                            <div id="accordionText_ @Model.GetField("ItemId", child)" class="accordion-content shadow-secondary @(Model.GetField("OpenByDefault", child).Checked ? "open" : string.Empty)">
+                                <div class="inner cf">
+                                    @{
+                                        bool fullHtml = Convert.ToBoolean(Utility.GetQueryStringParameter("fullhtml"));
+                                        if (!fullHtml && Model.GetField("OpenByDefault", child).Checked)
+                                        {
+                                            @Model.GetField("AccordionText", child)
+        
+                                            <div class="accordion-placeholder">
+                                                @Model.RenderPlaceholder("accordion-panel" + child.ID.ToGuid().ToString("B"))
+                                            </div>
+                                        }
+        
+                                        if (fullHtml && !Model.GetField("OpenByDefault", child).Checked)
+                                        {
+                                            @Model.GetField("AccordionText", child)
+        
+                                            <div class="accordion-placeholder">
+                                                @Model.RenderPlaceholder("accordion-panel" + child.ID.ToGuid().ToString("B"))
+                                            </div>
+                                        }
+        
+                                        if (fullHtml && Model.GetField("OpenByDefault", child).Checked)
+                                        {
+                                            @Model.GetField("AccordionText", child)
+                                            <div class="accordion-placeholder">
+                                                @Model.RenderPlaceholder("accordion-panel" + child.ID.ToGuid().ToString("B"))
+                                            </div>
+                                        }
+        
+        
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    }
+                    else
+                    {
+        
+        
+                        <div class="accordion-item @(Model.GetField("OpenByDefault", child).Checked ? "active" : string.Empty)">
+                            <h5 class="accordion-header shadow-secondary" tabindex="0">
+                                @using (Model.Html.BeginEditFrame(child.ID.Guid.ToString(), "TheAA/Accordion/AccordionPanel"))
+                                {
+                                    @Model.GetField("AccordionTitle", child).RenderValue()
+                                    <span class="arrow transition slow"></span>
+                                }
+                            </h5>
+                            <div class="accordion-content shadow-secondary @(Model.GetField("OpenByDefault", child).Checked ? "open" : string.Empty)">
+                                <div class="inner cf">
+                                    @Model.GetField("AccordionText", child).RenderValue()
+                                    <div class="accordion-placeholder">
+                                        @Model.RenderPlaceholder("accordion-panel" + child.ID.ToGuid().ToString("B"))
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+            </div>
+        }
+        
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240604T062751Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240711T014113Z
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240604T064213Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "84b78a54-7aaf-4510-b43e-f1c697817cb6"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @using Sitecore.Data.Items;
+        @using System.Collections.Generic;
+        @using TheAA.Customisations.HtmlHelpers;
+        @using System.Web;
+        
+        @inherits HtmlTemplateBase<ContentViewRenderingModel>
+        @if (Model.Rendering.Item.HasChildren)
+        {
+            IEnumerable<Item> accordionItemList = Model.Rendering.Item.Children.Where(x => x.TemplateName == "AccordionItem");
+            <div class="accordion cf" data-animating="true" tabindex="-1">
+        
+                @foreach (var child in accordionItemList)
+                {
+                    if (Model.GetRenderingParameterLookup("DynamicallyDownloadHiddenContent") == "On")
+                    {
+                        <div class="accordion-item @(Model.GetField("OpenByDefault", child).Checked ? "active" : string.Empty)">
+                            @{
+                                string path = HttpContext.Current.Request.Url.AbsolutePath + "?fullhtml=true";
+                                <a id="accordionTitle_@Model.GetField("ItemID", child)" href="@path">
+                                    <h5 class="accordion-header shadow-secondary" tabindex="0">
+                                        @using (Model.Html.BeginEditFrame(child.ID.Guid.ToString(), "TheAA/Accordion/AccordionPanel"))
+                                        {
+                                            @Model.GetField("AccordionTitle", child)
+                                            <span class="arrow transition slow"></span>
+                                        }
+                                    </h5>
+                                </a>
+                            }
+        
+                            <div id="accordionText_ @Model.GetField("ItemId", child)" class="accordion-content shadow-secondary @(Model.GetField("OpenByDefault", child).Checked ? "open" : string.Empty)">
+                                <div class="inner cf">
+                                    @{
+                                        bool fullHtml = Convert.ToBoolean(Utility.GetQueryStringParameter("fullhtml"));
+                                        if (!fullHtml && Model.GetField("OpenByDefault", child).Checked)
+                                        {
+                                            @Model.GetField("AccordionText", child)
+        
+                                            <div class="accordion-placeholder">
+                                                @Model.RenderPlaceholder("accordion-panel" + child.ID.ToGuid().ToString("B"))
+                                            </div>
+                                        }
+        
+                                        if (fullHtml && !Model.GetField("OpenByDefault", child).Checked)
+                                        {
+                                            @Model.GetField("AccordionText", child)
+        
+                                            <div class="accordion-placeholder">
+                                                @Model.RenderPlaceholder("accordion-panel" + child.ID.ToGuid().ToString("B"))
+                                            </div>
+                                        }
+        
+                                        if (fullHtml && Model.GetField("OpenByDefault", child).Checked)
+                                        {
+                                            @Model.GetField("AccordionText", child)
+                                            <div class="accordion-placeholder">
+                                                @Model.RenderPlaceholder("accordion-panel" + child.ID.ToGuid().ToString("B"))
+                                            </div>
+                                        }
+        
+        
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    }
+                    else
+                    {
+        
+        
+                  <div class="accordion-item @(Model.GetField("OpenByDefault", child).Checked ? "active" : string.Empty)">
+            <h5 class="accordion-header shadow-secondary" tabindex="0">
+                @using (Model.Html.BeginEditFrame(child.ID.Guid.ToString(), "TheAA/Accordion/AccordionPanel"))
+                {
+                    @Model.GetField("AccordionTitle", child).RenderValue()
+                    <span class="arrow transition slow"></span>
+                }
+            </h5>
+            <div class="accordion-content shadow-secondary @(Model.GetField("OpenByDefault", child).Checked ? "open" : string.Empty)">
+                <div class="inner cf">
+                    @Model.GetField("AccordionText", child).RenderValue()
+                    <div class="accordion-placeholder">
+                        @Model.RenderPlaceholder("accordion-panel" + child.ID.ToGuid().ToString("B"))
+                    </div>
+                </div>
+            </div>
+        </div>
+                    }
+                }
+            </div>
+        }
+        
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240604T064213Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240711T014113Z
