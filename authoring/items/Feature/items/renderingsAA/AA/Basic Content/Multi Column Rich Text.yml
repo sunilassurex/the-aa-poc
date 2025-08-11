@@ -1,0 +1,191 @@
+﻿---
+ID: "08d4008b-f5c2-41b9-975c-e72ee4db7d6c"
+Parent: "ad31cd89-3849-4f83-8125-b9e194580de4"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: /sitecore/layout/Renderings/Feature/AA/Basic Content/Multi Column Rich Text
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: software/32x32/element_add.png
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/Feature/AA/Basic Content/Rich Text/Multi Column Rich Text
+- ID: "3ad2506a-dc39-4b1e-959f-9d524addbf50"
+  Hint: VaryByParm
+  Value: 
+- ID: "3d08db46-2267-41b0-bc52-be69fd618633"
+  Hint: Cacheable
+  Value: 
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+- ID: "56776edf-261c-4abc-9fe7-70c618795239"
+  Hint: __Help link
+  Value: |
+    <link text="Two Column Rich Text Component" linktype="external" url="https://theaacom.atlassian.net/wiki/spaces/SIT/pages/4987912305/Multi+Column+Rich+Text" anchor="" target="_blank" />
+- ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
+  Hint: Parameters Template
+  Value: "{CAA886C4-F1EC-4073-93AF-6561240C7A66}"
+- ID: "8b6d532b-6128-4486-a044-ca06d90948ba"
+  Hint: VaryByData
+  Value: 
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: /sitecore/content/TheAA/Modules/Multi Column Rich Text
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "9d7679d8-f83d-4e05-bd76-07fbbe5e278a"
+Languages:
+- Language: en
+  Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: This component renders Multi Column Rich Text
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: This component renders Multi Column Rich Text
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240726T075026Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c69d47bb-b5a0-4d3a-b6e9-2a01d8357e8c"
+    - ID: "9e6a6532-99aa-4a0e-aba3-e7259e5429ba"
+      Hint: StyleSheets
+      Value: |
+        .mc-headings {
+          display: flex;
+          flex-direction: column;
+          gap: var(--space-large);
+        }
+        
+        .mc-section .container {
+          display: flex;
+          flex-direction: column;
+          gap: var(--space-x-large);
+        }
+        
+        .mc-content {
+          display: flex;
+          flex-wrap: wrap;
+          gap: var(--space-x-large) var(--space-large);
+        }
+        
+        .mc-content > div:not(.cta-group) {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: var(--space-medium);
+        }
+        
+        .mc-col-1 > div {
+          flex-basis: 100%;
+        }
+        
+        .mc-col-2 > div:not(.cta-group) {
+          flex-basis: calc(50% - var(--space-large) / 2);
+        }
+        
+        .mc-col-3 > div:not(.cta-group) {
+          flex-basis: calc(33.33% - var(--space-large) * 2 / 3);
+        }
+        
+        .mc-col-4 > div:not(.cta-group) {
+          flex-basis: calc(25% - var(--space-large) * 3 / 4);
+        }
+        
+        /***************************************/
+        /********** Media Queries **************/
+        /***************************************/
+        @media (max-width: 480px) {
+          .mc-sm-col-1 > div:not(.cta-group) {
+            flex-basis: 100%;
+          }
+          .mc-sm-col-2 > div:not(.cta-group) {
+            flex-basis: calc(50% - var(--space-large) / 2);
+          }
+        }
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        
+        
+        @{
+        	var titleField = Model.GetField("Title");
+        	var subTitleField = Model.GetField("SubTitle");
+        	var bodyTextField = Model.GetField("BodyText");
+        	
+        	var sectionCls = "mc-section";
+        	var paddings = Model.GetTopAndBottomPaddings();
+        	if(!string.IsNullOrWhiteSpace(paddings))
+        	{
+        		sectionCls += string.Format(" {0}", paddings);
+        	}
+        	var bgColor = Model.GetRenderingParameterLookup("Background Color");
+        	if(!string.IsNullOrWhiteSpace(bgColor))
+        	{
+        		sectionCls += string.Format(" {0}", bgColor);
+        	}
+        	
+        	var contentCls = "mc-content";
+        	var colsDesktop = Model.GetRenderingParameter("NumberOfColumnsInDesktop");
+        	if(string.IsNullOrWhiteSpace(colsDesktop))
+        	{
+        		colsDesktop = "2";
+        	}
+        	contentCls += string.Format(" mc-col-{0}", colsDesktop);
+        	
+        	var colsMobile = Model.GetRenderingParameter("NumberOfColumnsInMobile");
+        	if(string.IsNullOrWhiteSpace(colsMobile))
+        	{
+        		colsMobile = "2";
+        	}
+        	
+        	if(!colsDesktop.Equals(colsMobile))
+        	{
+        		contentCls += string.Format(" mc-sm-col-{0}", colsMobile);
+        	}
+        }
+        
+        <section class="@sectionCls">
+          <div class="container">
+            @if(titleField.HasValueToRender() || subTitleField.HasValueToRender())
+            {
+        		<div class="mc-headings">
+        		  @if(titleField.HasValueToRender())
+        		  {
+        			<h2>@titleField.RenderValue()</h2>
+        		  }
+        		  @if(subTitleField.HasValueToRender())
+        		  {
+        			<p>@subTitleField.RenderValue()</p>
+        		  }
+        		</div>
+            }
+        	@if(bodyTextField.HasValueToRender())
+            {
+        	  <div class="@contentCls">
+        		@Model.Html.Raw(bodyTextField.RenderValue())
+        	  </div>
+        	}
+          </div>
+        </section>
+        
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250801T130913Z

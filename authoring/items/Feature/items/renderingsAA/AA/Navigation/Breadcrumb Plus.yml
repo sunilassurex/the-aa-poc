@@ -1,0 +1,206 @@
+﻿---
+ID: "069e6267-0f3b-4c27-9c49-bee08ae96f50"
+Parent: "1a3449e0-81f0-4826-a4e1-b4995c8a178e"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: /sitecore/layout/Renderings/Feature/AA/Navigation/Breadcrumb Plus
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Software/32x32/element_add.png
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+- ID: "56776edf-261c-4abc-9fe7-70c618795239"
+  Hint: __Help link
+  Value: |
+    <link text="Breadcrumb Plus" linktype="external" url="https://theaacom.atlassian.net/wiki/spaces/SIT/pages/5091721218/Breadcrumb+Plus" anchor="" target="_blank" />
+- ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
+  Hint: Parameters Template
+  Value: 
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{6072FAED-1688-4380-AA95-9902295979C5}" />
+Languages:
+- Language: en
+  Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: This component renders Breadcrumb on Page.
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: This component renders Breadcrumb on Page.
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240509T121650Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Paul.Petersen
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ce9bc4e8-3871-480c-aadf-accf60a7f18e"
+    - ID: "9e6a6532-99aa-4a0e-aba3-e7259e5429ba"
+      Hint: StyleSheets
+      Value: |
+        .bc-nav {
+          background: var(--color-mono-dark);
+          color: var(--color-white);
+        }
+        
+        .bc-nav ol {
+          list-style: none;
+          padding-top: var(--space-large);
+          padding-bottom: var(--space-large);
+          display: flex;
+          flex-wrap: wrap;
+          gap: var(--space-medium);
+        }
+        
+        .bc-home {
+          height: 24px;
+          display: flex;
+        }
+        
+        .bc-home a img {
+          height: 24px;
+          width: 24px;
+        }
+        
+        .bc-home span {
+          display: none;
+        }
+        
+        .bc-nav li:not(:last-child)::after {
+          margin-left: var(--space-medium);
+          content: "/";
+          font-size: var(--font-size-normal);
+        }
+        
+        .bc-nav a {
+          font-family: var(--font-family-transport-regular);
+          color: var(--color-white);
+          text-decoration: none;
+          border-bottom: 1px solid var(--color-white);
+        }
+        
+        .bc-nav a:focus {
+          outline: none;
+          border-bottom: 0px solid var(--color-white);
+          border-radius: 4px;
+          box-shadow: 0 0 0 2px var(--color-white), 0 0 0 5px var(--color-blue-focus);
+        }
+        
+        .bc-nav [aria-current=page],
+        .bc-home a {
+          border-bottom: 0px;
+        }
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @using Sitecore.Data.Items;
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        @{
+        
+        	var crumbItem = Model.Rendering.Item;
+                
+        	if (crumbItem == null)
+        	{
+        		<!-- item == null -->
+        		return;
+        	}
+        
+        	var breadcrumbItems = new List<Sitecore.Data.Items.Item>();
+        	while (crumbItem != null)
+        	{
+        		breadcrumbItems.Add(crumbItem);
+        		if (crumbItem.Name.ToLower() == "home")
+        		{
+        			crumbItem = null;
+        		}
+        		else
+        		{
+        			crumbItem = crumbItem.Parent;
+        		}
+        	}
+        	
+        	breadcrumbItems.Reverse();
+        	var position = 0;
+        	var isHome = false;
+        	var cssClass = "";
+        			
+        	if(breadcrumbItems.Count() <= 1)
+        	{
+        		return;
+        	}
+        	
+        	<nav aria-label="Breadcrumb" class="bc-nav">
+        		<ol class="container" vocab="https://schema.org/" property="breadcrumb" typeof="BreadcrumbList">
+        		@foreach (var crumb in breadcrumbItems)
+        		{
+        			position += 1;
+        			isHome = crumb.Name.ToLower() == "home";
+        			cssClass = isHome ? "bc-home" : string.Empty;
+        			var menuTitleField = crumb.GetField("menutitle");
+        			
+        			<li class="@cssClass" property="itemListElement" typeof="ListItem">
+        			
+        			@if(position != breadcrumbItems.Count)
+        			{			
+        				<a property="item" typeof="WebPage" href="@Model.GetItemUrl(crumb)">
+        				@if(isHome)
+        				{
+        					<img
+        					  src="/Assets/images/icons/breadcrumb.svg"
+        					  alt="The AA home page" />
+        				}
+        				@if(Model.IsExperienceEditor)
+        				{
+        					<span property="name">@menuTitleField.RenderValue()</span>
+        				}
+        				else
+        				{
+        					var menuTitle = menuTitleField.Value();
+        					if(string.IsNullOrWhiteSpace(menuTitle))
+        					{
+        						menuTitle = crumb.Name;
+        					}
+        					<span property="name">@menuTitle</span>
+        				}
+        				</a>
+        			}
+        			else
+        			{
+        				if(Model.IsExperienceEditor)
+        				{
+        					<span aria-current="page" property="name">@menuTitleField.RenderValue()</span>
+        				}
+        				else
+        				{
+        					var menuTitle = menuTitleField.Value();
+        					if(string.IsNullOrWhiteSpace(menuTitle))
+        					{
+        						menuTitle = crumb.Name;
+        					}
+        					<span aria-current="page" property="name">@menuTitle</span>
+        				}
+        			  
+        			}
+        				<meta property="position" content="@position" />
+        			</li>
+        		}
+        		</ol>
+        	</nav>
+        }
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241010T020347Z

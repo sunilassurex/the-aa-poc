@@ -1,0 +1,99 @@
+﻿---
+ID: "92fc0167-df54-4209-afba-bd21c41f172f"
+Parent: "ad31cd89-3849-4f83-8125-b9e194580de4"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: /sitecore/layout/Renderings/Feature/AA/Basic Content/Signposting
+SharedFields:
+- ID: "308e88f5-cd6e-4f8f-bafe-95a47dedefdc"
+  Hint: Editable
+  Value: 
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+- ID: "56776edf-261c-4abc-9fe7-70c618795239"
+  Hint: __Help link
+  Value: |
+    <link linktype="external" url="https://theaacom.atlassian.net/wiki/spaces/SIT/pages/4906221601/Signposting" anchor="" target="_blank" />
+- ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
+  Hint: Parameters Template
+  Value: "{4847AC17-1198-404C-B2FE-CD48D5C299E9}"
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: /sitecore/content/TheAA/Modules/Signposting
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{9D10283A-4018-49A8-A6C8-208613D4C72F}" />
+- ID: "f172b787-7b88-4bd5-ae4d-6308e102ef11"
+  Hint: Enable Datasource Query
+  Value: 
+Languages:
+- Language: en
+  Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: This component can be used to direct customers to a particular page.
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: This component can be used to direct customers to a particular page.
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240216T063421Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "91c94b07-c56c-47c7-9950-dbe8853b03cd"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        @if (Model == null)
+        {
+            return;
+        }
+        @{
+            var ctaField = Model.GetField("Cta");
+            var image = Model.GetField("Image");
+        }
+        <div class="sign-posting @Model.GetRenderingParameterLookup("BackgroundColor")">
+            <div class="content">
+                <div class="content-heading">
+                    @Model.GetField("Title").RenderValue()
+                </div>
+                <div class="content-description">
+                    @Model.GetField("Description").RenderValue()
+                </div>
+                @if (ctaField.HasValueToRender())
+                {
+                    <div class="cta">
+                        <a href="@ctaField.LinkUrl" class="@(string.IsNullOrEmpty(ctaField.LinkClass)==true? "button primary ra":@ctaField.LinkClass)" target="@ctaField.LinkTarget">
+                            <span class="cta-text">@ctaField.LinkText</span>
+                        </a>
+                    </div>
+                }
+            </div>
+            @if (image.HasValueToRender())
+            {
+                <div class="side-image">
+                    @image.RenderImage()
+                </div>
+            }
+        </div>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241001T014657Z

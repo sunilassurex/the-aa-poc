@@ -1,0 +1,288 @@
+﻿---
+ID: "40ec21b7-b152-49e1-baf2-791034bed544"
+Parent: "ad31cd89-3849-4f83-8125-b9e194580de4"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: /sitecore/layout/Renderings/Feature/AA/Basic Content/JumpLinkList
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Software/32x32/element_add.png
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+- ID: "56776edf-261c-4abc-9fe7-70c618795239"
+  Hint: __Help link
+  Value: |
+    <link text="Jump Link List" linktype="external" url="https://theaacom.atlassian.net/wiki/spaces/SIT/pages/5117837344/Jump+Link+List" anchor="" target="" />
+- ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
+  Hint: Parameters Template
+  Value: "{EA15A8BB-C688-4565-9ECB-48DA1BEA5FB6}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: This component renders Jump Link List on Page.
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: This component renders Jump Link List on Page.
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240925T091700Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "556cb5b4-d353-49b2-a89f-5e3ce47d8e84"
+    - ID: "9e6a6532-99aa-4a0e-aba3-e7259e5429ba"
+      Hint: StyleSheets
+      Value: |
+        .jl-section {
+          padding: var(--space-large);
+        }
+        .jl-section .container {
+          display: flex;
+          flex-direction: column;
+          gap: var(--space-medium);
+        }
+        
+        .jl-summary {
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+        }
+        
+        .jl-summary:focus {
+          outline: none;
+          border-radius: 4px;
+          box-shadow: 0 0 0 2px var(--color-white), 0 0 0 5px var(--color-blue-focus);
+        }
+        
+        .jl-info {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: var(--space-medium);
+          flex: 1 0 0;
+        }
+        
+        .jl-links {
+          list-style: none;
+          display: flex;
+          flex-direction: column;
+          gap: var(--space-x-large);
+        }
+        
+        .jl-links a.active {
+          color: var(--color-white);
+          background-color: var(--color-aqua);
+          text-decoration: none;
+          display: block;
+          border-radius: 8px;
+          box-shadow: -4px 0 0 0 var(--color-aqua), 4px 0 0 0 var(--color-aqua);
+          transition: all 0.3s ease;
+        }
+        
+        .jl-summary img {
+          display: none;
+          transform: rotate(180deg);
+        }
+        
+        /***************************************/
+        /********** Media Queries **************/
+        /***************************************/
+        @media (max-width: 1024px) {
+          .jl-section {
+            padding: var(--space-large);
+          }
+          .jl-content-hide .jl-content {
+            display: none;
+          }
+          .jl-summary img {
+            display: block;
+          }
+          .jl-content-hide img {
+            transform: rotate(0deg);
+          }
+        }
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using HtmlAgilityPack;
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @using System;
+        @using System.Collections.Generic;
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        
+        @functions {
+        	public List<HtmlNode> GetTagsWithIds(HtmlDocument doc, List<string> tagNames)
+        	{
+        		List<HtmlNode> tags = new List<HtmlNode>();
+        		foreach (var tagName in tagNames)
+        		{
+        			var selector = "//" + tagName;
+        			var selectedTags = doc.DocumentNode.SelectNodes(selector);
+        			if (selectedTags != null)
+        			{
+        				tags.AddRange(selectedTags);
+        			}
+        		}
+        
+        		tags.Sort((tag1, tag2) => tag1.StreamPosition.CompareTo(tag2.StreamPosition));
+        
+        		return tags;
+        	}
+        }
+        
+        @{
+        
+        	var bodyTextField = Model.GetField("BodyText");
+        	if(!bodyTextField.HasValueToRender())
+        	{
+        		return;
+        	}
+        	
+        	HtmlDocument doc = new HtmlDocument();
+        	doc.LoadHtml(bodyTextField.Value());
+        	
+        	var headingsList = new List<string> { "h2" };
+        	var headingsSelectorList = new List<string> { ".left-col h2" };
+        	var includeH3 = Model.GetRenderingParameter("IncludeH3");
+        	if(!string.IsNullOrWhiteSpace(includeH3) && includeH3.Equals("1"))
+        	{
+        		headingsList.Add("h3");
+        		headingsSelectorList.Add(".left-col h3");
+        	}
+        	
+        	var includeH4 = Model.GetRenderingParameter("IncludeH4");
+        	if(!string.IsNullOrWhiteSpace(includeH4) && includeH4.Equals("1"))
+        	{
+        		headingsList.Add("h4");
+        		headingsSelectorList.Add(".left-col h4");
+        	}
+        	
+        	var headingsSelector = String.Join(", ", headingsSelectorList);
+        	var tags = GetTagsWithIds(doc, headingsList);
+        	if(tags.Count() <= 1)
+        	{
+        		<!-- One or Zero Jump Links -->
+        		return;
+        	}
+        	
+        	var jumplistDescField = Model.GetField("JumpListDescription");
+        
+        	var sectionCls = "jl-section jl-content-hide";
+        	var btmPadding = Model.GetPadding("BottomPadding");
+        	if(!string.IsNullOrWhiteSpace(btmPadding))
+        	{
+        		sectionCls += string.Format(" {0}", btmPadding);
+        	}
+        
+        	var bgColor = Model.GetRenderingParameterLookup("Background Color");
+        	if(!string.IsNullOrWhiteSpace(bgColor))
+        	{
+        		sectionCls += string.Format(" {0}", bgColor);
+        	}
+        	
+        	
+        
+        <section class="@sectionCls">
+        	<div class="container">
+        		<div class="jl-summary">
+        			<div class="jl-info">
+        			  <p class="large bold">
+        				@Model.GetLookupValue(TheAA.Application.Constants.LabelIds.TheAA.Components.JumpLinkList.Description.ToString(), "In this article")
+        			  </p>
+        			  @if(jumplistDescField.HasValueToRender())
+        				{
+        					<p>@jumplistDescField.RenderValue()</p>
+        				}
+        			</div>
+        			<img src="/Assets/images/icons/arrow-down.svg"
+        				height="24px"
+        				width="24px"
+        				alt="arrow" />
+        		</div>
+        		<nav class="jl-content">
+        		<ul class="jl-links">
+        			@foreach (var tag in tags){
+        				<li><a href="@string.Format("#{0}", tag.Id)" class="standalone">@tag.InnerHtml</a></li>
+        			}
+        		</ul>
+        		</nav>
+        	</div>
+        </section>
+        
+        
+        <script>
+        	function toggleJlAccordion() {
+        		const jlSection = document.querySelector(".jl-section");
+        		if (jlSection.classList.contains("jl-content-hide")) {
+        		  jlSection.classList.remove("jl-content-hide");
+        		} else {
+        		  jlSection.classList.add("jl-content-hide");
+        		}
+        	}
+        
+        	function handleResize() {
+        		if (window.innerWidth <= 1024) {
+        		  const jlSummary = document.querySelector(".jl-summary");
+        		  jlSummary.tabIndex = 0;
+        
+        		  jlSummary.addEventListener("click", toggleJlAccordion);
+        		  jlSummary.addEventListener("keydown", (event) => {
+        			if (event.key === "Enter" || event.key === " ") {
+        			  event.preventDefault();
+        			  toggleJlAccordion();
+        			}
+        		  });
+        		} else {
+        		  // Desktop: Show content by default
+        		  const jlSection = document.querySelector(".jl-section");
+        		  jlSection.classList.remove("jl-content-hide");
+        		  const jlSummary = document.querySelector(".jl-summary");
+        		  jlSummary.removeEventListener("click", toggleJlAccordion);
+        		}
+        	}
+        
+        	function handleScroll() {
+        	const scrollY = window.scrollY;
+        	let current = "";
+        
+        	document.querySelectorAll("@headingsSelector").forEach((heading) => {
+        	  const sectionTop = heading.offsetTop;
+        	  if (scrollY >= sectionTop - 60) {
+        		var id = heading.getAttribute("id");
+        		if(id !== null)
+        		{
+        			current = "#" + id;
+        		}
+        	  }
+        	});
+        
+        	document.querySelectorAll(".jl-links li a").forEach((link) => {
+        		  link.classList.remove("active");
+        		  if (link.getAttribute("href") === current) {
+        			link.classList.add("active");
+        		  }
+        		});
+        	}
+        	
+        	window.addEventListener("scroll", handleScroll);
+        	window.addEventListener("resize", handleResize);
+        	window.addEventListener("load", handleResize);
+        </script>
+        }
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        theaa\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241010T020348Z

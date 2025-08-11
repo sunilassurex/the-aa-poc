@@ -1,0 +1,227 @@
+﻿---
+ID: "48c11f31-ba6b-4f01-ae46-7a4c2f29e223"
+Parent: "4e7aa6a2-88cb-44f3-84e2-2983e1239b81"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: /sitecore/layout/Renderings/Feature/AA/Structure/Two Column
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Software/32x32/element_add.png
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+- ID: "56776edf-261c-4abc-9fe7-70c618795239"
+  Hint: __Help link
+  Value: |
+    <link linktype="external" url="https://theaacom.atlassian.net/wiki/x/OIBjLgE" />
+- ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
+  Hint: Parameters Template
+  Value: "{CA3F34EF-64F1-42D0-8E30-CD9BD4D64237}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: This component can be used to add two column structure with two placeholder (left and right).
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: This component can be used to add two column structure.
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240906T082142Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "859bdab8-9849-43ed-8442-af32a4d8ef4d"
+    - ID: "9e6a6532-99aa-4a0e-aba3-e7259e5429ba"
+      Hint: StyleSheets
+      Value: |
+        /* Base styles */
+        div.layout-two-col {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--space-xx-large);
+        }
+        
+        div.layout-two-col > .left-col {
+            flex: 1;
+            display: flex;
+            gap: var(--space-x-large);
+            flex-direction: column;
+        }
+        
+        div.layout-two-col > .right-col {
+            width: 363px;
+            position: sticky;
+            top: 0px;
+            background-color: var(--color-mono-lightest);
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+            border-radius: var(--space-medium);
+        }
+        div.layout-two-col > .left-col > section, 
+        div.layout-two-col > .right-col > section{
+            padding-left: 0px;
+            padding-right: 0px;
+            width: 100%;
+        }
+        div.layout-two-col>.right-col>section:last-child {
+            border-radius: 0 0 var(--space-medium) var(--space-medium);
+        }
+        
+        div.layout-two-col>.right-col>section:first-child {
+            border-radius: var(--space-medium) var(--space-medium) 0 0;
+        }
+        
+        /* Mobile and tablet styles */
+        @media (max-width: 1024px) {
+            div.layout-two-col {
+                flex-direction: column-reverse;
+            }
+        
+            div.layout-two-col > .left-col,
+            div.layout-two-col > .right-col {
+                width: 100%;
+            }
+            
+            div.layout-two-col > .right-col{
+                margin-left: -16px;
+                margin-right: -16px;
+                width: calc(100% + 32px);
+                position: static;
+            }
+            div.layout-two-col > .right-col > section, 
+            div.layout-two-col > .right-col > section.cross-sell-banner>div{
+                border-radius: 0px;
+            }
+        }
+        
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        
+        <div class="layout-two-col container @Model.GetTopAndBottomPaddings()">
+            <div class="left-col">
+                @Model.RenderPlaceholder("left")
+            </div>
+            <div class="right-col">
+                @Model.RenderPlaceholder("right")
+            </div>
+        </div>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241024T015326Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240926T095958Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c19b0b32-d1c6-4a6e-b07e-d93247c1debd"
+    - ID: "9e6a6532-99aa-4a0e-aba3-e7259e5429ba"
+      Hint: StyleSheets
+      Value: |
+        /* Base styles */
+        div.layout-two-col {
+            display: flex;
+            flex-wrap: wrap;
+            gap: var(--space-xx-large);
+        }
+        
+        div.layout-two-col > .left-col {
+            flex: 1;
+            display: flex;
+            gap: var(--space-x-large);
+            flex-direction: column;
+            order: 1;
+        }
+        
+        div.layout-two-col > .right-col {
+            width: 363px;
+            position: sticky;
+            top: 0px;
+            background-color: var(--color-mono-lightest);
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+            border-radius: var(--space-medium);
+            order: 2;
+        }
+        div.layout-two-col > .left-col > section, 
+        div.layout-two-col > .right-col > section,
+        div.layout-two-col > .right-col > section.cross-sell-banner > div.container,
+        div.layout-two-col > .left-col > section.cross-sell-banner > div.container{
+            padding-left: 0px;
+            padding-right: 0px;
+            width: 100%;
+        }
+        div.layout-two-col>.right-col>section:last-child {
+            border-radius: 0 0 var(--space-medium) var(--space-medium);
+        }
+        
+        div.layout-two-col>.right-col>section:first-child {
+            border-radius: var(--space-medium) var(--space-medium) 0 0;
+        }
+        
+        /* Mobile and tablet styles */
+        @media (max-width: 1024px) {
+            div.layout-two-col {
+                flex-direction: column-reverse;
+                padding-top: 0px !important;
+            }
+        
+            div.layout-two-col > .left-col,
+            div.layout-two-col > .right-col {
+                width: 100%;
+            }
+            
+            div.layout-two-col > .right-col{
+                margin-left: -16px;
+                margin-right: -16px;
+                width: calc(100% + 32px);
+                position: static;
+            }
+            div.layout-two-col > .right-col > section, 
+            div.layout-two-col > .right-col > section.cross-sell-banner>div>div{
+                border-radius: 0px;
+            }
+        }
+        
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        
+        <div class="layout-two-col container @Model.GetTopAndBottomPaddings()">
+            <div class="right-col">
+                @Model.RenderPlaceholder("right")
+            </div>
+            <div class="left-col">
+                @Model.RenderPlaceholder("left")
+            </div>
+        </div>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240926T095958Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241024T015326Z

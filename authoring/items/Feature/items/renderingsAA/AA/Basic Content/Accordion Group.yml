@@ -1,0 +1,383 @@
+﻿---
+ID: "31878c67-ae24-4818-ba84-62b940d6fa40"
+Parent: "ad31cd89-3849-4f83-8125-b9e194580de4"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: /sitecore/layout/Renderings/Feature/AA/Basic Content/Accordion Group
+SharedFields:
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/TheAA/Modules/AccordionGroup
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+- ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
+  Hint: Parameters Template
+  Value: "{D8268568-00ED-48EF-9375-33D3BBF87F0D}"
+- ID: "a2f5d9df-8cba-4a1d-99eb-51acb94cb057"
+  Hint: Page Editor Buttons
+  Value: |
+    {31A3A929-C599-4DD3-91A6-F4A9487CC8B7}
+    {6E281DBE-EA70-4F29-9045-265CA310C8F9}
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "query:/sitecore/content/TheAA/Modules/Accordions"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240515T085929Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cef3d5ff-231d-4364-b8fe-99883e94bbd5"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Domain.Interfaces.Repositories;
+        @using TheAA.Application;
+        @using TheAA.Domain.DataTransferObjects;
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @using System.Linq;
+        @using Sitecore.Data.Items;
+        @using System.Collections.Generic;
+        @using Sitecore.Mvc;
+        @using TheAA.Customisations.HtmlHelpers;
+        
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        <div class="breakdown-landing-accordion" tabindex="-1">
+            @*@using (Html.BeginEditFrame(Model.RenderingItem, "TheAA/AccordionGroup/AccordionGroupPanel"))*@
+        
+            @if (!string.IsNullOrEmpty(Model.Rendering.DataSource))
+            {
+                var i = 1;
+                var j = 1;
+                var accordionGroup = Model.Rendering.Item;
+                var accordionSectionItems = accordionGroup.GetField("AccordionSectionSelection").SelectedItems();
+                foreach (var accordionSectionItem in accordionSectionItems)
+                {
+                    <section class="bl-accordion-section">
+                        @{
+                            if (!string.IsNullOrEmpty(accordionSectionItem.GetField("AccordionSectionHeader").Value()))
+                            {<text><h4>@Html.Raw(accordionSectionItem.GetField("AccordionSectionHeader").Value())</h4></text>}
+                        IEnumerable<Item> accodionItemList = accordionSectionItem.Children.Where(x => x.TemplateName == "AccordionItem");
+                        foreach (var accordionItem in accodionItemList)
+                        {
+                            var ide = "check" + i + j;
+                            <div class="bl-accordion-item">
+                                @* @using (Html.BeginEditFrame(accordionItem.ItemID.ToString(), "TheAA/Accordion/AccordionPanel"))*@
+                                @{
+                                    <input class="accodion-handle" type="checkbox" @if (accordionItem.GetField("OpenByDefault").Checked) { <text> checked</text>} id=@ide />
+                                    <label class="accodion-header" for=@ide tabindex="0">@Html.Raw(accordionItem.GetField("AccordionTitle").Value())</label><div class="bl-accordion-content">
+                                        @Html.Raw(accordionItem.GetField("AccordionText").Value())
+                                        @Html.Sitecore().DynamicItemPlaceholder("accordion-panel", accordionItem)
+                                    </div>
+                                }
+                            </div>
+                            j++;
+                        }
+                        i++;
+                        }
+                    </section>
+                }
+            }
+        </div>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240620T014429Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240515T113753Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b8283455-06fc-4072-b6d5-57ac11544778"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Domain.Interfaces.Repositories;
+        @using TheAA.Application;
+        @using TheAA.Domain.DataTransferObjects;
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @using System.Linq;
+        @using Sitecore.Data.Items;
+        @using System.Collections.Generic;
+        @using Sitecore.Mvc;
+        @using TheAA.Customisations.HtmlHelpers;
+        
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        <div class="breakdown-landing-accordion" tabindex="-1">
+            @using (Html.BeginEditFrame(Model.Rendering.DataSource, "TheAA/AccordionGroup/AccordionGroupPanel"))
+                    {
+                        if (!string.IsNullOrEmpty(Model.Rendering.DataSource))
+                        {
+                            var i = 1;
+                            var j = 1;
+                            var accordionGroup = Model.Rendering.Item;
+                            var accordionSectionItems = accordionGroup.GetField("AccordionSectionSelection").SelectedItems();
+                            foreach (var accordionSectionItem in accordionSectionItems)
+                            {
+                    <section class="bl-accordion-section">
+                        @{
+                            if (!string.IsNullOrEmpty(accordionSectionItem.GetField("AccordionSectionHeader").Value()))
+                            {<text><h4>@Html.Raw(accordionSectionItem.GetField("AccordionSectionHeader").Value())</h4></text>}
+            IEnumerable<Item> accodionItemList = accordionSectionItem.Children.Where(x => x.TemplateName == "AccordionItem");
+                        foreach (var accordionItem in accodionItemList)
+                        {
+                            var ide = "check" + i + j;
+                            <div class="bl-accordion-item">
+                                @using (Html.BeginEditFrame(accordionItem.ID.Guid.ToString(), "TheAA/Accordion/AccordionPanel"))
+                                {
+                                    <input class="accodion-handle" type="checkbox" @if (accordionItem.GetField("OpenByDefault").Checked)
+                                    { <text> checked</text>} id=@ide />
+                                    <label class="accodion-header" for=@ide tabindex="0">@Html.Raw(accordionItem.GetField("AccordionTitle").Value())</label><div class="bl-accordion-content">
+                                        @Html.Raw(accordionItem.GetField("AccordionText").Value())
+                                        @Html.Sitecore().DynamicItemPlaceholder("accordion-panel", accordionItem)
+                                    </div>
+                                }
+                            </div>
+                            j++;
+                        }
+                        i++;
+                        }
+                    </section>
+                }
+            }
+        }
+        </div>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240515T113700Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240620T014429Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240515T115832Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a2a50db2-76ae-40d5-a515-55a400146e4a"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Domain.Interfaces.Repositories;
+        @using TheAA.Application;
+        @using TheAA.Domain.DataTransferObjects;
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @using System.Linq;
+        @using Sitecore.Data.Items;
+        @using System.Collections.Generic;
+        @using Sitecore.Mvc;
+        @using TheAA.Customisations.HtmlHelpers;
+        
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        <div class="breakdown-landing-accordion" tabindex="-1">
+            @using (Model.Html.BeginEditFrame(Model.Rendering.DataSource, "TheAA/AccordionGroup/AccordionGroupPanel"))
+            {
+                var i = 1;
+                var j = 1;
+                var accordionSectionItems = Model.GetField("AccordionSectionSelection").SelectedItems();
+                foreach (var accordionSectionItem in accordionSectionItems)
+                {
+                    <section class="bl-accordion-section">
+                        @{
+                            if (!string.IsNullOrEmpty(Model.GetField("AccordionSectionHeader", accordionSectionItem).Value()))
+                            {<text><h4>@Model.GetField("AccordionSectionHeader", accordionSectionItem).RenderValue()</h4></text>}
+                        IEnumerable<Item> accodionItemList = accordionSectionItem.Children.Where(x => x.TemplateName == "AccordionItem");
+                        foreach (var accordionItem in accodionItemList)
+                        {
+                            var ide = "check" + i + j;
+                            <div class="bl-accordion-item">
+                                @using (Model.Html.BeginEditFrame(accordionItem.ID.Guid.ToString(), "TheAA/Accordion/AccordionPanel"))
+                                {
+                                    <input class="accodion-handle" type="checkbox" @if (Model.GetField("OpenByDefault", accordionItem).Checked) { <text> checked</text>} id=@ide />
+                                    <label class="accodion-header" for=@ide tabindex="0">@Model.GetField("AccordionTitle", accordionItem).RenderValue()</label>
+                                    <div class="bl-accordion-content">
+                                        @Model.GetField("AccordionText", accordionItem).RenderValue()
+                                        @Model.RenderPlaceholder("accordion-panel" + accordionItem.ID.ToGuid().ToString("B"))
+                                    </div>
+                                }
+                            </div>
+                            j++;
+                        }
+                        i++;
+                        }
+                    </section>
+                }
+            }
+        </div>
+        
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240515T115800Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240620T014429Z
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240516T161021Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a2473e24-7cb0-4b3c-8081-957c4dfcf53c"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Domain.Interfaces.Repositories;
+        @using TheAA.Application;
+        @using TheAA.Domain.DataTransferObjects;
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @using System.Linq;
+        @using Sitecore.Data.Items;
+        @using System.Collections.Generic;
+        @using Sitecore.Mvc;
+        @using TheAA.Customisations.HtmlHelpers;
+        
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        <div class="breakdown-landing-accordion" tabindex="-1">
+            @using (Html.BeginEditFrame(Model.Rendering.DataSource, "TheAA/AccordionGroup/AccordionGroupPanel"))
+                    {
+                            var i = 1;
+                            var j = 1;
+                            var accordionGroup = Model.Rendering.Item;
+                            var accordionSectionItems = accordionGroup.GetField("AccordionSectionSelection").SelectedItems();
+                            foreach (var accordionSectionItem in accordionSectionItems)
+                            {
+                    <section class="bl-accordion-section">
+                        @{
+                            if (!string.IsNullOrEmpty(accordionSectionItem.GetField("AccordionSectionHeader").Value()))
+                            {<text><h4>@accordionSectionItem.GetField("AccordionSectionHeader").RenderValue()</h4></text>}
+            IEnumerable<Item> accodionItemList = accordionSectionItem.Children.Where(x => x.TemplateName == "AccordionItem");
+                        foreach (var accordionItem in accodionItemList)
+                        {
+                            var ide = "check" + i + j;
+                            <div class="bl-accordion-item">
+                                @* @using (Html.BeginEditFrame(accordionItem.ID.Guid.ToString(), "TheAA/Accordion/AccordionPanel")) *@
+                                @{
+                                    <input class="accodion-handle" type="checkbox" @if (accordionItem.GetField("OpenByDefault").Checked)
+                                    { <text> checked</text>} id=@ide />
+                                    <label class="accodion-header" for=@ide tabindex="0">@accordionItem.GetField("AccordionTitle").RenderValue()</label><div class="bl-accordion-content">
+             @accordionItem.GetField("AccordionText").RenderValue()
+            @* @Html.Sitecore().DynamicItemPlaceholder("accordion-panel", accordionItem) *@
+        </div>
+                                }
+                            </div>
+                            j++;
+                        }
+                        i++;
+                        }
+                    </section>
+                }    
+        }
+        </div>
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240516T161000Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240620T014429Z
+  - Version: 5
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240527T144121Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f50714be-c1b8-4f3a-a9aa-5b5837dc80a3"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Domain.Interfaces.Repositories;
+        @using TheAA.Application;
+        @using TheAA.Domain.DataTransferObjects;
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @using System.Linq;
+        @using Sitecore.Data.Items;
+        @using System.Collections.Generic;
+        @using Sitecore.Mvc;
+        @using TheAA.Customisations.HtmlHelpers;
+        
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        <div class="breakdown-landing-accordion" tabindex="-1">
+            @using (Model.Html.BeginEditFrame(Model.Rendering.DataSource, "TheAA/AccordionGroup/AccordionGroupPanel"))
+            {
+                var i = 1;
+                var j = 1;
+                //var accordionGroup = Model.Rendering.Item;
+                var accordionSectionItems = Model.GetField("AccordionSectionSelection").SelectedItems();
+                foreach (var accordionSectionItem in accordionSectionItems)
+                {
+                    <section class="bl-accordion-section">
+                        @{
+                            if (!string.IsNullOrEmpty(Model.GetField("AccordionSectionHeader", accordionSectionItem).Value()))
+                            {<text><h4>@Model.GetField("AccordionSectionHeader", accordionSectionItem).RenderValue()</h4></text>}
+                        IEnumerable<Item> accodionItemList = accordionSectionItem.Children.Where(x => x.TemplateName == "AccordionItem");
+                        foreach (var accordionItem in accodionItemList)
+                        {
+                            var ide = "check" + i + j;
+                            <div class="bl-accordion-item">
+                                @using (Model.Html.BeginEditFrame(accordionItem.ID.Guid.ToString(), "TheAA/Accordion/AccordionPanel"))
+                                {
+                                    <input class="accodion-handle" type="checkbox" @if (Model.GetField("OpenByDefault", accordionItem).Checked) { <text> checked</text>} id=@ide />
+                                    <label class="accodion-header" for=@ide tabindex="0">@Model.GetField("AccordionTitle", accordionItem).RenderValue()</label>
+                                    <div class="bl-accordion-content">
+                                        @Model.GetField("AccordionText", accordionItem).RenderValue()
+                                        @Model.RenderPlaceholder("accordion-panel" + accordionItem.ID.ToGuid().ToString("B"))
+                                    </div>
+                                }
+                            </div>
+                            j++;
+                        }
+                        i++;
+                        }
+                    </section>
+                }
+            }
+        </div>
+        
+    - ID: "b8f42732-9cb8-478d-ae95-07e25345fb0f"
+      Hint: __Hide version
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240527T144100Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240620T014429Z

@@ -1,0 +1,893 @@
+﻿---
+ID: "648666a4-fcd5-4aea-ad0f-af16a8ac694e"
+Parent: "20f0a42c-391c-4985-8391-d82f985c26c0"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: /sitecore/layout/Renderings/Feature/AA/Admin/Offer Configuration Dashboard
+SharedFields:
+- ID: "2e51df70-d3e4-458c-b03a-95c734dd39e7"
+  Hint: Data source
+  Value: "/sitecore/content/TheAA/home/road-sales-app/automated-offers/source-groups"
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+- ID: "56776edf-261c-4abc-9fe7-70c618795239"
+  Hint: __Help link
+  Value: |
+    <link text="Offer Configuration Dashboard" linktype="external" url="https://theaacom.atlassian.net/wiki/spaces/SIT/pages/5072257025/Offer+Configuration+Dashboard" anchor="" target="" />
+Languages:
+- Language: en
+  Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: Offer configuration dashboard displays the offer configuration settings in tabular format
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: Offer configuration dashboard displays the offer configuration settings in tabular format
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240905T130450Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e88ad95a-3bcd-4aa8-8870-4798d6335307"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using Sitecore.Mvc.Presentation;
+        @using System.Linq;
+        @using System.Text;
+        @using System.Web;
+        @using System.Web.UI;
+        @using Sitecore.Data;
+        @using System;
+        @using System.Collections.Generic;
+        @using TheAA.Application.ViewModels
+        @using TheAA.Foundation.Rendering;
+        @using Sitecore.Data.Items;
+        @using Sitecore.Data.Fields;
+        @using Sitecore.Links;
+        @using TheAA.Domain.Interfaces.Repositories;
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
+        
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+        
+            td {
+                padding-bottom: 10px;
+                text-align: left;
+            }
+        
+            th {
+                background-color: #99bfe6;
+                color: #000;
+                position: relative;
+                padding: 10px;
+            }
+        
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+        
+            tr:nth-child(odd) {
+                background-color: #ffffff;
+            }
+        </style>
+        
+        @{
+            if (Model != null && Model.Rendering != null && Model.Rendering.Item != null && Model.Rendering.Item.Database != null)
+            {
+                var item = Model.Rendering.Item;
+                var rootPath = Sitecore.Context.Item.Paths.Path;
+                var filterPath = Utility.GetQueryStringParameter("folder");
+                var format = Utility.GetQueryStringParameter("format");
+                var databaseName = Utility.GetQueryStringParameter("database");
+                var databaseWrapper = CompositionRoot.Resolve<IDatabaseWrapper>();
+        
+                if (!(databaseName != null && databaseName.ToLower().Equals("master")))
+                {
+                    item = databaseWrapper.GetItemWeb(item.ID.ToString());
+                }
+        
+                var database = item.Database;
+                databaseName = database.Name;
+        
+                if (!string.IsNullOrEmpty(filterPath))
+                {
+                    item = item.Database.GetItem(filterPath) ?? item;
+                }
+        
+                IEnumerable<Item> offerItems = item.Axes.GetDescendants().Where(x => x.TemplateName == "SourceGroup");
+        
+                List<List<string>> offerData = new List<List<string>>();
+        
+                offerData.Add(new List<string>(){
+                    "Eligibility Rule","Eligibility Rule Name","SourceCode","SourceGroupCode","SourceGroupDesc","BaseOfferCode","OverrideOfferCode","OverridePromoAssetCode","OverrideHidePhoneNumber","ExcludeFromOffer","PreConfiguration Id","PreConfiguration Name","OfferCode","HidePhoneNumbers","SplitCode","PromoAssets","PromoAssets Name","PromoType","PromoTypeName","EligibleProducts","EligibleProducts Name","MinimumProducts","PaymentsLozengeMessage","OfferValue","RepriceFrequency","RepriceFrequency Name"
+                    });
+                List<string> offerSourceData;
+                List<string> offerWithPreConfigurationData = new List<string>();
+                ISitecoreItemsService sitecoreItemsService = CompositionRoot.Resolve<ISitecoreItemsService>();
+                bool hasFoundPreconfiguredItem = false;
+                foreach (Item offer in offerItems)
+                {
+                    offerSourceData = new List<string>() {
+                        offer.ID.ToString(),offer.Name,offer.GetField("SourceCode").Value(),offer.GetField("SourceGroup").Value(),
+                        offer.GetField("Description").Value(),
+                        offer.GetField("BaseOfferCode").Value(),offer.GetField("OverrideOfferCode").Value(),
+                        offer.GetField("OverridePromoAssetCode").Value(),offer.GetField("OverrideHidePhoneNumber").Value(),
+                        offer.GetField("ExcludeFromOffer").Value()
+                    };
+                    hasFoundPreconfiguredItem = false;
+        
+                    var links = sitecoreItemsService.GetReferrers(databaseName, offer.ID.ToString());
+                    foreach (var link in links)
+                    {
+                        var preconfiguredItem = database.GetItem(new ID(link));
+        
+                        if (preconfiguredItem != null)
+                        {
+                            hasFoundPreconfiguredItem = true;
+                            offerWithPreConfigurationData = new List<string>();
+                            offerWithPreConfigurationData.AddRange(offerSourceData);
+                            offerWithPreConfigurationData.AddRange(new List<string>() {
+                            preconfiguredItem.ID.ToString(),preconfiguredItem.Name,preconfiguredItem.GetField("OfferCode").Value(),preconfiguredItem.GetField("HidePhoneNumbers").Value(),preconfiguredItem.GetField("SplitCode").Value(),preconfiguredItem.GetField("PromoAssets").Value(),preconfiguredItem.GetField("PromoAssets").GetReferenceItemName(false),preconfiguredItem.GetField("PromoType").Value(),preconfiguredItem.GetField("PromoType").GetReferenceItemName(false),preconfiguredItem.GetField("EligibleProducts").Value(),preconfiguredItem.GetField("EligibleProducts").GetReferenceItemName(true),preconfiguredItem.GetField("MinimumProducts").Value(),preconfiguredItem.GetField("PaymentsLozengeMessage").Value(),preconfiguredItem.GetField("OfferValue").Value(),preconfiguredItem.GetField("RepriceFrequency").Value(),preconfiguredItem.GetField("RepriceFrequency").GetReferenceItemName(false)
+                            });
+                            offerData.Add(offerWithPreConfigurationData);
+                        }
+                    }
+                    if (!hasFoundPreconfiguredItem)
+                    {
+                        offerSourceData.AddRange(Enumerable.Repeat(string.Empty, 16));
+                        offerData.Add(offerSourceData);
+                    }
+                }
+        
+                if (!string.IsNullOrEmpty(format) && format.ToLower() == "csv")
+                {
+                    @ExportOffer(offerData);
+        
+                }
+        
+                @GenerateTable(offerData);
+            }
+        }
+        
+        @helper GenerateTable(List<List<string>> offerData)
+        {
+            if (offerData != null && offerData.Count >= 1)
+            {
+                int i = 0;
+                <table border="1" id="offerTable" class="tablesorter">
+                    <tr>
+        
+                        @foreach (var headerCell in offerData.First())
+                        {
+                            <th>@headerCell</th>
+                        }
+                    </tr>
+                    @foreach (var offer in offerData.Skip(1))
+                    {
+                        <tr>
+                            @foreach (var offerProperty in offer)
+                            {
+                                <td>@offerProperty</td>
+                            }
+                        </tr>
+                    }
+                </table>
+            }
+        }
+        
+        @helper ExportOffer(List<List<string>> offerData)
+        {
+            StringBuilder content = new StringBuilder();
+        
+            foreach (var offer in offerData)
+            {
+                content.AppendLine("\"" + String.Join("\",\"", offer) + "\"");
+            }
+        
+            HttpContext.Current.Response.Clear();
+            HttpContext.Current.Response.Buffer = true;
+            HttpContext.Current.Response.AddHeader("content-disposition", "attachment;filename=OfferConfiguration.csv");
+            HttpContext.Current.Response.Charset = "";
+            HttpContext.Current.Response.ContentType = "application/text";
+            HttpContext.Current.Response.Output.Write(content);
+            HttpContext.Current.Response.Flush();
+            HttpContext.Current.Response.End();
+        }
+        
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        theaa\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241001T014656Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240916T174924Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0c75335d-22df-48a5-971f-4bd05d811e86"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using Sitecore.Mvc.Presentation;
+        @using System.Linq;
+        @using System.Text;
+        @using System.Web;
+        @using System.Web.UI;
+        @using Sitecore.Data;
+        @using System;
+        @using System.Collections.Generic;
+        @using TheAA.Application.ViewModels
+        @using TheAA.Foundation.Rendering;
+        @using Sitecore.Data.Items;
+        @using Sitecore.Data.Fields;
+        @using Sitecore.Links;
+        @using TheAA.Domain.Interfaces.Repositories;
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        
+        
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
+        
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+        
+            td {
+                padding-bottom: 10px;
+                text-align: left;
+            }
+        
+            th {
+                background-color: #99bfe6;
+                color: #000;
+                position: sticky;
+                padding: 10px;
+        		top:0;
+        		z-index:100;
+            }
+        
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+        	
+        	th:nth-child(n+12) {
+        		background-color: #FFD700;
+        	}
+        
+            tr:nth-child(odd) {
+                background-color: #ffffff;
+            }	
+        	ul{
+        		padding:20;		
+        	}
+        	.filterContainer{
+        		display: flex;
+        		align-items: center;
+        		margin-bottom: 10px;
+        	}
+        	.filter-container input[type="radio"]{
+        			margin-right: 5px;
+        	}
+        	.database-info{
+        		font-weight: bold;
+        		margin-bottom: 10px;
+        	}
+        	.csvButton{
+        		background-color: #45a049;
+        		margin-left: 100px;
+        	}	
+        </style>
+        
+        
+        
+        @{	
+            if (Model != null && Model.Rendering != null && Model.Rendering.Item != null && Model.Rendering.Item.Database != null)
+            {
+                var item = Model.Rendering.Item;
+                var rootPath = Sitecore.Context.Item.Paths.Path;
+                var filterPath = Utility.GetQueryStringParameter("folder");
+                var format = Utility.GetQueryStringParameter("format");
+                var databaseName = Utility.GetQueryStringParameter("database");
+                var databaseWrapper = CompositionRoot.Resolve<IDatabaseWrapper>();
+        
+                if (!(databaseName != null && databaseName.ToLower().Equals("master")))
+                {
+                    item = databaseWrapper.GetItemWeb(item.ID.ToString());
+                }
+        
+                var database = item.Database;
+                databaseName = database.Name;
+        
+                if (!string.IsNullOrEmpty(filterPath))
+                {
+                    item = item.Database.GetItem(filterPath) ?? item;
+                }
+        
+                IEnumerable<Item> offerItems = item.Axes.GetDescendants().Where(x => x.TemplateName == "SourceGroup");
+        
+                List<List<string>> offerData = new List<List<string>>();
+        
+                offerData.Add(new List<string>(){
+                    "Eligibility Rule","Eligibility Rule Name","SourceCode","SourceGroupCode","SourceGroupDesc","BaseOfferCode","OverrideOfferCode","OverridePromoAssetCode","OverrideHidePhoneNumber","ExcludeFromOffer","PreConfiguration Id","PreConfiguration Name","OfferCode","HidePhoneNumbers","SplitCode","PromoAssets","PromoAssets Name","PromoType","PromoTypeName","EligibleProducts","EligibleProducts Name","MinimumProducts","PaymentsLozengeMessage","OfferValue","RepriceFrequency","RepriceFrequency Name"
+                    });
+                List<string> offerSourceData;
+                List<string> offerWithPreConfigurationData = new List<string>();
+                ISitecoreItemsService sitecoreItemsService = CompositionRoot.Resolve<ISitecoreItemsService>();
+                bool hasFoundPreconfiguredItem = false;
+                foreach (Item offer in offerItems)
+                {
+                    offerSourceData = new List<string>() {
+                        offer.ID.ToString(),offer.Name,offer.GetField("SourceCode").Value(),offer.GetField("SourceGroup").Value(),
+                        offer.GetField("Description").Value(),
+                        offer.GetField("BaseOfferCode").Value(),offer.GetField("OverrideOfferCode").Value(),
+                        offer.GetField("OverridePromoAssetCode").Value(),offer.GetField("OverrideHidePhoneNumber").Value(),
+                        offer.GetField("ExcludeFromOffer").Value()
+                    };
+                    hasFoundPreconfiguredItem = false;
+        
+                    var links = sitecoreItemsService.GetReferrers(databaseName, offer.ID.ToString());
+                    foreach (var link in links)
+                    {
+                        var preconfiguredItem = database.GetItem(new ID(link));
+        
+                        if (preconfiguredItem != null)
+                        {
+                            hasFoundPreconfiguredItem = true;
+                            offerWithPreConfigurationData = new List<string>();
+                            offerWithPreConfigurationData.AddRange(offerSourceData);
+                            offerWithPreConfigurationData.AddRange(new List<string>() {
+                            preconfiguredItem.ID.ToString(),preconfiguredItem.Name,preconfiguredItem.GetField("OfferCode").Value(),preconfiguredItem.GetField("HidePhoneNumbers").Value(),preconfiguredItem.GetField("SplitCode").Value(),preconfiguredItem.GetField("PromoAssets").Value(),preconfiguredItem.GetField("PromoAssets").GetReferenceItemName(false),preconfiguredItem.GetField("PromoType").Value(),preconfiguredItem.GetField("PromoType").GetReferenceItemName(false),colorList(preconfiguredItem.GetField("EligibleProducts").Value(),'|'),colorList(preconfiguredItem.GetField("EligibleProducts").GetReferenceItemName(true),','),preconfiguredItem.GetField("MinimumProducts").Value(),preconfiguredItem.GetField("PaymentsLozengeMessage").Value(),preconfiguredItem.GetField("OfferValue").Value(),preconfiguredItem.GetField("RepriceFrequency").Value(),preconfiguredItem.GetField("RepriceFrequency").GetReferenceItemName(false)
+                            });
+                            offerData.Add(offerWithPreConfigurationData);
+                        }
+                    }
+                    if (!hasFoundPreconfiguredItem)
+                    {
+                        offerSourceData.AddRange(Enumerable.Repeat(string.Empty, 16));
+                        offerData.Add(offerSourceData);
+                    }
+                }
+        
+                if (!string.IsNullOrEmpty(format) && format.ToLower() == "csv")
+                {
+                    @ExportOffer(offerData);
+        
+                }
+        
+                @GenerateTable(offerData);
+            }
+        }
+        
+        @helper GenerateTable(List<List<string>> offerData)
+        {
+            if (offerData != null && offerData.Count >= 1)
+            {
+        		<div class="filter-container">
+        			<label for="tableSearch" style="display: inline-block; margin-bottom:5px;">Search Table:</label>
+        			<input type="text" id="tableSearch" placeholder="Searches as you type..." onkeyup="filterTable()" style="margin-bottom: 10px; padding: 5px;" />
+        			<label style="display: inline-block; margin-bottom:5px;">Currently viewing the <span class="database-info" id="viewingDatabase">Web</span> database.</label>
+        			<label id="switchDatabase"></label>
+        			<button class="csvButton" onclick="exportAsCSV()">Download CSV</button>
+        		</div>
+                int i = 0;
+                <table border="1" id="offerTable" class="tablesorter">
+        			<thead>
+        				<tr>
+        					<th>#</th>
+        					@foreach (var headerCell in offerData.First())
+        					{
+        						<th>@AddSpacesToCaps(headerCell)</th>
+        					}
+        				</tr>
+        			</thead>
+        			<tbody id="offerTableBody">
+        				@{
+        					var rowNumber = 1;
+        				}
+        				@foreach (var offer in offerData.Skip(1))
+        				{				
+        					<tr>
+        						<td>@rowNumber</td>
+        						@foreach (var offerProperty in offer)
+        						{
+        							<td>@Model.Html.Raw(offerProperty)</td>
+        						}
+        					</tr>
+        					rowNumber++;
+        				}
+        			</tbody>
+                </table>
+            }
+        }
+        
+        @helper ExportOffer(List<List<string>> offerData)
+        {
+            StringBuilder content = new StringBuilder();
+        
+            foreach (var offer in offerData)
+            {
+                content.AppendLine("\"" + String.Join("\",\"", offer) + "\"");
+            }
+        
+            HttpContext.Current.Response.Clear();
+            HttpContext.Current.Response.Buffer = true;
+            HttpContext.Current.Response.AddHeader("content-disposition", "attachment;filename=OfferConfiguration.csv");
+            HttpContext.Current.Response.Charset = "";
+            HttpContext.Current.Response.ContentType = "application/text";
+            HttpContext.Current.Response.Output.Write(content);
+            HttpContext.Current.Response.Flush();
+            HttpContext.Current.Response.End();
+        }
+        
+        @functions {
+        	public string AddSpacesToCaps(string columnHeader)
+        	{
+        		if(string.IsNullOrEmpty(columnHeader)) return columnHeader;
+        		return System.Text.RegularExpressions.Regex.Replace(columnHeader, "(?<!^)([A-Z])", " $1");
+        	}
+        	
+        	public string colorList(string items, char separator)
+        	{
+        		var format = Utility.GetQueryStringParameter("format");
+        		if (!string.IsNullOrEmpty(format) && format.ToLower() == "csv")
+                {
+                    return items;
+                }
+        		var itemList = items.Split(separator);
+        		var index = 0;
+        		var listContainer = ("<ul>");
+        		
+        		foreach(var item in itemList)
+        		{
+        			listContainer += "<li>" + @item + "</li>";
+        			index++;
+        		}
+        		
+        		listContainer += "</ul>";
+        		return listContainer;
+        	}
+        }
+        
+        <script>
+            function filterTable() {
+                // Get the search query
+                var input = document.getElementById("tableSearch");
+                var filter = input.value.toLowerCase();
+                var table = document.getElementById("offerTable");
+                var tbody = document.getElementById("offerTableBody");
+                var rows = tbody.getElementsByTagName("tr");
+                var visibleRowCount = 0;
+        
+                // Loop through all table rows and hide those that don't match the search query
+                for (var i = 0; i < rows.length; i++) {
+                    var cells = rows[i].getElementsByTagName("td");
+                    var rowContainsSearchTerm = false;
+        
+                    // Check if any cell in the row contains the search term
+                    for (var j = 1; j < cells.length; j++) { // Skip first column since it's row number
+                        if (cells[j]) {
+                            var cellContent = cells[j].innerText.toLowerCase();
+                            if (cellContent.indexOf(filter) > -1) {
+                                rowContainsSearchTerm = true;
+                                break;
+                            }
+                        }
+                    }
+        
+                    if (rowContainsSearchTerm) {
+                        rows[i].style.display = "";
+                        visibleRowCount++;
+                        cells[0].innerText = visibleRowCount; // Renumber the visible row
+                    } else {
+                        rows[i].style.display = "none";
+                    }
+                }
+            }
+        	function changeDatabase(database){
+        		var currentUrl = window.location.href;
+        		var newUrl;
+        		if(currentUrl.indexOf("&database=") > -1){
+        			newUrl = currentUrl.replace(/&database=[^&]*/,"&database=" + database);			
+        		} else {
+        			newUrl = currentUrl + "&database=" + database;
+        		}
+        		window.location.href = newUrl;
+        	}
+        	
+        	function toggleText(database){
+        		if(database == "web" || database == null){
+        			document.getElementById("viewingDatabase").innerText = "Web";
+        			document.getElementById("switchDatabase").innerHTML = '<input type="radio" id="viewMaster" name="database" value="master" onclick="changeDatabase(\'master\')"/><label for="viewMaster">Switch to Master</label>'			
+        		}
+        		else if(database == "master"){
+        			document.getElementById("viewingDatabase").innerText = "Master";
+        			document.getElementById("switchDatabase").innerHTML = '<input type="radio" id="viewWeb" name="database" value="web" onclick="changeDatabase(\'web\')"/><label for="viewWeb">Switch to Web</label>'
+        			
+        		}		
+        	}
+        	
+        	function exportAsCSV(){
+        		var currentUrl = window.location.href;
+        		var csvUrl 
+        		
+        		if(currentUrl.indexOf("&format=") > -1){
+        			csvUrl = currentUrl.replace(/&format=[^&]*/, "&format=csv");
+        		} else {
+        			csvUrl = window.location.href + "&format=csv";
+        		}		
+        		
+        		var csvWindow = window.open(csvUrl,"_blank");
+        		
+        		var checkDownloadComplete = setInterval(function(){
+        			try{
+        				if(window.document.readyState === "complete"){
+        					csvWindow.close();
+        					clearInterval(checkDownloadComplete);
+        				}
+        			} catch(e){
+        			
+        			}
+        		}, 1000);
+        	}
+        	const searchParams = new URLSearchParams(window.location.search);	
+        	toggleText(searchParams.get('database'));
+        </script>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240916T174924Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241001T014656Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240923T115802Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "45e90f28-2bed-457d-8df7-3356310a7316"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using Sitecore.Mvc.Presentation;
+        @using System.Linq;
+        @using System.Text;
+        @using System.Web;
+        @using System.Web.UI;
+        @using Sitecore.Data;
+        @using System;
+        @using System.Collections.Generic;
+        @using TheAA.Application.ViewModels
+        @using TheAA.Foundation.Rendering;
+        @using Sitecore.Data.Items;
+        @using Sitecore.Data.Fields;
+        @using Sitecore.Links;
+        @using TheAA.Domain.Interfaces.Repositories;
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        
+        
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
+        
+            table {
+                width: 100%;
+                border-collapse: collapse;
+            }
+        
+            td {
+                padding-bottom: 10px;
+                text-align: left;
+            }
+        
+            th {
+                background-color: #99bfe6;
+                color: #000;
+                position: sticky;
+                padding: 10px;
+        		top:0;
+        		z-index:100;
+            }
+        
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+        	
+        	th:nth-child(n+12) {
+        		background-color: #FFD700;
+        	}
+        
+            tr:nth-child(odd) {
+                background-color: #ffffff;
+            }	
+        	ul{
+        		padding:20;		
+        	}
+        	.filterContainer{
+        		display: flex;
+        		align-items: center;
+        		margin-bottom: 10px;
+        	}
+        	.filter-container input[type="radio"]{
+        			margin-right: 5px;
+        	}
+        	.database-info{
+        		font-weight: bold;
+        		margin-bottom: 10px;
+        	}
+        	.csvButton{
+        		background-color: #45a049;
+        		margin-left: 100px;
+        	}	
+        </style>
+        
+        
+        
+        @{	
+            if (Model != null && Model.Rendering != null && Model.Rendering.Item != null && Model.Rendering.Item.Database != null)
+            {
+                var item = Model.Rendering.Item;
+                var rootPath = Sitecore.Context.Item.Paths.Path;
+                var filterPath = Utility.GetQueryStringParameter("folder");
+                var format = Utility.GetQueryStringParameter("format");
+                var databaseName = Utility.GetQueryStringParameter("database");
+                var databaseWrapper = CompositionRoot.Resolve<IDatabaseWrapper>();
+        
+                if (!(databaseName != null && databaseName.ToLower().Equals("master")))
+                {
+                    item = databaseWrapper.GetItemWeb(item.ID.ToString());
+                }
+        
+                var database = item.Database;
+                databaseName = database.Name;
+        
+                if (!string.IsNullOrEmpty(filterPath))
+                {
+                    item = item.Database.GetItem(filterPath) ?? item;
+                }
+        
+                IEnumerable<Item> offerItems = item.Axes.GetDescendants().Where(x => x.TemplateName == "SourceGroup");
+        
+                List<List<string>> offerData = new List<List<string>>();
+        
+                offerData.Add(new List<string>(){
+                    "Eligibility Rule","Eligibility Rule Name","SourceCode","SourceGroupCode","SourceGroupDesc","BaseOfferCode","OverrideOfferCode","OverridePromoAssetCode","OverrideHidePhoneNumber","ExcludeFromOffer","PreConfiguration Id","PreConfiguration Name","OfferCode","HidePhoneNumbers","SplitCode","PromoAssets","PromoAssets Name","PromoType","PromoTypeName","EligibleProducts","EligibleProducts Name","MinimumProducts","PaymentsLozengeMessage","OfferValue","RepriceFrequency","RepriceFrequency Name"
+                    });
+                List<string> offerSourceData;
+                List<string> offerWithPreConfigurationData = new List<string>();
+                ISitecoreItemsService sitecoreItemsService = CompositionRoot.Resolve<ISitecoreItemsService>();
+                bool hasFoundPreconfiguredItem = false;
+                foreach (Item offer in offerItems)
+                {
+                    offerSourceData = new List<string>() {
+                        offer.ID.ToString(),offer.Name,offer.GetField("SourceCode").Value(),offer.GetField("SourceGroup").Value(),
+                        offer.GetField("Description").Value(),
+                        offer.GetField("BaseOfferCode").Value(),offer.GetField("OverrideOfferCode").Value(),
+                        offer.GetField("OverridePromoAssetCode").Value(),offer.GetField("OverrideHidePhoneNumber").Value(),
+                        offer.GetField("ExcludeFromOffer").Value()
+                    };
+                    hasFoundPreconfiguredItem = false;
+        
+                    var links = sitecoreItemsService.GetReferrers(databaseName, offer.ID.ToString());
+                    foreach (var link in links)
+                    {
+                        var preconfiguredItem = database.GetItem(new ID(link));
+        
+                        if (preconfiguredItem != null)
+                        {
+                            hasFoundPreconfiguredItem = true;
+                            offerWithPreConfigurationData = new List<string>();
+                            offerWithPreConfigurationData.AddRange(offerSourceData);
+                            offerWithPreConfigurationData.AddRange(new List<string>() {
+                            preconfiguredItem.ID.ToString(),preconfiguredItem.Name,preconfiguredItem.GetField("OfferCode").Value(),preconfiguredItem.GetField("HidePhoneNumbers").Value(),preconfiguredItem.GetField("SplitCode").Value(),preconfiguredItem.GetField("PromoAssets").Value(),preconfiguredItem.GetField("PromoAssets").GetReferenceItemName(false),preconfiguredItem.GetField("PromoType").Value(),preconfiguredItem.GetField("PromoType").GetReferenceItemName(false),preconfiguredItem.GetField("EligibleProducts").Value(),preconfiguredItem.GetField("EligibleProducts").GetReferenceItemName(true),preconfiguredItem.GetField("MinimumProducts").Value(),preconfiguredItem.GetField("PaymentsLozengeMessage").Value(),preconfiguredItem.GetField("OfferValue").Value(),preconfiguredItem.GetField("RepriceFrequency").Value(),preconfiguredItem.GetField("RepriceFrequency").GetReferenceItemName(false)
+                            });
+                            offerData.Add(offerWithPreConfigurationData);
+                        }
+                    }
+                    if (!hasFoundPreconfiguredItem)
+                    {
+                        offerSourceData.AddRange(Enumerable.Repeat(string.Empty, 16));
+                        offerData.Add(offerSourceData);
+                    }
+                }
+        
+                if (!string.IsNullOrEmpty(format) && format.ToLower() == "csv")
+                {
+                    @ExportOffer(offerData);
+        
+                }
+        
+                @GenerateTable(offerData);
+            }
+        }
+        
+        @helper GenerateTable(List<List<string>> offerData)
+        {
+            if (offerData != null && offerData.Count >= 1)
+            {
+        		<div class="filter-container">
+        			<label for="tableSearch" style="display: inline-block; margin-bottom:5px;">Search Table:</label>
+        			<input type="text" id="tableSearch" placeholder="Searches as you type..." onkeyup="filterTable()" style="margin-bottom: 10px; padding: 5px;" />
+        			<label style="display: inline-block; margin-bottom:5px;">Currently viewing the <span class="database-info" id="viewingDatabase">Web</span> database.</label>
+        			<label id="switchDatabase"></label>
+        			<button class="csvButton" onclick="exportAsCSV()">Download CSV</button>
+        		</div>
+                int i = 0;
+                <table border="1" id="offerTable" class="tablesorter">
+        			<thead>
+        				<tr>
+        					<th>#</th>
+        					@foreach (var headerCell in offerData.First())
+        					{
+        						<th>@AddSpacesToCaps(headerCell)</th>
+        					}
+        				</tr>
+        			</thead>
+        			<tbody id="offerTableBody">
+        				@{
+        					var rowNumber = 1;
+        				}
+        				@foreach (var offer in offerData.Skip(1))
+        				{				
+        					<tr>
+        						<td>@rowNumber</td>
+        						@foreach (var offerProperty in offer)
+        						{
+        							<td>@Model.Html.Raw(offerProperty)</td>
+        						}
+        					</tr>
+        					rowNumber++;
+        				}
+        			</tbody>
+                </table>
+            }
+        }
+        
+        @helper ExportOffer(List<List<string>> offerData)
+        {
+            StringBuilder content = new StringBuilder();
+        
+            foreach (var offer in offerData)
+            {
+                content.AppendLine("\"" + String.Join("\",\"", offer) + "\"");
+            }
+        
+            HttpContext.Current.Response.Clear();
+            HttpContext.Current.Response.Buffer = true;
+            HttpContext.Current.Response.AddHeader("content-disposition", "attachment;filename=OfferConfiguration.csv");
+            HttpContext.Current.Response.Charset = "";
+            HttpContext.Current.Response.ContentType = "application/text";
+            HttpContext.Current.Response.Output.Write(content);
+            HttpContext.Current.Response.Flush();
+            HttpContext.Current.Response.End();
+        }
+        
+        @functions {
+        	public string AddSpacesToCaps(string columnHeader)
+        	{
+        		if(string.IsNullOrEmpty(columnHeader)) return columnHeader;
+        		return System.Text.RegularExpressions.Regex.Replace(columnHeader, "(?<!^)([A-Z])", " $1");
+        	}
+        }
+        
+        <script>
+            function filterTable() {
+                // Get the search query
+                var input = document.getElementById("tableSearch");
+                var filter = input.value.toLowerCase();
+                var table = document.getElementById("offerTable");
+                var tbody = document.getElementById("offerTableBody");
+                var rows = tbody.getElementsByTagName("tr");
+                var visibleRowCount = 0;
+        
+                // Loop through all table rows and hide those that don't match the search query
+                for (var i = 0; i < rows.length; i++) {
+                    var cells = rows[i].getElementsByTagName("td");
+                    var rowContainsSearchTerm = false;
+        
+                    // Check if any cell in the row contains the search term
+                    for (var j = 1; j < cells.length; j++) { // Skip first column since it's row number
+                        if (cells[j]) {
+                            var cellContent = cells[j].innerText.toLowerCase();
+                            if (cellContent.indexOf(filter) > -1) {
+                                rowContainsSearchTerm = true;
+                                break;
+                            }
+                        }
+                    }
+        
+                    if (rowContainsSearchTerm) {
+                        rows[i].style.display = "";
+                        visibleRowCount++;
+                        cells[0].innerText = visibleRowCount; // Renumber the visible row
+                    } else {
+                        rows[i].style.display = "none";
+                    }
+                }
+            }
+        	function changeDatabase(database){
+        		var currentUrl = window.location.href;
+        		var newUrl;
+        		if(currentUrl.indexOf("&database=") > -1){
+        			newUrl = currentUrl.replace(/&database=[^&]*/,"&database=" + database);			
+        		} else {
+        			newUrl = currentUrl + "&database=" + database;
+        		}
+        		window.location.href = newUrl;
+        	}
+        	
+        	function toggleText(database){
+        		if(database == "web" || database == null){
+        			document.getElementById("viewingDatabase").innerText = "Web";
+        			document.getElementById("switchDatabase").innerHTML = '<input type="radio" id="viewMaster" name="database" value="master" onclick="changeDatabase(\'master\')"/><label for="viewMaster">Switch to Master</label>'			
+        		}
+        		else if(database == "master"){
+        			document.getElementById("viewingDatabase").innerText = "Master";
+        			document.getElementById("switchDatabase").innerHTML = '<input type="radio" id="viewWeb" name="database" value="web" onclick="changeDatabase(\'web\')"/><label for="viewWeb">Switch to Web</label>'
+        			
+        		}		
+        	}
+        	
+        	function exportAsCSV(){
+        		var currentUrl = window.location.href;
+        		var csvUrl 
+        		
+        		if(currentUrl.indexOf("&format=") > -1){
+        			csvUrl = currentUrl.replace(/&format=[^&]*/, "&format=csv");
+        		} else {
+        			csvUrl = window.location.href + "&format=csv";
+        		}		
+        		
+        		var csvWindow = window.open(csvUrl,"_blank");
+        		
+        		var checkDownloadComplete = setInterval(function(){
+        			try{
+        				if(window.document.readyState === "complete"){
+        					csvWindow.close();
+        					clearInterval(checkDownloadComplete);
+        				}
+        			} catch(e){
+        			
+        			}
+        		}, 1000);
+        	}
+        	const searchParams = new URLSearchParams(window.location.search);	
+        	toggleText(searchParams.get('database'));
+        </script>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240923T115802Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241001T014656Z

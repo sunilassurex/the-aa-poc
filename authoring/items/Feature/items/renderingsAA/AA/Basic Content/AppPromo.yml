@@ -1,0 +1,177 @@
+﻿---
+ID: "31df0a08-8362-463d-9219-0e6702fdbacd"
+Parent: "ad31cd89-3849-4f83-8125-b9e194580de4"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: /sitecore/layout/Renderings/Feature/AA/Basic Content/AppPromo
+SharedFields:
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/TheAA/Modules/AppPromo
+- ID: "308e88f5-cd6e-4f8f-bafe-95a47dedefdc"
+  Hint: Editable
+  Value: 
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+- ID: "56776edf-261c-4abc-9fe7-70c618795239"
+  Hint: __Help link
+  Value: |
+    <link linktype="external" url="https://theaacom.atlassian.net/wiki/spaces/SIT/pages/4807950375/AppPromo" anchor="" target="_blank" />
+- ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
+  Hint: Parameters Template
+  Value: "{D3E922A5-BB95-43AB-AC79-E177E4B78FB0}"
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "query:/sitecore/content/TheAA/Modules/App Promo"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{1A2836B6-93D3-402A-B46D-63637EC164E0}" />
+- ID: "f172b787-7b88-4bd5-ae4d-6308e102ef11"
+  Hint: Enable Datasource Query
+  Value: 
+Languages:
+- Language: en
+  Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: This component is used to promote AA app.
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: This component is used to promote AA app.
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151215T130856Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0e15d158-b12a-4e5f-9d60-5f2da6db457f"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using Sitecore.Mvc.Presentation
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @using Sitecore.Data.Fields;
+        @using TheAA.Customisations.HtmlHelpers;
+        @using Sitecore.Mvc;
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        @{
+            var currentUrl = Model.GetItemUrl(Sitecore.Context.Item);
+            var iconURLAndroid = string.Empty;
+            var iconURLIos = string.Empty;
+            var design = Model.GetRenderingParameterLookup("Design");
+            design = (design == "Default") ? "" : design;
+        }
+        @functions{
+            string GetImageUrlWithCurrentUrl(string currentUrl, string mediaUrl)
+            {
+                if (currentUrl != "/")
+                {
+                    if (currentUrl.LastIndexOf("/") > 1)
+                    {
+                        String[] paths = currentUrl.Split('/');
+                        return "/" + paths[1] + mediaUrl;
+                    }
+                    else
+                    {
+                        return currentUrl + mediaUrl;
+                    }
+                }
+                return "";
+            }
+        }
+        <article class="cf @design @((design == "" || design == "Default") ? "" : Model.GetRenderingParameterLookup("BackgroundColor"))">
+            <div class="app-promo wrapper">
+                <figure class="image cf desktop-tablet-view">
+                    @Model.ResponsiveImage("DesktopImage", "DesktopRetinaImage", "1160px")
+                </figure>
+                <figure class="image cf mobile-view">
+                    @Model.ResponsiveImage("MobileImage", "MobileRetinaImage", "737px")
+                </figure>
+                <div class="text-overlay centred">
+                    <div class="inner cf" itemscope itemtype="http://schema.org/SoftwareApplication">
+                        <hgroup>
+                            <h2 class="alt">@Model.GetField("Title").RenderValue()</h2>
+                            <h6>@Model.GetField("Body").RenderValue()</h6>
+                        </hgroup>
+                        @{
+                            var androidButton = Model.GetField("AndroidButton");
+                            var androidButtonImage = Model.GetField("AndroidButtonImage");
+                            var iosButton = Model.GetField("IosButton");
+                            var iosButtonImage = Model.GetField("IosButtonImage");
+                        }
+                        @if (Model.GetField("ReplaceAndroidButtonWithHyperlink").Checked)
+                        {
+                            <h6>
+                                @if (androidButton.HasValueToRender())
+                                {
+                                    <a href="@androidButton.GetLinkUrl(true)" target="@androidButton.LinkTarget" class="android-cta" itemprop="name">
+                                        @androidButton.LinkText
+                                    </a>
+                                }
+                            </h6>
+                        }
+                        else if (androidButtonImage.HasValueToRender())
+                        {
+                            iconURLAndroid = GetImageUrlWithCurrentUrl(currentUrl, androidButtonImage.MediaURL);
+                            <a href="@androidButton.GetLinkUrl(true)" class="button android-cta">
+                                <img src="@iconURLAndroid" alt="@androidButtonImage.Alt" height="@androidButtonImage.Height" width="@androidButtonImage.Width" />
+                            </a>
+                        }
+                        else
+                        {
+                            if (androidButton.HasValueToRender())
+                            {
+                                <a href="@androidButton.GetLinkUrl(true)" target="@androidButton.LinkTarget" class="button android-cta" itemprop="name">
+                                    @androidButton.LinkText
+                                </a>
+                            }
+                        }
+                        @if (Model.GetField("ReplaceIosButtonWithHyperlink").Checked)
+                        {
+                            <h6>
+                                @if (iosButton.HasValueToRender())
+                                {
+                                    <a href="@iosButton.GetLinkUrl(true)" target="@iosButton.LinkTarget" class="ios-cta" itemprop="name">
+                                        @iosButton.LinkText
+                                    </a>
+                                }
+                            </h6>
+                        }
+                        else if (iosButtonImage.HasValueToRender())
+                        {
+                            iconURLIos = GetImageUrlWithCurrentUrl(currentUrl, iosButtonImage.MediaURL);
+                            <a href="@iosButton.GetLinkUrl(true)" class="button ios-cta">
+                                <img src="@iconURLIos" alt="@iosButtonImage.Alt" height="@iosButtonImage.Height" width="@iosButtonImage.Width" />
+                            </a>
+                        }
+                        else
+                        {
+                            if (iosButton.HasValueToRender())
+                            {
+                                <a href="@iosButton.GetLinkUrl(true)" target="@iosButton.LinkTarget" class="button ios-cta" itemprop="name">
+                                    @iosButton.LinkText
+                                </a>
+                            }
+                        }
+                        <div class="mobile-view unsupported-device-cta">
+                            @Model.GetField("UnsupportedDeviceText").RenderValue()
+                            @Model.GetField("UnsupportedDeviceLink").RenderField()
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241001T014700Z

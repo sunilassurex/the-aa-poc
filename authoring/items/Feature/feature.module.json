@@ -36,6 +36,11 @@
         "name": "renderingsMobileApp",
         "path": "/sitecore/layout/Renderings/Feature/Headless/mobile-app",
         "allowedPushOperations": "CreateUpdateAndDelete"
+      },
+      {
+        "name":"renderingsAA",
+        "path":"/sitecore/layout/Renderings/Feature/AA",
+        "allowedPushOperations":"CreateUpdateAndDelete"
       }
     ]
   }

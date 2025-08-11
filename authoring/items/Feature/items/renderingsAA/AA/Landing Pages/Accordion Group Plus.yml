@@ -1,0 +1,379 @@
+﻿---
+ID: "48ff8738-016f-4ceb-87ca-92ab7b0e1bd2"
+Parent: "038443e2-8b41-4c2c-ba2a-718794a0e0c3"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: /sitecore/layout/Renderings/Feature/AA/Landing Pages/Accordion Group Plus
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Software/32x32/element_add.png
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/TheAA/Modules/AccordionGroup
+- ID: "308e88f5-cd6e-4f8f-bafe-95a47dedefdc"
+  Hint: Editable
+  Value: 
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+- ID: "56776edf-261c-4abc-9fe7-70c618795239"
+  Hint: __Help link
+  Value: |
+    <link linktype="external" url="https://theaacom.atlassian.net/wiki/spaces/SIT/pages/5020549151/Accordion+Group+Plus" />
+- ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
+  Hint: Parameters Template
+  Value: "{E1772763-5442-4295-A922-7C6263DA83C4}"
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "query:/sitecore/content/TheAA/Modules/Accordions"
+- ID: "f172b787-7b88-4bd5-ae4d-6308e102ef11"
+  Hint: Enable Datasource Query
+  Value: 1
+Languages:
+- Language: en
+  Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: This component can be used to group multiple accordions into one accordion group.
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: This component can be used to group multiple accordions into one accordion group.
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240722T132739Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "64a940b2-6468-4b82-b0e5-d075ae1589c3"
+    - ID: "9e6a6532-99aa-4a0e-aba3-e7259e5429ba"
+      Hint: StyleSheets
+      Value: |
+        .accordion-group{
+        	display: flex;
+            flex-direction: column;
+        }
+        .accordion-group input {
+            display: none;
+        }
+        .accordion-group label h2 {
+            cursor: pointer;
+            padding: var(--space-medium) var(--space-large);
+            margin-right: var(--space-x-large);
+            border-radius: 4px;
+        }
+        .accordion-group input:checked + label h2 {
+            background-color: var(--color-mono-lightest);
+        }
+        .accordion-group input:not(:checked) +label h2 {
+            text-decoration-line: underline;
+            text-underline-offset: 6px;
+            text-decoration-skip-ink: none;
+        }
+        .accordion-group .accordion-header{
+        	display: flex;
+        	flex-wrap: wrap;
+            gap: var(--space-x-large);
+            margin-bottom: var(--space-large);
+        }
+        .accordion-group .content details {
+            margin-bottom: var(--space-large);
+        }
+        .accordion-group details[open] summary {
+            margin-bottom: 0px;
+        }
+        .accordion-group .content summary {
+            border-radius: 4px;
+            padding: var(--space-large) 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+        }
+        
+        .accordion-group summary h3 {
+            width: 100%;
+            font-size: var(--h4-font-size);
+            line-height: var(--h4-line-height);
+        }
+        
+        .accordion-group summary::after {
+            content: '';
+            display: inline-block;
+            height: var(--space-x-large);
+            width: var(--space-x-large);
+            background: url(/Assets/images/icons/arrow-down.svg) no-repeat 0 0;
+            background-size: var(--space-x-large);
+        }
+        
+        .accordion-group .content summary::marker {
+            content: '';
+        }
+        
+        .accordion-group .accordion-content .content {
+            display: none;
+        }
+        .accordion-group:has(#accordionGroup1:checked) > div.accordion-content .accordionGroup1, .accordion-group:has(#accordionGroup2:checked) > div.accordion-content .accordionGroup2, .accordion-group:has(#accordionGroup3:checked) > div.accordion-content .accordionGroup3 , .accordion-group:has(#accordionGroup4:checked) > div.accordion-content .accordionGroup4 , .accordion-group:has(#accordionGroup5:checked) > div.accordion-content .accordionGroup5 , .accordion-group:has(#accordionGroup6:checked) > div.accordion-content .accordionGroup6 , .accordion-group:has(#accordionGroup7:checked) > div.accordion-content .accordionGroup7 , .accordion-group:has(#accordionGroup8:checked) > div.accordion-content .accordionGroup8 , .accordion-group:has(#accordionGroup9:checked) > div.accordion-content .accordionGroup9 , .accordion-group:has(#accordionGroup10:checked) > div.accordion-content .accordionGroup10 {
+            display: block;
+        }
+        .accordion-group details[open] summary::after {
+            transform: rotate(180deg);
+        }
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Domain.Interfaces.Repositories;
+        @using TheAA.Application;
+        @using TheAA.Domain.DataTransferObjects;
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @using System.Linq;
+        @using Sitecore.Data.Items;
+        @using System.Collections.Generic;
+        @using Sitecore.Mvc;
+        @using TheAA.Customisations.HtmlHelpers;
+        
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        @{
+            var accordionSectionItems = Model.GetField("AccordionSectionSelection").SelectedItems();
+            var count = 1;
+        }
+        <section class="@Model.GetRenderingParameterLookup("Background Color") @Model.GetTopAndBottomPaddings()">
+            <div class="accordion-group container">
+                <div class="accordion-header">
+                    @foreach (var accordionSectionItem in accordionSectionItems)
+                    {
+                        var headerField = accordionSectionItem.GetField("AccordionSectionHeader");
+                        var groupID = "accordionGroup" + count;
+                        if (headerField.HasValueToRender())
+                        {
+                            <div class="group">
+                                <input type="radio" id="@groupID" name="accordion-group" @(count == 1 ? "checked" : "")>
+                                <label for="@groupID">
+                                    <h2>@headerField.RenderValue()</h2>
+                                </label>
+                            </div>
+                        }
+                        count++;
+                    }
+                </div>
+                @{ 
+                    count = 1;
+                }
+                <div class="accordion-content">
+                    @foreach (var accordionSectionItem in accordionSectionItems)
+                    {
+                        var groupID = "accordionGroup" + count;
+                        @:<div class="content @groupID">
+                            IEnumerable<Item> accodionItemList = accordionSectionItem.Children.Where(x => x.TemplateName == "AccordionItem");
+                            foreach (var accordionItem in accodionItemList)
+                            {
+                                <details @(accordionItem.GetField("OpenByDefault").Checked? "open":"")>
+                                    <summary>
+                                        <h3>@accordionItem.GetField("AccordionTitle").RenderValue()</h3>
+                                    </summary>
+                                    <div class="body-content">@accordionItem.GetField("AccordionText").RenderValue()</div>
+                                </details>
+                            }
+                            count++;
+                        @:</div>
+                    }
+                </div>
+            </div>
+        </section>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241107T024206Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241021T121813Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2967283c-b6fb-4c35-9552-e26396f5d95f"
+    - ID: "9e6a6532-99aa-4a0e-aba3-e7259e5429ba"
+      Hint: StyleSheets
+      Value: |
+        .accordion-group{
+        	display: flex;
+            flex-direction: column;
+        }
+        .accordion-group input {
+            display: none;
+        }
+        .accordion-group label h2 {
+            cursor: pointer;
+            padding: var(--space-medium) var(--space-large);
+            margin-right: var(--space-x-large);
+            border-radius: 4px;
+        }
+        .accordion-group input:checked + label h2 {
+            background-color: var(--color-mono-lightest);
+        }
+        .accordion-group input:not(:checked) +label h2 {
+            text-decoration-line: underline;
+            text-underline-offset: 6px;
+            text-decoration-skip-ink: none;
+        }
+        .accordion-group .accordion-header{
+        	display: flex;
+        	flex-wrap: wrap;
+            gap: var(--space-x-large);
+            margin-bottom: var(--space-large);
+        }
+        .accordion-group .content details {
+            margin-bottom: var(--space-large);
+        }
+        .accordion-group details[open] summary {
+            margin-bottom: 0px;
+        }
+        .accordion-group .content summary {
+            border-radius: 4px;
+            padding: var(--space-large) 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+        }
+        
+        .accordion-group summary h3 {
+            width: 100%;
+            font-size: var(--h4-font-size);
+            line-height: var(--h4-line-height);
+        }
+        .accordion-group summary::after {
+            content: '';
+            display: inline-block;
+            height: var(--space-x-large);
+            width: var(--space-x-large);
+            background: url(/Assets/images/icons/arrow-down.svg) no-repeat 0 0;
+            background-size: var(--space-x-large);
+        }
+        .accordion-group .content summary::marker {
+            content: '';
+        }
+        .accordion-group details summary::-webkit-details-marker {
+          display:none;
+        }
+        .accordion-group .accordion-content .content {
+            display: none;
+        }
+        .accordion-group details[open] summary::after {
+            transform: rotate(180deg);
+        }
+        .accordion-group:has(input.acc-grp-1:checked) > div.accordion-content .acc-grp-1,
+        .accordion-group:has(input.acc-grp-2:checked) > div.accordion-content .acc-grp-2,
+        .accordion-group:has(input.acc-grp-3:checked) > div.accordion-content .acc-grp-3,
+        .accordion-group:has(input.acc-grp-4:checked) > div.accordion-content .acc-grp-4,
+        .accordion-group:has(input.acc-grp-5:checked) > div.accordion-content .acc-grp-5,
+        .accordion-group:has(input.acc-grp-6:checked) > div.accordion-content .acc-grp-6,
+        .accordion-group:has(input.acc-grp-7:checked) > div.accordion-content .acc-grp-7,
+        .accordion-group:has(input.acc-grp-8:checked) > div.accordion-content .acc-grp-8,
+        .accordion-group:has(input.acc-grp-9:checked) > div.accordion-content .acc-grp-9,
+        .accordion-group:has(input.acc-grp-10:checked) > div.accordion-content .acc-grp-10,
+        .accordion-group:has(input.acc-grp-11:checked) > div.accordion-content .acc-grp-11,
+        .accordion-group:has(input.acc-grp-12:checked) > div.accordion-content .acc-grp-12,
+        .accordion-group:has(input.acc-grp-13:checked) > div.accordion-content .acc-grp-13,
+        .accordion-group:has(input.acc-grp-14:checked) > div.accordion-content .acc-grp-14,
+        .accordion-group:has(input.acc-grp-15:checked) > div.accordion-content .acc-grp-15{
+            display: block;
+        }
+        .accordion-group a:focus, .accordion-group label h2:focus, .accordion-group .content summary:focus {
+            outline: none;
+            border-radius: 4px;
+            box-shadow: 0 0 0 2px var(--color-white), 0 0 0 5px var(--color-blue-focus);
+        }
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Domain.Interfaces.Repositories;
+        @using TheAA.Application;
+        @using TheAA.Domain.DataTransferObjects;
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @using System.Linq;
+        @using Sitecore.Data.Items;
+        @using System.Collections.Generic;
+        @using Sitecore.Mvc;
+        @using TheAA.Customisations.HtmlHelpers;
+        
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        @{
+            var accordionSectionItems = Model.GetField("AccordionSectionSelection").SelectedItems();
+            var accordionCompId = Guid.NewGuid().ToString(); // Unique identifier for each accordion component
+            var count = 1;
+        }
+        <section class="@Model.GetRenderingParameterLookup("Background Color") @Model.GetTopAndBottomPaddings()">
+            <div class="accordion-group container">
+                <div class="accordion-header">
+                    @foreach (var accordionSectionItem in accordionSectionItems)
+                    {
+                        var headerField = accordionSectionItem.GetField("AccordionSectionHeader");
+                        var groupID = "acc-grp-" + count + "-" + accordionCompId;
+                        var groupClass = "acc-grp-" + count;
+        
+                        if (headerField.HasValueToRender())
+                        {
+                            <div class="group">
+                                <input type="radio" id="@groupID" class="@groupClass" name="acc-comp-@accordionCompId" @(count == 1 ? "checked" : "")>
+                                <label for="@groupID">
+                                    <h2 tabindex="0">@headerField.RenderValue()</h2>
+                                </label>
+                            </div>
+                        }
+                        count++;
+                    }
+                </div>
+                @{
+                    count = 1;
+                }
+                <div class="accordion-content">
+                    @foreach (var accordionSectionItem in accordionSectionItems)
+                    {
+                        var groupClass = "acc-grp-" + count;
+                        @:<div class="@groupClass content">
+                            IEnumerable<Item> accodionItemList = accordionSectionItem.Children.Where(x => x.TemplateName == "AccordionItem");
+                            foreach (var accordionItem in accodionItemList)
+                            {
+                                <details @(accordionItem.GetField("OpenByDefault").Checked ? "open" : "")>
+                                    <summary>
+                                        <h3>@accordionItem.GetField("AccordionTitle").RenderValue()</h3>
+                                    </summary>
+                                    <div class="body-content">@accordionItem.GetField("AccordionText").RenderValue()</div>
+                                </details>
+                            }
+                            count++;
+                        @:</div>
+                    }
+                </div>
+            </div>
+        </section>
+        <script type="text/javascript">
+            document.querySelectorAll('input[name="acc-comp-@accordionCompId"]').forEach(function (radio) {
+                const h2 = radio.closest('.group').querySelector('h2[tabindex="0"]');
+                if (h2) {
+                    h2.addEventListener('keydown', function (event) {
+                        if (event.key === 'Enter' || event.key === ' ') {
+                            event.preventDefault();
+                            radio.checked = true;
+                        }
+                    });
+                }
+            });
+        </script>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241021T121813Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241107T024206Z

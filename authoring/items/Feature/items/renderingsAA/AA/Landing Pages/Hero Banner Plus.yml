@@ -1,0 +1,730 @@
+﻿---
+ID: "6e7cf1c4-f6cb-44aa-b540-106050b7c3d9"
+Parent: "038443e2-8b41-4c2c-ba2a-718794a0e0c3"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: /sitecore/layout/Renderings/Feature/AA/Landing Pages/Hero Banner Plus
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Software/32x32/element_add.png
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/Feature/AA/LandingPage/Hero Banner Plus
+- ID: "308e88f5-cd6e-4f8f-bafe-95a47dedefdc"
+  Hint: Editable
+  Value: 1
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+- ID: "56776edf-261c-4abc-9fe7-70c618795239"
+  Hint: __Help link
+  Value: |
+    <link text="Hero Banner Plus" linktype="external" url="https://theaacom.atlassian.net/wiki/spaces/SIT/pages/4981063744/Hero+Banner+Plus" anchor="" target="_blank" />
+- ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
+  Hint: Parameters Template
+  Value: 
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: 
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "7f629d68-3ef3-414e-9601-2fa9845138f6"
+- ID: "f172b787-7b88-4bd5-ae4d-6308e102ef11"
+  Hint: Enable Datasource Query
+  Value: 1
+Languages:
+- Language: en
+  Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: This component renders Hero Banner on Page.
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: This component renders Hero Banner on Page.
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240509T121650Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Paul.Petersen
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "92aef19b-a01e-45e0-b195-7f6aa017fb4e"
+    - ID: "9e6a6532-99aa-4a0e-aba3-e7259e5429ba"
+      Hint: StyleSheets
+      Value: |
+        section.hb-section {
+          background-color: var(--color-yellow);
+          padding-top: var(--space-x-large);
+        }
+        
+        .hb-section .container {
+          display: flex;
+          gap: var(--space-large);
+        }
+        
+        .hb-img-left {
+          flex-direction: row-reverse;
+        }
+        
+        .hb-img-right {
+          flex-direction: row;
+        }
+        
+        .hb-img-top {
+          flex-direction: column-reverse;
+        }
+        
+        .hb-img-bottom {
+          flex-direction: column;
+        }
+        
+        .hb-section .landing-heading {
+          margin-bottom: var(--space-medium);
+        }
+        
+        .hb-section .hero-text {
+          margin-bottom: var(--space-large);
+        }
+        
+        .hb-content {
+          display: flex;
+          flex-basis: 100%;
+          align-self: stretch;
+          gap: var(--space-x-large);
+          flex-grow: 0;
+          flex-shrink: 0;
+          flex-direction: column;
+        }
+        
+        .hb-images {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: var(--space-medium);
+        }
+        .hb-images img {
+          position: relative;
+        }
+        
+        .hb-richtext {
+          display: flex;
+          flex-direction: column;
+          gap: var(--space-medium);
+        }
+        
+        .hb-bottom-img {
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          height: var(--space-x-large);
+          margin-bottom: var(--space-medium);
+        }
+        
+        .hb-ctas {
+          display: flex;
+          align-items: flex-start;
+          gap: var(--space-x-large);
+        }
+        
+        .hb-awards {
+          display: flex;
+          gap: var(--space-xx-large);
+          align-items: center;
+        }
+        
+        .hb-75 {
+          flex-basis: calc(75% - var(--space-large) / 2);
+        }
+        
+        .hb-60 {
+          flex-basis: calc(60% - var(--space-large) / 2);
+        }
+        
+        .hb-50 {
+          flex-basis: calc(50% - var(--space-large) / 2);
+        }
+        
+        /***************************************/
+        /********** Media Queries **************/
+        /***************************************/
+        @media (max-width: 1024px) {
+          .hb-images {
+            display: none;
+          }
+          .hb-75,
+          .hb-60,
+          .hb-50 {
+            flex: 0 0 100%;
+          }
+        }
+        @media (max-width: 480px) {
+          section.hb-section {
+            padding-top: var(--space-large);
+          }
+          .hb-ctas {
+            flex-direction: column;
+          }
+          .hb-ctas .button {
+            width: 100%;
+          }
+          .hb-awards {
+            flex-direction: column;
+          }
+        }
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        
+        @functions {
+        	public string GetLinkCssClass(string linkCssClass, string fallbackCssClass) {
+        		var cssClass = fallbackCssClass;
+        		if(!string.IsNullOrWhiteSpace(linkCssClass))
+        		{
+        			cssClass = linkCssClass;
+        		}
+        		return cssClass;
+        	}
+        }
+        
+        @{
+           	var headingTextField = Model.GetField("HeadingText");
+           	var heroTitleField = Model.GetField("HeroTitle");
+           	var subTitleField = Model.GetField("SubTitle");
+        	var priCtaField = Model.GetField("PrimaryCta");
+        	var secCtaField = Model.GetField("SecondaryCta");
+           	var priContentField = Model.GetField("PrimaryContent");
+           	var secContentField = Model.GetField("SecondaryContent");
+           	
+           	var priImgField = Model.GetField("PrimaryImage");
+           	var btmImgField = Model.GetField("BottomImage");
+           	var priImgClass = Model.GetRenderingParameter("PrimaryImageCSSClass");
+           	var fgImgPosition = Model.GetRenderingParameterLookup("ForegroundImagePosition");
+           	var copyScreenSize = Model.GetRenderingParameterLookup("CopyScreenSize");
+           	
+           	var containerCls = "container";
+           	if(!string.IsNullOrEmpty(fgImgPosition))
+           	{
+              	containerCls += " hb-img-" + fgImgPosition.ToLower();
+           	}
+           	
+           	var hbContentCls = "hb-content";
+           	var isPriImageAvailable = priImgField.HasValueToRender();
+           	if(isPriImageAvailable || !string.IsNullOrEmpty(copyScreenSize))
+           	{
+              	if(string.IsNullOrEmpty(copyScreenSize))
+              	{
+              		copyScreenSize = "50";
+              	}
+              	hbContentCls += " hb-" + copyScreenSize;
+           	}
+        	
+        	var hbSectionCls = "hb-section";
+        	var btmPadding = Model.GetPadding("BottomPadding");
+        	if(!string.IsNullOrWhiteSpace(btmPadding))
+        	{
+        		hbSectionCls += string.Format(" {0}", btmPadding);
+        	}
+        }
+        
+        <section class="@hbSectionCls">
+          <div class="@containerCls">
+            <div class="@hbContentCls">
+              <div>
+              		@if(headingTextField.HasValueToRender())
+              		{
+              			<h1 class="landing-heading">@headingTextField.RenderValue()</h1>
+              		}
+              		@if(heroTitleField.HasValueToRender())
+              		{
+              			<p class="hero-text">
+              			  @heroTitleField.RenderValue()
+              			</p>
+              		}
+              		@if(subTitleField.HasValueToRender())
+              		{
+              			<p class="large sm-center">
+              			  @subTitleField.RenderValue()
+              			</p>
+              		}
+              </div>
+           	  
+           	  @if(priContentField.HasValueToRender())
+           	  {
+              		<div class="hb-richtext">
+              			@priContentField.RenderValue()
+              		</div>
+           	  }
+              
+           	  @if(priCtaField.HasValueToRender() || secCtaField.HasValueToRender())
+           	  {
+              		  <div class="hb-ctas">
+              			@if(priCtaField.HasValueToRender())
+              			{ 	var cssClass = "button black-button";
+              				<a href="@priCtaField.LinkUrl" class="@GetLinkCssClass(priCtaField.LinkClass, cssClass)">@priCtaField.LinkText</a>
+              			}
+        				@if(secCtaField.HasValueToRender())
+              			{
+        					var cssClass = "button transparent-button";
+              				<a href="@secCtaField.LinkUrl" class="@GetLinkCssClass(secCtaField.LinkClass, cssClass)">@secCtaField.LinkText</a>
+              			}
+              		  </div>
+           	  }
+           	  
+           	  @if(secContentField.HasValueToRender())
+           	  {
+              		<div class="hb-richtext">
+              			@secContentField.RenderValue()
+              		</div>
+           	  }
+        	  
+        	  @Model.RenderPlaceholder("awards")
+              
+            </div>
+        
+           	@if(isPriImageAvailable)
+           	{
+              		var secImgField = Model.GetField("SecondaryImage");
+              		var terImgField = Model.GetField("TertiaryImage");
+              		
+              		var secImgClass = Model.GetRenderingParameter("SecondaryImageCSSClass");
+              		var terImgClass = Model.GetRenderingParameter("TertiaryImageCSSClass");
+              		
+              		<div class="hb-images">
+              		  @priImgField.RenderImage(priImgClass)
+              		  @secImgField.RenderImage(secImgClass)
+              		  @terImgField.RenderImage(terImgClass)
+              		</div>
+           	}
+            
+          </div>
+        </section>
+        
+        @if(btmImgField.HasValueToRender())
+        {
+           	var btmImgStyles = Model.GetRenderingParameter("BottomImageStyles");
+           	var bgImgStyles = string.Format("background-image:url({0});", @btmImgField.MediaURL);
+           	if(!string.IsNullOrEmpty(btmImgStyles))
+           	{
+              		bgImgStyles += btmImgStyles;
+           	}
+        
+           	<div class="hb-bottom-img" style="@bgImgStyles">
+           	</div>
+        }
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241205T030524Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241111T061222Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0b412ebe-877b-4bd9-96ad-e1bd4b2a7e0e"
+    - ID: "9e6a6532-99aa-4a0e-aba3-e7259e5429ba"
+      Hint: StyleSheets
+      Value: |
+        section.hb-section {
+          background-color: var(--color-yellow);
+          padding-top: var(--space-x-large);
+        }
+        
+        section.hb-section .container {
+          display: flex;
+          gap: var(--space-large);
+        }
+        
+        section.hb-section .hb-content {
+          display: flex;
+          flex-basis: 100%;
+          align-self: stretch;
+          gap: var(--space-x-large);
+          flex-grow: 0;
+          flex-shrink: 0;
+          flex-direction: column;
+        }
+        
+        section.hb-section .hb-images {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          gap: var(--space-medium);
+        }
+        section.hb-section .hb-images img {
+          position: relative;
+        }
+        
+        section.hb-section .hb-richtext {
+          display: flex;
+          flex-direction: column;
+          gap: var(--space-medium);
+        }
+        
+        section.hb-section + .hb-bottom-img {
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          height: var(--space-x-large);
+          margin-bottom: var(--space-medium);
+        }
+        
+        section.hb-section .hb-ctas {
+          display: flex;
+          align-items: flex-start;
+          gap: var(--space-x-large);
+        }
+        
+        section.hb-section .hb-awards {
+          display: flex;
+          gap: var(--space-xx-large);
+          align-items: center;
+        }
+        
+        section.hb-section .hb-75 {
+          flex-basis: calc(75% - var(--space-large) / 2);
+        }
+        
+        section.hb-section .hb-60 {
+          flex-basis: calc(60% - var(--space-large) / 2);
+        }
+        
+        section.hb-section .hb-50 {
+          flex-basis: calc(50% - var(--space-large) / 2);
+        }
+        
+        /***************************************/
+        /********** Media Queries **************/
+        /***************************************/
+        @media (max-width: 1024px) {
+          section.hb-section .hb-75,
+          section.hb-section .hb-60,
+          section.hb-section .hb-50 {
+            flex: 0 0 100%;
+          }
+        }
+        @media (max-width: 480px) {
+          section.hb-section {
+            padding-top: var(--space-large);
+          }
+          section.hb-section .hb-ctas {
+            flex-direction: column;
+          }
+          section.hb-section .hb-ctas .button {
+            width: 100%;
+          }
+          section.hb-section .hb-awards {
+            flex-direction: column;
+          }
+        }
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using System.Web.Mvc;
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @using TheAA.Domain.Interfaces.Repositories;
+        @using System.Globalization;
+        @using Sitecore.Data.Items;
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        
+        @{
+            var headingTextField = Model.GetField("HeadingText");
+            var heroTitleField = Model.GetField("HeroTitle");
+            var subTitleField = Model.GetField("SubTitle");
+            var priCtaField = Model.GetField("PrimaryCta");
+            var secCtaField = Model.GetField("SecondaryCta");
+            var priContentField = Model.GetField("PrimaryContent");
+            var secContentField = Model.GetField("SecondaryContent");
+        
+            var priImgField = Model.GetField("PrimaryImage");
+            var bgImgField = Model.GetField("BackgroundImage");
+            var btmImgField = Model.GetField("BottomImage");
+            var copyScreenSize = GetItemFieldValue(null, "CopyScreenSize");
+            var offerTag = Model.GetField("OfferTag").GetTarget();
+            var structure = GetItemFieldValue(null, "Structure", "prim-img-out-content");
+            var designItem = Model.GetField("Design").GetTarget();
+        
+            var offerSettings = DependencyResolver.Current.GetService<IOfferSettings>();
+            var offerService = DependencyResolver.Current.GetService<IOfferService>();
+            var errorHandlerService = DependencyResolver.Current.GetService<IErrorHandlerService>();
+        
+            var offerStartDate = Model.GetField("OfferStartDate");
+            var offerEndDate = Model.GetField("OfferEndDate");
+        
+            var timerMsg = "";
+            var showTimer = true;
+            var displayOfferEndTodayValue = Model.GetField("DisplayOfferEndTodayValue").Checked;
+        
+            if (offerSettings != null && offerSettings.EnableHeroComponentCountdownMessage)
+            {
+                if (offerService.HasActiveOffer)
+                {
+                    timerMsg = offerService.GetCountDownMessage(displayOfferEndTodayValue);
+        
+                    showTimer = offerService.ShowCountDownMessage();
+                }
+            }
+            else
+            {
+                if (offerTag != null)
+                {
+                    timerMsg = offerTag.GetField("Offer Text").RenderValue().ToString();
+                }
+        
+                // start GetTimerMessage
+                var timeRemainingMsg = string.Empty;
+                try
+                {
+                    if (offerEndDate.HasValueToRender())
+                    {
+                        double offset = (TimeZoneInfo.ConvertTime(DateTime.UtcNow, TimeZoneInfo.FindSystemTimeZoneById("GMT Standard Time")) - DateTime.UtcNow).TotalMinutes;
+                        DateTime offerEndDateWithOffset = offerEndDate.RenderDateTimeValue().AddMinutes(offset);
+                        var daysLeftToOfferEnd = (offerEndDateWithOffset.Date - DateTime.UtcNow.Date).TotalDays.ToString(CultureInfo.CurrentCulture);
+        
+                        if (offerEndDateWithOffset >= DateTime.UtcNow)
+                        {
+                            string offerEndTime = offerEndDateWithOffset.ToString("h:mmtt").ToLower();
+                            switch (daysLeftToOfferEnd)
+                            {
+                                case "0":
+                                    string displayTimerMessage = "today at " + offerEndTime;
+                                    timeRemainingMsg = displayOfferEndTodayValue ? displayTimerMessage : "today";
+                                    break;
+                                case "1":
+                                    timeRemainingMsg = "tomorrow at " + offerEndTime;
+                                    break;
+                                case "2":
+                                case "3":
+                                case "4":
+                                case "5":
+                                case "6":
+                                case "7":
+                                case "8":
+                                case "9":
+                                case "10":
+                                case "11":
+                                case "12":
+                                case "13":
+                                case "14":
+                                case "15":
+                                    timeRemainingMsg = "in " + daysLeftToOfferEnd + " days";
+                                    break;
+                                default:
+                                    break;
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    errorHandlerService.LogError("Error in generating timer message, message: " +
+                                                  ex.Message);
+                }
+                if (!string.IsNullOrEmpty(timeRemainingMsg))
+                {
+                    timerMsg += " " + timeRemainingMsg;
+                }
+                // stop GetTimerMessage
+                if (offerStartDate.HasValueToRender())
+                {
+                    showTimer = offerStartDate.RenderDateTimeValue() <= DateTime.UtcNow;
+                }
+        
+            }
+        
+            var containerCls = "container";
+        
+            var hbContentCls = "hb-content";
+            var isPriImageAvailable = priImgField.HasValueToRender();
+            if (isPriImageAvailable || !string.IsNullOrEmpty(copyScreenSize))
+            {
+                if (string.IsNullOrEmpty(copyScreenSize))
+                {
+                    copyScreenSize = "50";
+                }
+                hbContentCls += " hb-" + copyScreenSize;
+            }
+        
+            var hbSectionCls = "hb-section";
+            var btmPadding = GetItemFieldValue(null, "BottomPadding");
+            if (!string.IsNullOrWhiteSpace(btmPadding))
+            {
+                hbSectionCls += " bp-" + btmPadding;
+            }
+        }
+        @functions {
+            public string GetLinkCssClass(string linkCssClass, string fallbackCssClass)
+            {
+                var cssClass = fallbackCssClass;
+                if (!string.IsNullOrWhiteSpace(linkCssClass))
+                {
+                    cssClass = linkCssClass;
+                }
+                return cssClass;
+            }
+            string GetItemFieldValue(Item item, string fieldName, string defaultValue = "")
+            {
+                Item fieldItem;
+                if (item != null)
+                {
+                    fieldItem = item.GetField(fieldName).GetTarget();
+                }
+                else
+                {
+                    fieldItem = Model.GetField(fieldName).GetTarget();
+                }
+                if (fieldItem != null)
+                {
+                    return fieldItem.GetField("Value").Value();
+                }
+                return defaultValue;
+            }
+        
+        }
+        
+        <section class="@hbSectionCls">
+            <div class="@containerCls">
+                <div class="@hbContentCls">
+                    <div>
+                        @if (headingTextField.HasValueToRender())
+                        {
+                            <h1 class="landing-heading">@headingTextField.RenderValue()</h1>
+                        }
+                        @if (timerMsg != string.Empty && showTimer && offerTag != null)
+                        {
+                            <p class="offer-tag @GetItemFieldValue(offerTag, "Background Color") @GetItemFieldValue(offerTag, "Text Color") @GetItemFieldValue(offerTag, "Font Size")">@timerMsg</p>
+        
+                        }
+                        <div class="hb-middle-content">
+                            @if (bgImgField.HasValueToRender())
+                            {
+                                @:<div class="hb-bg-img" style="background-image: url(@bgImgField.MediaURL);">
+                                }
+                            @if (heroTitleField.HasValueToRender())
+                            {
+                                <p class="hero-text">
+                                    @heroTitleField.RenderValue()
+                                </p>
+                            }
+                            @if (bgImgField.HasValueToRender())
+                            {
+                            @:</div>
+                        }
+        
+                            @if (isPriImageAvailable && structure == "prim-img-in-content")
+                            {
+                                <div class="hb-prim-img">
+                                    @priImgField.RenderImage(Model.GetField("PrimaryImageCSSClass").Value())
+                                </div>
+                            }
+                        </div>
+                        @if (subTitleField.HasValueToRender())
+                        {
+                            <p class="large sm-center">
+                                @subTitleField.RenderValue()
+                            </p>
+                        }
+                    </div>
+        
+                    @if (priContentField.HasValueToRender())
+                    {
+                        <div class="hb-richtext">
+                            @priContentField.RenderValue()
+                        </div>
+                    }
+        
+                    @if (priCtaField.HasValueToRender() || secCtaField.HasValueToRender())
+                    {
+                        <div class="hb-ctas">
+                            @if (priCtaField.HasValueToRender())
+                            {
+                                var cssClass = "button black-button";
+                                <a href="@priCtaField.GetLinkUrl(true, false)" class="@GetLinkCssClass(priCtaField.LinkClass, cssClass)">@priCtaField.LinkText</a>
+                            }
+                            @if (secCtaField.HasValueToRender())
+                            {
+                                var cssClass = "button transparent-button";
+                                <a href="@secCtaField.GetLinkUrl(true, false)" class="@GetLinkCssClass(secCtaField.LinkClass, cssClass)">@secCtaField.LinkText</a>
+                            }
+                        </div>
+                    }
+        
+                    @if (secContentField.HasValueToRender())
+                    {
+                        var awardsPosition = GetItemFieldValue(null, "AwardsPosition");
+                        var awardsPositionClass = "";
+                        if (!string.IsNullOrEmpty(awardsPosition))
+                        {
+                            awardsPositionClass = "hb-awards-" + awardsPosition.ToLower();
+                        }
+                        <div class="hb-sec @GetItemFieldValue(null, "SecondaryBackgroundColor", "bg-light-grey") @awardsPositionClass">
+                            <div class="hb-richtext">
+                                @secContentField.RenderValue()
+                            </div>
+                            @Model.RenderPlaceholder("awards")
+                        </div>
+                    }
+                    else
+                    {
+                        @Model.RenderPlaceholder("awards")
+                    }
+        
+        
+                </div>
+        
+                @if (isPriImageAvailable)
+                {
+                    <div class="hb-images">
+                        @if (structure == "prim-img-out-content")
+                        {
+                            @priImgField.RenderImage(Model.GetField("PrimaryImageCSSClass").Value())
+                        }
+                        @Model.GetField("SecondaryImage").RenderImage(Model.GetField("SecondaryImageCSSClass").Value())
+                    </div>
+                }
+        
+            </div>
+        </section>
+        
+        @if (btmImgField.HasValueToRender())
+        {
+            var bgImgStyles = string.Format("background-image:url({0});", @btmImgField.MediaURL);
+        
+            <div class="hb-bottom-img" style="@bgImgStyles">
+            </div>
+        }
+        @if (designItem != null)
+        {
+            <style>
+                    @Model.Html.Raw(Model.MinimiseCss(designItem.GetField("Styles").Value()))
+            </style>
+        }
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241111T061222Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250801T130356Z
