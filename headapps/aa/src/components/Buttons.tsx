@@ -7,6 +7,7 @@ type ButtonProps = {
   buttonType: string;
   buttonTextAlign: string;
   buttonWidth?: string;
+  customClass?: string;
 };
 
 type ButtonsComponentProps = {
