@@ -2,19 +2,29 @@
 ID: "22ce8fe0-bac5-449e-9eb9-cae5bb8d3f57"
 Parent: "6086a2ac-4fd4-4c3d-b178-c9f6d6a1a987"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
-Path: /sitecore/templates/Feature/AA/Structure/Columns/ParametersTemplate_ColumnWidth/Settings/Number of column
+Path: /sitecore/templates/Feature/AA/Structure/Columns/ParametersTemplate_ColumnWidth/Settings/Numberofcolumn
 SharedFields:
 - ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
   Hint: Source
-  Value: /sitecore/system/Settings/Feature/Structure/Columns/Column Width
+  Value: "{4107FEF2-09DD-466C-B125-E86B6CB036EA}"
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: Droplink
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 100
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "28674d72-d382-4470-8d78-92c6f719b8b1"
 Languages:
 - Language: en
+  Fields:
+  - ID: "19a69332-a23e-4e70-8d16-b2640cb24cc8"
+    Hint: Title
+    Value: Number of column
+  - ID: "30e85e5d-e00a-4864-b358-7624d511deb4"
+    Hint: __Unversioned revision
+    Value: "d74e85fd-0ab8-4828-9265-e0457ef8d0da"
   Versions:
   - Version: 1
     Fields:
@@ -27,11 +37,11 @@ Languages:
         sitecore\admin
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4fb33332-28ca-4d9a-bdb8-4e981d25649c"
+      Value: "de5dc95d-301d-4066-89e6-8b27184e2044"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\unicorn
+        sitecore\rohit.pandey@assurex.co
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220120T043705Z
+      Value: 20250818T065358Z
