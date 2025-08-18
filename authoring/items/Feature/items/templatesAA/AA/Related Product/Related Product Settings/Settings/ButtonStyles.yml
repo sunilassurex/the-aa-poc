@@ -6,13 +6,16 @@ Path: /sitecore/templates/Feature/AA/Related Product/Related Product Settings/Se
 SharedFields:
 - ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
   Hint: Source
-  Value: /sitecore/system/Settings/Foundation/Button Styles
+  Value: "{23B328E1-A94E-43AF-80F3-8B7E4A2B7B83}"
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: Droplink
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 500
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "ee23e013-717c-4876-be61-056bfe6ab08b"
 Languages:
 - Language: en
   Versions:
@@ -23,11 +26,11 @@ Languages:
       Value: 20211216T150000Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "c5c3c8e8-d0b3-4a02-880f-383e99b36601"
+      Value: "c6ede4f8-9d86-4825-9b98-9268e3f77839"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\unicorn
+        sitecore\rohit.pandey@assurex.co
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220120T043604Z
+      Value: 20250818T070350Z
