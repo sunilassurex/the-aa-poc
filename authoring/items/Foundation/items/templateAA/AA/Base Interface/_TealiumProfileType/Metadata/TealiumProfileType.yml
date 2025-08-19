@@ -6,13 +6,16 @@ Path: /sitecore/templates/Foundation/AA/Base Interface/_TealiumProfileType/Metad
 SharedFields:
 - ID: "1eb8ae32-e190-44a6-968d-ed904c794ebf"
   Hint: Source
-  Value: /sitecore/system/Settings/Foundation/TealiumProfileTypes
+  Value: "{FE855649-F381-4D7C-A46F-3D2399A2858B}"
 - ID: "ab162cc0-dc80-4abf-8871-998ee5d7ba32"
   Hint: Type
   Value: Droplink
 - ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
   Hint: __Sortorder
   Value: 100
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "759cc0fb-fae4-49ad-9053-933eec0c33db"
 Languages:
 - Language: en
   Versions:
@@ -23,11 +26,11 @@ Languages:
       Value: 20220413T181017Z
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "4cd86296-b318-4a9e-aa77-f8a894a7dfcf"
+      Value: "e3ad88a8-66a7-4638-aa7d-3d7ffe835f21"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\unicorn
+        sitecore\rohit.pandey@assurex.co
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20220512T033600Z
+      Value: 20250819T115501Z
