@@ -1,0 +1,59 @@
+﻿---
+ID: "f6227591-8200-414c-910c-8f0c497d1e49"
+Parent: "fda5992f-e43c-4893-9884-56069deab960"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: /sitecore/layout/Renderings/Feature/AA/Script/PageScripting
+SharedFields:
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250220T065701Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5a813275-e0f0-49d0-bea7-54aa6f3be66f"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @using Sitecore.Data.Items;
+        @using System.Web.Optimization;
+        
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        
+        @{
+            if (Model != null)
+            {
+                var pageScriptItems = Model.Rendering.Item.Children.Where(x => x.TemplateName == "PageScript");
+        
+                foreach (var child in pageScriptItems)
+                {
+                    @Model.Html.Raw(string.Format("<script {0}{1}{2}{3}{4}{5}>{6}</script>\r\n",
+                                    child.GetField("Async").Checked ? "async " : string.Empty,
+                                    child.GetField("Defer").Checked ? "defer " : string.Empty,
+                                    !string.IsNullOrEmpty(child.GetField("Src").Value()) ? string.Format("src=\"{0}\" ", child.GetReferenceFieldValue("Src", "Value")) : string.Empty,
+                                    !string.IsNullOrEmpty(child.GetField("Charset").Value()) ? string.Format("charset=\"{0}\" ", child.GetReferenceFieldValue("Charset", "Value")) : string.Empty,
+                                    !string.IsNullOrEmpty(child.GetField("Type").Value()) ? string.Format("type=\"{0}\" ", child.GetReferenceFieldValue("Type", "Value")) : string.Empty,
+                                    !string.IsNullOrEmpty(child.GetField("Bundle").Value()) ? string.Format("src=\"{0}\" ", BundleTable.Bundles.ResolveBundleUrl(child.GetReferenceFieldValue("Bundle", "Value"))) : string.Empty,
+                                    child.GetField("Script").Value()));
+                }
+            }
+        }
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        theaa\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250318T005306Z

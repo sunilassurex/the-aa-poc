@@ -1,0 +1,37 @@
+﻿---
+ID: "2259b674-d653-4ef6-8c46-0321f999f073"
+Parent: "4f8bfe7d-2013-4e48-b068-a05e9fda3123"
+Template: "7369af25-f5f1-44b5-b269-f93411d3bd47"
+Path: /sitecore/system/Settings/Foundation/AA/Image Loading/Lazy
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Lazy - Load image only when visible"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "11fc303f-e927-479c-832d-9c142e360afb"
+      Hint: Value
+      Value: lazy
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250509T104619Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "be21cc62-0820-4e41-8ada-051dcdb35b84"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250522T004153Z

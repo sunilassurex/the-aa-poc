@@ -1,0 +1,30 @@
+﻿---
+ID: "53143d3a-180c-443f-81d3-8495cec51637"
+Parent: "f60a6ac9-b91c-4475-b1a0-0f483dba291b"
+Template: "f60a6ac9-b91c-4475-b1a0-0f483dba291b"
+Path: /sitecore/templates/Feature/AA/Presentation/BrokenDownContactSettings/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250509T111304Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "89ae33e2-63a2-4c0f-af54-2bfe0232518d"
+      Hint: Image Loading
+      Value: "{2259B674-D653-4EF6-8C46-0321F999F073}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a1c6e4c2-4198-4895-b154-d889a3105a22"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250522T004236Z

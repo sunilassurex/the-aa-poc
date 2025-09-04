@@ -1,0 +1,34 @@
+﻿---
+ID: "e957a8dc-bdc3-432b-ae35-a83524e9cb57"
+Parent: "e072c4d9-f199-49ec-b11f-d309daa47489"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: "/sitecore/templates/Feature/AA/Headless/Mobile-App/Product CTA"
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: |
+    {45D4D635-3F46-44AF-BCDD-D4C72C0008D2}
+    {318D7BE7-A0AD-42D6-AFA1-8377005D9A8F}
+    {4DEC53B2-C342-45A5-85F9-51D26E078913}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240612T110205Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Paul.Petersen
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c4cf8812-adac-486c-bc7c-cf4753778710"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240829T015107Z

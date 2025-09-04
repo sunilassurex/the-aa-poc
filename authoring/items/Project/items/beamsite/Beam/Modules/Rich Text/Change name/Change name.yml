@@ -1,0 +1,337 @@
+﻿---
+ID: "10c3d33f-80e8-4501-821b-0e32ba679a05"
+Parent: "d0cc0e93-b41a-44ad-98de-6dabc7224b14"
+Template: "e36747b3-6154-423a-b32d-b2d323f5a739"
+Path: /sitecore/content/AA/Beam/Modules/Rich Text/Change name/Change name
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211201T153931Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bdb5c078-f4df-4653-b091-f43d314e21ca"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c0148be1-03e2-4b2f-8f81-922f7f0dd2e2"
+      Hint: Title
+      Value: 
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2 class="alt">Before you start</h2>
+        <p>You can use this form to change your name if:</p>
+        <ul class="feature-list">
+            <li>You have car insurance, home insurance or breakdown cover with us, and</li>
+            <li>You're the main policyholder, and</li>
+            <li>You've changed your name or title or noticed a spelling mistake</li>
+        </ul>
+        <br>
+        <h5>Looking to transfer your policy?</h5>
+        <p>As the main policyholder, our contract is with you. You can't transfer it to someone else. But you can add someone to your cover or take out a new policy. <a></a><a href="/help-support/contact-us" data-di-id="di-id-89c51cbf-1916bb3f">Call us to discuss your options</a>.</p>
+        <br>
+        <h2>To change your name on your policy, we’ll need:</h2>
+        <ul>
+            <li>
+            <p>Either the 16-digit code on your membership card or your insurance policy number, e.g. AAC/A1PHA/AAA</p>
+            </li>
+            <li>
+            <p>Your address and date of birth</p>
+            </li>
+            <li>
+            <p>Your name as it currently appears on your cover</p>
+            </li>
+            <li>
+            <p>Your full name, including your title, as you want it to appear</p>
+            </li>
+        </ul>
+        <p>You can check the personal details we have on your policy when you <a href="https://auth.theaa.com/auth/XUI/#login/#login/" data-di-id="di-id-a4258a84-f9b01755">log in to your account</a>.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211201T172912Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211201T153931Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9ac9c34a-0181-4d14-967a-d6641f17a573"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c0148be1-03e2-4b2f-8f81-922f7f0dd2e2"
+      Hint: Title
+      Value: 
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2 class="alt">Before you start</h2>
+        <p>You can use this form to change your name if:</p>
+        <ul class="feature-list">
+            <li>You have car insurance, home insurance or breakdown cover with us, and</li>
+            <li>You're the main policyholder, and</li>
+            <li>You've changed your name or title or noticed a spelling mistake</li>
+        </ul>
+        <br>
+        <h5>Looking to transfer your policy?</h5>
+        <p>As the main policyholder, our contract is with you. You can't transfer it to someone else. But you can add someone to your cover or take out a new policy. <a></a><a href="/help-support/contact-us" data-di-id="di-id-89c51cbf-1916bb3f">Call us to discuss your options</a>.</p>
+        <br>
+        <h2>To change your name on your policy, we’ll need:</h2>
+        <ul>
+            <li>
+            <p>Either the 16-digit code on your membership card or your insurance policy number, e.g. AAC/A1PHA/AAA</p>
+            </li>
+            <li>
+            <p>Your address and date of birth</p>
+            </li>
+            <li>
+            <p>Your name as it currently appears on your cover</p>
+            </li>
+            <li>
+            <p>Your full name, including your title, as you want it to appear</p>
+            </li>
+        </ul>
+        <p>You can check the personal details we have on your policy when you <a href="https://auth.theaa.com/auth/XUI/#login/#login/" data-di-id="di-id-a4258a84-f9b01755">log in to your account</a>.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230209T103040Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230214T144951Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7132f5b1-97de-49e3-9295-e3503c59df30"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c0148be1-03e2-4b2f-8f81-922f7f0dd2e2"
+      Hint: Title
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230214T144951Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2 class="alt">Before you start we&rsquo;ll need your:&nbsp;</h2>
+        <ul>
+            <li>
+            <p>Insurance policy number from your documents</p>
+            </li>
+            <li>
+            <p>Address and date of birth</p>
+            </li>
+            <li>
+            <p>Name as it currently appears on your cover</p>
+            </li>
+            <li>
+            <p>Full name, including your title, as you want it to appear</p>
+            </li>
+        </ul>
+        <h5>Looking to transfer your policy?</h5>
+        <p>As the main policyholder, our contract is with you. You can't transfer it to someone else. But you can add someone to your cover or take out a new policy.&nbsp;<a></a><a href="/help-support/contact-us" data-di-id="di-id-89c51cbf-1916bb3f">Call us to discuss your options</a>.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230214T145229Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230214T145321Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a3c77363-6a38-4b53-95f5-7c77daa4b1df"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c0148be1-03e2-4b2f-8f81-922f7f0dd2e2"
+      Hint: Title
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230214T145321Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2 class="alt">Before you start we&rsquo;ll need your:&nbsp;</h2>
+        <ul>
+            <li>
+            <p>Insurance policy number from your documents</p>
+            </li>
+            <li>
+            <p>Address and date of birth</p>
+            </li>
+            <li>
+            <p>Name as it currently appears on your cover</p>
+            </li>
+            <li>
+            <p>Full name, including your title, as you want it to appear</p>
+            </li>
+        </ul>
+        <h5>Looking to transfer your policy?</h5>
+        <p>As the main policyholder, our contract is with you. You can't transfer it to someone else. But you can add someone to your cover or take out a new policy.&nbsp;<a></a><a href="https://www.aabeam.co.uk/contact-us">Call us to discuss your options</a>.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230214T145411Z
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230214T145437Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cf1ceb94-085b-4e20-87b0-5810dfd45fa9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c0148be1-03e2-4b2f-8f81-922f7f0dd2e2"
+      Hint: Title
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230214T145437Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h4 class="alt">Before you start we&rsquo;ll need your: </h4>
+        <ul>
+            <li class="alt">Insurance policy number from your document</li>
+            <li class="alt">Address and date of birth</li>
+            <li class="alt">Name as it currently appears on your cover</li>
+            <li class="alt">Full name, including your title, as you want it to appear</li>
+        </ul>
+        <h5>Looking to transfer your policy?</h5>
+        <p>As the main policyholder, our contract is with you. You can't transfer it to someone else. But you can add someone to your cover or take out a new policy.&nbsp;<a></a><a href="https://www.aabeam.co.uk/contact-us">Call us to discuss your options</a>.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230214T145714Z
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230214T150359Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0688c4e9-376d-4a2e-b04f-d0a229acf111"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c0148be1-03e2-4b2f-8f81-922f7f0dd2e2"
+      Hint: Title
+      Value: 
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230214T150359Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h4 class="alt">Before you start we&rsquo;ll need your: </h4>
+        <ul>
+            <li class="alt">Insurance policy number from your documents</li>
+            <li class="alt">Address and date of birth</li>
+            <li class="alt">Name as it currently appears on your cover</li>
+            <li class="alt">Full name, including your title, as you want it to appear</li>
+        </ul>
+        <h5>Looking to transfer your policy?</h5>
+        <p>As the main policyholder, our contract is with you. You can't transfer it to someone else. But you can add someone to your cover or take out a new policy.&nbsp;<a></a><a href="https://www.aabeam.co.uk/contact-us">Call us to discuss your options</a>.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230214T150420Z

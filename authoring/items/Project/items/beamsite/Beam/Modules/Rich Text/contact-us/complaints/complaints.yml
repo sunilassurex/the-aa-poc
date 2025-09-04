@@ -1,0 +1,1271 @@
+﻿---
+ID: "45d96b42-c6eb-4240-b41b-aa037b065ca0"
+Parent: "8a691425-88bc-41c5-9ca6-a79d0f48f9ca"
+Template: "e36747b3-6154-423a-b32d-b2d323f5a739"
+Path: "/sitecore/content/AA/Beam/Modules/Rich Text/contact-us/complaints/complaints"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 550
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200306T094011Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1c9d79e8-0d3a-412f-9f3d-93cd441c89ee"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200306T094011Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h3>Get in touch</h3>
+        <h5>For breakdown cover, motor and home insurance and our other products or services not listed here</h5>
+        <li><span>Phone: 0344 209 0556 or 0161 333 5910</span></li>
+        <li><span>Write to: Member Relations, The Automobile Association, Lambert House, Stockport Road, Cheadle, Cheshire SK8 2DY</span></li>
+        <li><span>Text users: contact us on any of our published telephone numbers via the <a href="http://ngts.org.uk/">Next Generation Text (NGT)</a> service</span></li>
+        <li><span>Email our Customer Support team: </span><span><a href="mailto:customersupport@theaa.com"><span>customersupport@theaa.com</span></a></span></li>
+        <p><span>Please quote your complaint case number, or your membership, policy or reference number if you don't have that.</span></p>
+        <ul style="list-style-type: disc;">
+        </ul>
+        <h5>For Driving School</h5>
+        <ul style="list-style-type: disc;">
+            <li><span>Phone: 0800 607 080 and select the option for customer services</span></li>
+            <li><span>Write to: Customer Services, AA Driving School, 17th Floor, Capital Tower, Greyfriars Road, Cardiff CF10 3AG</span></li>
+            <li><span>Email the Driving School team: </span><span><a href="mailto:driving-school.complaints@theaa.com"><span>driving-school.complaints@theaa.com</span></a></span></li>
+        </ul>
+        <p><span></span></p>
+        <h5><span>For our savings</span></h5>
+        <ul style="list-style-type: disc;">
+            <li><span>For ISA phone: 0345 603 6302 (8am to 8pm, Monday to Saturday; closed Sunday. Excludes bank holidays)</span></li>
+            <li><span>For Member / Easy Saver: 0345 266 0001 (8am to 8pm Monday to Friday; 9am to 5pm, Saturday; closed Sunday)</span></li>
+        </ul>
+        <p><span></span></p>
+        <h5><span>For our loans<br />
+        </span></h5>
+        <p><span></span></p>
+        <ul>
+            <li>If your loan is provided by Bank of Ireland: 0800 032 0034 (8am to 8pm Monday to Saturday; 9am to 5pm, Sunday. Excludes bank holidays)</li>
+            <li><span>If your loan was provided by AA Personal Finance Limited: 0345 606 1651 (8am to 10pm, Monday to Friday; 8.30am to 6pm, Saturday; 9:30am to 5.30pm, Sunday)</span></li>
+            <li><span>If your loan was provided by The Co-operative Bank</span><span>: 0345 721 2212 (8am to 9pm, Monday to Friday; 9am to 6pm, Saturday and Sunday)</span></li>
+            <li><span>If your loan was provided by</span><span> Creation Consumer Finance Limited</span><span>: 0345 241 1308 (8am to 9pm, Monday to Friday; 9am to 6pm, Saturday and Sunday. Calls cost 2p per minute, plus your phone company's access charge)<br />
+            </span></li>
+        </ul>
+        <h5>For our cards </h5>
+        <ul>
+            <li>Spend and Earn Card and Travel Currency Card: 0345 340 3177 (9am to 6pm, Monday to Friday; closed Saturday and Sunday)</li>
+            <li>Credit cards: 0345 600 5606 (8am to 8pm, Monday to Friday; 9am to 5pm, Saturday; closed Sunday)</li>
+        </ul>
+        <h5>For our mortgages</h5>
+        <ul>
+            <li>Phone: 0800 953 0025 (9am to 5pm, Monday to Friday; closed Saturday and Sunday) Alternatively e-mail: <a href="mailto:lending.resolutions@boi.com">lending.resolutions@boi.com</a></li>
+        </ul>
+        <h5>For DriveTech</h5>
+        <ul>
+            <li>Phone: 0344 264 9624</li>
+            <li>Write to: Customer Experience, AA DriveTech, Fanum House, Basing View, Basingstoke RG21 4EA</li>
+            <li>Email our Customer Experience team: <a href="mailto:CustomerExperience@AAdrivetech.com">CustomerExperience@AAdrivetech.com</a></li>
+        </ul>
+        <h5><span>Legal services</span></h5>
+        <p><span></span><span></span></p>
+        <ul>
+            <li><span>Email the legal services support team: </span><span><a href="mailto:support@aalegaldocuments.co.uk"><span>support@aalegaldocuments.co.uk</span></a></span><span></span><span></span></li>
+            <li><span>Write to: The Senior Partner, Parabis Law LLP, 8 Bedford Park, Croydon, Surrey CR0 2AP</span></li>
+        </ul>
+        <p><span></span></p>
+        <hr />
+        <h3>How long does it take for us to respond?</h3>
+        <p> We aim for the <strong>end of the next business day</strong>. If that's not possible, we'll write to you within five working days to:</p>
+        <ul>
+            <li>tell you how we've resolved the problem, or</li>
+            <li> let you know when you can expect a full response, and </li>
+            <li>how to contact the person or team dealing with your case</li>
+        </ul>
+        <p>If things do take a little longer, we'll respond fully within 8&nbsp;weeks, or explain our position and tell you how long a full response will take. </p>
+        <h5>Unhappy with how we're handling things and need to speak to us?</h5>
+        <p>The contact details for making complaints are listed above &ndash; for anything else, our customer services <a href="http://www.theaa.com/aboutaa/contact.html" target="_self">contact details are here</a>.</p>
+        <hr />
+        <h3>Need to refer your complaint to the Ombudsman?*</h3>
+        <p>If you're still unhappy with our final response, or if we've not given you a final response <strong>within 8 weeks</strong> of your complaint, you may be entitled to refer your complaint to the <a href="http://www.financial-ombudsman.org.uk/">Financial Ombudsman Service</a> for help and advice. </p>
+        <ul>
+            <li><span>Phone: 0800 023 4567 or 0300 123 9123</span></li>
+            <li><span>Email: </span><span><a href="mailto:complaint.info@financial-ombudsman.org.uk"><span>complaint.info@financial-ombudsman.org.uk</span></a></span></li>
+            <li><span>Write to: The Financial Ombudsman Service, Exchange Tower, London E14 9SR</span></li>
+        </ul>
+        <p>* This only applies to certain AA products, so please check the terms and conditions or policy document for details, or talk to us.</p>
+        <p>
+        A dispute relating to goods or services sold online can also be submitted to the European Commission <a href="https://webgate.ec.europa.eu/odr/main/index.cfm?event=main.home.chooseLanguage">Online Dispute Resolution website.</a></p>
+        <hr />
+        <h3>Publication of complaints data</h3>
+        <p>The Financial Conduct Authority requires us to publish the number of complaints we get about our insurance products. <a href="~/link.aspx?_id=8C19061F9E8B45549DC11D217590F86F&amp;_z=z">See the latest complaints data</a>.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211230T112458Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200922T093755Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8459e60e-df86-4d87-a063-a0abf4d7c9b1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200922T093755Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h3>Get in touch</h3>
+        <h5>For breakdown cover, motor and home insurance and our other products or services not listed here</h5>
+        <li><span>Phone: 0344 209 0556 or 0161 333 5910</span></li>
+        <li><span>Write to: Member Relations, The Automobile Association, Lambert House, Stockport Road, Cheadle, Cheshire SK8 2DY</span></li>
+        <li><span>Text users: contact us on any of our published telephone numbers via the <a href="http://ngts.org.uk/">Next Generation Text (NGT)</a> service</span></li>
+        <p><span>Please quote your complaint case number, or your membership, policy or reference number if you don't have that.</span></p>
+        <ul style="list-style-type: disc;">
+        </ul>
+        <h5>For Driving School</h5>
+        <ul style="list-style-type: disc;">
+            <li><span>Phone: 0800 607 080 and select the option for customer services</span></li>
+            <li><span>Write to: Customer Services, AA Driving School, 17th Floor, Capital Tower, Greyfriars Road, Cardiff CF10 3AG</span></li>
+            <li><span>Email the Driving School team: </span><span><a href="mailto:driving-school.complaints@theaa.com"><span>driving-school.complaints@theaa.com</span></a></span></li>
+        </ul>
+        <p><span></span></p>
+        <h5><span>For our savings</span></h5>
+        <ul style="list-style-type: disc;">
+            <li><span>For ISA phone: 0345 603 6302 (8am to 8pm, Monday to Saturday; closed Sunday. Excludes bank holidays)</span></li>
+            <li><span>For Member / Easy Saver: 0345 266 0001 (8am to 8pm Monday to Friday; 9am to 5pm, Saturday; closed Sunday)</span></li>
+        </ul>
+        <p><span></span></p>
+        <h5><span>For our loans<br />
+        </span></h5>
+        <p><span></span></p>
+        <ul>
+            <li>If your loan is provided by Bank of Ireland: 0800 032 0034 (8am to 8pm Monday to Saturday; 9am to 5pm, Sunday. Excludes bank holidays)</li>
+            <li><span>If your loan was provided by AA Personal Finance Limited: 0345 606 1651 (8am to 10pm, Monday to Friday; 8.30am to 6pm, Saturday; 9:30am to 5.30pm, Sunday)</span></li>
+            <li><span>If your loan was provided by The Co-operative Bank</span><span>: 0345 721 2212 (8am to 9pm, Monday to Friday; 9am to 6pm, Saturday and Sunday)</span></li>
+            <li><span>If your loan was provided by</span><span> Creation Consumer Finance Limited</span><span>: 0345 241 1308 (8am to 9pm, Monday to Friday; 9am to 6pm, Saturday and Sunday. Calls cost 2p per minute, plus your phone company's access charge)<br />
+            </span></li>
+        </ul>
+        <h5>For our cards </h5>
+        <ul>
+            <li>Spend and Earn Card and Travel Currency Card: 0345 340 3177 (9am to 6pm, Monday to Friday; closed Saturday and Sunday)</li>
+            <li>Credit cards: 0345 600 5606 (8am to 8pm, Monday to Friday; 9am to 5pm, Saturday; closed Sunday)</li>
+        </ul>
+        <h5>For our mortgages</h5>
+        <ul>
+            <li>Phone: 0800 953 0025 (9am to 5pm, Monday to Friday; closed Saturday and Sunday) Alternatively e-mail: <a href="mailto:lending.resolutions@boi.com">lending.resolutions@boi.com</a></li>
+        </ul>
+        <h5>For DriveTech</h5>
+        <ul>
+            <li>Write to: Customer Experience, AA DriveTech, Fanum House, Basing View, Basingstoke RG21 4EA</li>
+            <li>Email our Customer Experience team: <a href="mailto:CustomerExperience@drivetech.co.uk">CustomerExperience@drivetech.co.uk</a></li>
+        </ul>
+        <h5><span>Legal services</span></h5>
+        <p><span></span><span></span></p>
+        <ul>
+            <li><span>Email the legal services support team: </span><span><a href="mailto:support@aalegaldocuments.co.uk"><span>support@aalegaldocuments.co.uk</span></a></span><span></span><span></span></li>
+            <li><span>Write to: The Senior Partner, Parabis Law LLP, 8 Bedford Park, Croydon, Surrey CR0 2AP</span></li>
+        </ul>
+        <p><span></span></p>
+        <hr />
+        <h3>How long does it take for us to respond?</h3>
+        <p>We'll acknowledge your complaint within 5 working days.&nbsp;<span style="font-weight: lighter;">If things do take a little longer, we'll respond fully within 8&nbsp;weeks, or explain our position and tell you how long a full response will take.</span></p>
+        <hr />
+        <h3>Need to refer your complaint to the Ombudsman?*</h3>
+        <p>If you're still unhappy with our final response, or if we've not given you a final response <strong>within 8 weeks</strong> of your complaint, you may be entitled to refer your complaint to the <a href="http://www.financial-ombudsman.org.uk/">Financial Ombudsman Service</a> for help and advice. </p>
+        <ul>
+            <li><span>Phone: 0800 023 4567 or 0300 123 9123</span></li>
+            <li><span>Email: </span><span><a href="mailto:complaint.info@financial-ombudsman.org.uk"><span>complaint.info@financial-ombudsman.org.uk</span></a></span></li>
+            <li><span>Write to: The Financial Ombudsman Service, Exchange Tower, London E14 9SR</span></li>
+        </ul>
+        <p>* This only applies to certain AA products, so please check the terms and conditions or policy document for details, or talk to us.</p>
+        <p>
+        A dispute relating to goods or services sold online can also be submitted to the European Commission <a href="https://webgate.ec.europa.eu/odr/main/index.cfm?event=main.home.chooseLanguage">Online Dispute Resolution website.</a></p>
+        <hr />
+        <h3>Publication of complaints data</h3>
+        <p>The Financial Conduct Authority requires us to publish the number of complaints we get about our insurance products. <a href="~/link.aspx?_id=8C19061F9E8B45549DC11D217590F86F&amp;_z=z">See the latest complaints data</a>.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211230T112458Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201016T100509Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "38ee807e-4d8c-42ce-b835-cf758316ef67"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201016T100509Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h3>Get in touch</h3>
+        <h5>For breakdown cover, motor and home insurance and our other products or services not listed here</h5>
+        <li><span>Phone: 0344 209 0556 or 0161 333 5910</span></li>
+        <li><span>Write to: Member Relations, The Automobile Association, Lambert House, Stockport Road, Cheadle, Cheshire SK8 2DY</span></li>
+        <li><span>Text users: contact us on any of our published telephone numbers via the <a href="http://ngts.org.uk/">Next Generation Text (NGT)</a> service</span></li>
+        <li><span>Email: customersolutions@theaa.com</span></li>
+        <p><span>Please quote your complaint case number, or your membership, policy or reference number if you don't have that.</span></p>
+        <ul style="list-style-type: disc;">
+        </ul>
+        <h5>For Driving School</h5>
+        <ul style="list-style-type: disc;">
+            <li><span>Phone: 0800 607 080 and select the option for customer services</span></li>
+            <li><span>Write to: Customer Services, AA Driving School, 17th Floor, Capital Tower, Greyfriars Road, Cardiff CF10 3AG</span></li>
+            <li><span>Email the Driving School team: </span><span><a href="mailto:driving-school.complaints@theaa.com"><span>driving-school.complaints@theaa.com</span></a></span></li>
+        </ul>
+        <p><span></span></p>
+        <h5><span>For our savings</span></h5>
+        <ul style="list-style-type: disc;">
+            <li><span>For ISA phone: 0345 603 6302 (8am to 8pm, Monday to Saturday; closed Sunday. Excludes bank holidays)</span></li>
+            <li><span>For Member / Easy Saver: 0345 266 0001 (8am to 8pm Monday to Friday; 9am to 5pm, Saturday; closed Sunday)</span></li>
+        </ul>
+        <p><span></span></p>
+        <h5><span>For our loans<br />
+        </span></h5>
+        <p><span></span></p>
+        <ul>
+            <li>If your loan is provided by Bank of Ireland: 0800 032 0034 (8am to 8pm Monday to Saturday; 9am to 5pm, Sunday. Excludes bank holidays)</li>
+            <li><span>If your loan was provided by AA Personal Finance Limited: 0345 606 1651 (8am to 10pm, Monday to Friday; 8.30am to 6pm, Saturday; 9:30am to 5.30pm, Sunday)</span></li>
+            <li><span>If your loan was provided by The Co-operative Bank</span><span>: 0345 721 2212 (8am to 9pm, Monday to Friday; 9am to 6pm, Saturday and Sunday)</span></li>
+            <li><span>If your loan was provided by</span><span> Creation Consumer Finance Limited</span><span>: 0345 241 1308 (8am to 9pm, Monday to Friday; 9am to 6pm, Saturday and Sunday. Calls cost 2p per minute, plus your phone company's access charge)<br />
+            </span></li>
+        </ul>
+        <h5>For our cards </h5>
+        <ul>
+            <li>Spend and Earn Card and Travel Currency Card: 0345 340 3177 (9am to 6pm, Monday to Friday; closed Saturday and Sunday)</li>
+            <li>Credit cards: 0345 600 5606 (8am to 8pm, Monday to Friday; 9am to 5pm, Saturday; closed Sunday)</li>
+        </ul>
+        <h5>For our mortgages</h5>
+        <ul>
+            <li>Phone: 0800 953 0025 (9am to 5pm, Monday to Friday; closed Saturday and Sunday) Alternatively e-mail: <a href="mailto:lending.resolutions@boi.com">lending.resolutions@boi.com</a></li>
+        </ul>
+        <h5>For DriveTech</h5>
+        <ul>
+            <li>Write to: Customer Experience, AA DriveTech, Fanum House, Basing View, Basingstoke RG21 4EA</li>
+            <li>Email our Customer Experience team: <a href="mailto:CustomerExperience@drivetech.co.uk">CustomerExperience@drivetech.co.uk</a></li>
+        </ul>
+        <h5><span>Legal services</span></h5>
+        <p><span></span><span></span></p>
+        <ul>
+            <li><span>Email the legal services support team: </span><span><a href="mailto:support@aalegaldocuments.co.uk"><span>support@aalegaldocuments.co.uk</span></a></span><span></span><span></span></li>
+            <li><span>Write to: The Senior Partner, Parabis Law LLP, 8 Bedford Park, Croydon, Surrey CR0 2AP</span></li>
+        </ul>
+        <p><span></span></p>
+        <hr />
+        <h3>How long does it take for us to respond?</h3>
+        <p>We'll acknowledge your complaint within 5 working days.&nbsp;<span style="font-weight: lighter;">If things do take a little longer, we'll respond fully within 8&nbsp;weeks, or explain our position and tell you how long a full response will take.</span></p>
+        <hr />
+        <h3>Need to refer your complaint to the Ombudsman?*</h3>
+        <p>If you're still unhappy with our final response, or if we've not given you a final response <strong>within 8 weeks</strong> of your complaint, you may be entitled to refer your complaint to the <a href="http://www.financial-ombudsman.org.uk/">Financial Ombudsman Service</a> for help and advice. </p>
+        <ul>
+            <li><span>Phone: 0800 023 4567 or 0300 123 9123</span></li>
+            <li><span>Email: </span><span><a href="mailto:complaint.info@financial-ombudsman.org.uk"><span>complaint.info@financial-ombudsman.org.uk</span></a></span></li>
+            <li><span>Write to: The Financial Ombudsman Service, Exchange Tower, London E14 9SR</span></li>
+        </ul>
+        <p>* This only applies to certain AA products, so please check the terms and conditions or policy document for details, or talk to us.</p>
+        <p>
+        A dispute relating to goods or services sold online can also be submitted to the European Commission <a href="https://webgate.ec.europa.eu/odr/main/index.cfm?event=main.home.chooseLanguage">Online Dispute Resolution website.</a></p>
+        <hr />
+        <h3>Publication of complaints data</h3>
+        <p>The Financial Conduct Authority requires us to publish the number of complaints we get about our insurance products. <a href="~/link.aspx?_id=8C19061F9E8B45549DC11D217590F86F&amp;_z=z">See the latest complaints data</a>.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211230T112458Z
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201016T100713Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d9194fce-3d05-46af-b77a-b1a7b74bb6e6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201016T100713Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h3>Get in touch</h3>
+        <h5>For breakdown cover, motor and home insurance and our other products or services not listed here</h5>
+        <li><span>Phone: 0344 209 0556 or 0161 333 5910</span></li>
+        <li><span>Write to: Member Relations, The Automobile Association, Lambert House, Stockport Road, Cheadle, Cheshire SK8 2DY</span></li>
+        <li><span>Text users: contact us on any of our published telephone numbers via the <a href="http://ngts.org.uk/">Next Generation Text (NGT)</a> service</span></li>
+        <li><span>Email our Customer Support team: <a href="mailto:customersolutions@theaa.com">customersolutions@theaa.com</a></span></li>
+        <p><span>Please quote your complaint case number, or your membership, policy or reference number if you don't have that.</span></p>
+        <ul style="list-style-type: disc;">
+        </ul>
+        <h5>For Driving School</h5>
+        <ul style="list-style-type: disc;">
+            <li><span>Phone: 0800 607 080 and select the option for customer services</span></li>
+            <li><span>Write to: Customer Services, AA Driving School, 17th Floor, Capital Tower, Greyfriars Road, Cardiff CF10 3AG</span></li>
+            <li><span>Email the Driving School team: </span><span><a href="mailto:driving-school.complaints@theaa.com"><span>driving-school.complaints@theaa.com</span></a></span></li>
+        </ul>
+        <p><span></span></p>
+        <h5><span>For our savings</span></h5>
+        <ul style="list-style-type: disc;">
+            <li><span>For ISA phone: 0345 603 6302 (8am to 8pm, Monday to Saturday; closed Sunday. Excludes bank holidays)</span></li>
+            <li><span>For Member / Easy Saver: 0345 266 0001 (8am to 8pm Monday to Friday; 9am to 5pm, Saturday; closed Sunday)</span></li>
+        </ul>
+        <p><span></span></p>
+        <h5><span>For our loans<br />
+        </span></h5>
+        <p><span></span></p>
+        <ul>
+            <li>If your loan is provided by Bank of Ireland: 0800 032 0034 (8am to 8pm Monday to Saturday; 9am to 5pm, Sunday. Excludes bank holidays)</li>
+            <li><span>If your loan was provided by AA Personal Finance Limited: 0345 606 1651 (8am to 10pm, Monday to Friday; 8.30am to 6pm, Saturday; 9:30am to 5.30pm, Sunday)</span></li>
+            <li><span>If your loan was provided by The Co-operative Bank</span><span>: 0345 721 2212 (8am to 9pm, Monday to Friday; 9am to 6pm, Saturday and Sunday)</span></li>
+            <li><span>If your loan was provided by</span><span> Creation Consumer Finance Limited</span><span>: 0345 241 1308 (8am to 9pm, Monday to Friday; 9am to 6pm, Saturday and Sunday. Calls cost 2p per minute, plus your phone company's access charge)<br />
+            </span></li>
+        </ul>
+        <h5>For our cards </h5>
+        <ul>
+            <li>Spend and Earn Card and Travel Currency Card: 0345 340 3177 (9am to 6pm, Monday to Friday; closed Saturday and Sunday)</li>
+            <li>Credit cards: 0345 600 5606 (8am to 8pm, Monday to Friday; 9am to 5pm, Saturday; closed Sunday)</li>
+        </ul>
+        <h5>For our mortgages</h5>
+        <ul>
+            <li>Phone: 0800 953 0025 (9am to 5pm, Monday to Friday; closed Saturday and Sunday) Alternatively e-mail: <a href="mailto:lending.resolutions@boi.com">lending.resolutions@boi.com</a></li>
+        </ul>
+        <h5>For DriveTech</h5>
+        <ul>
+            <li>Write to: Customer Experience, AA DriveTech, Fanum House, Basing View, Basingstoke RG21 4EA</li>
+            <li>Email our Customer Experience team: <a href="mailto:CustomerExperience@drivetech.co.uk">CustomerExperience@drivetech.co.uk</a></li>
+        </ul>
+        <h5><span>Legal services</span></h5>
+        <p><span></span><span></span></p>
+        <ul>
+            <li><span>Email the legal services support team: </span><span><a href="mailto:support@aalegaldocuments.co.uk"><span>support@aalegaldocuments.co.uk</span></a></span><span></span><span></span></li>
+            <li><span>Write to: The Senior Partner, Parabis Law LLP, 8 Bedford Park, Croydon, Surrey CR0 2AP</span></li>
+        </ul>
+        <p><span></span></p>
+        <hr />
+        <h3>How long does it take for us to respond?</h3>
+        <p>We'll acknowledge your complaint within 5 working days.&nbsp;<span style="font-weight: lighter;">If things do take a little longer, we'll respond fully within 8&nbsp;weeks, or explain our position and tell you how long a full response will take.</span></p>
+        <hr />
+        <h3>Need to refer your complaint to the Ombudsman?*</h3>
+        <p>If you're still unhappy with our final response, or if we've not given you a final response <strong>within 8 weeks</strong> of your complaint, you may be entitled to refer your complaint to the <a href="http://www.financial-ombudsman.org.uk/">Financial Ombudsman Service</a> for help and advice. </p>
+        <ul>
+            <li><span>Phone: 0800 023 4567 or 0300 123 9123</span></li>
+            <li><span>Email: </span><span><a href="mailto:complaint.info@financial-ombudsman.org.uk"><span>complaint.info@financial-ombudsman.org.uk</span></a></span></li>
+            <li><span>Write to: The Financial Ombudsman Service, Exchange Tower, London E14 9SR</span></li>
+        </ul>
+        <p>* This only applies to certain AA products, so please check the terms and conditions or policy document for details, or talk to us.</p>
+        <p>
+        A dispute relating to goods or services sold online can also be submitted to the European Commission <a href="https://webgate.ec.europa.eu/odr/main/index.cfm?event=main.home.chooseLanguage">Online Dispute Resolution website.</a></p>
+        <hr />
+        <h3>Publication of complaints data</h3>
+        <p>The Financial Conduct Authority requires us to publish the number of complaints we get about our insurance products. <a href="~/link.aspx?_id=8C19061F9E8B45549DC11D217590F86F&amp;_z=z">See the latest complaints data</a>.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211230T112458Z
+  - Version: 5
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201019T123016Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a348275e-152a-4a27-b877-f09139f77c3f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201019T123016Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h3>Get in touch</h3>
+        <h5>For breakdown cover, motor and home insurance and our other products or services not listed here</h5>
+        <li><span>Phone: 0344 209 0556 or 0161 333 5910</span></li>
+        <li><span>Write to: Member Relations, The Automobile Association, Lambert House, Stockport Road, Cheadle, Cheshire SK8 2DY</span></li>
+        <li><span>Text users: contact us on any of our published telephone numbers via the <a href="http://ngts.org.uk/">Next Generation Text (NGT)</a> service</span></li>
+        <li><span>Email our Customer Support team: <a href="mailto:customer.solutions@theaa.com">customer.solutions@theaa.com</a></span></li>
+        <p><span>Please quote your complaint case number, or your membership, policy or reference number if you don't have that.</span></p>
+        <ul style="list-style-type: disc;">
+        </ul>
+        <h5>For Driving School</h5>
+        <ul style="list-style-type: disc;">
+            <li><span>Phone: 0800 607 080 and select the option for customer services</span></li>
+            <li><span>Write to: Customer Services, AA Driving School, 17th Floor, Capital Tower, Greyfriars Road, Cardiff CF10 3AG</span></li>
+            <li><span>Email the Driving School team: </span><span><a href="mailto:driving-school.complaints@theaa.com"><span>driving-school.complaints@theaa.com</span></a></span></li>
+        </ul>
+        <p><span></span></p>
+        <h5><span>For our savings</span></h5>
+        <ul style="list-style-type: disc;">
+            <li><span>For ISA phone: 0345 603 6302 (8am to 8pm, Monday to Saturday; closed Sunday. Excludes bank holidays)</span></li>
+            <li><span>For Member / Easy Saver: 0345 266 0001 (8am to 8pm Monday to Friday; 9am to 5pm, Saturday; closed Sunday)</span></li>
+        </ul>
+        <p><span></span></p>
+        <h5><span>For our loans<br />
+        </span></h5>
+        <p><span></span></p>
+        <ul>
+            <li>If your loan is provided by Bank of Ireland: 0800 032 0034 (8am to 8pm Monday to Saturday; 9am to 5pm, Sunday. Excludes bank holidays)</li>
+            <li><span>If your loan was provided by AA Personal Finance Limited: 0345 606 1651 (8am to 10pm, Monday to Friday; 8.30am to 6pm, Saturday; 9:30am to 5.30pm, Sunday)</span></li>
+            <li><span>If your loan was provided by The Co-operative Bank</span><span>: 0345 721 2212 (8am to 9pm, Monday to Friday; 9am to 6pm, Saturday and Sunday)</span></li>
+            <li><span>If your loan was provided by</span><span> Creation Consumer Finance Limited</span><span>: 0345 241 1308 (8am to 9pm, Monday to Friday; 9am to 6pm, Saturday and Sunday. Calls cost 2p per minute, plus your phone company's access charge)<br />
+            </span></li>
+        </ul>
+        <h5>For our cards </h5>
+        <ul>
+            <li>Spend and Earn Card and Travel Currency Card: 0345 340 3177 (9am to 6pm, Monday to Friday; closed Saturday and Sunday)</li>
+            <li>Credit cards: 0345 600 5606 (8am to 8pm, Monday to Friday; 9am to 5pm, Saturday; closed Sunday)</li>
+        </ul>
+        <h5>For our mortgages</h5>
+        <ul>
+            <li>Phone: 0800 953 0025 (9am to 5pm, Monday to Friday; closed Saturday and Sunday) Alternatively e-mail: <a href="mailto:lending.resolutions@boi.com">lending.resolutions@boi.com</a></li>
+        </ul>
+        <h5>For DriveTech</h5>
+        <ul>
+            <li>Write to: Customer Experience, AA DriveTech, Fanum House, Basing View, Basingstoke RG21 4EA</li>
+            <li>Email our Customer Experience team: <a href="mailto:CustomerExperience@drivetech.co.uk">CustomerExperience@drivetech.co.uk</a></li>
+        </ul>
+        <h5><span>Legal services</span></h5>
+        <p><span></span><span></span></p>
+        <ul>
+            <li><span>Email the legal services support team: </span><span><a href="mailto:support@aalegaldocuments.co.uk"><span>support@aalegaldocuments.co.uk</span></a></span><span></span><span></span></li>
+            <li><span>Write to: The Senior Partner, Parabis Law LLP, 8 Bedford Park, Croydon, Surrey CR0 2AP</span></li>
+        </ul>
+        <p><span></span></p>
+        <hr />
+        <h3>How long does it take for us to respond?</h3>
+        <p>We'll acknowledge your complaint within 5 working days.&nbsp;<span style="font-weight: lighter;">If things do take a little longer, we'll respond fully within 8&nbsp;weeks, or explain our position and tell you how long a full response will take.</span></p>
+        <hr />
+        <h3>Need to refer your complaint to the Ombudsman?*</h3>
+        <p>If you're still unhappy with our final response, or if we've not given you a final response <strong>within 8 weeks</strong> of your complaint, you may be entitled to refer your complaint to the <a href="http://www.financial-ombudsman.org.uk/">Financial Ombudsman Service</a> for help and advice. </p>
+        <ul>
+            <li><span>Phone: 0800 023 4567 or 0300 123 9123</span></li>
+            <li><span>Email: </span><span><a href="mailto:complaint.info@financial-ombudsman.org.uk"><span>complaint.info@financial-ombudsman.org.uk</span></a></span></li>
+            <li><span>Write to: The Financial Ombudsman Service, Exchange Tower, London E14 9SR</span></li>
+        </ul>
+        <p>* This only applies to certain AA products, so please check the terms and conditions or policy document for details, or talk to us.</p>
+        <p>
+        A dispute relating to goods or services sold online can also be submitted to the European Commission <a href="https://webgate.ec.europa.eu/odr/main/index.cfm?event=main.home.chooseLanguage">Online Dispute Resolution website.</a></p>
+        <hr />
+        <h3>Publication of complaints data</h3>
+        <p>The Financial Conduct Authority requires us to publish the number of complaints we get about our insurance products. <a href="~/link.aspx?_id=8C19061F9E8B45549DC11D217590F86F&amp;_z=z">See the latest complaints data</a>.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211230T112458Z
+  - Version: 6
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201019T130602Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7bc8bbe9-bd3c-4674-8dda-aa639145c672"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201019T130602Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h3>Get in touch</h3>
+        <h5>For breakdown cover, motor and home insurance and our other products or services not listed here</h5>
+        <li><span>Phone: 0344 209 0556 or 0161 333 5910</span></li>
+        <li><span>Write to: Member Relations, The Automobile Association, Lambert House, Stockport Road, Cheadle, Cheshire SK8 2DY</span></li>
+        <li><span>Text users: contact us on any of our published telephone numbers via the <a href="http://ngts.org.uk/">Next Generation Text (NGT)</a> service</span></li>
+        <p><span>Please quote your complaint case number, or your membership, policy or reference number if you don't have that.</span></p>
+        <ul style="list-style-type: disc;">
+        </ul>
+        <h5>For Driving School</h5>
+        <ul style="list-style-type: disc;">
+            <li><span>Phone: 0800 607 080 and select the option for customer services</span></li>
+            <li><span>Write to: Customer Services, AA Driving School, 17th Floor, Capital Tower, Greyfriars Road, Cardiff CF10 3AG</span></li>
+            <li><span>Email the Driving School team: </span><span><a href="mailto:driving-school.complaints@theaa.com"><span>driving-school.complaints@theaa.com</span></a></span></li>
+        </ul>
+        <p><span></span></p>
+        <h5><span>For our savings</span></h5>
+        <ul style="list-style-type: disc;">
+            <li><span>For ISA phone: 0345 603 6302 (8am to 8pm, Monday to Saturday; closed Sunday. Excludes bank holidays)</span></li>
+            <li><span>For Member / Easy Saver: 0345 266 0001 (8am to 8pm Monday to Friday; 9am to 5pm, Saturday; closed Sunday)</span></li>
+        </ul>
+        <p><span></span></p>
+        <h5><span>For our loans<br />
+        </span></h5>
+        <p><span></span></p>
+        <ul>
+            <li>If your loan is provided by Bank of Ireland: 0800 032 0034 (8am to 8pm Monday to Saturday; 9am to 5pm, Sunday. Excludes bank holidays)</li>
+            <li><span>If your loan was provided by AA Personal Finance Limited: 0345 606 1651 (8am to 10pm, Monday to Friday; 8.30am to 6pm, Saturday; 9:30am to 5.30pm, Sunday)</span></li>
+            <li><span>If your loan was provided by The Co-operative Bank</span><span>: 0345 721 2212 (8am to 9pm, Monday to Friday; 9am to 6pm, Saturday and Sunday)</span></li>
+            <li><span>If your loan was provided by</span><span> Creation Consumer Finance Limited</span><span>: 0345 241 1308 (8am to 9pm, Monday to Friday; 9am to 6pm, Saturday and Sunday. Calls cost 2p per minute, plus your phone company's access charge)<br />
+            </span></li>
+        </ul>
+        <h5>For our cards </h5>
+        <ul>
+            <li>Spend and Earn Card and Travel Currency Card: 0345 340 3177 (9am to 6pm, Monday to Friday; closed Saturday and Sunday)</li>
+            <li>Credit cards: 0345 600 5606 (8am to 8pm, Monday to Friday; 9am to 5pm, Saturday; closed Sunday)</li>
+        </ul>
+        <h5>For our mortgages</h5>
+        <ul>
+            <li>Phone: 0800 953 0025 (9am to 5pm, Monday to Friday; closed Saturday and Sunday) Alternatively e-mail: <a href="mailto:lending.resolutions@boi.com">lending.resolutions@boi.com</a></li>
+        </ul>
+        <h5>For DriveTech</h5>
+        <ul>
+            <li>Write to: Customer Experience, AA DriveTech, Fanum House, Basing View, Basingstoke RG21 4EA</li>
+            <li>Email our Customer Experience team: <a href="mailto:CustomerExperience@drivetech.co.uk">CustomerExperience@drivetech.co.uk</a></li>
+        </ul>
+        <h5><span>Legal services</span></h5>
+        <p><span></span><span></span></p>
+        <ul>
+            <li><span>Email the legal services support team: </span><span><a href="mailto:support@aalegaldocuments.co.uk"><span>support@aalegaldocuments.co.uk</span></a></span><span></span><span></span></li>
+            <li><span>Write to: The Senior Partner, Parabis Law LLP, 8 Bedford Park, Croydon, Surrey CR0 2AP</span></li>
+        </ul>
+        <p><span></span></p>
+        <hr />
+        <h3>How long does it take for us to respond?</h3>
+        <p>We'll acknowledge your complaint within 5 working days.&nbsp;<span style="font-weight: lighter;">If things do take a little longer, we'll respond fully within 8&nbsp;weeks, or explain our position and tell you how long a full response will take.</span></p>
+        <hr />
+        <h3>Need to refer your complaint to the Ombudsman?*</h3>
+        <p>If you're still unhappy with our final response, or if we've not given you a final response <strong>within 8 weeks</strong> of your complaint, you may be entitled to refer your complaint to the <a href="http://www.financial-ombudsman.org.uk/">Financial Ombudsman Service</a> for help and advice. </p>
+        <ul>
+            <li><span>Phone: 0800 023 4567 or 0300 123 9123</span></li>
+            <li><span>Email: </span><span><a href="mailto:complaint.info@financial-ombudsman.org.uk"><span>complaint.info@financial-ombudsman.org.uk</span></a></span></li>
+            <li><span>Write to: The Financial Ombudsman Service, Exchange Tower, London E14 9SR</span></li>
+        </ul>
+        <p>* This only applies to certain AA products, so please check the terms and conditions or policy document for details, or talk to us.</p>
+        <p>
+        A dispute relating to goods or services sold online can also be submitted to the European Commission <a href="https://webgate.ec.europa.eu/odr/main/index.cfm?event=main.home.chooseLanguage">Online Dispute Resolution website.</a></p>
+        <hr />
+        <h3>Publication of complaints data</h3>
+        <p>The Financial Conduct Authority requires us to publish the number of complaints we get about our insurance products. <a href="~/link.aspx?_id=8C19061F9E8B45549DC11D217590F86F&amp;_z=z">See the latest complaints data</a>.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211230T112458Z
+  - Version: 7
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201019T130659Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "52efad7a-40f7-4a9e-b71e-861230a5293f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201019T130659Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h3>Get in touch</h3>
+        <h5>For breakdown cover, motor and home insurance and our other products or services not listed here</h5>
+        <li><span>Phone: 0344 209 0556 or 0161 333 5910</span></li>
+        <li><span>Write to: Member Relations, The Automobile Association, Lambert House, Stockport Road, Cheadle, Cheshire SK8 2DY</span></li>
+        <li><span>Text users: contact us on any of our published telephone numbers via the <a href="http://ngts.org.uk/">Next Generation Text (NGT)</a> service<br />
+        </span><br />
+        Please quote your complaint case number, or your membership, policy or reference number if you don't have that.</li>
+        <ul style="list-style-type: disc;">
+        </ul>
+        <h5>For Driving School</h5>
+        <ul style="list-style-type: disc;">
+            <li><span>Phone: 0800 607 080 and select the option for customer services</span></li>
+            <li><span>Write to: Customer Services, AA Driving School, 17th Floor, Capital Tower, Greyfriars Road, Cardiff CF10 3AG</span></li>
+            <li><span>Email the Driving School team: </span><span><a href="mailto:driving-school.complaints@theaa.com"><span>driving-school.complaints@theaa.com</span></a></span></li>
+        </ul>
+        <p><span></span></p>
+        <h5><span>For our savings</span></h5>
+        <ul style="list-style-type: disc;">
+            <li><span>For ISA phone: 0345 603 6302 (8am to 8pm, Monday to Saturday; closed Sunday. Excludes bank holidays)</span></li>
+            <li><span>For Member / Easy Saver: 0345 266 0001 (8am to 8pm Monday to Friday; 9am to 5pm, Saturday; closed Sunday)</span></li>
+        </ul>
+        <p><span></span></p>
+        <h5><span>For our loans<br />
+        </span></h5>
+        <p><span></span></p>
+        <ul>
+            <li>If your loan is provided by Bank of Ireland: 0800 032 0034 (8am to 8pm Monday to Saturday; 9am to 5pm, Sunday. Excludes bank holidays)</li>
+            <li><span>If your loan was provided by AA Personal Finance Limited: 0345 606 1651 (8am to 10pm, Monday to Friday; 8.30am to 6pm, Saturday; 9:30am to 5.30pm, Sunday)</span></li>
+            <li><span>If your loan was provided by The Co-operative Bank</span><span>: 0345 721 2212 (8am to 9pm, Monday to Friday; 9am to 6pm, Saturday and Sunday)</span></li>
+            <li><span>If your loan was provided by</span><span> Creation Consumer Finance Limited</span><span>: 0345 241 1308 (8am to 9pm, Monday to Friday; 9am to 6pm, Saturday and Sunday. Calls cost 2p per minute, plus your phone company's access charge)<br />
+            </span></li>
+        </ul>
+        <h5>For our cards </h5>
+        <ul>
+            <li>Spend and Earn Card and Travel Currency Card: 0345 340 3177 (9am to 6pm, Monday to Friday; closed Saturday and Sunday)</li>
+            <li>Credit cards: 0345 600 5606 (8am to 8pm, Monday to Friday; 9am to 5pm, Saturday; closed Sunday)</li>
+        </ul>
+        <h5>For our mortgages</h5>
+        <ul>
+            <li>Phone: 0800 953 0025 (9am to 5pm, Monday to Friday; closed Saturday and Sunday) Alternatively e-mail: <a href="mailto:lending.resolutions@boi.com">lending.resolutions@boi.com</a></li>
+        </ul>
+        <h5>For DriveTech</h5>
+        <ul>
+            <li>Write to: Customer Experience, AA DriveTech, Fanum House, Basing View, Basingstoke RG21 4EA</li>
+            <li>Email our Customer Experience team: <a href="mailto:CustomerExperience@drivetech.co.uk">CustomerExperience@drivetech.co.uk</a></li>
+        </ul>
+        <h5><span>Legal services</span></h5>
+        <p><span></span><span></span></p>
+        <ul>
+            <li><span>Email the legal services support team: </span><span><a href="mailto:support@aalegaldocuments.co.uk"><span>support@aalegaldocuments.co.uk</span></a></span><span></span><span></span></li>
+            <li><span>Write to: The Senior Partner, Parabis Law LLP, 8 Bedford Park, Croydon, Surrey CR0 2AP</span></li>
+        </ul>
+        <p><span></span></p>
+        <hr />
+        <h3>How long does it take for us to respond?</h3>
+        <p>We'll acknowledge your complaint within 5 working days.&nbsp;<span style="font-weight: lighter;">If things do take a little longer, we'll respond fully within 8&nbsp;weeks, or explain our position and tell you how long a full response will take.</span></p>
+        <hr />
+        <h3>Need to refer your complaint to the Ombudsman?*</h3>
+        <p>If you're still unhappy with our final response, or if we've not given you a final response <strong>within 8 weeks</strong> of your complaint, you may be entitled to refer your complaint to the <a href="http://www.financial-ombudsman.org.uk/">Financial Ombudsman Service</a> for help and advice. </p>
+        <ul>
+            <li><span>Phone: 0800 023 4567 or 0300 123 9123</span></li>
+            <li><span>Email: </span><span><a href="mailto:complaint.info@financial-ombudsman.org.uk"><span>complaint.info@financial-ombudsman.org.uk</span></a></span></li>
+            <li><span>Write to: The Financial Ombudsman Service, Exchange Tower, London E14 9SR</span></li>
+        </ul>
+        <p>* This only applies to certain AA products, so please check the terms and conditions or policy document for details, or talk to us.</p>
+        <p>
+        A dispute relating to goods or services sold online can also be submitted to the European Commission <a href="https://webgate.ec.europa.eu/odr/main/index.cfm?event=main.home.chooseLanguage">Online Dispute Resolution website.</a></p>
+        <hr />
+        <h3>Publication of complaints data</h3>
+        <p>The Financial Conduct Authority requires us to publish the number of complaints we get about our insurance products. <a href="~/link.aspx?_id=8C19061F9E8B45549DC11D217590F86F&amp;_z=z">See the latest complaints data</a>.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211230T112458Z
+  - Version: 8
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201104T130323Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d94e0bb0-3662-43c9-9793-6e45cc551087"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201104T130323Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h3>Get in touch</h3>
+        <h5>For breakdown cover, motor and home insurance and our other products or services not listed here</h5>
+        <li><span>Phone: 0344 209 0556 or 0161 333 5910</span></li>
+        <li><span>Write to: Member Relations, The Automobile Association, Lambert House, Stockport Road, Cheadle, Cheshire SK8 2DY</span></li>
+        <li><span>Text users: contact us on any of our published telephone numbers via the <a href="http://ngts.org.uk/">Next Generation Text (NGT)</a> service<br />
+        </span><br />
+        Please quote your complaint case number, or your membership, policy or reference number if you don't have that.</li>
+        <ul style="list-style-type: disc;">
+        </ul>
+        <h5>For Driving School</h5>
+        <ul style="list-style-type: disc;">
+            <li><span>Phone: 0800 607 080 and select the option for customer services</span></li>
+            <li><span>Write to: Customer Services, AA Driving School, 17th Floor, Capital Tower, Greyfriars Road, Cardiff CF10 3AG</span></li>
+            <li><span>Email the Driving School team: </span><span><a href="mailto:driving-school.complaints@theaa.com"><span>driving-school.complaints@theaa.com</span></a></span></li>
+        </ul>
+        <p><span></span></p>
+        <h5><span>For our savings</span></h5>
+        <ul style="list-style-type: disc;">
+            <li><span>For ISA phone: 0345 603 6302 (8am to 8pm, Monday to Saturday; closed Sunday. Excludes bank holidays)</span></li>
+            <li><span>For Member / Easy Saver: 0345 266 0001 (8am to 8pm Monday to Friday; 9am to 5pm, Saturday; closed Sunday)</span></li>
+        </ul>
+        <p><span></span></p>
+        <h5><span>For our loans<br />
+        </span></h5>
+        <p><span></span></p>
+        <ul>
+            <li>If your loan is provided by Bank of Ireland: 0800 032 0034 (8am to 8pm Monday to Saturday; 9am to 5pm, Sunday. Excludes bank holidays)</li>
+            <li><span>If your loan was provided by AA Personal Finance Limited: 0345 606 1651 (8am to 10pm, Monday to Friday; 8.30am to 6pm, Saturday; 9:30am to 5.30pm, Sunday)</span></li>
+            <li><span>If your loan was provided by The Co-operative Bank</span><span>: 0345 721 2212 (8am to 9pm, Monday to Friday; 9am to 6pm, Saturday and Sunday)</span></li>
+            <li><span>If your loan was provided by</span><span> Creation Consumer Finance Limited</span><span>: 0345 241 1308 (8am to 9pm, Monday to Friday; 9am to 6pm, Saturday and Sunday. Calls cost 2p per minute, plus your phone company's access charge)<br />
+            </span></li>
+        </ul>
+        <h5>For our cards </h5>
+        <ul>
+            <li>Spend and Earn Card and Travel Currency Card: 0345 340 3177 (9am to 6pm, Monday to Friday; closed Saturday and Sunday)</li>
+            <li>Credit cards: 0345 600 5606 (8am to 8pm, Monday to Friday; 9am to 5pm, Saturday; closed Sunday)</li>
+        </ul>
+        <h5>For our mortgages</h5>
+        <ul>
+            <li>Phone: 0800 953 0025 (9am to 5pm, Monday to Friday; closed Saturday and Sunday) Alternatively e-mail: <a href="mailto:lending.resolutions@boi.com">lending.resolutions@boi.com</a></li>
+        </ul>
+        <h5>For DriveTech</h5>
+        <ul>
+            <li>Write to: Customer Experience, AA DriveTech, Fanum House, Basing View, Basingstoke RG21 4EA</li>
+            <li>Email our Customer Experience team: <a href="mailto:CustomerExperience@drivetech.co.uk">CustomerExperience@drivetech.co.uk</a></li>
+        </ul>
+        <h5><span>Legal services</span></h5>
+        <p><span></span><span></span></p>
+        <ul>
+            <li><span>Email the legal services support team: </span><span><a href="mailto:support@aalegaldocuments.co.uk"><span>support@aalegaldocuments.co.uk</span></a></span><span></span><span></span></li>
+            <li><span>Write to: The Senior Partner, Parabis Law LLP, 8 Bedford Park, Croydon, Surrey CR0 2AP</span></li>
+        </ul>
+        <p><span></span></p>
+        <hr />
+        <h3>How long does it take for us to respond?</h3>
+        <p>We'll acknowledge your complaint within 5 working days.&nbsp;<span style="font-weight: lighter;">If things do take a little longer, we'll respond fully within 8&nbsp;weeks, or explain our position and tell you how long a full response will take.</span></p>
+        <hr />
+        <h3>Need to refer your complaint to the Ombudsman?*</h3>
+        <p>If you're still unhappy with our final response, or if we've not given you a final response <strong>within 8 weeks</strong> of your complaint, you may be entitled to refer your complaint to the <a href="http://www.financial-ombudsman.org.uk/">Financial Ombudsman Service</a> for help and advice. </p>
+        <ul>
+            <li><span>Phone: 0800 023 4567 or 0300 123 9123</span></li>
+            <li><span>Email: </span><span><a href="mailto:complaint.info@financial-ombudsman.org.uk"><span>complaint.info@financial-ombudsman.org.uk</span></a></span></li>
+            <li><span>Write to: The Financial Ombudsman Service, Exchange Tower, London E14 9SR</span></li>
+        </ul>
+        <p>* This only applies to certain AA products, so please check the terms and conditions or policy document for details, or talk to us.</p>
+        <p>
+        A dispute relating to goods or services sold online can also be submitted to the European Commission <a href="https://webgate.ec.europa.eu/odr/main/index.cfm?event=main.home.chooseLanguage">Online Dispute Resolution website.</a></p>
+        <hr />
+        <h3>Publication of complaints data</h3>
+        <p>The Financial Conduct Authority requires us to publish the number of complaints we get about our insurance products. <a href="~/link.aspx?_id=8C19061F9E8B45549DC11D217590F86F&amp;_z=z">See the latest complaints data</a>.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201104T130323Z
+  - Version: 9
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201104T130509Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "22f4eb72-cc58-4f68-a07f-0b0f0e2e52e1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201104T130509Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h3>Get in touch</h3>
+        <h5>For breakdown cover, motor and home insurance and our other products or services not listed here</h5>
+        <li><span>Phone: 0344 209 0556 or 0161 333 5910</span></li>
+        <li><span>Write to: Member Relations, The Automobile Association, Lambert House, Stockport Road, Cheadle, Cheshire SK8 2DY</span></li>
+        <li><span>Email our breakdown team: <a href="mailto:customer.solutions@theaa.com">customer.solutions@theaa.com</a></span></li>
+        <li><span>Email our insurance team: <a href="mailto:customer.solutions@theaa.com">insurance.complaints@theaa.com</a></span></li>
+        <li><span>Text users: contact us on any of our published telephone numbers via the <a href="http://ngts.org.uk/">Next Generation Text (NGT)</a> service<br />
+        </span><br />
+        Please quote your complaint case number, or your membership, policy or reference number if you don't have that.</li>
+        <ul style="list-style-type: disc;">
+        </ul>
+        <h5>For Driving School</h5>
+        <ul style="list-style-type: disc;">
+            <li><span>Phone: 0800 607 080 and select the option for customer services</span></li>
+            <li><span>Write to: Customer Services, AA Driving School, 17th Floor, Capital Tower, Greyfriars Road, Cardiff CF10 3AG</span></li>
+            <li><span>Email the Driving School team: </span><span><a href="mailto:driving-school.complaints@theaa.com"><span>driving-school.complaints@theaa.com</span></a></span></li>
+        </ul>
+        <p><span></span></p>
+        <h5><span>For our savings</span></h5>
+        <ul style="list-style-type: disc;">
+            <li><span>For ISA phone: 0345 603 6302 (8am to 8pm, Monday to Saturday; closed Sunday. Excludes bank holidays)</span></li>
+            <li><span>For Member / Easy Saver: 0345 266 0001 (8am to 8pm Monday to Friday; 9am to 5pm, Saturday; closed Sunday)</span></li>
+        </ul>
+        <p><span></span></p>
+        <h5><span>For our loans<br />
+        </span></h5>
+        <p><span></span></p>
+        <ul>
+            <li>If your loan is provided by Bank of Ireland: 0800 032 0034 (8am to 8pm Monday to Saturday; 9am to 5pm, Sunday. Excludes bank holidays)</li>
+            <li><span>If your loan was provided by AA Personal Finance Limited: 0345 606 1651 (8am to 10pm, Monday to Friday; 8.30am to 6pm, Saturday; 9:30am to 5.30pm, Sunday)</span></li>
+            <li><span>If your loan was provided by The Co-operative Bank</span><span>: 0345 721 2212 (8am to 9pm, Monday to Friday; 9am to 6pm, Saturday and Sunday)</span></li>
+            <li><span>If your loan was provided by</span><span> Creation Consumer Finance Limited</span><span>: 0345 241 1308 (8am to 9pm, Monday to Friday; 9am to 6pm, Saturday and Sunday. Calls cost 2p per minute, plus your phone company's access charge)<br />
+            </span></li>
+        </ul>
+        <h5>For our cards </h5>
+        <ul>
+            <li>Spend and Earn Card and Travel Currency Card: 0345 340 3177 (9am to 6pm, Monday to Friday; closed Saturday and Sunday)</li>
+            <li>Credit cards: 0345 600 5606 (8am to 8pm, Monday to Friday; 9am to 5pm, Saturday; closed Sunday)</li>
+        </ul>
+        <h5>For our mortgages</h5>
+        <ul>
+            <li>Phone: 0800 953 0025 (9am to 5pm, Monday to Friday; closed Saturday and Sunday) Alternatively e-mail: <a href="mailto:lending.resolutions@boi.com">lending.resolutions@boi.com</a></li>
+        </ul>
+        <h5>For DriveTech</h5>
+        <ul>
+            <li>Write to: Customer Experience, AA DriveTech, Fanum House, Basing View, Basingstoke RG21 4EA</li>
+            <li>Email our Customer Experience team: <a href="mailto:CustomerExperience@drivetech.co.uk">CustomerExperience@drivetech.co.uk</a></li>
+        </ul>
+        <h5><span>Legal services</span></h5>
+        <p><span></span><span></span></p>
+        <ul>
+            <li><span>Email the legal services support team: </span><span><a href="mailto:support@aalegaldocuments.co.uk"><span>support@aalegaldocuments.co.uk</span></a></span><span></span><span></span></li>
+            <li><span>Write to: The Senior Partner, Parabis Law LLP, 8 Bedford Park, Croydon, Surrey CR0 2AP</span></li>
+        </ul>
+        <p><span></span></p>
+        <hr />
+        <h3>How long does it take for us to respond?</h3>
+        <p>We'll acknowledge your complaint within 5 working days.&nbsp;<span style="font-weight: lighter;">If things do take a little longer, we'll respond fully within 8&nbsp;weeks, or explain our position and tell you how long a full response will take.</span></p>
+        <hr />
+        <h3>Need to refer your complaint to the Ombudsman?*</h3>
+        <p>If you're still unhappy with our final response, or if we've not given you a final response <strong>within 8 weeks</strong> of your complaint, you may be entitled to refer your complaint to the <a href="http://www.financial-ombudsman.org.uk/">Financial Ombudsman Service</a> for help and advice. </p>
+        <ul>
+            <li><span>Phone: 0800 023 4567 or 0300 123 9123</span></li>
+            <li><span>Email: </span><span><a href="mailto:complaint.info@financial-ombudsman.org.uk"><span>complaint.info@financial-ombudsman.org.uk</span></a></span></li>
+            <li><span>Write to: The Financial Ombudsman Service, Exchange Tower, London E14 9SR</span></li>
+        </ul>
+        <p>* This only applies to certain AA products, so please check the terms and conditions or policy document for details, or talk to us.</p>
+        <p>
+        A dispute relating to goods or services sold online can also be submitted to the European Commission <a href="https://webgate.ec.europa.eu/odr/main/index.cfm?event=main.home.chooseLanguage">Online Dispute Resolution website.</a></p>
+        <hr />
+        <h3>Publication of complaints data</h3>
+        <p>The Financial Conduct Authority requires us to publish the number of complaints we get about our insurance products. <a href="~/link.aspx?_id=8C19061F9E8B45549DC11D217590F86F&amp;_z=z">See the latest complaints data</a>.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211230T112458Z
+  - Version: 10
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201104T131008Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "67fba796-8b85-4f22-af85-2fa05ad954bb"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201104T131008Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h3>Get in touch</h3>
+        <h5>For breakdown cover, motor and home insurance and our other products or services not listed here</h5>
+        <li><span>Phone: 0344 209 0556 or 0161 333 5910</span></li>
+        <li><span>Write to: Member Relations, The Automobile Association, Lambert House, Stockport Road, Cheadle, Cheshire SK8 2DY</span></li>
+        <li><span>Email our breakdown team: <a href="mailto:customer.solutions@theaa.com">customer.solutions@theaa.com</a></span></li>
+        <li><span>Email our insurance team: <a href="mailto:insurance.complaints@theaa.com">insurance.complaints@theaa.com</a></span></li>
+        <li><span>Text users: contact us on any of our published telephone numbers via the <a href="http://ngts.org.uk/">Next Generation Text (NGT)</a> service<br />
+        </span><br />
+        Please quote your complaint case number, or your membership, policy or reference number if you don't have that.</li>
+        <ul style="list-style-type: disc;">
+        </ul>
+        <h5>For Driving School</h5>
+        <ul style="list-style-type: disc;">
+            <li><span>Phone: 0800 607 080 and select the option for customer services</span></li>
+            <li><span>Write to: Customer Services, AA Driving School, 17th Floor, Capital Tower, Greyfriars Road, Cardiff CF10 3AG</span></li>
+            <li><span>Email the Driving School team: </span><span><a href="mailto:driving-school.complaints@theaa.com"><span>driving-school.complaints@theaa.com</span></a></span></li>
+        </ul>
+        <p><span></span></p>
+        <h5><span>For our savings</span></h5>
+        <ul style="list-style-type: disc;">
+            <li><span>For ISA phone: 0345 603 6302 (8am to 8pm, Monday to Saturday; closed Sunday. Excludes bank holidays)</span></li>
+            <li><span>For Member / Easy Saver: 0345 266 0001 (8am to 8pm Monday to Friday; 9am to 5pm, Saturday; closed Sunday)</span></li>
+        </ul>
+        <p><span></span></p>
+        <h5><span>For our loans<br />
+        </span></h5>
+        <p><span></span></p>
+        <ul>
+            <li>If your loan is provided by Bank of Ireland: 0800 032 0034 (8am to 8pm Monday to Saturday; 9am to 5pm, Sunday. Excludes bank holidays)</li>
+            <li><span>If your loan was provided by AA Personal Finance Limited: 0345 606 1651 (8am to 10pm, Monday to Friday; 8.30am to 6pm, Saturday; 9:30am to 5.30pm, Sunday)</span></li>
+            <li><span>If your loan was provided by The Co-operative Bank</span><span>: 0345 721 2212 (8am to 9pm, Monday to Friday; 9am to 6pm, Saturday and Sunday)</span></li>
+            <li><span>If your loan was provided by</span><span> Creation Consumer Finance Limited</span><span>: 0345 241 1308 (8am to 9pm, Monday to Friday; 9am to 6pm, Saturday and Sunday. Calls cost 2p per minute, plus your phone company's access charge)<br />
+            </span></li>
+        </ul>
+        <h5>For our cards </h5>
+        <ul>
+            <li>Spend and Earn Card and Travel Currency Card: 0345 340 3177 (9am to 6pm, Monday to Friday; closed Saturday and Sunday)</li>
+            <li>Credit cards: 0345 600 5606 (8am to 8pm, Monday to Friday; 9am to 5pm, Saturday; closed Sunday)</li>
+        </ul>
+        <h5>For our mortgages</h5>
+        <ul>
+            <li>Phone: 0800 953 0025 (9am to 5pm, Monday to Friday; closed Saturday and Sunday) Alternatively e-mail: <a href="mailto:lending.resolutions@boi.com">lending.resolutions@boi.com</a></li>
+        </ul>
+        <h5>For DriveTech</h5>
+        <ul>
+            <li>Write to: Customer Experience, AA DriveTech, Fanum House, Basing View, Basingstoke RG21 4EA</li>
+            <li>Email our Customer Experience team: <a href="mailto:CustomerExperience@drivetech.co.uk">CustomerExperience@drivetech.co.uk</a></li>
+        </ul>
+        <h5><span>Legal services</span></h5>
+        <p><span></span><span></span></p>
+        <ul>
+            <li><span>Email the legal services support team: </span><span><a href="mailto:support@aalegaldocuments.co.uk"><span>support@aalegaldocuments.co.uk</span></a></span><span></span><span></span></li>
+            <li><span>Write to: The Senior Partner, Parabis Law LLP, 8 Bedford Park, Croydon, Surrey CR0 2AP</span></li>
+        </ul>
+        <p><span></span></p>
+        <hr />
+        <h3>How long does it take for us to respond?</h3>
+        <p>We'll acknowledge your complaint within 5 working days.&nbsp;<span style="font-weight: lighter;">If things do take a little longer, we'll respond fully within 8&nbsp;weeks, or explain our position and tell you how long a full response will take.</span></p>
+        <hr />
+        <h3>Need to refer your complaint to the Ombudsman?*</h3>
+        <p>If you're still unhappy with our final response, or if we've not given you a final response <strong>within 8 weeks</strong> of your complaint, you may be entitled to refer your complaint to the <a href="http://www.financial-ombudsman.org.uk/">Financial Ombudsman Service</a> for help and advice. </p>
+        <ul>
+            <li><span>Phone: 0800 023 4567 or 0300 123 9123</span></li>
+            <li><span>Email: </span><span><a href="mailto:complaint.info@financial-ombudsman.org.uk"><span>complaint.info@financial-ombudsman.org.uk</span></a></span></li>
+            <li><span>Write to: The Financial Ombudsman Service, Exchange Tower, London E14 9SR</span></li>
+        </ul>
+        <p>* This only applies to certain AA products, so please check the terms and conditions or policy document for details, or talk to us.</p>
+        <p>
+        A dispute relating to goods or services sold online can also be submitted to the European Commission <a href="https://webgate.ec.europa.eu/odr/main/index.cfm?event=main.home.chooseLanguage">Online Dispute Resolution website.</a></p>
+        <hr />
+        <h3>Publication of complaints data</h3>
+        <p>The Financial Conduct Authority requires us to publish the number of complaints we get about our insurance products. <a href="~/link.aspx?_id=8C19061F9E8B45549DC11D217590F86F&amp;_z=z">See the latest complaints data</a>.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211230T113008Z
+  - Version: 11
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220201T160336Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "21ddfcc9-bf1f-47f8-9701-0568c994f2b2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220201T160336Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>Get in touch</h2>
+        <ul>
+            <li>Phone: 0330 041 3688, lines are open Xam to Xpm, Monday to Friday; Xam to Xpm, Saturday</li>
+            <li>Write to: Member Relations, The Automobile Association, Lambert House, Stockport Road, Cheadle, Cheshire SK8 2DY</li>
+            <li>Email our insurance team: whats_this_email_address@beam.com</li>
+            <li>Text users: contact us on any of our published telephone numbers via the Next Generation Text (NGT) service</li>
+        </ul>
+        <p>Please quote your complaint case number, or your policy or reference number if you don't have that.</p>
+        <h2>How long does it take for us to respond?</h2>
+        <p>We'll acknowledge your complaint within 5 working days. If things do take a little longer, we'll respond fully within 8 weeks, or explain our position and tell you how long a full response will take.</p>
+        <h2>Need to refer your complaint to the Ombudsman?*</h2>
+        <p>If you're still unhappy with our final response, or if we've not given you a final response <strong>within 8 weeks</strong> of your complaint, you may be entitled to refer your complaint to the <a href="http://www.financial-ombudsman.org.uk/">Financial Ombudsman Service</a> for help and advice.</p>
+        <ul>
+            <li>Phone: 0800 023 4567 or 0300 123 9123</li>
+            <li>Email: <a href="mailto:complaint.info@financial-ombudsman.org.uk">complaint.info@financial-ombudsman.org.uk</a></li>
+            <li>Write to: The Financial Ombudsman Service, Exchange Tower, London E14 9SR</li>
+        </ul>
+        <p>* This only applies to certain products, so please check the terms and conditions or policy document for details or talk to us.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220201T161807Z
+  - Version: 12
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220210T130636Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0841bd19-845e-40ac-9b7c-90e5042e12e3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220210T130636Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>Get in touch</h2>
+        <ul>
+            <li>Phone: 0330 041 3688, lines are open Xam to Xpm, Monday to Friday; Xam to Xpm, Saturday</li>
+            <li>Write to: Member Relations, The Automobile Association, Lambert House, Stockport Road, Cheadle, Cheshire SK8 2DY</li>
+            <li>Email our insurance team: whats_this_email_address@beam.com</li>
+            <li>Text users: contact us on any of our published telephone numbers via the Next Generation Text (NGT) service</li>
+        </ul>
+        <p>Let us know your complaint case number, or your policy or reference number if you don't have that.</p>
+        <h2>How long does it take for us to respond?</h2>
+        <p>We'll confirm that we've received your complaint within 5 working days. If things do take a little longer, we'll respond fully within 8 weeks, or explain our position and tell you how long a full response will take.</p>
+        <h2>Need to refer your complaint to the Ombudsman?*</h2>
+        <p>If you're still unhappy with our final response, or if we've not given you a final response <strong>within 8 weeks</strong> of your complaint, you may be entitled to refer your complaint to the <a href="http://www.financial-ombudsman.org.uk/">Financial Ombudsman Service</a> for help and advice.</p>
+        <ul>
+            <li>Phone: 0800 023 4567 or 0300 123 9123</li>
+            <li>Email: <a href="mailto:complaint.info@financial-ombudsman.org.uk">complaint.info@financial-ombudsman.org.uk</a></li>
+            <li>Write to: The Financial Ombudsman Service, Exchange Tower, London E14 9SR</li>
+        </ul>
+        <p>* This only applies to certain products, so please check the terms and conditions or policy document for details or talk to us.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220210T133148Z
+  - Version: 13
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220303T090631Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "12482303-e085-4dfe-8473-0c0ec55b79e5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220303T090631Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>Get in touch</h2>
+        <ul>
+            <li>Phone: 0330 041 3688, lines are open Xam to Xpm, Monday to Friday; Xam to Xpm, Saturday</li>
+            <li>Write to: AA Insurance complaints, Customer Solutions Team, PO BOX 2AA, Newcastle Upon Tyne, NE99 2AA</li>
+            <li>Email our insurance team: <a href="mailto:insurance.complaints@aabeam.co.uk">insurance.complaints@aabeam.co.uk</a></li>
+            <li>Text users: contact us on any of our published telephone numbers via the Next Generation Text (NGT) service</li>
+        </ul>
+        <p>Let us know your complaint case number, or your policy or reference number if you don't have that.</p>
+        <h2>How long does it take for us to respond?</h2>
+        <p>We'll confirm that we've received your complaint within 5 working days. If things do take a little longer, we'll respond fully within 8 weeks, or explain our position and tell you how long a full response will take.</p>
+        <h2>Need to refer your complaint to the Ombudsman?*</h2>
+        <p>If you're still unhappy with our final response, or if we've not given you a final response <strong>within 8 weeks</strong> of your complaint, you may be entitled to refer your complaint to the <a href="http://www.financial-ombudsman.org.uk/">Financial Ombudsman Service</a> for help and advice.</p>
+        <ul>
+            <li>Phone: 0800 023 4567 or 0300 123 9123</li>
+            <li>Email: <a href="mailto:complaint.info@financial-ombudsman.org.uk">complaint.info@financial-ombudsman.org.uk</a></li>
+            <li>Write to: The Financial Ombudsman Service, Exchange Tower, London E14 9SR</li>
+        </ul>
+        <p>* This only applies to certain products, so please check the terms and conditions or policy document for details or talk to us.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220303T094235Z
+  - Version: 14
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220315T085704Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "aee0fcc9-42ee-4778-be1d-4521c7c683ac"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220315T085704Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>Get in touch</h2>
+        <ul>
+            <li>Phone: 0330 041 3688, lines are open 9am to 5pm, Monday to Friday</li>
+            <li>Write to: AA Insurance complaints, Customer Solutions Team, PO BOX 2AA, Newcastle Upon Tyne, NE99 2AA</li>
+            <li>Email our insurance team: <a href="mailto:insurance.complaints@aabeam.co.uk">insurance.complaints@aabeam.co.uk</a></li>
+            <li>Text users: contact us on any of our published telephone numbers via the Next Generation Text (NGT) service</li>
+        </ul>
+        <p>Let us know your complaint case number, or your policy or reference number if you don't have that.</p>
+        <h2>How long does it take for us to respond?</h2>
+        <p>We'll confirm that we've received your complaint within 5 working days. If things do take a little longer, we'll respond fully within 8 weeks, or explain our position and tell you how long a full response will take.</p>
+        <h2>Need to refer your complaint to the Ombudsman?*</h2>
+        <p>If you're still unhappy with our final response, or if we've not given you a final response <strong>within 8 weeks</strong> of your complaint, you may be entitled to refer your complaint to the <a href="http://www.financial-ombudsman.org.uk/">Financial Ombudsman Service</a> for help and advice.</p>
+        <ul>
+            <li>Phone: 0800 023 4567 or 0300 123 9123</li>
+            <li>Email: <a href="mailto:complaint.info@financial-ombudsman.org.uk">complaint.info@financial-ombudsman.org.uk</a></li>
+            <li>Write to: The Financial Ombudsman Service, Exchange Tower, London E14 9SR</li>
+        </ul>
+        <p>* This only applies to certain products, so please check the terms and conditions or policy document for details or talk to us.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220315T085746Z
+  - Version: 15
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220404T092028Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\EvansD
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "20c27067-916b-42bc-8a21-13c74162ea2a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\EvansD
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220404T092028Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>Get in touch</h2>
+        <ul>
+            <li>Phone: 0330 041 3688, lines are open 9am to 5pm, Monday to Friday</li>
+            <li>Write to: BEAM complaints, Customer Solutions Team, PO BOX 2AA, Newcastle Upon Tyne, NE99 2AA</li>
+            <li>Email our insurance team: <a href="mailto:insurance.complaints@aabeam.co.uk">insurance.complaints@aabeam.co.uk</a></li>
+            <li>Text users: contact us on any of our published telephone numbers via the Next Generation Text (NGT) service</li>
+        </ul>
+        <p>Let us know your complaint case number, or your policy or reference number if you don't have that.</p>
+        <h2>How long does it take for us to respond?</h2>
+        <p>We'll confirm that we've received your complaint within 5 working days. If things do take a little longer, we'll respond fully within 8 weeks, or explain our position and tell you how long a full response will take.</p>
+        <h2>Need to refer your complaint to the Ombudsman?*</h2>
+        <p>If you're still unhappy with our final response, or if we've not given you a final response <strong>within 8 weeks</strong> of your complaint, you may be entitled to refer your complaint to the <a href="http://www.financial-ombudsman.org.uk/">Financial Ombudsman Service</a> for help and advice.</p>
+        <ul>
+            <li>Phone: 0800 023 4567 or 0300 123 9123</li>
+            <li>Email: <a href="mailto:complaint.info@financial-ombudsman.org.uk">complaint.info@financial-ombudsman.org.uk</a></li>
+            <li>Write to: The Financial Ombudsman Service, Exchange Tower, London E14 9SR</li>
+        </ul>
+        <p>* This only applies to certain products, so please check the terms and conditions or policy document for details or talk to us.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220404T092120Z

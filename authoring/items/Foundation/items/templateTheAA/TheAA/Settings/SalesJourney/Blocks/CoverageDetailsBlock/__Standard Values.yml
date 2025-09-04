@@ -1,0 +1,26 @@
+﻿---
+ID: "f3440eab-0fcd-4bdc-b842-ac5c9663ff28"
+Parent: "8c2d32fd-bdac-4848-8fd7-9663d4d14dec"
+Template: "8c2d32fd-bdac-4848-8fd7-9663d4d14dec"
+Path: /sitecore/templates/TheAA/Settings/SalesJourney/Blocks/CoverageDetailsBlock/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160927T095701Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ecc20791-d49a-4c7d-aed3-3478c991654d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20160927T101058Z
+    - ID: "fdfd86d5-1862-4393-8426-42012d76f30f"
+      Hint: RenderingViewPath
+      Value: "{E75A801B-C8ED-4163-8B5F-CF78781D08BE}"

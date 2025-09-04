@@ -1,0 +1,206 @@
+﻿---
+ID: "bd77cd5f-fa3b-4b05-877a-b6c6e93dae7a"
+Parent: "b2acfd33-e889-4299-a2d1-ebd30bc8e38e"
+Template: "d72990ff-9d30-44f7-837d-65a022d997de"
+Path: "/sitecore/content/AA/Beam/Modules/Product Builder/Products/insurance/car-insurance/compare-cover-levels/Comprehensive"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "15f6fc47-343c-46d4-987d-2f93cb2ee8f8"
+      Hint: TooltipText
+      Value: The highest level of cover. You're covered for injuries to other people and damage to their vehicle or property. You're also covered for fire damage, vandalism, accidental damage or theft of your car.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160707T140957Z
+    - ID: "3d48274e-633d-4f05-acc0-5355bb0488ca"
+      Hint: FeatureInclusions
+      Value: |
+        {363F0018-7983-4D81-B937-A937A937CB28}
+        {E1ACEFC8-35DF-4EA6-8DF3-2EDA1D0EBBDA}
+        {A749F3C0-9FE6-4020-81BC-4B671C3677F2}
+        {DA69D8BA-BB5A-4552-8577-8544CCE052A7}
+        {596AAC84-1C34-4373-92A9-4949E1863E9D}
+        {BEECE0FB-E925-4411-8938-8CCBCFD379EA}
+        {B62AEF2A-63F6-4A62-BA91-F0D6F1884303}
+        {F310D781-5BA4-4D70-8842-743C8E844058}
+        {3265BCF9-1723-4E76-A33E-6DC563C83D46}
+        {5B313EBC-A909-4BF2-89EB-6867D1899DD4}
+        {D4E35EB8-E2DB-425C-AF97-F44E44A5B751}
+        {25D2349F-D8EA-4B03-A0C3-BB752B80C836}
+        {98D03945-8A33-4A56-A4CB-E6D6359A9024}
+        {6A3166B8-7AB2-4D17-B6C6-095BE17B0711}
+        {5E320642-D0DE-406F-B110-230AB891B76E}
+        {A51D28C3-3B8B-4AE8-B906-DE8D1F13D021}
+        {D251EDFC-D47B-49E5-943F-3BCCFC4B7C7A}
+        {C26C6822-ED7E-4864-A2FB-6C2780BAA566}
+        {F068D7E7-4F50-484D-B901-01AD4A1E07A0}
+        {CD23C6B5-AD5C-4711-9A89-75FE60FDD2C3}
+        {A307ECAB-78E4-4CF9-A924-E10F56E93AD6}
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "50021fcd-3c55-40e8-9fbc-d4ed9faf09ca"
+      Hint: IsPopularRecommendedLabel
+      Value: Most popular
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jincaa
+    - ID: "630c85d8-33b4-48a8-b135-5b9a7245104b"
+      Hint: ProductName
+      Value: Comprehensive
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f10396ea-881a-4c83-84d2-82a46586f408"
+    - ID: "b14023f7-4c9b-4df6-9c99-05c6a63c5a8c"
+      Hint: IsPopularRecommended
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220222T170828Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "15f6fc47-343c-46d4-987d-2f93cb2ee8f8"
+      Hint: TooltipText
+      Value: The highest level of cover. You're covered for accidental damage or theft of your car, injuries to other people and damage to their vehicle or property. You're also covered for fire damage and vandalism.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220225T154115Z
+    - ID: "3d48274e-633d-4f05-acc0-5355bb0488ca"
+      Hint: FeatureInclusions
+      Value: |
+        {363F0018-7983-4D81-B937-A937A937CB28}
+        {E1ACEFC8-35DF-4EA6-8DF3-2EDA1D0EBBDA}
+        {A749F3C0-9FE6-4020-81BC-4B671C3677F2}
+        {DA69D8BA-BB5A-4552-8577-8544CCE052A7}
+        {596AAC84-1C34-4373-92A9-4949E1863E9D}
+        {BEECE0FB-E925-4411-8938-8CCBCFD379EA}
+        {B62AEF2A-63F6-4A62-BA91-F0D6F1884303}
+        {F310D781-5BA4-4D70-8842-743C8E844058}
+        {3265BCF9-1723-4E76-A33E-6DC563C83D46}
+        {5B313EBC-A909-4BF2-89EB-6867D1899DD4}
+        {D4E35EB8-E2DB-425C-AF97-F44E44A5B751}
+        {25D2349F-D8EA-4B03-A0C3-BB752B80C836}
+        {98D03945-8A33-4A56-A4CB-E6D6359A9024}
+        {6A3166B8-7AB2-4D17-B6C6-095BE17B0711}
+        {5E320642-D0DE-406F-B110-230AB891B76E}
+        {A51D28C3-3B8B-4AE8-B906-DE8D1F13D021}
+        {D251EDFC-D47B-49E5-943F-3BCCFC4B7C7A}
+        {C26C6822-ED7E-4864-A2FB-6C2780BAA566}
+        {F068D7E7-4F50-484D-B901-01AD4A1E07A0}
+        {CD23C6B5-AD5C-4711-9A89-75FE60FDD2C3}
+        {A307ECAB-78E4-4CF9-A924-E10F56E93AD6}
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "50021fcd-3c55-40e8-9fbc-d4ed9faf09ca"
+      Hint: IsPopularRecommendedLabel
+      Value: Most popular
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "630c85d8-33b4-48a8-b135-5b9a7245104b"
+      Hint: ProductName
+      Value: Comprehensive
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ca3b2435-df82-4cb3-9fbd-c44c935db3aa"
+    - ID: "b14023f7-4c9b-4df6-9c99-05c6a63c5a8c"
+      Hint: IsPopularRecommended
+      Value: 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220225T154115Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220225T154226Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "15f6fc47-343c-46d4-987d-2f93cb2ee8f8"
+      Hint: TooltipText
+      Value: Comprehensive cover protects your car against accidental damage, vandalism, fire or theft, and injuries to other people and damage to their vehicle or property.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240906T092426Z
+    - ID: "3d48274e-633d-4f05-acc0-5355bb0488ca"
+      Hint: FeatureInclusions
+      Value: |
+        {363F0018-7983-4D81-B937-A937A937CB28}
+        {E1ACEFC8-35DF-4EA6-8DF3-2EDA1D0EBBDA}
+        {A749F3C0-9FE6-4020-81BC-4B671C3677F2}
+        {DA69D8BA-BB5A-4552-8577-8544CCE052A7}
+        {596AAC84-1C34-4373-92A9-4949E1863E9D}
+        {BEECE0FB-E925-4411-8938-8CCBCFD379EA}
+        {B62AEF2A-63F6-4A62-BA91-F0D6F1884303}
+        {F310D781-5BA4-4D70-8842-743C8E844058}
+        {3265BCF9-1723-4E76-A33E-6DC563C83D46}
+        {5B313EBC-A909-4BF2-89EB-6867D1899DD4}
+        {D4E35EB8-E2DB-425C-AF97-F44E44A5B751}
+        {25D2349F-D8EA-4B03-A0C3-BB752B80C836}
+        {98D03945-8A33-4A56-A4CB-E6D6359A9024}
+        {6A3166B8-7AB2-4D17-B6C6-095BE17B0711}
+        {5E320642-D0DE-406F-B110-230AB891B76E}
+        {A51D28C3-3B8B-4AE8-B906-DE8D1F13D021}
+        {D251EDFC-D47B-49E5-943F-3BCCFC4B7C7A}
+        {C26C6822-ED7E-4864-A2FB-6C2780BAA566}
+        {F068D7E7-4F50-484D-B901-01AD4A1E07A0}
+        {CD23C6B5-AD5C-4711-9A89-75FE60FDD2C3}
+        {A307ECAB-78E4-4CF9-A924-E10F56E93AD6}
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "50021fcd-3c55-40e8-9fbc-d4ed9faf09ca"
+      Hint: IsPopularRecommendedLabel
+      Value: 4 Star Defaqto Rating
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "630c85d8-33b4-48a8-b135-5b9a7245104b"
+      Hint: ProductName
+      Value: Comprehensive
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9249e581-80bc-4c9f-b7a0-724602eba23a"
+    - ID: "b14023f7-4c9b-4df6-9c99-05c6a63c5a8c"
+      Hint: IsPopularRecommended
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240906T092426Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241119T130805Z

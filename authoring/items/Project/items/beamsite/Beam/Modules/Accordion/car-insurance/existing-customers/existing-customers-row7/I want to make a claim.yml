@@ -1,0 +1,252 @@
+﻿---
+ID: "3580e915-37f4-4404-ae65-d6a5741a7e6f"
+Parent: "4d9dbd3f-507f-4332-8ed4-dcec335f8a50"
+Template: "11e11bcb-aa73-4cd2-a73e-fbeedfe8da05"
+Path: "/sitecore/content/AA/Beam/Modules/Accordion/car-insurance/existing-customers/existing-customers-row7/I want to make a claim"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160701T154518Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jincaa
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0baa02ef-6626-4de3-b2f5-1248de186830"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h5>We're here to help 24 hours a day, 365 days a year</h5>
+        <p>If you're unfortunate enough to have an accident, injury, loss or damage regardless of fault, our claim advisors are ready to help. To make a claim, call:</p>
+        <a href="tel:0800269622"></a>
+        <h5>0800 269 622</h5>
+        <p>Please have your policy number handy when calling. Your policy number is on your Statement of Insurance.</p>
+        <p>When you call AA Claimline, your personal claim advisor will explain all the available options, and assist you through every step of the claims process. Then, once the incident report has been completed, you will be passed to either your insurer or ClaimFast (our preferred accident management company) to progress your claim.</p>
+        <p>Your AA personal claim advisor will contact you in a week to discuss how your claim is progressing, and see if we can be of any assistance.</p>
+        <h5>Car insurance claim help tips</h5>
+        <p>Before you call, read our advice about making a <a href="http://www.theaa.com/insurance/car-insurance-claims.html" title="Car insurance claim help tips">car insurance claim</a>.</p>
+        <a href="tel:03705332211">
+        </a>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jincaa
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: I want to make a claim
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20160715T134538Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160725T103152Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jincaa
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "01b53425-cd75-490e-a48c-ca7c4a32fda8"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h5>We're here to help 24 hours a day, 365 days a year</h5>
+        <p>If you're unfortunate enough to have an accident, injury, loss or damage regardless of fault, our claim advisors are ready to help. To make a claim, call:</p>
+        <a href="tel:0800269622"></a>
+        <h5>0800 269 622</h5>
+        <p>Please have your policy number handy when calling. Your policy number is on your Statement of Insurance.</p>
+        <p>When you call AA Claimline, your personal claim advisor will explain all the available options, and assist you through every step of the claims process. Then, once the incident report has been completed, you will be passed to either your insurer or ClaimFast (our preferred accident management company) to progress your claim.</p>
+        <p>Your AA personal claim advisor will contact you in a week to discuss how your claim is progressing, and see if we can be of any assistance.</p>
+        <h5>Car insurance claim help tips</h5>
+        <p>Before you call, read our advice about making a <a href="~/link.aspx?_id=3706084B96BF469EBA70C2C218CFEC02&amp;_z=z">car insurance claim</a>.</p>
+        <a href="tel:03705332211">
+        </a>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\jincaa
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20160725T103152Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: I want to make a claim
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20160725T103244Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200715T104802Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8258f140-1569-4805-8e3f-25f48bac69c1"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h5>We're here to help 24 hours a day, 365 days a year</h5>
+        <p>If you're unfortunate enough to have an accident, injury, loss or damage regardless of fault, AA Accident Assist is ready to help. To make a claim, call:</p>
+        <h6><a href="tel:0800269622">0800 269 622</a></h6>
+        <p>Please have your policy number handy &ndash; you can find it on your Statement of Insurance.</p>
+        <p>When you call AA Accident Assist, your claim advisor will explain all the available options, and assist you through every step of the claims process. Then, once the incident report has been completed, we'll arrange repairs to your vehicle and a replacement vehicle, or pass you to your insurer to progress the claim.</p>
+        <p>Your AA Accident Assist claim advisor will contact you in a week to discuss how the claim is progressing, and see if we can help you further.</p>
+        <p><strong>Car insurance claim help tips</strong></p>
+        <p>Before you call, read our advice about making a <a href="~/link.aspx?_id=3706084B96BF469EBA70C2C218CFEC02&amp;_z=z">car insurance claim</a>.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200715T104802Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: I want to make a claim
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200722T063326Z
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200722T063704Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "269f9e99-afb6-4fe2-bab4-fdbdea835133"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h5>We're here to help 24 hours a day, 365 days a year</h5>
+        <p>If you're unfortunate enough to have an accident, injury, loss or damage regardless of fault, AA Accident Assist is ready to help. </p>
+        <p>To make a claim, call <a href="tel:0800269622">0800 269 622</a></p>
+        <p>Please have your policy number handy &ndash; you can find it on your Statement of Insurance.</p>
+        <p>When you call AA Accident Assist, your claim advisor will explain all the available options, and assist you through every step of the claims process. Then, once the incident report has been completed, we'll arrange repairs to your vehicle and a replacement vehicle, or pass you to your insurer to progress the claim.</p>
+        <p>Your AA Accident Assist claim advisor will contact you in a week to discuss how the claim is progressing, and see if we can help you further.</p>
+        <p><strong>Car insurance claim help tips</strong></p>
+        <p>Before you call, read our advice about making a <a href="~/link.aspx?_id=3706084B96BF469EBA70C2C218CFEC02&amp;_z=z">car insurance claim</a>.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200722T063704Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: I want to make a claim
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200722T063754Z
+  - Version: 5
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200722T063935Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2b1b36ec-2d95-4408-bcc5-950d12439ad3"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h5>We're here to help 24 hours a day, 365 days a year</h5>
+        <p>If you're unfortunate enough to have an accident, injury, loss or damage regardless of fault, AA Accident Assist is ready to help. </p>
+        <p>To make a claim, call <a href="tel:0800269622">0800 269 622</a>.</p>
+        <p>Please have your policy number handy &ndash; you can find it on your Statement of Insurance.</p>
+        <p>When you call AA Accident Assist, your claim advisor will explain all the available options, and assist you through every step of the claims process. Then, once the incident report has been completed, we'll arrange repairs to your vehicle and a replacement vehicle, or pass you to your insurer to progress the claim.</p>
+        <p>Your AA Accident Assist claim advisor will contact you in a week to discuss how the claim is progressing, and see if we can help you further.</p>
+        <p><strong>Car insurance claim help tips</strong></p>
+        <p>Before you call, read our advice about making a <a href="~/link.aspx?_id=3706084B96BF469EBA70C2C218CFEC02&amp;_z=z">car insurance claim</a>.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200722T063935Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: I want to make a claim
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200722T064819Z
+  - Version: 6
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200803T144214Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cf7f2a6b-1d93-4115-aa3c-82832adc394c"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h2>We're here to help 24 hours a day, 365 days a year</h2>
+        <p>If you're unfortunate enough to have an accident, injury, loss or damage regardless of fault, AA Accident Assist is ready to help. </p>
+        <p>To make a claim, call <a href="tel:0800269622">0800 269 622</a>.</p>
+        <p>Please have your policy number handy &ndash; you can find it on your Statement of Insurance.</p>
+        <p>When you call AA Accident Assist, your claim advisor will explain all the available options, and assist you through every step of the claims process. Then, once the incident report has been completed, we'll arrange repairs to your vehicle and a replacement vehicle, or pass you to your insurer to progress the claim.</p>
+        <p>Your AA Accident Assist claim advisor will contact you in a week to discuss how the claim is progressing, and see if we can help you further.</p>
+        <p><strong>Car insurance claim help tips</strong><br>
+        Before you call, read our advice about making a <a href="~/link.aspx?_id=3706084B96BF469EBA70C2C218CFEC02&amp;_z=z">car insurance claim</a>.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200803T144214Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: I want to make a claim
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211125T121706Z

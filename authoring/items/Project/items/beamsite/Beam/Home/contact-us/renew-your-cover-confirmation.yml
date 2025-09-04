@@ -1,0 +1,622 @@
+﻿---
+ID: "46d15098-bf0a-4829-936f-a3c4b2a04741"
+Parent: "16deb393-474e-4056-a5cd-2817884a9006"
+Template: "c1b18a11-0fec-4a16-9f75-4acdcfd6704a"
+Path: "/sitecore/content/AA/Beam/Home/contact-us/renew-your-cover-confirmation"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/document_up.png
+- ID: "9135200a-5626-4dd8-ab9d-d665b8c11748"
+  Hint: __Never publish
+  Value: 
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1300
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{EF6D0648-1805-4E45-AB4A-92F7616857C1}">
+          <p:d />
+        </r>
+        <r
+          uid="{D831947C-C69F-4864-9E64-846B1DA21511}"
+          p:after="*[1=2]"
+          s:ds="{729B2F9A-CE14-4D15-B021-5C97222B541F}"
+          s:id="{453D8169-349C-46A6-A6CF-30B2DA8B23AE}"
+          s:par=""
+          s:ph="/main/html-head" />
+        <r
+          uid="{3E0B93A9-B4FA-45B1-B48F-BB284921BFCD}">
+          <p:d />
+        </r>
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{D92FBA8F-2BBB-4C6A-917E-B17B027C236A}"
+              p:after="r[@uid='{67ECF3AA-7501-4A55-ACDC-7F3646452F0A}']"
+              s:id="{9292A604-29E9-4877-95B1-A3EB78A239E8}"
+              s:ph="/main/row-1" />
+            <r
+              uid="{4C2AB252-D8AD-45DE-9128-B1E2DB7524CB}"
+              p:after="r[@uid='{D92FBA8F-2BBB-4C6A-917E-B17B027C236A}']"
+              s:ds="{DC298D78-12EE-43CA-9E68-FCCBA5ADBEFE}"
+              s:id="{0210E806-FF0E-4966-9503-39711183A3D0}"
+              s:par="AlignmentStyle=%7B3E97F833-101D-46AF-9161-748C563BC4FF%7D"
+              s:ph="/main/row-1/column-1" />
+            <r
+              uid="{F96CC71A-8056-4A78-B6C4-07C7D2CEC484}"
+              p:after="r[@uid='{4C2AB252-D8AD-45DE-9128-B1E2DB7524CB}']"
+              s:id="{9292A604-29E9-4877-95B1-A3EB78A239E8}"
+              s:ph="/main/row-2" />
+            <r
+              uid="{8629BBAE-F49A-4ADA-988D-5151731AF953}"
+              p:after="r[@uid='{F96CC71A-8056-4A78-B6C4-07C7D2CEC484}']"
+              s:ds="{558BDECF-DA69-4BD5-A17B-B90E3B61D77F}"
+              s:id="{78E3B8D3-D5B6-47FB-8852-76C191D459B8}"
+              s:par=""
+              s:ph="/main/row-2/column-1" />
+            <r
+              uid="{9A1F0DF7-DCE8-4480-9B72-1C331B6C16BD}"
+              p:after="r[@uid='{8629BBAE-F49A-4ADA-988D-5151731AF953}']"
+              s:id="{9292A604-29E9-4877-95B1-A3EB78A239E8}"
+              s:ph="/main/row-4" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211116T122031Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\damireddye
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\damireddye
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "97be9906-0b58-40b3-afa9-279926970260"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\patils
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220317T111602Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{D92FBA8F-2BBB-4C6A-917E-B17B027C236A}"
+              p:after="r[@uid='{67ECF3AA-7501-4A55-ACDC-7F3646452F0A}']"
+              s:id="{9292A604-29E9-4877-95B1-A3EB78A239E8}"
+              s:ph="/main/row-1" />
+            <r
+              uid="{4C2AB252-D8AD-45DE-9128-B1E2DB7524CB}"
+              p:after="r[@uid='{D92FBA8F-2BBB-4C6A-917E-B17B027C236A}']"
+              s:ds="{DC298D78-12EE-43CA-9E68-FCCBA5ADBEFE}"
+              s:id="{0210E806-FF0E-4966-9503-39711183A3D0}"
+              s:par="AlignmentStyle=%7B3E97F833-101D-46AF-9161-748C563BC4FF%7D"
+              s:ph="/main/row-1/column-1" />
+            <r
+              uid="{F96CC71A-8056-4A78-B6C4-07C7D2CEC484}"
+              p:after="r[@uid='{4C2AB252-D8AD-45DE-9128-B1E2DB7524CB}']"
+              s:id="{9292A604-29E9-4877-95B1-A3EB78A239E8}"
+              s:ph="/main/row-2" />
+            <r
+              uid="{8629BBAE-F49A-4ADA-988D-5151731AF953}"
+              p:after="r[@uid='{F96CC71A-8056-4A78-B6C4-07C7D2CEC484}']"
+              s:ds="{558BDECF-DA69-4BD5-A17B-B90E3B61D77F}"
+              s:id="{78E3B8D3-D5B6-47FB-8852-76C191D459B8}"
+              s:par=""
+              s:ph="/main/row-2/column-1" />
+            <r
+              uid="{9A1F0DF7-DCE8-4480-9B72-1C331B6C16BD}"
+              p:after="r[@uid='{8629BBAE-F49A-4ADA-988D-5151731AF953}']"
+              s:id="{9292A604-29E9-4877-95B1-A3EB78A239E8}"
+              s:ph="/main/row-4" />
+          </d>
+        </r>
+    - ID: "0ecc5d7a-8472-4185-a1d2-979edaf78677"
+      Hint: BrowserTitle
+      Value: Queries about your renewal | BEAM
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211116T122031Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4f6a8d93-b21c-4e52-bc52-5e046c79db13"
+      Hint: PageTitle
+      Value: Queries about your renewal
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\damireddye
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\damireddye
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a3f70c07-e100-4447-84d4-5f29f027849f"
+    - ID: "a9b52163-7a18-4e0a-a7e7-81fd4b257c1f"
+      Hint: MenuTitle
+      Value: Queries about your renewal
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "cfacf6c8-8f6e-4760-83d0-646083b37d7a"
+      Hint: MetaDescription
+      Value: .
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230209T133610Z
+    - ID: "ec1ed6c7-dc6b-4841-895e-250dc404fba0"
+      Hint: RobotsDirective
+      Value: "{D3F46606-10D4-4A04-BF28-9AFF59DD12D4}"
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{D92FBA8F-2BBB-4C6A-917E-B17B027C236A}"
+              p:after="r[@uid='{67ECF3AA-7501-4A55-ACDC-7F3646452F0A}']"
+              s:id="{9292A604-29E9-4877-95B1-A3EB78A239E8}"
+              s:ph="/main/row-1" />
+            <r
+              uid="{4C2AB252-D8AD-45DE-9128-B1E2DB7524CB}"
+              p:after="r[@uid='{D92FBA8F-2BBB-4C6A-917E-B17B027C236A}']"
+              s:ds="{DC298D78-12EE-43CA-9E68-FCCBA5ADBEFE}"
+              s:id="{0210E806-FF0E-4966-9503-39711183A3D0}"
+              s:par="AlignmentStyle=%7B3E97F833-101D-46AF-9161-748C563BC4FF%7D"
+              s:ph="/main/row-1/column-1" />
+            <r
+              uid="{F96CC71A-8056-4A78-B6C4-07C7D2CEC484}"
+              p:after="r[@uid='{4C2AB252-D8AD-45DE-9128-B1E2DB7524CB}']"
+              s:id="{9292A604-29E9-4877-95B1-A3EB78A239E8}"
+              s:ph="/main/row-2" />
+            <r
+              uid="{8629BBAE-F49A-4ADA-988D-5151731AF953}"
+              p:after="r[@uid='{F96CC71A-8056-4A78-B6C4-07C7D2CEC484}']"
+              s:ds="{558BDECF-DA69-4BD5-A17B-B90E3B61D77F}"
+              s:id="{78E3B8D3-D5B6-47FB-8852-76C191D459B8}"
+              s:par=""
+              s:ph="/main/row-2/column-1" />
+            <r
+              uid="{9A1F0DF7-DCE8-4480-9B72-1C331B6C16BD}"
+              p:after="r[@uid='{8629BBAE-F49A-4ADA-988D-5151731AF953}']"
+              s:id="{9292A604-29E9-4877-95B1-A3EB78A239E8}"
+              s:ph="/main/row-4" />
+          </d>
+        </r>
+    - ID: "0ecc5d7a-8472-4185-a1d2-979edaf78677"
+      Hint: BrowserTitle
+      Value: Queries about your renewal | BEAM
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230209T133646Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4f6a8d93-b21c-4e52-bc52-5e046c79db13"
+      Hint: PageTitle
+      Value: Queries about your renewal
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\damireddye
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b8d921c6-00e9-4dee-83c1-e284d8b1990a"
+    - ID: "a9b52163-7a18-4e0a-a7e7-81fd4b257c1f"
+      Hint: MenuTitle
+      Value: Queries about your renewal
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230209T133646Z
+    - ID: "cfacf6c8-8f6e-4760-83d0-646083b37d7a"
+      Hint: MetaDescription
+      Value: .
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230209T134139Z
+    - ID: "ec1ed6c7-dc6b-4841-895e-250dc404fba0"
+      Hint: RobotsDirective
+      Value: "{D3F46606-10D4-4A04-BF28-9AFF59DD12D4}"
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{D92FBA8F-2BBB-4C6A-917E-B17B027C236A}"
+              p:after="r[@uid='{67ECF3AA-7501-4A55-ACDC-7F3646452F0A}']"
+              s:id="{9292A604-29E9-4877-95B1-A3EB78A239E8}"
+              s:ph="/main/row-1" />
+            <r
+              uid="{4C2AB252-D8AD-45DE-9128-B1E2DB7524CB}"
+              p:after="r[@uid='{D92FBA8F-2BBB-4C6A-917E-B17B027C236A}']"
+              s:ds="{DC298D78-12EE-43CA-9E68-FCCBA5ADBEFE}"
+              s:id="{0210E806-FF0E-4966-9503-39711183A3D0}"
+              s:par="AlignmentStyle=%7B3E97F833-101D-46AF-9161-748C563BC4FF%7D"
+              s:ph="/main/row-1/column-1" />
+            <r
+              uid="{F96CC71A-8056-4A78-B6C4-07C7D2CEC484}"
+              p:after="r[@uid='{4C2AB252-D8AD-45DE-9128-B1E2DB7524CB}']"
+              s:id="{9292A604-29E9-4877-95B1-A3EB78A239E8}"
+              s:ph="/main/row-2" />
+            <r
+              uid="{8629BBAE-F49A-4ADA-988D-5151731AF953}"
+              p:after="r[@uid='{F96CC71A-8056-4A78-B6C4-07C7D2CEC484}']"
+              s:ds="{558BDECF-DA69-4BD5-A17B-B90E3B61D77F}"
+              s:id="{78E3B8D3-D5B6-47FB-8852-76C191D459B8}"
+              s:par=""
+              s:ph="/main/row-2/column-1" />
+            <r
+              uid="{9A1F0DF7-DCE8-4480-9B72-1C331B6C16BD}"
+              p:after="r[@uid='{8629BBAE-F49A-4ADA-988D-5151731AF953}']"
+              s:id="{9292A604-29E9-4877-95B1-A3EB78A239E8}"
+              s:ph="/main/row-4" />
+          </d>
+        </r>
+    - ID: "0ecc5d7a-8472-4185-a1d2-979edaf78677"
+      Hint: BrowserTitle
+      Value: Your request has been sent | Renewal query | BEAM
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230215T095810Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4f6a8d93-b21c-4e52-bc52-5e046c79db13"
+      Hint: PageTitle
+      Value: Your request has been sent
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\damireddye
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4ebcacfc-a88f-4314-9085-69c8b237acf4"
+    - ID: "a9b52163-7a18-4e0a-a7e7-81fd4b257c1f"
+      Hint: MenuTitle
+      Value: Your request has been sent
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230215T095810Z
+    - ID: "cfacf6c8-8f6e-4760-83d0-646083b37d7a"
+      Hint: MetaDescription
+      Value: .
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230215T095856Z
+    - ID: "ec1ed6c7-dc6b-4841-895e-250dc404fba0"
+      Hint: RobotsDirective
+      Value: "{23F8F2D5-BAC3-4A0D-8EC2-325ED8F05356}"
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{D92FBA8F-2BBB-4C6A-917E-B17B027C236A}"
+              p:after="r[@uid='{67ECF3AA-7501-4A55-ACDC-7F3646452F0A}']"
+              s:id="{9292A604-29E9-4877-95B1-A3EB78A239E8}"
+              s:ph="/main/row-1" />
+            <r
+              uid="{4C2AB252-D8AD-45DE-9128-B1E2DB7524CB}"
+              p:after="r[@uid='{D92FBA8F-2BBB-4C6A-917E-B17B027C236A}']"
+              s:ds="{DC298D78-12EE-43CA-9E68-FCCBA5ADBEFE}"
+              s:id="{0210E806-FF0E-4966-9503-39711183A3D0}"
+              s:par="AlignmentStyle=%7B3E97F833-101D-46AF-9161-748C563BC4FF%7D"
+              s:ph="/main/row-1/column-1" />
+            <r
+              uid="{F96CC71A-8056-4A78-B6C4-07C7D2CEC484}"
+              p:after="r[@uid='{4C2AB252-D8AD-45DE-9128-B1E2DB7524CB}']"
+              s:id="{9292A604-29E9-4877-95B1-A3EB78A239E8}"
+              s:ph="/main/row-2" />
+            <r
+              uid="{8629BBAE-F49A-4ADA-988D-5151731AF953}"
+              p:after="r[@uid='{F96CC71A-8056-4A78-B6C4-07C7D2CEC484}']"
+              s:ds="{558BDECF-DA69-4BD5-A17B-B90E3B61D77F}"
+              s:id="{78E3B8D3-D5B6-47FB-8852-76C191D459B8}"
+              s:par=""
+              s:ph="/main/row-2/column-1" />
+            <r
+              uid="{9A1F0DF7-DCE8-4480-9B72-1C331B6C16BD}"
+              p:after="r[@uid='{8629BBAE-F49A-4ADA-988D-5151731AF953}']"
+              s:id="{9292A604-29E9-4877-95B1-A3EB78A239E8}"
+              s:ph="/main/row-4" />
+          </d>
+        </r>
+    - ID: "0ecc5d7a-8472-4185-a1d2-979edaf78677"
+      Hint: BrowserTitle
+      Value: Your request has been sent | Renewal query | BEAM
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230215T100618Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4f6a8d93-b21c-4e52-bc52-5e046c79db13"
+      Hint: PageTitle
+      Value: Your request has been sent
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\damireddye
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3dfebfb6-bb30-4a66-930a-04964891d719"
+    - ID: "a9b52163-7a18-4e0a-a7e7-81fd4b257c1f"
+      Hint: MenuTitle
+      Value: Your request has been sent
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230215T100618Z
+    - ID: "cfacf6c8-8f6e-4760-83d0-646083b37d7a"
+      Hint: MetaDescription
+      Value: .
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230215T100650Z
+    - ID: "ec1ed6c7-dc6b-4841-895e-250dc404fba0"
+      Hint: RobotsDirective
+      Value: "{23F8F2D5-BAC3-4A0D-8EC2-325ED8F05356}"
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{D92FBA8F-2BBB-4C6A-917E-B17B027C236A}"
+              p:after="r[@uid='{67ECF3AA-7501-4A55-ACDC-7F3646452F0A}']"
+              s:id="{9292A604-29E9-4877-95B1-A3EB78A239E8}"
+              s:ph="/main/row-1" />
+            <r
+              uid="{4C2AB252-D8AD-45DE-9128-B1E2DB7524CB}"
+              p:after="r[@uid='{D92FBA8F-2BBB-4C6A-917E-B17B027C236A}']"
+              s:ds="{DC298D78-12EE-43CA-9E68-FCCBA5ADBEFE}"
+              s:id="{0210E806-FF0E-4966-9503-39711183A3D0}"
+              s:par="AlignmentStyle=%7B3E97F833-101D-46AF-9161-748C563BC4FF%7D"
+              s:ph="/main/row-1/column-1" />
+            <r
+              uid="{F96CC71A-8056-4A78-B6C4-07C7D2CEC484}"
+              p:after="r[@uid='{4C2AB252-D8AD-45DE-9128-B1E2DB7524CB}']"
+              s:id="{9292A604-29E9-4877-95B1-A3EB78A239E8}"
+              s:ph="/main/row-2" />
+            <r
+              uid="{8629BBAE-F49A-4ADA-988D-5151731AF953}"
+              p:after="r[@uid='{F96CC71A-8056-4A78-B6C4-07C7D2CEC484}']"
+              s:ds="{558BDECF-DA69-4BD5-A17B-B90E3B61D77F}"
+              s:id="{78E3B8D3-D5B6-47FB-8852-76C191D459B8}"
+              s:par=""
+              s:ph="/main/row-2/column-1" />
+            <r
+              uid="{9A1F0DF7-DCE8-4480-9B72-1C331B6C16BD}"
+              p:after="r[@uid='{8629BBAE-F49A-4ADA-988D-5151731AF953}']"
+              s:id="{9292A604-29E9-4877-95B1-A3EB78A239E8}"
+              s:ph="/main/row-4" />
+          </d>
+        </r>
+    - ID: "0ecc5d7a-8472-4185-a1d2-979edaf78677"
+      Hint: BrowserTitle
+      Value: Your request has been sent | Renewal query | BEAM
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230314T135833Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4f6a8d93-b21c-4e52-bc52-5e046c79db13"
+      Hint: PageTitle
+      Value: Your request has been sent
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\damireddye
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a74adf56-5383-4cba-9566-935824c73d48"
+    - ID: "a9b52163-7a18-4e0a-a7e7-81fd4b257c1f"
+      Hint: MenuTitle
+      Value: Your request has been sent
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230314T135833Z
+    - ID: "cfacf6c8-8f6e-4760-83d0-646083b37d7a"
+      Hint: MetaDescription
+      Value: .
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230314T135850Z
+    - ID: "ec1ed6c7-dc6b-4841-895e-250dc404fba0"
+      Hint: RobotsDirective
+      Value: "{23F8F2D5-BAC3-4A0D-8EC2-325ED8F05356}"
+  - Version: 7
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{D92FBA8F-2BBB-4C6A-917E-B17B027C236A}"
+              p:after="r[@uid='{67ECF3AA-7501-4A55-ACDC-7F3646452F0A}']"
+              s:id="{9292A604-29E9-4877-95B1-A3EB78A239E8}"
+              s:ph="/main/row-1" />
+            <r
+              uid="{4C2AB252-D8AD-45DE-9128-B1E2DB7524CB}"
+              p:after="r[@uid='{D92FBA8F-2BBB-4C6A-917E-B17B027C236A}']"
+              s:ds="{DC298D78-12EE-43CA-9E68-FCCBA5ADBEFE}"
+              s:id="{0210E806-FF0E-4966-9503-39711183A3D0}"
+              s:par="AlignmentStyle=%7B3E97F833-101D-46AF-9161-748C563BC4FF%7D"
+              s:ph="/main/row-1/column-1" />
+            <r
+              uid="{F96CC71A-8056-4A78-B6C4-07C7D2CEC484}"
+              p:after="r[@uid='{4C2AB252-D8AD-45DE-9128-B1E2DB7524CB}']"
+              s:id="{9292A604-29E9-4877-95B1-A3EB78A239E8}"
+              s:ph="/main/row-2" />
+            <r
+              uid="{8629BBAE-F49A-4ADA-988D-5151731AF953}"
+              p:after="r[@uid='{F96CC71A-8056-4A78-B6C4-07C7D2CEC484}']"
+              s:ds="{558BDECF-DA69-4BD5-A17B-B90E3B61D77F}"
+              s:id="{78E3B8D3-D5B6-47FB-8852-76C191D459B8}"
+              s:par=""
+              s:ph="/main/row-2/column-1" />
+            <r
+              uid="{9A1F0DF7-DCE8-4480-9B72-1C331B6C16BD}"
+              p:after="r[@uid='{8629BBAE-F49A-4ADA-988D-5151731AF953}']"
+              s:id="{9292A604-29E9-4877-95B1-A3EB78A239E8}"
+              s:ph="/main/row-4" />
+          </d>
+        </r>
+    - ID: "0ecc5d7a-8472-4185-a1d2-979edaf78677"
+      Hint: BrowserTitle
+      Value: Your request has been sent | Renewal query | BEAM
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230324T121454Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4f6a8d93-b21c-4e52-bc52-5e046c79db13"
+      Hint: PageTitle
+      Value: Your request has been sent
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\damireddye
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0a1c7a22-20f2-43f4-baec-1cec567c5456"
+    - ID: "a9b52163-7a18-4e0a-a7e7-81fd4b257c1f"
+      Hint: MenuTitle
+      Value: Your request has been sent
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230324T121454Z
+    - ID: "cfacf6c8-8f6e-4760-83d0-646083b37d7a"
+      Hint: MetaDescription
+      Value: .
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230324T121507Z
+    - ID: "ec1ed6c7-dc6b-4841-895e-250dc404fba0"
+      Hint: RobotsDirective
+      Value: "{23F8F2D5-BAC3-4A0D-8EC2-325ED8F05356}"

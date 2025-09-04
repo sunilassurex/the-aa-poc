@@ -1,0 +1,296 @@
+﻿---
+ID: "21ccd3ab-6517-447f-8815-b9ea5e4b0e41"
+Parent: "91ac8471-c6e6-4e04-9f0a-ec2128aefdda"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: /sitecore/layout/Renderings/Feature/AA/People/Experts
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Software/32x32/element_add.png
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: 
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+- ID: "56776edf-261c-4abc-9fe7-70c618795239"
+  Hint: __Help link
+  Value: |
+    <link linktype="external" url="https://theaacom.atlassian.net/wiki/spaces/SIT/pages/5058789385/Experts" anchor="" target="_blank" />
+- ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
+  Hint: Parameters Template
+  Value: "{0FE23F09-F27D-46BB-812F-28B6916C0473}"
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: 
+Languages:
+- Language: en
+  Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: This component renders Experts Info on Page.
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: This component renders Experts Info on Page.
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240509T121650Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Paul.Petersen
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "590955a8-efe2-470a-985e-3ef87ade38bb"
+    - ID: "9e6a6532-99aa-4a0e-aba3-e7259e5429ba"
+      Hint: StyleSheets
+      Value: |
+        .exp-section .container {
+          display: flex;
+          flex-direction: column;
+          gap: var(--space-x-large);
+          align-items: flex-start;
+        }
+        
+        .exp-info {
+          display: flex;
+          flex-direction: column;
+          gap: var(--space-medium);
+          align-items: flex-start;
+          flex: 1 0 0;
+        }
+        
+        .exp-card {
+          display: flex;
+          flex-direction: row;
+          gap: var(--space-large);
+          flex: 1 0 0;
+        }
+        
+        .exp-quote {
+          margin-bottom: var(--space-large);
+        }
+        
+        .exp-list {
+          display: flex;
+          align-items: flex-start;
+          gap: var(--space-x-large);
+          align-self: stretch;
+        }
+        
+        .exp-image {
+          height: 96px;
+          width: 96px;
+          border-radius: 50%;
+        }
+        
+        @media (max-width: 480px) {
+          .exp-list {
+            flex-direction: column;
+          }
+        }
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @using Sitecore.Data.Items;
+        @using TheAA.Application.Constants;
+        
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        
+        @functions {
+            public string GetRoleAndDept(Item author)
+            {
+        		var roleField = Model.GetField("Role", author);
+        		var deptField = Model.GetField("Department", author);
+        		var companyField = Model.GetField("Company", author);
+                if(!roleField.HasValueToRender())
+                {
+                    return string.Empty;
+                }
+        		var role = roleField.Value();
+        		if(!deptField.HasValueToRender())
+                {
+                    return role;
+                }
+        		var company = "The AA";
+        		if(companyField.HasValueToRender())
+                {
+                    company = companyField.Value();
+                }
+        		
+        		return string.Format("{0} - {1} at <strong>{2}</strong>", role, deptField.Value(), company); 
+            }
+        }
+        
+        @{
+            var titleField = Model.GetField("ExpertsInfoTitle");
+            var summaryField = Model.GetField("ExpertsInfoSummary");
+            var expertsField = Model.GetField("ExpertsInfoExperts");
+            var expertQuotesField = Model.GetField("ExpertsInfoQuotes");
+            var bottomDescField = Model.GetField("ExpertsInfoBottomDesc");
+            var allExpertsField = Model.GetField("ExpertsInfoAllExperts");
+        
+            var sectionCls = "exp-section";
+            var paddings = Model.GetTopAndBottomPaddings();
+            if (!string.IsNullOrWhiteSpace(paddings))
+            {
+                sectionCls += string.Format(" {0}", paddings);
+            }
+            var bgColor = Model.GetRenderingParameterLookup("Background Color");
+            if (!string.IsNullOrWhiteSpace(bgColor))
+            {
+                sectionCls += string.Format(" {0}", bgColor);
+            }
+        
+            var variation = Model.GetRenderingParameterLookup("ExpertsVariation");
+        
+            IEnumerable<Item> experts = null;
+            IEnumerable<Item> expertQuotes = null;
+            bool hasValidDataToRender = false;
+            if (string.IsNullOrWhiteSpace(variation) || variation.Equals("Experts"))
+            {
+                experts = expertsField.SelectedItems();
+                if (experts != null && experts.Any())
+                {
+                    hasValidDataToRender = true;
+                    variation = "Experts";
+                }
+            }
+            else if (string.IsNullOrWhiteSpace(variation) || variation.Equals("Quotes"))
+            {
+                expertQuotes = expertQuotesField.SelectedItems();
+                if (expertQuotes != null && expertQuotes.Any())
+                {
+                    hasValidDataToRender = true;
+                    variation = "Quotes";
+                }
+            }
+        }
+        
+        @if (hasValidDataToRender)
+        {
+            <section class="@sectionCls">
+                <div class="container">
+                    @if (titleField.HasValueToRender() || summaryField.HasValueToRender())
+                    {
+                        <div class="col-flex gap-l">
+                            @if (titleField.HasValueToRender())
+                            {
+                                <h2>@titleField.RenderValue()</h2>
+                            }
+                            @if (summaryField.HasValueToRender())
+                            {
+                                <p>@summaryField.RenderValue()</p>
+                            }
+                        </div>
+                    }
+                    @if (variation.Equals("Experts"))
+                    {
+                        <div class="exp-list">
+                            @foreach (Item expert in experts.Take(2))
+                            {
+                                var iconField = Model.GetField("Icon", expert);
+                                var nameField = Model.GetField("FullName", expert);
+                                var urlField = Model.GetField("Url", expert);
+                                if (nameField.HasValueToRender())
+                                {
+        							var roleInfo = GetRoleAndDept(expert);
+                                    <div class="exp-card">
+                                        @if (iconField.HasValueToRender())
+                                        {
+                                            <img class="exp-image"
+                                                 src="@iconField.MediaURL"
+                                                 alt="@iconField.MediaAltText" />
+                                        }
+                                        <div class="exp-info">
+                                            <h3>@nameField.Value()</h3>
+                                            @if (!string.IsNullOrWhiteSpace(roleInfo))
+                                            {
+                                                <p>@Model.Html.Raw(roleInfo)</p>
+                                            }
+                                            @if (urlField.HasValueToRender())
+                                            {
+                                                <a href="@urlField.LinkUrl" class="@urlField.LinkClass" target="@urlField.LinkTarget">@urlField.LinkText</a>
+                                            }
+                                            else
+                                            {
+                                                <a href="@Sitecore.Links.LinkManager.GetItemUrl(expert)" class="standalone">@Model.GetLookupValue(LabelIds.TheAA.Components.Experts.SeeProfile.ToString(), "See Profile")</a>
+                                            }
+        
+                                        </div>
+                                    </div>
+                                }
+                            }
+                        </div>
+                    }
+                    else if (variation.Equals("Quotes"))
+                    {
+                        foreach (Item expertQuote in expertQuotes)
+                        {
+                            var quoteField = Model.GetField("Quote", expertQuote);
+                            var expertField = Model.GetField("Expert", expertQuote);
+        					var ctaField = Model.GetField("CallToAction", expertQuote);
+                            var expert = expertField.GetTarget();
+        
+                            if (expert != null)
+                            {
+                                var iconField = Model.GetField("Icon", expert);
+                                var nameField = Model.GetField("FullName", expert);						
+        						var roleInfo = GetRoleAndDept(expert);
+                                <div class="row-flex gap-l">
+                                    @if (iconField.HasValueToRender())
+                                    {
+                                        <img class="exp-image"
+                                             src="@iconField.MediaURL"
+                                             alt="@iconField.MediaAltText" />
+                                    }
+                                    <div class="exp-info">
+                                        @if (quoteField.HasValueToRender())
+                                        {
+                                            <p class="exp-quote">
+                                                @quoteField.RenderValue()
+                                            </p>
+                                        }
+                                        @if (nameField.HasValueToRender() && !string.IsNullOrWhiteSpace(roleInfo))
+                                        {
+                                            <p>
+                                                @nameField.Value(), @Model.Html.Raw(roleInfo)
+                                            </p>
+                                        }
+        								@if(ctaField.HasValueToRender())
+        								{
+        									<a href="@ctaField.LinkUrl" class="@ctaField.LinkClass" target="@ctaField.LinkTarget">@ctaField.LinkText</a>
+        								}
+                                    </div>
+                                </div>
+                            }
+                        }
+                    }
+        
+                    @if (bottomDescField.HasValueToRender())
+                    {
+                        <div>
+                            @bottomDescField.RenderValue()
+                        </div>
+                    }
+                    @if (variation.Equals("Experts") && allExpertsField.HasValueToRender())
+                    {
+                        <a href="@allExpertsField.LinkUrl" class="@allExpertsField.LinkClass" target="@allExpertsField.LinkTarget">@allExpertsField.LinkText</a>
+                    }
+        
+                </div>
+            </section>
+        }
+        
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        theaa\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241001T014656Z

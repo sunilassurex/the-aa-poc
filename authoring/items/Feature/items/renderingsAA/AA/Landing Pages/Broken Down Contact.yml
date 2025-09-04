@@ -1,0 +1,343 @@
+﻿---
+ID: "d01bd302-e3ba-4a74-8f67-a0ac341f19dd"
+Parent: "038443e2-8b41-4c2c-ba2a-718794a0e0c3"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: /sitecore/layout/Renderings/Feature/AA/Landing Pages/Broken Down Contact
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Software/32x32/element_add.png
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/Feature/AA/LandingPage/Broken Down Contact
+- ID: "308e88f5-cd6e-4f8f-bafe-95a47dedefdc"
+  Hint: Editable
+  Value: 1
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+- ID: "56776edf-261c-4abc-9fe7-70c618795239"
+  Hint: __Help link
+  Value: |
+    <link linktype="external" url="https://theaacom.atlassian.net/wiki/x/IIB2QgE" />
+- ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
+  Hint: Parameters Template
+  Value: "{F60A6AC9-B91C-4475-B1A0-0F483DBA291B}"
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: /sitecore/content/TheAA/Modules/Broken Down Contact
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "2f5d6ac5-5a74-424b-ae04-4bad436fb8ec"
+- ID: "f172b787-7b88-4bd5-ae4d-6308e102ef11"
+  Hint: Enable Datasource Query
+  Value: 
+Languages:
+- Language: en
+  Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: This component displays contact details for users who need to buy or change their breakdown cover.
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: This component displays contact details for users who need to buy or change their breakdown cover.
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240722T132739Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "56f843c6-87c8-4a82-88ed-71498d152502"
+    - ID: "9e6a6532-99aa-4a0e-aba3-e7259e5429ba"
+      Hint: StyleSheets
+      Value: |
+        section.bd-contact h2 {
+        	font-size: 24px;
+        	line-height: 32px;
+        	color: var(--color--mono-darkest);
+        }
+        section.bd-contact img.alert-img {
+            width: 40px;
+        }
+        section.bd-contact {
+        	display: flex;
+        	flex-direction: column;
+        	align-items: flex-start;
+        	gap: var(--space-x-large);
+        }
+        section.bd-contact .bdc-box {
+        	display: flex;
+        	padding: var(--space-x-large) var(--space-xx-large);
+        	flex-direction: column;
+        	align-items: flex-start;
+        	gap: var(--space-large);
+        	flex: 1 0 0;
+        	align-self: stretch;
+        	box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.08), 0px 1px 4px 0px rgba(0, 0, 0, 0.16);
+        }
+        section.bd-contact .bdc-box-normal {
+        	background: var(--color-white);
+        }
+        section.bd-contact .bdc-box-instant {
+        	align-items: center;
+        	border: 8px solid var(--color-white);
+        	background: var(--color-mono-lightest);
+        }
+        section.bd-contact .bdc-img-title {
+        	display: flex;
+        	align-items: baseline;
+        	gap: var(--space-medium);
+        }
+        section.bd-contact .bdc-cols {
+        	display: flex;
+        	align-items: flex-start;
+        	gap: var(--space-large);
+        	flex-wrap: wrap;
+        }
+        section.bd-contact .bdc-box .button {
+        	display: none;
+        }
+        @media (max-width: 480px) {
+        	section.bd-contact .bdc-cols {
+        		flex-direction: column;
+        	}
+        	section.bd-contact .bdc-box .button {
+        		display: flex;
+        		align-self: stretch;
+        	}
+        }
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using System.Web.Mvc;
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @using TheAA.Domain.Interfaces.Repositories;
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        
+        @if (Model == null)
+        {
+            return;
+        }
+        @{
+            var instructionText = Model.GetField("Instruction Text");
+            var alertImage = Model.GetField("Alert Image");
+            var contactCards = Model.GetField("Contact Cards");
+            var phone = Model.GetField("UK Breakdown Number").Value();
+            var geoLocationRepository = CompositionRoot.Resolve<IGeoLocationRepository>();
+            var location = geoLocationRepository.GetClientLocation();
+        
+            if (location.CountryIsoCode != "GB" && location.ContinentCode == "EU")
+            {
+                phone = Model.GetField("Europe Breakdown Number").Value();
+            }
+        }
+        @functions {
+            public string RemoveExtraCharacters(string phoneNumber)
+            {
+                return phoneNumber.Replace(" ", "").Replace("(", "").Replace(")", "");
+            }
+        }
+        <section class="bd-contact bp-xl tp-xl">
+            <div class="full-container">
+                <div class="bdc-box bdc-box-instant">
+                    <div class="bdc-img-title">
+                        <img alt="@alertImage.Alt" src="@alertImage.MediaURL" class="alert-img" />
+                        <h2>@Model.GetField("Title").RenderValue()</h2>
+                    </div>
+                    @if (instructionText.HasValueToRender())
+                    {
+                        <p class="large centred">
+                            @instructionText.RenderValue() <b>@phone</b>
+                        </p>
+                    }
+                    <a href="tel:@RemoveExtraCharacters(phone)" class="button transparent-button" role="button">Call now</a>
+                </div>
+            </div>
+            @if (contactCards.HasValueToRender())
+            {
+                var contactCardsList = contactCards.SelectedItems();
+                <div class="full-container bdc-cols">
+                    @foreach (var contactCard in contactCardsList)
+                    {
+                        var title = contactCard.GetField("Title");
+                        var openingTimes = contactCard.GetField("OpeningTimes");
+        
+                        <div class="bdc-box bdc-box-normal">
+                            @if (title.HasValueToRender())
+                            {
+                                <h2>@title.RenderValue()</h2>
+                            }
+                            <p class="large bold">@contactCard.GetField("PhoneNumber").Value()</p>
+                            @if (openingTimes.HasValueToRender())
+                            {
+                                <div>@openingTimes.RenderValue()</div>
+                            }
+                            <a href="tel:@RemoveExtraCharacters(contactCard.GetField("PhoneNumber").Value())" class="button transparent-button" role="button">@contactCard.GetField("PhoneNumberButtonText").RenderValue()</a>
+                        </div>
+                    }
+                </div>
+            }
+        </section>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250522T004122Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250509T110417Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a8af0072-7d71-411e-b194-a1a6b4d103f5"
+    - ID: "9e6a6532-99aa-4a0e-aba3-e7259e5429ba"
+      Hint: StyleSheets
+      Value: |
+        section.bd-contact h2 { 
+        	font-size: 24px;
+        	line-height: 32px;
+        	color: var(--color--mono-darkest);
+        }
+        section.bd-contact img.alert-img {
+            width: 40px;
+        }
+        section.bd-contact {
+        	display: flex;
+        	flex-direction: column;
+        	align-items: flex-start;
+        	gap: var(--space-x-large);
+        }
+        section.bd-contact .bdc-box {
+        	display: flex;
+        	padding: var(--space-x-large) var(--space-xx-large);
+        	flex-direction: column;
+        	align-items: flex-start;
+        	gap: var(--space-large);
+        	flex: 1 0 0;
+        	align-self: stretch;
+        	box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.08), 0px 1px 4px 0px rgba(0, 0, 0, 0.16);
+        }
+        section.bd-contact .bdc-box-normal {
+        	background: var(--color-white);
+        }
+        section.bd-contact .bdc-box-instant {
+        	align-items: center;
+        	border: 8px solid var(--color-white);
+        	background: var(--color-mono-lightest);
+        }
+        section.bd-contact .bdc-img-title {
+        	display: flex;
+        	align-items: baseline;
+        	gap: var(--space-medium);
+        }
+        section.bd-contact .bdc-cols {
+        	display: flex;
+        	align-items: flex-start;
+        	gap: var(--space-large);
+        	flex-wrap: wrap;
+        }
+        section.bd-contact .bdc-box .button {
+        	display: none;
+        }
+        @media (max-width: 480px) {
+        	section.bd-contact .bdc-cols {
+        		flex-direction: column;
+        	}
+        	section.bd-contact .bdc-box .button {
+        		display: flex;
+        		align-self: stretch;
+        	}
+        }
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using System.Web.Mvc;
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @using TheAA.Domain.Interfaces.Repositories;
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        
+        @if (Model == null)
+        {
+            return;
+        }
+        @{
+            var instructionText = Model.GetField("Instruction Text");
+            var alertImage = Model.GetField("Alert Image");
+            var contactCards = Model.GetField("Contact Cards");
+            var phone = Model.GetField("UK Breakdown Number").Value();
+            var geoLocationRepository = CompositionRoot.Resolve<IGeoLocationRepository>();
+            var location = geoLocationRepository.GetClientLocation();
+        
+            if (location.CountryIsoCode != "GB" && location.ContinentCode == "EU")
+            {
+                phone = Model.GetField("Europe Breakdown Number").Value();
+            }
+        }
+        @functions {
+            public string RemoveExtraCharacters(string phoneNumber)
+            {
+                return phoneNumber.Replace(" ", "").Replace("(", "").Replace(")", "");
+            }
+        }
+        <section class="bd-contact bp-xl tp-xl">
+            <div class="full-container">
+                <div class="bdc-box bdc-box-instant">
+                    <div class="bdc-img-title">
+                        <img alt="@alertImage.Alt" src="@alertImage.MediaURL" loading="@Model.GetRenderingParameterLookup("Image Loading", "lazy")" class="alert-img" />
+                        <h2>@Model.GetField("Title").RenderValue()</h2>
+                    </div>
+                    @if (instructionText.HasValueToRender())
+                    {
+                        <p class="large centred">
+                            @instructionText.RenderValue() <b>@phone</b>
+                        </p>
+                    }
+                    <a href="tel:@RemoveExtraCharacters(phone)" class="button transparent-button" role="button">Call now</a>
+                </div>
+            </div>
+            @if (contactCards.HasValueToRender())
+            {
+                var contactCardsList = contactCards.SelectedItems();
+                <div class="full-container bdc-cols">
+                    @foreach (var contactCard in contactCardsList)
+                    {
+                        var title = contactCard.GetField("Title");
+                        var openingTimes = contactCard.GetField("OpeningTimes");
+        
+                        <div class="bdc-box bdc-box-normal">
+                            @if (title.HasValueToRender())
+                            {
+                                <h2>@title.RenderValue()</h2>
+                            }
+                            <p class="large bold">@contactCard.GetField("PhoneNumber").Value()</p>
+                            @if (openingTimes.HasValueToRender())
+                            {
+                                <div>@openingTimes.RenderValue()</div>
+                            }
+                            <a href="tel:@RemoveExtraCharacters(contactCard.GetField("PhoneNumber").Value())" class="button transparent-button" role="button">@contactCard.GetField("PhoneNumberButtonText").RenderValue()</a>
+                        </div>
+                    }
+                </div>
+            }
+        </section>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20250509T110417Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250801T130355Z

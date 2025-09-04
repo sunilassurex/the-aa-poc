@@ -1,0 +1,152 @@
+﻿---
+ID: "0d0020b5-6a62-47cc-b623-ad7a37256071"
+Parent: "bc103eaa-69fc-4074-8567-e7b72b7c1158"
+Template: "43d9dfca-17f1-4cbd-9cc1-83f34ffce83a"
+Path: /sitecore/content/AA/Beam/Modules/Social/Beam
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220228T115854Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\damireddye
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\damireddye
+    - ID: "7e224a36-2f80-47f9-83eb-7260a418337d"
+      Hint: Title
+      Value: Connect with us
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "956bfea3-f07f-4946-a654-99bde8c41a50"
+    - ID: "b69bf107-9229-4595-9508-d99834b00550"
+      Hint: FirstMediaIconLink
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\CurrieM
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220309T112019Z
+    - ID: "eb080d3d-4fab-4549-9ce5-48b678baceb6"
+      Hint: FirstMediaIconImage
+      Value: 
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220325T100511Z
+    - ID: "32d6b95b-715c-405d-85be-f7879d725be0"
+      Hint: SecondMediaIconLink
+      Value: |
+        <link linktype="external" url="https://www.facebook.com/BEAMUKcover" anchor="" target="" />
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\damireddye
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\EvansD
+    - ID: "7e224a36-2f80-47f9-83eb-7260a418337d"
+      Hint: Title
+      Value: Connect with us
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ce1b897b-3318-4427-81e5-1ebb838beb25"
+    - ID: "a35ee4d9-873a-492a-92c7-3f508a93b19d"
+      Hint: SecondMediaIconImage
+      Value: |
+        <image mediaid="{D0A35CC2-F01D-48FD-95D0-A8A96D732B77}" />
+    - ID: "b69bf107-9229-4595-9508-d99834b00550"
+      Hint: FirstMediaIconLink
+      Value: |
+        <link linktype="external" url="https://twitter.com/BEAMUKcover" anchor="" target="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\EvansD
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220325T100511Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220325T101131Z
+    - ID: "eb080d3d-4fab-4549-9ce5-48b678baceb6"
+      Hint: FirstMediaIconImage
+      Value: |
+        <image mediaid="{5F3ABD79-AF23-431F-B61D-B3D5E9B33F8C}" />
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240724T143128Z
+    - ID: "32d6b95b-715c-405d-85be-f7879d725be0"
+      Hint: SecondMediaIconLink
+      Value: |
+        <link linktype="external" url="https://www.facebook.com/BEAMUKcover" anchor="" target="" />
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\damireddye
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Carla.Brooks
+    - ID: "7e224a36-2f80-47f9-83eb-7260a418337d"
+      Hint: Title
+      Value: Connect with us
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "72dfe11b-4b01-4242-b375-da163c4855c5"
+    - ID: "a35ee4d9-873a-492a-92c7-3f508a93b19d"
+      Hint: SecondMediaIconImage
+      Value: |
+        <image mediaid="{AC533D54-0758-4FFA-B6FC-7995221D1487}" />
+    - ID: "b69bf107-9229-4595-9508-d99834b00550"
+      Hint: FirstMediaIconLink
+      Value: |
+        <link linktype="external" url="https://twitter.com/BEAMUKcover" anchor="" target="" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Carla.Brooks
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240724T143128Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240926T085840Z
+    - ID: "eb080d3d-4fab-4549-9ce5-48b678baceb6"
+      Hint: FirstMediaIconImage
+      Value: |
+        <image mediaid="{94D322DE-526A-47DB-89AA-2AE2B7CAD11D}" />

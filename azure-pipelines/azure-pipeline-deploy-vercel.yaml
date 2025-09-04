@@ -1,0 +1,31 @@
+trigger: 
+  branches:
+    include:
+      - develop
+resources:
+  repositories:
+  - repository: The AA
+    type: git
+    name: The AA
+    ref: 'refs/heads/develop'
+
+stages:
+- stage: DeployToDevelopment
+  jobs:
+  - deployment: DeployToDevelopment
+    displayName: "Deploy to Development - Vercel"
+    environment: 'Development'
+    workspace:
+      clean: all
+    pool:
+      vmImage: 'windows-latest'
+    variables:
+    - name: sitecore_environment
+      value: development
+    - group: 'Release Pipeline Variables Dev'
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - checkout: 'The AA'
+          - template: 'azure-pipeline-step-deploy-vercel.yml'

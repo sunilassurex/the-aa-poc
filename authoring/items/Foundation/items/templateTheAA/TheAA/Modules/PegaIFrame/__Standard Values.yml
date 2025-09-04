@@ -1,0 +1,56 @@
+﻿---
+ID: "6e45802e-2437-46bb-975d-11c63a16a2a5"
+Parent: "ea6a2eb6-e804-46c1-890b-3c7a4e89ab73"
+Template: "ea6a2eb6-e804-46c1-890b-3c7a4e89ab73"
+Path: /sitecore/templates/TheAA/Modules/PegaIFrame/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "11b2f877-a198-404a-93d7-39fc05d7e4b7"
+      Hint: PegaIframeDivId
+      Value: MyAAMashup
+    - ID: "17df2949-b542-4fc7-99ed-e54c3104827e"
+      Hint: PegaIframeDivStyle
+      Value: "overflow:auto"
+    - ID: "1bf396b3-f16c-4b8d-995d-3973dc436354"
+      Hint: PegaGadget
+      Value: MyAAMashup
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160727T102217Z
+    - ID: "41dd0bfd-351c-46a8-a73f-e4eafa9e6b66"
+      Hint: PegaAParamsUserIdentifier
+      Value: UT.MyAA
+    - ID: "5f64d6af-2912-4a6f-887c-43217fd89092"
+      Hint: PegaAFlowName
+      Value: CPMInteraction
+    - ID: "600577e4-97e8-48d0-8c27-1d04d66ee8fa"
+      Hint: PegaIframeTitle
+      Value: $name
+    - ID: "74716b6c-bad9-434c-a73c-ba90c492622d"
+      Hint: PegaResize
+      Value: stretch
+    - ID: "80704994-b9ef-4825-8b30-a4645b25c5e3"
+      Hint: PegaAParamsPassword
+      Value: TTc0NFVzM3I%3D
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b025db66-3309-4f8d-b5bb-7d03658e7bd8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d487d0b3-06c5-4c19-be2f-685c4ef5ce03"
+      Hint: PegaAModel
+      Value: pyDefault
+    - ID: "d6d0d315-3149-474f-a5d6-e4ef227b9340"
+      Hint: PegaA
+      Value: createNewWork
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20160727T102422Z
+    - ID: "f7e681c9-c534-485c-be91-d213c0b98e5f"
+      Hint: PegaAClassName
+      Value: "AA-UK-CSS-Work-Interaction-Web"

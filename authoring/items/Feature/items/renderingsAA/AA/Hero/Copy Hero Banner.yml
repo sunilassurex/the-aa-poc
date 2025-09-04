@@ -1,0 +1,176 @@
+﻿---
+ID: "7b1c16d6-cdf8-4cdf-852c-1ae6d0b44547"
+Parent: "61a4451d-9743-4d47-8a66-614eca52f92f"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: /sitecore/layout/Renderings/Feature/AA/Hero/Copy Hero Banner
+SharedFields:
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/Feature/AA/Hero/Hero Banner
+- ID: "3ad2506a-dc39-4b1e-959f-9d524addbf50"
+  Hint: VaryByParm
+  Value: 1
+- ID: "3d08db46-2267-41b0-bc52-be69fd618633"
+  Hint: Cacheable
+  Value: 
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+- ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
+  Hint: Parameters Template
+  Value: "{916C87AE-9240-4710-9DD7-222D0B6910F4}"
+- ID: "8b6d532b-6128-4486-a044-ca06d90948ba"
+  Hint: VaryByData
+  Value: 1
+- ID: "a2f5d9df-8cba-4a1d-99eb-51acb94cb057"
+  Hint: Page Editor Buttons
+  Value: "{06E0B838-E75E-401B-B181-5E5E1ED41E14}"
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "query:./ancestor::*[@@templatename='Siteroot']/Modules/Heros"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "c7c26117-dbb1-42b2-ab5e-f7223845cca3"
+  Hint: __Thumbnail
+  Value: |
+    <image mediaid="{C3EA4480-BFA1-45E6-9E13-556E6428555F}" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "ef9adf08-fb59-480d-ae3c-60d6430b162d"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151215T130944Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "970d8ba6-6293-4b48-a84e-49731db157cf"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using Sitecore.Mvc.Presentation
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @model ContentViewRenderingModel
+        
+        @if (!string.IsNullOrEmpty(Model.Rendering.DataSource))
+        {
+        
+               var pageTitle = Model.GetField("Page Title");
+               var subHeading = Model.GetField("Sub Heading");
+            var mobileOverlayImageField = Model.GetField("Mobile Overlay Image");
+        
+            var mobileOverlayUrl = mobileOverlayImageField.HasValueToRender() ? Model.GetMediaUrl("Mobile Overlay Image") : string.Empty;
+        
+            var imageField = Model.GetField("Hero Image");
+            var imageOverlayUrl = imageField.HasValueToRender() ? Model.GetMediaUrl("Hero Image") : string.Empty;
+        
+            <style>
+                        .beam-hero-wrapper{ overflow:hidden; 
+                            margin:-15px 0 0 0;
+                        }
+                .beam-hero {
+                    display: flex;
+                    flex-wrap: nowrap;
+                    height: 380px;
+                    background: url( @imageOverlayUrl ) no-repeat;
+                    position: relative;
+                    background-position-x: center;
+                    background-position-y: center;
+                }
+                        .beam-hero .beam-hero-content {
+                            flex:1; align-items:center;
+                            z-index: 1;height:100%; padding:0 40px 0 27px;display: flex;
+                            flex-wrap: wrap;
+                        }
+                        .beam-hero .beam-hero-content .heading{max-width:636px}
+                        .beam-hero .beam-hero-content .heading h1{font-family: "NewTransport-Bold",Arial,Helvetica,Verdana,sans-serif;font-size:64px; line-height:72px; letter-spacing:0; color:#1d1d1d; margin:0 0 24px 0; text-transform:initial !important}
+                        .beam-hero .beam-hero-content .heading h2{font-family: "NewTransport-Light",Arial,Helvetica,Verdana,sans-serif;font-size:24px; line-height:28px; letter-spacing:-0.25px; color:#1d1d1d; margin: 0;font-weight: normal}
+                        .beam-hero .hero-img-container{flex:1 1 30%; height:100%;position:absolute;right:0;}
+                        .beam-hero .hero-img-container img{margin:0; max-height: 380px;  }
+        
+        
+        
+                        @@media screen and (max-width: 1030px) {
+                            .beam-hero .beam-hero-content .heading{max-width:460px}
+                            .beam-hero {
+                                background-position-x: 81%;
+                                background-position-y: top;
+                            }
+                        .beam-hero-wrapper{ overflow:hidden; margin:-15px 0 0 0}
+        
+                        .beam-hero .beam-hero-content{
+                            padding-left:16px;flex:1;
+                        }
+                  
+                        .beam-hero .beam-hero-content .heading h1{font-size:48px; line-height:54px; letter-spacing:0;margin:0 0 16px 0;}
+                        .beam-hero .beam-hero-content .heading h2{font-size:24px; line-height:28px; letter-spacing:-0.25px}
+              
+                        }
+        
+                        @@media screen and (max-width: 880px) {
+                            .beam-hero {
+                                background-position-x: 68%;
+                                background-position-y: top;
+                            }
+                        .beam-hero .beam-hero-content{padding-left:6px;}
+                        .beam-hero .beam-hero-content .heading{max-width:460px}
+                        }
+        
+                        @@media screen and (max-width: 737px) {
+        
+                        .beam-hero {background:url(@mobileOverlayUrl) no-repeat top right; background-size:cover }.beam-hero-wrapper{padding:0;margin:-10px 0 0 0}
+                            .beam-hero .beam-hero-content {
+                                flex: none;
+                                display: table;
+                                padding: 0 16px;
+                            }
+                            .beam-hero {
+                                display: block;
+                                height: 230px;
+                            }
+                            .beam-hero .beam-hero-content .heading{ max-width: none;
+                                display: table-cell;
+                                vertical-align: middle;
+                            }
+                        .beam-hero .beam-hero-content .heading h1{font-size:28px; line-height:32px; letter-spacing:0; text-align:center;margin:0 0 16px 0;}
+                        .beam-hero .beam-hero-content .heading h2{font-size:16px; line-height:20px; letter-spacing:-0.25px;text-align:center}
+                        }
+        
+            </style>
+        
+            <div class="beam-hero-wrapper">
+                <div class="beam-hero">
+                    <div class="beam-hero-content wrapper">
+                        <div class="heading">
+                            @if (pageTitle.HasValueToRender())
+                            {
+                                <h1>@pageTitle.RenderValue()</h1>
+                            }
+        
+                            @if (subHeading.HasValueToRender())
+                            {
+                                <h2>@subHeading.RenderValue()</h2>
+                            }
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+            <div class="beam-hero-widget">
+                @Model.RenderPlaceholder("hero-widget")
+            </div>
+        }
+        
+        
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250801T130241Z

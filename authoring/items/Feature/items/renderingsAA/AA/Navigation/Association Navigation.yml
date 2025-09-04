@@ -1,0 +1,838 @@
+﻿---
+ID: "ed0bc8cb-61f6-428b-9c9d-84525c041d3c"
+Parent: "1a3449e0-81f0-4826-a4e1-b4995c8a178e"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: /sitecore/layout/Renderings/Feature/AA/Navigation/Association Navigation
+SharedFields:
+- ID: "3ad2506a-dc39-4b1e-959f-9d524addbf50"
+  Hint: VaryByParm
+  Value: 1
+- ID: "3d08db46-2267-41b0-bc52-be69fd618633"
+  Hint: Cacheable
+  Value: 1
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+- ID: "8b6d532b-6128-4486-a044-ca06d90948ba"
+  Hint: VaryByData
+  Value: 1
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190916T152856Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d71115d5-8e0f-4aeb-aa0a-4aa934e3e9d4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231123T024200Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190924T113936Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "114d2bcf-946d-401a-a10b-08540eb7c343"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190924T113936Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231123T024200Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190930T100707Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6646906c-3305-4aa1-aca6-43bfbbc7d70c"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20190930T100707Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231123T024200Z
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191001T101101Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c46d15b8-8409-463b-be50-83147c595345"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20191001T101101Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231123T024200Z
+  - Version: 5
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191004T124116Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "71184119-fc34-4b6f-9bd3-b3434cbdc80b"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20191004T124116Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231123T024200Z
+  - Version: 6
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191007T131804Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2b4236c7-5ba5-4f0f-b81b-19e393c9a169"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20191007T131804Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231123T024200Z
+  - Version: 7
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191007T143335Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1c52b87a-8e2d-40ab-b1cb-6b45b04a2df3"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20191007T143335Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231123T024200Z
+  - Version: 8
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191010T160213Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dbf42122-38f3-48bb-a7d9-c48f22b3a135"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20191010T160213Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231123T024200Z
+  - Version: 9
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191011T154034Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9c5cda82-ea2d-4b0b-a771-e79974a27cdc"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20191011T154034Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231123T024200Z
+  - Version: 10
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191011T164025Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9c9f7423-da82-45dd-9917-65cd4b0403aa"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20191011T164025Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231123T024200Z
+  - Version: 11
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191014T091144Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d6545ca7-e670-4bb2-b9b2-e4e99060cf4c"
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20191014T091144Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231123T024200Z
+  - Version: 12
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191212T152031Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "89a8587a-df29-438b-86fb-8fe6d66554f3"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using Sitecore.Mvc.Presentation
+        @using Sitecore.Foundation.Rendering;
+        @model RenderingModel
+        @{
+            var item = Utility.HtmlPlus.Sitecore().DataSourceOrContextItem();
+        
+            if (item == null)
+            {
+                <!-- item == null -->
+            }
+        
+            var BreadcrumbItems = new List<Sitecore.Data.Items.Item>();
+            Sitecore.Data.Items.Item crumbItem = item;
+            while (crumbItem != null)
+            {
+                BreadcrumbItems.Add(crumbItem);
+                if (crumbItem.Name == "Home")
+                {
+                    crumbItem = null;
+                }
+                else
+                {
+                    crumbItem = crumbItem.Parent;
+                }
+            }
+            BreadcrumbItems.Reverse();
+            var Position = 0;
+        
+            <aside id="breadcrumb" class="secondary-bg-color-lightest shadow-top">
+                <div class="wrapper cf">
+                    <ul property="breadcrumb" typeof="BreadcrumbList">
+                        @foreach (var crumb in BreadcrumbItems)
+                        {
+                            Position += 1;
+        
+                            var CssClass = string.Empty;
+                            var current = Position == BreadcrumbItems.Count;
+                            if (current)
+                            {
+                                CssClass = "current";
+                            }
+                            <li class="@CssClass" property="itemListElement" typeof="ListItem">
+                                @if (current)
+                                {
+                                    <span property="name">@crumb.GetField("menutitle").RenderValue(crumb.Name)</span>
+                                }
+                                else
+                                {
+                                    <a href="@crumb.GetItemUrl()" property="item" typeof="WebPage">
+                                        <span property="name">@crumb.GetField("menutitle").RenderValue(crumb.Name)</span>
+                                    </a>
+                                }
+                                <meta property="position" content="@Position" />
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </aside>
+        }
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20191212T152031Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231123T024200Z
+  - Version: 13
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200122T101349Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f6a442bd-8299-4a8a-81ff-35e0511ef64c"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using Sitecore.Mvc.Presentation
+        @using Sitecore.Foundation.Rendering;
+        @model RenderingModel
+        @{
+            var item = Utility.HtmlPlus.Sitecore().DataSourceOrContextItem();
+        
+            if (item == null)
+            {
+                <!-- item == null -->
+            }
+        
+            var BreadcrumbItems = new List<Sitecore.Data.Items.Item>();
+            Sitecore.Data.Items.Item crumbItem = item;
+            while (crumbItem != null)
+            {
+                BreadcrumbItems.Add(crumbItem);
+                if (crumbItem.Name == "Home")
+                {
+                    crumbItem = null;
+                }
+                else
+                {
+                    crumbItem = crumbItem.Parent;
+                }
+            }
+            BreadcrumbItems.Reverse();
+            var Position = 0;
+        
+            <aside id="breadcrumb" class="secondary-bg-color-lightest shadow-top">
+                <div class="wrapper cf">
+                    <ul property="breadcrumb" typeof="BreadcrumbList">
+                        @foreach (var crumb in BreadcrumbItems)
+                        {
+                            Position += 1;
+        
+                            var CssClass = string.Empty;
+                            var current = Position == BreadcrumbItems.Count;
+                            if (current)
+                            {
+                                CssClass = "current";
+                            }
+                            <li class="@CssClass" property="itemListElement" typeof="ListItem">
+                                @if (current)
+                                {
+                                    <span property="name">@crumb.GetField("menutitle").RenderValue(crumb.Name)</span>
+                                }
+                                else
+                                {
+                                    <a href="@crumb.GetItemUrl()" property="item" typeof="WebPage">
+                                        <span property="name">@crumb.GetField("menutitle").RenderValue(crumb.Name)</span>
+                                    </a>
+                                }
+                                <meta property="position" content="@Position" />
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </aside>
+        }
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200122T101349Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231123T024200Z
+  - Version: 14
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200211T155827Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "907da260-92fc-4fe8-8a76-3bde5f4b8998"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using Sitecore.Mvc.Presentation
+        @using Sitecore.Foundation.Rendering;
+        @model RenderingModel
+        @{
+            var item = Utility.HtmlPlus.Sitecore().DataSourceOrContextItem();
+        
+            if (item == null)
+            {
+                <!-- item == null -->
+            }
+        
+            var BreadcrumbItems = new List<Sitecore.Data.Items.Item>();
+            Sitecore.Data.Items.Item crumbItem = item;
+            while (crumbItem != null)
+            {
+                BreadcrumbItems.Add(crumbItem);
+                if (crumbItem.Name == "Home")
+                {
+                    crumbItem = null;
+                }
+                else
+                {
+                    crumbItem = crumbItem.Parent;
+                }
+            }
+            BreadcrumbItems.Reverse();
+            var Position = 0;
+        
+            <aside id="breadcrumb" class="secondary-bg-color-lightest shadow-top">
+                <div class="wrapper cf">
+                    <ul property="breadcrumb" typeof="BreadcrumbList">
+                        @foreach (var crumb in BreadcrumbItems)
+                        {
+                            Position += 1;
+        
+                            var CssClass = string.Empty;
+                            var current = Position == BreadcrumbItems.Count;
+                            if (current)
+                            {
+                                CssClass = "current";
+                            }
+                            <li class="@CssClass" property="itemListElement" typeof="ListItem">
+                                @if (current)
+                                {
+                                    <span property="name">@crumb.GetField("MenuTitle").RenderValue(crumb.Name)</span>
+                                }
+                                else
+                                {
+                                    <a href="@crumb.GetItemUrl()" property="item" typeof="WebPage">
+                                        <span property="name">@crumb.GetField("MenuTitle").RenderValue(crumb.Name)</span>
+                                    </a>
+                                }
+                                <meta property="position" content="@Position" />
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </aside>
+        }
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200211T155827Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231123T024200Z
+  - Version: 15
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200211T155827Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c893afd7-e5a4-49e8-b18e-ada66a597c8e"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using Sitecore.Mvc.Presentation
+        @using Sitecore.Foundation.Rendering;
+        @model RenderingModel
+        @{
+            var item = Utility.HtmlPlus.Sitecore().DataSourceOrContextItem();
+        
+            if (item == null)
+            {
+                <!-- item == null -->
+            }
+        
+            var BreadcrumbItems = new List<Sitecore.Data.Items.Item>();
+            Sitecore.Data.Items.Item crumbItem = item;
+            while (crumbItem != null)
+            {
+                BreadcrumbItems.Add(crumbItem);
+                if (crumbItem.Name == "Home")
+                {
+                    crumbItem = null;
+                }
+                else
+                {
+                    crumbItem = crumbItem.Parent;
+                }
+            }
+            BreadcrumbItems.Reverse();
+            var Position = 0;
+        
+            <aside id="breadcrumb" class="secondary-bg-color-lightest shadow-top">
+                <div class="wrapper cf">
+                    <ul property="breadcrumb" typeof="BreadcrumbList">
+                        @foreach (var crumb in BreadcrumbItems)
+                        {
+                            Position += 1;
+        
+                            var CssClass = string.Empty;
+                            var current = Position == BreadcrumbItems.Count;
+                            if (current)
+                            {
+                                CssClass = "current";
+                            }
+                            <li class="@CssClass" property="itemListElement" typeof="ListItem">
+                                @if (current)
+                                {
+                                    <span property="name">@crumb.GetField("MenuTitle").RenderValue(crumb.Name)</span>
+                                }
+                                else
+                                {
+                                    <a href="@crumb.GetItemUrl()" property="item" typeof="WebPage">
+                                        <span property="name">@crumb.GetField("MenuTitle").RenderValue(crumb.Name)</span>
+                                    </a>
+                                }
+                                <meta property="position" content="@Position" />
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </aside>
+        }
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200211T155827Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231123T024200Z
+  - Version: 16
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200313T165823Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "141259af-3ab7-4388-ae86-b8a74112e5c6"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using Sitecore.Mvc.Presentation
+        @using TheAA.Foundation.Rendering;
+        @model RenderingModel
+        @{
+            var item = Utility.HtmlPlus.Sitecore().DataSourceOrContextItem();
+        
+            if (item == null)
+            {
+                <!-- item == null -->
+            }
+        
+            var BreadcrumbItems = new List<Sitecore.Data.Items.Item>();
+            Sitecore.Data.Items.Item crumbItem = item;
+            while (crumbItem != null)
+            {
+                BreadcrumbItems.Add(crumbItem);
+                if (crumbItem.Name == "Home")
+                {
+                    crumbItem = null;
+                }
+                else
+                {
+                    crumbItem = crumbItem.Parent;
+                }
+            }
+            BreadcrumbItems.Reverse();
+            var Position = 0;
+        
+            <aside id="breadcrumb" class="secondary-bg-color-lightest shadow-top">
+                <div class="wrapper cf">
+                    <ul property="breadcrumb" typeof="BreadcrumbList">
+                        @foreach (var crumb in BreadcrumbItems)
+                        {
+                            Position += 1;
+        
+                            var CssClass = string.Empty;
+                            var current = Position == BreadcrumbItems.Count;
+                            if (current)
+                            {
+                                CssClass = "current";
+                            }
+                            <li class="@CssClass" property="itemListElement" typeof="ListItem">
+                                @if (current)
+                                {
+                                    <span property="name">@crumb.GetField("MenuTitle").RenderValue(crumb.Name)</span>
+                                }
+                                else
+                                {
+                                    <a href="@crumb.GetItemUrl()" property="item" typeof="WebPage">
+                                        <span property="name">@crumb.GetField("MenuTitle").RenderValue(crumb.Name)</span>
+                                    </a>
+                                }
+                                <meta property="position" content="@Position" />
+                            </li>
+                        }
+                    </ul>
+                </div>
+            </aside>
+        }
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200313T165823Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231123T024200Z
+  - Version: 17
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210218T060523Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1ee5b7d9-c0fc-496f-b9a9-9f7182b61f94"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using Sitecore.Mvc.Presentation
+        @using TheAA.Application.ViewModels
+        @using TheAA.Foundation.Rendering;
+        @model ContentViewRenderingModel
+        
+        @{
+            var item = Model.Rendering.Item;
+        
+            var BreadcrumbItems = new List<Sitecore.Data.Items.Item>();
+            Sitecore.Data.Items.Item crumbItem = item;
+            while (crumbItem != null)
+            {
+                BreadcrumbItems.Add(crumbItem);
+        
+                if (crumbItem.Name.ToLower() == "home")
+                {
+                    crumbItem = null;
+                }
+                else
+                {
+                    crumbItem = crumbItem.Parent;
+                }
+            }
+            BreadcrumbItems.Reverse();
+            var Position = 0;
+        
+            <nav aria-label="Breadcrumb">
+                <ol class="container" itemscope="true" itemtype="https://schema.org/BreadcrumbList">
+                    @foreach (var crumb in BreadcrumbItems)
+                    {
+                        Position += 1;
+        
+                        var CssClass = string.Empty;
+                        var current = Position == BreadcrumbItems.Count;
+                        var menuTitleVal = Model.GetField("MenuTitle", crumb).RenderValue(crumb.Name);
+                        if (current)
+                        {
+                            CssClass = "active";
+                        }
+                        <li class="@CssClass" itemprop="itemListElement" itemscope="true" itemtype="https://schema.org/ListItem">
+                            @if (current)
+                            {
+                                <span itemprop="name">@menuTitleVal</span>
+                            }
+                            else
+                            {
+                                <a href="@crumb.GetItemUrl()" itemscope="true" itemtype="https://schema.org/WebPage" itemprop="item">
+                                    <span itemprop="name">@menuTitleVal</span>
+                                </a>
+                            }
+                            <meta itemprop="position" content="@Position" />
+                        </li>
+                    }
+                </ol>
+            </nav>
+        }
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20210218T060523Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231123T024200Z
+  - Version: 18
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220712T105108Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\sakshis
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3c30aa0c-d1e2-4601-89ec-fadcba5c4184"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Foundation.Rendering;
+        @using System.Text;
+        @using System.Text.RegularExpressions;
+        @using System.Web;
+        @using System.Web.Mvc;
+        @using TheAA.Application.ViewModels;
+        @using TheAA.Domain.Constants
+        @using TheAA.Domain.DataTransferObjects
+        @using TheAA.Domain.Interfaces.Utilities
+        @model ContentViewRenderingModel
+        @{
+            var resolver = DependencyResolver.Current;
+            var sitecoreSettings = resolver.GetService<SitecoreSettings>();
+            var sessionUtility = resolver.GetService<ISessionUtility>();
+            var ssoUrlUtility = resolver.GetService<ISingleSignOnUrlUtility>();
+        }
+        <script type="text/javascript">
+        $(window).on('load', function () {
+        if (screen.width < 737) {
+                document.getElementById('site-header').style = null;
+                document.getElementById('logo').style = null;
+                document.getElementById('header-links').style = null;
+            }
+        });
+        </script>
+        <header id="site-header" class="cf stylish-form" data-stylish-form="set" style="height:6.1rem !important;">
+            <div class="wrapper cf">
+                <figure id="logo" class="left" style="top:-7.2rem !important">
+                    <a href="" title="The AA | Home">
+                        <img src="/Assets/images/logo.png" alt="The AA" class="print-only" />
+                    </a>
+                </figure>
+        <div id="header-links" class="right" style="padding-left: 50rem;padding-right:0;">
+                    <div id="helpful-links-association">
+                        <p class="left">
+                        </p>
+                        <p class="right" style="padding-right: 10px">
+                            @{
+                                //logout
+                                var href = string.Format("/auth/Account/SpInitiatedSlo?idpEntityId={0}&SubjectNameId={1}&SessionIndex={2}&binding={3}&RelayState={4}", sitecoreSettings.MyAAIdpEntityId
+                                    , sessionUtility.GetValueFromSession<string>(SingleSignOnConstants.SamlSubjectNameId)
+                                    , sessionUtility.GetValueFromSession<string>(SingleSignOnConstants.SamlSessionIndex)
+                                    , "urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+                                    , ssoUrlUtility.GetDefaultRelayStateUrl());
+        
+                                <a href="@href" class="logout">Log out</a>
+                            }
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </header>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220712T105108Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231123T024200Z
+  - Version: 19
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230704T134524Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cba25a38-ee7f-424d-934a-3949e8dd3fd5"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Foundation.Rendering;
+        @using System.Text;
+        @using System.Text.RegularExpressions;
+        @using System.Web;
+        @using System.Web.Mvc;
+        @using TheAA.Application.ViewModels;
+        @using TheAA.Domain.Constants
+        @using TheAA.Domain.DataTransferObjects
+        @using TheAA.Domain.Interfaces.Utilities
+        @inherits HtmlTemplateBase<ContentViewRenderingModel>
+        
+        
+        <style>
+        
+         
+        header {
+          z-index: 1030;
+          background-color: #fc0;
+          }
+          .app-header-container {
+            display: flex;
+            min-height: 47px;
+            padding: 16px;
+            margin: auto;
+        	}
+         
+            @@media (min-width: 768px) {
+             .app-header-container {
+        	  min-height: 67px;
+            }
+        	}
+         
+            @@media (min-width: 980px) {
+        	.app-header-container {
+              margin: auto;
+              max-width: 1120px;
+            }
+          }
+         
+          .app-header-logo {
+            width: 70px;
+            height: 48px;
+            cursor: pointer;
+            background-size: contain;
+        	}
+         
+         @@media (max-width: 600px) {
+         .app-header-logo {
+              width: 47px;
+              height: 32px;
+            }
+          }
+         
+          .app-header-logout {
+            display: inline-block;
+            cursor: pointer;
+            margin-left: auto;
+            font-size: 16px;
+            line-height: 1.43;
+            color: #2B2929;
+            padding-top: 1rem;
+          }
+            @@media (min-width: 980px) 
+        	.app-header-logout {
+        	{
+              padding-top: 24px;
+            }
+        	}
+         
+            .app-header-logout:hover {
+              text-decoration: underline;
+            }
+          
+         
+         
+        
+         
+        </style>
+        
+        <header>
+          <div class="app-header-container">
+            <a href="/" [title]="The AA | Home" class="align-self-center">
+              <div class="app-header-logo" role="img" style="background-image: url('/~/media/6B01AF1CE26647AB9B99E5A929E9D1EF.ashx');"></div>
+            </a>
+            <a class="app-header-logout logout" href="/logout">Log out</a>
+          </div>
+        </header>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230704T134524Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231123T024200Z

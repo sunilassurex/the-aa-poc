@@ -1,0 +1,311 @@
+﻿---
+ID: "0dd744ca-a3cb-4622-8bde-4128e5e98897"
+Parent: "1a3449e0-81f0-4826-a4e1-b4995c8a178e"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: /sitecore/layout/Renderings/Feature/AA/Navigation/Sub Links
+SharedFields:
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/Feature/AA/Navigation/Sub Links/Sub Links
+- ID: "3ad2506a-dc39-4b1e-959f-9d524addbf50"
+  Hint: VaryByParm
+  Value: 1
+- ID: "3d08db46-2267-41b0-bc52-be69fd618633"
+  Hint: Cacheable
+  Value: 1
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+- ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
+  Hint: Parameters Template
+  Value: 
+- ID: "8b6d532b-6128-4486-a044-ca06d90948ba"
+  Hint: VaryByData
+  Value: 1
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "query:./ancestor::*[@@templatename='Siteroot']/Modules/Sub Links"
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "d2990510-4230-4d7d-8ccc-c94d52494ea5"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191210T101103Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2cff2d45-8a4d-4ca7-977d-180024125c77"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using Sitecore.Mvc.Presentation
+        @using Sitecore.Foundation.Rendering;
+        @model RenderingModel
+        @{
+            var item = Utility.HtmlPlus.Sitecore().DataSourceOrContextItem();
+        
+            var AlignmentStyle = Utility.HtmlPlus.Sitecore().GetRenderingParameter("AlignmentStyle");
+            var H1titleText = item.GetField("H1TitleText");
+            var H1altTitleText = item.GetField("H1AltTitleText");
+            var HeroTitleText = item.GetField("HeroTitleText");
+            var H3text = item.GetField("H3Text");
+        
+        <div class="title-component @AlignmentStyle">
+            @if (H1titleText.HasValueToRender())
+            {
+                <h1>@H1titleText.RenderValue()</h1>
+            }
+            @if (H1altTitleText.HasValueToRender())
+            {
+                <h1 class="alt">@H1altTitleText.RenderValue()</h1>
+            }
+            @if (HeroTitleText.HasValueToRender())
+            {
+                <p class="hero-title">@HeroTitleText.RenderValue()</p>
+            }
+            @if (H3text.HasValueToRender())
+            {
+                <h3>@H3text.RenderValue()</h3>
+            }
+        </div>
+        }
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20191210T101103Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220427T041055Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200122T101433Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "25466f01-856b-4872-b083-ab54ab14a2c8"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using Sitecore.Mvc.Presentation
+        @using Sitecore.Foundation.Rendering;
+        @model RenderingModel
+        @{
+            var item = Utility.HtmlPlus.Sitecore().DataSourceOrContextItem();
+        
+            var AlignmentStyle = Utility.HtmlPlus.Sitecore().GetRenderingParameter("AlignmentStyle");
+            var H1titleText = item.GetField("H1TitleText");
+            var H1altTitleText = item.GetField("H1AltTitleText");
+            var HeroTitleText = item.GetField("HeroTitleText");
+            var H3text = item.GetField("H3Text");
+        
+        <div class="title-component @AlignmentStyle">
+            @if (H1titleText.HasValueToRender())
+            {
+                <h1>@H1titleText.RenderValue()</h1>
+            }
+            @if (H1altTitleText.HasValueToRender())
+            {
+                <h1 class="alt">@H1altTitleText.RenderValue()</h1>
+            }
+            @if (HeroTitleText.HasValueToRender())
+            {
+                <p class="hero-title">@HeroTitleText.RenderValue()</p>
+            }
+            @if (H3text.HasValueToRender())
+            {
+                <h3>@H3text.RenderValue()</h3>
+            }
+        </div>
+        }
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200122T101433Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220427T041055Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200211T093912Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8120d719-1cae-4190-b9af-5465344e8a1a"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using Sitecore.Mvc.Presentation
+        @using Sitecore.Foundation.Rendering;
+        @model RenderingModel
+        @{
+            var item = Utility.HtmlPlus.Sitecore().DataSourceOrContextItem();
+        
+            var AlignmentStyle = Utility.HtmlPlus.Sitecore().GetRenderingParameter("AlignmentStyle");
+            var H1titleText = item.GetField("H1TitleText");
+            var H1altTitleText = item.GetField("H1AltTitleText");
+            var HeroTitleText = item.GetField("HeroTitleText");
+            var H3text = item.GetField("H3Text");
+        
+        <div class="title-component @AlignmentStyle">
+            @if (H1titleText.HasValueToRender())
+            {
+                <h1>@H1titleText.RenderValue()</h1>
+            }
+            @if (H1altTitleText.HasValueToRender() && H1altTitleText.RenderValue().ToString().Length > 0)
+            {
+                <h1 class="alt">@H1altTitleText.RenderValue()</h1>
+            }
+            @if (HeroTitleText.HasValueToRender())
+            {
+                <p class="hero-title">@HeroTitleText.RenderValue()</p>
+            }
+            @if (H3text.HasValueToRender())
+            {
+                <h3>@H3text.RenderValue()</h3>
+            }
+        </div>
+        }
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200211T093912Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220427T041055Z
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200313T170317Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5632c2d9-c41c-48f9-ba8b-5c36f2bc8e52"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using Sitecore.Mvc.Presentation
+        @using TheAA.Foundation.Rendering;
+        @model RenderingModel
+        @{
+            var item = Utility.HtmlPlus.Sitecore().DataSourceOrContextItem();
+        
+            var AlignmentStyle = Utility.HtmlPlus.Sitecore().GetRenderingParameter("AlignmentStyle");
+            var H1titleText = item.GetField("H1TitleText");
+            var H1altTitleText = item.GetField("H1AltTitleText");
+            var HeroTitleText = item.GetField("HeroTitleText");
+            var H3text = item.GetField("H3Text");
+        
+        <div class="title-component @AlignmentStyle">
+            @if (H1titleText.HasValueToRender())
+            {
+                <h1>@H1titleText.RenderValue()</h1>
+            }
+            @if (H1altTitleText.HasValueToRender() && H1altTitleText.RenderValue().ToString().Length > 0)
+            {
+                <h1 class="alt">@H1altTitleText.RenderValue()</h1>
+            }
+            @if (HeroTitleText.HasValueToRender())
+            {
+                <p class="hero-title">@HeroTitleText.RenderValue()</p>
+            }
+            @if (H3text.HasValueToRender())
+            {
+                <h3>@H3text.RenderValue()</h3>
+            }
+        </div>
+        }
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200313T170317Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220427T041055Z
+  - Version: 5
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200811T125633Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\paul_petersen
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "98b90d40-12ec-42f2-981f-79be71061bf4"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using Codehouse.Common
+        @using TheAA.Foundation.Rendering
+        @using System.Text
+        @using System.Web;
+        @using System.Web.Mvc;
+        @using Fortis.Model;
+        @using TheAA.Domain.TheAATemplates.Data
+        @using TheAA.Domain.TheAATemplates.Modules
+        @using TheAA.Application.Constants
+        @using TheAA.Customisations.HtmlHelpers
+        @{ 
+            var item = Utility.HtmlPlus.Sitecore().DataSourceOrContextItem();
+        }
+        
+        @if (item != null)
+        {
+        <article class="sub-links module wrapper module-accordion">
+            <div class="wrapper cf">
+                <h4 class="module-accordion-header">@item.GetField("Heading").RenderValue()</h4>
+                   @if (item.HasChildren)
+                   {
+                        <div class="summary mobile-view module-accordion-summary">
+                 
+                            <h4>@string.Join(" | ", item.Children.Select(i => i.GetField("Link")).Select(q => q.LinkText))</h4>
+                    
+                        </div>
+                        <div class="links module-accordion-content cf">
+                            @foreach (var subLinkGroup in item.Children.InGroupsOf(2))
+                            {
+                                <ul>
+                                    @foreach (var subLink in subLinkGroup)
+                                    {
+                                        var childLinkField = subLink.GetField("Link");
+                                        <li>
+                                            <h5><a href="@childLinkField.LinkUrl" title="@childLinkField.LinkTitle">@childLinkField.LinkText</a></h5>
+                                            <p>@subLink.GetField("Description").RenderValue()</p>
+                                        </li>
+                                    }
+                                </ul>
+                            }
+                        </div>
+                   }
+            </div>
+        </article>
+        }
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200811T125633Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250801T130451Z

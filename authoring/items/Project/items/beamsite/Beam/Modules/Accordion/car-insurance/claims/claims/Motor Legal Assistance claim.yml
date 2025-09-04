@@ -1,0 +1,180 @@
+﻿---
+ID: "5eb6a8b4-9a71-47f6-b711-3dc850b3d9e1"
+Parent: "625f682b-fdda-4aed-b036-8a4f6737b00d"
+Template: "8703a280-ec4e-43a2-8f83-dc29485a490a"
+Path: "/sitecore/content/AA/Beam/Modules/Accordion/car-insurance/claims/claims/Motor Legal Assistance claim"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 50
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <p><span style="font-size: 16px;">Reporting a Motor Legal Assistance claim
+        </span></p>
+        <p>If you haven't already spoken to AA Accident Assist about claiming for your uninsured losses, call now on <strong>0370 566 3663</strong>.
+        </p>
+        <p>Your advisor will let you know what you need to document to keep any losses to a minimum and to recover these losses.
+        </p>
+        <p><strong>Recovery of uninsured losses</strong>
+        </p>
+        <p>If you took out Motor Legal Assistance, or it's included as standard with your BEAM car insurance policy, you'll be covered for up to &pound;100,000 of legal costs to recover losses from the party at fault that can't be claimed from any other insurance policy.
+        We can help you recover those losses and get legal assistance to reclaim:
+        &emsp;</p>
+        <ul>
+            <li>Car insurance policy excess</li>
+            <li>Alternative transport costs</li>
+            <li>Loss of earnings </li>
+            <li>Compensation for injuries received in an accident</li>
+        </ul>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220204T151541Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\MartinL
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\MartinL
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "23e28945-3cab-4086-b95c-dac308eb7605"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\MartinL
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220208T085314Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Motor Legal Assistance claim
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <h2><span style="font-size: 16px;">Reporting a Motor Legal Assistance claim
+        </span></h2>
+        <p>If you haven't already spoken to AA Accident Assist about claiming for your uninsured losses, call now on <strong>0370 566 3663</strong>.
+        </p>
+        <p>Your advisor will let you know what you need to document to keep any losses to a minimum and to recover these losses.
+        </p>
+        <h3>Recovery of uninsured losses</h3>
+        <p>
+        </p>
+        <p>If you took out Motor Legal Assistance, or it's included as standard with your BEAM car insurance policy, you'll be covered for up to &pound;100,000 of legal costs to recover losses from the party at fault that can't be claimed from any other insurance policy.
+        We can help you recover those losses and get legal assistance to reclaim:
+        &emsp;</p>
+        <ul>
+            <li>Car insurance policy excess</li>
+            <li>Alternative transport costs</li>
+            <li>Loss of earnings </li>
+            <li>Compensation for injuries received in an accident</li>
+        </ul>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220208T093153Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\MartinL
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\MartinL
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6120e92d-e322-4796-a5b1-af60eeaf2f24"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\MartinL
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220208T093153Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220208T093333Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Motor Legal Assistance claim
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <br />
+        <h2>Reporting a Motor Legal Assistance claim</h2>
+        <p>If you haven't already spoken to AA Accident Assist about claiming for your uninsured losses, call now on <strong>0370 566 3663</strong>.</p>
+        <p>Your advisor will let you know what you need to document to keep any losses to a minimum and to recover these losses.
+        </p>
+        <br />
+        <h2>Recovery of uninsured losses</h2>
+        <p>If you took out the optional Motor Legal Assistance with your BEAM car insurance policy, you'll be covered for up to &pound;100,000 of legal costs to recover losses from the party at fault that can't be claimed from any other insurance policy.</p>
+        <p>We can help you recover those losses and get legal assistance to reclaim:</p>
+        <ul>
+            <li>Car insurance policy excess</li>
+            <br />
+            <li>Alternative transport costs</li>
+            <br />
+            <li>Loss of earnings </li>
+            <br />
+            <li>Compensation for injuries received in an accident</li>
+        </ul>
+        <br class="t-last-br" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240912T142527Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\MartinL
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4714ac7d-3d16-4615-923d-d90ac0d36bce"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240912T142527Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241119T134424Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Motor Legal Assistance claim

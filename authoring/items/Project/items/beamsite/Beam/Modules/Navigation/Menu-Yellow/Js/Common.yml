@@ -1,0 +1,308 @@
+﻿---
+ID: "c6e80184-88a7-40d5-b9ab-41c077a9015e"
+Parent: "a3d5fefb-d0ac-4e5d-ba30-05560772542d"
+Template: "739c5a9d-d1e8-4f49-9d52-fb806eb17b43"
+Path: "/sitecore/content/AA/Beam/Modules/Navigation/Menu-Yellow/Js/Common"
+SharedFields:
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 25
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200114T132640Z
+    - ID: "2f7f296b-d5f5-4088-a5dd-4ab5fa9f4d1a"
+      Hint: Contents
+      Value: |
+        <!-- not a menu item -->
+        <script src="/breakdown-cover/advice/basic-car-checks/menuscript"></script>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a0fdf653-34e6-4be3-bfe3-a7bad0704004"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200114T133559Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200130T160220Z
+    - ID: "2f7f296b-d5f5-4088-a5dd-4ab5fa9f4d1a"
+      Hint: Contents
+      Value: |
+        <!-- not a menu item -->
+        <!-- DISABLED
+        <script src="/breakdown-cover/advice/basic-car-checks/menuscript"></script>
+        -->
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c2a497d5-2807-46ba-9cd6-1653f72eb8dd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200130T160220Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200130T160247Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200904T114956Z
+    - ID: "2f7f296b-d5f5-4088-a5dd-4ab5fa9f4d1a"
+      Hint: Contents
+      Value: |
+        <!-- not a menu item -->
+        <script>console.log('/sitecore/content/TheAA/Global/Navigation/Header/Menu/script')</script>
+        
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\paul_petersen
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9ae70d38-4f9c-4c38-b741-d326ca95ba8d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\paul_petersen
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200904T114956Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200904T141003Z
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200914T165333Z
+    - ID: "2f7f296b-d5f5-4088-a5dd-4ab5fa9f4d1a"
+      Hint: Contents
+      Value: |
+        $(document).ready(function () {
+            var mainHeight = $('.aa-main-nav').outerHeight();
+            var greyBoxHeight = $('.mobile-grey').outerHeight();
+            var scrollHeightmenu = mainHeight + greyBoxHeight;
+            var $currentActiveMenuItem = null;
+            var $areYouBusinessCustomer = $(' div.top-header-links > div.left.reltive > .business-customer-desktop');
+            var $mobileBusinessCustomerLink = $('<div class="business-customer-mobile"></div>');
+            if ($areYouBusinessCustomer.length) {
+                $mobileBusinessCustomerLink.html($areYouBusinessCustomer.html());
+                $('.mobile-grey').append($mobileBusinessCustomerLink);
+            }
+        
+            if (window.aa.helpers.cache.cachedElements.$window.width() <= window.aa.helpers.cache.constants.TABLET_LANDSCAPE) {
+                $('.mobile-grey').appendTo('.desktop-white');
+                $('nav.aa-mega-menu').addClass('mobile-nav');
+                if (!$('.scroller').length) {
+                    $('#site-header-yellow >.wrapper').wrap("<div class='scroller'></div>");
+        
+                }
+        
+        
+                $("#mainNavigation > ul > li.primary").each(function () {
+                    $primaryHeadingForMobile = $('<li class="primary-heading"></li>');
+                    $firstColumnOfMegaMenu = $(this).find("nav > div > ul:nth-child(1)");
+                    $anchor = $($(this).children()[0]);
+                    anchorHtmlText = $anchor.html();
+        
+                    $primaryHeadingForMobile.html(anchorHtmlText);
+                    $firstColumnOfMegaMenu.prepend($primaryHeadingForMobile);
+                    $firstColumnOfMegaMenu.prepend('<li class="backLink"><a href="#"><span><svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path d="M0 0h24v24H0z"/><path d="m7.79 11.29 7-7a1.004 1.004 0 0 1 1.42 1.42L9.91 12l6.3 6.29a1 1 0 0 1 0 1.42 1 1 0 0 1-1.42 0l-7-7a1 1 0 0 1 0-1.42z" fill="#06757F"/></g></svg></span>Back</a></li>');
+                });
+        
+            }
+            else if (window.aa.helpers.cache.cachedElements.$window.width() > window.aa.helpers.cache.constants.TABLET_LANDSCAPE) {
+                $('.mobile-grey').appendTo('.top-header-links');
+                $('nav.aa-mega-menu').removeClass('mobile-nav');
+                if ($('.scroller').length) {
+                    $('#site-header-yellow >.wrapper').unwrap("<div class='scroller'></div>");
+        
+                }
+        
+                $('#mainNavigation > ul.aa-main-nav > li.primary > a').keydown(function (e) {
+                    if (e.which === 13 || e.keyCode === 13) {
+                        $currentActiveMenuItem = $(this).parent().find('.aa-mega-menu');
+                        $currentActiveMenuItem.toggleClass("menu-active");
+                        var $firstAnchorOfMegaMenu = $($currentActiveMenuItem.find('div > ul:first-child > li:first-child > a')[0]);
+                        $firstAnchorOfMegaMenu.focus();
+                    }
+                    else if (e.which === 9 || e.keyCode === 9) {
+                        if ($currentActiveMenuItem)
+                            e.preventDefault();
+        
+                        var $firstAnchorOfMegaMenu = $currentActiveMenuItem.find('div > ul:first-child > li:first-child > a');
+                        $firstAnchorOfMegaMenu.focus();
+                    }
+                });
+                //get all last anchor items from all mega menus and attach key down event for Tab transer
+                $("#mainNavigation > ul > li > nav > div > ul:last-child li:last-child a").keydown(function (e) {
+                    if (e.which === 9 || e.keyCode === 9) {
+                        $currentActiveMenuItem.removeClass('menu-active');
+                        var $nextPrimayNavItem = $currentActiveMenuItem.parent();
+                        if ($nextPrimayNavItem) {
+                            $nextPrimayNavItem.find('a')[0].focus();
+                            $currentActiveMenuItem = null;
+                        }
+                        else {
+                            //this will happen for very last anchor of last mega menu. there is no next menu item to focus to
+                            //so focus should be move dto mainContent
+                            $('#mainContent').focus();
+                        }
+        
+                    }
+                });
+        
+                $('#mainNavigation > ul.aa-main-nav > li.primary.childrens').hover(function () {
+                    //remove menu-active class from active mega menu from keyboard if open 
+                    if ($currentActiveMenuItem)
+                        $currentActiveMenuItem.removeClass('menu-active');
+        
+                    $('#mainContent').toggleClass("menu-hover-overlay ");
+                    $("html, body").animate({ scrollTop: 0 }, "slow");
+                }, function () {
+                    $('#mainContent').toggleClass("menu-hover-overlay ");
+                });
+        
+        
+            }
+        
+            $(window).resize(function () {
+                if (window.aa.helpers.cache.cachedElements.$window.width() <= window.aa.helpers.cache.constants.TABLET_LANDSCAPE) {
+                    $('.mobile-grey').appendTo('.desktop-white');
+                    $('nav.aa-mega-menu').addClass('mobile-nav');
+                    if (!$('.scroller').length) {
+                        $('#site-header-yellow >.wrapper').wrap("<div class='scroller'></div>");
+        
+                    }
+        
+                }
+                else if (window.aa.helpers.cache.cachedElements.$window.width() > window.aa.helpers.cache.constants.TABLET_LANDSCAPE) {
+                    $('.mobile-grey').appendTo('.top-header-links');
+                    $('nav.aa-mega-menu').removeClass('mobile-nav');
+                    if ($('.scroller').length) {
+                        $('#site-header-yellow >.wrapper').unwrap("<div class='scroller'></div>");
+        
+                    }
+                }
+            });
+        
+        
+            $('.mobile-tablet-menu').click(function (e) {
+                e.preventDefault();
+                $('body').addClass('mmenu-opened');
+                $('header#site-header-yellow .main-nav').animate({ right: '0' }, 250);
+                if ($('.scroller').length) {
+                    $('#site-header-yellow').addClass('mobilemenu-active');
+                }
+                var primaryHeight = $('.main-nav').height() + 120;
+                $('.main-nav').css('min-height', primaryHeight);
+            });
+        
+            $('.mobile-tablet-menu-open').click(function (e) {
+                e.preventDefault();
+                $('body').removeClass('mmenu-opened');
+                $('header#site-header-yellow .main-nav').animate({ right: '-100vw' }, 250);
+                $('#site-header-yellow').removeClass('mobilemenu-active');
+                $('.main-nav').css('min-height', 'auto');
+                if ($('.aa-mega-menu').hasClass('secondlevelOpen')) {
+                    $('.aa-mega-menu').stop().animate({ 'right': '-100vw' }, 250);
+                    primaryItem.parent('li').siblings('li').removeClass('hide-menu').removeClass('activated');
+                    $('.aa-mega-menu').removeClass('secondlevelOpen');
+                }
+            });
+            var primaryItem = $('li.primary.childrens > a');
+            var backlink = $('li.backLink > a');
+        
+            //var mobileSecondLevel = $('.aa-mega-menu');
+            //var secondaryMenu = $('header#site-header-yellow .main-nav ul.aa-main-nav li > nav.aa-mega-menu');
+            if (window.aa.helpers.cache.cachedElements.$window.width() <= window.aa.helpers.cache.constants.TABLET_LANDSCAPE) {
+        
+        
+        
+                primaryItem.on('click', function (e) {
+                    //alert('in');
+                    e.preventDefault();
+                    var megaHeight = $(this).next('.aa-mega-menu').height() + 120;
+                    //$('header#site-header-yellow .main-nav').animate({ right: '0' });
+                    $(this).parent('li').find('nav.aa-mega-menu.mobile-nav').stop().animate({ right: '0' }, 250);
+                    $(this).parent('li').removeClass('hide-menu');
+                    $(this).parent('li').siblings('li').addClass('hide-menu').removeClass('activated');
+                    $(this).parent('li').addClass('activated');
+                    $(this).next('.aa-mega-menu').addClass('secondlevelOpen');
+                    $(this).next('.aa-mega-menu').css('height', megaHeight);
+                    $('.main-nav').css('min-height', 'auto');
+        
+                });
+                backlink.on('click', function (e) {
+                    // alert('backclcik');
+                    // e.preventDefault();
+                    e.stopPropagation();
+        
+                    $(this).parent('li').parent().parent().parent('.aa-mega-menu').stop().animate({ 'right': '-100vw' }, 250);
+                    primaryItem.parent('li').siblings('li').removeClass('hide-menu').removeClass('activated');
+                    $(this).parent('li').parent().parent().parent('.aa-mega-menu').removeClass('secondlevelOpen');
+                    $(this).next('.aa-mega-menu').css('height', 'auto');
+                    var primaryHeight = $('.main-nav').height() + 120;
+                    $('.main-nav').css('min-height', primaryHeight);
+                });
+        
+        
+            }
+        
+        
+        });
+        
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\paul_petersen
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fcf9c34d-cb52-4376-b62a-d4b52154bb17"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200914T165333Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211208T173340Z

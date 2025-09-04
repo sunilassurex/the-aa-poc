@@ -1,0 +1,23 @@
+﻿---
+ID: "43c3884a-f1c3-4bfa-8d93-134711a55fa9"
+Parent: "982fe3d7-bf5c-4a83-96ad-6d4dab644345"
+Template: "cc80d78e-bfb1-4bd1-b5e3-694c2388734b"
+Path: /sitecore/content/AA/Beam/Modules/RTB/RTBs
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220218T185941Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ea501da0-388a-4381-910a-17fbdabb91a3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220218T185941Z

@@ -1,0 +1,93 @@
+﻿---
+ID: "9cd7230b-e3b0-4800-84a0-fc92361b9914"
+Parent: "bdd1767f-2843-4d5d-9e05-575def7a3025"
+Template: "bb522669-bc89-48b9-a87d-d203fb65fd13"
+Path: "/sitecore/content/AA/Beam/Modules/Campaign Promo/car-insurance/claims"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220208T105049Z
+    - ID: "319a54eb-ac32-4271-8f7b-cfbeb32bb3f6"
+      Hint: Body
+      Value: "Had an accident? Whether you’re currently at the roadside, or already back at home, we can help. "
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "46bc123e-ecd7-4c2c-bae0-207e5d1f1033"
+      Hint: CtaButton
+      Value: |
+        <link class="" querystring="" id="{195C6D3B-20B0-4B22-8D45-5D50A9C7C6C3}" anchor="" target="" title="" linktype="internal" text="Make a claim" url="/AA/Beam/Home/car-insurance/claims" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\MartinL
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\MartinL
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1ff11d74-49ba-442f-a272-3347e86d4eb4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250805T075735Z
+    - ID: "fc478484-2c1e-4d1d-b2b5-ddb603cefa97"
+      Hint: Title
+      Value: Make a claim 
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220215T105731Z
+    - ID: "319a54eb-ac32-4271-8f7b-cfbeb32bb3f6"
+      Hint: Body
+      Value: Whether you’re currently at the roadside, or already back at home, we can help. 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "46bc123e-ecd7-4c2c-bae0-207e5d1f1033"
+      Hint: CtaButton
+      Value: |
+        <link class="" querystring="" id="{195C6D3B-20B0-4B22-8D45-5D50A9C7C6C3}" anchor="" target="" title="" linktype="internal" text="Make a claim" url="/AA/Beam/Home/car-insurance/claims" />
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\MartinL
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\MartinL
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "13cb55df-be57-4d4b-9ccb-a7542506f76e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220215T105731Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250805T075735Z
+    - ID: "fc478484-2c1e-4d1d-b2b5-ddb603cefa97"
+      Hint: Title
+      Value: "Had an accident?"

@@ -1,0 +1,1233 @@
+﻿---
+ID: "51644507-ac17-4904-9709-2a31296828fb"
+Parent: "ee6e02b1-2571-4941-b7a1-27d3a1ce401e"
+Template: "e36747b3-6154-423a-b32d-b2d323f5a739"
+Path: "/sitecore/content/AA/Beam/Modules/Rich Text/cookie-policy/cookie-policy"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170905T101054Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "abf941b6-1efc-4766-8666-dc34b3e73c9d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20170905T101054Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>What are cookies?</h2>
+        <p>Cookies are small files that are placed or 'dropped' on your computer when you access websites or use apps on your device. They&rsquo;re used for a variety of purposes.&lt;./p&gt;
+        </p>
+        <p>The data contained in the cookie can be retrieved by the website or app that placed them or your device. They may also be accessed by websites/apps that have also been explicitly authorised to use them by the site/app that first dropped them.</p>
+        <hr />
+        <h2>Cookie duration</h2>
+        <p>Some cookies only exist for a short period of time, and are then deleted automatically by your device. Others last for a longer period of time &ndash; these are called 'persistent cookies' &ndash; and some can last for some years unless manually deleted. Examples of their use include analysing multiple site visits overtime or customising the content displayed.</p>
+        <hr />
+        <h2>First and third party cookies</h2>
+        <p>Some cookies are set by the website/app you're visiting or using: they're called &ldquo;first party&rdquo; cookies. Others may be set by a third party when you use a site or app &ndash; eg by a tool built into the website or by an advertising network that displays adverts on the site or in the app.</p>
+        <hr />
+        <h2>The AA and cookies</h2>
+        <p>How the AA uses cookie is outlined below. This applies to websites directly managed by the AA Group of companies, including BSM.</p>
+        <p>Sometimes we work with partners who may use the AA brand and look and feel on webpages or in apps. They will have their own cookie policies and privacy notices, linked to from the web pages or apps they provide.</p>
+        <p>You can <a href="https://ico.org.uk/for-the-public/online/cookies/">read more about cookies</a> at the website of the UK Information Commissioner&rsquo;s Office (who regulated data usage).</p>
+        <p>You can read the AA&rsquo;s <a></a><a href="~/link.aspx?_id=3AAF69B1030240848A5CF0791FA4F0D2&amp;_z=z">privacy notice</a>, and you can <a></a><a href="~/link.aspx?_id=F275E46D6E33451B81109A8D5EC4A74A&amp;_z=z">contact us</a> about privacy, cookies or data protection.</p>
+        <hr />
+        <h2>The AA app</h2>
+        <p>The AA app places cookies on your device, but there are less of them than the website. These are used to enable functionality, supporting analysis of usage of the app or for marketing purposes.</p>
+        <p>The app also displays web pages from the AA site or those of our partners, and these appear within the app. These drop cookies, as they would if visited via a normal browser.</p>
+        <hr />
+        <h2>Types of cookies the AA uses</h2>
+        <p><strong>Website and app management and personalisation</strong></p>
+        <p>Some of the cookies we use enable us to manage our website and ensure it functions correctly. Web pages don&rsquo;t have 'memory', and as such, cookies can store data as you moved between pages &ndash; for example when using an online checkout to buy.</p>
+        <p>These are sometimes referred to as 'session' cookies  &ndash; they last for that visit, or session, to the website only, and are then deleted automatically.</p>
+        <p>Others cookies enable us to test different designs, wording and functionality to establish which work best, while other enable us personalise what you see to your location, the products you have bought, or past website usage.</p>
+        <p>For example, we may employ an onsite personalisation tool which uses cookies to change what you see after buying a product &ndash; so if you revisit the site several days after buying breakdown cover, we may show you content about the member benefits you're entitled to that could save you money, instead of content about buying breakdown cover.</p>
+        <p>Technologies that we employ and that use cookies for website and app management and personalisation include, at the time of writing, Sitecore, Tealium, Maxymiser, Salescycle, Add This and BazaarVoice.</p>
+        <p><strong>Usage and reporting</strong></p>
+        <p>We employ several tools to understand how visitors use our website or app to identify areas for improvement and to enable us to gather and report commercial data (like sales volumes).</p>
+        <p>This includes analytics tools and session capture tools that record videos of individual user sessions, capturing where people click on the page, where they place their cursor, where they fill in forms etc. This data is kept secure and we only record what is typed into forms if strictly necessary. The rest of the time it is not visible in the recording.</p>
+        <p>For example, we may analyse website usage and identify a page where people seem to struggle to know what to do next. We would then use session capture to review some individual site visitors and identify what the issue is.</p>
+        <p>Other reporting tools we use support our efforts to combat fraud or abuse of the services we provide. These employ cookies.</p>
+        <p>Tools we use include: Google Analytics, Cognesia, HotJar and Decibel Insight.</p>
+        <p><strong>Marketing and advertising</strong></p>
+        <p>As part of our marketing activity, we employ a number of tools to manage our digital marketing activity, including advertising, sponsorships, influencer marketing and social media.</p>
+        <p>These enable us to target and retarget defined audiences, optimise campaigns to drive improvements, understand interactions with ads and content and test which perform the best, quantify the impact of offline advertising (e.g. on TV) on website and app usage, and understand how people use several different devices to use the website and app.</p>
+        <p>This includes advertising that uses Online Behavioural Advertising (OBA). Third parties, such as advertising networks, work with websites and advertisers to deliver customised advertising based upon the collection and use of web browsing activity. This includes: pages visited, ads clicked and products purchased or researched. Ads that fall under this definition often have a blue triangle symbol in the top right hand corner.</p>
+        <p>For example, if somebody visits the website and shows interest in a product but doesn&rsquo;t buy, we may retarget them with adverts about that product on the web and in search results for a number of days after this visit to the website. If they buy, or a set period of time has passed, retargeting advertising stops.</p>
+        <p>Tools and cookies we use for marketing and advertising include: Doubleclick, Google AdWords, Bing Adcentre, Facebook, Twitter, Amazon Advertising, and various display advertising providers.</p>
+        <hr />
+        <h2>About this document</h2>
+        <p>The above list of cookies we use isn&rsquo;t exhaustive, but are illustrative examples for each type. The technology, cookies and partners we are working with, and our marketing activity, regularly change due to the diverse nature of our business.</p>
+        <hr />
+        <h2>What about links to other websites and their cookies?</h2>
+        <p>We often link to other sites to provide you with extra information or services. Where a product or service is provided by a third party, you may leave our website by clicking through to the third party's website, in which case the cookies policy set out on their website will also apply.</p>
+        <p>Cookies on third party websites and in apps are not controlled by us.</p>
+        <hr />
+        <h2>How to control cookies</h2>
+        <p>You can restrict, remove or block cookies through your browser settings at any time. For more information about how to do this, and about cookies in general, visit <a href="http://www.youronlinechoices.com/">Your Online Choices</a></p>
+        <p>You can also opt out of some advertising-related cookies at <a href="http://www.youronlinechoices.com/uk/your-ad-choices">Your Ad Choices</a>, the <a href="http://optout.networkadvertising.org/">NAI site</a>&nbsp;and at <a href="https://support.google.com/ads/answer/2662922?hl=en-GB">Google</a>.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211224T155224Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180322T214945Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\armstrongj
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a2eee9b3-e02e-4b52-ab97-559f70c0963b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20180322T214945Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>What are cookies?</h2>
+        <p>Cookies are small files that are placed or 'dropped' on your computer when you access websites or use apps on your device. They&rsquo;re used for a variety of purposes.</p>
+        <p>The data contained in the cookie can be retrieved by the website or app that placed them or your device. They may also be accessed by websites/apps that have also been explicitly authorised to use them by the site/app that first dropped them.</p>
+        <hr />
+        <h2>Cookie duration</h2>
+        <p>Some cookies only exist for a short period of time, and are then deleted automatically by your device. Others last for a longer period of time &ndash; these are called 'persistent cookies' &ndash; and some can last for some years unless manually deleted. Examples of their use include analysing multiple site visits overtime or customising the content displayed.</p>
+        <hr />
+        <h2>First and third party cookies</h2>
+        <p>Some cookies are set by the website/app you're visiting or using: they're called &ldquo;first party&rdquo; cookies. Others may be set by a third party when you use a site or app &ndash; eg by a tool built into the website or by an advertising network that displays adverts on the site or in the app.</p>
+        <hr />
+        <h2>The AA and cookies</h2>
+        <p>How the AA uses cookie is outlined below. This applies to websites directly managed by the AA Group of companies, including BSM.</p>
+        <p>Sometimes we work with partners who may use the AA brand and look and feel on webpages or in apps. They will have their own cookie policies and privacy notices, linked to from the web pages or apps they provide.</p>
+        <p>You can <a href="https://ico.org.uk/for-the-public/online/cookies/">read more about cookies</a> at the website of the UK Information Commissioner&rsquo;s Office (who regulated data usage).</p>
+        <p>You can read the AA&rsquo;s <a></a><a href="~/link.aspx?_id=3AAF69B1030240848A5CF0791FA4F0D2&amp;_z=z">privacy notice</a>, and you can <a></a><a href="~/link.aspx?_id=F275E46D6E33451B81109A8D5EC4A74A&amp;_z=z">contact us</a> about privacy, cookies or data protection.</p>
+        <hr />
+        <h2>The AA app</h2>
+        <p>The AA app places cookies on your device, but there are less of them than the website. These are used to enable functionality, supporting analysis of usage of the app or for marketing purposes.</p>
+        <p>The app also displays web pages from the AA site or those of our partners, and these appear within the app. These drop cookies, as they would if visited via a normal browser.</p>
+        <hr />
+        <h2>Types of cookies the AA uses</h2>
+        <p><strong>Website and app management and personalisation</strong></p>
+        <p>Some of the cookies we use enable us to manage our website and ensure it functions correctly. Web pages don&rsquo;t have 'memory', and as such, cookies can store data as you moved between pages &ndash; for example when using an online checkout to buy.</p>
+        <p>These are sometimes referred to as 'session' cookies  &ndash; they last for that visit, or session, to the website only, and are then deleted automatically.</p>
+        <p>Others cookies enable us to test different designs, wording and functionality to establish which work best, while other enable us personalise what you see to your location, the products you have bought, or past website usage.</p>
+        <p>For example, we may employ an onsite personalisation tool which uses cookies to change what you see after buying a product &ndash; so if you revisit the site several days after buying breakdown cover, we may show you content about the member benefits you're entitled to that could save you money, instead of content about buying breakdown cover.</p>
+        <p>Technologies that we employ and that use cookies for website and app management and personalisation include, at the time of writing, Sitecore, Tealium, Maxymiser, Salescycle, Add This and BazaarVoice.</p>
+        <p><strong>Usage and reporting</strong></p>
+        <p>We employ several tools to understand how visitors use our website or app to identify areas for improvement and to enable us to gather and report commercial data (like sales volumes).</p>
+        <p>This includes analytics tools and session capture tools that record videos of individual user sessions, capturing where people click on the page, where they place their cursor, where they fill in forms etc. This data is kept secure and we only record what is typed into forms if strictly necessary. The rest of the time it is not visible in the recording.</p>
+        <p>For example, we may analyse website usage and identify a page where people seem to struggle to know what to do next. We would then use session capture to review some individual site visitors and identify what the issue is.</p>
+        <p>Other reporting tools we use support our efforts to combat fraud or abuse of the services we provide. These employ cookies.</p>
+        <p>Tools we use include: Google Analytics, Cognesia, HotJar and Decibel Insight.</p>
+        <p><strong>Marketing and advertising</strong></p>
+        <p>As part of our marketing activity, we employ a number of tools to manage our digital marketing activity, including advertising, sponsorships, influencer marketing and social media.</p>
+        <p>These enable us to target and retarget defined audiences, optimise campaigns to drive improvements, understand interactions with ads and content and test which perform the best, quantify the impact of offline advertising (e.g. on TV) on website and app usage, and understand how people use several different devices to use the website and app.</p>
+        <p>This includes advertising that uses Online Behavioural Advertising (OBA). Third parties, such as advertising networks, work with websites and advertisers to deliver customised advertising based upon the collection and use of web browsing activity. This includes: pages visited, ads clicked and products purchased or researched. Ads that fall under this definition often have a blue triangle symbol in the top right hand corner.</p>
+        <p>For example, if somebody visits the website and shows interest in a product but doesn&rsquo;t buy, we may retarget them with adverts about that product on the web and in search results for a number of days after this visit to the website. If they buy, or a set period of time has passed, retargeting advertising stops.</p>
+        <p>Tools and cookies we use for marketing and advertising include: Doubleclick, Google AdWords, Bing Adcentre, Facebook, Twitter, Amazon Advertising, and various display advertising providers.</p>
+        <hr />
+        <h2>About this document</h2>
+        <p>The above list of cookies we use isn&rsquo;t exhaustive, but are illustrative examples for each type. The technology, cookies and partners we are working with, and our marketing activity, regularly change due to the diverse nature of our business.</p>
+        <hr />
+        <h2>What about links to other websites and their cookies?</h2>
+        <p>We often link to other sites to provide you with extra information or services. Where a product or service is provided by a third party, you may leave our website by clicking through to the third party's website, in which case the cookies policy set out on their website will also apply.</p>
+        <p>Cookies on third party websites and in apps are not controlled by us.</p>
+        <hr />
+        <h2>How to control cookies</h2>
+        <p>You can restrict, remove or block cookies through your browser settings at any time. For more information about how to do this, and about cookies in general, visit <a href="http://www.youronlinechoices.com/">Your Online Choices</a>.</p>
+        <p>You can also opt out of some advertising-related cookies at <a href="http://www.youronlinechoices.com/uk/your-ad-choices">Your Ad Choices</a>, the <a href="http://optout.networkadvertising.org/">NAI site</a>&nbsp;and at <a href="https://support.google.com/ads/answer/2662922?hl=en-GB">Google</a>.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211224T155224Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180327T202840Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\MaudeL
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "84dde44b-d795-4bda-8080-70ca2df0c2b9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20180327T202840Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>What are cookies?</h2>
+        <p>Cookies are small files that hold information; they're placed or 'dropped' on your computer when you access websites or use apps on your device. The data contained in the cookie can be retrieved by the website or app that placed them there. They can also be accessed by websites or apps that have been authorised to use them by the site or app that first dropped them.</p>
+        <hr />
+        <h2>Cookie duration</h2>
+        <p>Some cookies only exist for a short period of time, and are then automatically deleted by your device. Others last for longer &ndash; these are called 'persistent cookies' &ndash; and some exist for years unless manually deleted. These can be used to analyse multiple site visits over time, or customise the content that's displayed.</p>
+        <hr />
+        <h2>First and third party cookies</h2>
+        <p>Some cookies are set by the website or app you're visiting; these are called 'first party' cookies. Others may be set by a third party when you use a site or app &ndash; for example, by a tool built into the website, or by an advertising network that displays adverts on the site or in the app.
+        </p>
+        <hr />
+        <h2>The AA and cookies</h2>
+        <p>How we use cookies is outlined below. This applies to websites directly managed by the AA Group of companies, including BSM. Sometimes we work with partners who may use our brand look and feel on their web pages or apps. They'll have their own cookie policies and privacy notices, linked to from the web pages or apps they provide.</p>
+        <p><a href="https://ico.org.uk/for-the-public/online/cookies/">Read more about cookies</a> on the site of the UK Information Commissioner's Office (who regulated data usage).
+        </p>
+        <p>You can also <a href="/privacy-notice">read our privacy notice</a> and <a href="/help-support/contact-us">get in touch with us</a> about privacy, cookies or data protection.</p>
+        <hr />
+        <h2>The AA app</h2>
+        <p>Our app places cookies on your device, but there are less of them than the website. They're used to enable functionality, help us analyse how the app's being used, and for marketing purposes. The app also displays web pages from our website, or those of our partners, and these appear within the app. They drop cookies, as they would if visited through a normal browser.
+        </p>
+        <hr />
+        <h2>How we use cookies</h2>
+        <p>We use cookies to make sure you get the best experience from your visit. As well as enabling certain features to work better, cookies also let us collect feedback and information about how you’ve used the site &mdash; so we can keep improving it for you.  By visiting and using this site, you agree to our use of cookies and other similar technologies.
+        </p>
+        <p><b>The 4 main types of cookie we use on our site:</b></p>
+        <ol>
+        <li><b>Strictly necessary cookies</b>
+        <p>These cookies are essential &mdash; without them you might not be able to get the information or service you've asked for. They're needed for things like logging whether you see error messages &ndash; so we can make improvements and fix bugs &ndash; as well as allowing you to use shopping baskets (which remember your choices as you navigate our site) and make a purchase.</p>
+        <p>Technologies that we use (and that use cookies) to make sure the website functions correctly for you include, at the time of writing, Sitecore, Teamsite, Salescycle, BaazarVoice and Add This.</p></li>
+        <li><b>Personalisation and testing cookies</b>
+        <p>These cookies remember choices you've made to personalise the site, or are used by us to test site content and functionality with different groups of visitors. They may remember where you are in the site so you can get tailored information, or changes you've made to help you browse, such as increasing the text size. For instance, if you ask for services based on your location, we sometimes store a cookie &mdash; meaning that next time you visit, you won't have to tell us where you are again.</p>
+        <p>Technologies we use for personalisation or testing include Sitecore and Maxymiser.</p></li>
+        <li><b>Analytics and measurement cookies</b>
+        <p>We use several technologies to understand how visitors use our website or app. These help us to identify areas for improvement, and to collect and report on commercial data (like sales volumes). They include analytics tools that report numbers, and session capture tools that record videos of individual user sessions &ndash; following things like where you click on the page, place your cursor, and where you fill in forms. This data is kept secure and we only record what's typed into forms if really necessary. The rest of the time it's not visible in the recording.
+        </p>
+        <p>We may, for example, analyse website usage and identify a page where people struggle to know what to do next; we'd then use session capture to observe some individual site visitors and find out what the issue is.</p>
+        <p>Other reporting tools we use support our efforts to prevent fraud and the abuse of our services; these also employ cookies.</p>
+        <p>Tools we use for analytics and measurement include: Google Analytics, Cognesia, HotJar and Decibel Insight.</p>
+        </li>
+        <li><b>Targeting or advertising cookies</b>
+        <p>These cookies collect information about your browsing habits (including details of the websites you've visited), which we use to make sure you receive advertising relevant to you. We (or third parties and advertising networks on our behalf) may use them to show you ads we think you'll be interested in across the internet (including on other sites you visit), based on your interaction with our website, app and your browsing history.</p>
+        <p>This includes advertising that uses Online Behavioural Advertising (OBA). Third parties, such as advertising networks, work with websites and advertisers to deliver customised advertising based on the collection and use of your web browsing activity. This includes: pages visited, ads clicked, and products bought or researched. Ads that fall under this definition often have a blue triangle symbol in the top right-hand corner.</p>
+        <p>If, for example, you visit our website and show an interest in one of our products but don't buy it, we may re-target you with adverts about it on other websites &ndash; and in search results &ndash; for a number of days after your initial website visit. If you buy the product, or a set period of time has passed, the re-targeting advertising stops.</p>
+        <p>Tools and cookies we use for marketing and advertising include: Doubleclick, Google AdWords, Bing Adcentre, Facebook, Twitter, Amazon Advertising, and various display advertising providers.</p>
+        </li>
+        </ol>
+        <hr />
+        <h2>What about links to other websites and their cookies?</h2>
+        <p>We often link to other sites to give you extra information or services. Where these are provided by a third party, you may leave our website by clicking through to theirs. In this case, the cookies policy set out on the third party's website will also apply. As this won't be controlled by us, you should read their policy to find out what information is being collected and how it's used.</p>
+        <hr />
+        <h2>How to control cookies</h2>
+        <p>You can restrict, remove or block cookies through your browser settings at any time. For more information about how to do this, and about cookies in general, <a href="http://www.youronlinechoices.com/">visit Your Online Choices.eu</a>. You can also opt out of some advertising-related cookies at <a href="http://www.youronlinechoices.com/uk/your-ad-choices">Your Ad Choices</a>, the <a href="http://optout.networkadvertising.org/">NAI site</a> and at <a href=" https://support.google.com/ads/answer/2662922?hl=en-GB">Google</a></p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211224T155224Z
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180329T091917Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\MaudeL
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1f287cd0-e533-4c90-b006-72368114c0a0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20180329T091917Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>What are cookies?</h2>
+        <p>Cookies are small files that hold information; they're placed or 'dropped' on your computer when you access websites or use apps on your device. The data contained in the cookie can be retrieved by the website or app that placed them there. They can also be accessed by websites or apps that have been authorised to use them by the site or app that first dropped them.</p>
+        <hr />
+        <h2>Cookie duration</h2>
+        <p>Some cookies only exist for a short period of time, and are then automatically deleted by your device. Others last for longer &ndash; these are called 'persistent cookies' &ndash; and some exist for years unless manually deleted. These can be used to analyse multiple site visits over time, or customise the content that's displayed.</p>
+        <hr />
+        <h2>First and third party cookies</h2>
+        <p>Some cookies are set by the website or app you're visiting; these are called 'first party' cookies. Others may be set by a third party when you use a site or app &ndash; for example, by a tool built into the website, or by an advertising network that displays adverts on the site or in the app.
+        </p>
+        <hr />
+        <h2>The AA and cookies</h2>
+        <p>How we use cookies is outlined below. This applies to websites directly managed by the AA Group of companies, including BSM. Sometimes we work with partners who may use our brand look and feel on their web pages or apps. They'll have their own cookie policies and privacy notices, linked to from the web pages or apps they provide.</p>
+        <p><a href="https://ico.org.uk/for-the-public/online/cookies/">Read more about cookies</a> on the site of the UK Information Commissioner's Office (who regulated data usage).
+        </p>
+        <p>You can also <a href="/privacy-notice">read our privacy notice</a> and <a href="/help-support/contact-us">get in touch with us</a> about privacy, cookies or data protection.</p>
+        <hr />
+        <h2>The AA app</h2>
+        <p>Our app places cookies on your device, but there are less of them than the website. They're used to enable functionality, help us analyse how the app's being used, and for marketing purposes. The app also displays web pages from our website, or those of our partners, and these appear within the app. They drop cookies, as they would if visited through a normal browser.
+        </p>
+        <hr />
+        <h2>How we use cookies</h2>
+        <p>We use cookies to make sure you get the best experience from your visit. As well as enabling certain features to work better, cookies also let us collect feedback and information about how you’ve used the site &mdash; so we can keep improving it for you.  By visiting and using this site, you agree to our use of cookies and other similar technologies.
+        </p>
+        <p><b>The 4 main types of cookie we use on our site:</b></p>
+        <ol>
+        <li><b>Strictly necessary cookies</b>
+        <p>These cookies are essential &mdash; without them you might not be able to get the information or service you've asked for. They're needed for things like logging whether you see error messages &ndash; so we can make improvements and fix bugs &ndash; as well as allowing you to use shopping baskets (which remember your choices as you navigate our site) and make a purchase.</p>
+        <p>Technologies that we use (and that use cookies) to make sure the website functions correctly for you include, at the time of writing, Sitecore, Teamsite, Salescycle, BaazarVoice and Add This.</p></li>
+        <li><b>Personalisation and testing cookies</b>
+        <p>These cookies remember choices you've made to personalise the site, or are used by us to test site content and functionality with different groups of visitors. They may remember where you are in the site so you can get tailored information, or changes you've made to help you browse, such as increasing the text size. For instance, if you ask for services based on your location, we sometimes store a cookie &mdash; meaning that next time you visit, you won't have to tell us where you are again.</p>
+        <p>Technologies we use for personalisation or testing include Sitecore and Maxymiser.</p></li>
+        <li><b>Analytics and measurement cookies</b>
+        <p>We use several technologies to understand how visitors use our website or app. These help us to identify areas for improvement, and to collect and report on commercial data (like sales volumes). They include analytics tools that report numbers, and session capture tools that record videos of individual user sessions &ndash; following things like where you click on the page, place your cursor, and where you fill in forms. This data is kept secure and we only record what's typed into forms if really necessary. The rest of the time it's not visible in the recording.
+        </p>
+        <p>We may, for example, analyse website usage and identify a page where people struggle to know what to do next; we'd then use session capture to observe some individual site visitors and find out what the issue is.</p>
+        <p>Other reporting tools we use support our efforts to prevent fraud and the abuse of our services; these also employ cookies.</p>
+        <p>Tools we use for analytics and measurement include: Google Analytics, Cognesia, HotJar and Decibel Insight.</p>
+        </li>
+        <li><b>Targeting or advertising cookies</b>
+        <p>These cookies collect information about your browsing habits (including details of the websites you've visited), which we use to make sure you receive advertising relevant to you. We (or third parties and advertising networks on our behalf) may use them to show you ads we think you'll be interested in across the internet (including on other sites you visit), based on your interaction with our website, app and your browsing history.</p>
+        <p>This includes advertising that uses Online Behavioural Advertising (OBA). Third parties, such as advertising networks, work with websites and advertisers to deliver customised advertising based on the collection and use of your web browsing activity. This includes: pages visited, ads clicked, and products bought or researched. Ads that fall under this definition often have a blue triangle symbol in the top right-hand corner.</p>
+        <p>If, for example, you visit our website and show an interest in one of our products but don't buy it, we may re-target you with adverts about it on other websites &ndash; and in search results &ndash; for a number of days after your initial website visit. If you buy the product, or a set period of time has passed, the re-targeting advertising stops.</p>
+        <p>Tools and cookies we use for marketing and advertising include: Doubleclick, Google AdWords, Bing Adcentre, Facebook, Twitter, Amazon Advertising, and various display advertising providers.</p>
+        </li>
+        </ol>
+        <hr />
+        <h2>What about links to other websites and their cookies?</h2>
+        <p>We often link to other sites to give you extra information or services. Where these are provided by a third party, you may leave our website by clicking through to theirs. In this case, the cookies policy set out on the third party's website will also apply. As this won't be controlled by us, you should read their policy to find out what information is being collected and how it's used.</p>
+        <hr />
+        <h2>How to control cookies</h2>
+        <p>You can restrict, remove or block cookies through your browser settings at any time. For more information about how to do this, and about cookies in general, <a href="http://www.youronlinechoices.com/">visit Your Online Choices.eu</a>. You can also opt out of some advertising-related cookies at <a href="http://www.youronlinechoices.com/uk/your-ad-choices">Your Ad Choices</a>, the <a href="http://optout.networkadvertising.org/">NAI site</a> and at <a href=" https://support.google.com/ads/answer/2662922?hl=en-GB">Google</a>.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211224T155224Z
+  - Version: 5
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20180606T140225Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JefferiesC
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "72bf2932-345a-47be-a779-0985b858d486"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20180606T140225Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>What are cookies?</h2>
+        <p>Cookies are small files that hold information; they're placed or 'dropped' on your computer when you access websites or use apps on your device. The data contained in the cookie can be retrieved by the website or app that placed them there. They can also be accessed by websites or apps that have been authorised to use them by the site or app that first dropped them.</p>
+        <hr />
+        <h2>Cookie duration</h2>
+        <p>Some cookies only exist for a short period of time, and are then automatically deleted by your device. Others last for longer &ndash; these are called 'persistent cookies' &ndash; and some exist for years unless manually deleted. These can be used to analyse multiple site visits over time, or customise the content that's displayed.</p>
+        <hr />
+        <h2>First and third party cookies</h2>
+        <p>Some cookies are set by the website or app you're visiting; these are called 'first party' cookies. Others may be set by a third party when you use a site or app &ndash; for example, by a tool built into the website, or by an advertising network that displays adverts on the site or in the app.
+        </p>
+        <hr />
+        <h2>The AA and cookies</h2>
+        <p>How we use cookies is outlined below. This applies to websites directly managed by the AA Group of companies, including BSM. Sometimes we work with partners who may use our brand look and feel on their web pages or apps. They'll have their own cookie policies and privacy notices, linked to from the web pages or apps they provide.</p>
+        <p><a href="https://ico.org.uk/for-the-public/online/cookies/">Read more about cookies</a> on the site of the UK Information Commissioner's Office (who regulated data usage).
+        </p>
+        <p>You can also <a href="/privacy-notice">read our privacy notice</a> and <a href="/help-support/contact-us">get in touch with us</a> about privacy, cookies or data protection.</p>
+        <hr />
+        <h2>The AA app</h2>
+        <p>Our app places cookies on your device, but there are less of them than the website. They're used to enable functionality, help us analyse how the app's being used, and for marketing purposes. The app also displays web pages from our website, or those of our partners, and these appear within the app. They drop cookies, as they would if visited through a normal browser.
+        </p>
+        <hr />
+        <h2>How we use cookies</h2>
+        <p>We use cookies to make sure you get the best experience from your visit. As well as enabling certain features to work better, cookies also let us collect feedback and information about how you&rsquo;ve used the site &ndash; so we can keep improving it for you. By visiting and using this site, you agree to our use of cookies and other similar technologies.
+        </p>
+        <p><strong>The 4 main types of cookie we use on our site:</strong></p>
+        <ol>
+            <li><strong>Strictly necessary cookies</strong>
+            <p>These cookies are essential &ndash; without them you might not be able to get the information or service you've asked for. They're needed for things like logging whether you see error messages &ndash; so we can make improvements and fix bugs &ndash; as well as allowing you to use shopping baskets (which remember your choices as you navigate our site) and make a purchase.</p>
+            <p>Technologies that we use (and that use cookies) to make sure the website functions correctly for you include, at the time of writing, Sitecore, Teamsite, Salecycle, BaazarVoice and Add This.<br />
+            <br />
+            </p>
+            </li>
+            <li><strong>Personalisation and testing cookies</strong>
+            <p>These cookies remember choices you've made to personalise the site, or are used by us to test site content and functionality with different groups of visitors. They may remember where you are in the site so you can get tailored information, or changes you've made to help you browse, such as increasing the text size. For instance, if you ask for services based on your location, we sometimes store a cookie &ndash; meaning that next time you visit, you won't have to tell us where you are again.</p>
+            <p>Technologies we use for personalisation or testing include Sitecore and Maxymiser.</p>
+            </li>
+            <li><strong>Analytics and measurement cookies</strong>
+            <p>We use several technologies to understand how visitors use our website or app. These help us to identify areas for improvement, and to collect and report on commercial data (like sales volumes). They include analytics tools that report numbers, and session capture tools that record videos of individual user sessions &ndash; following things like where you click on the page, place your cursor, and where you fill in forms. This data is kept secure and we only record what's typed into forms if really necessary. The rest of the time it's not visible in the recording.
+            </p>
+            <p>We may, for example, analyse website usage and identify a page where people struggle to know what to do next; we'd then use session capture to observe some individual site visitors and find out what the issue is.</p>
+            <p>Other reporting tools we use support our efforts to prevent fraud and the abuse of our services; these also employ cookies.</p>
+            <p>Tools we use for analytics and measurement include: Google Analytics, Cognesia, HotJar and Decibel Insight.<br />
+            <br />
+            </p>
+            </li>
+            <li><strong>Targeting or advertising cookies</strong>
+            <p>These cookies collect information about your browsing habits (including details of the websites you've visited), which we use to make sure you receive advertising relevant to you. We (or third parties and advertising networks on our behalf) may use them to show you ads we think you'll be interested in across the internet (including on other sites you visit), based on your interaction with our website, app and your browsing history.</p>
+            <p>This includes advertising that uses Online Behavioural Advertising (OBA). Third parties, such as advertising networks, work with websites and advertisers to deliver customised advertising based on the collection and use of your web browsing activity. This includes: pages visited, ads clicked, and products bought or researched. Ads that fall under this definition often have a blue triangle symbol in the top right-hand corner.</p>
+            <p>If, for example, you visit our website and show an interest in one of our products but don't buy it, we may re-target you with adverts about it on other websites &ndash; and in search results &ndash; for a number of days after your initial website visit. If you buy the product, or a set period of time has passed, the re-targeting advertising stops.</p>
+            <p>Tools and cookies we use for marketing and advertising include: Doubleclick, Google AdWords, Bing Adcentre, Facebook, Twitter, Amazon Advertising, and various display advertising providers.</p>
+            </li>
+        </ol>
+        <hr />
+        <h2>What about links to other websites and their cookies?</h2>
+        <p>We often link to other sites to give you extra information or services. Where these are provided by a third party, you may leave our website by clicking through to theirs. In this case, the cookies policy set out on the third party's website will also apply. As this won't be controlled by us, you should read their policy to find out what information is being collected and how it's used.</p>
+        <hr />
+        <h2>How to control cookies</h2>
+        <p>You can restrict, remove or block cookies through your browser settings at any time. For more information about how to do this, and about cookies in general, <a href="http://www.youronlinechoices.com/">visit Your Online Choices.eu</a>. You can also opt out of some advertising-related cookies at <a href="http://www.youronlinechoices.com/uk/your-ad-choices">Your Ad Choices</a>, the <a href="http://optout.networkadvertising.org/">NAI site</a> and at <a href=" https://support.google.com/ads/answer/2662922?hl=en-GB">Google</a>.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211224T155224Z
+  - Version: 6
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181206T142527Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JefferiesC
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dba2b568-de7e-4160-a968-58cfbf6b01d2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20181206T142527Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>What are cookies?</h2>
+        <p>Cookies are small files that hold information; they're placed or 'dropped' on your computer when you access websites or use apps on your device. The data contained in the cookie can be retrieved by the website or app that placed them there. They can also be accessed by websites or apps that have been authorised to use them by the site or app that first dropped them.</p>
+        <hr />
+        <h2>Cookie duration</h2>
+        <p>Some cookies only exist for a short period of time and are then automatically deleted by your device. Others last for longer &ndash; these are called 'persistent cookies' &ndash; and some exist for years unless manually deleted. These can be used to analyse multiple site visits over time or customise the content that's displayed.</p>
+        <hr />
+        <h2>First and third-party cookies</h2>
+        <p>Some cookies are set by the website or app you're visiting; these are called 'first party' cookies. Others may be set by a third party when you use a site or app &ndash; for example, by a tool built into the website, or by an advertising network that displays adverts on the site or in the app.
+        </p>
+        <hr />
+        <h2>The AA and cookies</h2>
+        <p>How we use cookies is outlined below. This applies to websites directly managed by the AA Group of companies, including BSM. Sometimes we work with partners who may use our brand look and feel on their web pages or apps. They'll have their own cookie policies and privacy notices, linked to from the web pages or apps they provide.</p>
+        <p><a href="https://ico.org.uk/for-the-public/online/cookies/">Read more about cookies</a> on the site of the UK Information Commissioner's Office (who regulated data usage).
+        </p>
+        <p>You can also <a href="/privacy-notice">read our privacy notice</a> and <a href="/help-support/contact-us">get in touch with us</a> about privacy, cookies or data protection.</p>
+        <hr />
+        <h2>The AA app</h2>
+        <p>Our app places cookies on your device, but there are less of them than the website. They're used to enable functionality, help us analyse how the app's being used, and for marketing purposes. The app also displays web pages from our website, or those of our partners, and these appear within the app. They drop cookies, as they would if visited through a normal browser.
+        </p>
+        <hr />
+        <h2>How we use cookies</h2>
+        <p>We use cookies to make sure you get the best experience from your visit. As well as enabling certain features to work better, cookies also let us collect feedback and information about how you&rsquo;ve used the site &ndash; so we can keep improving it for you. By visiting and using this site, you agree to our use of cookies and other similar technologies.
+        </p>
+        <p><strong>The 4 main types of cookie we use on our site:</strong></p>
+        <ol>
+            <li><strong>Strictly necessary cookies</strong>
+            <p>These cookies are essential &ndash; without them you might not be able to get the information or service you've asked for. They're needed for things like logging whether you see error messages &ndash; so we can make improvements and fix bugs &ndash; as well as allowing you to use shopping baskets (which remember your choices as you navigate our site) and make a purchase.</p>
+            <p>Technologies that we use (and that use cookies) to make sure the website functions correctly for you include, at the time of writing, Sitecore, Teamsite, Salecycle, BaazarVoice and Add This.<br />
+            <br />
+            </p>
+            </li>
+            <li><strong>Personalisation and testing cookies</strong>
+            <p>These cookies remember choices you've made to personalise the site, or are used by us to test site content and functionality with different groups of visitors. They may remember where you are in the site so you can get tailored information, or changes you've made to help you browse, such as increasing the text size. For instance, if you ask for services based on your location, we sometimes store a cookie &ndash; meaning that next time you visit, you won't have to tell us where you are again.</p>
+            <p>Technologies we use for personalisation or testing include Sitecore and Maxymiser.</p>
+            </li>
+            <li><strong>Analytics and measurement cookies</strong>
+            <p>We use several technologies to understand how visitors use our website or app. These help us to identify areas for improvement, and to collect and report on commercial data (like sales volumes). They include analytics tools that report numbers, and session capture tools that record videos of individual user sessions &ndash; following things like where you click on the page, place your cursor, and where you fill in forms. This data is kept secure and we only record what's typed into forms if really necessary. The rest of the time it's not visible in the recording.
+            </p>
+            <p>We may, for example, analyse website usage and identify a page where people struggle to know what to do next; we'd then use session capture to observe some individual site visitors and find out what the issue is.</p>
+            <p>Other reporting tools we use support our efforts to prevent fraud and the abuse of our services; these also employ cookies.</p>
+            <p>Tools we use for analytics and measurement include: Google Analytics, Cognesia, HotJar and Decibel Insight.<br />
+            <br />
+            </p>
+            </li>
+            <li><strong>Targeting or advertising cookies</strong>
+            <p>These cookies collect information about your browsing and search habits (including details of the websites you've visited or searches you make online), which we use to make sure you receive advertising relevant to you. We (or third parties and advertising networks on our behalf) may use them to show you ads we think you'll be interested in across the internet (including on other sites you visit), based on your interaction with our website, app and your browsing history.</p>
+            <p>This includes advertising that uses Online Behavioural Advertising (OBA). Third parties, such as advertising networks, work with websites and advertisers to deliver customised advertising based on the collection and use of your web browsing activity. This includes: pages visited, ads clicked, searches made (for example, in our route planner), and products bought or researched. Ads that fall under this definition often have a blue triangle symbol in the top right-hand corner.</p>
+            <p>If, for example, you visit our website and show an interest in one of our products but don't buy it, we may re-target you with adverts about it on other websites &ndash; and in search results &ndash; for a number of days after your initial website visit. If you buy the product, or a set period of time has passed, the re-targeting advertising stops.</p>
+            <p>
+            When you visit our website, your on-site behaviour may be used by third
+            parties to target you with adverts they think are relevant to you. This
+            information is only collected where you&rsquo;ve provided your consent through
+            our Consent Management Platform (CMP). You&rsquo;ll be asked &ndash; through a pop-up &ndash;
+            whether you accept third party cookies when visiting our site. Your consent
+            is valid for 30 days and can be changed at any time by going to &lsquo;Privacy
+            Settings&rsquo; on any page where third party advertising appears.
+            </p>
+            <p>
+            Managing cookie preferences won&rsquo;t block ads that are displayed on our
+            website. It&rsquo;ll simply stop you receiving advertising that&rsquo;s tailored to
+            your interests on the web browser you&rsquo;re using.
+            </p>
+            <p>Tools and cookies we use for marketing and advertising include: Doubleclick, Google Adsense, Facebook, Twitter, Amazon Advertising, Captify and various display advertising providers, networks and exchanges.</p>
+            </li>
+        </ol>
+        <hr />
+        <h2>What about links to other websites and their cookies?</h2>
+        <p>We often link to other sites to give you extra information or services. Where these are provided by a third party, you may leave our website by clicking through to theirs. In this case, the cookies policy set out on the third party's website will also apply. As this won't be controlled by us, you should read their policy to find out what information is being collected and how it's used.</p>
+        <hr />
+        <h2>How to control cookies</h2>
+        <p>You can restrict, remove or block cookies through your browser settings at any time. For more information about how to do this, and about cookies in general, <a href="http://www.youronlinechoices.com/">visit Your Online Choices.eu</a>. You can also opt out of some advertising-related cookies at <a href="http://www.youronlinechoices.com/uk/your-ad-choices">Your Ad Choices</a>, the <a href="http://optout.networkadvertising.org/">NAI site</a> and at <a href=" https://support.google.com/ads/answer/2662922?hl=en-GB">Google</a>.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211224T155224Z
+  - Version: 7
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200701T135729Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\THOMASZ
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "35318a38-44b1-4581-975a-6cc9ab7d8782"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200701T135729Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2 class="alt">What are cookies?</h2>
+        <p>Cookies and similar technologies (referred to here as &lsquo;cookies&rsquo;) are small files that hold information. The information can be about you, your device and your interaction with web pages and apps. They're placed or 'dropped' on your device when you access websites or use apps on your device. The website or app that placed them there can then retrieve the data they contain. The website or app that first dropped the cookies can also authorise other websites and apps to use them.</p>
+        <hr />
+        <br />
+        <h2 class="alt">Cookie duration</h2>
+        <p>Some cookies only exist for a short period of time and are then automatically deleted by your device. Others last for longer. These are called 'persistent cookies', and some exist for years unless manually deleted. These can be used to analyse many site visits over time or customise the content that's displayed.</p>
+        <hr />
+        <br />
+        <h2 class="alt">First and third-party cookies</h2>
+        <p>Some cookies are set by the website or app you're visiting. These are called 'first party' cookies. Others may be set by a third party when you use a website or app. For example, they could be set by a tool built into the website, or by an advertising network that displays adverts on the site or in the app.</p>
+        <hr />
+        <br />
+        <h2 class="alt">The AA and cookies</h2>
+        <p>On this page, we explain how we use cookies. This applies to websites directly managed by the AA Group of companies, including BSM. Sometimes we work with partners who may use our brand look and feel on their web pages or apps. They'll have their own cookie policies and privacy notices, linked to on the web pages or apps they provide.</p>
+        <p><a href="https://ico.org.uk/for-the-public/online/cookies/">Read more about cookies</a> on the site of the UK Information Commissioner's Office (who regulate data usage).
+        </p>
+        <p>You can also <a href="/privacy-notice">read our privacy notice</a> and <a></a><a href="~/link.aspx?_id=81D8F19FF92341A4B4D6705CE6ACA1DB&amp;_z=z">get in touch with us</a> about privacy, cookies or data protection.</p>
+        <a id="cookie-preferences"></a>
+        <hr />
+        <br />
+        <h2 class="alt">How to control cookies</h2>
+        <p>If you wish, you can change your cookie settings at any time by managing your cookie preferences.</p>
+        <p style="text-align: center;">
+        <span id="teconsent" class="button secondary ra"></span>
+        </p>
+        <p>It&rsquo;s important to us to tell you about how we use cookies and how you can control them. We're working to update the options we give you, so you'll have more control over which cookies to accept on your device. It's a big project which we'll introduce across our websites over time.</p>
+        <p>Today, you can restrict, remove or block cookies for some areas of our websites using our consent management platform (CMP). It&rsquo;s provided by a third party called TrustArc. Your cookie consent settings will last for 13 months. After that, we&rsquo;ll ask you to confirm your cookie preferences again through the CMP.</p>
+        <p>If you&rsquo;re using Routeplanner and Traffic News, you&rsquo;ll see a different CMP from a third party called Quantcast. Over time, we&rsquo;ll  replace this with TrustArc to make it easier for you to control cookies.</p>
+        <p>You can also use your browser settings to manage cookies. They let you restrict, remove or block tracking technologies - including cookies - at any time, for any website. For more information about how to do this, and about cookies in general, <a href="http://www.youronlinechoices.com/">visit Your Online Choices</a>. You can also opt out of some advertising-related cookies at <a href="http://www.youronlinechoices.com/uk/your-ad-choices">Your Ad Choices</a>, the <a href="http://optout.networkadvertising.org/">Network Advertising Initiative</a> and at <a href=" https://support.google.com/ads/answer/2662922?hl=en-GB">Google</a>.</p>
+        <hr />
+        <br />
+        <h2 class="alt">The AA app</h2>
+        <p>Our app also places cookies on your device. They're used to help the app work, help us see how you&rsquo;re using the app, and for marketing purposes. You might also see web pages from our website, or those of our partners, appear within the app. They drop cookies, like they would if you visited through a normal browser.</p>
+        <hr />
+        <br />
+        <h2 class="alt">How we use cookies</h2>
+        <p>We use cookies to make sure you get the best experience from your visit. They also help certain features to work better. Cookies also let us collect feedback and information about how you&rsquo;ve used the site &ndash; so we can keep improving it for you.</p>
+        <p><strong>The 3 types of cookie we use on our site:</strong></p>
+        <ol>
+            <li><strong>Required Cookies</strong>
+            <p>These cookies are needed to help the site work. For example, to let you log in or buy online. Without them you might not be able to get the information or service you've asked for. We also need them for things like recording when you see an error message. That lets us make improvements and fix bugs.</p>
+            <p>You can view the required cookies we use at any time on your <a href="#cookie-preferences">Cookie Preferences</a>.</p>
+            </li>
+            <br />
+            <li><strong>Functional cookies</strong>
+            <p>We use these to see how you use the site so we can make our site better. We may also use them to give you a better experience, like remembering your login details. They help us to find areas we can improve and to collect and report on commercial data (like sales volumes). They include analytics tools that report numbers.</p>
+            <p>They also include tools that record videos of individual visits, showing things like where you click on the page, place your cursor, and where you fill in forms. This data is kept secure and we only record what's typed into forms if really necessary. The rest of the time it's not visible in the recording. We may, for example, look at how people use our website and spot a page where people don&rsquo;t know what to do next. We'd then use our recording tool to look at individual visitors and find out what the problem is.</p>
+            <p>Other reporting tools which use cookies are the ones we use to prevent fraud and the abuse of our services.</p>
+            <p>You can view the functional cookies we use or change your settings at any time by managing your <a href="#cookie-preferences">Cookie Preferences</a>.</p>
+            </li>
+            <br />
+            <li><strong>Advertising cookies</strong>
+            <p>We use these to share information with advertisers. We sometimes use them to understand your interests so we can show you personalised ads.</p>
+            <p>Some of these cookies collect information about your online habits, like which websites you visit or searches you make online. We then use this information to make sure you see adverts that are relevant to you. We (or third parties and advertising networks on our behalf) may use them to show you ads we think you'll be interested in. You might see these across the internet, including on other sites you visit. They&rsquo;re based on your interaction with our website and app, and your browsing history.</p>
+            <p>Some of these cookies are used for advertising that uses Online Behavioural Advertising (OBA). Third parties, like advertising networks, work with websites and advertisers to show you customised ads. They collect and use your web browsing activity. This includes: pages visited, ads clicked, searches made (for example, in our Routeplanner), and products bought or researched. These types of ads often have a blue triangle symbol in the top right-hand corner.  We only collect this information if you&rsquo;ve given us your consent through our CMP.</p>
+            <p>Managing cookie preferences won&rsquo;t block ads being shown on our website. It&rsquo;ll simply stop you seeing ads that are tailored to your interests on the browser you&rsquo;re using.</p>
+            <p>You can view the advertising cookies we use or change your settings at any time by managing your <a href="#cookie-preferences">Cookie Preferences</a>.</p>
+            </li>
+        </ol>
+        <hr />
+        <br />
+        <h2 class="alt">What about links to other websites and their cookies?</h2>
+        <p>We often link to other sites to give you extra information or services. Where a third party provides these, you may leave our website by clicking through to theirs. In this case, the cookie policy set out on the third party's website will also apply. We won&rsquo;t control this, so you should read their policy to find out what information they collect and how they use it.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211224T155328Z
+  - Version: 8
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220125T141739Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0ab5384d-6365-436a-b730-e6c4eca9fe0b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220125T141739Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>What are cookies?</h2>
+        <p>Cookies and similar technologies (referred to here as &lsquo;cookies&rsquo;) are small files that hold information. The information can be about you, your device and your interaction with web pages and apps. They're placed or 'dropped' on your device when you access websites or use apps on your device. The website or app that placed them there can then retrieve the data they contain. The website or app that first dropped the cookies can also authorise other websites and apps to use them.</p>
+        <hr />
+        <h2>Cookie duration</h2>
+        <p>Some cookies only exist for a short period of time and are then automatically deleted by your device. Others last for longer. These are called 'persistent cookies', and some exist for years unless manually deleted. These can be used to analyse many site visits over time or customise the content that's displayed.</p>
+        <hr />
+        <h2>First and third-party cookies</h2>
+        <p>Some cookies are set by the website or app you're visiting. These are called 'first party' cookies. Others may be set by a third party when you use a website or app. For example, they could be set by a tool built into the website, or by an advertising network that displays adverts on the site or in the app.</p>
+        <hr />
+        <h2>Our cookies</h2>
+        <p>On this page, we explain how we use cookies. This applies to websites directly managed by the AA Group of companies, including Beam. Sometimes we work with partners who may use our brand look and feel on their web pages or apps. They'll have their own cookie policies and privacy notices, linked to on the web pages or apps they provide.</p>
+        <p><a href="https://ico.org.uk/your-data-matters/online/cookies/ ">Read more about cookies</a> on the site of the UK Information Commissioner's Office (who regulate data usage).</p>
+        <p>You can also read our <a href="~/link.aspx?_id=0A48D2BC2C374ADCBED2C5A581B584BA&amp;_z=z">privacy notice</a>&nbsp;and <a href="~/link.aspx?_id=16DEB393474E4056A5CD2817884A9006&amp;_z=z">get in touch with us</a>&nbsp;about privacy, cookies or data protection.</p>
+        <hr />
+        <h2>How to control cookies</h2>
+        <p>If you wish, you can change your cookie settings at any time by managing your cookie preferences.</p>
+        <p><a id="cookie-preferences"></a>
+        <span id="teconsent" class="button secondary ra" consent="0,1,2" aria-label="Open Cookie Preferences Modal" role="complementary">
+        <script src="https://consent.trustarc.com/asset/notice.js/v/v1.7-940" async="async" crossorigin="" importance="high"></script>
+        <a role="link" id="icon-id07756077241096235" tabindex="0" lang="en" aria-label="Cookie Preferences" class="truste_cursor_pointer">Cookie Preferences</a></span></p>
+        <p>It&rsquo;s important to us to tell you about how we use cookies and how you can control them. We're working to update the options we give you, so you'll have more control over which cookies to accept on your device. It's a big project which we'll introduce across our websites over time.</p>
+        <p>Today, you can restrict, remove or block cookies for some areas of our websites using our consent management platform (CMP). It&rsquo;s provided by a third party called TrustArc. Your cookie consent settings will last for 13 months. After that, we&rsquo;ll ask you to confirm your cookie preferences again through the CMP.</p>
+        <p>You can also use your browser settings to manage cookies. They let you restrict, remove or block tracking technologies &ndash; including cookies &ndash; at any time, for any website. For more information about how to do this, and about cookies in general, <a href="http://www.youronlinechoices.com/">visit Your Online Choices</a>. You can also opt out of some advertising-related cookies at <a href="http://www.youronlinechoices.com/uk/your-ad-choices">Your Ad Choices</a>, the <a href="http://optout.networkadvertising.org/">Network Advertising Initiative</a> and at <a href="https://support.google.com/ads/answer/2662922?hl=en-GB">Google</a>.</p>
+        <hr />
+        <h2>How we use cookies</h2>
+        <p>We use cookies to make sure you get the best experience from your visit. They also help certain features to work better. Cookies also let us collect feedback and information about how you&rsquo;ve used the site &ndash; so we can keep improving it for you.</p>
+        <h3>The 3 types of cookie we use on our site:</h3>
+        <h4>1. Required Cookies</h4>
+        <p>These cookies are needed to help the site work. For example, to let you buy online. Without them you might not be able to get the information or service you've asked for. We also need them for things like recording when you see an error message. That lets us make improvements and fix bugs.</p>
+        <p>You can view the required cookies we use at any time on your <a href="#cookie-preferences">Cookie Preferences</a>.</p>
+        <h4>2. Functional cookies</h4>
+        <p>We use these to see how you use the site so we can make our site better. We may also use them to give you a better experience. They help us to find areas we can improve and to collect and report on commercial data. They include analytics tools that report numbers.</p>
+        <p>They also include tools that record videos of individual visits, showing things like where you click on the page, place your cursor, and where you fill in forms. This data is kept secure and we only record what's typed into forms if really necessary. The rest of the time it's not visible in the recording. We may, for example, look at how people use our website and spot a page where people don&rsquo;t know what to do next. We'd then use our recording tool to look at individual visitors and find out what the problem is.</p>
+        <p>Other reporting tools which use cookies are the ones we use to prevent fraud and the abuse of our services.</p>
+        <p>You can view the functional cookies we use or change your settings at any time by managing your <a href="#cookie-preferences">Cookie Preferences</a>.</p>
+        <h4>3. Advertising cookies</h4>
+        <p>We use these to share information with advertisers. We sometimes use them to understand your interests so we can show you personalised ads.</p>
+        <p>Some of these cookies collect information about your online habits, like which websites you visit or searches you make online. We then use this information to make sure you see adverts that are relevant to you. We (or third parties and advertising networks on our behalf) may use them to show you ads we think you'll be interested in. You might see these across the internet, including on other sites you visit. They&rsquo;re based on your interaction with our website, and your browsing history.</p>
+        <p>Some of these cookies are used for advertising that uses Online Behavioural Advertising (OBA). Third parties, like advertising networks, work with websites and advertisers to show you customised ads. They collect and use your web browsing activity, including: pages visited, ads clicked, searches made, and products bought or researched. These types of ads often have a blue triangle symbol in the top right-hand corner. We only collect this information if you&rsquo;ve given us your consent through our CMP.</p>
+        <p>Managing cookie preferences won&rsquo;t block ads being shown on our website. It&rsquo;ll simply stop you seeing ads that are tailored to your interests on the browser you&rsquo;re using.</p>
+        <p>You can view the advertising cookies we use or change your settings at any time by managing your <a href="#cookie-preferences">Cookie Preferences</a>.</p>
+        <hr />
+        <h2>What about links to other websites and their cookies?</h2>
+        <p>We often link to other sites to give you extra information or services. Where a third party provides these, you may leave our website by clicking through to theirs. In this case, the cookie policy set out on the third party's website will also apply. We won&rsquo;t control this, so you should read their policy to find out what information they collect and how they use it. </p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220125T145332Z
+  - Version: 9
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220125T155742Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5dd0fee8-8974-4836-9866-572c59dd9f2d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220125T155742Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>What are cookies?</h2>
+        <p>Cookies and similar technologies (referred to here as &lsquo;cookies&rsquo;) are small files that hold information. The information can be about you, your device and your interaction with web pages and apps. They're placed or 'dropped' on your device when you access websites or use apps on your device. The website or app that placed them there can then retrieve the data they contain. The website or app that first dropped the cookies can also authorise other websites and apps to use them.</p>
+        <hr />
+        <h2>Cookie duration</h2>
+        <p>Some cookies only exist for a short period of time and are then automatically deleted by your device. Others last for longer. These are called 'persistent cookies', and some exist for years unless manually deleted. These can be used to analyse many site visits over time or customise the content that's displayed.</p>
+        <hr />
+        <h2>First and third-party cookies</h2>
+        <p>Some cookies are set by the website or app you're visiting. These are called 'first party' cookies. Others may be set by a third party when you use a website or app. For example, they could be set by a tool built into the website, or by an advertising network that displays adverts on the site or in the app.</p>
+        <hr />
+        <h2>Our cookies</h2>
+        <p>On this page, we explain how we use cookies. This applies to websites directly managed by the AA Group of companies, including Beam. Sometimes we work with partners who may use our brand look and feel on their web pages or apps. They'll have their own cookie policies and privacy notices, linked to on the web pages or apps they provide.</p>
+        <p><a href="https://ico.org.uk/your-data-matters/online/cookies/ ">Read more about cookies</a> on the site of the UK Information Commissioner's Office (who regulate data usage).</p>
+        <p>You can also read our <a href="~/link.aspx?_id=0A48D2BC2C374ADCBED2C5A581B584BA&amp;_z=z">privacy notice</a>&nbsp;and <a href="~/link.aspx?_id=16DEB393474E4056A5CD2817884A9006&amp;_z=z">get in touch with us</a>&nbsp;about privacy, cookies or data protection.</p>
+        <hr />
+        <h2>How to control cookies</h2>
+        <p>If you wish, you can change your cookie settings at any time by managing your cookie preferences.</p>
+        <p><a id="cookie-preferences"></a>
+        <span id="teconsent" class="button secondary ra" consent="0,1,2" aria-label="Open Cookie Preferences Modal" role="complementary">
+        <script src="https://consent.trustarc.com/asset/notice.js/v/v1.7-940" async="async" crossorigin="" importance="high"></script>
+        <a role="link" id="icon-id07756077241096235" tabindex="0" lang="en" aria-label="Cookie Preferences" class="truste_cursor_pointer">Cookie Preferences</a></span></p>
+        <p>It&rsquo;s important to us to tell you about how we use cookies and how you can control them. We're working to update the options we give you, so you'll have more control over which cookies to accept on your device. It's a big project which we'll introduce across our websites over time.</p>
+        <p>Today, you can restrict, remove or block cookies for some areas of our websites using our consent management platform (CMP). It&rsquo;s provided by a third party called TrustArc. Your cookie consent settings will last for 13 months. After that, we&rsquo;ll ask you to confirm your cookie preferences again through the CMP.</p>
+        <p>You can also use your browser settings to manage cookies. They let you restrict, remove or block tracking technologies &ndash; including cookies &ndash; at any time, for any website. For more information about how to do this, and about cookies in general, <a href="http://www.youronlinechoices.com/">visit Your Online Choices</a>. You can also opt out of some advertising-related cookies at <a href="http://www.youronlinechoices.com/uk/your-ad-choices">Your Ad Choices</a>, the <a href="http://optout.networkadvertising.org/">Network Advertising Initiative</a> and at <a href="https://support.google.com/ads/answer/2662922?hl=en-GB">Google</a>.</p>
+        <hr />
+        <h2>How we use cookies</h2>
+        <p>We use cookies to make sure you get the best experience from your visit. They also help certain features to work better. Cookies also let us collect feedback and information about how you&rsquo;ve used the site &ndash; so we can keep improving it for you.</p>
+        <h3>The 3 types of cookie we use on our site:</h3>
+        <h4>1. Required Cookies</h4>
+        <p>These cookies are needed to help the site work. For example, to let you buy online. Without them you might not be able to get the information or service you've asked for. We also need them for things like recording when you see an error message. That lets us make improvements and fix bugs.</p>
+        <p>You can view the required cookies we use at any time on your <a href="#cookie-preferences">Cookie Preferences</a>.</p>
+        <h4>2. Functional cookies</h4>
+        <p>We use these to see how you use the site so we can make our site better. We may also use them to give you a better experience. They help us to find areas we can improve and to collect and report on commercial data. They include analytics tools that report numbers.</p>
+        <p>They also include tools that record videos of individual visits, showing things like where you click on the page, place your cursor, and where you fill in forms. This data is kept secure and we only record what's typed into forms if really necessary. The rest of the time it's not visible in the recording. We may, for example, look at how people use our website and spot a page where people don&rsquo;t know what to do next. We'd then use our recording tool to look at individual visitors and find out what the problem is.</p>
+        <p>Other reporting tools which use cookies are the ones we use to prevent fraud and the abuse of our services.</p>
+        <p>You can view the functional cookies we use or change your settings at any time by managing your <a href="#cookie-preferences">Cookie Preferences</a>.</p>
+        <h4>3. Advertising cookies</h4>
+        <p>We use these to share information with advertisers. We sometimes use them to understand your interests so we can show you personalised ads.</p>
+        <p>Some of these cookies collect information about your online habits, like which websites you visit or searches you make online. We then use this information to make sure you see adverts that are relevant to you. We (or third parties and advertising networks on our behalf) may use them to show you ads we think you'll be interested in. You might see these across the internet, including on other sites you visit. They&rsquo;re based on your interaction with our website, and your browsing history.</p>
+        <p>Some of these cookies are used for advertising that uses Online Behavioural Advertising (OBA). Third parties, like advertising networks, work with websites and advertisers to show you customised ads. They collect and use your web browsing activity, including: pages visited, ads clicked, searches made, and products bought or researched. These types of ads often have a blue triangle symbol in the top right-hand corner. We only collect this information if you&rsquo;ve given us your consent through our CMP.</p>
+        <p>Managing cookie preferences won&rsquo;t block ads being shown on our website. It&rsquo;ll simply stop you seeing ads that are tailored to your interests on the browser you&rsquo;re using.</p>
+        <p>You can view the advertising cookies we use or change your settings at any time by managing your <a href="#cookie-preferences">Cookie Preferences</a>.</p>
+        <hr />
+        <h2>What about links to other websites and their cookies?</h2>
+        <p>We often link to other sites to give you extra information or services. Where a third party provides these, you may leave our website by clicking through to theirs. In this case, the cookie policy set out on the third party's website will also apply. We won&rsquo;t control this, so you should read their policy to find out what information they collect and how they use it. </p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220125T155830Z
+  - Version: 10
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220225T165650Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b955138d-9b93-42f1-b270-c55084e6f8de"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\damireddye
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220225T165650Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2><span style="font-size: 32px;">What are cookies?</span></h2>
+        <p>Cookies and similar technologies (referred to here as &lsquo;cookies&rsquo;) are small files that hold information. The information can be about you, your device and your interaction with web pages and apps. They're placed or 'dropped' on your device when you access websites or use apps on your device. The website or app that placed them there can then retrieve the data they contain. The website or app that first dropped the cookies can also authorise other websites and apps to use them.</p>
+        <hr />
+        <h2><span style="font-size: 32px;">Cookie duration</span></h2>
+        <p>Some cookies only exist for a short period of time and are then automatically deleted by your device. Others last for longer. These are called 'persistent cookies', and some exist for years unless manually deleted. These can be used to analyse many site visits over time or customise the content that's displayed.</p>
+        <hr />
+        <h2><span style="font-size: 32px;">First and third-party cookies</span></h2>
+        <p>Some cookies are set by the website or app you're visiting. These are called 'first party' cookies. Others may be set by a third party when you use a website or app. For example, they could be set by a tool built into the website, or by an advertising network that displays adverts on the site or in the app.</p>
+        <hr />
+        <h2><span style="font-size: 32px;">Our cookies</span></h2>
+        <p>On this page, we explain how we use cookies. This applies to websites directly managed by the AA Group of companies, including Beam. Sometimes we work with partners who may use our brand look and feel on their web pages or apps. They'll have their own cookie policies and privacy notices, linked to on the web pages or apps they provide.</p>
+        <p><a href="https://ico.org.uk/your-data-matters/online/cookies/ ">Read more about cookies</a> on the site of the UK Information Commissioner's Office (who regulate data usage).</p>
+        <p>You can also read our <a href="/privacy-notice">privacy notice</a>&nbsp;and <a href="/contact-us">get in touch with us</a>&nbsp;about privacy, cookies or data protection.</p>
+        <hr />
+        <h2><span style="font-size: 32px;">How to control cookies</span></h2>
+        <p>If you wish, you can change your cookie settings at any time by managing your cookie preferences.</p>
+        <p><a id="cookie-preferences"></a>
+        <span id="teconsent" class="button secondary ra" consent="0,1,2" aria-label="Open Cookie Preferences Modal" role="complementary">
+        <script src="https://consent.trustarc.com/asset/notice.js/v/v1.7-940" async="async" crossorigin="" importance="high"></script>
+        <a role="link" id="icon-id07756077241096235" tabindex="0" lang="en" aria-label="Cookie Preferences" class="truste_cursor_pointer">Cookie Preferences</a></span></p>
+        <p>It&rsquo;s important to us to tell you about how we use cookies and how you can control them. We're working to update the options we give you, so you'll have more control over which cookies to accept on your device. It's a big project which we'll introduce across our websites over time.</p>
+        <p>Today, you can restrict, remove or block cookies for some areas of our websites using our consent management platform (CMP). It&rsquo;s provided by a third party called TrustArc. Your cookie consent settings will last for 13 months. After that, we&rsquo;ll ask you to confirm your cookie preferences again through the CMP.</p>
+        <p>You can also use your browser settings to manage cookies. They let you restrict, remove or block tracking technologies &ndash; including cookies &ndash; at any time, for any website. For more information about how to do this, and about cookies in general, <a href="http://www.youronlinechoices.com/">visit Your Online Choices</a>. You can also opt out of some advertising-related cookies at <a href="http://www.youronlinechoices.com/uk/your-ad-choices">Your Ad Choices</a>, the <a href="http://optout.networkadvertising.org/">Network Advertising Initiative</a> and at <a href="https://support.google.com/ads/answer/2662922?hl=en-GB">Google</a>.</p>
+        <hr />
+        <h2><span style="font-size: 32px;">How we use cookies</span></h2>
+        <p>We use cookies to make sure you get the best experience from your visit. They also help certain features to work better. Cookies also let us collect feedback and information about how you&rsquo;ve used the site &ndash; so we can keep improving it for you.</p>
+        <h3><strong><span style="font-size: 24px;">The 3 types of cookie we use on our site:</span></strong></h3>
+        <h4><span style="font-size: 18px;">1. Required Cookies</span></h4>
+        <p>These cookies are needed to help the site work. For example, to let you buy online. Without them you might not be able to get the information or service you've asked for. We also need them for things like recording when you see an error message. That lets us make improvements and fix bugs.</p>
+        <p>You can view the required cookies we use at any time on your <a href="#cookie-preferences">Cookie Preferences</a>.</p>
+        <h4><span style="font-size: 18px;">2. Functional cookies</span></h4>
+        <p>We use these to see how you use the site so we can make our site better. We may also use them to give you a better experience. They help us to find areas we can improve and to collect and report on commercial data. They include analytics tools that report numbers.</p>
+        <p>They also include tools that record videos of individual visits, showing things like where you click on the page, place your cursor, and where you fill in forms. This data is kept secure and we only record what's typed into forms if really necessary. The rest of the time it's not visible in the recording. We may, for example, look at how people use our website and spot a page where people don&rsquo;t know what to do next. We'd then use our recording tool to look at individual visitors and find out what the problem is.</p>
+        <p>Other reporting tools which use cookies are the ones we use to prevent fraud and the abuse of our services.</p>
+        <p>You can view the functional cookies we use or change your settings at any time by managing your <a href="#cookie-preferences">Cookie Preferences</a>.</p>
+        <h4><span style="font-size: 18px;">3. Advertising cookies</span></h4>
+        <p>We use these to share information with advertisers. We sometimes use them to understand your interests so we can show you personalised ads.</p>
+        <p>Some of these cookies collect information about your online habits, like which websites you visit or searches you make online. We then use this information to make sure you see adverts that are relevant to you. We (or third parties and advertising networks on our behalf) may use them to show you ads we think you'll be interested in. You might see these across the internet, including on other sites you visit. They&rsquo;re based on your interaction with our website, and your browsing history.</p>
+        <p>Some of these cookies are used for advertising that uses Online Behavioural Advertising (OBA). Third parties, like advertising networks, work with websites and advertisers to show you customised ads. They collect and use your web browsing activity, including: pages visited, ads clicked, searches made, and products bought or researched. These types of ads often have a blue triangle symbol in the top right-hand corner. We only collect this information if you&rsquo;ve given us your consent through our CMP.</p>
+        <p>Managing cookie preferences won&rsquo;t block ads being shown on our website. It&rsquo;ll simply stop you seeing ads that are tailored to your interests on the browser you&rsquo;re using.</p>
+        <p>You can view the advertising cookies we use or change your settings at any time by managing your <a href="#cookie-preferences">Cookie Preferences</a>.</p>
+        <hr />
+        <h2><span style="font-size: 32px;">What about links to other websites and their cookies?</span></h2>
+        <p>We often link to other sites to give you extra information or services. Where a third party provides these, you may leave our website by clicking through to theirs. In this case, the cookie policy set out on the third party's website will also apply. We won&rsquo;t control this, so you should read their policy to find out what information they collect and how they use it. </p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220228T122845Z
+  - Version: 11
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220310T130650Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5268fe46-36b3-4f8b-9602-d88a4386cb3f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220310T130650Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2><span style="font-size: 32px;">What are cookies?</span></h2>
+        <p>Cookies and similar technologies (referred to here as &lsquo;cookies&rsquo;) are small files that hold information. The information can be about you, your device and your interaction with web pages and apps. They're placed or 'dropped' on your device when you access websites or use apps on your device. The website or app that placed them there can then retrieve the data they contain. The website or app that first dropped the cookies can also authorise other websites and apps to use them.</p>
+        <hr />
+        <h2><span style="font-size: 32px;">Cookie duration</span></h2>
+        <p>Some cookies only exist for a short period of time and are then automatically deleted by your device. Others last for longer. These are called 'persistent cookies', and some exist for years unless manually deleted. These can be used to analyse many site visits over time or customise the content that's displayed.</p>
+        <hr />
+        <h2><span style="font-size: 32px;">First and third-party cookies</span></h2>
+        <p>Some cookies are set by the website or app you're visiting. These are called 'first party' cookies. Others may be set by a third party when you use a website or app. For example, they could be set by a tool built into the website, or by an advertising network that displays adverts on the site or in the app.</p>
+        <hr />
+        <h2><span style="font-size: 32px;">Our cookies</span></h2>
+        <p>On this page, we explain how we use cookies. This applies to websites directly managed by the AA Group of companies, including BEAM, as part of Automobile Association Insurance Services Limited. Sometimes we work with partners who may use our brand look and feel on their web pages or apps. They'll have their own cookie policies and privacy notices, linked to on the web pages or apps they provide.</p>
+        <p><a href="https://ico.org.uk/your-data-matters/online/cookies/ ">Read more about cookies</a> on the site of the UK Information Commissioner's Office (who regulate data usage).</p>
+        <p>You can also read our <a href="/privacy-notice">privacy notice</a>&nbsp;and <a href="/contact-us">get in touch with us</a>&nbsp;about privacy, cookies or data protection.</p>
+        <hr />
+        <h2><span style="font-size: 32px;">How to control cookies</span></h2>
+        <p>If you wish, you can change your cookie settings at any time by managing your cookie preferences.</p>
+        <p><a id="cookie-preferences"></a>
+        <span id="teconsent" class="button secondary ra" consent="0,1,2" aria-label="Open Cookie Preferences Modal" role="complementary">
+        <script src="https://consent.trustarc.com/asset/notice.js/v/v1.7-940" async="async" crossorigin="" importance="high"></script>
+        <a role="link" id="icon-id07756077241096235" tabindex="0" lang="en" aria-label="Cookie Preferences" class="truste_cursor_pointer">Cookie Preferences</a></span></p>
+        <p>It&rsquo;s important to us to tell you about how we use cookies and how you can control them. We're working to update the options we give you, so you'll have more control over which cookies to accept on your device. It's a big project which we'll introduce across our websites over time.</p>
+        <p>Today, you can restrict, remove or block cookies for some areas of our websites using our consent management platform (CMP). It&rsquo;s provided by a third party called TrustArc. Your cookie consent settings will last for 13 months. After that, we&rsquo;ll ask you to confirm your cookie preferences again through the CMP.</p>
+        <p>You can also use your browser settings to manage cookies. They let you restrict, remove or block tracking technologies &ndash; including cookies &ndash; at any time, for any website. For more information about how to do this, and about cookies in general, <a href="http://www.youronlinechoices.com/">visit Your Online Choices</a>. You can also opt out of some advertising-related cookies at <a href="http://www.youronlinechoices.com/uk/your-ad-choices">Your Ad Choices</a>, the <a href="http://optout.networkadvertising.org/">Network Advertising Initiative</a> and at <a href="https://support.google.com/ads/answer/2662922?hl=en-GB">Google</a>.</p>
+        <hr />
+        <h2><span style="font-size: 32px;">How we use cookies</span></h2>
+        <p>We use cookies to make sure you get the best experience from your visit. They also help certain features to work better. Cookies also let us collect feedback and information about how you&rsquo;ve used the site &ndash; so we can keep improving it for you.</p>
+        <h3><strong><span style="font-size: 24px;">The 3 types of cookie we use on our site:</span></strong></h3>
+        <h4><span style="font-size: 18px;">1. Required Cookies</span></h4>
+        <p>These cookies are needed to help the site work. For example, to let you buy online. Without them you might not be able to get the information or service you've asked for. We also need them for things like recording when you see an error message. That lets us make improvements and fix bugs.</p>
+        <p>You can view the required cookies we use at any time on your <a href="#cookie-preferences">Cookie Preferences</a>.</p>
+        <h4><span style="font-size: 18px;">2. Functional cookies</span></h4>
+        <p>We use these to see how you use the site so we can make our site better. We may also use them to give you a better experience. They help us to find areas we can improve and to collect and report on commercial data. They include analytics tools that report numbers.</p>
+        <p>They also include tools that record videos of individual visits, showing things like where you click on the page, place your cursor, and where you fill in forms. This data is kept secure and we only record what's typed into forms if really necessary. The rest of the time it's not visible in the recording. We may, for example, look at how people use our website and spot a page where people don&rsquo;t know what to do next. We'd then use our recording tool to look at individual visitors and find out what the problem is.</p>
+        <p>Other reporting tools which use cookies are the ones we use to prevent fraud and the abuse of our services.</p>
+        <p>You can view the functional cookies we use or change your settings at any time by managing your <a href="#cookie-preferences">Cookie Preferences</a>.</p>
+        <h4><span style="font-size: 18px;">3. Advertising cookies</span></h4>
+        <p>We use these to share information with advertisers. We sometimes use them to understand your interests so we can show you personalised ads.</p>
+        <p>Some of these cookies collect information about your online habits, like which websites you visit or searches you make online. We then use this information to make sure you see adverts that are relevant to you. We (or third parties and advertising networks on our behalf) may use them to show you ads we think you'll be interested in. You might see these across the internet, including on other sites you visit. They&rsquo;re based on your interaction with our website, and your browsing history.</p>
+        <p>Some of these cookies are used for advertising that uses Online Behavioural Advertising (OBA). Third parties, like advertising networks, work with websites and advertisers to show you customised ads. They collect and use your web browsing activity, including: pages visited, ads clicked, searches made, and products bought or researched. These types of ads often have a blue triangle symbol in the top right-hand corner. We only collect this information if you&rsquo;ve given us your consent through our CMP.</p>
+        <p>Managing cookie preferences won&rsquo;t block ads being shown on our website. It&rsquo;ll simply stop you seeing ads that are tailored to your interests on the browser you&rsquo;re using.</p>
+        <p>You can view the advertising cookies we use or change your settings at any time by managing your <a href="#cookie-preferences">Cookie Preferences</a>.</p>
+        <hr />
+        <h2><span style="font-size: 32px;">What about links to other websites and their cookies?</span></h2>
+        <p>We often link to other sites to give you extra information or services. Where a third party provides these, you may leave our website by clicking through to theirs. In this case, the cookie policy set out on the third party's website will also apply. We won&rsquo;t control this, so you should read their policy to find out what information they collect and how they use it. </p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220310T130811Z
+  - Version: 12
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220315T103658Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7607f5a3-aa83-4643-b240-40fbee3e8639"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220315T103658Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2><span style="font-size: 32px;">What are cookies?</span></h2>
+        <p>Cookies and similar technologies (referred to here as &lsquo;cookies&rsquo;) are small files that hold information. The information can be about you, your device and your interaction with web pages and apps. They're placed or 'dropped' on your device when you access websites or use apps on your device. The website or app that placed them there can then retrieve the data they contain. The website or app that first dropped the cookies can also authorise other websites and apps to use them.</p>
+        <hr />
+        <h2><span style="font-size: 32px;">Cookie duration</span></h2>
+        <p>Some cookies only exist for a short period of time and are then automatically deleted by your device. Others last for longer. These are called 'persistent cookies', and some exist for years unless manually deleted. These can be used to analyse many site visits over time or customise the content that's displayed.</p>
+        <hr />
+        <h2><span style="font-size: 32px;">First and third-party cookies</span></h2>
+        <p>Some cookies are set by the website or app you're visiting. These are called 'first party' cookies. Others may be set by a third party when you use a website or app. For example, they could be set by a tool built into the website, or by an advertising network that displays adverts on the site or in the app.</p>
+        <hr />
+        <h2><span style="font-size: 32px;">Our cookies</span></h2>
+        <p>On this page, we explain how we use cookies. This applies to websites directly managed by the AA Group of companies, including BEAM, as part of Automobile Association Insurance Services Limited. Sometimes we work with partners who may use our brand look and feel on their web pages or apps. They'll have their own cookie policies and privacy notices, linked to on the web pages or apps they provide.</p>
+        <p><a href="https://ico.org.uk/your-data-matters/online/cookies/ ">Read more about cookies</a> on the site of the UK Information Commissioner's Office (who regulate data usage).</p>
+        <p>You can also read our <a href="/privacy-notice">privacy notice</a>&nbsp;and <a href="/contact-us">get in touch with us</a>&nbsp;about privacy, cookies or data protection.</p>
+        <hr />
+        <h2><span style="font-size: 32px;">How to control cookies</span></h2>
+        <p>If you wish, you can change your cookie settings at any time by managing your cookie preferences.</p>
+        <p><a id="cookie-preferences"></a>
+        <span id="teconsent" class="button secondary ra" consent="0,1,2" aria-label="Open Cookie Preferences Modal" role="complementary">
+        <a href="#" onClick="utag.gdpr.showConsentPreferences()">Cookie Preferences</a></span></p>
+        <p>It&rsquo;s important to us to tell you about how we use cookies and how you can control them. We're working to update the options we give you, so you'll have more control over which cookies to accept on your device. It's a big project which we'll introduce across our websites over time.</p>
+        <p>Today, you can restrict, remove or block cookies for some areas of our websites using our consent management platform (CMP). It&rsquo;s provided by a third party called TrustArc. Your cookie consent settings will last for 13 months. After that, we&rsquo;ll ask you to confirm your cookie preferences again through the CMP.</p>
+        <p>You can also use your browser settings to manage cookies. They let you restrict, remove or block tracking technologies &ndash; including cookies &ndash; at any time, for any website. For more information about how to do this, and about cookies in general, <a href="http://www.youronlinechoices.com/">visit Your Online Choices</a>. You can also opt out of some advertising-related cookies at <a href="http://www.youronlinechoices.com/uk/your-ad-choices">Your Ad Choices</a>, the <a href="http://optout.networkadvertising.org/">Network Advertising Initiative</a> and at <a href="https://support.google.com/ads/answer/2662922?hl=en-GB">Google</a>.</p>
+        <hr />
+        <h2><span style="font-size: 32px;">How we use cookies</span></h2>
+        <p>We use cookies to make sure you get the best experience from your visit. They also help certain features to work better. Cookies also let us collect feedback and information about how you&rsquo;ve used the site &ndash; so we can keep improving it for you.</p>
+        <h3><strong><span style="font-size: 24px;">The 3 types of cookie we use on our site:</span></strong></h3>
+        <h4><span style="font-size: 18px;">1. Required Cookies</span></h4>
+        <p>These cookies are needed to help the site work. For example, to let you buy online. Without them you might not be able to get the information or service you've asked for. We also need them for things like recording when you see an error message. That lets us make improvements and fix bugs.</p>
+        <p>You can view the required cookies we use at any time on your <a href="#cookie-preferences">Cookie Preferences</a>.</p>
+        <h4><span style="font-size: 18px;">2. Functional cookies</span></h4>
+        <p>We use these to see how you use the site so we can make our site better. We may also use them to give you a better experience. They help us to find areas we can improve and to collect and report on commercial data. They include analytics tools that report numbers.</p>
+        <p>They also include tools that record videos of individual visits, showing things like where you click on the page, place your cursor, and where you fill in forms. This data is kept secure and we only record what's typed into forms if really necessary. The rest of the time it's not visible in the recording. We may, for example, look at how people use our website and spot a page where people don&rsquo;t know what to do next. We'd then use our recording tool to look at individual visitors and find out what the problem is.</p>
+        <p>Other reporting tools which use cookies are the ones we use to prevent fraud and the abuse of our services.</p>
+        <p>You can view the functional cookies we use or change your settings at any time by managing your <a href="#cookie-preferences">Cookie Preferences</a>.</p>
+        <h4><span style="font-size: 18px;">3. Advertising cookies</span></h4>
+        <p>We use these to share information with advertisers. We sometimes use them to understand your interests so we can show you personalised ads.</p>
+        <p>Some of these cookies collect information about your online habits, like which websites you visit or searches you make online. We then use this information to make sure you see adverts that are relevant to you. We (or third parties and advertising networks on our behalf) may use them to show you ads we think you'll be interested in. You might see these across the internet, including on other sites you visit. They&rsquo;re based on your interaction with our website, and your browsing history.</p>
+        <p>Some of these cookies are used for advertising that uses Online Behavioural Advertising (OBA). Third parties, like advertising networks, work with websites and advertisers to show you customised ads. They collect and use your web browsing activity, including: pages visited, ads clicked, searches made, and products bought or researched. These types of ads often have a blue triangle symbol in the top right-hand corner. We only collect this information if you&rsquo;ve given us your consent through our CMP.</p>
+        <p>Managing cookie preferences won&rsquo;t block ads being shown on our website. It&rsquo;ll simply stop you seeing ads that are tailored to your interests on the browser you&rsquo;re using.</p>
+        <p>You can view the advertising cookies we use or change your settings at any time by managing your <a href="#cookie-preferences">Cookie Preferences</a>.</p>
+        <hr />
+        <h2><span style="font-size: 32px;">What about links to other websites and their cookies?</span></h2>
+        <p>We often link to other sites to give you extra information or services. Where a third party provides these, you may leave our website by clicking through to theirs. In this case, the cookie policy set out on the third party's website will also apply. We won&rsquo;t control this, so you should read their policy to find out what information they collect and how they use it. </p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220315T113918Z
+  - Version: 13
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220316T103452Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "67f50c45-1e44-41ce-ab7e-b6b0c177997a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220316T103452Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2><span style="font-size: 32px;">What are cookies?</span></h2>
+        <p>Cookies and similar technologies (referred to here as &lsquo;cookies&rsquo;) are small files that hold information. The information can be about you, your device and your interaction with web pages and apps. They're placed or 'dropped' on your device when you access websites or use apps on your device. The website or app that placed them there can then retrieve the data they contain. The website or app that first dropped the cookies can also authorise other websites and apps to use them.</p>
+        <hr />
+        <h2><span style="font-size: 32px;">Cookie duration</span></h2>
+        <p>Some cookies only exist for a short period of time and are then automatically deleted by your device. Others last for longer. These are called 'persistent cookies', and some exist for years unless manually deleted. These can be used to analyse many site visits over time or customise the content that's displayed.</p>
+        <hr />
+        <h2><span style="font-size: 32px;">First and third-party cookies</span></h2>
+        <p>Some cookies are set by the website or app you're visiting. These are called 'first party' cookies. Others may be set by a third party when you use a website or app. For example, they could be set by a tool built into the website, or by an advertising network that displays adverts on the site or in the app.</p>
+        <hr />
+        <h2><span style="font-size: 32px;">Our cookies</span></h2>
+        <p>On this page, we explain how we use cookies. This applies to websites directly managed by the AA Group of companies, including BEAM, as part of Automobile Association Insurance Services Limited. Sometimes we work with partners who may use our brand look and feel on their web pages or apps. They'll have their own cookie policies and privacy notices, linked to on the web pages or apps they provide.</p>
+        <p><a href="https://ico.org.uk/your-data-matters/online/cookies/ ">Read more about cookies</a> on the site of the UK Information Commissioner's Office (who regulate data usage).</p>
+        <p>You can also read our <a href="/privacy-notice">privacy notice</a>&nbsp;and <a href="/contact-us">get in touch with us</a>&nbsp;about privacy, cookies or data protection.</p>
+        <hr />
+        <h2><span style="font-size: 32px;">How to control cookies</span></h2>
+        <p>If you wish, you can change your cookie settings at any time by managing your cookie preferences.</p>
+        <p><a id="cookie-preferences"></a>
+        <span id="teconsent" class="button secondary ra" consent="0,1,2" aria-label="Open Cookie Preferences Modal" role="complementary">
+        <a href="#" onClick="utag.gdpr.showConsentPreferences(); return false;">Cookie Preferences</a></span></p>
+        <p>It&rsquo;s important to us to tell you about how we use cookies and how you can control them. We're working to update the options we give you, so you'll have more control over which cookies to accept on your device. It's a big project which we'll introduce across our websites over time.</p>
+        <p>Today, you can restrict, remove or block cookies for some areas of our websites using our consent management platform (CMP). It&rsquo;s provided by a third party called TrustArc. Your cookie consent settings will last for 13 months. After that, we&rsquo;ll ask you to confirm your cookie preferences again through the CMP.</p>
+        <p>You can also use your browser settings to manage cookies. They let you restrict, remove or block tracking technologies &ndash; including cookies &ndash; at any time, for any website. For more information about how to do this, and about cookies in general, <a href="http://www.youronlinechoices.com/">visit Your Online Choices</a>. You can also opt out of some advertising-related cookies at <a href="http://www.youronlinechoices.com/uk/your-ad-choices">Your Ad Choices</a>, the <a href="http://optout.networkadvertising.org/">Network Advertising Initiative</a> and at <a href="https://support.google.com/ads/answer/2662922?hl=en-GB">Google</a>.</p>
+        <hr />
+        <h2><span style="font-size: 32px;">How we use cookies</span></h2>
+        <p>We use cookies to make sure you get the best experience from your visit. They also help certain features to work better. Cookies also let us collect feedback and information about how you&rsquo;ve used the site &ndash; so we can keep improving it for you.</p>
+        <h3><strong><span style="font-size: 24px;">The 3 types of cookie we use on our site:</span></strong></h3>
+        <h4><span style="font-size: 18px;">1. Required Cookies</span></h4>
+        <p>These cookies are needed to help the site work. For example, to let you buy online. Without them you might not be able to get the information or service you've asked for. We also need them for things like recording when you see an error message. That lets us make improvements and fix bugs.</p>
+        <p>You can view the required cookies we use at any time on your <a href="#cookie-preferences">Cookie Preferences</a>.</p>
+        <h4><span style="font-size: 18px;">2. Functional cookies</span></h4>
+        <p>We use these to see how you use the site so we can make our site better. We may also use them to give you a better experience. They help us to find areas we can improve and to collect and report on commercial data. They include analytics tools that report numbers.</p>
+        <p>They also include tools that record videos of individual visits, showing things like where you click on the page, place your cursor, and where you fill in forms. This data is kept secure and we only record what's typed into forms if really necessary. The rest of the time it's not visible in the recording. We may, for example, look at how people use our website and spot a page where people don&rsquo;t know what to do next. We'd then use our recording tool to look at individual visitors and find out what the problem is.</p>
+        <p>Other reporting tools which use cookies are the ones we use to prevent fraud and the abuse of our services.</p>
+        <p>You can view the functional cookies we use or change your settings at any time by managing your <a href="#cookie-preferences">Cookie Preferences</a>.</p>
+        <h4><span style="font-size: 18px;">3. Advertising cookies</span></h4>
+        <p>We use these to share information with advertisers. We sometimes use them to understand your interests so we can show you personalised ads.</p>
+        <p>Some of these cookies collect information about your online habits, like which websites you visit or searches you make online. We then use this information to make sure you see adverts that are relevant to you. We (or third parties and advertising networks on our behalf) may use them to show you ads we think you'll be interested in. You might see these across the internet, including on other sites you visit. They&rsquo;re based on your interaction with our website, and your browsing history.</p>
+        <p>Some of these cookies are used for advertising that uses Online Behavioural Advertising (OBA). Third parties, like advertising networks, work with websites and advertisers to show you customised ads. They collect and use your web browsing activity, including: pages visited, ads clicked, searches made, and products bought or researched. These types of ads often have a blue triangle symbol in the top right-hand corner. We only collect this information if you&rsquo;ve given us your consent through our CMP.</p>
+        <p>Managing cookie preferences won&rsquo;t block ads being shown on our website. It&rsquo;ll simply stop you seeing ads that are tailored to your interests on the browser you&rsquo;re using.</p>
+        <p>You can view the advertising cookies we use or change your settings at any time by managing your <a href="#cookie-preferences">Cookie Preferences</a>.</p>
+        <hr />
+        <h2><span style="font-size: 32px;">What about links to other websites and their cookies?</span></h2>
+        <p>We often link to other sites to give you extra information or services. Where a third party provides these, you may leave our website by clicking through to theirs. In this case, the cookie policy set out on the third party's website will also apply. We won&rsquo;t control this, so you should read their policy to find out what information they collect and how they use it. </p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220316T164207Z
+  - Version: 14
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220316T164941Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "268e3691-1b6c-448d-a1ad-23da81ce8e3d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\patils
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220316T164941Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>What are cookies?</h2>
+        <p>Cookies and similar technologies (referred to here as &lsquo;cookies&rsquo;) are small files that hold information. The information can be about you, your device and your interaction with web pages and apps. They're placed or 'dropped' on your device when you access websites or use apps on your device. The website or app that placed them there can then retrieve the data they contain. The website or app that first dropped the cookies can also authorise other websites and apps to use them.</p>
+        <hr />
+        <h2>Cookie duration</h2>
+        <p>Some cookies only exist for a short period of time and are then automatically deleted by your device. Others last for longer. These are called 'persistent cookies', and some exist for years unless manually deleted. These can be used to analyse many site visits over time or customise the content that's displayed.</p>
+        <hr />
+        <h2>First and third-party cookies</h2>
+        <p>Some cookies are set by the website or app you're visiting. These are called 'first party' cookies. Others may be set by a third party when you use a website or app. For example, they could be set by a tool built into the website, or by an advertising network that displays adverts on the site or in the app.</p>
+        <hr />
+        <h2>Our cookies</h2>
+        <p>On this page, we explain how we use cookies. This applies to websites directly managed by the AA Group of companies, including BEAM, as part of Automobile Association Insurance Services Limited. Sometimes we work with partners who may use our brand look and feel on their web pages or apps. They'll have their own cookie policies and privacy notices, linked to on the web pages or apps they provide.</p>
+        <p><a href="https://ico.org.uk/your-data-matters/online/cookies/ ">Read more about cookies</a> on the site of the UK Information Commissioner's Office (who regulate data usage).</p>
+        <p>You can also read our <a href="/privacy-notice">privacy notice</a>&nbsp;and <a href="/contact-us">get in touch with us</a>&nbsp;about privacy, cookies or data protection.</p>
+        <hr />
+        <h2>How to control cookies</h2>
+        <p>If you want, you can change your cookie settings at any time by managing your cookie preferences.</p>
+        <p><a id="cookie-preferences"></a>
+        <span id="teconsent" class="button secondary ra" consent="0,1,2" aria-label="Open Cookie Preferences Modal" role="complementary">
+        <a href="#" onclick="utag.gdpr.showConsentPreferences(); return false;">Cookie Preferences</a></span></p>
+        <p>It&rsquo;s important to us to tell you about how we use cookies and how you can control them. We're working to update the options we give you, so you'll have more control over which cookies to accept on your device. It's a big project which we'll introduce across our websites over time.</p>
+        <p>Today, you can restrict, remove or block cookies for some areas of our websites using our consent management platform (CMP). It&rsquo;s provided by a third party called TrustArc. Your cookie consent settings will last for 13 months. After that, we&rsquo;ll ask you to confirm your cookie preferences again through the CMP.</p>
+        <p>You can also use your browser settings to manage cookies. They let you restrict, remove or block tracking technologies &ndash; including cookies &ndash; at any time, for any website. For more information about how to do this, and about cookies in general, <a href="http://www.youronlinechoices.com/">visit Your Online Choices</a>. You can also opt out of some advertising-related cookies at <a href="http://www.youronlinechoices.com/uk/your-ad-choices">Your Ad Choices</a>, the <a href="http://optout.networkadvertising.org/">Network Advertising Initiative</a> and at <a href="https://support.google.com/ads/answer/2662922?hl=en-GB">Google</a>.</p>
+        <hr />
+        <h2>How we use cookies</h2>
+        <p>We use cookies to make sure you get the best experience from your visit. They also help certain features to work better. Cookies also let us collect feedback and information about how you&rsquo;ve used the site &ndash; so we can keep improving it for you.</p>
+        <h3>The 3 types of cookie we use on our site:</h3>
+        <h4>1. Required Cookies</h4>
+        <p>These cookies are needed to help the site work. For example, to let you buy online. Without them you might not be able to get the information or service you've asked for. We also need them for things like recording when you see an error message. That lets us make improvements and fix bugs.</p>
+        <p>You can view the required cookies we use at any time on your <a href="#cookie-preferences">Cookie Preferences</a>.</p>
+        <h4><span style="font-size: 18px;">2. Functional cookies</span></h4>
+        <p>We use these to see how you use the site so we can make our site better. We may also use them to give you a better experience. They help us to find areas we can improve and to collect and report on commercial data. They include analytics tools that report numbers.</p>
+        <p>They also include tools that record videos of individual visits, showing things like where you click on the page, place your cursor, and where you fill in forms. This data is kept secure and we only record what's typed into forms if really necessary. The rest of the time it's not visible in the recording. We may, for example, look at how people use our website and spot a page where people don&rsquo;t know what to do next. We'd then use our recording tool to look at individual visitors and find out what the problem is.</p>
+        <p>Other reporting tools which use cookies are the ones we use to prevent fraud and the abuse of our services.</p>
+        <p>You can view the functional cookies we use or change your settings at any time by managing your <a href="#cookie-preferences">Cookie Preferences</a>.</p>
+        <h4>3. Advertising cookies</h4>
+        <p>We use these to share information with advertisers. We sometimes use them to understand your interests so we can show you personalised ads.</p>
+        <p>Some of these cookies collect information about your online habits, like which websites you visit or searches you make online. We then use this information to make sure you see adverts that are relevant to you. We (or third parties and advertising networks on our behalf) may use them to show you ads we think you'll be interested in. You might see these across the internet, including on other sites you visit. They&rsquo;re based on your interaction with our website, and your browsing history.</p>
+        <p>Some of these cookies are used for advertising that uses Online Behavioural Advertising (OBA). Third parties, like advertising networks, work with websites and advertisers to show you customised ads. They collect and use your web browsing activity, including: pages visited, ads clicked, searches made, and products bought or researched. These types of ads often have a blue triangle symbol in the top right-hand corner. We only collect this information if you&rsquo;ve given us your consent through our CMP.</p>
+        <p>Managing cookie preferences won&rsquo;t block ads being shown on our website. It&rsquo;ll simply stop you seeing ads that are tailored to your interests on the browser you&rsquo;re using.</p>
+        <p>You can view the advertising cookies we use or change your settings at any time by managing your <a href="#cookie-preferences">Cookie Preferences</a>.</p>
+        <hr />
+        <h2>What about links to other websites and their cookies?</h2>
+        <p>We often link to other sites to give you extra information or services. Where a third party provides these, you may leave our website by clicking through to theirs. In this case, the cookie policy set out on the third party's website will also apply. We won&rsquo;t control this, so you should read their policy to find out what information they collect and how they use it. </p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220318T103319Z
+  - Version: 15
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230525T141257Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "95ea8c8d-e2c9-434e-af2c-778038f2470c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230525T141257Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>What are cookies?</h2>
+        <p>Cookies and similar technologies (referred to here as &lsquo;cookies&rsquo;) are small files that hold information. The information can be about you, your device and your interaction with web pages and apps. They're placed or 'dropped' on your device when you access websites or use apps on your device. The website or app that placed them there can then retrieve the data they contain. The website or app that first dropped the cookies can also authorise other websites and apps to use them.</p>
+        <hr />
+        <h2>Cookie duration</h2>
+        <p>Some cookies only exist for a short period of time and are then automatically deleted by your device. Others last for longer. These are called 'persistent cookies', and some exist for years unless manually deleted. These can be used to analyse many site visits over time or customise the content that's displayed.</p>
+        <hr />
+        <h2>First and third-party cookies</h2>
+        <p>Some cookies are set by the website or app you're visiting. These are called 'first party' cookies. Others may be set by a third party when you use a website or app. For example, they could be set by a tool built into the website, or by an advertising network that displays adverts on the site or in the app.</p>
+        <hr />
+        <h2>Our cookies</h2>
+        <p>On this page, we explain how we use cookies. This applies to websites directly managed by the AA Group of companies, including BEAM, as part of Automobile Association Insurance Services Limited. Sometimes we work with partners who may use our brand look and feel on their web pages or apps. They'll have their own cookie policies and privacy notices, linked to on the web pages or apps they provide.</p>
+        <p><a href="https://ico.org.uk/your-data-matters/online/cookies/ ">Read more about cookies</a> on the site of the UK Information Commissioner's Office (who regulate data usage).</p>
+        <p>You can also read our <a href="/privacy-notice">privacy notice</a>&nbsp;and <a href="/contact-us">get in touch with us</a>&nbsp;about privacy, cookies or data protection.</p>
+        <hr />
+        <h2>How to control cookies</h2>
+        <p>If you want, you can change your cookie settings at any time by managing your cookie preferences.</p>
+        <p><a id="cookie-preferences"></a>
+        <span id="teconsent" class="button secondary ra" consent="0,1,2" aria-label="Open Cookie Preferences Modal" role="complementary">
+        <a href="#" onclick="utag.gdpr.showConsentPreferences(); return false;">Cookie Preferences</a></span></p>
+        <p>It&rsquo;s important to us to tell you about how we use cookies and how you can control them. We're working to update the options we give you, so you'll have more control over which cookies to accept on your device. It's a big project which we'll introduce across our websites over time.</p>
+        <p>Today, you can restrict, remove or block cookies for some areas of our websites using our consent management platform (CMP). It&rsquo;s provided by a third party called TrustArc. Your cookie consent settings will last for 13 months. After that, we&rsquo;ll ask you to confirm your cookie preferences again through the CMP.</p>
+        <p>You can also use your browser settings to manage cookies. They let you restrict, remove or block tracking technologies &ndash; including cookies &ndash; at any time, for any website. For more information about how to do this, and about cookies in general, <a href="http://www.youronlinechoices.com/">visit Your Online Choices</a>. You can also opt out of some advertising-related cookies at <a href="http://www.youronlinechoices.com/uk/your-ad-choices">Your Ad Choices</a>, the <a href="http://optout.networkadvertising.org/">Network Advertising Initiative</a> and at <a href="https://support.google.com/ads/answer/2662922?hl=en-GB">Google</a>.</p>
+        <hr />
+        <h2>How we use cookies</h2>
+        <p>We use cookies to make sure you get the best experience from your visit. They also help certain features to work better. Cookies also let us collect feedback and information about how you&rsquo;ve used the site &ndash; so we can keep improving it for you.</p>
+        <h3>The 3 types of cookie we use on our site:</h3>
+        <h4>1. Required Cookies</h4>
+        <p>These cookies are needed to help the site work. For example, to let you buy online. Without them you might not be able to get the information or service you've asked for. We also need them for things like recording when you see an error message. That lets us make improvements and fix bugs.</p>
+        <p>You can view the required cookies we use at any time on your <a href="#cookie-preferences">Cookie Preferences</a>.</p>
+        <h4><span style="font-size: 18px;">2. Functional cookies</span></h4>
+        <p>We use these to see how you use the site so we can make our site better. We may also use them to give you a better experience. They help us to find areas we can improve and to collect and report on commercial data. They include analytics tools that report numbers.</p>
+        <p>They also include tools that record videos of individual visits, showing things like where you click on the page, place your cursor, and where you fill in forms. This data is kept secure and we only record what's typed into forms if really necessary. The rest of the time it's not visible in the recording. We may, for example, look at how people use our website and spot a page where people don&rsquo;t know what to do next. We'd then use our recording tool to look at individual visitors and find out what the problem is.</p>
+        <p>Other reporting tools which use cookies are the ones we use to prevent fraud and the abuse of our services.</p>
+        <p>You can view the functional cookies we use or change your settings at any time by managing your <a href="#cookie-preferences">Cookie Preferences</a>. We will only be able to collect anonymous analytical data if you do not consent.</p>
+        <h4>3. Advertising cookies</h4>
+        <p>We use these to share information with advertisers. We sometimes use them to understand your interests so we can show you personalised ads.</p>
+        <p>Some of these cookies collect information about your online habits, like which websites you visit or searches you make online. We then use this information to make sure you see adverts that are relevant to you. We (or third parties and advertising networks on our behalf) may use them to show you ads we think you'll be interested in. You might see these across the internet, including on other sites you visit. They&rsquo;re based on your interaction with our website, and your browsing history.</p>
+        <p>Some of these cookies are used for advertising that uses Online Behavioural Advertising (OBA). Third parties, like advertising networks, work with websites and advertisers to show you customised ads. They collect and use your web browsing activity, including: pages visited, ads clicked, searches made, and products bought or researched. These types of ads often have a blue triangle symbol in the top right-hand corner. We only collect this information if you&rsquo;ve given us your consent through our CMP.</p>
+        <p>Managing cookie preferences won&rsquo;t block ads being shown on our website. It&rsquo;ll simply stop you seeing ads that are tailored to your interests on the browser you&rsquo;re using.</p>
+        <p>You can view the advertising cookies we use or change your settings at any time by managing your <a href="#cookie-preferences">Cookie Preferences</a>.</p>
+        <hr />
+        <h2>What about links to other websites and their cookies?</h2>
+        <p>We often link to other sites to give you extra information or services. Where a third party provides these, you may leave our website by clicking through to theirs. In this case, the cookie policy set out on the third party's website will also apply. We won&rsquo;t control this, so you should read their policy to find out what information they collect and how they use it. </p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240213T103209Z

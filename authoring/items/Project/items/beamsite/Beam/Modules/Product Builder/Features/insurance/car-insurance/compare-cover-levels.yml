@@ -1,0 +1,36 @@
+﻿---
+ID: "28642a9a-f112-4a9d-bc3c-451d483e06e9"
+Parent: "13fca85b-8e2f-401e-b452-2ce23419cdce"
+Template: "c1dd28c1-896b-4cab-9703-e323f960263d"
+Path: "/sitecore/content/AA/Beam/Modules/Product Builder/Features/insurance/car-insurance/compare-cover-levels"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {A87A00B1-E6DB-45AB-8B54-636FEC3B5523}
+    {0A5C5947-73D8-447E-B2A1-717ABA2811AE}
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160707T130825Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jincaa
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0fa1f303-b44a-4bf8-8ffb-d6e5cedc7ac1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220126T164606Z

@@ -1,0 +1,137 @@
+﻿---
+ID: "17a2cdbd-433a-4da4-9a6e-8165e22adc3d"
+Parent: "ad31cd89-3849-4f83-8125-b9e194580de4"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: /sitecore/layout/Renderings/Feature/AA/Basic Content/Dual CTA
+SharedFields:
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/TheAA/Modules/DualCta
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+- ID: "56776edf-261c-4abc-9fe7-70c618795239"
+  Hint: __Help link
+  Value: |
+    <link linktype="external" url="https://theaacom.atlassian.net/l/cp/BQr1Cs1P" anchor="" target="_blank" />
+- ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
+  Hint: Parameters Template
+  Value: "{D24AB3CD-0963-4E09-9F30-E4FA905A7490}"
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "query:/sitecore/content/TheAA/Modules/Dual CTA"
+Languages:
+- Language: en
+  Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: This component can be used to show dual CTA with optional teritary link in a single component.
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: This component can be used to show dual CTA with optional teritary link in a single component.
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241126T063934Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7ef451a7-9c6d-442b-ad6d-9f6f1b348a75"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using System.Web;
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @using TheAA.Domain.Interfaces.Repositories;
+        @using TheAA.Domain.Interfaces.Utilities;
+        
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        
+        @if (Model == null)
+        {
+            return;
+        }
+        
+        @functions {
+            public string BuildUrl(string linkUrl, bool includeQueryString, string referrerPath, string urlReferrer)
+            {
+                if (string.IsNullOrEmpty(linkUrl))
+                {
+                    return linkUrl;
+                }
+        
+                string url = linkUrl;
+                var _urlUtility = CompositionRoot.Resolve<IUrlUtility>();
+                IUrlString urlString = _urlUtility.CreateUrlString(url);
+        
+                if (includeQueryString)
+                {
+                    var _provenance = CompositionRoot.Resolve<IProvenanceRepository>();
+                    url = _provenance.AddProvenanceToUrl(linkUrl);
+                    urlString = _urlUtility.CreateUrlString(url);
+                    _urlUtility.MergeCurrentQueryString(urlString);
+                }
+        
+                if (!string.IsNullOrEmpty(referrerPath) && !string.IsNullOrEmpty(urlReferrer))
+                {
+                    var _referrer = CompositionRoot.Resolve<IReferrer>();
+                    urlString.Append("AffinityID", _referrer.GetReferrerAffinityId(referrerPath, urlReferrer));
+                }
+        
+                return urlString.GetUrl();
+            }
+        }
+        
+        @{
+            var primaryLinkField = Model.GetField("PrimaryCallToAction");
+            var secondaryLinkField = Model.GetField("SecondaryCallToAction");
+            var tertiaryCallToActionLabel = Model.GetField("TertiaryCallToActionLabel");
+            var tertiaryCallToAction = Model.GetField("TertiaryCallToAction");
+            string userFeedbackFormTriggerCssClass = Model.GetField("ShowUserFeedbackForm").Checked ? " user-feedback-view" : "";
+            string primaryButtonStyle = Model.GetRenderingParameterLookup("PrimaryButtonStyle", "button primary ra");
+            string secondaryButtonStyle = Model.GetRenderingParameterLookup("SecondaryButtonStyle", "button secondary ra");
+            bool appendUrlParameters = Model.GetRenderingParameterLookup("AppendUrlParameter", "") != "No";
+            string referrerType = Model.GetRenderingParameterLookup("ReferrerType", "");
+            string primaryButtonStyleClass = primaryButtonStyle + " " + userFeedbackFormTriggerCssClass;
+            string secondaryButtonStyleClass = secondaryButtonStyle + " " + userFeedbackFormTriggerCssClass;
+            string urlReferrer = Model.GetUrlReferrer(new HttpRequestWrapper(HttpContext.Current.Request));
+        
+            <div class="cta centred dual-cta">
+                @if (Sitecore.Context.PageMode.IsExperienceEditorEditing)
+                {
+                    @primaryLinkField.RenderValue()
+                    @secondaryLinkField.RenderValue()
+                }
+                else
+                {
+                    <a href="@BuildUrl(primaryLinkField.LinkUrl,appendUrlParameters,referrerType,urlReferrer)" class="@primaryButtonStyleClass">
+                        @primaryLinkField.LinkText
+                    </a>
+                    <a href="@BuildUrl(secondaryLinkField.LinkUrl,appendUrlParameters, null, null)" class="@secondaryButtonStyleClass">
+                        @secondaryLinkField.LinkText
+                    </a>
+                }
+            </div>
+            if (tertiaryCallToActionLabel.HasValueToRender())
+            {
+                <p class="text-link centred">
+                    @tertiaryCallToActionLabel.RenderValue()
+                    <a href="@tertiaryCallToAction.LinkUrl" class="button text-button  @userFeedbackFormTriggerCssClass">
+                        @tertiaryCallToAction.LinkText
+                    </a>
+                </p>
+            }
+        }
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        theaa\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250116T004604Z

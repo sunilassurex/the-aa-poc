@@ -1,0 +1,83 @@
+﻿---
+ID: "3fae6cc1-d27b-4d27-b845-0a0ee756d778"
+Parent: "ee339064-341f-4936-a1ba-2fe909d5b651"
+Template: "b36ba9fd-0dc0-49c8-bea2-e55d70e6af28"
+Path: "/sitecore/content/AA/mobile-app/mobile-app/help/whatsapp-installed-details"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{4F57DBDC-C4BB-43AE-A615-7FEA56FFD513}">
+        <r
+          ds="{AD64CE43-D188-4C3F-A0F3-313B1E0B5F13}"
+          id="{33CCF56D-9575-4758-8CFE-6A0D57892AF1}"
+          par=""
+          ph="/mobileapp-main"
+          uid="{8A877FFB-36F9-491E-A591-D16FFA712DEF}" />
+        <r
+          ds="{FD4B59BD-8782-4720-A680-31057DEDA789}"
+          id="{04B38FE4-9672-466A-9DFF-25928F3085E0}"
+          par=""
+          ph="/mobileapp-main"
+          uid="{7A8ED70E-A855-4F8D-89EE-82F606A583A0}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240201T121717Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4bbcb299-5982-4e3b-9f3f-b507c677e8c4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250801T072211Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250311T110856Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "882eb1cd-2c04-4ccf-bb22-111d48067a22"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20250311T110856Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250801T072211Z

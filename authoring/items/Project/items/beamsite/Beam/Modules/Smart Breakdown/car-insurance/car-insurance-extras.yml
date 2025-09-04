@@ -1,0 +1,593 @@
+﻿---
+ID: "3ce86df7-3e07-4ca1-8b35-56660537048c"
+Parent: "777c9476-9c4a-4777-a75f-0a049fdea51b"
+Template: "3fccdfdf-8417-4741-98d2-a8c99cb1d91f"
+Path: "/sitecore/content/AA/Beam/Modules/Smart Breakdown/car-insurance/car-insurance-extras"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: Optional extras available with your cover
+    - ID: "250bc641-b691-43f7-aedd-b65846f93bb9"
+      Hint: Image
+      Value: <image mediaid=
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211220T100504Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ab6dc798-95bd-45be-85bd-5b6e96aa9de9"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220125T165822Z
+    - ID: "f81c6cd4-7c73-4ea5-b559-20a5c2f645bb"
+      Hint: BulletList
+      Value: |
+        <ul class="feature-list">
+            <li>
+            <p><strong>AA Breakdown: Roadside</strong></p>
+            </li>
+        </ul>
+        <p>Get 24/7 assistance if your vehicle breaks down over &frac14; mile from your home.</p>
+        <ul class="feature-list">
+            <li>
+            <p><strong>AA Breakdown: Roadside and National Recovery</strong></p>
+            </li>
+        </ul>
+        <p>The same cover as our standard Roadside addon, with the added benefit of us taking you and your vehicle to any UK destination &ndash; no matter how far it is.</p>
+        <ul class="feature-list">
+            <li>
+            <p><strong>Motor Legal Assistance</strong></p>
+            </li>
+        </ul>
+        <p>Get up to &pound;100,000 in legal assistance, a 24/7 legal helpline and a range of online legal documents.</p>
+        <ul class="feature-list">
+            <li>
+            <p><strong>Excess Protection</strong></p>
+            </li>
+        </ul>
+        <p>Claim your excess back if the others involved in an accident can't be identified, even when you're at fault.</p>
+        <ul class="feature-list">
+            <li>
+            <p><strong>Motor Accident Plan</strong></p>
+            </li>
+        </ul>
+        <p>Improve on the personal injury cover that's included in your comprehensive policy.</p>
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: Optional extras available with your cover
+    - ID: "250bc641-b691-43f7-aedd-b65846f93bb9"
+      Hint: Image
+      Value: <image mediaid=
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220127T153138Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1a2cd3d0-17fc-428b-bd7f-c4f22cca9b28"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220127T153138Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220127T153226Z
+    - ID: "f81c6cd4-7c73-4ea5-b559-20a5c2f645bb"
+      Hint: BulletList
+      Value: |
+        <ul class="feature-list">
+            <li>
+            <p><strong>AA Breakdown: Roadside</strong></p>
+            </li>
+        </ul>
+        <p style="margin-left: 40px;">Get 24/7 assistance if your vehicle breaks down over &frac14; mile from your home.</p>
+        <ul class="feature-list">
+            <li>
+            <p><strong>AA Breakdown: Roadside and National Recovery</strong></p>
+            </li>
+        </ul>
+        <p style="margin-left: 40px;">The same cover as our standard Roadside addon, with the added benefit of us taking you and your vehicle to any UK destination &ndash; no matter how far it is.</p>
+        <ul class="feature-list">
+            <li>
+            <p><strong>Motor Legal Assistance</strong></p>
+            </li>
+        </ul>
+        <p style="margin-left: 40px;">Get up to &pound;100,000 in legal assistance, a 24/7 legal helpline and a range of online legal documents.</p>
+        <ul class="feature-list">
+            <li>
+            <p><strong>Excess Protection</strong></p>
+            </li>
+        </ul>
+        <p style="margin-left: 40px;">Claim your excess back if the others involved in an accident can't be identified, even when you're at fault.</p>
+        <ul class="feature-list">
+            <li>
+            <p><strong>Motor Accident Plan</strong></p>
+            </li>
+        </ul>
+        <p style="margin-left: 40px;">Improve on the personal injury cover that's included in your comprehensive policy.</p>
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: Optional extras available with your cover
+    - ID: "250bc641-b691-43f7-aedd-b65846f93bb9"
+      Hint: Image
+      Value: <image mediaid=
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220127T153240Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d1040963-8cd3-4678-ba55-cd09948d4749"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220127T153240Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220127T153405Z
+    - ID: "f81c6cd4-7c73-4ea5-b559-20a5c2f645bb"
+      Hint: BulletList
+      Value: |
+        <ul class="feature-list">
+            <li>
+            <p><strong>AA Breakdown: Roadside</strong></p>
+            </li>
+        </ul>
+        <p>Get 24/7 assistance if your vehicle breaks down over &frac14; mile from your home.</p>
+        <ul class="feature-list">
+            <li>
+            <p><strong>AA Breakdown: Roadside and National Recovery</strong></p>
+            </li>
+        </ul>
+        <p>The same cover as our standard Roadside addon, with the added benefit of us taking you and your vehicle to any UK destination &ndash; no matter how far it is.</p>
+        <ul class="feature-list">
+            <li>
+            <p><strong>Motor Legal Assistance</strong></p>
+            </li>
+        </ul>
+        <p>Get up to &pound;100,000 in legal assistance, a 24/7 legal helpline and a range of online legal documents.</p>
+        <ul class="feature-list">
+            <li>
+            <p><strong>Excess Protection</strong></p>
+            </li>
+        </ul>
+        <p>Claim your excess back if the others involved in an accident can't be identified, even when you're at fault.</p>
+        <ul class="feature-list">
+            <li>
+            <p><strong>Motor Accident Plan</strong></p>
+            </li>
+        </ul>
+        <p>Improve on the personal injury cover that's included in your comprehensive policy.</p>
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: Optional extras available with your cover
+    - ID: "250bc641-b691-43f7-aedd-b65846f93bb9"
+      Hint: Image
+      Value: <image mediaid=
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220215T132958Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b5276ad5-24a7-4e41-a614-fea3989111cc"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220215T132958Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220215T133713Z
+    - ID: "f81c6cd4-7c73-4ea5-b559-20a5c2f645bb"
+      Hint: BulletList
+      Value: |
+        <ul class="feature-list">
+            <li>
+            <p><strong>AA Breakdown: Roadside</strong></p>
+            </li>
+        </ul>
+        <p>Get 24/7 help if your vehicle breaks down over &frac14; mile from your home.</p>
+        <ul class="feature-list">
+            <li>
+            <p><strong>AA Breakdown: Roadside and National Recovery</strong></p>
+            </li>
+        </ul>
+        <p>The same cover as our standard Roadside add-on, plus we'll take you and your vehicle to any UK destination &ndash; however far it is.</p>
+        <ul class="feature-list">
+            <li>
+            <p><strong>Motor Legal Assistance</strong></p>
+            </li>
+        </ul>
+        <p>Get up to &pound;100,000 in legal assistance, a 24/7 legal helpline and a range of online legal documents.</p>
+        <ul class="feature-list">
+            <li>
+            <p><strong>Excess Protection</strong></p>
+            </li>
+        </ul>
+        <p>Claim you excess back when you&rsquo;re at fault, or if the others involved in the accident can&rsquo;t be identified.</p>
+        <ul class="feature-list">
+            <li>
+            <p><strong>Motor Accident Plan</strong></p>
+            </li>
+        </ul>
+        <p>Improve on the personal injury cover included in our comprehensive policy, with added benefits if you have an accident.</p>
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: Optional extras available with your cover
+    - ID: "250bc641-b691-43f7-aedd-b65846f93bb9"
+      Hint: Image
+      Value: <image mediaid=
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220217T094741Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "fc534bb4-a1cf-43ce-893d-b25b009a69aa"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220217T094741Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220217T094840Z
+    - ID: "f81c6cd4-7c73-4ea5-b559-20a5c2f645bb"
+      Hint: BulletList
+      Value: |
+        <ul class="feature-list">
+            <li>
+            <p><strong>AA Breakdown: Roadside</strong></p>
+            </li>
+        </ul>
+        <p>Get 24/7 help if your vehicle breaks down over &frac14; mile from your home <sup>3</sup>.</p>
+        <ul class="feature-list">
+            <li>
+            <p><strong>AA Breakdown: Roadside and National Recovery</strong></p>
+            </li>
+        </ul>
+        <p>The same cover as our standard Roadside add-on, plus we'll take you and your vehicle to any UK destination &ndash; however far it is <sup>3</sup>.</p>
+        <ul class="feature-list">
+            <li>
+            <p><strong>Motor Legal Assistance</strong></p>
+            </li>
+        </ul>
+        <p>Get up to &pound;100,000 in legal assistance, a 24/7 legal helpline and a range of online legal documents.</p>
+        <ul class="feature-list">
+            <li>
+            <p><strong>Excess Protection</strong></p>
+            </li>
+        </ul>
+        <p>Claim you excess back when you&rsquo;re at fault, or if the others involved in the accident can&rsquo;t be identified.</p>
+        <ul class="feature-list">
+            <li>
+            <p><strong>Motor Accident Plan</strong></p>
+            </li>
+        </ul>
+        <p>Improve on the personal injury cover included in our comprehensive policy, with added benefits if you have an accident.</p>
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: Optional extras available with your cover
+    - ID: "250bc641-b691-43f7-aedd-b65846f93bb9"
+      Hint: Image
+      Value: <image mediaid=
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220224T121959Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e12ff020-b753-4129-9f0c-05ec1180a76c"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ShahzadK
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220224T121959Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220307T170336Z
+    - ID: "f81c6cd4-7c73-4ea5-b559-20a5c2f645bb"
+      Hint: BulletList
+      Value: |
+        <ul class="feature-list">
+            <li>
+            <p><strong>AA Breakdown: Roadside</strong></p>
+            </li>
+        </ul>
+        <p  class="feature-list-p" >Get 24/7 help if your vehicle breaks down over &frac14; mile from your home <sup>3</sup>.</p>
+        <ul class="feature-list">
+            <li>
+            <p><strong>AA Breakdown: Roadside and National Recovery</strong></p>
+            </li>
+        </ul>
+        <p  class="feature-list-p" >The same cover as our standard Roadside add-on, plus we'll take you and your vehicle to any UK destination &ndash; however far it is <sup>3</sup>.</p>
+        <ul class="feature-list">
+            <li>
+            <p><strong>Motor Legal Assistance</strong></p>
+            </li>
+        </ul>
+        <p  class="feature-list-p" >Get up to &pound;100,000 in legal assistance, a 24/7 legal helpline and a range of online legal documents.</p>
+        <ul class="feature-list">
+            <li>
+            <p><strong>Excess Protection</strong></p>
+            </li>
+        </ul>
+        <p  class="feature-list-p" >Claim your excess back when you&rsquo;re at fault, or if the others involved in the accident can&rsquo;t be identified.</p>
+        <ul class="feature-list">
+            <li>
+            <p><strong>Motor Accident Plan</strong></p>
+            </li>
+        </ul>
+        <p  class="feature-list-p" >Improve on the personal injury cover included in our comprehensive policy, with added benefits if you have an accident.</p>
+  - Version: 7
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: Optional extras available with your cover
+    - ID: "250bc641-b691-43f7-aedd-b65846f93bb9"
+      Hint: Image
+      Value: <image mediaid=
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220315T083459Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "bf612108-ad97-4eeb-823a-cd18dedc156d"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220315T083459Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230522T145935Z
+    - ID: "f81c6cd4-7c73-4ea5-b559-20a5c2f645bb"
+      Hint: BulletList
+      Value: |
+        <ul class="feature-list">
+            <li>
+            <p><strong>AA Breakdown: Roadside</strong></p>
+            </li>
+        </ul>
+        <p class="feature-list-p">Get 24/7 help if your vehicle breaks down over &frac14; mile from your home <sup>4</sup>.</p>
+        <ul class="feature-list">
+            <li>
+            <p><strong>AA Breakdown: Roadside and National Recovery</strong></p>
+            </li>
+        </ul>
+        <p class="feature-list-p">The same cover as our standard Roadside add-on, plus we'll take you and your vehicle to any UK destination &ndash; however far it is <sup>4</sup>.</p>
+        <ul class="feature-list">
+            <li>
+            <p><strong>Motor Legal Assistance</strong></p>
+            </li>
+        </ul>
+        <p class="feature-list-p">Get up to &pound;100,000 in legal assistance, a 24/7 legal helpline and a range of online legal documents.</p>
+        <ul class="feature-list">
+            <li>
+            <p><strong>Excess Protection</strong></p>
+            </li>
+        </ul>
+        <p class="feature-list-p">Claim your excess back when you&rsquo;re at fault, or if the others involved in the accident can&rsquo;t be identified.</p>
+        <ul class="feature-list">
+            <li>
+            <p><strong>Motor Accident Plan</strong></p>
+            </li>
+        </ul>
+        <p class="feature-list-p">Improve on the personal injury cover included in our comprehensive policy, with added benefits if you have an accident.</p>
+  - Version: 8
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: Optional extras available with your cover
+    - ID: "250bc641-b691-43f7-aedd-b65846f93bb9"
+      Hint: Image
+      Value: <image mediaid=
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240905T114936Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c08246c4-51ab-4952-ad76-b6a8a3484363"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: 
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240905T114936Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241119T133550Z
+    - ID: "f81c6cd4-7c73-4ea5-b559-20a5c2f645bb"
+      Hint: BulletList
+      Value: |
+        <ul class="feature-list">
+            <li>
+            <p><strong>AA Breakdown: Roadside</strong></p>
+            </li>
+        </ul>
+        <p class="feature-list-p">Get 24/7 help if your vehicle breaks down over &frac14; mile from your home. <sup>4</sup></p>
+        <ul class="feature-list">
+            <li>
+            <p><strong>AA Breakdown: Roadside and National Recovery</strong></p>
+            </li>
+        </ul>
+        <p class="feature-list-p">The same cover as our standard Roadside add-on, plus we'll take you and your vehicle to any UK destination &ndash; however far it is <sup>4</sup>.</p>
+        <ul class="feature-list">
+            <li>
+            <p><strong>Motor Legal Assistance</strong></p>
+            </li>
+        </ul>
+        <p class="feature-list-p">Get up to &pound;100,000 in legal assistance, a 24/7 legal helpline and a range of online legal documents.</p>
+        <ul class="feature-list">
+            <li>
+            <p><strong>Excess Protection</strong></p>
+            </li>
+        </ul>
+        <p class="feature-list-p">Claim your excess back when you&rsquo;re at fault, or if the others involved in the accident can&rsquo;t be identified.</p>
+        <ul class="feature-list">
+            <li>
+            <p><strong>Motor Accident Plan</strong></p>
+            </li>
+        </ul>
+        <p class="feature-list-p">Improve on the personal injury cover included in our comprehensive policy, with added benefits if you have an accident.</p>

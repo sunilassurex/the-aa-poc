@@ -1,0 +1,364 @@
+﻿---
+ID: "7d20344c-d4e3-4703-b75f-c436672ea4ff"
+Parent: "c0a17c5e-4619-4995-a65d-d584eb4da39d"
+Template: "11e11bcb-aa73-4cd2-a73e-fbeedfe8da05"
+Path: "/sitecore/content/AA/Beam/Modules/Accordion/car-insurance/faqs/faqs/Buying your cover"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200527T132717Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "164ab2ee-dca2-44f4-832f-e90c0f20b337"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h2>Can I get motor insurance that starts right now?</h2>
+        <p>Yes. When you buy online or over the phone your car insurance can start immediately.</p>
+        <p>You'll need a credit or debit card to pay either the full premium or an initial deposit if paying by monthly instalments.</p>
+        <hr />
+        <h2>If I don't buy straight away, how long is my quote valid for?</h2>
+        <p>You can future date your quote by up to 60 days. The quoted price remains valid as long as your details remain unchanged.</p>
+        <hr />
+        <h2>Do AA Members get a discount on car insurance?</h2>
+        <p>When you get a quote online, confirm that you are an AA Member. You could get a discount when you insure your car with us for the first time, and on subsequent renewals if you remain an AA Member.</p>
+        <hr />
+        <h2>My car has modifications &ndash; will they affect my insurance quote?</h2>
+        <p>If your car has been modified we can give you an online quote for a maximum of two modifications from the following list:</p>
+        <ul>
+            <li>Alloy Wheels.</li>
+            <li>Front Spoiler or Air Dam.</li>
+            <li>Locking Wheel Nuts.</li>
+            <li>Rear Roof Spoiler.</li>
+            <li>Rear Spoiler or Aerofoil.</li>
+            <li>Bull Bars.</li>
+            <li>Dual Control.</li>
+            <li>Hand Controls.</li>
+        </ul>
+        <p>Modifications will affect the quote price, as they present a higher risk than original components.</p>
+        <p>If your car has more than two modifications, or the modification isn't listed, please call us on <strong>0800 197 7178</strong> &ndash; we may still be able to give you a quote.</p>
+        <hr />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: Buying your cover
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201015T074110Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201015T092508Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "628e288c-ad11-4039-8964-b6afdfb9abc2"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h2>Can I get motor insurance that starts right now?</h2>
+        <p>Yes. When you buy online or over the phone your car insurance can start immediately.</p>
+        <p>You'll need a credit or debit card to pay either the full premium or an initial deposit if paying by monthly instalments.</p>
+        <hr />
+        <br />
+        <h2>If I don't buy straight away, how long is my quote valid for?</h2>
+        <p>You can future date your quote by up to 60 days. The quoted price remains valid as long as your details remain unchanged.</p>
+        <hr />
+        <br />
+        <h2>Do AA Members get a discount on car insurance?</h2>
+        <p>When you get a quote online, confirm that you are an AA Member. You could get a discount when you insure your car with us for the first time, and on subsequent renewals if you remain an AA Member.</p>
+        <hr />
+        <br />
+        <h2>My car has modifications &ndash; will they affect my insurance quote?</h2>
+        <p>If your car has been modified we can give you an online quote for a maximum of two modifications from the following list:</p>
+        <ul>
+            <li>Alloy Wheels.</li>
+            <li>Front Spoiler or Air Dam.</li>
+            <li>Locking Wheel Nuts.</li>
+            <li>Rear Roof Spoiler.</li>
+            <li>Rear Spoiler or Aerofoil.</li>
+            <li>Bull Bars.</li>
+            <li>Dual Control.</li>
+            <li>Hand Controls.</li>
+        </ul>
+        <p>Modifications will affect the quote price, as they present a higher risk than original components.</p>
+        <p>If your car has more than two modifications, or the modification isn't listed, please call us on <strong>0800 197 7178</strong> &ndash; we may still be able to give you a quote.</p>
+        <hr />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201015T092508Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: Buying your cover
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220307T143922Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220307T144839Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "58b7f459-5a29-4269-b765-a4bba9192d5d"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h3><strong><span style="font-size: 24px;">When does my insurance start?</span></strong></h3>
+        <p>When you buy your policy with us, you can choose when you'd like your insurance to start.</p>
+        <p>You can buy your insurance up to 60 days before the policy start date.</p>
+        <p>If you get a car insurance quote online, you can use the reference to&nbsp;<a href="/car-insurance/sales/your-quote/quote-retrieval">retrieve the quote</a>&nbsp;for 28 days, as long as your details are the same.</p>
+        <p>Or if you want to save your quote for longer, up to 60 days, just <a href="/contact-us">call our contact centre</a>.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">My car has modifications &ndash; will they affect my insurance quote?</span></strong></h3>
+        <p>If your car has been modified, we can give you an online quote for a maximum of 2 modifications from the following list:</p>
+        <ul>
+            <li>Alloy Wheels</li>
+            <li>Front Spoiler or Air Dam</li>
+            <li>Locking Wheel Nuts</li>
+            <li>Rear Roof Spoiler</li>
+            <li>Rear Spoiler or Aerofoil</li>
+            <li>Bull Bars</li>
+            <li>Dual Control</li>
+            <li>Hand Controls</li>
+        </ul>
+        <p>Modifications will affect the quote price, as they present a higher risk than original components.</p>
+        <hr />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220307T144839Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: Buying your cover
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220307T145221Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220317T095043Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7615ab24-ee9d-4e73-9908-f232ef16cfe8"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h3><strong><span style="font-size: 24px;">When does my insurance start?</span></strong></h3>
+        <p>When you buy your policy with us, you can choose when you'd like your insurance to start.</p>
+        <p>You can buy your insurance up to 60 days before the policy start date.</p>
+        <p>If you get a car insurance quote online, you can use the reference to&nbsp;<a href="/car-insurance/sales/your-quote/quote-retrieval">retrieve the quote</a>&nbsp;for 28 days, as long as your details are the same.</p>
+        <p>Or if you want to save your quote for longer, up to 60 days, just <a href="/contact-us">get in touch</a>.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">My car has modifications &ndash; will they affect my insurance quote?</span></strong></h3>
+        <p>If your car has been modified, we can give you an online quote for a maximum of 2 modifications from the following list:</p>
+        <ul>
+            <li>Alloy Wheels</li>
+            <li>Front Spoiler or Air Dam</li>
+            <li>Locking Wheel Nuts</li>
+            <li>Rear Roof Spoiler</li>
+            <li>Rear Spoiler or Aerofoil</li>
+            <li>Bull Bars</li>
+            <li>Dual Control</li>
+            <li>Hand Controls</li>
+        </ul>
+        <p>Modifications will affect the quote price, as they present a higher risk than original components.</p>
+        <hr />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220317T095043Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: Buying your cover
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220317T095511Z
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230525T100604Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "baf0ad50-0550-4bf7-9fef-a97575f277ab"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h3><strong><span style="font-size: 24px;">When does my insurance start?</span></strong></h3>
+        <p>When you buy your policy with us, you can choose when you'd like your insurance to start.</p>
+        <p>You can buy your insurance up to 60 days before the policy start date.</p>
+        <p>If you get a car insurance quote online, you can use the reference to&nbsp;<a href="/car-insurance/sales/your-quote/quote-retrieval">retrieve the quote</a>&nbsp;for 28 days, as long as your details are the same.</p>
+        <p>Or if you want to save your quote for longer, up to 60 days, just <a href="/contact-us">get in touch</a>.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">My car has modifications &ndash; will they affect my insurance quote?</span></strong></h3>
+        <p>If your car has been modified, we can give you an online quote for a maximum of 2 modifications from the following list:</p>
+        <ul>
+            <li>Alloy Wheels</li>
+            <li>Front Spoiler or Air Dam</li>
+            <li>Locking Wheel Nuts</li>
+            <li>Rear Roof Spoiler</li>
+            <li>Rear Spoiler or Aerofoil</li>
+            <li>Bull Bars</li>
+            <li>Dual Control</li>
+            <li>Hand Controls</li>
+        </ul>
+        <p>Modifications will affect the quote price, as they present a higher risk than original components.</p>
+        <hr />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230525T100604Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: Buying your cover
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230525T102757Z
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240910T064718Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "92044faf-7e75-48d8-97d3-d3d367171428"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <br />
+        <h2>When does my insurance start?</strong></h2>
+        <p>You can buy your insurance up to 30 days before the policy start date.</p>
+        <p>So when you pay using a debit or credit card, whether online or by phone, you'll be insured from the chosen start date of the policy.
+        </p>
+        <p>If you get a car insurance quote online, you can use the reference to <a href="/car-insurance/sales/tiers/your-quote/retrieve">retrieve the quote</a> for 28 days, as long as your details are the same.</p>
+        <hr />
+        <br />
+        <h2>My car has modifications &ndash; will they affect my insurance quote?</h2>
+        <p>A vehicle modification is a change to its original specification. This excludes added optional features when the vehicle was purchased from the manufacturer.</p>
+        <p>Tow bars and parking sensors are not modifications.</p>
+        <p>If your car has been modified we can give you an online quote for a maximum of 3 modifications from the following list:</p>
+        <ul>
+            <li>Alloy wheels</li>
+            <li>Front spoiler or air dam</li>
+            <li>Locking wheel nuts</li>
+            <li>Rear roof spoiler</li>
+            <li>Rear spoiler or aerofoil</li>
+            <li>Bull bars</li>
+            <li>Dual control</li>
+            <li>Hand controls</li>
+        </ul>
+        <p>Modifications can increase the premium, as they present a higher risk than original components.</p>
+        <p>Accordingly, if your car has more than 3 modifications, or the modification isn't listed, we won't be able to give you a quote.</p>
+        <hr />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240910T064718Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: Buying your cover
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241119T124918Z

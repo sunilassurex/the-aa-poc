@@ -1,0 +1,679 @@
+﻿---
+ID: "b28dcf93-df84-45f1-9cfe-456243a5d434"
+Parent: "85d42321-8a7d-4e47-9c43-15b7304ef61a"
+Template: "a3ceb52b-24fa-4eee-82f7-45faae145864"
+Path: "/sitecore/content/AA/Beam/Modules/Html/contact-us/change-job-scripts/multiple-email"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 650
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200331T130920Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\PetersenP
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\PetersenP
+    - ID: "6a07b214-41c9-4205-b62a-6005aa65a387"
+      Hint: Contents
+      Value: |
+        <style>    /* styles go here */</style><script>    multiformsetup();    function multiformsetup() {        console.log('multiple-email – document ready');        var firstForm = null;        var otherForms = null;        var submitButtonOnFirstForm = null;        $(document).ready(function () {            console.log('multiple-email – document ready');            firstForm = $('form.wffm-form-module:first');            // hide all the other forms            otherForms = $('form.wffm-form-module:not(:first)');            //otherForms.hide();            // setup a form handler             //submitButtonOnFirstForm = $('form.wffm-form-module:first input.btn[type="submit"]');            firstForm.submit(function (event) {                if ($('input[value="Insurance"][type="checkbox"]').is(':checked')) {                    event.preventDefault();                    // copy values to other forms                    var firstFormId = firstForm.attr('id');                    var destinationFormId = otherForms.attr('id');                    firstForm.find('input.form-control').each(function () {                        var inp = $(this);                        var inpId = inp.attr('id');                        var destinationId = inpId.replace(firstFormId, destinationFormId);                        var destination = otherForms.find('#' + destinationId);                        destination.val(inp.val());                    })                    // submit other form TODO: single out one form if there are 3 or more on the page                    otherForms.submit();                } else {                    //process the form as normal                }            });        });    }</script>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "511ab92b-276c-4cf1-a0db-747880b274e5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\PetersenP
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200518T102821Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200331T135440Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\PetersenP
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\PetersenP
+    - ID: "6a07b214-41c9-4205-b62a-6005aa65a387"
+      Hint: Contents
+      Value: |
+        <style>    /* styles go here */</style><script>    multiformsetup();    function multiformsetup() {        console.log('multiple-email – document ready');        var firstForm = null;        var otherForms = null;        var submitButtonOnFirstForm = null;        $(document).ready(function () {            console.log('multiple-email – document ready');            firstForm = $('form.wffm-form-module:first');            // hide all the other forms            otherForms = $('form.wffm-form-module:not(:first)');console.log('TODO hide the other forms and ');            //otherForms.hide();            // setup a form handler             //submitButtonOnFirstForm = $('form.wffm-form-module:first input.btn[type="submit"]');            firstForm.submit(function (event) {                var BreakdownCoverTicked = firstForm.find('input[value="Breakdown cover"][type="checkbox"]').is(':checked');                var CarInsuranceTicked   = firstForm.find('input[value="Car insurance"][type="checkbox"]').is(':checked');                var HomeInsuranceTicked  = firstForm.find('input[value="Home insurance"][type="checkbox"]').is(':checked');                // change-name-home , change-name-road /*"Car insurance"   = Motor: insurance@theaa.com"Home insurance"  = change-name-home Home: homecust@theaa.com          - the 2nd form on the page"Breakdown cover" = change-name-road Road: customer.services@theaa.com - the 3rd form on the page*/                var otherForm = null;                var submitHiddenForm = false;                if (HomeInsuranceTicked && !BreakdownCoverTicked && !CarInsuranceTicked) {                    otherForm = otherForms.get(0);                    submitHiddenForm = true;                }console.log('TODO remove block submit ');event.preventDefault();                if (BreakdownCoverTicked && !HomeInsuranceTicked && !CarInsuranceTicked) {                    otherForm = otherForms.get(1);                    submitHiddenForm = true;                }                if (submitHiddenForm){                    event.preventDefault();                    // copy values to other forms                    var firstFormId = firstForm.attr('id');                    var destinationFormId = otherForm.attr('id');                    firstForm.find('input.form-control').each(function () {                        var inp = $(this);                        var inpId = inp.attr('id');                        var destinationId = inpId.replace(firstFormId, destinationFormId);                        var destination = otherForm.find('#' + destinationId);                        destination.val(inp.val());                    })                    // submit other form TODO: single out one form if there are 3 or more on the pageconsole.log('TODO remove block submit ');                   //otherForm.submit();                } else {                    //process the form as normal                }            });        });    }</script>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e17b34d7-2cb2-427a-a36c-45b23ce52458"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\PetersenP
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200331T135440Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200331T145203Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200331T145206Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\PetersenP
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\PetersenP
+    - ID: "6a07b214-41c9-4205-b62a-6005aa65a387"
+      Hint: Contents
+      Value: |
+        <script>
+            multiformsetup();
+            var selectorHiddenValues = 'div:has(label.control-label:contains(hidden-values))  > input.form-control';
+            var selectorHiddenValuesDiv = 'div.form-group:has(label.control-label:contains(hidden-values))';
+        
+            function multiformsetup() {
+        
+                console.log('multiple-email – document ready');
+        
+                var firstForm = null;
+                var otherForms = null;
+                var submitButtonOnFirstForm = null;
+                $(document).ready(function () {
+                    console.log('multiple-email – document ready');
+                    firstForm = $('form.wffm-form-module:first');
+                    $(selectorHiddenValuesDiv).hide();
+                    RetrieveDataFromHiddenField(firstForm);
+        
+                    // setup a form handler
+                    firstForm.submit(function (event) {
+                        otherForms = $('form.wffm-form-module:not(:first)');
+                        StoreDataInHiddenField(firstForm);
+        
+                        var CarInsuranceTicked = firstForm.find('input[value="Car insurance"][type="checkbox"]').is(':checked');
+                        var HomeInsuranceTicked = firstForm.find('input[value="Home insurance"][type="checkbox"]').is(':checked');
+        
+                        var HomeInsuranceTag = '';
+                        if (HomeInsuranceTicked){ HomeInsuranceTag  = 'Home insurance'; }
+                        var CarInsuranceTag = '';
+                        if (CarInsuranceTicked){ CarInsuranceTag = 'Car insurance'; }
+        
+                        utag.view({"help_product": HomeInsuranceTag + ',' +   CarInsuranceTag  }); 
+        
+                    });
+                });
+            }
+            function StoreDataInHiddenField(firstForm) {
+                var data = {
+                    checkboxes: []
+                };
+                firstForm.find('input[type="checkbox"], input[type="radio"]').each(function () {
+                    inpCheckbox = $(this);
+                    var value = { id: inpCheckbox.attr('id'), value: inpCheckbox.val(), checked: inpCheckbox.is(':checked') };
+                    data.checkboxes.push(value);
+                });
+        
+                $(selectorHiddenValues).val(JSON.stringify(data));
+            }
+            function RetrieveDataFromHiddenField(firstForm) {
+                var data;
+                var validData = false;
+                try {
+                    data = JSON.parse(firstForm.find(selectorHiddenValues).val());
+                    validData = true;
+                } catch (err) {
+                    validData = false;
+                }
+                if (validData && data && data.checkboxes) {
+                    $.each(data.checkboxes, function (index, value) {
+                        var checkbox = $('#' + value.id + '[value="' + value.value + '"]');
+                        checkbox.prop('checked', value.checked);
+                        StyleCheckbox(checkbox);
+                    });
+                }
+            }
+            function StyleCheckbox(destinationCheckbox) {
+                if (destinationCheckbox.is(':checked')) {
+                    destinationCheckbox.parent().addClass('checked');
+                    destinationCheckbox.parent().parent().addClass('checked');
+                } else {
+                    destinationCheckbox.parent().removeClass('checked');
+                    destinationCheckbox.parent().parent().removeClass('checked');
+                }
+            }
+        
+        </script>
+        
+        
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cacfb081-6a7c-4d41-b3c1-03c972ddfffc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\PetersenP
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200331T145206Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200601T095538Z
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200630T143859Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\PetersenP
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\PetersenP
+    - ID: "6a07b214-41c9-4205-b62a-6005aa65a387"
+      Hint: Contents
+      Value: |
+        <script>
+            multiformsetup();
+            var selectorHiddenValues = 'div:has(label.control-label:contains(hidden-values))  > input.form-control';
+            var selectorHiddenValuesDiv = 'div.form-group:has(label.control-label:contains(hidden-values))';
+        
+            function multiformsetup() {
+        
+                console.log('multiple-email – document ready');
+        
+                var firstForm = null;
+                var otherForms = null;
+                var submitButtonOnFirstForm = null;
+                $(document).ready(function () {
+                    console.log('multiple-email – document ready');
+                    firstForm = $('form.wffm-form-module:first');
+                   // hide all the other forms
+                    otherForms = $('form.wffm-form-module:not(:first)');
+        
+                    if (otherForms.find('div.validation-summary-errors').length) {
+                        var invalidForm = otherForms.has('div.validation-summary-errors');
+        
+                        CopyValuesBetweenForms($(invalidForm.get(0)), firstForm, true);
+        
+                    }
+                    RetrieveDataFromHiddenField(firstForm);
+        
+                    otherForms.hide();
+                    $(selectorHiddenValuesDiv).hide();
+        
+                    // setup a form handler
+                    firstForm.submit(function (event) {
+                        otherForms = $('form.wffm-form-module:not(:first)');
+                        StoreDataInHiddenField(firstForm);
+        
+                        var CarInsuranceTicked = firstForm.find('input[value="Car insurance"][type="checkbox"]').is(':checked');
+                        var HomeInsuranceTicked = firstForm.find('input[value="Home insurance"][type="checkbox"]').is(':checked');
+        
+                        var HomeInsuranceTag = '';
+                        if (HomeInsuranceTicked){ HomeInsuranceTag  = 'Home insurance'; }
+                        var CarInsuranceTag = '';
+                        if (CarInsuranceTicked){ CarInsuranceTag = 'Car insurance'; }
+        
+                        utag.view({"help_product": HomeInsuranceTag + ',' +   CarInsuranceTag  });
+        
+                        var otherForm;
+                        var submitHiddenForm = false;
+                        if (!HomeInsuranceTicked && CarInsuranceTicked) {
+                            // email-enquiry-form-home
+                            otherForm = $(otherForms.get(0));
+                            submitHiddenForm = true;
+                        }
+        
+                        if (submitHiddenForm) {
+                            event.preventDefault();
+                            CopyValuesBetweenForms(firstForm, otherForm, false);
+        
+                            // submit other form
+                            otherForm.submit();
+                        } else {
+                            //process the form as normal
+                        }
+         
+        
+                    });
+                });
+            }
+            function StoreDataInHiddenField(firstForm) {
+                var data = {
+                    checkboxes: []
+                };
+                firstForm.find('input[type="checkbox"], input[type="radio"]').each(function () {
+                    inpCheckbox = $(this);
+                    var value = { id: inpCheckbox.attr('id'), value: inpCheckbox.val(), checked: inpCheckbox.is(':checked') };
+                    data.checkboxes.push(value);
+                });
+        
+                $(selectorHiddenValues).val(JSON.stringify(data));
+            }
+            function RetrieveDataFromHiddenField(firstForm) {
+                var data;
+                var validData = false;
+                try {
+                    data = JSON.parse(firstForm.find(selectorHiddenValues).val());
+                    validData = true;
+                } catch (err) {
+                    validData = false;
+                }
+                if (validData && data && data.checkboxes) {
+                    $.each(data.checkboxes, function (index, value) {
+                        var checkbox = $('#' + value.id + '[value="' + value.value + '"]');
+                        checkbox.prop('checked', value.checked);
+                        StyleCheckbox(checkbox);
+                    });
+                }
+            }
+            function CopyValuesBetweenForms(sourceForm, destinationForm, copyErrors) {
+        
+                console.log('start CopyValuesBetweenForms');
+                // copy values to other forms
+                var sourceFormId = sourceForm.attr('id');
+                var destinationFormId = destinationForm.attr('id');
+                sourceForm.find('input.form-control, textarea.form-control').each(function () {
+                    var inp = $(this);
+                    var inpId = inp.attr('id');
+                    var destinationId = inpId.replace(sourceFormId, destinationFormId);
+                    var destination = destinationForm.find('#' + destinationId);
+                    destination.val(inp.val());
+                    if (inp.val() != null && inp.val() != '') {
+                        console.log(inp.attr('id') + '=' + inp.val());
+                        console.log(destination.attr('id') + '=' + destination.val());
+                    }
+                });
+        
+                var checkboxIDs = [];
+                sourceForm.find('input[type="checkbox"], input[type="radio"]').each(function () {
+                    var chkID = $(this).attr('name');
+                    if (!checkboxIDs.includes(chkID)) {
+                        checkboxIDs.push(chkID);
+                    }
+                });
+        
+                for (var i = 0; i < checkboxIDs.length; i++) {
+                    console.log(checkboxIDs[i]);
+                    //Do something
+                    var inpId = checkboxIDs[i];
+                    var inp = $('input[name="' + inpId + '"]');
+                    var destinationId = inpId.replace(sourceFormId, destinationFormId);
+                   if (copyErrors) {
+                        var val = inp.val();
+                        destinationForm.find('input[name="' + destinationId + '"][value="' + val + '"]').prop("checked", true);
+                        StyleCheckbox(destinationForm.find('input[name="' + destinationId + '"][value="' + val + '"]'));
+                    } else {
+        
+        
+                        inp.each(function () {
+                            inpCheckbox = $(this);
+        
+                            var destinationCheckbox = destinationForm.find('input[name="' + destinationId + '"][value="' + inpCheckbox.attr('value') + '"]');
+        
+                            if (inpCheckbox.attr('value') == destinationCheckbox.attr('value')) {
+                                destinationCheckbox.prop("checked", inpCheckbox.is(':checked'));
+                                StyleCheckbox(destinationCheckbox);
+                            }
+                        });
+                    }
+                }
+        
+                sourceForm.find('select.form-control').each(function () {
+                    var inp = $(this);
+                    var inpId = inp.attr('id');
+                    var destinationId = inpId.replace(sourceFormId, destinationFormId);
+                    var destination = destinationForm.find('#' + destinationId);
+                    destination.val(inp.val());
+                    if (inp.val() != null && inp.val() != '') {
+                        console.log(inp.attr('id') + '=' + inp.val());
+                        console.log(destination.attr('id') + '=' + destination.val());
+                    }
+                });
+        
+                if (copyErrors) {
+                    // copy validation messages from other form to the first one
+                    destinationForm.find('div.has-error').html(sourceForm.find('div.has-error').html());
+                    sourceForm.find('span.field-validation-error').each(function () {
+                        var errorMessage = $(this);
+                        var validationMessageFor = errorMessage.data('valmsg-for');
+                        var destinationMessage = destinationForm.find('span[data-valmsg-for="' + validationMessageFor.replace(sourceFormId, destinationFormId) + '"]');
+                        destinationMessage.text(errorMessage.text());
+                        destinationMessage.attr('class', errorMessage.attr('class'));
+                    });
+                }
+                console.log('end CopyValuesBetweenForms');
+        
+            }
+            function StyleCheckbox(destinationCheckbox) {
+                if (destinationCheckbox.is(':checked')) {
+                    destinationCheckbox.parent().addClass('checked');
+                    destinationCheckbox.parent().parent().addClass('checked');
+                } else {
+                    destinationCheckbox.parent().removeClass('checked');
+                    destinationCheckbox.parent().parent().removeClass('checked');
+                }
+            }
+        
+        </script>
+        
+        
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d0e754d4-2698-42c2-95a6-ee96f8024720"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\PetersenP
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200630T143859Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200701T111224Z
+  - Version: 5
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200702T102552Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\PetersenP
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\PetersenP
+    - ID: "6a07b214-41c9-4205-b62a-6005aa65a387"
+      Hint: Contents
+      Value: |
+        <script>
+            $(document).ready(function () {
+                $('form#wffm8ad3997fe9e84ef58bb833b29bafd6e8').attr("data-stylish-form", "true");
+            })
+            multiformsetup();
+            var selectorHiddenValues = 'div:has(label.control-label:contains(hidden-values))  > input.form-control';
+            var selectorHiddenValuesDiv = 'div.form-group:has(label.control-label:contains(hidden-values))';
+        
+            function multiformsetup() {
+        
+                console.log('multiple-email – document ready');
+        
+                var firstForm = null;
+                var otherForms = null;
+                var submitButtonOnFirstForm = null;
+                $(document).ready(function () {
+                    console.log('multiple-email – document ready');
+                    firstForm = $('form.wffm-form-module:first');
+                    // hide all the other forms
+                    otherForms = $('form.wffm-form-module:not(:first)');
+        
+                    if (otherForms.find('div.validation-summary-errors').length) {
+                        var invalidForm = otherForms.has('div.validation-summary-errors');
+        
+                        CopyValuesBetweenForms($(invalidForm.get(0)), firstForm, true);
+        
+                    }
+                    RetrieveDataFromHiddenField(firstForm);
+        
+                    otherForms.hide();
+                    $(selectorHiddenValuesDiv).hide();
+        
+                    // setup a form handler
+                    firstForm.submit(function (event) {
+                        otherForms = $('form.wffm-form-module:not(:first)');
+                        StoreDataInHiddenField(firstForm);
+        
+                        var CarInsuranceTicked = firstForm.find('input[value="Car insurance"][type="checkbox"]').is(':checked');
+                        var HomeInsuranceTicked = firstForm.find('input[value="Home insurance"][type="checkbox"]').is(':checked');
+        
+                        var HomeInsuranceTag = '';
+                        if (HomeInsuranceTicked) { HomeInsuranceTag = 'Home insurance'; }
+                        var CarInsuranceTag = '';
+                        if (CarInsuranceTicked) { CarInsuranceTag = 'Car insurance'; }
+        
+                        utag.view({ "help_product": HomeInsuranceTag + ',' + CarInsuranceTag });
+        
+                        var otherForm;
+                        var submitHiddenForm = false;
+                        var annualMileageField = $('#wffmf6cd0587a48246eba761e330d5382f9d_Sections_4__Fields_0__Value');
+                        var annualMileageValidation = $('span[data-valmsg-for="wffmf6cd0587a48246eba761e330d5382f9d.Sections[4].Fields[0].Value"]');
+                        var businessTypeField = $('#wffmf6cd0587a48246eba761e330d5382f9d_Sections_4__Fields_1__Value');
+                        var businessTypeValidation = $('span[data-valmsg-for="wffmf6cd0587a48246eba761e330d5382f9d.Sections[4].Fields[1].Value"]');
+        
+                        if (HomeInsuranceTicked) {
+                            // email-enquiry-form-home
+                            otherForm = $(otherForms.get(0));
+                            submitHiddenForm = true;
+                        }
+        
+                        if (submitHiddenForm) {
+                            event.preventDefault();
+                            CopyValuesBetweenForms(firstForm, otherForm, false);
+        
+                            //Validate Scenario when both Car Insurance and Home Insurance is ticked
+                            if (CarInsuranceTicked && HomeInsuranceTicked) {
+                                var carInsMileage = annualMileageField.val().length;
+                                var homeInsMileage = $('#wffm8ad3997fe9e84ef58bb833b29bafd6e8_Sections_4__Fields_0__Value').val().length;
+                                var isBusinessTypeEmpty = businessTypeField.val();
+                                if (((carInsMileage && homeInsMileage) > 0) && isBusinessTypeEmpty != "") {
+                                    console.log(true);
+                                    otherForm.submit();
+                                }
+                                else {
+        
+                                    if ((carInsMileage && homeInsMileage) == 0) {
+                                        //Validations for Annual Mileage Field when both Car Insurance and Home Insurance are ticked
+                                        annualMileageField.addClass("input-validation-error");
+                                        annualMileageValidation.removeClass("field-validation-valid");
+                                        annualMileageValidation.addClass("field-validation-error");
+                                        annualMileageValidation.text("The annual mileage field is required.");
+                                    }
+                                    else {
+                                        annualMileageField.removeClass("input-validation-error");
+                                        annualMileageValidation.addClass("field-validation-valid");
+                                        annualMileageValidation.removeClass("field-validation-error");
+                                        annualMileageValidation.text("");
+                                    }
+        
+                                    if (isBusinessTypeEmpty == "") {
+                                        //Validations for business type when both Car Insurance and Home Insurance are ticked 
+                                        businessTypeField.addClass("input-validation-error");
+                                        businessTypeValidation.removeClass("field-validation-valid");
+                                        businessTypeValidation.addClass("field-validation-error");
+                                        businessTypeValidation.text("The Is the car used for business? field is required.");
+                                    }
+                                    else {
+                                        businessTypeField.removeClass("input-validation-error");
+                                        businessTypeValidation.addClass("field-validation-valid");
+                                        businessTypeValidation.removeClass("field-validation-error");
+                                        businessTypeValidation.text("");
+                                    }
+        
+                                    //Alert user if validation fails
+                                    $('html, body').animate({
+                                        'scrollTop': $("input[id='wffmf6cd0587a48246eba761e330d5382f9d_Sections_4__Fields_0__Value']").parent().parent().parent().offset().top - (75)
+                                    });
+                                    console.log(false);
+                                }
+                            }
+                            else {
+                                otherForm.submit();
+                            }
+                            // submit other form
+        
+                        } else {
+                            //process the form as normal
+                        }
+        
+        
+                    });
+                });
+            }
+            function StoreDataInHiddenField(firstForm) {
+                var data = {
+                    checkboxes: []
+                };
+                firstForm.find('input[type="checkbox"], input[type="radio"]').each(function () {
+                    inpCheckbox = $(this);
+                    var value = { id: inpCheckbox.attr('id'), value: inpCheckbox.val(), checked: inpCheckbox.is(':checked') };
+                    data.checkboxes.push(value);
+                });
+        
+                $(selectorHiddenValues).val(JSON.stringify(data));
+            }
+            function RetrieveDataFromHiddenField(firstForm) {
+                var data;
+                var validData = false;
+                try {
+                    data = JSON.parse(firstForm.find(selectorHiddenValues).val());
+                    validData = true;
+                } catch (err) {
+                    validData = false;
+                }
+                if (validData && data && data.checkboxes) {
+                    $.each(data.checkboxes, function (index, value) {
+                        var checkbox = $('#' + value.id + '[value="' + value.value + '"]');
+                        checkbox.prop('checked', value.checked);
+                        StyleCheckbox(checkbox);
+                    });
+                }
+            }
+            function CopyValuesBetweenForms(sourceForm, destinationForm, copyErrors) {
+        
+                console.log('start CopyValuesBetweenForms');
+                // copy values to other forms
+                var sourceFormId = sourceForm.attr('id');
+                var destinationFormId = destinationForm.attr('id');
+                sourceForm.find('input.form-control, textarea.form-control').each(function () {
+                    var inp = $(this);
+                    var inpId = inp.attr('id');
+                    var destinationId = inpId.replace(sourceFormId, destinationFormId);
+                    var destination = destinationForm.find('#' + destinationId);
+                    destination.val(inp.val());
+                    if (inp.val() != null && inp.val() != '') {
+                        console.log(inp.attr('id') + '=' + inp.val());
+                        console.log(destination.attr('id') + '=' + destination.val());
+                    }
+                });
+        
+                var checkboxIDs = [];
+                sourceForm.find('input[type="checkbox"], input[type="radio"]').each(function () {
+                    var chkID = $(this).attr('name');
+                    if (!checkboxIDs.includes(chkID)) {
+                        checkboxIDs.push(chkID);
+                    }
+                });
+        
+                for (var i = 0; i < checkboxIDs.length; i++) {
+                    console.log(checkboxIDs[i]);
+                    //Do something
+                    var inpId = checkboxIDs[i];
+                    var inp = $('input[name="' + inpId + '"]');
+                    var destinationId = inpId.replace(sourceFormId, destinationFormId);
+                    if (copyErrors) {
+                        var val = inp.val();
+                        destinationForm.find('input[name="' + destinationId + '"][value="' + val + '"]').prop("checked", true);
+                        StyleCheckbox(destinationForm.find('input[name="' + destinationId + '"][value="' + val + '"]'));
+                    } else {
+        
+        
+                        inp.each(function () {
+                            inpCheckbox = $(this);
+        
+                            var destinationCheckbox = destinationForm.find('input[name="' + destinationId + '"][value="' + inpCheckbox.attr('value') + '"]');
+        
+                            if (inpCheckbox.attr('value') == destinationCheckbox.attr('value')) {
+                                destinationCheckbox.prop("checked", inpCheckbox.is(':checked'));
+                                StyleCheckbox(destinationCheckbox);
+                            }
+                        });
+                    }
+                }
+        
+                sourceForm.find('select.form-control').each(function () {
+                    var inp = $(this);
+                    var inpId = inp.attr('id');
+                    var destinationId = inpId.replace(sourceFormId, destinationFormId);
+                    var destination = destinationForm.find('#' + destinationId);
+                    destination.val(inp.val());
+                    if (inp.val() != null && inp.val() != '') {
+                        console.log(inp.attr('id') + '=' + inp.val());
+                        console.log(destination.attr('id') + '=' + destination.val());
+                    }
+                });
+        
+                if (copyErrors) {
+                    // copy validation messages from other form to the first one
+                    destinationForm.find('div.has-error').html(sourceForm.find('div.has-error').html());
+                    sourceForm.find('span.field-validation-error').each(function () {
+                        var errorMessage = $(this);
+                        var validationMessageFor = errorMessage.data('valmsg-for');
+                        var destinationMessage = destinationForm.find('span[data-valmsg-for="' + validationMessageFor.replace(sourceFormId, destinationFormId) + '"]');
+                        destinationMessage.text(errorMessage.text());
+                        destinationMessage.attr('class', errorMessage.attr('class'));
+                    });
+                }
+                console.log('end CopyValuesBetweenForms');
+        
+            }
+            function StyleCheckbox(destinationCheckbox) {
+                if (destinationCheckbox.is(':checked')) {
+                    destinationCheckbox.parent().addClass('checked');
+                    destinationCheckbox.parent().parent().addClass('checked');
+                } else {
+                    destinationCheckbox.parent().removeClass('checked');
+                    destinationCheckbox.parent().parent().removeClass('checked');
+                }
+            }
+        
+        </script>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "36d73f92-efd9-4609-b372-75b71f8bade3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200702T102552Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211201T113621Z

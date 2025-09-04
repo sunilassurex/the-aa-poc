@@ -1,0 +1,102 @@
+﻿---
+ID: "438f9294-b16f-4a04-a627-fd3754bfe1c3"
+Parent: "77d67223-dcd7-46e5-a768-42cd5cc00aeb"
+Template: "e36747b3-6154-423a-b32d-b2d323f5a739"
+Path: "/sitecore/content/AA/Beam/Modules/Rich Text/car-insurance/faqs/your-policy"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1300
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220224T200704Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "17fb177c-e0d7-409c-b054-c47caac9c7fe"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2><span style="font-size: 32px;">Your policy information</span></h2>
+        <br />
+        <h3><strong><span style="font-size: 24px;">Can I create an online account?</span></strong></h3>
+        <p>You can't create an account at the moment. Instead, call us on&nbsp;<strong>0330 041 3684</strong>&nbsp;if you need to make changes to your policy or discuss your BEAM car insurance.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">Where can I find my policy documents and certificate of insurance?</span></strong></h3>
+        <p>Your documents are either emailed to you or posted to the address you specified when you bought the policy, depending on your chosen preference.</p>
+        <p>If you selected email, make sure you check your junk folder.</p>
+        <p>If you can&rsquo;t find your documents, give us a call on&nbsp;<strong>0330 041 3684</strong>&nbsp;and we&rsquo;ll resend them.</p>
+        <hr />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220224T200743Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220307T150252Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e86de5b7-7a32-4a97-b026-ce7440350095"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220307T150252Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2><span style="font-size: 32px;">Your policy information</span></h2>
+        <br />
+        <h3><strong><span style="font-size: 24px;">Can I create an online account?</span></strong></h3>
+        <p>You can't create an account at the moment. Instead, call us on&nbsp;<strong>0330 041 3684</strong>&nbsp;if you need to make changes to your policy or discuss your BEAM car insurance.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">Where can I find my policy documents and certificate of insurance?</span></strong></h3>
+        <p>Your documents are either emailed to you or posted to the address you specified when you bought the policy, depending on your chosen preference.</p>
+        <p>If you selected email, make sure you check your junk folder.</p>
+        <p>If you can&rsquo;t find your documents, give us a call on&nbsp;<strong>0330 041 3684</strong>&nbsp;and we&rsquo;ll resend them.</p>
+        <hr />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20231102T142952Z

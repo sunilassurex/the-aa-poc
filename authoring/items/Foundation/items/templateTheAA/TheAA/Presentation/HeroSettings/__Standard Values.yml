@@ -1,0 +1,26 @@
+﻿---
+ID: "6b246383-c498-4972-9bc3-2cdb68b46b4d"
+Parent: "44b63daf-4860-4fd9-81da-e08bd1653694"
+Template: "44b63daf-4860-4fd9-81da-e08bd1653694"
+Path: /sitecore/templates/TheAA/Presentation/HeroSettings/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160111T112108Z
+    - ID: "2d9329d9-8ddf-42fe-9b57-2bdd20436e19"
+      Hint: TextAlignment
+      Value: "{182741F7-AC04-4196-8015-A930C7AB0D6F}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "045ac5c3-437a-4f41-b536-84aefe3362b3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20160322T105239Z

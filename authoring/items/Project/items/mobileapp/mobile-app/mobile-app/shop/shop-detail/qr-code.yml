@@ -1,0 +1,106 @@
+﻿---
+ID: "fb53e2ae-22db-4d8b-b07f-5c19836b0a3f"
+Parent: "81dd5448-c94f-4bc8-b952-6833cdfac93e"
+Template: "b36ba9fd-0dc0-49c8-bea2-e55d70e6af28"
+Path: "/sitecore/content/AA/mobile-app/mobile-app/shop/shop-detail/qr-code"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "a791f095-2521-4b4d-bef9-21dda221f608"
+  Hint: __Style
+  Value: 
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{4F57DBDC-C4BB-43AE-A615-7FEA56FFD513}">
+        <r
+          ds="{2F4F2BCB-AAEE-40DA-9C04-1EAEDDDFBB4C}"
+          id="{B434301D-F678-43B0-A07D-7642905F47CE}"
+          par=""
+          ph="/mobileapp-main"
+          uid="{F2D6E6B3-8D82-4DA0-83AA-EF8479BDE062}" />
+        <r
+          ds="{0EA2B1F9-AC44-4F7D-8720-08A76CAE0234}"
+          id="{E9398AA8-28C1-410E-9011-51AC1DE4DB5E}"
+          par=""
+          ph="/mobileapp-main/details-{F2D6E6B3-8D82-4DA0-83AA-EF8479BDE062}-0"
+          uid="{8FFDB5DE-5CE0-4239-9D57-278E2502E72F}" />
+        <r
+          ds="{4B4AE34E-47A9-4491-A1DB-CAABA02F88B5}"
+          id="{64AAE3F0-7CC1-4215-8DCA-87F5DC7BC2B6}"
+          par=""
+          ph="/mobileapp-main/details-{F2D6E6B3-8D82-4DA0-83AA-EF8479BDE062}-0"
+          uid="{2EFF205B-34D7-4FEE-88C5-4661B3C66313}" />
+        <r
+          ds="{E7B6D6CE-FF8C-461C-BBA5-DF61DD4546BE}"
+          id="{64AAE3F0-7CC1-4215-8DCA-87F5DC7BC2B6}"
+          par=""
+          ph="/mobileapp-main/details-{F2D6E6B3-8D82-4DA0-83AA-EF8479BDE062}-0"
+          uid="{6F215F76-D271-4672-91F1-15AF57545A45}" />
+        <r
+          ds="{1AE0D15C-67E8-4105-81C3-21063ADF7DC0}"
+          id="{542E6EB9-B2AC-434B-913B-9923EF335FD7}"
+          par=""
+          ph="/mobileapp-main/details-{F2D6E6B3-8D82-4DA0-83AA-EF8479BDE062}-0"
+          uid="{81A2F648-976E-4392-AB58-9F80AFDD42C6}" />
+        <r
+          ds="{B24E9DD4-18FA-4B0A-AA18-BC4529D1A889}"
+          id="{64AAE3F0-7CC1-4215-8DCA-87F5DC7BC2B6}"
+          par=""
+          ph="/mobileapp-main/details-{F2D6E6B3-8D82-4DA0-83AA-EF8479BDE062}-0"
+          uid="{2A0F1406-465C-40CF-AE74-986760664762}" />
+        <r
+          ds="{4EF769D9-24A7-4661-B1AC-8C17567B94FB}"
+          id="{ABE0F684-C9E6-4730-A065-CDE445D80809}"
+          par=""
+          ph="/mobileapp-main/details-{F2D6E6B3-8D82-4DA0-83AA-EF8479BDE062}-0"
+          uid="{572572E4-2B2A-41F2-B860-CBC142B0FDD0}" />
+        <r
+          id="{64AAE3F0-7CC1-4215-8DCA-87F5DC7BC2B6}"
+          ph="/mobileapp-main/details-{F2D6E6B3-8D82-4DA0-83AA-EF8479BDE062}-0"
+          uid="{070F8DED-9F5D-484A-B57F-2A3494AACC2C}" />
+        <r
+          ds="{7F8455C5-2413-4050-8C8A-58D8CD80FA32}"
+          id="{33CCF56D-9575-4758-8CFE-6A0D57892AF1}"
+          par=""
+          ph="/mobileapp-main/details-{F2D6E6B3-8D82-4DA0-83AA-EF8479BDE062}-0"
+          uid="{A4A98792-6FB4-4743-857A-DDE2A4635E39}" />
+        <r
+          ds="{6962531F-6DDC-4FA2-9A44-121453F7AE7F}"
+          id="{0BC06C91-9880-4AF0-B485-08D0CC3DD8E7}"
+          par=""
+          ph="/mobileapp-main/details-{F2D6E6B3-8D82-4DA0-83AA-EF8479BDE062}-0/popup-{A4A98792-6FB4-4743-857A-DDE2A4635E39}-0"
+          uid="{35601519-65DC-4E2C-B76D-0E01FABF2CFF}" />
+        <r
+          ds="{820D3866-2C9D-40ED-A313-71D8C501E7FF}"
+          id="{04B38FE4-9672-466A-9DFF-25928F3085E0}"
+          par=""
+          ph="/mobileapp-main/details-{F2D6E6B3-8D82-4DA0-83AA-EF8479BDE062}-0"
+          uid="{A1F69071-1E20-47F6-A538-8166944E397B}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240201T121717Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "79a7393f-8fe4-44ea-9a08-2d6a77403e2e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250801T072231Z

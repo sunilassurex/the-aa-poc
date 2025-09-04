@@ -1,0 +1,819 @@
+﻿---
+ID: "622c769c-6dfe-4843-bb3b-fece81d52369"
+Parent: "20f0a42c-391c-4985-8391-d82f985c26c0"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: /sitecore/layout/Renderings/Feature/AA/Admin/Offer Configuration Viewer
+SharedFields:
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230331T115801Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "85e18a9f-f91e-4823-bcb3-f47e39b22d66"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using Sitecore.Mvc.Presentation;
+        @using System.Linq;
+        @using System.Text;
+        @using Codehouse.Common;
+        @using System.Web.UI;
+        @using Sitecore.Data;
+        @using System;
+        @using System.Collections.Generic;
+        @using TheAA.Application.ViewModels
+        @using TheAA.Foundation.Rendering;
+        @using Sitecore.Data.Items;
+        @using Sitecore.Data.Fields
+        @model ContentViewRenderingModel
+        
+        @{
+            var item = Model.Rendering.Item;
+            var rootPath = Sitecore.Context.Item.Paths.Path;
+            var filterPath = System.Web.HttpContext.Current.Request.QueryString["folder"];
+            var activeFrom = System.Web.HttpContext.Current.Request.QueryString["activeFrom"];
+            var activeTo = System.Web.HttpContext.Current.Request.QueryString["activeTo"];
+            var format = System.Web.HttpContext.Current.Request.QueryString["format"];
+            if (!string.IsNullOrEmpty(filterPath))
+            {
+                item = item.Database.GetItem(filterPath) ?? item;
+            }
+        
+            <a href="@rootPath?folder=">Home</a>
+            <br />
+            foreach (Item localItem in item.Children)
+            {
+                if (localItem.TemplateName == "Folder")
+                {
+                    <a href="@rootPath?folder=@localItem.Paths.FullPath">@localItem.Name</a>
+                    <br />
+                }
+            };
+            IEnumerable<Item> offerItems = item.Children.ToList();
+            if (!string.IsNullOrEmpty(activeFrom) && !string.IsNullOrEmpty(activeTo))
+            {
+                var activeFromDate = DateTime.ParseExact(activeFrom, "MM-dd-yyyy", null);
+                var activeToDate = DateTime.ParseExact(activeTo, "MM-dd-yyyy", null);
+        
+                offerItems = offerItems.Where(x => x.GetDateFieldValue("ActiveFrom", DateTime.MinValue) >= activeFromDate && x.GetDateFieldValue("ActiveTo", DateTime.MinValue) <= activeToDate);
+            }
+            if (!string.IsNullOrEmpty(format) && format.ToLower() == "csv")
+            {
+                @ExportOffer(item, offerItems);
+        
+            }
+            @GenerateTable(item, offerItems);
+        }
+        
+        @helper GenerateTable(Item item, IEnumerable<Item> offerItems)
+        {
+            <table border="1">
+                <tr>
+                    <th>Name</th>
+                    <th>SourceCode</th>
+                    <th>SourceGroupCode</th>
+                    <th>SourceGroupDesc</th>
+                    <th>ActiveFrom</th>
+                    <th>ActiveTo</th>
+                    <th>SplitCode</th>
+                    <th>OfferCode</th>
+                    <th>BaseOfferCode</th>
+                    <th>PromoAssets</th>
+                    <th>PromoAssets Name</th>
+                    <th>BaseOfferDateTime</th>
+                    <th>PromoRules</th>
+                    <th>PromoType</th>
+                    <th>PromoTypeName</th>
+                    <th>EligibleProducts</th>
+                    <th>EligibleProducts Name</th>
+                    <th>MinimumProducts</th>
+                    <th>PaymentOptionsLozengeMessage</th>
+                    <th>CountdownDateTime</th>
+        
+                </tr>
+                @{
+                    foreach (Item offer in offerItems)
+                    {
+                        if (offer.TemplateName == "Offer")
+                        {
+                            <tr>
+                                <td>@offer.Name</td>
+                                <td>@offer.GetField("SourceCode").RenderValue()</td>
+                                <td>@offer.GetField("SourceGroupCode").RenderValue()</td>
+                                <td>@offer.GetField("SourceGroupDesc").RenderValue()</td>
+                                <td>@offer.GetField("ActiveFrom").RenderValue()</td>
+                                <td>@offer.GetField("ActiveTo").RenderValue()</td>
+                                <td>@offer.GetField("SplitCode").RenderValue()</td>
+                                <td>@offer.GetField("OfferCode").RenderValue()</td>
+                                <td>@offer.GetField("BaseOfferCode").RenderValue()</td>
+                                <td>@offer.GetField("PromoAssets").RenderValue()</td>
+                                <td>@(GetItemName(offer.Fields["PromoAssets"].Value, item.Database)) </td>
+                                <td>@offer.GetField("BaseOfferDateTime").RenderValue()</td>
+                                <td>@offer.GetField("PromoRules").RenderValue()</td>
+                                <td>@offer.GetField("PromoType").RenderValue()</td>
+                                <td>@(GetItemName(offer.Fields["PromoType"].Value, item.Database))</td>
+                                <td>@offer.GetField("EligibleProducts").RenderValue()</td>
+                                <td>@(GetItemName(offer.Fields["EligibleProducts"].Value, item.Database))</td>
+                                <td>@offer.GetField("MinimumProducts").RenderValue()</td>
+                                <td>@offer.GetField("PaymentOptionsLozengeMessage").RenderValue()</td>
+                                <td>@offer.GetField("CountdownDateTime").RenderValue()</td>
+        
+                            </tr>
+                        }
+                    };
+                }
+            </table>
+        }
+        
+        @helper GetItemName(string id, Database db)
+        {
+            List<string> itemNames = new List<string>();
+            if (!string.IsNullOrEmpty(id))
+            {
+                List<string> ids = id.Split(',').ToList();
+                foreach (string itemId in ids)
+                {
+                    Item currentItem = db.GetItem(itemId);
+                    if (currentItem != null)
+                    {
+                        itemNames.Add(currentItem.Name);
+                    }
+                }
+                if (itemNames.Count >= 1)
+                {
+                    <span>@string.Join(",", itemNames)</span>
+                }
+            }
+        }
+        
+        @helper ExportOffer(Item item, IEnumerable<Item> offerItems)
+        {
+        
+            StringBuilder content = new StringBuilder();
+            content.AppendLine("Name,SourceCode,SourceGroupCode,SourceGroupDesc,ActiveFrom,ActiveTo,SplitCode,OfferCode,BaseOfferCode,PromoAssets,PromoAssets Name,BaseOfferDateTime,PromoRules,PromoType,PromoTypeName,EligibleProducts,EligibleProducts Name, MinimumProducts,PaymentOptionsLozengeMessage,CountdownDateTime");
+        
+            foreach (Item offer in offerItems)
+            {
+                if (offer.TemplateName == "Offer")
+                {
+                    content.AppendLine(offer.Name + "," + offer.Fields["SourceCode"].Value + "," + offer.Fields["SourceGroupCode"].Value + "," + offer.Fields["SourceGroupDesc"].Value + "," + offer.Fields["ActiveFrom"].Value + "," + offer.Fields["ActiveTo"].Value + "," + offer.Fields["SplitCode"].Value + "," + offer.Fields["OfferCode"].Value + "," + offer.Fields["BaseOfferCode"].Value + "," + offer.Fields["PromoAssets"].Value + "," + GetItemName(offer.Fields["PromoAssets"].Value, item.Database).ToString().Replace("<span>", "").Replace("</span>", "").Trim() + "," + offer.Fields["BaseOfferDateTime"].Value + "," + offer.Fields["PromoRules"].Value + "," + offer.Fields["PromoType"].Value + "," + GetItemName(offer.Fields["PromoType"].Value, item.Database).ToString().Replace("<span>", "").Replace("</span>", "").Trim() + "," + offer.Fields["EligibleProducts"].Value + "," + GetItemName(offer.Fields["EligibleProducts"].Value, item.Database).ToString().Replace("<span>", "").Replace("</span>", "").Trim() + "," + offer.Fields["MinimumProducts"].Value + "," + offer.Fields["PaymentOptionsLozengeMessage"].Value + "," + offer.Fields["CountdownDateTime"].Value);
+                }
+            }
+        
+            System.Web.HttpContext.Current.Response.Clear();
+            System.Web.HttpContext.Current.Response.Buffer = true;
+            System.Web.HttpContext.Current.Response.AddHeader("content-disposition", "attachment;filename=OfferConfiguration.csv");
+            System.Web.HttpContext.Current.Response.Charset = "";
+            System.Web.HttpContext.Current.Response.ContentType = "application/text";
+            System.Web.HttpContext.Current.Response.Output.Write(content);
+            System.Web.HttpContext.Current.Response.Flush();
+            System.Web.HttpContext.Current.Response.End();
+        }
+        
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230720T031619Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230403T084249Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3548b027-23c0-4768-bf1a-97ebfa5364f3"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using Sitecore.Mvc.Presentation;
+        @using System.Linq;
+        @using System.Text;
+        @using Codehouse.Common;
+        @using System.Web.UI;
+        @using Sitecore.Data;
+        @using System;
+        @using System.Collections.Generic;
+        @using TheAA.Application.ViewModels
+        @using TheAA.Foundation.Rendering;
+        @using Sitecore.Data.Items;
+        @using Sitecore.Data.Fields
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        
+        @{
+            var item = Model.Rendering.Item;
+            var rootPath = Sitecore.Context.Item.Paths.Path;
+            var filterPath = System.Web.HttpContext.Current.Request.QueryString["folder"];
+            var activeFrom = System.Web.HttpContext.Current.Request.QueryString["activeFrom"];
+            var activeTo = System.Web.HttpContext.Current.Request.QueryString["activeTo"];
+            var format = System.Web.HttpContext.Current.Request.QueryString["format"];
+            if (!string.IsNullOrEmpty(filterPath))
+            {
+                item = item.Database.GetItem(filterPath) ?? item;
+            }
+        
+            <a href="@rootPath?folder=">Home</a>
+            <br />
+            foreach (Item localItem in item.Children)
+            {
+                if (localItem.TemplateName == "Folder")
+                {
+                    <a href="@rootPath?folder=@localItem.Paths.FullPath">@localItem.Name</a>
+                    <br />
+                }
+            };
+            IEnumerable<Item> offerItems = item.Children.ToList();
+            if (!string.IsNullOrEmpty(activeFrom) && !string.IsNullOrEmpty(activeTo))
+            {
+                var activeFromDate = DateTime.ParseExact(activeFrom, "MM-dd-yyyy", null);
+                var activeToDate = DateTime.ParseExact(activeTo, "MM-dd-yyyy", null);
+        
+                offerItems = offerItems.Where(x => x.GetDateFieldValue("ActiveFrom", DateTime.MinValue) >= activeFromDate && x.GetDateFieldValue("ActiveTo", DateTime.MinValue) <= activeToDate);
+            }
+            if (!string.IsNullOrEmpty(format) && format.ToLower() == "csv")
+            {
+                @ExportOffer(item, offerItems);
+        
+            }
+            @GenerateTable(item, offerItems);
+        }
+        
+        @helper GenerateTable(Item item, IEnumerable<Item> offerItems)
+        {
+            <table border="1">
+                <tr>
+                    <th>Name</th>
+                    <th>SourceCode</th>
+                    <th>SourceGroupCode</th>
+                    <th>SourceGroupDesc</th>
+                    <th>ActiveFrom</th>
+                    <th>ActiveTo</th>
+                    <th>SplitCode</th>
+                    <th>OfferCode</th>
+                    <th>BaseOfferCode</th>
+                    <th>PromoAssets</th>
+                    <th>PromoAssets Name</th>
+                    <th>BaseOfferDateTime</th>
+                    <th>PromoRules</th>
+                    <th>PromoType</th>
+                    <th>PromoTypeName</th>
+                    <th>EligibleProducts</th>
+                    <th>EligibleProducts Name</th>
+                    <th>MinimumProducts</th>
+                    <th>PaymentOptionsLozengeMessage</th>
+                    <th>CountdownDateTime</th>
+        
+                </tr>
+                @{
+                    foreach (Item offer in offerItems)
+                    {
+                        if (offer.TemplateName == "Offer")
+                        {
+                            <tr>
+                                <td>@offer.Name</td>
+                                <td>@offer.GetField("SourceCode").RenderValue()</td>
+                                <td>@offer.GetField("SourceGroupCode").RenderValue()</td>
+                                <td>@offer.GetField("SourceGroupDesc").RenderValue()</td>
+                                <td>@offer.GetField("ActiveFrom").RenderValue()</td>
+                                <td>@offer.GetField("ActiveTo").RenderValue()</td>
+                                <td>@offer.GetField("SplitCode").RenderValue()</td>
+                                <td>@offer.GetField("OfferCode").RenderValue()</td>
+                                <td>@offer.GetField("BaseOfferCode").RenderValue()</td>
+                                <td>@offer.GetField("PromoAssets").RenderValue()</td>
+                                 <td>@(offer.GetField("PromoAssets").GetReferenceItemName(false))</td>
+                                <td>@offer.GetField("BaseOfferDateTime").RenderValue()</td>
+                                <td>@offer.GetField("PromoRules").RenderValue()</td>
+                                <td>@offer.GetField("PromoType").RenderValue()</td>
+                                <td>@(offer.GetField("PromoType").GetReferenceItemName(false))</td>
+                                <td>@offer.GetField("EligibleProducts").RenderValue()</td>
+                                <td>@(offer.GetField("EligibleProducts").GetReferenceItemName(true))</td>
+                                <td>@offer.GetField("MinimumProducts").RenderValue()</td>
+                                <td>@offer.GetField("PaymentOptionsLozengeMessage").RenderValue()</td>
+                                <td>@offer.GetField("CountdownDateTime").RenderValue()</td>
+        
+                            </tr>
+                        }
+                    };
+                }
+            </table>
+        }
+        
+        @helper ExportOffer(Item item, IEnumerable<Item> offerItems)
+        {
+        
+            StringBuilder content = new StringBuilder();
+            content.AppendLine("Name,SourceCode,SourceGroupCode,SourceGroupDesc,ActiveFrom,ActiveTo,SplitCode,OfferCode,BaseOfferCode,PromoAssets,PromoAssets Name,BaseOfferDateTime,PromoRules,PromoType,PromoTypeName,EligibleProducts,EligibleProducts Name, MinimumProducts,PaymentOptionsLozengeMessage,CountdownDateTime");
+        
+            foreach (Item offer in offerItems)
+            {
+                if (offer.TemplateName == "Offer")
+                {
+                    content.AppendLine(offer.Name + "," + offer.Fields["SourceCode"].Value + "," + offer.Fields["SourceGroupCode"].Value + "," + offer.Fields["SourceGroupDesc"].Value + "," + offer.Fields["ActiveFrom"].Value + "," + offer.Fields["ActiveTo"].Value + "," + offer.Fields["SplitCode"].Value + "," + offer.Fields["OfferCode"].Value + "," + offer.Fields["BaseOfferCode"].Value + "," + offer.Fields["PromoAssets"].Value + "," + offer.GetField("PromoAssets").GetReferenceItemName(false) + "," + offer.Fields["BaseOfferDateTime"].Value + "," + offer.Fields["PromoRules"].Value + "," + offer.Fields["PromoType"].Value + "," + offer.GetField("PromoType").GetReferenceItemName(false) + "," + offer.Fields["EligibleProducts"].Value + "," + offer.GetField("EligibleProducts").GetReferenceItemName(false) + "," + offer.Fields["MinimumProducts"].Value + "," + offer.Fields["PaymentOptionsLozengeMessage"].Value + "," + offer.Fields["CountdownDateTime"].Value);
+                }
+            }
+        
+            System.Web.HttpContext.Current.Response.Clear();
+            System.Web.HttpContext.Current.Response.Buffer = true;
+            System.Web.HttpContext.Current.Response.AddHeader("content-disposition", "attachment;filename=OfferConfiguration.csv");
+            System.Web.HttpContext.Current.Response.Charset = "";
+            System.Web.HttpContext.Current.Response.ContentType = "application/text";
+            System.Web.HttpContext.Current.Response.Output.Write(content);
+            System.Web.HttpContext.Current.Response.Flush();
+            System.Web.HttpContext.Current.Response.End();
+        }
+        
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230403T084249Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230720T031619Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230403T104016Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "97f0de8a-033c-488d-9408-cd63b2fc4483"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using Sitecore.Mvc.Presentation;
+        @using System.Linq;
+        @using System.Text;
+        @using Codehouse.Common;
+        @using System.Web.UI;
+        @using Sitecore.Data;
+        @using System;
+        @using System.Collections.Generic;
+        @using TheAA.Application.ViewModels
+        @using TheAA.Foundation.Rendering;
+        @using Sitecore.Data.Items;
+        @using Sitecore.Data.Fields
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        
+        @{
+            var item = Model.Rendering.Item;
+            var rootPath = Sitecore.Context.Item.Paths.Path;
+            var filterPath = System.Web.HttpContext.Current.Request.QueryString["folder"];
+            var activeFrom = System.Web.HttpContext.Current.Request.QueryString["activeFrom"];
+            var activeTo = System.Web.HttpContext.Current.Request.QueryString["activeTo"];
+            var format = System.Web.HttpContext.Current.Request.QueryString["format"];
+            if (!string.IsNullOrEmpty(filterPath))
+            {
+                item = item.Database.GetItem(filterPath) ?? item;
+            }
+        
+            <a href="@rootPath?folder=">Home</a>
+            <br />
+            foreach (Item localItem in item.Children)
+            {
+                if (localItem.TemplateName == "Folder")
+                {
+                    <a href="@rootPath?folder=@localItem.Paths.FullPath">@localItem.Name</a>
+                    <br />
+                }
+            };
+            IEnumerable<Item> offerItems = item.Children.ToList();
+            if (!string.IsNullOrEmpty(activeFrom) && !string.IsNullOrEmpty(activeTo))
+            {
+                var activeFromDate = DateTime.ParseExact(activeFrom, "MM-dd-yyyy", null);
+                var activeToDate = DateTime.ParseExact(activeTo, "MM-dd-yyyy", null);
+        
+                offerItems = offerItems.Where(x => x.GetDateFieldValue("ActiveFrom", DateTime.MinValue) >= activeFromDate && x.GetDateFieldValue("ActiveTo", DateTime.MinValue) <= activeToDate);
+            }
+            if (!string.IsNullOrEmpty(format) && format.ToLower() == "csv")
+            {
+                @ExportOffer(item, offerItems);
+        
+            }
+            @GenerateTable(item, offerItems);
+        }
+        
+        @helper GenerateTable(Item item, IEnumerable<Item> offerItems)
+        {
+            <table border="1">
+                <tr>
+                    <th>Name</th>
+                    <th>SourceCode</th>
+                    <th>SourceGroupCode</th>
+                    <th>SourceGroupDesc</th>
+                    <th>ActiveFrom</th>
+                    <th>ActiveTo</th>
+                    <th>SplitCode</th>
+                    <th>OfferCode</th>
+                    <th>BaseOfferCode</th>
+                    <th>PromoAssets</th>
+                    <th>PromoAssets Name</th>
+                    <th>BaseOfferDateTime</th>
+                    <th>PromoRules</th>
+                    <th>PromoType</th>
+                    <th>PromoTypeName</th>
+                    <th>EligibleProducts</th>
+                    <th>EligibleProducts Name</th>
+                    <th>MinimumProducts</th>
+                    <th>PaymentOptionsLozengeMessage</th>
+                    <th>CountdownDateTime</th>
+        
+                </tr>
+                @{
+                    foreach (Item offer in offerItems)
+                    {
+                        if (offer.TemplateName == "Offer")
+                        {
+                            <tr>
+                                <td>@offer.Name</td>
+                                <td>@offer.GetField("SourceCode").RenderValue()</td>
+                                <td>@offer.GetField("SourceGroupCode").RenderValue()</td>
+                                <td>@offer.GetField("SourceGroupDesc").RenderValue()</td>
+                                <td>@offer.GetField("ActiveFrom").RenderValue()</td>
+                                <td>@offer.GetField("ActiveTo").RenderValue()</td>
+                                <td>@offer.GetField("SplitCode").RenderValue()</td>
+                                <td>@offer.GetField("OfferCode").RenderValue()</td>
+                                <td>@offer.GetField("BaseOfferCode").RenderValue()</td>
+                                <td>@offer.GetField("PromoAssets").RenderValue()</td>
+                                 <td>@(offer.GetField("PromoAssets").GetReferenceItemName(false))</td>
+                                <td>@offer.GetField("BaseOfferDateTime").RenderValue()</td>
+                                <td>@offer.GetField("PromoRules").RenderValue()</td>
+                                <td>@offer.GetField("PromoType").RenderValue()</td>
+                                <td>@(offer.GetField("PromoType").GetReferenceItemName(false))</td>
+                                <td>@offer.GetField("EligibleProducts").RenderValue()</td>
+                                <td>@(offer.GetField("EligibleProducts").GetReferenceItemName(true))</td>
+                                <td>@offer.GetField("MinimumProducts").RenderValue()</td>
+                                <td>@offer.GetField("PaymentOptionsLozengeMessage").RenderValue()</td>
+                                <td>@offer.GetField("CountdownDateTime").RenderValue()</td>
+        
+                            </tr>
+                        }
+                    };
+                }
+            </table>
+        }
+        
+        @helper ExportOffer(Item item, IEnumerable<Item> offerItems)
+        {
+        
+            StringBuilder content = new StringBuilder();
+            content.AppendLine("Name,SourceCode,SourceGroupCode,SourceGroupDesc,ActiveFrom,ActiveTo,SplitCode,OfferCode,BaseOfferCode,PromoAssets,PromoAssets Name,BaseOfferDateTime,PromoRules,PromoType,PromoTypeName,EligibleProducts,EligibleProducts Name, MinimumProducts,PaymentOptionsLozengeMessage,CountdownDateTime");
+        
+            foreach (Item offer in offerItems)
+            {
+                if (offer.TemplateName == "Offer")
+                {
+                    content.AppendLine(offer.Name + "," + offer.Fields["SourceCode"].Value + "," + offer.Fields["SourceGroupCode"].Value + "," + offer.Fields["SourceGroupDesc"].Value + "," + offer.Fields["ActiveFrom"].Value + "," + offer.Fields["ActiveTo"].Value + "," + offer.Fields["SplitCode"].Value + "," + offer.Fields["OfferCode"].Value + "," + offer.Fields["BaseOfferCode"].Value + "," + offer.Fields["PromoAssets"].Value + "," + offer.GetField("PromoAssets").GetReferenceItemName(false) + "," + offer.Fields["BaseOfferDateTime"].Value + "," + offer.Fields["PromoRules"].Value + "," + offer.Fields["PromoType"].Value + "," + offer.GetField("PromoType").GetReferenceItemName(false) + "," + offer.Fields["EligibleProducts"].Value + ",\"" + offer.GetField("EligibleProducts").GetReferenceItemName(true) + "\"," + offer.Fields["MinimumProducts"].Value + "," + offer.Fields["PaymentOptionsLozengeMessage"].Value + "," + offer.Fields["CountdownDateTime"].Value);
+                }
+            }
+        
+            System.Web.HttpContext.Current.Response.Clear();
+            System.Web.HttpContext.Current.Response.Buffer = true;
+            System.Web.HttpContext.Current.Response.AddHeader("content-disposition", "attachment;filename=OfferConfiguration.csv");
+            System.Web.HttpContext.Current.Response.Charset = "";
+            System.Web.HttpContext.Current.Response.ContentType = "application/text";
+            System.Web.HttpContext.Current.Response.Output.Write(content);
+            System.Web.HttpContext.Current.Response.Flush();
+            System.Web.HttpContext.Current.Response.End();
+        }
+        
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230403T104016Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230720T031619Z
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230404T123346Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "401e6554-7ef4-473d-a515-dcca00156df0"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using Sitecore.Mvc.Presentation;
+        @using System.Linq;
+        @using System.Text;				
+        @using System.Web.UI;
+        @using Sitecore.Data;
+        @using System;
+        @using System.Collections.Generic;
+        @using TheAA.Application.ViewModels
+        @using TheAA.Foundation.Rendering;
+        @using Sitecore.Data.Items;
+        @using Sitecore.Data.Fields
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        
+        @{
+            
+        if( Model !=null && Model.Rendering != null && Model.Rendering.Item != null && Model.Rendering.Item.Database != null)
+        {
+           var item = Model.Rendering.Item;
+            var rootPath = Sitecore.Context.Item.Paths.Path;
+            var filterPath = System.Web.HttpContext.Current.Request.QueryString["folder"];
+            var activeFrom = System.Web.HttpContext.Current.Request.QueryString["activeFrom"];
+            var activeTo = System.Web.HttpContext.Current.Request.QueryString["activeTo"];
+            var format = System.Web.HttpContext.Current.Request.QueryString["format"];
+            if (!string.IsNullOrEmpty(filterPath))
+            {
+                item = item.Database.GetItem(filterPath) ?? item;
+            }
+        
+            <a href="@rootPath?folder=">Home</a>
+            <br />
+            foreach (Item localItem in item.Children)
+            {
+                if (localItem.TemplateName == "Folder")
+                {
+                    <a href="@rootPath?folder=@localItem.Paths.FullPath">@localItem.Name</a>
+                    <br />
+                }
+            };
+            IEnumerable<Item> offerItems = item.Children.Where(x=>x.TemplateName == "Offer");
+            if (!string.IsNullOrEmpty(activeFrom) && !string.IsNullOrEmpty(activeTo))
+            {
+                var activeFromDate = DateTime.ParseExact(activeFrom, "MM-dd-yyyy", null);
+                var activeToDate = DateTime.ParseExact(activeTo, "MM-dd-yyyy", null);
+        
+                offerItems = offerItems.Where(x => x.GetDateFieldValue("ActiveFrom") >= activeFromDate && 
+          x.GetDateFieldValue("ActiveTo") <= activeToDate);
+        																																																																		  
+            }
+            if (!string.IsNullOrEmpty(format) && format.ToLower() == "csv")
+            {
+               @ExportOffer(item, offerItems);
+        
+            }
+            @GenerateTable(item, offerItems);
+        }
+        }
+        
+        @helper GenerateTable(Item item, IEnumerable<Item> offerItems)
+        {
+            <table border="1">
+                <tr>
+                    <th>Name</th>
+                    <th>SourceCode</th>
+                    <th>SourceGroupCode</th>
+                    <th>SourceGroupDesc</th>
+                    <th>ActiveFrom</th>
+                    <th>ActiveTo</th>
+                    <th>SplitCode</th>
+                    <th>OfferCode</th>
+                    <th>BaseOfferCode</th>
+                    <th>PromoAssets</th>
+                    <th>PromoAssets Name</th>
+                    <th>BaseOfferDateTime</th>
+                    <th>PromoRules</th>
+                    <th>PromoType</th>
+                    <th>PromoTypeName</th>
+                    <th>EligibleProducts</th>
+                    <th>EligibleProducts Name</th>
+                    <th>MinimumProducts</th>
+                    <th>PaymentOptionsLozengeMessage</th>
+                    <th>CountdownDateTime</th>
+        
+                </tr>
+                @{
+                    foreach (Item offer in offerItems)
+                    {
+                            <tr>
+                                <td>@offer.Name</td>
+                                <td>@offer.GetField("SourceCode").RenderValue()</td>
+                                <td>@offer.GetField("SourceGroupCode").RenderValue()</td>
+                                <td>@offer.GetField("SourceGroupDesc").RenderValue()</td>
+                                <td>@offer.GetField("ActiveFrom").RenderValue()</td>
+                                <td>@offer.GetField("ActiveTo").RenderValue()</td>
+                                <td>@offer.GetField("SplitCode").RenderValue()</td>
+                                <td>@offer.GetField("OfferCode").RenderValue()</td>
+                                <td>@offer.GetField("BaseOfferCode").RenderValue()</td>
+                                <td>@offer.GetField("PromoAssets").RenderValue()</td>
+                                 <td>@(offer.GetField("PromoAssets").GetReferenceItemName(false))</td>
+                                <td>@offer.GetField("BaseOfferDateTime").RenderValue()</td>
+                                <td>@offer.GetField("PromoRules").RenderValue()</td>
+                                <td>@offer.GetField("PromoType").RenderValue()</td>
+                                <td>@(offer.GetField("PromoType").GetReferenceItemName(false))</td>
+                                <td>@offer.GetField("EligibleProducts").RenderValue()</td>
+                                <td>@(offer.GetField("EligibleProducts").GetReferenceItemName(true))</td>
+                                <td>@offer.GetField("MinimumProducts").RenderValue()</td>
+                                <td>@offer.GetField("PaymentOptionsLozengeMessage").RenderValue()</td>
+                                <td>@offer.GetField("CountdownDateTime").RenderValue()</td>
+        
+                            </tr>
+                    };
+                }
+            </table>
+        }
+        
+        @helper ExportOffer(Item item, IEnumerable<Item> offerItems)
+        {
+        
+            StringBuilder content = new StringBuilder();
+            content.AppendLine("Name,SourceCode,SourceGroupCode,SourceGroupDesc,ActiveFrom,ActiveTo,SplitCode,OfferCode,BaseOfferCode,PromoAssets,PromoAssets Name,BaseOfferDateTime,PromoRules,PromoType,PromoTypeName,EligibleProducts,EligibleProducts Name, MinimumProducts,PaymentOptionsLozengeMessage,CountdownDateTime");
+        
+            foreach (Item offer in offerItems)
+            {
+                    content.AppendLine(offer.Name + "," + offer.Fields["SourceCode"].Value + "," + offer.Fields["SourceGroupCode"].Value + "," + offer.Fields["SourceGroupDesc"].Value + "," + offer.Fields["ActiveFrom"].Value + "," + offer.Fields["ActiveTo"].Value + "," + offer.Fields["SplitCode"].Value + "," + offer.Fields["OfferCode"].Value + "," + offer.Fields["BaseOfferCode"].Value + "," + offer.Fields["PromoAssets"].Value + "," + offer.GetField("PromoAssets").GetReferenceItemName(false) + "," + offer.Fields["BaseOfferDateTime"].Value + "," + offer.Fields["PromoRules"].Value + "," + offer.Fields["PromoType"].Value + "," + offer.GetField("PromoType").GetReferenceItemName(false) + "," + offer.Fields["EligibleProducts"].Value + ",\"" + offer.GetField("EligibleProducts").GetReferenceItemName(true) + "\"," + offer.Fields["MinimumProducts"].Value + "," + offer.Fields["PaymentOptionsLozengeMessage"].Value + "," + offer.Fields["CountdownDateTime"].Value);
+            }
+        
+            System.Web.HttpContext.Current.Response.Clear();
+            System.Web.HttpContext.Current.Response.Buffer = true;
+            System.Web.HttpContext.Current.Response.AddHeader("content-disposition", "attachment;filename=OfferConfiguration.csv");
+            System.Web.HttpContext.Current.Response.Charset = "";
+            System.Web.HttpContext.Current.Response.ContentType = "application/text";
+            System.Web.HttpContext.Current.Response.Output.Write(content);
+            System.Web.HttpContext.Current.Response.Flush();
+            System.Web.HttpContext.Current.Response.End();
+        }
+        
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230404T123346Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230720T031619Z
+  - Version: 5
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230417T092241Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "90f8640c-2a8f-4ebf-9fd8-4e1c6b365caf"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using Sitecore.Mvc.Presentation;
+        @using System.Linq;
+        @using System.Text;
+        @using System.Web;
+        @using System.Web.UI;
+        @using Sitecore.Data;
+        @using System;
+        @using System.Collections.Generic;
+        @using TheAA.Application.ViewModels
+        @using TheAA.Foundation.Rendering;
+        @using Sitecore.Data.Items;
+        @using Sitecore.Data.Fields
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        
+        @{
+            if (Model != null && Model.Rendering != null && Model.Rendering.Item != null && Model.Rendering.Item.Database != null)
+            {
+                var item = Model.Rendering.Item;
+                var rootPath = Sitecore.Context.Item.Paths.Path;
+                var filterPath = Utility.GetQueryStringParameter("folder");
+                var activeFrom = Utility.GetQueryStringParameter("activeFrom");
+                var activeTo = Utility.GetQueryStringParameter("activeTo");
+                var format = Utility.GetQueryStringParameter("format");
+                if (!string.IsNullOrEmpty(filterPath))
+                {
+                    item = item.Database.GetItem(filterPath) ?? item;
+                }
+        
+                <a href="@rootPath?folder=">Home</a>
+                <br />
+                foreach (Item localItem in item.Children)
+                {
+                    if (localItem.TemplateName == "Folder")
+                    {
+                        <a href="@rootPath?folder=@localItem.Paths.FullPath">@localItem.Name</a>
+                        <br />
+                    }
+                };
+                IEnumerable<Item> offerItems = item.Children.Where(x => x.TemplateName == "Offer");
+                if (!string.IsNullOrEmpty(activeFrom) && !string.IsNullOrEmpty(activeTo))
+                {
+                    var activeFromDate = DateTime.ParseExact(activeFrom, "MM-dd-yyyy", null);
+                    var activeToDate = DateTime.ParseExact(activeTo, "MM-dd-yyyy", null);
+        
+                    offerItems = offerItems.Where(x => x.GetDateFieldValue("ActiveFrom") >= activeFromDate &&
+              x.GetDateFieldValue("ActiveTo") <= activeToDate);
+        
+                }
+                List<List<string>> offerData = new List<List<string>>();
+        
+                offerData.Add(new List<string>(){
+                    "Name","SourceCode","SourceGroupCode","SourceGroupDesc","ActiveFrom","ActiveTo","SplitCode",
+                    "OfferCode","BaseOfferCode","PromoAssets","PromoAssets Name","BaseOfferDateTime",
+                    "PromoRules","PromoType","PromoTypeName","EligibleProducts","EligibleProducts Name",
+                    "MinimumProducts","PaymentOptionsLozengeMessage","CountdownDateTime"
+                    });
+        
+                foreach (Item offer in offerItems)
+                {
+                    offerData.Add(new List<string>() {
+                        offer.Name,offer.GetField("SourceCode").Value(),offer.GetField("SourceGroupCode").Value(),
+                        offer.GetField("SourceGroupDesc").Value(),offer.GetField("ActiveFrom").Value(),
+                        offer.GetField("ActiveTo").Value(),offer.GetField("SplitCode").Value(),
+                        offer.GetField("OfferCode").Value(),offer.GetField("BaseOfferCode").Value(),
+                        offer.GetField("PromoAssets").Value(),(offer.GetField("PromoAssets").GetReferenceItemName(false)),
+                        offer.GetField("BaseOfferDateTime").Value(),offer.GetField("PromoRules").Value(),
+                        offer.GetField("PromoType").Value(),(offer.GetField("PromoType").GetReferenceItemName(false)),
+                        offer.GetField("EligibleProducts").Value(),(offer.GetField("EligibleProducts").GetReferenceItemName(true)),
+                        offer.GetField("MinimumProducts").Value(),offer.GetField("PaymentOptionsLozengeMessage").Value(),
+                        offer.GetField("CountdownDateTime").Value()
+                    });
+                }
+        
+                if (!string.IsNullOrEmpty(format) && format.ToLower() == "csv")
+                {
+                    @ExportOffer(offerData);
+        
+                }
+                @GenerateTable(offerData);
+            }
+        }
+        
+        @helper GenerateTable(List<List<string>> offerData)
+        {
+            if (offerData != null && offerData.Count >= 1)
+            {
+                <table border="1">
+                    <tr>
+                        @foreach (var headerCell in offerData.First())
+                        {
+                            <th>@headerCell</th>
+                        }
+                    </tr>
+                    @foreach (var offer in offerData.Skip(1))
+                    {
+                        <tr>
+                            @foreach (var offerProperty in offer)
+                            {
+                                <td>@offerProperty</td>
+                            }
+                        </tr>
+                    }
+                </table>
+            }
+        }
+        
+        @helper ExportOffer(List<List<string>> offerData)
+        {
+            StringBuilder content = new StringBuilder();
+        
+            foreach (var offer in offerData)
+            {
+                content.AppendLine("\"" + String.Join("\",\"", offer) + "\"");
+            }
+        
+            System.Web.HttpContext.Current.Response.Clear();
+            System.Web.HttpContext.Current.Response.Buffer = true;
+            System.Web.HttpContext.Current.Response.AddHeader("content-disposition", "attachment;filename=OfferConfiguration.csv");
+            System.Web.HttpContext.Current.Response.Charset = "";
+            System.Web.HttpContext.Current.Response.ContentType = "application/text";
+            System.Web.HttpContext.Current.Response.Output.Write(content);
+            System.Web.HttpContext.Current.Response.Flush();
+            System.Web.HttpContext.Current.Response.End();
+        }
+        
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230417T092241Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230720T031619Z

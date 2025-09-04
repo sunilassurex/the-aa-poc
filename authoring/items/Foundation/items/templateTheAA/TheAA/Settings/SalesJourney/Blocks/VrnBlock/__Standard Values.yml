@@ -1,0 +1,26 @@
+﻿---
+ID: "b5ee0c23-afec-46ec-b10a-9e1c192c5b69"
+Parent: "5f3b1670-e94c-4e67-bfdf-4f3d7ab2ed8b"
+Template: "5f3b1670-e94c-4e67-bfdf-4f3d7ab2ed8b"
+Path: /sitecore/templates/TheAA/Settings/SalesJourney/Blocks/VrnBlock/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170223T164628Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1d1b92d8-5f29-41be-b621-a30647e77af3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20170224T162742Z
+    - ID: "fdfd86d5-1862-4393-8426-42012d76f30f"
+      Hint: RenderingViewPath
+      Value: "{29B04CD4-DB2F-4E9B-A34F-0DC873D2E3BB}"

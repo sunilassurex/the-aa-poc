@@ -1,0 +1,46 @@
+﻿---
+ID: "9f8c2893-1c9a-4bb1-a09e-994cc9f97ae5"
+Parent: "75475a44-b3f0-4edb-b634-76b8b18540a5"
+Template: "8867f7fc-d06b-4885-8275-b58305162e2e"
+Path: "/sitecore/content/AA/Beam/Modules/RelatedLinks/terms-and-conditions/terms and conditions"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211209T151756Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "82441fa8-6c8b-41fd-8b50-4a8e3739abd4"
+      Hint: Title
+      Value: About our website
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0f75c07d-1d54-4c4c-998c-a884aa623c33"
+    - ID: "b5f160d8-be57-47f8-963f-7a4727453ec8"
+      Hint: FirstColumnLinks
+      Value: |
+        {C61F2AF5-200F-490F-ACE7-C85329404B75}
+        {C97B8714-275C-491D-910D-28242E418104}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\damireddye
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220114T155857Z

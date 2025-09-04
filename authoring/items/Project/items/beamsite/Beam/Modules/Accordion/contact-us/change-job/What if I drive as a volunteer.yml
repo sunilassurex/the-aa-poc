@@ -1,0 +1,47 @@
+﻿---
+ID: "650a0677-0adb-4806-bad9-baa1c83ff098"
+Parent: "a25e59f1-a5f3-4dd6-8403-9e76c9657551"
+Template: "11e11bcb-aa73-4cd2-a73e-fbeedfe8da05"
+Path: "/sitecore/content/AA/Beam/Modules/Accordion/contact-us/change-job/What if I drive as a volunteer"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200409T155705Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\THOMASZ
+    - ID: "749a64ef-7923-4778-84e9-4c7e1aa9cbe0"
+      Hint: OpenByDefault
+      Value: 1
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "57cae4f0-d9ff-4b69-be70-79f8e5c6ba35"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <p>Due to the current coronavirus (COVID-19) situation, some drivers have signed up with voluntary organisations to help people who can't leave their homes. If this is you, you might be wondering if your insurance is still valid.</p>
+        <p>If you're using your car for voluntary purposes to transport medicines or groceries to help others impacted by coronavirus, your cover won't be affected.</p>
+        <p>If you've become an NHS Volunteer Responder, your car will also be covered for community response, patient transport and NHS transport volunteering.</p>
+        <p>You don't need to contact us either to update your policy or extend your cover.</p>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: "What if I drive as a volunteer?"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211130T164223Z

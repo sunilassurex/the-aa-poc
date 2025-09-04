@@ -1,0 +1,258 @@
+﻿---
+ID: "7dd135ea-00c3-40d5-bcb5-2c236e7a5441"
+Parent: "ad31cd89-3849-4f83-8125-b9e194580de4"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: /sitecore/layout/Renderings/Feature/AA/Basic Content/ContactUsPhoneResult
+SharedFields:
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/TheAA/Modules/ContactUsPhoneResult
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+- ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
+  Hint: Parameters Template
+  Value: "{8CC07200-60DB-4863-A209-7BCCF8ADB883}"
+- ID: "a2f5d9df-8cba-4a1d-99eb-51acb94cb057"
+  Hint: Page Editor Buttons
+  Value: "{48D166E3-236A-4B8F-99D8-E33F299E5B82}"
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "query:/sitecore/content/TheAA/Modules/Contact Us Phone Result"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170111T132952Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1a9c4c1b-c01c-4a23-8a00-d68068cb4dc7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241001T014701Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240403T112423Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f6f81f8e-93f1-45f5-a647-48e1e5dbc79a"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using Sitecore.Mvc.Presentation
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @using System.Linq;
+        @using TheAA.Application.Constants;
+        @using System.Globalization;
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        
+        @if (Model == null)
+        {
+            return;
+        }
+        @functions{
+            public class OpeningTime
+            {
+                public string Closes { get; set; }
+                public string Opens { get; set; }
+                public string SummaryText { get; set; }
+            }
+            void GetOpeningTimeRangeForDay(DayOfWeek day, out DateTime? from, out DateTime? to)
+            {
+                string fromString = "";
+                string toString = "";
+        
+                switch (day)
+                {
+                    case DayOfWeek.Monday:
+                        fromString = Model.GetField("MondayFrom").Value();
+                        toString = Model.GetField("MondayTo").Value();
+                        break;
+                    case DayOfWeek.Tuesday:
+                        fromString = Model.GetField("TuesdayFrom").Value();
+                        toString = Model.GetField("TuesdayTo").Value();
+                        break;
+                    case DayOfWeek.Wednesday:
+                        fromString = Model.GetField("WednesdayFrom").Value();
+                        toString = Model.GetField("WednesdayTo").Value();
+                        break;
+                    case DayOfWeek.Thursday:
+                        fromString = Model.GetField("ThursdayFrom").Value();
+                        toString = Model.GetField("ThursdayTo").Value();
+                        break;
+                    case DayOfWeek.Friday:
+                        fromString = Model.GetField("FridayFrom").Value();
+                        toString = Model.GetField("FridayTo").Value();
+                        break;
+                    case DayOfWeek.Saturday:
+                        fromString = Model.GetField("SaturdayFrom").Value();
+                        toString = Model.GetField("SaturdayTo").Value();
+                        break;
+                    case DayOfWeek.Sunday:
+                        fromString = Model.GetField("SundayFrom").Value();
+                        toString = Model.GetField("SundayTo").Value();
+                        break;
+                    default:
+                        throw new ArgumentOutOfRangeException(day.ToString(), "Unknown day");
+                }
+        
+                from = ParseTime(fromString);
+                to = ParseTime(toString);
+            }
+            DateTime? ParseTime(string timeAsString)
+            {
+                if (string.IsNullOrWhiteSpace(timeAsString))
+                {
+                    return null;
+                }
+        
+                return DateTime.Today + TimeSpan.Parse(timeAsString);
+            }
+            string GetCurrentStatus()
+            {
+                if (Model.GetField("IsAlwaysOpen").Checked)
+                {
+                    return Model.GetLookupValue(LabelIds.TheAA.Modules.ContactUsPhoneResult.Fixed.ToString());
+                }
+        
+                DateTime? openFrom;
+                DateTime? openTo;
+                GetOpeningTimeRangeForDay(DateTime.Today.DayOfWeek, out openFrom, out openTo);
+        
+                if (!openFrom.HasValue || !openTo.HasValue)
+                {
+                    return Model.GetLookupValue(LabelIds.TheAA.Modules.ContactUsPhoneResult.ClosedToday.ToString());
+                }
+        
+                if (DateTime.Now < openTo.Value && DateTime.Now.AddMinutes(30) >= openTo.Value)
+                {
+                    return Model.GetLookupValue(LabelIds.TheAA.Modules.ContactUsPhoneResult.ClosingSoon.ToString());
+                }
+        
+                if (DateTime.Now < openTo.Value)
+                {
+                    return Model.GetLookupValue(LabelIds.TheAA.Modules.ContactUsPhoneResult.OpenToday.ToString());
+                }
+        
+                if (DateTime.Now >= openTo.Value)
+                {
+                    return Model.GetLookupValue(LabelIds.TheAA.Modules.ContactUsPhoneResult.ClosedNow.ToString());
+                }
+        
+                return Model.GetLookupValue(LabelIds.TheAA.Modules.ContactUsPhoneResult.Closed.ToString());
+            }
+            OpeningTime GetOpeningTimeForDay(DayOfWeek day)
+            {
+                DateTime? openFrom;
+                DateTime? openTo;
+                GetOpeningTimeRangeForDay(day, out openFrom, out openTo);
+        
+                if (!openFrom.HasValue || !openTo.HasValue)
+                {
+                    return new OpeningTime { SummaryText = Model.GetLookupValue(LabelIds.TheAA.Modules.ContactUsPhoneResult.Closed.ToString()) };
+                }
+        
+                return new OpeningTime
+                {
+                    Closes = openTo.Value.ToString("HH:mm:ss zzz"),
+                    Opens = openFrom.Value.ToString("HH:mm:ss zzz"),
+                    SummaryText = string.Format(Model.GetField("OpeningTimeLine").Value(), FormatTime(openFrom), FormatTime(openTo))
+                };
+            }
+        
+            Dictionary<DayOfWeek, OpeningTime> GetOpeningTimes()
+            {
+                var result = new Dictionary<DayOfWeek, OpeningTime>();
+                foreach (var dayOfWeek in Enum.GetValues(typeof(DayOfWeek)).Cast<DayOfWeek>())
+                {
+                    result.Add(dayOfWeek, GetOpeningTimeForDay(dayOfWeek));
+                }
+        
+                return result;
+            }
+            string FormatTime(DateTime? time)
+            {
+                if (time != null)
+                    return time.Value.ToString(time.Value.Minute == 0 ? "htt" : "h:mmtt").ToLowerInvariant();
+                else
+                    return "";
+            }
+            Dictionary<string, OpeningTime> ShiftOpeningTimesToDay(DayOfWeek day, Dictionary<DayOfWeek, OpeningTime> openingTimes)
+            {
+                // Order list of days so that the current day is first in the list, and the other days follow in sequence.
+                return openingTimes.ToArray()
+                    .OrderBy(k => k.Key < day)
+                    .ThenBy(k => k.Key)
+                    .ToDictionary(k => CultureInfo.CurrentUICulture.DateTimeFormat.DayNames[(int)k.Key], k => k.Value);
+            }
+        }
+        @{
+            string currentStatus = GetCurrentStatus();
+        
+            var times = GetOpeningTimes();
+            var timeBreakdown = ShiftOpeningTimesToDay(DateTime.Now.DayOfWeek, times);
+        }
+        <div class="result-card @Model.GetRenderingParameterLookup("Design") phone-card" typeof="ContactPoint">
+            <h5>@Model.GetField("Title").RenderValue()</h5>
+            <p property="description">@Model.GetField("Introduction").RenderValue()</p>
+            <h3 property="telephone">@Model.GetField("PhoneNumber").RenderValue()</h3>
+        
+            @if (@Model.GetField("IsAlwaysOpen").Checked)
+            {
+                <div class="fixed"><span property="hoursAvailable">@currentStatus</span></div>
+            }
+            else
+            {
+                <button class="hours" data-current-status="@currentStatus"> @currentStatus <span class="time" tabindex="0">@timeBreakdown.First().Value.SummaryText</span> <span class="arrow"></span></button>
+                <div class="opening-hours">
+                    @foreach (var dayTime in timeBreakdown)
+                    {
+                        <div class="@(dayTime.Key == timeBreakdown.Keys.First() ? "today" : "")" property="hoursAvailable" typeof="OpeningHoursSpecification">
+                            <span class="day" property="dayOfWeek">@dayTime.Key</span>
+                            <span class="time" property="description">@dayTime.Value.SummaryText</span>
+                            @if (!string.IsNullOrEmpty(dayTime.Value.Opens))
+                            {
+                                <meta property="opens" content="@dayTime.Value.Opens" />
+                                <meta property="closes" content="@dayTime.Value.Closes" />
+                            }
+                        </div>
+                    }
+                </div>
+            }
+        
+            @if (Sitecore.Context.PageMode.IsExperienceEditorEditing)
+            {
+                <div>@Model.GetField("CallToActionText").RenderValue()</div>
+            }
+            else
+            {
+                <a class="button primary ra @(Model.GetField("ShowUserFeedbackForm").Checked? " user-feedback-view":"")" href="tel:@Model.GetField("PhoneNumber").Value().Replace(" ", string.Empty)">@Model.GetField("CallToActionText").RenderValue()</a>
+            }
+        
+            <div class="info">
+                @Model.GetField("CallCosts").RenderValue()
+            </div>
+        </div>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240403T112423Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241001T014701Z

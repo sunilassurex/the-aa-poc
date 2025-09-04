@@ -1,0 +1,81 @@
+﻿---
+ID: "4a0b39c8-82f7-40f1-8527-4168fdf1850e"
+Parent: "ee577231-24b1-436e-8f60-137242d30734"
+Template: "ee577231-24b1-436e-8f60-137242d30734"
+Path: /sitecore/templates/Feature/AA/LandingPage/LandingPage/__Standard Values
+SharedFields:
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}"
+        l="{602F8737-5DD4-412F-98E7-27AC5CC3F96B}">
+        <r
+          id="{5357408E-17C9-49CB-A347-D08BB325A605}"
+          ph="/metadata"
+          uid="{97F4A3A2-E660-424F-B42F-1C7AD0508638}" />
+        <r
+          id="{436B72C8-6E27-4DF1-9551-D8F3566074BA}"
+          ph="/html-head"
+          uid="{A88C1A2D-83F9-4253-ACA3-DE177C1D4246}" />
+        <r
+          ds=""
+          id="{5CC853E2-4BCB-492B-BE97-09F5DC411165}"
+          par=""
+          ph="/theaa"
+          uid="{0A55DF44-1EF9-4857-BBC6-973EA3CCEA9D}" />
+        <r
+          id="{07AAC56A-53D0-4ADB-9C0A-E8D08346320C}"
+          par="test=foo"
+          ph="/theaa"
+          uid="{AFB59DDE-A881-4B86-A7D4-62EB32D155A7}" />
+        <r
+          id="{CB07F613-1844-4187-829D-E532CCD0D6EE}"
+          ph="/theaa"
+          uid="{8F755298-621B-4347-9953-7C97E6BE2214}" />
+        <r
+          id="{6E7CF1C4-F6CB-44AA-B540-106050B7C3D9}"
+          ph="/theaa"
+          uid="{B7CE636A-484B-4FE0-BFA1-29BCFC452261}" />
+        <r
+          id="{4D029954-47A0-412F-A969-BAA86E7AFADF}"
+          ph="awards"
+          uid="{C4D145AB-56C5-4907-8B14-A61D2A7C7F99}" />
+        <r
+          ds=""
+          id="{4AAA855D-AF56-4FD0-AC27-FFFA2C88303F}"
+          par=""
+          ph="/theaa"
+          uid="{A9FABA17-B7AB-4BCB-8C36-D81F019EDB71}" />
+        <r
+          id="{069E6267-0F3B-4C27-9C49-BEE08AE96F50}"
+          ph="/theaa"
+          uid="{CFCEAFA2-7BB8-4D35-A642-B19D98E21E26}" />
+        <r
+          id="{87EE3C14-F995-4431-A288-BC4408049362}"
+          ph="/theaa"
+          uid="{C75A4BE0-CCC3-4FF7-9ED6-AF4B6C486AE0}" />
+      </d>
+    </r>
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240718T113112Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3866e4c7-897e-4a0b-a42f-172e3ed1ced6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241024T015425Z

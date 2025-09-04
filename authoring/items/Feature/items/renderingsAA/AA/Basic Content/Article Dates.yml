@@ -1,0 +1,138 @@
+﻿---
+ID: "f663b2e6-5b1a-4ddd-96b2-37fe596ae731"
+Parent: "ad31cd89-3849-4f83-8125-b9e194580de4"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: /sitecore/layout/Renderings/Feature/AA/Basic Content/Article Dates
+SharedFields:
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+- ID: "56776edf-261c-4abc-9fe7-70c618795239"
+  Hint: __Help link
+  Value: |
+    <link text="Article dates Component Confluence Page" linktype="external" url="https://theaacom.atlassian.net/wiki/x/ToCrIgE" anchor="" target="" />
+Languages:
+- Language: en
+  Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: This component displays Article Published, Article Modified, Author.
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: This component displays Article Published, Article Modified, Author
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240509T121650Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Paul.Petersen
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2a22a9e4-09ee-4ca7-b381-a81d93ab5621"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using System;
+        @using System.Text.RegularExpressions;
+        @using System.Web.Mvc;
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Foundation.Rendering.Query;
+        @using TheAA.Application.ViewModels;
+        @using Sitecore.Data.Items;
+        @using System.Collections.Generic;
+        @model ContentViewRenderingModel
+        
+        <!-- Article Dates rendering START -->
+                
+        @functions {
+        	public string GetDateTime(string fieldName, string fallbackFieldName) {
+        		var field = Model.GetField(fieldName);
+        		if (!field.HasValueToRender()){
+        		 field = Model.GetField(fallbackFieldName);
+        		}
+        		
+        		DateTime value = Sitecore.DateUtil.IsoDateToDateTime(field.Value());
+        		var britishZone = TimeZoneInfo.FindSystemTimeZoneById("GMT Standard Time");
+        		var newDate = TimeZoneInfo.ConvertTime(value, TimeZoneInfo.Utc, britishZone);
+        		return newDate.ToString("dd' 'MMMM' 'yyyy");
+        	}
+        }
+        		
+        @{       
+        	string dateModified = GetDateTime("CustomUpdatedDate", "__updated");
+        	string datePublished = GetDateTime("CustomCreatedDate", "__created");
+                
+        	<div class = "small-text disclaimer rich-text">
+        	<hr />
+        	<strong> Published: </strong> @datePublished | <strong> Updated: </strong>@dateModified | <strong>Author:</strong> The AA</div>
+        }
+                <!-- Article Dates rendering END -->
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250703T014958Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250624T114243Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "237ecd7f-593c-4eb7-a031-d929d7b7dfd5"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using System;
+        @using System.Text.RegularExpressions;
+        @using System.Web.Mvc;
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Foundation.Rendering.Query;
+        @using TheAA.Application.ViewModels;
+        @using Sitecore.Data.Items;
+        @using System.Collections.Generic;
+        @model ContentViewRenderingModel
+        
+        <!-- Article Dates rendering START -->
+        
+        @functions {
+            public string GetDateTime(string fieldName, string fallbackFieldName)
+            {
+                var field = Model.GetField(fieldName);
+                if (!field.HasValueToRender())
+                {
+                    field = Model.GetField(fallbackFieldName);
+                }
+        
+                var britishZone = TimeZoneInfo.FindSystemTimeZoneById("GMT Standard Time");
+                var newDate = TimeZoneInfo.ConvertTime(field.RenderDateTimeValue(), TimeZoneInfo.Utc, britishZone);
+                return newDate.ToString("dd' 'MMMM' 'yyyy");
+            }
+        }
+        
+        @{
+            string dateModified = GetDateTime("CustomUpdatedDate", "__updated");
+            string datePublished = GetDateTime("CustomCreatedDate", "__created");
+        
+            <div class="small-text disclaimer rich-text">
+                <hr />
+                <strong> Published: </strong> @datePublished | <strong> Updated: </strong>@dateModified | <strong>Author:</strong> The AA
+            </div>
+        }
+        <!-- Article Dates rendering END -->
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20250624T114243Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250703T014958Z

@@ -1,0 +1,23 @@
+﻿---
+ID: "3d47ecac-605b-41a2-957b-107279723a55"
+Parent: "79aaf8b0-71b0-465b-9935-b3c798e7c3ab"
+Template: "e269fbb5-3750-427a-9149-7aa950b49301"
+Path: /sitecore/templates/Foundation/AA/Base Interface/_UserFeedbackForm/User Feedback Form
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220420T120515Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a3cc429a-d0de-4f3e-8612-915b5cb28f47"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220512T033528Z

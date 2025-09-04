@@ -1,0 +1,50 @@
+﻿---
+ID: "35690067-6fec-4c4e-94af-45fcd472c66b"
+Parent: "fce7e83c-bac4-4ef0-9059-18bce2156367"
+Template: "bf6d1191-bbaf-4fa3-9f35-65509dbbf808"
+Path: "/sitecore/content/AA/mobile-app/mobile-app/components/accordion/logged-in/rabo-track-accordion-whatsapp-installed"
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: 
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240909T112059Z
+    - ID: "278c87b5-683b-44c2-9183-ec8f6df7c66d"
+      Hint: ContactUs CTA
+      Value: |
+        <link text="contact us" linktype="javascript" url="javascript:internal://contact-us?screen=wa-installed" anchor="" title="contact us" />
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "155e708e-7be0-48fa-9316-672eed831113"
+    - ID: "a92ee362-44d2-4d10-920c-b0cc453fd34e"
+      Hint: AccordionSectionSelection
+      Value: "{B29A59EA-0BDF-4790-BFF2-3A458355C95C}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241104T135845Z
+    - ID: "f3f91483-47d5-48ba-871f-9bbb19a7d21d"
+      Hint: AccordionHeader
+      Value: 

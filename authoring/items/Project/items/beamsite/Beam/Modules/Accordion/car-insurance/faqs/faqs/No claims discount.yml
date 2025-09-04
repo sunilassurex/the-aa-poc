@@ -1,0 +1,448 @@
+﻿---
+ID: "99bf5cc9-0c5c-48d9-97a4-e63bc6c64c8f"
+Parent: "c0a17c5e-4619-4995-a65d-d584eb4da39d"
+Template: "11e11bcb-aa73-4cd2-a73e-fbeedfe8da05"
+Path: "/sitecore/content/AA/Beam/Modules/Accordion/car-insurance/faqs/faqs/No claims discount"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 400
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200804T094647Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4d22a96d-e1c6-4477-8565-98e0b2931d36"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h2>What is a no claim discount?</h2>
+        <p>A no claim discount is a reward for not making a claim on your motor insurance policy. Each year the discount on your renewal premium increases, reaching a maximum discount after 14 years without a claim.</p>
+        <p>If you do make a claim, your discount will normally be less at the next renewal if your insurance company cannot get their money back from the person responsible.</p>
+        <hr />
+        <h2>Where can I find proof of my no claim discount?</h2>
+        <p><strong>New customers</strong><br />
+        When you get a car insurance quote, we ask how many years no claim discount you already have. This information can be found on the cancellation notice or last renewal invitation from your previous insurer. </p>
+        <p>In order to validate your policy after purchase, we may ask for <strong>proof of the discount</strong> you've earned. You can send us a copy of the renewal or cancellation notice, or a letter on headed paper from your previous insurer.</p>
+        <p>The document must be dated within the past 2 years, and isn't used for another vehicle. Also, please tell us about any gap of more than 30 days between your previous and the new AA policy, including claims or convictions. </p>
+        <p>You can either email or send the document to us:</p>
+        <p><a href="mailto:ncd.validation@theaa.com">ncd.validation@theaa.com</a></p>
+        <p>AA PO Box 2AA, Newcastle upon Tyne NE99 2AA </p>
+        <p>The document should show: </p>
+        <ul>
+            <li>Your name and address</li>
+            <li>The previous insurance policy number and expiry date</li>
+            <li>The vehicle registration number</li>
+            <li>Number of years no claim discount</li>
+        </ul>
+        <p>On receipt we'll acknowledge the proof of your no claim discount. If we do need further information, we'll allow you sufficient time to provide it. Meanwhile, your AA car insurance policy remains active.</p>
+        <p><strong>Existing customers</strong><br />
+        If you already have car insurance with us, the number of years no claim discount is on your certificate of insurance. You'll have received a copy at purchase or renewal, either by post or in your <a href="~/link.aspx?_id=696317C92C9443E5917575A761C705E1&amp;_z=z">online account</a>. If you need a replacement certificate of insurance, please call us on <strong>0370 533 2211</strong>. </p>
+        <hr />
+        <h2>Can I protect my no claim discount?</h2>
+        <p>Yes, you can pay an additional premium to protect your no claim discount. Depending on your insurer, you can usually make two 'fault' claims in a 3- or 5-year period without affecting your no claim discount.</p>
+        <hr />
+        <h2>What is the AA Uninsured Driver Promise?</h2>
+        <p>If you make a claim following an accident that is not your fault, and the driver of the other vehicle is not insured, you won't lose your no claim discount or have to pay any excess.</p>
+        <p>We just ask you to tell us the other vehicle's make, model and valid registration number, so that we can identify the driver of the other vehicle.</p>
+        <hr />
+        <h2>Can a named driver earn no claim discount on my policy?</h2>
+        <p>Yes they can. Named drivers over 25 can earn their own no claim discount to use on a policy with us. See our page about <a href="/sitecore/shell/Controls/~/link.aspx?_id=A248375CC31E4664BBB77AF14885F435&amp;_z=z">named drivers</a>. </p>
+        <hr />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: No claim discount
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201015T074131Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201015T092725Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d7909e8c-8795-4b0d-8f91-b192ecf8eca8"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <h2>What is a no claim discount?</h2>
+        <p>A no claim discount is a reward for not making a claim on your motor insurance policy. Each year the discount on your renewal premium increases, reaching a maximum discount after 14 years without a claim.</p>
+        <p>If you do make a claim, your discount will normally be less at the next renewal if your insurance company cannot get their money back from the person responsible.</p>
+        <hr />
+        <br />
+        <h2>Where can I find proof of my no claim discount?</h2>
+        <p><strong>New customers</strong><br />
+        When you get a car insurance quote, we ask how many years no claim discount you already have. This information can be found on the cancellation notice or last renewal invitation from your previous insurer. </p>
+        <p>In order to validate your policy after purchase, we may ask for <strong>proof of the discount</strong> you've earned. You can send us a copy of the renewal or cancellation notice, or a letter on headed paper from your previous insurer.</p>
+        <p>The document must be dated within the past 2 years, and isn't used for another vehicle. Also, please tell us about any gap of more than 30 days between your previous and the new AA policy, including claims or convictions. </p>
+        <p>You can either email or send the document to us:</p>
+        <p><a href="mailto:ncd.validation@theaa.com">ncd.validation@theaa.com</a></p>
+        <p>AA PO Box 2AA, Newcastle upon Tyne NE99 2AA </p>
+        <p>The document should show: </p>
+        <ul>
+            <li>Your name and address</li>
+            <li>The previous insurance policy number and expiry date</li>
+            <li>The vehicle registration number</li>
+            <li>Number of years no claim discount</li>
+        </ul>
+        <p>On receipt we'll acknowledge the proof of your no claim discount. If we do need further information, we'll allow you sufficient time to provide it. Meanwhile, your AA car insurance policy remains active.</p>
+        <p><strong>Existing customers</strong><br />
+        If you already have car insurance with us, the number of years no claim discount is on your certificate of insurance. You'll have received a copy at purchase or renewal, either by post or in your <a href="~/link.aspx?_id=696317C92C9443E5917575A761C705E1&amp;_z=z">online account</a>. If you need a replacement certificate of insurance, please call us on <strong>0370 533 2211</strong>. </p>
+        <hr />
+        <br />
+        <h2>Can I protect my no claim discount?</h2>
+        <p>Yes, you can pay an additional premium to protect your no claim discount. Depending on your insurer, you can usually make two 'fault' claims in a 3- or 5-year period without affecting your no claim discount.</p>
+        <hr />
+        <br />
+        <h2>What is the AA Uninsured Driver Promise?</h2>
+        <p>If you make a claim following an accident that is not your fault, and the driver of the other vehicle is not insured, you won't lose your no claim discount or have to pay any excess.</p>
+        <p>We just ask you to tell us the other vehicle's make, model and valid registration number, so that we can identify the driver of the other vehicle.</p>
+        <hr />
+        <br />
+        <h2>Can a named driver earn no claim discount on my policy?</h2>
+        <p>Yes they can. Named drivers over 25 can earn their own no claim discount to use on a policy with us. See our page about <a href="/sitecore/shell/Controls/~/link.aspx?_id=A248375CC31E4664BBB77AF14885F435&amp;_z=z">named drivers</a>. </p>
+        <hr />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201015T092725Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: No claim discount
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20201015T092822Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20201202T115001Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "42200437-a26e-45ec-b245-0857f1a8b13f"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <a id="noclaimdiscount"></a>
+        <h3><span style="font-size: 24px;"><strong>What's a no claim discount?</strong></span></h3>
+        <p>A no claim discount is a reward for not making a claim on your motor insurance policy. Each year the discount on your renewal premium increases, reaching a maximum discount after 14 years without a claim.</p>
+        <p>If you do make a claim, your discount will normally be less at the next renewal if your insurance company can't get their money back from the person responsible.</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>Where can I find proof of my no claim discount?</strong></span></h3>
+        <h4><span style="font-size: 18px;">New customers</span></h4>
+        <p>When you get a car insurance quote, we ask how many years no claim discount you already have. This information can be found on the cancellation notice or last renewal invitation from your previous insurer.</p>
+        <p>In order to validate your policy after purchase, we may ask for proof of the discount you've earned. You can send us a copy of the renewal or cancellation notice, or a letter on headed paper from your previous insurer.</p>
+        <p>The document must be dated within the past 2 years, and isn't used for another vehicle. Also, please tell us about any gap of more than 30 days between your previous and the new policy, including claims or convictions.</p>
+        <p>You can either email or send the document to us:</p>
+        <p><a href="mailto:ncd.validation@theaa.com?subject=Proof%20of%20no%20claims%20discount">ncd.validation@theaa.com</a></p>
+        <p>AA PO Box 2AA, Newcastle upon Tyne NE99 2AA</p>
+        <p>The document should show:</p>
+        <ul>
+            <li>Your name and address</li>
+            <li>The previous insurance policy number and expiry date</li>
+            <li>The vehicle registration number</li>
+            <li>Number of years no claim discount</li>
+        </ul>
+        <p>On receipt we'll acknowledge the proof of your no claim discount. If we do need further information, we'll allow you sufficient time to provide it. Meanwhile, your car insurance policy remains active.</p>
+        <h4><span style="font-size: 18px;">Existing customers</span></h4>
+        <p>If you already have car insurance with us, the number of years no claim discount is on your certificate of insurance. You'll have received a copy at purchase. If you need a replacement certificate of insurance, please call us on <strong>0330 041 3684</strong>.</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>Can I protect my no claim discount?</strong></span></h3>
+        <p>Yes, you can pay an additional premium to protect your no claim discount. You&rsquo;ll usually need 4 or more years with no claims before the option of protecting your no claim discount becomes available. Depending on your insurer, you can usually make 2 'fault' claims in a 3- or 5-year period without affecting your no claim discount.</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>What's the Uninsured Driver Promise?</strong></span></h3>
+        <p>If you make a claim following an accident that isn't your fault, and the driver of the other vehicle isn't insured, you won't lose your no claim discount or have to pay any excess.</p>
+        <p>We just ask you to tell us the other vehicle's make, model and valid registration number, so that we can identify the driver of the other vehicle.</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>Can a named driver earn no claim discount on my policy?</strong></span></h3>
+        <p>Yes, they can. Named drivers over 25 can earn their own no claim discount to use on a policy with us.</p>
+        <hr />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20201202T115001Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: No claim discount
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220307T145456Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220413T134859Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f8f42b0b-ec24-4484-8592-3c1e32387144"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <a id="noclaimdiscount"></a>
+        <h3><span style="font-size: 24px;"><strong>What's a no claim discount?</strong></span></h3>
+        <p>A no claim discount is a reward for not making a claim on your motor insurance policy. Each year the discount on your renewal premium increases, reaching a maximum discount after 14 years without a claim.</p>
+        <p>If you do make a claim, your discount will normally be less at the next renewal if your insurance company can't get their money back from the person responsible.</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>Where can I find proof of my no claim discount?</strong></span></h3>
+        <h4><span style="font-size: 18px;">New customers</span></h4>
+        <p>When you get a car insurance quote, we ask how many years no claim discount you already have. This information can be found on the cancellation notice or last renewal invitation from your previous insurer.</p>
+        <p>In order to validate your policy after purchase, we may ask for proof of the discount you've earned. You can send us a copy of the renewal or cancellation notice, or a letter on headed paper from your previous insurer.</p>
+        <p>The document must be dated within the past 2 years, and isn't used for another vehicle. Also, please tell us about any gap of more than 30 days between your previous and the new policy, including claims or convictions.</p>
+        <p>You can either email or send the document to us:</p>
+        <p><a href="mailto:ncd.validation@aabeam.co.uk?subject=Proof%20of%20no%20claims%20discount">ncd.validation@aabeam.co.uk</a></p>
+        <p>The Customer Care Unit<br />
+        AA Insurance Services Ltd<br />
+        AA PO Box 2AA<br />
+        Newcastle upon Tyne NE99 2AA</p>
+        <p>The document should show:</p>
+        <ul>
+            <li>Your name and address</li>
+            <li>The previous insurance policy number and expiry date</li>
+            <li>The vehicle registration number</li>
+            <li>Number of years no claim discount</li>
+        </ul>
+        <p>On receipt we'll acknowledge the proof of your no claim discount. If we do need further information, we'll allow you sufficient time to provide it. Meanwhile, your car insurance policy remains active.</p>
+        <h4><span style="font-size: 18px;">Existing customers</span></h4>
+        <p>If you already have car insurance with us, the number of years no claim discount is on your certificate of insurance. You'll have received a copy at purchase. If you need a replacement certificate of insurance, please call us on <strong>0330 041 3684</strong>.</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>Can I protect my no claim discount?</strong></span></h3>
+        <p>Yes, you can pay an additional premium to protect your no claim discount. You&rsquo;ll usually need 4 or more years with no claims before the option of protecting your no claim discount becomes available. Depending on your insurer, you can usually make 2 'fault' claims in a 3- or 5-year period without affecting your no claim discount.</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>What's the Uninsured Driver Promise?</strong></span></h3>
+        <p>If you make a claim following an accident that isn't your fault, and the driver of the other vehicle isn't insured, you won't lose your no claim discount or have to pay any excess.</p>
+        <p>We just ask you to tell us the other vehicle's make, model and valid registration number, so that we can identify the driver of the other vehicle.</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>Can a named driver earn no claim discount on my policy?</strong></span></h3>
+        <p>Yes, they can. Named drivers over 25 can earn their own no claim discount to use on a policy with us.</p>
+        <hr />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220413T134859Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: No claim discount
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220413T140552Z
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230822T095843Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8e8243e2-a273-4458-b966-c8dc23f8fb52"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <a id="noclaimdiscount"></a>
+        <h3><span style="font-size: 24px;"><strong>What's a no claim discount?</strong></span></h3>
+        <p>A no claim discount is a reward for not making a claim on your motor insurance policy. Each year the discount on your renewal premium increases, reaching a maximum discount after 14 years without a claim.</p>
+        <p>If you do make a claim, your discount will normally be less at the next renewal if your insurance company can't get their money back from the person responsible.</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>Where can I find proof of my no claim discount?</strong></span></h3>
+        <h4><span style="font-size: 18px;">New customers</span></h4>
+        <p>When you get a car insurance quote, we ask how many years no claim discount you already have. This information can be found on the cancellation notice or last renewal invitation from your previous insurer.</p>
+        <p>In order to validate your policy after purchase, we may ask for proof of the discount you've earned. You can send us a copy of the renewal or cancellation notice, or a letter on headed paper from your previous insurer.</p>
+        <p>The document must be dated within the past 2 years, and isn't used for another vehicle. Also, please tell us about any gap of more than 30 days between your previous and the new policy, including claims or convictions.</p>
+        <p>You can either email or send the document to us:</p>
+        <p><a href="mailto:ncd.validation@aabeam.co.uk?subject=Proof%20of%20no%20claims%20discount">ncd.validation@aabeam.co.uk</a></p>
+        <p>Customer Care Unit<br />
+        The AA<br />
+        Q3, Quorum Business Park<br />
+        Benton Lane<br />
+        Newcastle upon Tyne NE12 8EX</p>
+        <p>The document should show:</p>
+        <ul>
+            <li>Your name and address</li>
+            <li>The previous insurance policy number and expiry date</li>
+            <li>The vehicle registration number</li>
+            <li>Number of years no claim discount</li>
+        </ul>
+        <p>On receipt we'll acknowledge the proof of your no claim discount. If we do need further information, we'll allow you sufficient time to provide it. Meanwhile, your car insurance policy remains active.</p>
+        <h4><span style="font-size: 18px;">Existing customers</span></h4>
+        <p>If you already have car insurance with us, the number of years no claim discount is on your certificate of insurance. You'll have received a copy at purchase. If you need a replacement certificate of insurance, please call us on <strong>0330 041 3684</strong>.</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>Can I protect my no claim discount?</strong></span></h3>
+        <p>Yes, you can pay an additional premium to protect your no claim discount. You&rsquo;ll usually need 4 or more years with no claims before the option of protecting your no claim discount becomes available. Depending on your insurer, you can usually make 2 'fault' claims in a 3- or 5-year period without affecting your no claim discount.</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>What's the Uninsured Driver Promise?</strong></span></h3>
+        <p>If you make a claim following an accident that isn't your fault, and the driver of the other vehicle isn't insured, you won't lose your no claim discount or have to pay any excess.</p>
+        <p>We just ask you to tell us the other vehicle's make, model and valid registration number, so that we can identify the driver of the other vehicle.</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>Can a named driver earn no claim discount on my policy?</strong></span></h3>
+        <p>Yes, they can. Named drivers over 25 can earn their own no claim discount to use on a policy with us.</p>
+        <hr />
+        <br class="t-last-br" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230822T095843Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: No claim discount
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230822T100958Z
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240910T094519Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8e1baa96-76a4-4631-9469-8cdc13b28f86"
+    - ID: "b7732f91-b3c6-4d07-ab47-dd6bac529ce5"
+      Hint: AccordionText
+      Value: |
+        <a id="noclaimdiscount"></a>
+        <br />
+        <h2>What is a no claims discount?</h2>
+        <p>A no claims discount is a reward for not making a claim on your car insurance in the past policy year. </p>
+        <p>The number of no claims discount years will be shown on your renewal invitation or current Certificate of Insurance.</p>
+        <p>If you do make a claim, your discount will normally be less at the next renewal if your insurer can't get their money back from the person responsible.</p>
+        <hr />
+        <br />
+        <h2>Where can I find proof of my no claims discount?</h2>
+        <p><strong>New customers</strong></p>
+        <p>When you get a car insurance quote, we ask how many years no claims discount you already have. This information is on the cancellation notice or last renewal invitation from your previous insurer. </p>
+        <p>In order to validate your policy after purchase, we may ask for <strong>proof of the discount</strong> you've earned. You can send us a copy of the renewal or cancellation notice, or a letter on headed paper from your previous insurer.</p>
+        <p>The document must be dated within the past 2 years, and isn't used for another vehicle. Also, please tell us about any gap of more than 30 days between your previous and the new policy, including claims or convictions. </p>
+        <p>You can either email or send the document to us:</p>
+        <p><a href="mailto:ncd.validation@aabeam.co.uk?subject=Proof%20of%20no%20claims%20discount">ncd.validation@aabeam.co.uk</a></p>
+        <p>The AA <br />
+        Q3, Quorum Business Park <br />
+        Benton Lane <br />
+        Newcastle upon Tyne NE12 8EX</p>
+        <p>The document should show: </p>
+        <ul>
+            <li>Your name and address</li>
+            <li>The previous insurance policy number and expiry date</li>
+            <li>The vehicle registration number</li>
+            <li>Number of years no claims discount</li>
+        </ul>
+        <p>On receipt we'll acknowledge the proof of your no claims discount. If we do need further information, we'll allow you sufficient time to provide it. Meanwhile, your car insurance policy remains active.</p>
+        <p><strong>Existing customers</strong></p>
+        <p>If you already have car insurance with us, the number of years no claims discount is on your Certificate of Insurance. You'll have received a copy at purchase. If you need a replacement Certificate of Insurance, please call us on <strong>0330 041 3684</strong>.</p>
+        <hr />
+        <br />
+        <h2>Can I protect my no claims discount?</h2>
+        <p>Yes, you can pay an additional premium to protect your no claims discount. </p>
+        <p>No claims discount protection allows you to make one or more claims before your number of no claims discount years falls.</p>
+        <p>A claim for windscreen repair or replacement won't affect your no claims discount.</p>
+        <p>No claims discount protection doesn't protect the renewal price of your insurance policy. The premium may increase following an accident, even if you weren't at fault.</p>
+        <hr />
+        <br />
+        <h2>What's the uninsured driver promise?</h2>
+        <p>If you make a claim following an accident that is not your fault, and the driver of the other vehicle is not insured, you won't lose your no claims discount or have to pay any excess.</p>
+        <p>We just ask you to tell us the other vehicle's make, model and valid registration number, so that we can identify the driver of the other vehicle.</p>
+        <hr />
+        <br />
+        <h2>Can a named driver earn no claims discount on my policy?</h2>
+        <p>Yes, they can. Named drivers over 25 can earn their own no claims discount to use on a policy with us.</p>
+        <hr />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240910T094519Z
+    - ID: "cf11d58a-0fcf-45e8-8483-5426fa69d2ba"
+      Hint: AccordionTitle
+      Value: No claims discount
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241119T124957Z

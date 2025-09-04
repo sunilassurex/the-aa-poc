@@ -1,0 +1,992 @@
+﻿---
+ID: "a0300317-be77-408b-8db5-8f0001486d94"
+Parent: "e765e8a9-6ff4-4dd9-8a72-ba9b78b7eaa0"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: /sitecore/layout/Renderings/Feature/AA/Finance/Savings/SavingsProductComparison
+SharedFields:
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/TheAA/Modules/FinancialServicesProductComparison
+- ID: "3ad2506a-dc39-4b1e-959f-9d524addbf50"
+  Hint: VaryByParm
+  Value: 1
+- ID: "3d08db46-2267-41b0-bc52-be69fd618633"
+  Hint: Cacheable
+  Value: 1
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+- ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
+  Hint: Parameters Template
+  Value: "{AC047CDA-5EDA-4889-AB4F-C4180B09B094}"
+- ID: "8b6d532b-6128-4486-a044-ca06d90948ba"
+  Hint: VaryByData
+  Value: 1
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: "query:/sitecore/content/TheAA/Modules/Financial Services Product Comparisons"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200811T125633Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\paul_petersen
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d1be1e15-16b2-4744-bfea-21c97bd6e736"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using Sitecore.Mvc.Presentation
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @model ContentViewRenderingModel
+        
+        @if (string.IsNullOrEmpty(Model.Rendering.DataSource))
+        {
+            return;
+        }
+        
+        @if (!string.IsNullOrEmpty(Model.Rendering.DataSource))
+        {
+            var features = new[] { Model.GetField("Features") };
+            var products1 = new[] { Model.GetField("Row1Products") };
+            var products2 = new[] { Model.GetField("Row2Products") };
+            var products3 = new[] { Model.GetField("Row3Products") };
+            string iconName = string.Empty;
+        
+            <article class="component-section-title rich-text centred white-bg-color">
+                <div class="wrapper cf">
+                    <h5>@Model.GetField("Title").RenderValue()</h5>
+                    @*<p>@Model.GetField("Description").RenderValue()</p>*@
+                </div>
+            </article>
+        
+            <section class="product-comparison financial-services cf">
+                <div class="wrapper cf">
+                    <div class="table">
+                        <div class="table-body">
+                            <header class="table-headings">
+                                <div class="description input heading-banner" style="background-image: url(&quot;~/media/the-aa/banner-images/large-beam.png?rev=f9cdd7b90d55460db2c416bba4dfe7d8&quot;)">
+                                    <h2 class="alt">@Model.GetField("TableHeaderTitle").RenderValue()</h2>
+                                </div>
+                                @foreach (var inclusion in features)
+                                {
+                                    foreach (var rowItem in inclusion.SelectedItems())
+                                    {
+                                        <div class="centred">
+                                            <h5>@rowItem.GetField("ProductFeatureName").RenderValue()</h5>
+                                        </div>
+                                    }
+        
+                                }
+                            </header>
+                            <div class="table-content">
+                                <div class="description product-heading">
+                                    <h5>@Model.GetField("Row1Title").RenderValue()</h5>
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                            </div>
+        
+        
+                            @foreach (var product in products1)
+                            {
+                                foreach (var rowItem in product.SelectedItems())
+                                {
+                                    var featureInclusions = new[] { rowItem.GetField("FeatureInclusions") };
+                                    <div class="table-content @(rowItem.GetField("IsPopularRecommended").Checked ? "popular" : string.Empty)">
+                                        <div class="description product-column">
+                                            @if (rowItem.GetField("IsPopularRecommended").Checked)
+                                            {
+                                                <div class="recommended-product-label ra-left-large "><span class="tag">@rowItem.GetField("IsPopularRecommendedLabel").RenderValue()</span></div>
+                                            }
+                                            <h3 class="sub-heading">@rowItem.GetField("ProductName").RenderValue()</h3>
+                                            <p>@rowItem.GetField("ProductSummary").RenderValue()</p>
+        
+                                            @if (rowItem.GetField("TextCta").HasValueToRender())
+                                            {
+                                                <span class="small-button">
+                                                    <a href="@rowItem.GetField("TextCta").LinkUrl">@rowItem.GetField("TextCta").LinkText</a>
+                                                </span>
+                                            }
+                                        </div>
+        
+                                        @foreach (var feature in features)
+                                        {
+                                            foreach (var featureItem in feature.SelectedItems())
+                                            {
+                                                if (featureItem != null && featureItem.Children != null && featureItem.Children.Count > 0)
+                                                {
+                                                    foreach (Sitecore.Data.Items.Item childItem in featureItem.Children)
+                                                    {
+                                                        foreach (var item in featureInclusions)
+                                                        {
+                                                            foreach (var selectedItem in item.SelectedItems())
+                                                            {
+                                                                if (childItem.Name == selectedItem.Name)
+                                                                {
+                                                                    <div class="centred">
+                                                                        @if (childItem.GetField("Icon").HasValueToRender())
+                                                                        {
+                                                                            foreach (var icon in childItem.GetField("Icon").SelectedItems())
+                                                                            {
+                                                                                iconName = icon.Name.ToLower();
+                                                                                break;
+                                                                            }
+                                                                            <span class="icon @iconName"></span>
+                                                                        }
+        
+                                                                        @if (childItem.GetField("ComparisonHeading").HasValueToRender())
+                                                                        {
+                                                                            <p class="title">@childItem.GetField("ComparisonHeading").RenderValue()</p>
+                                                                        }
+                                                                        @if (childItem.GetField("ComparisonDescription").HasValueToRender())
+                                                                        {
+                                                                            <p>@childItem.GetField("ComparisonDescription").RenderValue()</p>
+                                                                        }
+                                                                    </div>
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+        
+                                                }
+        
+                                            }
+                                        }
+        
+        
+                                    </div>
+        
+                                }
+        
+                            }
+        
+        
+        
+                            <div class="table-content">
+                                <div class="description product-heading">
+                                    <h5>@Model.GetField("Row2Title").RenderValue()</h5>
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                            </div>
+        
+                            @foreach (var product in products2)
+                            {
+                                foreach (var rowItem in product.SelectedItems())
+                                {
+                                    var featureInclusions = new[] { rowItem.GetField("FeatureInclusions") };
+                                    <div class="table-content @(rowItem.GetField("IsPopularRecommended").Checked ? "popular" : string.Empty)">
+                                        <div class="description product-column">
+                                            @if (rowItem.GetField("IsPopularRecommended").Checked)
+                                            {
+                                                <div class="recommended-product-label ra-left-large "><span class="tag">@rowItem.GetField("IsPopularRecommendedLabel").RenderValue()</span></div>
+                                            }
+                                            <h3 class="sub-heading">@rowItem.GetField("ProductName").RenderValue()</h3>
+                                            <p>@rowItem.GetField("ProductSummary").RenderValue()</p>
+                                            @if (rowItem.GetField("TextCta").HasValueToRender())
+                                            {
+                                                <span class="small-button">
+                                                    <a href="@rowItem.GetField("TextCta").LinkUrl">@rowItem.GetField("TextCta").LinkText</a>
+                                                </span>
+                                            }
+                                        </div>
+        
+                                        @foreach (var feature in features)
+                                        {
+                                            foreach (var featureItem in feature.SelectedItems())
+                                            {
+                                                if (featureItem != null && featureItem.Children != null && featureItem.Children.Count > 0)
+                                                {
+                                                    foreach (Sitecore.Data.Items.Item childItem in featureItem.Children)
+                                                    {
+                                                        foreach (var item in featureInclusions)
+                                                        {
+                                                            foreach (var selectedItem in item.SelectedItems())
+                                                            {
+                                                                if (childItem.Name == selectedItem.Name)
+                                                                {
+                                                                    <div class="centred">
+                                                                        @if (childItem.GetField("Icon").HasValueToRender())
+                                                                        {
+                                                                            foreach (var icon in childItem.GetField("Icon").SelectedItems())
+                                                                            {
+                                                                                iconName = icon.Name.ToLower();
+                                                                                break;
+                                                                            }
+                                                                            <span class="icon @iconName"></span>
+                                                                        }
+        
+                                                                        @if (childItem.GetField("ComparisonHeading").HasValueToRender())
+                                                                        {
+                                                                            <p class="title">@childItem.GetField("ComparisonHeading").RenderValue()</p>
+                                                                        }
+        
+                                                                        @if (childItem.GetField("ComparisonDescription").HasValueToRender())
+                                                                        {
+                                                                            <p>@childItem.GetField("ComparisonDescription").RenderValue()</p>
+                                                                        }
+                                                                    </div>
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+        
+                                                }
+        
+                                            }
+                                        }
+                                    </div>
+        
+                                }
+                            }
+                            <div class="table-content">
+                                <div class="description product-heading">
+                                    <h5>@Model.GetField("Row3Title").RenderValue()</h5>
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                            </div>
+                            @foreach (var product in products3)
+                            {
+                                foreach (var rowItem in product.SelectedItems())
+                                {
+                                    var featureInclusions = new[] { rowItem.GetField("FeatureInclusions") };
+                                    <div class="table-content @(rowItem.GetField("IsPopularRecommended").Checked ? "popular" : string.Empty)">
+                                        <div class="description product-column">
+                                            @if (rowItem.GetField("IsPopularRecommended").Checked)
+                                            {
+                                                <div class="recommended-product-label ra-left-large "><span class="tag">@rowItem.GetField("IsPopularRecommendedLabel").RenderValue()</span></div>
+                                            }
+                                            <h3 class="sub-heading">@rowItem.GetField("ProductName").RenderValue()</h3>
+                                            <p>@rowItem.GetField("ProductSummary").RenderValue()</p>
+                                            @if (rowItem.GetField("TextCta").HasValueToRender())
+                                            {
+                                                <span class="small-button">
+                                                    <a href="@rowItem.GetField("TextCta").LinkUrl">@rowItem.GetField("TextCta").LinkText</a>
+                                                </span>
+                                            }
+                                        </div>
+        
+                                        @foreach (var feature in features)
+                                        {
+                                            foreach (var featureItem in feature.SelectedItems())
+                                            {
+                                                if (featureItem != null && featureItem.Children != null && featureItem.Children.Count > 0)
+                                                {
+                                                    foreach (Sitecore.Data.Items.Item childItem in featureItem.Children)
+                                                    {
+                                                        foreach (var item in featureInclusions)
+                                                        {
+                                                            foreach (var selectedItem in item.SelectedItems())
+                                                            {
+                                                                if (childItem.Name == selectedItem.Name)
+                                                                {
+                                                                    <div class="centred">
+                                                                        @if (childItem.GetField("Icon").HasValueToRender())
+                                                                        {
+                                                                            foreach (var icon in childItem.GetField("Icon").SelectedItems())
+                                                                            {
+                                                                                iconName = icon.Name.ToLower();
+                                                                                break;
+                                                                            }
+                                                                            <span class="icon @iconName"></span>
+                                                                        }
+        
+                                                                        @if (childItem.GetField("ComparisonHeading").HasValueToRender())
+                                                                        {
+                                                                            <p class="title">@childItem.GetField("ComparisonHeading").RenderValue()</p>
+                                                                        }
+        
+                                                                        @if (childItem.GetField("ComparisonDescription").HasValueToRender())
+                                                                        {
+                                                                            <p>@childItem.GetField("ComparisonDescription").RenderValue()</p>
+                                                                        }
+                                                                    </div>
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+        
+                                                }
+        
+                                            }
+                                        }
+                                    </div>
+        
+                                }
+                            }
+        
+        
+                        </div>
+        
+        
+                    </div>
+                </div>
+                <span class="table-inner-shadow"></span>
+                <div class="fixed-column mobile-view"></div>
+        
+            </section>
+        }
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200811T125633Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230223T120435Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200811T125633Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\paul_petersen
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d5fccf1d-d2f9-4346-8e9b-9196c5f487b5"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using Sitecore.Mvc.Presentation
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @model ContentViewRenderingModel
+        
+        @if (string.IsNullOrEmpty(Model.Rendering.DataSource))
+        {
+            return;
+        }
+        
+        @if (!string.IsNullOrEmpty(Model.Rendering.DataSource))
+        {
+            var features = new[] { Model.GetField("Features") };
+            var products1 = new[] { Model.GetField("Row1Products") };
+            var products2 = new[] { Model.GetField("Row2Products") };
+            var products3 = new[] { Model.GetField("Row3Products") };
+            string iconName = string.Empty;
+        	
+            <article class="component-section-title rich-text centred white-bg-color">
+                <div class="wrapper cf">
+                    <h5>@Model.GetField("Title").RenderValue()</h5>
+                    @*<p>@Model.GetField("Description").RenderValue()</p>*@
+                </div>
+            </article>
+        
+            <section class="product-comparison financial-services cf">
+                <div class="wrapper cf">
+                    <div class="table">
+                        <div class="table-body">
+                            <header class="table-headings">
+                                <div class="description input heading-banner" style="background-image: url(&quot;~/media/the-aa/banner-images/large-beam.png?rev=f9cdd7b90d55460db2c416bba4dfe7d8&quot;)">
+                                    <h2 class="alt">@Model.GetField("TableHeaderTitle").RenderValue()</h2>
+                                </div>
+                                @foreach (var inclusion in features)
+                                {
+                                    foreach (var rowItem in inclusion.SelectedItems())
+                                    {
+                                        <div class="centred">
+                                            <h5>@rowItem.GetField("ProductFeatureName").RenderValue()</h5>
+                                        </div>
+                                    }
+        
+                                }
+                            </header>
+                            <div class="table-content">
+                                <div class="description product-heading">
+                                    <h5>@Model.GetField("Row1Title").RenderValue()</h5>
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                            </div>
+        
+        
+                            @foreach (var product in products1)
+                            {
+                                foreach (var rowItem in product.SelectedItems())
+                                {
+                                    var featureInclusions = new[] { rowItem.GetField("FeatureInclusions") };
+                                    <div class="table-content @(rowItem.GetField("IsPopularRecommended").Checked ? "popular" : string.Empty)">
+                                        <div class="description product-column">
+                                            @if (rowItem.GetField("IsPopularRecommended").Checked)
+                                            {
+                                                <div class="recommended-product-label ra-left-large "><span class="tag">@rowItem.GetField("IsPopularRecommendedLabel").RenderValue()</span></div>
+                                            }
+                                            <h3 class="sub-heading">@rowItem.GetField("ProductName").RenderValue()</h3>
+                                            <p>@rowItem.GetField("ProductSummary").RenderValue()</p>
+        
+                                            @if (rowItem.GetField("TextCta").HasValueToRender())
+                                            {
+                                                <span class="small-button">
+                                                    <a href="@rowItem.GetField("TextCta").LinkUrl">@rowItem.GetField("TextCta").LinkText</a>
+                                                </span>
+                                            }
+                                        </div>
+        
+                                        @foreach (var feature in features)
+                                        {
+                                            foreach (var featureItem in feature.SelectedItems())
+                                            {
+                                                if (featureItem != null && featureItem.Children != null && featureItem.Children.Count > 0)
+                                                {
+                                                    foreach (Sitecore.Data.Items.Item childItem in featureItem.Children)
+                                                    {
+                                                        foreach (var item in featureInclusions)
+                                                        {
+                                                            foreach (var selectedItem in item.SelectedItems())
+                                                            {
+                                                                if (childItem.Name == selectedItem.Name)
+                                                                {
+                                                                    <div class="centred">
+                                                                        @if (childItem.GetField("Icon").HasValueToRender())
+                                                                        {
+                                                                            foreach (var icon in childItem.GetField("Icon").SelectedItems())
+                                                                            {
+                                                                                iconName = icon.Name.ToLower();
+                                                                                break;
+                                                                            }
+                                                                            <span class="icon @iconName"></span>
+                                                                        }
+        
+                                                                        @if (childItem.GetField("ComparisonHeading").HasValueToRender())
+                                                                        {
+                                                                            <p class="title">@childItem.GetField("ComparisonHeading").RenderValue()</p>
+                                                                        }
+                                                                        @if (childItem.GetField("ComparisonDescription").HasValueToRender())
+                                                                        {
+                                                                            <p>@childItem.GetField("ComparisonDescription").RenderValue()</p>
+                                                                        }
+                                                                    </div>
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+        
+                                                }
+        
+                                            }
+                                        }
+        
+        
+                                    </div>
+        
+                                }
+        
+                            }
+        
+        
+        
+                            <div class="table-content">
+                                <div class="description product-heading">
+                                    <h5>@Model.GetField("Row2Title").RenderValue()</h5>
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                            </div>
+        
+                            @foreach (var product in products2)
+                            {
+                                foreach (var rowItem in product.SelectedItems())
+                                {
+                                    var featureInclusions = new[] { rowItem.GetField("FeatureInclusions") };
+                                    <div class="table-content @(rowItem.GetField("IsPopularRecommended").Checked ? "popular" : string.Empty)">
+                                        <div class="description product-column">
+                                            @if (rowItem.GetField("IsPopularRecommended").Checked)
+                                            {
+                                                <div class="recommended-product-label ra-left-large "><span class="tag">@rowItem.GetField("IsPopularRecommendedLabel").RenderValue()</span></div>
+                                            }
+                                            <h3 class="sub-heading">@rowItem.GetField("ProductName").RenderValue()</h3>
+                                            <p>@rowItem.GetField("ProductSummary").RenderValue()</p>
+                                            @if (rowItem.GetField("TextCta").HasValueToRender())
+                                            {
+                                                <span class="small-button">
+                                                    <a href="@rowItem.GetField("TextCta").LinkUrl">@rowItem.GetField("TextCta").LinkText</a>
+                                                </span>
+                                            }
+                                        </div>
+        
+                                        @foreach (var feature in features)
+                                        {
+                                            foreach (var featureItem in feature.SelectedItems())
+                                            {
+                                                if (featureItem != null && featureItem.Children != null && featureItem.Children.Count > 0)
+                                                {
+                                                    foreach (Sitecore.Data.Items.Item childItem in featureItem.Children)
+                                                    {
+                                                        foreach (var item in featureInclusions)
+                                                        {
+                                                            foreach (var selectedItem in item.SelectedItems())
+                                                            {
+                                                                if (childItem.Name == selectedItem.Name)
+                                                                {
+                                                                    <div class="centred">
+                                                                        @if (childItem.GetField("Icon").HasValueToRender())
+                                                                        {
+                                                                            foreach (var icon in childItem.GetField("Icon").SelectedItems())
+                                                                            {
+                                                                                iconName = icon.Name.ToLower();
+                                                                                break;
+                                                                            }
+                                                                            <span class="icon @iconName"></span>
+                                                                        }
+        
+                                                                        @if (childItem.GetField("ComparisonHeading").HasValueToRender())
+                                                                        {
+                                                                            <p class="title">@childItem.GetField("ComparisonHeading").RenderValue()</p>
+                                                                        }
+        
+                                                                        @if (childItem.GetField("ComparisonDescription").HasValueToRender())
+                                                                        {
+                                                                            <p>@childItem.GetField("ComparisonDescription").RenderValue()</p>
+                                                                        }
+                                                                    </div>
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+        
+                                                }
+        
+                                            }
+                                        }
+                                    </div>
+        
+                                }
+                            }
+                            <div class="table-content">
+                                <div class="description product-heading">
+                                    <h5>@Model.GetField("Row3Title").RenderValue()</h5>
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                            </div>
+                            @foreach (var product in products3)
+                            {
+                                foreach (var rowItem in product.SelectedItems())
+                                {
+                                    var featureInclusions = new[] { rowItem.GetField("FeatureInclusions") };
+                                    <div class="table-content @(rowItem.GetField("IsPopularRecommended").Checked ? "popular" : string.Empty)">
+                                        <div class="description product-column">
+                                            @if (rowItem.GetField("IsPopularRecommended").Checked)
+                                            {
+                                                <div class="recommended-product-label ra-left-large "><span class="tag">@rowItem.GetField("IsPopularRecommendedLabel").RenderValue()</span></div>
+                                            }
+                                            <h3 class="sub-heading">@rowItem.GetField("ProductName").RenderValue()</h3>
+                                            <p>@rowItem.GetField("ProductSummary").RenderValue()</p>
+                                            @if (rowItem.GetField("TextCta").HasValueToRender())
+                                            {
+                                                <span class="small-button">
+                                                    <a href="@rowItem.GetField("TextCta").LinkUrl">@rowItem.GetField("TextCta").LinkText</a>
+                                                </span>
+                                            }
+                                        </div>
+        
+                                        @foreach (var feature in features)
+                                        {
+                                            foreach (var featureItem in feature.SelectedItems())
+                                            {
+                                                if (featureItem != null && featureItem.Children != null && featureItem.Children.Count > 0)
+                                                {
+                                                    foreach (Sitecore.Data.Items.Item childItem in featureItem.Children)
+                                                    {
+                                                        foreach (var item in featureInclusions)
+                                                        {
+                                                            foreach (var selectedItem in item.SelectedItems())
+                                                            {
+                                                                if (childItem.Name == selectedItem.Name)
+                                                                {
+                                                                    <div class="centred">
+                                                                        @if (childItem.GetField("Icon").HasValueToRender())
+                                                                        {
+                                                                            foreach (var icon in childItem.GetField("Icon").SelectedItems())
+                                                                            {
+                                                                                iconName = icon.Name.ToLower();
+                                                                                break;
+                                                                            }
+                                                                            <span class="icon @iconName"></span>
+                                                                        }
+        
+                                                                        @if (childItem.GetField("ComparisonHeading").HasValueToRender())
+                                                                        {
+                                                                            <p class="title">@childItem.GetField("ComparisonHeading").RenderValue()</p>
+                                                                        }
+        
+                                                                        @if (childItem.GetField("ComparisonDescription").HasValueToRender())
+                                                                        {
+                                                                            <p>@childItem.GetField("ComparisonDescription").RenderValue()</p>
+                                                                        }
+                                                                    </div>
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+        
+                                                }
+        
+                                            }
+                                        }
+                                    </div>
+        
+                                }
+                            }
+        
+        
+                        </div>
+        
+        
+                    </div>
+                </div>
+                <span class="table-inner-shadow"></span>
+                <div class="fixed-column mobile-view"></div>
+        
+            </section>
+        }
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200811T125633Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230223T120435Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230223T120424Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7fe1ce6b-1ef4-46b9-bf11-33f81f591131"
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using Sitecore.Mvc.Presentation
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        
+        @{
+            string iconName = string.Empty;
+        
+            <article class="component-section-title rich-text centred white-bg-color">
+                <div class="wrapper cf">
+                    <h5>@Model.GetField("Title").RenderValue()</h5>
+                    <p>@Model.GetField("Description").RenderValue()</p>
+                </div>
+            </article>
+        
+            <section class="product-comparison financial-services cf">
+                <div class="wrapper cf">
+                    <div class="table">
+                        <div class="table-body">
+                            <header class="table-headings">
+                                <div class="description input heading-banner" style="background-image: url(&quot;~/media/the-aa/banner-images/large-beam.png?rev=f9cdd7b90d55460db2c416bba4dfe7d8&quot;)">
+                                    <h2 class="alt">@Model.GetField("TableHeaderTitle").RenderValue()</h2>
+                                </div>
+                                @foreach (var rowItem in Model.GetField("Features").SelectedItems())
+                                {
+                                    <div class="centred">
+                                        <h5>@rowItem.GetField("ProductFeatureName").RenderValue()</h5>
+                                    </div>
+                                }
+        
+        
+                            </header>
+                            <div class="table-content">
+                                <div class="description product-heading">
+                                    <h5>@Model.GetField("Row1Title").RenderValue()</h5>
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                            </div>
+        
+        
+                            @foreach (var rowItem in Model.GetField("Row1Products").SelectedItems())
+                            {
+                                <div class="table-content @(rowItem.GetField("IsPopularRecommended").Checked ? "popular" : string.Empty)">
+                                    <div class="description product-column">
+                                        @if (rowItem.GetField("IsPopularRecommended").Checked)
+                                        {
+                                            <div class="recommended-product-label ra-left-large "><span class="tag">@rowItem.GetField("IsPopularRecommendedLabel").RenderValue()</span></div>
+                                        }
+                                        <h3 class="sub-heading">@rowItem.GetField("ProductName").RenderValue()</h3>
+                                        <p>@rowItem.GetField("ProductSummary").RenderValue()</p>
+        
+                                        @if (rowItem.GetField("TextCta").HasValueToRender())
+                                        {
+                                            <span class="small-button">
+                                                <a href="@rowItem.GetField("TextCta").LinkUrl">@rowItem.GetField("TextCta").LinkText</a>
+                                            </span>
+                                        }
+                                    </div>
+        
+        
+                                    @foreach (var featureItem in Model.GetField("Features").SelectedItems())
+                                    {
+                                        foreach (Sitecore.Data.Items.Item childItem in featureItem.Children)
+                                        {
+                                            foreach (var selectedItem in rowItem.GetField("FeatureInclusions").SelectedItems())
+                                            {
+                                                if (childItem.Name == selectedItem.Name)
+                                                {
+                                                    <div class="centred">
+                                                        @if (childItem.GetField("Icon").HasValueToRender())
+                                                        {
+                                                            foreach (var icon in childItem.GetField("Icon").SelectedItems())
+                                                            {
+                                                                iconName = icon.Name.ToLower();
+                                                                break;
+                                                            }
+                                                            <span class="icon @iconName"></span>
+                                                        }
+        
+                                                        @if (childItem.GetField("ComparisonHeading").HasValueToRender())
+                                                        {
+                                                            <p class="title">@childItem.GetField("ComparisonHeading").RenderValue()</p>
+                                                        }
+                                                        @if (childItem.GetField("ComparisonDescription").HasValueToRender())
+                                                        {
+                                                            <p>@childItem.GetField("ComparisonDescription").RenderValue()</p>
+                                                        }
+                                                    </div>
+                                                }
+                                            }
+        
+                                        }
+                                    }
+        
+        
+        
+                                </div>
+        
+                            }
+        
+                            <div class="table-content">
+                                <div class="description product-heading">
+                                    <h5>@Model.GetField("Row2Title").RenderValue()</h5>
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                            </div>
+        
+                            @foreach (var rowItem in Model.GetField("Row2Products").SelectedItems())
+                            {
+                                <div class="table-content @(rowItem.GetField("IsPopularRecommended").Checked ? "popular" : string.Empty)">
+                                    <div class="description product-column">
+                                        @if (rowItem.GetField("IsPopularRecommended").Checked)
+                                        {
+                                            <div class="recommended-product-label ra-left-large "><span class="tag">@rowItem.GetField("IsPopularRecommendedLabel").RenderValue()</span></div>
+                                        }
+                                        <h3 class="sub-heading">@rowItem.GetField("ProductName").RenderValue()</h3>
+                                        <p>@rowItem.GetField("ProductSummary").RenderValue()</p>
+                                        @if (rowItem.GetField("TextCta").HasValueToRender())
+                                        {
+                                            <span class="small-button">
+                                                <a href="@rowItem.GetField("TextCta").LinkUrl">@rowItem.GetField("TextCta").LinkText</a>
+                                            </span>
+                                        }
+                                    </div>
+        
+                                    @foreach (var featureItem in Model.GetField("Features").SelectedItems())
+                                    {
+                                        foreach (Sitecore.Data.Items.Item childItem in featureItem.Children)
+                                        {
+                                            foreach (var selectedItem in rowItem.GetField("FeatureInclusions").SelectedItems())
+                                            {
+                                                if (childItem.Name == selectedItem.Name)
+                                                {
+                                                    <div class="centred">
+                                                        @if (childItem.GetField("Icon").HasValueToRender())
+                                                        {
+                                                            foreach (var icon in childItem.GetField("Icon").SelectedItems())
+                                                            {
+                                                                iconName = icon.Name.ToLower();
+                                                                break;
+                                                            }
+                                                            <span class="icon @iconName"></span>
+                                                        }
+        
+                                                        @if (childItem.GetField("ComparisonHeading").HasValueToRender())
+                                                        {
+                                                            <p class="title">@childItem.GetField("ComparisonHeading").RenderValue()</p>
+                                                        }
+        
+                                                        @if (childItem.GetField("ComparisonDescription").HasValueToRender())
+                                                        {
+                                                            <p>@childItem.GetField("ComparisonDescription").RenderValue()</p>
+                                                        }
+                                                    </div>
+                                                }
+                                            }
+        
+                                        }
+        
+                                    }
+        
+                                </div>
+        
+                            }
+        
+                            <div class="table-content">
+                                <div class="description product-heading">
+                                    <h5>@Model.GetField("Row3Title").RenderValue()</h5>
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                                <div class="centred product-heading">
+                                </div>
+                            </div>
+                            @foreach (var rowItem in Model.GetField("Row3Products").SelectedItems())
+                            {
+                                <div class="table-content @(rowItem.GetField("IsPopularRecommended").Checked ? "popular" : string.Empty)">
+                                    <div class="description product-column">
+                                        @if (rowItem.GetField("IsPopularRecommended").Checked)
+                                        {
+                                            <div class="recommended-product-label ra-left-large "><span class="tag">@rowItem.GetField("IsPopularRecommendedLabel").RenderValue()</span></div>
+                                        }
+                                        <h3 class="sub-heading">@rowItem.GetField("ProductName").RenderValue()</h3>
+                                        <p>@rowItem.GetField("ProductSummary").RenderValue()</p>
+                                        @if (rowItem.GetField("TextCta").HasValueToRender())
+                                        {
+                                            <span class="small-button">
+                                                <a href="@rowItem.GetField("TextCta").LinkUrl">@rowItem.GetField("TextCta").LinkText</a>
+                                            </span>
+                                        }
+                                    </div>
+        
+                                    @foreach (var featureItem in Model.GetField("Features").SelectedItems())
+                                    {
+                                        foreach (Sitecore.Data.Items.Item childItem in featureItem.Children)
+                                        {
+                                            foreach (var selectedItem in rowItem.GetField("FeatureInclusions").SelectedItems())
+                                            {
+                                                if (childItem.Name == selectedItem.Name)
+                                                {
+                                                    <div class="centred">
+                                                        @if (childItem.GetField("Icon").HasValueToRender())
+                                                        {
+                                                            foreach (var icon in childItem.GetField("Icon").SelectedItems())
+                                                            {
+                                                                iconName = icon.Name.ToLower();
+                                                                break;
+                                                            }
+                                                            <span class="icon @iconName"></span>
+                                                        }
+        
+                                                        @if (childItem.GetField("ComparisonHeading").HasValueToRender())
+                                                        {
+                                                            <p class="title">@childItem.GetField("ComparisonHeading").RenderValue()</p>
+                                                        }
+        
+                                                        @if (childItem.GetField("ComparisonDescription").HasValueToRender())
+                                                        {
+                                                            <p>@childItem.GetField("ComparisonDescription").RenderValue()</p>
+                                                        }
+                                                    </div>
+                                                }
+                                            }
+        
+                                        }
+        
+        
+        
+                                    }
+        
+                                </div>
+        
+                            }
+        
+                        </div>
+        
+        
+                    </div>
+                </div>
+                <span class="table-inner-shadow"></span>
+                <div class="fixed-column mobile-view"></div>
+        
+            </section>
+        }
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\BrownK
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230223T120424Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230228T152430Z

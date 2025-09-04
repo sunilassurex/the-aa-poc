@@ -1,0 +1,753 @@
+﻿---
+ID: "fbe6a14d-49a3-4b32-8d65-6f6d678442a9"
+Parent: "038443e2-8b41-4c2c-ba2a-718794a0e0c3"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: /sitecore/layout/Renderings/Feature/AA/Landing Pages/Product Display
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Software/32x32/element_add.png
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/Project/TheAA/Product Display/Product Display
+- ID: "308e88f5-cd6e-4f8f-bafe-95a47dedefdc"
+  Hint: Editable
+  Value: 
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+- ID: "56776edf-261c-4abc-9fe7-70c618795239"
+  Hint: __Help link
+  Value: |
+    <link linktype="external" url="https://theaacom.atlassian.net/wiki/x/KQDrKAE" />
+- ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
+  Hint: Parameters Template
+  Value: "{7B3E60A6-CEEF-4E7B-B021-2955F79BE2EA}"
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: /sitecore/content/TheAA/Modules/Product Display
+- ID: "f172b787-7b88-4bd5-ae4d-6308e102ef11"
+  Hint: Enable Datasource Query
+  Value: 
+Languages:
+- Language: en
+  Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: This component is used to promote products.
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: This component is used to promote products.
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240722T132739Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "360d6039-6e39-45d7-ae17-6c840fc6010b"
+    - ID: "9e6a6532-99aa-4a0e-aba3-e7259e5429ba"
+      Hint: StyleSheets
+      Value: |
+        section.product-display {
+            display: flex;
+            flex-direction: column;
+        }
+        section.product-display > div.container {
+            width: 100%;
+        }
+        .product-display h2.title{
+           	width: 100%;
+           	font-family: var(--font-family-sans);
+           	margin-bottom: var(--space-large);
+        }
+        .product-display p{
+           	width: 100%;
+        }
+        .product-display p.description{
+           	margin-bottom: var(--space-x-large);
+        }
+        .product-display .card-list{
+           	display: flex;
+           	justify-content: start;
+           	align-items: stretch;
+           	flex-wrap: wrap;
+           	width: 100%;
+        }
+        .product-display .card{
+           	display: flex;
+           	flex-direction: column;
+           	box-sizing: border-box;
+           	margin: 0 var(--space-x-large) var(--space-x-large) 0;	
+           	color: var(--color-mono-darkest);
+        }
+        .product-display .card.framed {
+            padding: var(--space-xxx-large) var(--space-large);
+            margin: 0 var(--space-large) var(--space-large) 0;
+           	border-radius: var(--space-medium);
+        }
+        .product-display .card.left {
+           	flex-direction: row;
+           	padding: 0px;
+        }
+        .product-display .card .card-heading {
+           	margin-bottom: var(--space-medium);
+        }
+        .product-display .card .card-heading a {
+            font-size: var(--h3-font-size);
+            line-height: var(--h3-line-height);
+        }
+        .product-display .card.left .card-icon {
+           	margin: 0 var(--space-large) 0 0;
+        }
+        .product-display .card .card-icon{
+           	margin: 0 auto var(--space-large) auto;
+        }
+        .product-display .card div.card-description{
+           	margin-bottom: 0px;
+           	font-family: var(--font-family-transport-regular);
+                display: block;
+        	font-size: var(--font-size-normal);
+                line-height: var(--line-height-normal);
+        }
+        .product-display .card div.card-description div:has(a) {
+            margin-top: var(--space-medium);
+        }
+        .product-display .bottom-description{
+        	display: flex;
+            flex-direction: column;
+            gap: var(--space-x-large);
+        }
+        .product-display .card-list.col-1 .card {
+           	flex-basis: 100%;
+        }
+        .product-display .card-list.col-2 .card {
+           	flex-basis: calc(50% - 12px);
+        }
+        .product-display .card-list.col-3 .card {
+           	flex-basis: calc(33% - 13px);
+        }
+        .product-display .card-list.col-4 .card {
+           	flex-basis: calc(25% - 18px);
+        }
+        .product-display .card-list.col-4 .card:nth-child(4n), .product-display .card-list.col-3 .card:nth-child(3n), .product-display .card-list.col-2 .card:nth-child(2n), .product-display .card-list.col-1 .card {
+           	margin-right: 0px;
+        }
+        .product-display .prd-card-full-width{
+           	margin-bottom: 0px;
+           	border-radius: 0;
+        }
+        .product-display .prd-card-full-width:first-child{
+           	margin-top: var(--space-large);
+        }
+        .product-display .prd-card-full-width:last-child{
+           	margin-bottom: -40px;
+        }
+        .product-display .card > div {
+            padding: 0;
+        }
+        .product-display .card.left > div{
+           	display: flex;
+           	margin: 0px;
+        }
+        .product-display .card.prd-card-full-width > div {
+           	flex: 100%;
+           	display: flex;
+           	padding: var(--space-xxx-large) var(--space-large);
+           	margin: 0 auto;
+        }
+        @media screen and (max-width: 737px) {
+           	.product-display .card{
+              	    flex-basis: 100%; 
+              	    margin-right: 0;
+              	    margin: 0 0 var(--space-x-large) 0;
+           	}
+           	.product-display .card:first-child {
+                    margin-top: 0;
+           	}
+           	.product-display .card.framed {
+                    margin: 0 0 var(--space-large) 0;
+                }
+           	.product-display .card-list.col-mob-1 .card {
+                    flex-basis: 100%;
+           	}
+           	.product-display .card-list.col-mob-2 .card {
+                    flex-basis: calc(50% - 8px);
+           	}
+           	.product-display .card-list.col-mob-2 .card:nth-child(odd){
+                    margin-right: var(--space-large);
+           	}
+                .product-display .card.prd-card-full-width{
+                    margin: 0;
+                }
+                .product-display .prd-card-full-width:first-child {
+                    margin-top: var(--space-large);
+                }
+        }
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        
+        @if (Model == null)
+        {
+            return;
+        }
+        @{
+            var title = Model.GetField("Title");
+            var description = Model.GetField("Description");
+            var productCards = Model.GetField("Product Cards").SelectedItems();
+        
+            var textAlignmentClass = Model.GetRenderingParameterLookup("TextAlignment");
+            if (textAlignmentClass == "")
+            {
+                textAlignmentClass = "left";
+            }
+        
+            var cardDesignClass = Model.GetRenderingParameterLookup("CardDesign");
+        
+            var sectionClass = "product-display";
+            var paddings = Model.GetTopAndBottomPaddings();
+            if(!string.IsNullOrWhiteSpace(paddings))
+            {
+                sectionClass += string.Format(" {0}", paddings);
+            }
+        }
+        <section class="@Model.GetRenderingParameterLookup("Background Color") @sectionClass">
+            <div class="container">
+                @if (title.HasValueToRender())
+                {
+                    <h2 class="title @textAlignmentClass">@title.RenderValue()</h2>
+                }
+                @if (description.HasValueToRender())
+                {
+                    <p class="description @textAlignmentClass">@description.RenderValue()</p>
+                }
+            </div>
+            <div class="card-list col-@Model.GetRenderingParameterLookup("CardsCountInRowDesktop") col-mob-@Model.GetRenderingParameterLookup("CardsCountInRowMobile")
+                 @(cardDesignClass.Contains("prd-card-full-width")? "" : "container")">
+                @foreach (var productCard in productCards)
+                {
+                    var cardLink = productCard.GetField("Link");
+                    var cardDescription = productCard.GetField("Description");
+                    var cardIcon = productCard.GetField("Image");
+                    <div class="card @Model.GetRenderingParameterLookup("CardBackgroundColor") @cardDesignClass">
+                        <div class="container">
+                            @if (cardIcon.HasValueToRender())
+                            {
+                                <img src="@cardIcon.MediaURL" alt="card-icon" class="@Model.GetRenderingParameterLookup("IconSize") card-icon" />
+                            }
+                            <div class="content-wrapper">
+                                <h3 class="card-heading">
+                                    @if (cardLink.HasValueToRender())
+                                    {
+                                        @:<a href="@cardLink.LinkUrl" target="@cardLink.LinkTarget">
+                                        }
+                                    @productCard.GetField("Heading").RenderValue()
+                                    @if (cardLink.HasValueToRender())
+                                    {
+                                    @:</a>
+                                }
+                                </h3>
+                                @if (cardDescription.HasValueToRender())
+                                {
+                                    <div class="card-description">@cardDescription.RenderValue()</div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            <div class="container bottom-description">
+                @Model.GetField("Bottom Description").RenderValue()
+            </div>
+        </section>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250522T004121Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250115T090353Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cf637ce7-9ea5-4acc-87d2-264adb03676c"
+    - ID: "9e6a6532-99aa-4a0e-aba3-e7259e5429ba"
+      Hint: StyleSheets
+      Value: |
+        section.product-display {
+            display: flex;
+            flex-direction: column;
+        }
+        section.product-display > div.container {
+            width: 100%;
+        }
+        .product-display h2.title{
+           	width: 100%;
+           	font-family: var(--font-family-sans);
+           	margin-bottom: var(--space-large);
+        }
+        .product-display p{
+           	width: 100%;
+        }
+        .product-display p.description{
+           	margin-bottom: var(--space-x-large);
+        }
+        .product-display .card-list{
+           	display: flex;
+           	justify-content: start;
+           	align-items: stretch;
+           	flex-wrap: wrap;
+           	width: 100%;
+        }
+        .product-display .card{
+           	display: flex;
+           	flex-direction: column;
+           	box-sizing: border-box;
+           	margin: 0 var(--space-x-large) var(--space-x-large) 0;	
+           	color: var(--color-mono-darkest);
+        }
+        .product-display .card.framed {
+            padding: var(--space-xxx-large) var(--space-large);
+            margin: 0 var(--space-large) var(--space-large) 0;
+           	border-radius: var(--space-medium);
+        }
+        .product-display .card.left {
+           	flex-direction: row;
+           	padding: 0px;
+        }
+        .product-display .card .card-heading {
+           	margin-bottom: var(--space-medium);
+        }
+        .product-display .card .card-heading a {
+            font-size: var(--h3-font-size);
+            line-height: var(--h3-line-height);
+        }
+        .product-display .card.left .card-icon {
+           	margin: 0 var(--space-large) 0 0;
+        }
+        .product-display .card .card-icon{
+           	margin: 0 auto var(--space-large) auto;
+        }
+        .product-display .card div.card-description{
+           	margin-bottom: 0px;
+           	font-family: var(--font-family-transport-regular);
+                display: block;
+        	font-size: var(--font-size-normal);
+                line-height: var(--line-height-normal);
+        }
+        .product-display .card div.card-description div:has(a) {
+            margin-top: var(--space-medium);
+        }
+        .product-display .bottom-description{
+        	display: flex;
+            flex-direction: column;
+            gap: var(--space-x-large);
+        }
+        .product-display .card-list.col-1 .card {
+           	flex-basis: 100%;
+        }
+        .product-display .card-list.col-2 .card {
+           	flex-basis: calc(50% - 12px);
+        }
+        .product-display .card-list.col-3 .card {
+           	flex-basis: calc(33% - 13px);
+        }
+        .product-display .card-list.col-4 .card {
+           	flex-basis: calc(25% - 18px);
+        }
+        .product-display .card-list.col-4 .card:nth-child(4n), .product-display .card-list.col-3 .card:nth-child(3n), .product-display .card-list.col-2 .card:nth-child(2n), .product-display .card-list.col-1 .card {
+           	margin-right: 0px;
+        }
+        .product-display .prd-card-full-width{
+           	margin-bottom: 0px;
+           	border-radius: 0;
+        }
+        .product-display .prd-card-full-width:first-child{
+           	margin-top: var(--space-large);
+        }
+        .product-display .prd-card-full-width:last-child{
+           	margin-bottom: -40px;
+        }
+        .product-display .card > div {
+            padding: 0;
+        }
+        .product-display .card.left > div{
+           	display: flex;
+           	margin: 0px;
+        }
+        .product-display .card.prd-card-full-width > div {
+           	flex: 100%;
+           	display: flex;
+           	padding: var(--space-xxx-large) var(--space-large);
+           	margin: 0 auto;
+        }
+        @media screen and (max-width: 737px) {
+           	.product-display .card{
+              	    flex-basis: 100%; 
+              	    margin-right: 0;
+              	    margin: 0 0 var(--space-x-large) 0;
+           	}
+           	.product-display .card:first-child {
+                    margin-top: 0;
+           	}
+           	.product-display .card.framed {
+                    margin: 0 0 var(--space-large) 0;
+                }
+           	.product-display .card-list.col-mob-1 .card {
+                    flex-basis: 100%;
+           	}
+           	.product-display .card-list.col-mob-2 .card {
+                    flex-basis: calc(50% - 8px);
+           	}
+           	.product-display .card-list.col-mob-2 .card:nth-child(odd){
+                    margin-right: var(--space-large);
+           	}
+                .product-display .card.prd-card-full-width{
+                    margin: 0;
+                }
+                .product-display .prd-card-full-width:first-child{
+                    margin-top: var(--space-large);
+                }
+        }
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        
+        @if (Model == null)
+        {
+            return;
+        }
+        @{
+            var title = Model.GetField("Title");
+            var description = Model.GetField("Description");
+            var productCards = Model.GetField("Product Cards").SelectedItems();
+        
+            var textAlignmentClass = Model.GetRenderingParameterLookup("TextAlignment");
+            if (textAlignmentClass == "")
+            {
+                textAlignmentClass = "left";
+            }
+        
+            var cardDesignClass = Model.GetRenderingParameterLookup("CardDesign");
+        
+            var sectionClass = "product-display";
+            var paddings = Model.GetTopAndBottomPaddings();
+            if (!string.IsNullOrWhiteSpace(paddings))
+            {
+                sectionClass += string.Format(" {0}", paddings);
+            }
+        }
+        <section class="@Model.GetRenderingParameterLookup("Background Color") @sectionClass">
+            <div class="container">
+                @if (title.HasValueToRender())
+                {
+                    <h2 class="title @textAlignmentClass">@title.RenderValue()</h2>
+                }
+                @if (description.HasValueToRender())
+                {
+                    <p class="description @textAlignmentClass">@description.RenderValue()</p>
+                }
+            </div>
+            <div class="card-list col-@Model.GetRenderingParameterLookup("CardsCountInRowDesktop") col-mob-@Model.GetRenderingParameterLookup("CardsCountInRowMobile")
+                 @(cardDesignClass.Contains("prd-card-full-width")? "" : "container")">
+                @foreach (var productCard in productCards)
+                {
+                    var cardHeading = productCard.GetField("Heading");
+                    var cardLink = productCard.GetField("Link");
+                    var cardDescription = productCard.GetField("Description");
+                    var cardIcon = productCard.GetField("Image");
+                    <div class="card @Model.GetRenderingParameterLookup("CardBackgroundColor") @cardDesignClass">
+                        <div class="container">
+                            @if (cardIcon.HasValueToRender())
+                            {
+                                <img src="@cardIcon.MediaURL" alt="@cardIcon.MediaAltText" class="@Model.GetRenderingParameterLookup("IconSize") card-icon" />
+                            }
+                            <div class="content-wrapper">
+                                @if (cardHeading.HasValueToRender())
+                                {
+                                    <h3 class="card-heading">
+                                        @if (cardLink.HasValueToRender())
+                                        {
+                                            @:<a href="@cardLink.LinkUrl" target="@cardLink.LinkTarget">
+                                            }
+                                        @cardHeading.RenderValue()
+                                        @if (cardLink.HasValueToRender())
+                                        {
+                                        @:</a>
+                                    }
+                                    </h3>
+                                }
+                                @if (cardDescription.HasValueToRender())
+                                {
+                                    <div class="card-description">@cardDescription.RenderValue()</div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            <div class="container bottom-description">
+                @Model.GetField("Bottom Description").RenderValue()
+            </div>
+        </section>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20250115T090353Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250522T004121Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250509T105922Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d12c5236-fbd9-4c7c-8fe2-bdce27fbc355"
+    - ID: "9e6a6532-99aa-4a0e-aba3-e7259e5429ba"
+      Hint: StyleSheets
+      Value: |
+        section.product-display { 
+            display: flex;
+            flex-direction: column;
+        }
+        section.product-display > div.container {
+            width: 100%;
+        }
+        .product-display h2.title{
+           	width: 100%;
+           	font-family: var(--font-family-sans);
+           	margin-bottom: var(--space-large);
+        }
+        .product-display p{
+           	width: 100%;
+        }
+        .product-display p.description{
+           	margin-bottom: var(--space-x-large);
+        }
+        .product-display .card-list{
+           	display: flex;
+           	justify-content: start;
+           	align-items: stretch;
+           	flex-wrap: wrap;
+           	width: 100%;
+        }
+        .product-display .card{
+           	display: flex;
+           	flex-direction: column;
+           	box-sizing: border-box;
+           	margin: 0 var(--space-x-large) var(--space-x-large) 0;	
+           	color: var(--color-mono-darkest);
+        }
+        .product-display .card.framed {
+            padding: var(--space-xxx-large) var(--space-large);
+            margin: 0 var(--space-large) var(--space-large) 0;
+           	border-radius: var(--space-medium);
+        }
+        .product-display .card.left {
+           	flex-direction: row;
+           	padding: 0px;
+        }
+        .product-display .card .card-heading {
+           	margin-bottom: var(--space-medium);
+        }
+        .product-display .card .card-heading a {
+            font-size: var(--h3-font-size);
+            line-height: var(--h3-line-height);
+        }
+        .product-display .card.left .card-icon {
+           	margin: 0 var(--space-large) 0 0;
+        }
+        .product-display .card .card-icon{
+           	margin: 0 auto var(--space-large) auto;
+        }
+        .product-display .card div.card-description{
+           	margin-bottom: 0px;
+           	font-family: var(--font-family-transport-regular);
+                display: block;
+        	font-size: var(--font-size-normal);
+                line-height: var(--line-height-normal);
+        }
+        .product-display .card div.card-description div:has(a) {
+            margin-top: var(--space-medium);
+        }
+        .product-display .bottom-description{
+        	display: flex;
+            flex-direction: column;
+            gap: var(--space-x-large);
+        }
+        .product-display .card-list.col-1 .card {
+           	flex-basis: 100%;
+        }
+        .product-display .card-list.col-2 .card {
+           	flex-basis: calc(50% - 12px);
+        }
+        .product-display .card-list.col-3 .card {
+           	flex-basis: calc(33% - 13px);
+        }
+        .product-display .card-list.col-4 .card {
+           	flex-basis: calc(25% - 18px);
+        }
+        .product-display .card-list.col-4 .card:nth-child(4n), .product-display .card-list.col-3 .card:nth-child(3n), .product-display .card-list.col-2 .card:nth-child(2n), .product-display .card-list.col-1 .card {
+           	margin-right: 0px;
+        }
+        .product-display .prd-card-full-width{
+           	margin-bottom: 0px;
+           	border-radius: 0;
+        }
+        .product-display .prd-card-full-width:first-child{
+           	margin-top: var(--space-large);
+        }
+        .product-display .prd-card-full-width:last-child{
+           	margin-bottom: -40px;
+        }
+        .product-display .card > div {
+            padding: 0;
+        }
+        .product-display .card.left > div{
+           	display: flex;
+           	margin: 0px;
+        }
+        .product-display .card.prd-card-full-width > div {
+           	flex: 100%;
+           	display: flex;
+           	padding: var(--space-xxx-large) var(--space-large);
+           	margin: 0 auto;
+        }
+        @media screen and (max-width: 737px) {
+           	.product-display .card{
+              	    flex-basis: 100%; 
+              	    margin-right: 0;
+              	    margin: 0 0 var(--space-x-large) 0;
+           	}
+           	.product-display .card:first-child {
+                    margin-top: 0;
+           	}
+           	.product-display .card.framed {
+                    margin: 0 0 var(--space-large) 0;
+                }
+           	.product-display .card-list.col-mob-1 .card {
+                    flex-basis: 100%;
+           	}
+           	.product-display .card-list.col-mob-2 .card {
+                    flex-basis: calc(50% - 8px);
+           	}
+           	.product-display .card-list.col-mob-2 .card:nth-child(odd){
+                    margin-right: var(--space-large);
+           	}
+                .product-display .card.prd-card-full-width{
+                    margin: 0;
+                }
+                .product-display .prd-card-full-width:first-child{
+                    margin-top: var(--space-large);
+                }
+        }
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        
+        @if (Model == null)
+        {
+            return;
+        }
+        @{
+            var title = Model.GetField("Title");
+            var description = Model.GetField("Description");
+            var productCards = Model.GetField("Product Cards").SelectedItems();
+        
+            var textAlignmentClass = Model.GetRenderingParameterLookup("TextAlignment");
+            if (textAlignmentClass == "")
+            {
+                textAlignmentClass = "left";
+            }
+        
+            var cardDesignClass = Model.GetRenderingParameterLookup("CardDesign");
+        
+            var sectionClass = "product-display";
+            var paddings = Model.GetTopAndBottomPaddings();
+            if (!string.IsNullOrWhiteSpace(paddings))
+            {
+                sectionClass += string.Format(" {0}", paddings);
+            }
+        }
+        <section class="@Model.GetRenderingParameterLookup("Background Color") @sectionClass">
+            <div class="container">
+                @if (title.HasValueToRender())
+                {
+                    <h2 class="title @textAlignmentClass">@title.RenderValue()</h2>
+                }
+                @if (description.HasValueToRender())
+                {
+                    <p class="description @textAlignmentClass">@description.RenderValue()</p>
+                }
+            </div>
+            <div class="card-list col-@Model.GetRenderingParameterLookup("CardsCountInRowDesktop") col-mob-@Model.GetRenderingParameterLookup("CardsCountInRowMobile")
+                 @(cardDesignClass.Contains("prd-card-full-width")? "" : "container")">
+                @foreach (var productCard in productCards)
+                {
+                    var cardHeading = productCard.GetField("Heading");
+                    var cardLink = productCard.GetField("Link");
+                    var cardDescription = productCard.GetField("Description");
+                    var cardIcon = productCard.GetField("Image");
+                    <div class="card @Model.GetRenderingParameterLookup("CardBackgroundColor") @cardDesignClass">
+                        <div class="container">
+                            @if (cardIcon.HasValueToRender())
+                            {
+                                <img src="@cardIcon.MediaURL" alt="@cardIcon.MediaAltText" loading="@Model.GetRenderingParameterLookup("Image Loading", "lazy")" class="@Model.GetRenderingParameterLookup("IconSize") card-icon" />
+                            }
+                            <div class="content-wrapper">
+                                @if (cardHeading.HasValueToRender())
+                                {
+                                    <h3 class="card-heading">
+                                        @if (cardLink.HasValueToRender())
+                                        {
+                                            @:<a href="@cardLink.LinkUrl" target="@cardLink.LinkTarget">
+                                            }
+                                        @cardHeading.RenderValue()
+                                        @if (cardLink.HasValueToRender())
+                                        {
+                                        @:</a>
+                                    }
+                                    </h3>
+                                }
+                                @if (cardDescription.HasValueToRender())
+                                {
+                                    <div class="card-description">@cardDescription.RenderValue()</div>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            <div class="container bottom-description">
+                @Model.GetField("Bottom Description").RenderValue()
+            </div>
+        </section>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20250509T105922Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250522T004121Z

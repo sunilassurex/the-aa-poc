@@ -1,0 +1,27 @@
+﻿---
+ID: "01589ec9-1895-4667-a217-9856020469c2"
+Parent: "fcaa1b41-902e-4104-8d36-1950424b2a6a"
+Template: "fcaa1b41-902e-4104-8d36-1950424b2a6a"
+Path: /sitecore/templates/Feature/AA/Campaign Promo/ParametersTemplate_CampaignSettings/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211129T172651Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e57dbf42-55ed-41ac-8423-163fd0091e6c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220120T043913Z

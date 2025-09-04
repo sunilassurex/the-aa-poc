@@ -1,0 +1,26 @@
+﻿---
+ID: "9a8bb4d7-20f9-44b5-b730-3d15f26f613f"
+Parent: "3ac60bc8-c159-498f-9b01-c727cf10a191"
+Template: "3ac60bc8-c159-498f-9b01-c727cf10a191"
+Path: /sitecore/templates/TheAA/Presentation/VideoButtonStyleSettings/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20170608T100438Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b37019f1-6492-4653-9261-6164a388569f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20170608T100842Z
+    - ID: "e15d7494-2438-4b76-bf9e-9eee14ddc2e3"
+      Hint: VideoButtonStyles
+      Value: "{D7B0552A-D3B2-40E1-9A19-34D3F1818CF4}"

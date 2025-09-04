@@ -1,0 +1,528 @@
+﻿---
+ID: "b69c1bf5-61f2-4d10-bf33-6d2e7c5854b1"
+Parent: "2acdda3b-a0aa-45fc-970e-24343cf1f242"
+Template: "d2387c09-559a-48ed-8e02-b711d9b82611"
+Path: "/sitecore/content/AA/mobile-app/mobile-app/components/member-exclusive/smart-care-offers/book-mot-7"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{B1000E0C-2CE9-47C0-AC13-5DA1DEE911D0}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: "{629321B5-11EA-48CF-972B-703CA65FCD9D}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241009T012932Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{5FA36979-7243-4CFC-8905-E1CD36DB652D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Book an MOT for £39.99 or £19.99 with a service
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{BD3AA9AF-7D48-4058-826D-42CF4737924F}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "911b89d1-0a17-4871-86e6-d96ba62947b9"
+    - ID: "92edeb27-5980-446f-b39e-13652044c493"
+      Hint: Reward Id
+      Value: 236
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241017T145303Z
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{8CD7E2FF-5BC0-41BC-AFDF-23D5D3E78D40}"
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: "{629321B5-11EA-48CF-972B-703CA65FCD9D}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241016T092242Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{5FA36979-7243-4CFC-8905-E1CD36DB652D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Book an MOT for £39.99 or £19.99 with a service
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{BD3AA9AF-7D48-4058-826D-42CF4737924F}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c8b9da15-7493-481b-99a2-9281bfcbe4c2"
+    - ID: "92edeb27-5980-446f-b39e-13652044c493"
+      Hint: Reward Id
+      Value: 242
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241016T092242Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241018T064333Z
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{8CD7E2FF-5BC0-41BC-AFDF-23D5D3E78D40}"
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: "{629321B5-11EA-48CF-972B-703CA65FCD9D}"
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Book an MOT for £39.99 or £19.99 with a service
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241023T113313Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{5FA36979-7243-4CFC-8905-E1CD36DB652D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Book an MOT for £39.99 or £19.99 with a service
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{BD3AA9AF-7D48-4058-826D-42CF4737924F}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5c79c027-bbf5-4492-a7e6-7c453d6311f4"
+    - ID: "92edeb27-5980-446f-b39e-13652044c493"
+      Hint: Reward Id
+      Value: 242
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "car care offers : mot item"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241023T113313Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241023T113342Z
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{8CD7E2FF-5BC0-41BC-AFDF-23D5D3E78D40}"
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: "{629321B5-11EA-48CF-972B-703CA65FCD9D}"
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Book an MOT for £39.99 or £19.99 with a service
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241023T113346Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{5FA36979-7243-4CFC-8905-E1CD36DB652D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Book an MOT for £39.99 or £19.99 with a service
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{BD3AA9AF-7D48-4058-826D-42CF4737924F}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c9e56592-35c5-4723-9333-1b0a8ffc4a09"
+    - ID: "92edeb27-5980-446f-b39e-13652044c493"
+      Hint: Reward Id
+      Value: 242
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "car care offers : mot item"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241023T113346Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241023T113352Z
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{8CD7E2FF-5BC0-41BC-AFDF-23D5D3E78D40}"
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: "{629321B5-11EA-48CF-972B-703CA65FCD9D}"
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Book an MOT for £39.99 or £19.99 with a service
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241023T143926Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{5FA36979-7243-4CFC-8905-E1CD36DB652D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Book an MOT for £39.99 or £19.99 with a service
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{BD3AA9AF-7D48-4058-826D-42CF4737924F}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "032eebcc-ac5e-45e5-9544-ceceaa7d72ea"
+    - ID: "92edeb27-5980-446f-b39e-13652044c493"
+      Hint: Reward Id
+      Value: 242
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "car care offers : mot item"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241023T143926Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241023T143955Z
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{8CD7E2FF-5BC0-41BC-AFDF-23D5D3E78D40}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: "{629321B5-11EA-48CF-972B-703CA65FCD9D}"
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Book an MOT for £39.99 or £19.99 with a service
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241023T144000Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{5FA36979-7243-4CFC-8905-E1CD36DB652D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Book an MOT for £39.99 or £19.99 with a service
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{BD3AA9AF-7D48-4058-826D-42CF4737924F}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "413b0a87-4da1-410b-89cb-00aa36342c51"
+    - ID: "92edeb27-5980-446f-b39e-13652044c493"
+      Hint: Reward Id
+      Value: 236
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value: "car care offers : mot item"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241023T144000Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241025T093348Z
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{8CD7E2FF-5BC0-41BC-AFDF-23D5D3E78D40}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 7
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: "{629321B5-11EA-48CF-972B-703CA65FCD9D}"
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Book an MOT for £39.99 or £19.99 with a service
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241025T155903Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{5FA36979-7243-4CFC-8905-E1CD36DB652D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Book an MOT for £39.99 or £19.99 with a service
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{BD3AA9AF-7D48-4058-826D-42CF4737924F}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "613d305c-263f-4b47-92e4-12538a9ba8e5"
+    - ID: "92edeb27-5980-446f-b39e-13652044c493"
+      Hint: Reward Id
+      Value: 236
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value:  mot item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241025T155903Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241025T155913Z
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{8CD7E2FF-5BC0-41BC-AFDF-23D5D3E78D40}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click
+  - Version: 8
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "16fdab55-08c8-44ca-a919-af5059422767"
+      Hint: Policy Type
+      Value: "{629321B5-11EA-48CF-972B-703CA65FCD9D}"
+    - ID: "17cef666-eb2b-4c13-9c8b-c7f65be069bd"
+      Hint: Event Text
+      Value: Book an MOT for £39.99 or £19.99 with a service
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250428T123804Z
+    - ID: "3343a7b0-17e8-467f-992a-e21b7affae43"
+      Hint: Content Section
+      Value: benefits
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4effd3b9-60cf-4ccd-adde-1386f96ff5f2"
+      Hint: Group Name
+      Value: "{5FA36979-7243-4CFC-8905-E1CD36DB652D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: Book an MOT for £34.99 or £19.99 with a service
+    - ID: "81f4ca94-6d91-4125-a48e-89bc8f88581d"
+      Hint: Icon
+      Value: |
+        <image mediaid="{BD3AA9AF-7D48-4058-826D-42CF4737924F}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b8c3f8af-8fa1-4792-9757-59f56387a68a"
+    - ID: "92edeb27-5980-446f-b39e-13652044c493"
+      Hint: Reward Id
+      Value: 236
+    - ID: "b3142dfe-780c-4d4b-8e78-1608ac199803"
+      Hint: Event Identifier
+      Value:  mot item
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20250428T123804Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250428T123821Z
+    - ID: "e736b490-7e73-48ef-8c58-370d9a22cfce"
+      Hint: Membership Type
+      Value: |
+        {215EC04A-A2AF-4D68-8116-4FCA190D1ACB}
+        {6052793B-7157-4020-B2A3-EC32798876CD}
+        {E4244150-E0B2-4FA6-9FC5-DC0DE51F59FD}
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{8CD7E2FF-5BC0-41BC-AFDF-23D5D3E78D40}"
+    - ID: "f7ec70df-50a7-4617-8874-1749143ea29f"
+      Hint: Event Type
+      Value: click

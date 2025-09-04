@@ -1,0 +1,536 @@
+﻿---
+ID: "32aebc1a-cba3-4016-95e9-84009fa58a04"
+Parent: "777c9476-9c4a-4777-a75f-0a049fdea51b"
+Template: "3fccdfdf-8417-4741-98d2-a8c99cb1d91f"
+Path: "/sitecore/content/AA/Beam/Modules/Smart Breakdown/car-insurance/your-policy"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: Our car insurance
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211217T174406Z
+    - ID: "58f550b4-f8d0-4093-8449-c470d070129b"
+      Hint: Link
+      Value: 
+    - ID: "7c327b9d-d911-4c6a-b012-7969b54683c3"
+      Hint: DetailedFeatureList
+      Value: "1=Get%20affordable%20car%20insurance%2C%20with%20the%20added%20protection%20of%20the%20AA%E2%80%99s%20quality%20claims%20handling.&2=Add%20extra%20cover%20to%20suit%20your%20needs%2C%20such%20as%20Motor%20Legal%20Assistance%20and%20Excess%20Protection&3=Because%20we%E2%80%99re%20backed%20by%20the%20AA%2C%20you%20can%20get%20award-winning%20breakdown%20cover%20from%20just%20%C2%A315"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "925d9a5a-92e6-482c-a712-677157d10dd8"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: <h3><span>BEAM is a new name in the car insurance industry, from one of the UK&rsquo;s leading brands.</span></h3>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\CurrieM
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220124T152053Z
+    - ID: "f81c6cd4-7c73-4ea5-b559-20a5c2f645bb"
+      Hint: BulletList
+      Value: <p><span>So, you can feel confident you&rsquo;ve got the right cover, and safe in the fact we&rsquo;re powered by the AA.</span></p>
+  - Version: 2
+    Fields:
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: Our car insurance
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220125T164342Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "58f550b4-f8d0-4093-8449-c470d070129b"
+      Hint: Link
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "7c327b9d-d911-4c6a-b012-7969b54683c3"
+      Hint: DetailedFeatureList
+      Value: "1=Get%20affordable%20car%20insurance%2C%20with%20the%20added%20protection%20of%20the%20AA%E2%80%99s%20quality%20claims%20handling.&2=Add%20extra%20cover%20to%20suit%20your%20needs%2C%20such%20as%20Motor%20Legal%20Assistance%20and%20Excess%20Protection&3=Because%20we%E2%80%99re%20backed%20by%20the%20AA%2C%20you%20can%20get%20award-winning%20breakdown%20cover%20from%20just%20%C2%A315"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c7ad3a40-ca86-492c-85f6-db95de0f7d96"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: <h3><span>BEAM is a new name in the car insurance industry, from one of the UK&rsquo;s leading brands.</span></h3>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220125T164342Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240513T085157Z
+    - ID: "f81c6cd4-7c73-4ea5-b559-20a5c2f645bb"
+      Hint: BulletList
+      Value: <p><span>So, you can feel confident you&rsquo;ve got the right cover, and safe in the fact we&rsquo;re powered by the AA.</span></p>
+  - Version: 3
+    Fields:
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: Our car insurance
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220127T153833Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "58f550b4-f8d0-4093-8449-c470d070129b"
+      Hint: Link
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "7c327b9d-d911-4c6a-b012-7969b54683c3"
+      Hint: DetailedFeatureList
+      Value: "1=Get%20affordable%20car%20insurance%2C%20with%20the%20added%20protection%20of%20the%20AA%E2%80%99s%20quality%20claims%20handling.&2=Add%20extra%20cover%20to%20suit%20your%20needs%2C%20such%20as%20Motor%20Legal%20Assistance%20and%20Excess%20Protection&3=Because%20we%E2%80%99re%20backed%20by%20the%20AA%2C%20you%20can%20get%20award-winning%20breakdown%20cover%20from%20just%20%C2%A315"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0a013588-d3b2-4fc2-a7cd-ac84b1bbf874"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: <h3><span>BEAM is a new name in the car insurance industry, from one of the UK&rsquo;s leading brands.</span></h3>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220127T153833Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240513T085157Z
+    - ID: "f81c6cd4-7c73-4ea5-b559-20a5c2f645bb"
+      Hint: BulletList
+      Value: <p>So, you can feel confident you&rsquo;ve got the right cover, and safe in the fact we&rsquo;re powered by the AA.</p>
+  - Version: 4
+    Fields:
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: Our car insurance
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220127T153947Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "58f550b4-f8d0-4093-8449-c470d070129b"
+      Hint: Link
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "7c327b9d-d911-4c6a-b012-7969b54683c3"
+      Hint: DetailedFeatureList
+      Value: "1=Get%20affordable%20car%20insurance%2C%20with%20the%20added%20protection%20of%20the%20AA%E2%80%99s%20quality%20claims%20handling.&2=Add%20extra%20cover%20to%20suit%20your%20needs%2C%20such%20as%20Motor%20Legal%20Assistance%20and%20Excess%20Protection&3=Because%20we%E2%80%99re%20backed%20by%20the%20AA%2C%20you%20can%20get%20award-winning%20breakdown%20cover%20from%20just%20%C2%A315"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "50bd888d-1413-43bf-9501-9f15e66d74cd"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: <h3><span>BEAM is a new name in the car insurance industry, from one of the UK&rsquo;s leading brands.</span></h3>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220127T153947Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240513T085157Z
+    - ID: "f81c6cd4-7c73-4ea5-b559-20a5c2f645bb"
+      Hint: BulletList
+      Value: So, you can feel confident you&rsquo;ve got the right cover, and safe in the fact we&rsquo;re powered by the AA.
+  - Version: 5
+    Fields:
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: Our car insurance
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220127T154053Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "58f550b4-f8d0-4093-8449-c470d070129b"
+      Hint: Link
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "7c327b9d-d911-4c6a-b012-7969b54683c3"
+      Hint: DetailedFeatureList
+      Value: "1=Get%20affordable%20car%20insurance%2C%20with%20the%20added%20protection%20of%20the%20AA%E2%80%99s%20quality%20claims%20handling.&2=Add%20extra%20cover%20to%20suit%20your%20needs%2C%20such%20as%20Motor%20Legal%20Assistance%20and%20Excess%20Protection&3=Because%20we%E2%80%99re%20backed%20by%20the%20AA%2C%20you%20can%20get%20award-winning%20breakdown%20cover%20from%20just%20%C2%A315"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "82690077-e805-41c2-b657-9d2e172ff168"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: <h3><span>BEAM is a new name in the car insurance industry, from one of the UK&rsquo;s leading brands.</span></h3>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220127T154053Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240513T085157Z
+    - ID: "f81c6cd4-7c73-4ea5-b559-20a5c2f645bb"
+      Hint: BulletList
+      Value: |
+        <span style="font-size: 18px;">So, you can feel confident you&rsquo;ve got the right cover, and safe in the fact we&rsquo;re powered by the AA.</span>
+  - Version: 6
+    Fields:
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: Our car insurance
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220127T154136Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "58f550b4-f8d0-4093-8449-c470d070129b"
+      Hint: Link
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "7c327b9d-d911-4c6a-b012-7969b54683c3"
+      Hint: DetailedFeatureList
+      Value: "1=Get%20affordable%20car%20insurance%2C%20with%20the%20added%20protection%20of%20the%20AA%E2%80%99s%20quality%20claims%20handling.&2=Add%20extra%20cover%20to%20suit%20your%20needs%2C%20such%20as%20Motor%20Legal%20Assistance%20and%20Excess%20Protection&3=Because%20we%E2%80%99re%20backed%20by%20the%20AA%2C%20you%20can%20get%20award-winning%20breakdown%20cover%20from%20just%20%C2%A315"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5aef8625-13d6-4e16-a3be-954f68be15e6"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: <h3><span>BEAM is a new name in the car insurance industry, from one of the UK&rsquo;s leading brands.</span></h3>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220127T154136Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240513T085157Z
+    - ID: "f81c6cd4-7c73-4ea5-b559-20a5c2f645bb"
+      Hint: BulletList
+      Value: |
+        <span style="font-size: 16px;">So, you can feel confident you&rsquo;ve got the right cover, and safe in the fact we&rsquo;re powered by the AA.</span>
+  - Version: 7
+    Fields:
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: Our car insurance
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220215T132615Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "58f550b4-f8d0-4093-8449-c470d070129b"
+      Hint: Link
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "7c327b9d-d911-4c6a-b012-7969b54683c3"
+      Hint: DetailedFeatureList
+      Value: "1=Get%20affordable%20car%20insurance%2C%20with%20the%20added%20protection%20of%20the%20AA%E2%80%99s%20quality%20claims%20handling.&2=Add%20extra%20cover%20to%20suit%20your%20needs%2C%20such%20as%20Motor%20Legal%20Assistance%20and%20Excess%20Protection.&3=Because%20we%E2%80%99re%20backed%20by%20the%20AA%2C%20you%20can%20get%20award-winning%20breakdown%20cover%20from%20just%20%C2%A315."
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "667e6262-e720-4d85-8e88-c96fa5dfe8cf"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: <h3><span>BEAM is a new name in the car insurance industry, from one of the UK&rsquo;s leading brands.</span></h3>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220215T132615Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240513T085157Z
+    - ID: "f81c6cd4-7c73-4ea5-b559-20a5c2f645bb"
+      Hint: BulletList
+      Value: |
+        <span style="font-size: 18px;">So, you can feel confident you&rsquo;ve got the right cover, and safe in the fact we&rsquo;re powered by the AA.</span>
+  - Version: 8
+    Fields:
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: Our car insurance
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220216T114924Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "58f550b4-f8d0-4093-8449-c470d070129b"
+      Hint: Link
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "7c327b9d-d911-4c6a-b012-7969b54683c3"
+      Hint: DetailedFeatureList
+      Value: "1=Get%20affordable%20car%20insurance%2C%20with%20the%20added%20protection%20of%20the%20AA%E2%80%99s%20quality%20claims%20handling.&2=Add%20extra%20cover%20to%20suit%20your%20needs%2C%20such%20as%20Motor%20Legal%20Assistance%20and%20Excess%20Protection.&3=Because%20we%E2%80%99re%20backed%20by%20the%20AA%2C%20you%20can%20get%20award-winning%20breakdown%20cover%20from%20just%20%C2%A315."
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9ad8af1c-9091-4c34-a9a1-4f8f3bf6e20f"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: <h3><span>BEAM is a new name in the car insurance industry, from one of the UK&rsquo;s leading brands. So you can feel confident you&rsquo;ve got the right cover, and safe in the fact we&rsquo;re powered by the AA.</span></h3>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220216T114924Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240513T085157Z
+    - ID: "f81c6cd4-7c73-4ea5-b559-20a5c2f645bb"
+      Hint: BulletList
+      Value: 
+  - Version: 9
+    Fields:
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: Our car insurance
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220310T154903Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "58f550b4-f8d0-4093-8449-c470d070129b"
+      Hint: Link
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "7c327b9d-d911-4c6a-b012-7969b54683c3"
+      Hint: DetailedFeatureList
+      Value: "1=Get%20affordable%20car%20insurance%2C%20with%20the%20added%20protection%20of%20an%20experienced%20and%20trusted%20claims%20team.&2=Add%20extra%20cover%20if%20you%20need%20it%2C%20such%20as%20Excess%20Protection%20or%20Motor%20Legal%20Assistance.&3=Because%20we%E2%80%99re%20backed%20by%20the%20AA%2C%20you%20can%20get%20award-winning%20breakdown%20cover%20from%20just%20%C2%A315."
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "436bf2f8-a30b-4ddc-8307-520b9eb46679"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: <h3><span>BEAM is a new name in car insurance from one of the UK&rsquo;s leading brands. So you can feel confident you&rsquo;ve got the right cover, and safe in the knowledge we&rsquo;re powered by the AA.</span></h3>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220310T154903Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240513T085157Z
+    - ID: "f81c6cd4-7c73-4ea5-b559-20a5c2f645bb"
+      Hint: BulletList
+      Value: 
+  - Version: 10
+    Fields:
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: Our car insurance
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220315T151206Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "58f550b4-f8d0-4093-8449-c470d070129b"
+      Hint: Link
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "7c327b9d-d911-4c6a-b012-7969b54683c3"
+      Hint: DetailedFeatureList
+      Value: "1=Get%20affordable%20car%20insurance%2C%20with%20the%20added%20protection%20of%20an%20experienced%20and%20trusted%20claims%20team.&2=Add%20extra%20cover%20if%20you%20need%20it%2C%20such%20as%20Excess%20Protection%20or%20Motor%20Legal%20Assistance.&3=Because%20we%E2%80%99re%20backed%20by%20the%20AA%2C%20you%20can%20get%20award-winning%20breakdown%20cover%20from%20just%20%C2%A315."
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e6400d44-8e28-46d7-bd62-0e3a8ca3878b"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: <h3><span>BEAM is a new name in car insurance from one of the UK&rsquo;s leading brands. So you can feel confident you&rsquo;ve got the right cover, and safe in the knowledge we&rsquo;re powered by the AA.</span></h3>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220315T151206Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240513T085158Z
+    - ID: "f81c6cd4-7c73-4ea5-b559-20a5c2f645bb"
+      Hint: BulletList
+      Value: |
+        <span style="font-size: 16px;">BEAM car insurance is only available through select price comparison sites at the moment, so if you want to get a quote, you'll have to head to one of our partners.</span>
+  - Version: 11
+    Fields:
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: Our car insurance
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220315T151515Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "58f550b4-f8d0-4093-8449-c470d070129b"
+      Hint: Link
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "7c327b9d-d911-4c6a-b012-7969b54683c3"
+      Hint: DetailedFeatureList
+      Value: "1=Get%20affordable%20car%20insurance%2C%20with%20the%20added%20protection%20of%20an%20experienced%20and%20trusted%20claims%20team.&2=Add%20extra%20cover%20if%20you%20need%20it%2C%20such%20as%20Excess%20Protection%20or%20Motor%20Legal%20Assistance.&3=Because%20we%E2%80%99re%20backed%20by%20the%20AA%2C%20you%20can%20get%20award-winning%20breakdown%20cover%20from%20just%20%C2%A315."
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6a7fa7c0-58c7-43ec-90a9-35fc12cbaedf"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: <h3><span>BEAM is a new name in car insurance from one of the UK&rsquo;s leading brands. So you can feel confident you&rsquo;ve got the right cover, and safe in the knowledge we&rsquo;re powered by the AA.</span></h3>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220315T151515Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240513T085158Z
+    - ID: "f81c6cd4-7c73-4ea5-b559-20a5c2f645bb"
+      Hint: BulletList
+      Value: |
+        <span style="font-size: 16px;">BEAM car insurance is only available through select price comparison sites, so if you want to get a quote, just head to one of our partners.</span>
+  - Version: 12
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: |
+        <r owner="sitecore\Jenny.Armstrong" date="20240513T085158Z" />
+    - ID: "15875632-a6cb-4a4c-aed7-07891972bd04"
+      Hint: H2heading
+      Value: Car insurance cover that's right for you
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220316T160213Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "58f550b4-f8d0-4093-8449-c470d070129b"
+      Hint: Link
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "7c327b9d-d911-4c6a-b012-7969b54683c3"
+      Hint: DetailedFeatureList
+      Value: 1=We%27ve%20refined%20our%20cover%20to%20make%20sure%20we%27re%20working%20even%20harder%20to%20meet%20your%20needs%20%E2%80%93%20giving%20you%20a%20competitively%20priced%20product%20that%27s%20right%20for%20you.&2=Our%20Defaqto%204%20Star%20rated%20cover%20gives%20you%20a%20range%20of%20benefits.&3=Add%20extra%20cover%20if%20you%20need%20it%2C%20such%20as%20Excess%20Protection%20or%20Motor%20Legal%20Assistance.
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5a6da9b3-bc0c-4e24-a963-d4763beedab6"
+    - ID: "ad18604d-5722-4bd1-9e43-e3c4d8b57a2e"
+      Hint: ContentArea
+      Value: <h3><span>We're replacing your current policy with our new level of cover</span></h3>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Jenny.Armstrong
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220316T160213Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240514T095608Z
+    - ID: "f81c6cd4-7c73-4ea5-b559-20a5c2f645bb"
+      Hint: BulletList
+      Value: |
+        <span style="font-size: 16px;">Your new policy closely matches your current benefits and protection. Make sure you read the Important Notice in your renewal invitation to check any differences between your current policy and your new one.</span>

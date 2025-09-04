@@ -1,0 +1,358 @@
+﻿---
+ID: "add679d1-d009-4fd3-a162-89707d1732cd"
+Parent: "82fd1b7b-76c8-4c81-a4ea-c428c6737485"
+Template: "739c5a9d-d1e8-4f49-9d52-fb806eb17b43"
+Path: /sitecore/content/AA/Beam/Modules/Navigation/Menu Beam/Primary Navigation/Contact us
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 30
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20191217T122447Z
+    - ID: "2f7f296b-d5f5-4088-a5dd-4ab5fa9f4d1a"
+      Hint: Contents
+      Value: |
+        <nav class="mega-menu wrapper four-column cf" tabindex="-1" style="max-width: 1884px;">
+        	<article class="col component container cast-shadow">
+        		<ul class="second-level-navigation">
+        			<li class="back-to-primary-link mobile-view">
+        				<div class="button-lnk">Money<span class="toggle"></span></div>
+        			</li>
+        			<li class="secondary-item" data-secondary="nav-section-6A6F7C9750314AD4AE4B47784B4D0345">
+        				<a href="?menu=money-loans" class="nojs">Loans <span class="toggle"></span></a>
+        			</li>
+        			<li class="secondary-item" data-secondary="nav-section-6908BF9594DD416A91B0635A8165929D">
+        				<a href="?menu=money-savings" class="nojs">Savings <span class="toggle"></span></a>
+        			</li>
+        			<li class="secondary-item" data-secondary="nav-section-B444C50E25514391858621E119843F57">
+        				<a href="?menu=money-mortgages" class="nojs">Mortgages <span class="toggle"></span></a>
+        			</li>
+        			<li class="secondary-item" data-secondary="nav-section-660FD9A81EDC46339D5B99363DA4F9E0">
+        				<a href="?menu=money-currencycard" class="nojs">Travel Currency Card <span class="toggle"></span></a>
+        			</li>
+        			<li class="secondary-item" data-secondary="nav-section-E13A97E1B9F94FA6A96CF5B8C1A8C82B">
+        				<a href="?menu=money-insurance" class="nojs">Insurance <span class="toggle"></span></a>
+        			</li>
+        			<li class="secondary-item" data-secondary="nav-section-6DB5F16556594820A2BC5F8966AF49D4">
+        				<a href="?menu=money-creditcards" class="nojs">Credit cards <span class="toggle"></span></a>
+        			</li>
+        		</ul>
+        		<!--<div class="second-level-nav-overlay"></div>-->
+        	</article>
+        	<section id="nav-section-6A6F7C9750314AD4AE4B47784B4D0345" class="nav-panels cf money-loans---open">
+        		<div class="experience-editor-display">Loans</div>
+        		<article class="back-to-secondary-link cf mobile-view">
+        			<div class="button-lnk">Loans<span class="toggle"></span></div>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext cf content">
+        				<h5 class="headline">Loans up to £25,000</h5>
+        				<div class="info-block cf">
+        					<p>If you're thinking about changing your car, giving your home a new lease of life, or just want to consolidate your borrowing – a loan with us could help.</p>
+        				</div>
+        				<div class="feature-list">
+        
+        				</div>
+        
+        				<div class="dual-cta cf">
+        					<a class="primary button cta ra cf" href="/loans" title="Find out more" data-di-id="di-id-c9a9f6d6-5a3cd6fa">Find out more</a>
+        				</div>
+        			</div>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext cf content">
+        				<h5 class="headline">Already a customer?</h5>
+        				<div class="info-block cf">
+        					Manage your loan online
+        				</div>
+        				<div class="feature-list">
+        				</div>
+        				<div class="dual-cta cf">
+        					<a class="primary button cta ra cf" href="/loans/manage-your-loan" title="Log in" data-di-id="di-id-ffdd2a78-d9e27705">Log in</a>
+        				</div>
+        			</div>
+        		</article>
+        		<article class="col sub-component"></article>
+        	</section>
+        	<section id="nav-section-6908BF9594DD416A91B0635A8165929D" class="nav-panels cf money-savings---open">
+        		<div class="experience-editor-display">Savings</div>
+        		<article class="back-to-secondary-link cf mobile-view">
+        			<div class="button-lnk">Savings<span class="toggle"></span></div>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext content">
+        				<h5 class="headline">What do you need?</h5>
+        				<div class="introduction-text">
+        				</div>
+        			</div>
+        			<ul class="links-group">
+        				<li>
+        					<a href="/savings-accounts" data-di-id="di-id-a80fb949-e6c7f46e">Compare savings accounts</a>
+        				</li>
+        				<li>
+        					<a href="/savings-accounts/member-saver" data-di-id="di-id-5320e4a7-5065e3a4">Member Saver</a>
+        				</li>
+        				<li>
+        					<a href="/savings-accounts/easy-saver" data-di-id="di-id-9c1de7b8-b48f665">Easy Saver</a>
+        				</li>
+        				<li>
+        					<a href="/savings-accounts/member-easy-access-isa" title="Cash ISA - Member Easy Access" data-di-id="di-id-41372d77-4e3f5d77">Cash ISA - Member Easy Access</a>
+        				</li>
+        				<li>
+        					<a href="/savings-accounts/easy-access-cash-isa" data-di-id="di-id-3c3d67ec-bbc54d6a">Cash ISA – Easy Access</a>
+        				</li>
+        				<li>
+        					<a href="/savings-accounts/fixed-rate-cash-isa" data-di-id="di-id-3c3d67ec-8ae342fe">Cash ISA – Fixed Rate</a>
+        				</li>
+        			</ul>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext cf content">
+        				<h5 class="headline">Already a customer?</h5>
+        				<div class="info-block cf">
+        					Manage your savings online
+        				</div>
+        				<div class="feature-list">
+        				</div>
+        				<div class="dual-cta cf">
+        					<a class="primary button cta ra cf" href="/savings-accounts/manage-your-savings" data-di-id="di-id-74b58842-4acc677">Log in</a>
+        				</div>
+        			</div>
+        		</article>
+        		<article class="col sub-component"></article>
+        	</section>
+        	<section id="nav-section-B444C50E25514391858621E119843F57" class="nav-panels cf money-mortgages---open">
+        		<div class="experience-editor-display">Mortgages</div>
+        		<article class="back-to-secondary-link cf mobile-view">
+        			<div class="button-lnk">Mortgages<span class="toggle"></span></div>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext cf content">
+        				<h5 class="headline">AA Mortgages</h5>
+        				<div class="info-block cf">
+        					<p>We're not currently offering mortgages to new customers. </p>
+        					<p>But if you have an Agreement in Principle with us, find out what you need to do to complete your application.</p>
+        				</div>
+        				<div class="feature-list">
+        				</div>
+        				<div class="dual-cta cf">
+        					<a class="secondary button cta ra cf" href="/mortgages" title="Find out more" data-di-id="di-id-246aecc5-6a6a4ef3">Find out more</a>
+        				</div>
+        			</div>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext cf content">
+        				<h5 class="headline">Already a customer?</h5>
+        				<div class="info-block cf">
+        					<p>Log in to manage your mortage </p>
+        				</div>
+        				<div class="feature-list">
+        				</div>
+        				<div class="dual-cta cf">
+        					<a class="primary button cta ra cf" href="https://www2.mortgageapplicationservice.co.uk/web/index.html#/index/AAD/login/" data-di-id="di-id-1c7ad5ec-5ae60713">Log in</a>
+        				</div>
+        			</div>
+        		</article>
+        		<article class="col sub-component"></article>
+        	</section>
+        	<section id="nav-section-660FD9A81EDC46339D5B99363DA4F9E0" class="nav-panels cf money-currencycard---open">
+        		<div class="experience-editor-display">Travel Currency Card</div>
+        		<article class="back-to-secondary-link cf mobile-view">
+        			<div class="button-lnk">Travel Currency Card<span class="toggle"></span></div>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext cf content">
+        				<h5 class="headline">Travel Currency Card</h5>
+        				<div class="info-block cf">
+        					<p>A safe alternative to carrying cash abroad. Budget for your trip and spend only what you've loaded on to the card.</p>
+        				</div>
+        				<div class="feature-list">
+        				</div>
+        				<div class="dual-cta cf">
+        					<a class="primary button cta ra cf" href="/travel-currency-card" data-di-id="di-id-313dc959-d90a60e6">Find out more</a>
+        				</div>
+        			</div>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext cf content">
+        				<h5 class="headline">Already a customer?</h5>
+        				<div class="info-block cf">
+        					<p>Top up and manage your card</p>
+        				</div>
+        				<div class="feature-list">
+        				</div>
+        				<div class="dual-cta cf">
+        					<a class="primary button cta ra cf" href="https://custom-aa.eccountplatform.com/login?sourceCode=80001&amp;loanAmount=17500&amp;PI=200&amp;loanTerm=60&amp;q=complaints&amp;__RequestVerificationToken=2y0ud1y-sty-a_iQLF2YKVViPwjiJ2elDOGoG9Xb_1iZq1SqONxiZ8NiY02iChAWm2gH_1ATKt1c9iM63mgJpDc30HU1" title="Log in" data-di-id="di-id-313dc959-77758b32">Log in</a>
+        				</div>
+        			</div>
+        		</article>
+        		<article class="col sub-component"></article>
+        	</section>
+        	<section id="nav-section-E13A97E1B9F94FA6A96CF5B8C1A8C82B" class="nav-panels cf money-insurance---open">
+        		<div class="experience-editor-display">Insurance</div>
+        		<article class="back-to-secondary-link cf mobile-view">
+        			<div class="button-lnk">Insurance<span class="toggle"></span></div>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext content">
+        				<h5 class="headline">What do you need?</h5>
+        				<div class="introduction-text">
+        				</div>
+        			</div>
+        			<ul class="links-group">
+        				<li>
+        					<a href="/life-insurance" data-di-id="di-id-39119f16-970ed8dd">Life insurance</a>
+        				</li>
+        				<li>
+        					<a href="/life-insurance/over-50s" data-di-id="di-id-ae8b826c-4b654bc">Over 50s life insurance</a>
+        				</li>
+        				<li>
+        					<a href="/life-insurance/life-cover" data-di-id="di-id-57c954d7-2c1bccdf">Mortgage life insurance</a>
+        				</li>
+        				<li>
+        					<a href="/legal-services-wills" data-di-id="di-id-558256ee-15c2634e">Wills and documents</a>
+        				</li>
+        				<li>
+        					<a href="/pet-insurance" data-di-id="di-id-1d46a4fb-24952098">Pet insurance</a>
+        				</li>
+        			</ul>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext content">
+        				<h5 class="headline">Advice</h5>
+        				<div class="introduction-text">
+        				</div>
+        			</div>
+        			<ul class="links-group">
+        				<li>
+        					<a href="/car-insurance/advice/cheap-car-insurance" data-di-id="di-id-f1081fd6-d650d699">Reduce cost of car insurance</a>
+        				</li>
+        				<li>
+        					<a href="/insurance/british-insurance-premium-index" data-di-id="di-id-f1081fd6-1d52b1e4">How we track insurance prices</a>
+        				</li>
+        				<li>
+        					<a href="/about-us/newsroom/insurance-news" data-di-id="di-id-70eb1d5c-aa394801">How much should premiums cost?</a>
+        				</li>
+        				<li>
+        					<a href="/car-insurance/advice/no-claims-bonus" data-di-id="di-id-4e7a2720-940eafad">What's a no claims bonus?</a>
+        				</li>
+        			</ul>
+        		</article>
+        		<article class="col sub-component"></article>
+        	</section>
+        	<section id="nav-section-6DB5F16556594820A2BC5F8966AF49D4" class="nav-panels cf money-creditcards---open">
+        		<div class="experience-editor-display">Credit cards</div>
+        		<article class="back-to-secondary-link cf mobile-view">
+        			<div class="button-lnk">Credit cards<span class="toggle"></span></div>
+        		</article>
+        		<article class="col sub-component">
+        			<div class="richtext cf content">
+        				<h5 class="headline">Already a customer?</h5>
+        				<div class="info-block cf">
+        					Manage your credit card online
+        				</div>
+        				<div class="feature-list">
+        				</div>
+        				<div class="dual-cta cf">
+        					<a class="primary button cta ra cf" href="/credit-card-deals/manage-your-card" data-di-id="di-id-66d1f7b9-30cfb3b9">Log in</a>
+        					<a class="secondary button cta ra cf" href="/credit-card-deals/manage-your-card#faqs" data-di-id="di-id-66d1f7b9-30cfb3b9">FAQs</a>
+        				</div>
+        			</div>
+        		</article>
+        		<article class="col sub-component"></article>
+        		<article class="col sub-component"></article>
+        	</section>
+        </nav>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "50a0624f-b278-42c0-aa73-1ddb46f14f8b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200114T121214Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200319T135702Z
+    - ID: "2f7f296b-d5f5-4088-a5dd-4ab5fa9f4d1a"
+      Hint: Contents
+      Value: |
+        <a href="/contact-us" tabindex="5">Contact us</a>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "abb08999-48ae-47b3-9a64-b0fff05a33dd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\patils
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200319T135702Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220131T132058Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230601T103434Z
+    - ID: "2f7f296b-d5f5-4088-a5dd-4ab5fa9f4d1a"
+      Hint: Contents
+      Value: |
+        <a href="/contact-us" tabindex="5">Contact us</a>
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "16b538c1-c884-4954-bcf5-3cdc62d1d040"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230601T103434Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230601T103550Z

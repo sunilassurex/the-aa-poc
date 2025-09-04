@@ -1,0 +1,29 @@
+﻿---
+ID: "c66d6c3c-f126-4220-b91c-4deb7ee1bb76"
+Parent: "00284bf3-e989-47ca-a133-e87edd656612"
+Template: "00284bf3-e989-47ca-a133-e87edd656612"
+Path: /sitecore/templates/TheAA/Presentation/PageRowSettings/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0895f104-94fb-4551-85e7-d58701bacd4a"
+      Hint: RowBackgroundStyle
+      Value: "{9A854E29-FA32-4CED-AAD2-75014F72E945}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160226T170649Z
+    - ID: "5bd2811f-a249-43bf-92d3-f6904fbf27a0"
+      Hint: RowWidth
+      Value: "{E08388E2-BACA-4B4E-8AE4-54BB5EEB183B}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "89fca362-088b-451c-bf8d-0bcc1e913c96"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20160321T154319Z

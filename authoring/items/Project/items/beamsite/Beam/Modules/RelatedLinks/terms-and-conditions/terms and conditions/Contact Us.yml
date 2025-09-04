@@ -1,0 +1,42 @@
+﻿---
+ID: "c61f2af5-200f-490f-ace7-c85329404b75"
+Parent: "9f8c2893-1c9a-4bb1-a09e-994cc9f97ae5"
+Template: "702e6638-329c-4657-85a1-0e5c7599c071"
+Path: "/sitecore/content/AA/Beam/Modules/RelatedLinks/terms-and-conditions/terms and conditions/Contact Us"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211209T152126Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "85e9a054-a90e-4dfa-9f40-fdb15477a1d6"
+      Hint: Link
+      Value: |
+        <link text="Contact us" linktype="external" url="/TheAA/home/about-us" anchor="" target="" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b00fbafa-798a-4443-bcd0-ccd2661a8688"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\damireddye
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220113T181250Z

@@ -1,0 +1,1024 @@
+﻿---
+ID: "ee736101-a213-4191-80db-32c02e0bb79b"
+Parent: "ad31cd89-3849-4f83-8125-b9e194580de4"
+Template: "5995f7ca-293b-4930-971c-a758f9976a26"
+Path: /sitecore/layout/Renderings/Feature/AA/Basic Content/Related Pages
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Software/32x32/element_add.png
+- ID: "1a7c85e5-dc0b-490d-9187-bb1dbcb4c72f"
+  Hint: Datasource Template
+  Value: /sitecore/templates/Feature/AA/Related Page/Related Section
+- ID: "308e88f5-cd6e-4f8f-bafe-95a47dedefdc"
+  Hint: Editable
+  Value: 
+- ID: "51b435bc-f7b9-478a-9c51-52916af96ff5"
+  Hint: Path
+  Value: /Views/ContentViewRendering.cshtml
+- ID: "56776edf-261c-4abc-9fe7-70c618795239"
+  Hint: __Help link
+  Value: |
+    <link linktype="external" url="https://theaacom.atlassian.net/wiki/spaces/SIT/pages/5056495635/Related+Pages" />
+- ID: "7d24e54f-5c16-4314-90c9-6051aa1a7da1"
+  Hint: Parameters Template
+  Value: "{ADBDAA5F-ACEC-4021-BE55-5D0BD0BB8D3C}"
+- ID: "b5b27af1-25ef-405c-87ce-369b3a004016"
+  Hint: Datasource Location
+  Value: 
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "9984a489-13dc-4042-9116-a0d934cae6b1"
+- ID: "f172b787-7b88-4bd5-ae4d-6308e102ef11"
+  Hint: Enable Datasource Query
+  Value: 1
+Languages:
+- Language: en
+  Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: This component can be used to show related pages/articles.
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: This component can be used to show related pages/articles.
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240722T132739Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8945ee2a-e09f-415a-8b2c-c4e538a8b6a5"
+    - ID: "9e6a6532-99aa-4a0e-aba3-e7259e5429ba"
+      Hint: StyleSheets
+      Value: |
+        section.related-pages h2.heading {
+            font-family: var(--font-family-sans);
+            margin-bottom: var(--space-large);
+        }
+        section.related-pages p.description {
+            margin-bottom: var(--space-x-large);
+        }
+        section.related-pages .card-list {
+            display: flex;
+            justify-content: start;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            width: 100%;
+            gap: var(--space-large);
+        }
+        section.related-pages .card {
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            border-radius: 8px;
+        }
+        section.related-pages .card-image {
+            height: 176px; 
+            width: 100%; 
+            /* object-fit: cover; */ 
+            /* object-position: top; */
+        }
+        
+        section.related-pages .card-image img {
+            width: 100%;
+            height: 176px;
+            border-radius: 8px 8px 0 0;
+        }
+        section.related-pages .content-wrapper {
+            gap: var(--space-medium);
+            display: flex;
+            flex-direction: column;
+        }
+        section.related-pages.full-width .content-wrapper {
+            padding: var(--space-large) var(--space-x-large) var(--space-xxx-large) var(--space-x-large);
+            text-align: center;
+            align-items: center;
+        }
+        section.related-pages .bottom-description {
+            margin-top: var(--space-x-large);
+            text-align: center;
+        }
+        /*Design for side-related-article variant*/
+        section.side-related-article > div {
+            padding: var(--space-xxx-large) var(--space-large);
+            border-radius: 8px;
+        }
+        section.related-pages.side-related-article .card {
+            width: 100% !important;
+            flex-direction: row;
+        }
+        section.related-pages.side-related-article .card-image {
+            width: 88px;
+            border-radius: 8px 0 0 8px;
+            object-fit: cover;
+            object-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        	height: auto;
+        }
+        section.related-pages.side-related-article .content-wrapper {
+            padding: var(--space-large);
+            text-align: left;
+            align-items: start;
+            align-self: center;
+        }
+        section.related-pages.side-related-article .card-image img {
+            height: 100%;
+            width: 88px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 8px 0 0 8px;
+        }
+        @media (min-width:481px){ 
+        	section.related-pages .col-4 .card {
+        		width: calc(25% - 12px);
+        	}
+        	section.related-pages .col-3 .card {
+        		width: calc(33% - 8px);
+        	}
+        	section.related-pages .col-2 .card {
+        		width: calc(50% - 8px);
+        	}
+        	section.related-pages .col-1 .card {
+        		width: 100%;
+        	}
+        	section.related-pages .col-2 .card, section.related-pages .col-1 .card {
+        		flex-direction: row;
+        	}
+        	section.related-pages .col-2 .card-image, section.related-pages .col-1 .card-image {
+        		width: 144px;
+        		object-fit: cover;
+        		object-position: center;
+        		display: flex; 
+        		justify-content: center; 
+        		align-items: center;
+        		border-radius: 8px 0 0 8px;
+        		height: auto;
+        	}
+        
+        	section.related-pages .col-2 .card-image img, section.related-pages .col-1 .card-image img {
+        		height: 100%;
+        		width: 144px;
+        		object-fit: cover;
+                object-position: center;
+                border-radius: 8px 0 0 8px;
+        	}
+        	section.related-pages .col-2 .content-wrapper, section.related-pages .col-1 .content-wrapper {
+        		text-align: left;
+        		align-items: start;
+        		align-self: center;
+        		padding: var(--space-xxx-large) var(--space-x-large) var(--space-xxx-large) var(--space-large);
+        	}
+        }
+        @media (max-width: 480px) {
+            section.related-pages .col-4 .card, section.related-pages .col-3 .card, section.related-pages .col-2 .card{
+                width: 100%;
+            }
+        }
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @using TheAA.Foundation.Rendering.Query;
+        @using Sitecore.Data.Items;
+        
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        
+        @if (Model == null)
+        {
+            return;
+        }
+        @{
+            var relSecHeading = Model.GetField("Related Section Heading");
+            var relSecDesc = Model.GetField("Related Section Description");
+            var relSecBottomDesc = Model.GetField("Related Section Bottom Description");
+            var relPages = Model.GetField("Related Pages").SelectedItems();
+            var design = Model.GetRenderingParameterLookup("Design");
+        }
+        <section class="related-pages @Model.GetRenderingParameterLookup("Design") @Model.GetTopAndBottomPaddings() @(design=="side-related-article"? "container":Model.GetRenderingParameterLookup("Background Color"))">
+            <div class="@(design=="side-related-article"? Model.GetRenderingParameterLookup("Background Color"):"container")">
+                @if (relSecHeading.HasValueToRender())
+                {
+                    <h2 class="heading centred">@relSecHeading.RenderValue()</h2>
+                }
+                @if (relSecDesc.HasValueToRender())
+                {
+                    <p class="description centred">@relSecDesc.RenderValue()</p>
+                }
+        
+                <div class="card-list col-@Model.GetRenderingParameter("NumberOfColumnsInDesktop")">
+                    @foreach (var page in relPages)
+                    {
+                        var cardDescription = page.GetField("Related Card Description");
+                        var linkText = page.GetField("Related Card Link Text");
+                        <div class="card @Model.GetRenderingParameterLookup("Card Background Color")">
+                            @if (Model.GetRenderingParameter("Show Image") == "1")
+                            {
+                                var cardImage = page.GetField("Related Card Image");
+                                if (cardImage.HasValueToRender())
+                                {
+                                    <div class="card-image">
+                                        <img src="@cardImage.MediaURL" alt="@cardImage.MediaAltText" class="@cardImage.LinkClass" />
+                                    </div>
+                                }
+                            }
+                            <div class="content-wrapper">
+                                <h3 class="card-heading">
+                                    @page.GetField("Related Card Heading").RenderValue()
+                                </h3>
+                                @if (cardDescription.HasValueToRender())
+                                {
+                                    <p class="card-description">@cardDescription.RenderValue()</p>
+                                }
+                                <a href="@Model.GetItemUrl(page)" class="@Model.GetRenderingParameterLookup("Link Style")">
+                                @if (linkText.HasValueToRender())
+                                {
+                                    @linkText.RenderValue()
+                                }
+                                else
+                                {
+                                    @Model.GetLookupValue(TheAA.Application.Constants.LabelIds.TheAA.Components.RelatedPages.LinkText.ToString())
+                                }
+                                </a>
+                            </div>
+                        </div>
+                    }
+                </div>
+                @if (relSecBottomDesc.HasValueToRender())
+                {
+                    <div class="bottom-description">
+                        @relSecBottomDesc.RenderValue()
+                    </div>
+                }
+            </div>
+        </section>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250318T005306Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240909T073812Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "66a71f4a-5be7-4f99-93ff-9d7bcc5340bc"
+    - ID: "9e6a6532-99aa-4a0e-aba3-e7259e5429ba"
+      Hint: StyleSheets
+      Value: |
+        section.related-pages h2.heading {
+            font-family: var(--font-family-sans);
+            margin-bottom: var(--space-large);
+        } 
+        section.related-pages p.description {
+            margin-bottom: var(--space-x-large);
+        }
+        section.related-pages .card-list {
+            display: flex;
+            justify-content: start;
+            align-items: stretch;
+            flex-wrap: wrap;
+            width: 100%;
+            gap: var(--space-large);
+        }
+        section.related-pages .card {
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            border-radius: 8px;
+        }
+        section.related-pages .card-image {
+            height: 176px; 
+            width: 100%; 
+            /* object-fit: cover; */ 
+            /* object-position: top; */
+        }
+        
+        section.related-pages .card-image img {
+            width: 100%;
+            height: 176px;
+            border-radius: 8px 8px 0 0;
+        }
+        section.related-pages .content-wrapper {
+            gap: var(--space-medium);
+            display: flex;
+            flex-direction: column;
+        }
+        section.related-pages.full-width .content-wrapper {
+            padding: var(--space-large) var(--space-x-large) var(--space-xxx-large) var(--space-x-large);
+            text-align: center;
+            align-items: center;
+        }
+        section.related-pages .bottom-description {
+            margin-top: var(--space-x-large);
+            text-align: center;
+        }
+        /*Design for side-related-article variant*/
+        section.related-pages.side-related-article {
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+        section.related-pages.side-related-article > div {
+            padding: var(--space-xxx-large) var(--space-large);
+            border-radius: 8px;
+        }
+        section.related-pages.side-related-article .card, 
+        section.related-pages.side-related-article .col-1 .card, 
+        section.related-pages.side-related-article .col-2 .card {
+            width: 100% !important;
+            flex-direction: row;
+        }
+        section.related-pages.side-related-article .card-image,
+        section.related-pages.side-related-article .col-1 .card-image,
+        section.related-pages.side-related-article .col-2 .card-image {
+            width: 88px;
+            border-radius: 8px 0 0 8px;
+            object-fit: cover;
+            object-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        	height: auto;
+        }
+        section.related-pages.side-related-article .content-wrapper, 
+        section.related-pages.side-related-article .col-1 .content-wrapper, 
+        section.related-pages.side-related-article .col-2 .content-wrapper {
+            padding: var(--space-large);
+            text-align: left;
+            align-items: start;
+            align-self: center;
+        }
+        section.related-pages.side-related-article .content-wrapper p.card-description {
+            line-height: var(--line-height-small);
+        }
+        section.related-pages.side-related-article .card-image img,
+        section.related-pages.side-related-article .col-1 .card-image img,
+        section.related-pages.side-related-article .col-2 .card-image img {
+            height: 100%;
+            width: 88px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 8px 0 0 8px;
+        }
+        @media (min-width:481px){ 
+        	section.related-pages .col-4 .card {
+        		width: calc(25% - 12px);
+        	}
+        	section.related-pages .col-3 .card {
+        		width: calc((100% - 32px)/3);
+        	}
+        	section.related-pages .col-2 .card {
+        		width: calc(50% - 8px);
+        	}
+        	section.related-pages .col-1 .card {
+        		width: 100%;
+        	}
+        	section.related-pages .col-2 .card, section.related-pages .col-1 .card {
+        		flex-direction: row;
+        	}
+        	section.related-pages .col-2 .card-image, section.related-pages .col-1 .card-image {
+        		width: 144px;
+        		object-fit: cover;
+        		object-position: center;
+        		display: flex; 
+        		justify-content: center; 
+        		align-items: center;
+        		border-radius: 8px 0 0 8px;
+        		height: auto;
+        	}
+        
+        	section.related-pages .col-2 .card-image img, section.related-pages .col-1 .card-image img {
+        		height: 100%;
+        		width: 144px;
+        		object-fit: cover;
+                object-position: center;
+                border-radius: 8px 0 0 8px;
+        	}
+        	section.related-pages .col-2 .content-wrapper, section.related-pages .col-1 .content-wrapper {
+        		text-align: left;
+        		align-items: start;
+        		align-self: center;
+        		padding: var(--space-xxx-large) var(--space-x-large) var(--space-xxx-large) var(--space-large);
+        	}
+        }
+        @media (max-width: 480px) {
+            section.related-pages .col-4 .card, section.related-pages .col-3 .card, section.related-pages .col-2 .card{
+                width: 100%;
+            }
+        }
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @using TheAA.Foundation.Rendering.Query;
+        @using Sitecore.Data.Items;
+        
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        
+        @if (Model == null)
+        {
+            return;
+        }
+        @{
+            var relSecHeading = Model.GetField("Related Section Heading");
+            var relSecDesc = Model.GetField("Related Section Description");
+            var relSecBottomDesc = Model.GetField("Related Section Bottom Description");
+            var relPages = Model.GetField("Related Pages").SelectedItems();
+            var design = Model.GetRenderingParameterLookup("Design");
+        }
+        <section class="related-pages @design @(design=="side-related-article"? "container":Model.GetRenderingParameterLookup("Background Color")+" "+Model.GetTopAndBottomPaddings())">
+            <div class="@(design=="side-related-article"? Model.GetRenderingParameterLookup("Background Color")+" "+Model.GetTopAndBottomPaddings():"container")">
+                @if (relSecHeading.HasValueToRender())
+                {
+                    <h2 class="heading centred">@relSecHeading.RenderValue()</h2>
+                }
+                @if (relSecDesc.HasValueToRender())
+                {
+                    <p class="description centred">@relSecDesc.RenderValue()</p>
+                }
+        
+                <div class="card-list col-@Model.GetRenderingParameter("NumberOfColumnsInDesktop")">
+                    @foreach (var page in relPages)
+                    {
+                        var cardDescription = page.GetField("Related Card Description");
+                        var linkText = page.GetField("Related Card Link Text");
+                        <div class="card @Model.GetRenderingParameterLookup("Card Background Color")">
+                            @if (Model.GetRenderingParameter("Show Image") == "1")
+                            {
+                                var cardImage = page.GetField("Related Card Image");
+                                if (cardImage.HasValueToRender())
+                                {
+                                    <div class="card-image">
+                                        <img src="@cardImage.MediaURL" alt="@cardImage.MediaAltText" class="@cardImage.LinkClass" />
+                                    </div>
+                                }
+                            }
+                            <div class="content-wrapper">
+                                <h3 class="card-heading">
+                                    @page.GetField("Related Card Heading").RenderValue()
+                                </h3>
+                                @if (cardDescription.HasValueToRender())
+                                {
+                                    <p class="card-description">@cardDescription.RenderValue()</p>
+                                }
+                                <a href="@Model.GetItemUrl(page)" class="@Model.GetRenderingParameterLookup("Link Style")">
+                                    @if (linkText.HasValueToRender())
+                                    {
+                                        @linkText.RenderValue()
+                                    }
+                                    else
+                                    {
+                                        @Model.GetLookupValue(TheAA.Application.Constants.LabelIds.TheAA.Components.RelatedPages.LinkText.ToString())
+                                    }
+                                </a>
+                            </div>
+                        </div>
+                    }
+                </div>
+                @if (relSecBottomDesc.HasValueToRender())
+                {
+                    <div class="bottom-description">
+                        @relSecBottomDesc.RenderValue()
+                    </div>
+                }
+            </div>
+        </section>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240909T073812Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250318T005306Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241010T105922Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "953b2179-9948-47d7-b4cc-6482a768019f"
+    - ID: "9e6a6532-99aa-4a0e-aba3-e7259e5429ba"
+      Hint: StyleSheets
+      Value: |
+        section.related-pages h2.heading{
+            font-family: var(--font-family-sans);
+            margin-bottom: var(--space-large);
+        } 
+        section.related-pages p.description {
+            margin-bottom: var(--space-x-large);
+        }
+        section.related-pages .card-list {
+            display: flex;
+            justify-content: start;
+            align-items: stretch;
+            flex-wrap: wrap;
+            width: 100%;
+            gap: var(--space-large);
+        }
+        section.related-pages .card {
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            border-radius: 8px;
+        }
+        section.related-pages .card-image {
+            height: 176px; 
+            width: 100%; 
+            /* object-fit: cover; */ 
+            /* object-position: top; */
+        }
+        
+        section.related-pages .card-image img {
+            width: 100%;
+            height: 176px;
+            border-radius: 8px 8px 0 0;
+        }
+        section.related-pages .content-wrapper {
+            gap: var(--space-medium);
+            display: flex;
+            flex-direction: column;
+        }
+        section.related-pages.full-width .content-wrapper {
+            padding: var(--space-large) var(--space-x-large) var(--space-xxx-large) var(--space-x-large);
+            text-align: center;
+            align-items: center;
+        }
+        section.related-pages .bottom-description {
+            margin-top: var(--space-x-large);
+            text-align: center;
+        }
+        /*Design for side-related-article variant*/
+        section.related-pages.side-related-article {
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+        section.related-pages.side-related-article > div {
+            padding: var(--space-xxx-large) var(--space-large);
+            border-radius: 8px;
+        }
+        section.related-pages.side-related-article .card, 
+        section.related-pages.side-related-article .col-1 .card, 
+        section.related-pages.side-related-article .col-2 .card {
+            width: 100% !important;
+            flex-direction: row;
+        }
+        section.related-pages.side-related-article .card-image,
+        section.related-pages.side-related-article .col-1 .card-image,
+        section.related-pages.side-related-article .col-2 .card-image {
+            width: 88px;
+            border-radius: 8px 0 0 8px;
+            object-fit: cover;
+            object-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        	height: auto;
+        }
+        section.related-pages.side-related-article .content-wrapper, 
+        section.related-pages.side-related-article .col-1 .content-wrapper, 
+        section.related-pages.side-related-article .col-2 .content-wrapper {
+            padding: var(--space-large);
+            text-align: left;
+            align-items: start;
+            align-self: center;
+        }
+        section.related-pages.side-related-article .content-wrapper p.card-description {
+            line-height: var(--line-height-small);
+        }
+        section.related-pages.side-related-article .card-image img,
+        section.related-pages.side-related-article .col-1 .card-image img,
+        section.related-pages.side-related-article .col-2 .card-image img {
+            height: 100%;
+            width: 88px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 8px 0 0 8px;
+        }
+        @media (min-width:481px){ 
+        	section.related-pages .col-4 .card {
+        		width: calc(25% - 12px);
+        	}
+        	section.related-pages .col-3 .card {
+        		width: calc((100% - 32px)/3);
+        	}
+        	section.related-pages .col-2 .card {
+        		width: calc(50% - 8px);
+        	}
+        	section.related-pages .col-1 .card {
+        		width: 100%;
+        	}
+        	section.related-pages .col-2 .card, section.related-pages .col-1 .card {
+        		flex-direction: row;
+        	}
+        	section.related-pages .col-2 .card-image, section.related-pages .col-1 .card-image {
+        		width: 144px;
+        		object-fit: cover;
+        		object-position: center;
+        		display: flex; 
+        		justify-content: center; 
+        		align-items: center;
+        		border-radius: 8px 0 0 8px;
+        		height: auto;
+        	}
+        
+        	section.related-pages .col-2 .card-image img, section.related-pages .col-1 .card-image img {
+        		height: 100%;
+        		width: 144px;
+        		object-fit: cover;
+                object-position: center;
+                border-radius: 8px 0 0 8px;
+        	}
+        	section.related-pages .col-2 .content-wrapper, section.related-pages .col-1 .content-wrapper {
+        		text-align: left;
+        		align-items: start;
+        		align-self: center;
+        		padding: var(--space-xxx-large) var(--space-x-large) var(--space-xxx-large) var(--space-large);
+        	}
+        }
+        @media (max-width: 480px) {
+            section.related-pages .col-4 .card, section.related-pages .col-3 .card, section.related-pages .col-2 .card{
+                width: 100%;
+            }
+        }
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @using TheAA.Foundation.Rendering.Query;
+        @using Sitecore.Data.Items;
+        @using System.Linq;
+        
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        
+        @if (Model == null)
+        {
+            return;
+        }
+        @{
+            var relSecHeading = Model.GetField("Related Section Heading");
+            var relSecDesc = Model.GetField("Related Section Description");
+            var relSecBottomDesc = Model.GetField("Related Section Bottom Description");
+            var relPages = Model.GetField("Related Pages").SelectedItems();
+            var design = Model.GetRenderingParameterLookup("Design");
+        }
+        @if (!relPages.Any())
+        {
+            return;
+        }
+        <section class="related-pages @design @(design=="side-related-article"? "container":Model.GetRenderingParameterLookup("Background Color")+" "+Model.GetTopAndBottomPaddings())">
+            <div class="@(design=="side-related-article"? Model.GetRenderingParameterLookup("Background Color")+" "+Model.GetTopAndBottomPaddings():"container")">
+                @if (relSecHeading.HasValueToRender())
+                {
+                    <h2 class="heading centred">@relSecHeading.RenderValue()</h2>
+                }
+                @if (relSecDesc.HasValueToRender())
+                {
+                    <p class="description centred">@relSecDesc.RenderValue()</p>
+                }
+        
+                <div class="card-list col-@Model.GetRenderingParameter("NumberOfColumnsInDesktop")">
+                    @foreach (var page in relPages)
+                    {
+                        var cardDescription = page.GetField("Related Card Description");
+                        var linkText = page.GetField("Related Card Link Text");
+                        <div class="card @Model.GetRenderingParameterLookup("Card Background Color")">
+                            @if (Model.GetRenderingParameter("Show Image") == "1")
+                            {
+                                var cardImage = page.GetField("Related Card Image");
+                                if (cardImage.HasValueToRender())
+                                {
+                                    <div class="card-image">
+                                        <img src="@cardImage.MediaURL" alt="@cardImage.MediaAltText" class="@cardImage.LinkClass" />
+                                    </div>
+                                }
+                            }
+                            <div class="content-wrapper">
+                                <h3 class="card-heading">
+                                    @{
+                                        var relatedCardHeading = page.GetField("Related Card Heading");
+                                    }
+                                    @if (relatedCardHeading.HasValueToRender())
+                                    {
+                                        @relatedCardHeading.RenderValue()
+                                    }
+                                    else
+                                    {
+                                        @page.GetField("PageTitle").RenderValue()
+                                    }
+        
+                                </h3>
+                                @if (cardDescription.HasValueToRender())
+                                {
+                                    <p class="card-description">@cardDescription.RenderValue()</p>
+                                }
+                                <a href="@Model.GetItemUrl(page)" class="@Model.GetRenderingParameterLookup("Link Style")">
+                                    @if (linkText.HasValueToRender())
+                                    {
+                                        @linkText.RenderValue()
+                                    }
+                                    else
+                                    {
+                                        @Model.GetLookupValue(TheAA.Application.Constants.LabelIds.TheAA.Components.RelatedPages.LinkText.ToString())
+                                    }
+                                </a>
+                            </div>
+                        </div>
+                    }
+                </div>
+                @if (relSecBottomDesc.HasValueToRender())
+                {
+                    <div class="bottom-description">
+                        @relSecBottomDesc.RenderValue()
+                    </div>
+                }
+            </div>
+        </section>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241007T104038Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250318T005306Z
+  - Version: 4
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250103T051126Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "eaee8213-85d7-4dae-91a6-9bd97d08b749"
+    - ID: "9e6a6532-99aa-4a0e-aba3-e7259e5429ba"
+      Hint: StyleSheets
+      Value: |
+        section.related-pages h2.heading{
+            font-family: var(--font-family-sans);
+            margin-bottom: var(--space-large);
+        } 
+        section.related-pages p.description {
+            margin-bottom: var(--space-x-large);
+        }
+        section.related-pages .card-list {
+            display: flex;
+            justify-content: start;
+            align-items: stretch;
+            flex-wrap: wrap;
+            width: 100%;
+            gap: var(--space-large);
+        }
+        section.related-pages .card {
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            border-radius: 8px;
+        }
+        section.related-pages .card-image {
+            height: 176px; 
+            width: 100%; 
+            /* object-fit: cover; */ 
+            /* object-position: top; */
+        }
+        
+        section.related-pages .card-image img {
+            width: 100%;
+            height: 176px;
+            border-radius: 8px 8px 0 0;
+        }
+        section.related-pages .content-wrapper {
+            gap: var(--space-medium);
+            display: flex;
+            flex-direction: column;
+        }
+        section.related-pages.full-width .content-wrapper {
+            padding: var(--space-large) var(--space-x-large) var(--space-xxx-large) var(--space-x-large);
+            text-align: center;
+            align-items: center;
+        }
+        section.related-pages .bottom-description {
+            margin-top: var(--space-x-large);
+            text-align: center;
+        }
+        /*Design for side-related-article variant*/
+        section.related-pages.side-related-article {
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+        section.related-pages.side-related-article > div {
+            padding: var(--space-xxx-large) var(--space-large);
+            border-radius: 8px;
+        }
+        section.related-pages.side-related-article .card, 
+        section.related-pages.side-related-article .col-1 .card, 
+        section.related-pages.side-related-article .col-2 .card {
+            width: 100% !important;
+            flex-direction: row;
+        }
+        section.related-pages.side-related-article .card-image,
+        section.related-pages.side-related-article .col-1 .card-image,
+        section.related-pages.side-related-article .col-2 .card-image {
+            width: 88px;
+            border-radius: 8px 0 0 8px;
+            object-fit: cover;
+            object-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        	height: auto;
+        }
+        section.related-pages.side-related-article .content-wrapper, 
+        section.related-pages.side-related-article .col-1 .content-wrapper, 
+        section.related-pages.side-related-article .col-2 .content-wrapper {
+            padding: var(--space-large);
+            text-align: left;
+            align-items: start;
+            align-self: center;
+        }
+        section.related-pages.side-related-article .content-wrapper p.card-description {
+            line-height: var(--line-height-small);
+        }
+        section.related-pages.side-related-article .card-image img,
+        section.related-pages.side-related-article .col-1 .card-image img,
+        section.related-pages.side-related-article .col-2 .card-image img {
+            height: 100%;
+            width: 88px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 8px 0 0 8px;
+        }
+        @media (min-width:481px){ 
+        	section.related-pages .col-4 .card {
+        		width: calc(25% - 12px);
+        	}
+        	section.related-pages .col-3 .card {
+        		width: calc((100% - 32px)/3);
+        	}
+        	section.related-pages .col-2 .card {
+        		width: calc(50% - 8px);
+        	}
+        	section.related-pages .col-1 .card {
+        		width: 100%;
+        	}
+        	section.related-pages .col-2 .card, section.related-pages .col-1 .card {
+        		flex-direction: row;
+        	}
+        	section.related-pages .col-2 .card-image, section.related-pages .col-1 .card-image {
+        		width: 144px;
+        		object-fit: cover;
+        		object-position: center;
+        		display: flex; 
+        		justify-content: center; 
+        		align-items: center;
+        		border-radius: 8px 0 0 8px;
+        		height: auto;
+        	}
+        
+        	section.related-pages .col-2 .card-image img, section.related-pages .col-1 .card-image img {
+        		height: 100%;
+        		width: 144px;
+        		object-fit: cover;
+                object-position: center;
+                border-radius: 8px 0 0 8px;
+        	}
+        	section.related-pages .col-2 .content-wrapper, section.related-pages .col-1 .content-wrapper {
+        		text-align: left;
+        		align-items: start;
+        		align-self: center;
+        		padding: var(--space-xxx-large) var(--space-x-large) var(--space-xxx-large) var(--space-large);
+        	}
+        }
+        @media (max-width: 480px) {
+            section.related-pages .col-4 .card, section.related-pages .col-3 .card, section.related-pages .col-2 .card{
+                width: 100%; 
+            }
+        }
+    - ID: "acce9b46-1f19-4d3d-a0ec-ed01d807bb7d"
+      Hint: RazorView
+      Value: |
+        @using TheAA.Foundation.Rendering;
+        @using TheAA.Application.ViewModels;
+        @using TheAA.Foundation.Rendering.Query;
+        @using Sitecore.Data.Items;
+        @using System.Linq;
+        
+        @inherits  HtmlTemplateBase<ContentViewRenderingModel>
+        
+        @if (Model == null)
+        {
+            return;
+        }
+        @{
+            var relSecHeading = Model.GetField("Related Section Heading");
+            var relSecDesc = Model.GetField("Related Section Description");
+            var relSecBottomDesc = Model.GetField("Related Section Bottom Description");
+            var relPages = Model.GetField("Related Pages").SelectedItems();
+            var design = Model.GetRenderingParameterLookup("Design");
+        }
+        @if (!relPages.Any())
+        {
+            return;
+        }
+        <section class="related-pages @design @(design=="side-related-article"? "container":Model.GetRenderingParameterLookup("Background Color")+" "+Model.GetTopAndBottomPaddings())">
+            <div class="@(design=="side-related-article"? Model.GetRenderingParameterLookup("Background Color")+" "+Model.GetTopAndBottomPaddings():"container")">
+                @if (relSecHeading.HasValueToRender())
+                {
+                    <h2 class="heading centred">@relSecHeading.RenderValue()</h2>
+                }
+                @if (relSecDesc.HasValueToRender())
+                {
+                    <p class="description centred">@relSecDesc.RenderValue()</p>
+                }
+        
+                <div class="card-list col-@Model.GetRenderingParameter("NumberOfColumnsInDesktop")">
+                    @foreach (var page in relPages)
+                    {
+                        var cardDescription = page.GetField("Related Card Description");
+                        var cardDescriptionFallback = page.GetField("HeroTitleText");
+                        <div class="card @Model.GetRenderingParameterLookup("Card Background Color")">
+                            @if (Model.GetRenderingParameter("Show Image") == "1")
+                            {
+                                var cardImage = page.GetField("Related Card Image");
+                                if (cardImage.HasValueToRender())
+                                {
+                                    <div class="card-image">
+                                        <img src="@cardImage.MediaURL" alt="@cardImage.MediaAltText" class="@cardImage.LinkClass" />
+                                    </div>
+                                }
+                            }
+                            <div class="content-wrapper">
+                                <h3 class="card-heading">
+                                    @{
+                                        var relatedCardHeading = page.GetField("Related Card Heading");
+                                        var relatedPageURL = Model.GetItemUrl(page);
+                                        var canonicalUrl = page.GetField("CanonicalUrl");
+                                        //Check related page canonical URL, it it has trailing slash then append trailing slash to related page URL for SEO
+                                        if (canonicalUrl.HasValueToRender() && canonicalUrl.Value().EndsWith("/"))
+                                        {
+                                            relatedPageURL = relatedPageURL + "/";
+                                        }
+                                    }
+                                    <a href="@relatedPageURL" class="@Model.GetRenderingParameterLookup("Link Style")">
+                                        @if (relatedCardHeading.HasValueToRender())
+                                        {
+                                            @relatedCardHeading.RenderValue()
+                                        }
+                                        else
+                                        {
+                                            @page.GetField("H1TitleText").RenderValue()
+                                        }
+                                    </a>
+                                </h3>
+                                @if (cardDescription.HasValueToRender())
+                                {
+                                    <p class="card-description">@cardDescription.RenderValue()</p>
+                                }
+                                else if (cardDescriptionFallback.HasValueToRender())
+                                {
+                                    <p class="card-description">@cardDescriptionFallback.RenderValue()</p>
+                                }
+                            </div>
+                        </div>
+                    }
+                </div>
+                @if (relSecBottomDesc.HasValueToRender())
+                {
+                    <div class="bottom-description">
+                        @relSecBottomDesc.RenderValue()
+                    </div>
+                }
+            </div>
+        </section>
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20250103T051126Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250801T130724Z

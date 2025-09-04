@@ -1,0 +1,36 @@
+﻿---
+ID: "711b8e42-8af7-43d0-af0e-b683426731a6"
+Parent: "a311c241-a75a-473b-b911-71aecb841395"
+Template: "a311c241-a75a-473b-b911-71aecb841395"
+Path: /sitecore/templates/Feature/AA/Navigation/Sub Links/Sub Links Folder/__Standard Values
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: "Apps/32x32/Direction-1.png"
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {8B963E90-DF19-4E83-9B31-0387831078FD}
+    {991F757C-6948-4E2C-988A-870FE0C59F48}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211119T192422Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "c25f31fe-0496-46a8-83e1-3e104a5b32e6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220120T043924Z

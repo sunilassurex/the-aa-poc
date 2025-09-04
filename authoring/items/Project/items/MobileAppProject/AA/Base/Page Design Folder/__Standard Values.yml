@@ -1,0 +1,40 @@
+﻿---
+ID: "b1e2ff63-6dc0-4a0d-bd27-ec549fe5f3ca"
+Parent: "f563320b-ecf5-43ee-a1bd-fae4cd1ff3d2"
+Template: "f563320b-ecf5-43ee-a1bd-fae4cd1ff3d2"
+Path: /sitecore/templates/Project/AA/Base/Page Design Folder/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: |
+    {F563320B-ECF5-43EE-A1BD-FAE4CD1FF3D2}
+    {1105B8F8-1E00-426B-BF1F-C840742D827B}
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "01c4c51e-8560-4052-b889-e0897cf6636f"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250723T102414Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "84d098b7-f651-4ce3-a0e8-93406e67b0d1"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250723T102422Z

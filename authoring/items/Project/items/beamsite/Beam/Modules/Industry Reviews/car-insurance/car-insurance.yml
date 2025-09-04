@@ -1,0 +1,297 @@
+﻿---
+ID: "1e254343-e4ee-4124-81a8-d6af21d808d3"
+Parent: "c97bc954-d16d-4153-970a-6291fd6ec42c"
+Template: "c1fdeeda-72a3-4d74-a543-0cdb7b45bb0a"
+Path: "/sitecore/content/AA/Beam/Modules/Industry Reviews/car-insurance/car-insurance"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1d36239f-971c-4388-b38f-123803fdba06"
+      Hint: FirstIcon
+      Value: |
+        <image mediaid="{3351C38D-93BA-4B9F-8DE2-901E1978B252}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220228T143131Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4ae83ac3-0869-43c7-b2b2-60d8b586f9bc"
+      Hint: FirstIconOptionsText
+      Value: |
+        <h2>Defaqto 4 Star Rating</h2>
+        <p>Our comprehensive car insurance has a 4 Star Rating</p>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "90820d18-9194-41b1-a70a-62dd1bfdf11f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220228T144238Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1d36239f-971c-4388-b38f-123803fdba06"
+      Hint: FirstIcon
+      Value: |
+        <image mediaid="{3351C38D-93BA-4B9F-8DE2-901E1978B252}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220310T155841Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4ae83ac3-0869-43c7-b2b2-60d8b586f9bc"
+      Hint: FirstIconOptionsText
+      Value: |
+        <h2>Defaqto 4 Star Rating</h2>
+        <p>Our comprehensive cover has a good level of features and benefits and is rated 4 Stars by independent industry experts, Defaqto.</p>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0ec4659e-b8b7-4aaa-a2e7-5683d151e0f0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220310T155841Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221208T155828Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1d36239f-971c-4388-b38f-123803fdba06"
+      Hint: FirstIcon
+      Value: |
+        <image mediaid="{99124EC6-3694-4CD7-9AA7-DEC92ADA5064}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221209T100024Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4ae83ac3-0869-43c7-b2b2-60d8b586f9bc"
+      Hint: FirstIconOptionsText
+      Value: |
+        <h2>Defaqto 4 Star Rating</h2>
+        <p>Our comprehensive cover has a good level of features and benefits and is rated 4&nbsp;Stars by independent industry experts, Defaqto.</p>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "595229d3-8191-4062-a3c2-5c4b58a724fe"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20221209T100024Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20221209T112443Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1d36239f-971c-4388-b38f-123803fdba06"
+      Hint: FirstIcon
+      Value: |
+        <image mediaid="{471CEFAA-14B2-413C-9E02-5CF2E1781964}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230124T090225Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4ae83ac3-0869-43c7-b2b2-60d8b586f9bc"
+      Hint: FirstIconOptionsText
+      Value: |
+        <h2>Defaqto 4 Star Rating</h2>
+        <p>Our comprehensive cover has a good level of features and benefits, and is rated 4&nbsp;Stars by independent industry experts Defaqto.</p>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f84955a5-f8bf-471b-9d41-71f74c85db49"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230124T090225Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230206T155529Z
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1d36239f-971c-4388-b38f-123803fdba06"
+      Hint: FirstIcon
+      Value: |
+        <image mediaid="{471CEFAA-14B2-413C-9E02-5CF2E1781964}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230206T155913Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4ae83ac3-0869-43c7-b2b2-60d8b586f9bc"
+      Hint: FirstIconOptionsText
+      Value: |
+        <h2>Defaqto 4 Star Rating</h2>
+        <p>Our comprehensive car insurance has a good level of features and benefits, and has been given a 4 Star rating by Defaqto. Defaqto is a leading financial information, ratings and fintech business.</p>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5e355844-09fb-4cab-a650-8f3eab6b1055"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230206T155913Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230206T161521Z
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1d36239f-971c-4388-b38f-123803fdba06"
+      Hint: FirstIcon
+      Value: |
+        <image mediaid="{78FC3BDD-550D-4747-88A9-133223E4CF63}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240124T105907Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4ae83ac3-0869-43c7-b2b2-60d8b586f9bc"
+      Hint: FirstIconOptionsText
+      Value: |
+        <h2>Defaqto 4 Star Rating</h2>
+        <p>Our comprehensive car insurance has a good level of features and benefits, and has been given a 4 Star Rating by Defaqto. Defaqto is one of the UK's most trusted sources of financial product and market intelligence.</p>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "86a4be7b-88d8-40ac-a1cd-50cd53476508"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240124T105907Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240906T073217Z
+  - Version: 7
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1d36239f-971c-4388-b38f-123803fdba06"
+      Hint: FirstIcon
+      Value: |
+        <image mediaid="{905B9621-FC58-4D19-9CC8-7DC2AAE62495}" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240906T073227Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "4ae83ac3-0869-43c7-b2b2-60d8b586f9bc"
+      Hint: FirstIconOptionsText
+      Value: |
+        <h2>Defaqto 4 Star Rating</h2>
+        <p>BEAM comprehensive car insurance has a good level of features and benefits, and has been given a 4 Star Rating by Defaqto. Defaqto is one of the UK's most
+        trusted sources of financial product and market intelligence.</p>
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "675a1269-4c41-49ff-8a1b-33581f8ae53b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240906T073227Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250203T085406Z

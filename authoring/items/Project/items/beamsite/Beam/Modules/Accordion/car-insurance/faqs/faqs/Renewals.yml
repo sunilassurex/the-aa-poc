@@ -1,0 +1,485 @@
+﻿---
+ID: "eb4228b5-486a-4258-ba43-19323972ff06"
+Parent: "c0a17c5e-4619-4995-a65d-d584eb4da39d"
+Template: "8703a280-ec4e-43a2-8f83-dc29485a490a"
+Path: "/sitecore/content/AA/Beam/Modules/Accordion/car-insurance/faqs/faqs/Renewals"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 1100
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <h3><span style="font-size: 24px;"><strong>When will I receive my renewal quote?</strong></span></h3>
+        <p>Your renewal invitation quote is generated around 28 days before the renewal date.</p>
+        <p>If you previously chose to receive your documents by email, they should arrive on the same day.</p>
+        <p>Whereas documents sent by post may take up to 7 working days to reach you.</p>
+        <p>Once you've received your renewal pack, check all the details are correct. If there are any changes you'd like to make, or if you'd like to discuss your renewal, call us on&nbsp;<strong>0330 041 3685</strong>. We'll be happy to help.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">When will I receive my renewal documents?</span></strong></h3>
+        <p>If you previously chose to receive your documents by email, they should arrive around 28 days before the renewal date. Remember to check your junk folder.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">I haven't received my renewal invite yet. Should I call you to renew?</span></strong></h3>
+        <p>If you're worried about your renewal, call us on&nbsp;<strong>0330 041 3685</strong>&nbsp;to make sure it's on its way. We usually send your renewal invite around 28 days before the renewal date.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">Where can I find proof of my no claims discount?</span></strong></h3>
+        <p>Your no claim discount is recorded on page 3 of your renewal invitation, or it's on your cancellation letter if you cancelled your policy before the renewal date.</p>
+        <p>Allow up to 7 working days for your cancellation letter to arrive after you cancelled your policy. We can't issue an official letter as proof of your no claim discount until after your policy has ended.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">I pay by monthly instalments. What happens if I cancel my policy?</span></strong></h3>
+        <p>The final instalment is normally due the day before your policy expires, as payments are made in arrears.</p>
+        <p>If you cancelled your Direct Debit before the last payment has been collected, contact our instalments team directly on&nbsp;<strong>0330 041 3690</strong>.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">Does cancelling my car insurance or the renewal also cancel my AA breakdown cover?</span></strong></h3>
+        <p>If you&rsquo;ve added the optional extras for AA Breakdown: Roadside or AA Breakdown: Roadside and National Recovery, they&rsquo;ll be cancelled if you cancel or don&rsquo;t renew your BEAM car insurance policy.</p>
+        <p>If you have separate AA breakdown cover it won&rsquo;t affected by changes to your BEAM car insurance.</p>
+        <p>If you want to discuss your breakdown cover renewal, call the AA Membership team direct on&nbsp;<strong>0343 316 4444</strong>.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">My policy isn't due for renewal but my details or the vehicle has changed.</span></strong></h3>
+        <p>If you'd like to make a change to your policy, contact our service team on&nbsp;<strong>0330 041 3684</strong>. Or you can&nbsp;<strong><span style="text-decoration: underline;">email the team</span></strong>.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">Can I stop my insurance renewing automatically?</span></strong></h3>
+        <p>Yes, you can opt out of the automatic renewal of your policy at any time after the purchase. When you bought your insurance, you could choose to renew the policy automatically using the same method of payment.</p>
+        <p>Use our form to <a href="/contact-us/stop-auto-renew">opt out of automatic renewal</a>&nbsp;or call us on&nbsp;<strong>0330 041 3685</strong>.</p>
+        <p>We'll still send you a renewal invitation, but you'll need to contact us to renew your policy before it expires.</p>
+        <p>Don't forget, it's a legal requirement to have motor insurance unless your car has been registered as off the road.</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>Can I opt into automatic renewal after I've bought my insurance?</strong></span></h3>
+        <p>Yes, you can opt in at any time after your purchase. The automatic renewal of your policy gives you the reassurance of continuous cover.</p>
+        <p>We'll send details of your renewal before the insurance expiry date, and you'll have plenty of time to contact us if you want to make a change.</p>
+        <p>To select automatic renewal, call us on&nbsp;<strong>0330 041 3685</strong>.</p>
+        <hr />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220307T144129Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e4026b55-896e-4dfb-89d6-c14dfbabfbad"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220307T150212Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Renewals
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <h3><span style="font-size: 24px;"><strong>When will I receive my renewal quote?</strong></span></h3>
+        <p>Your renewal invitation quote is generated around 28 days before the renewal date.</p>
+        <p>If you previously chose to receive your documents by email, they should arrive on the same day.</p>
+        <p>Whereas documents sent by post may take up to 7 working days to reach you.</p>
+        <p>Once you've received your renewal pack, check all the details are correct. If there are any changes you'd like to make, or if you'd like to discuss your renewal, call us on&nbsp;<strong>0330 041 3685</strong>. We'll be happy to help.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">When will I receive my renewal documents?</span></strong></h3>
+        <p>If you previously chose to receive your documents by email, they should arrive around 28 days before the renewal date. Remember to check your junk folder.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">I haven't received my renewal invite yet. Should I call you to renew?</span></strong></h3>
+        <p>If you're worried about your renewal, call us on&nbsp;<strong>0330 041 3685</strong>&nbsp;to make sure it's on its way. We usually send your renewal invite around 28 days before the renewal date.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">Where can I find proof of my no claims discount?</span></strong></h3>
+        <p>Your no claim discount is recorded on page 3 of your renewal invitation, or it's on your cancellation letter if you cancelled your policy before the renewal date.</p>
+        <p>Allow up to 7 working days for your cancellation letter to arrive after you cancelled your policy. We can't issue an official letter as proof of your no claim discount until after your policy has ended.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">I pay by monthly instalments. What happens if I cancel my policy?</span></strong></h3>
+        <p>The final instalment is normally due the day before your policy expires, as payments are made in arrears.</p>
+        <p>If you cancelled your Direct Debit before the last payment has been collected, contact our instalments team directly on&nbsp;<strong>0330 041 3690</strong>.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">Does cancelling my car insurance or the renewal also cancel my AA breakdown cover?</span></strong></h3>
+        <p>If you&rsquo;ve added the optional extras for AA Breakdown: Roadside or AA Breakdown: Roadside and National Recovery, they&rsquo;ll be cancelled if you cancel or don&rsquo;t renew your BEAM car insurance policy.</p>
+        <p>If you have separate AA breakdown cover it won&rsquo;t affected by changes to your BEAM car insurance.</p>
+        <p>If you want to discuss your breakdown cover renewal, call the AA Membership team direct on&nbsp;<strong>0343 316 4444</strong>.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">My policy isn't due for renewal but my details or the vehicle has changed.</span></strong></h3>
+        <p>If you'd like to make a change to your policy, contact our service team on&nbsp;<strong>0330 041 3684</strong>. Or you can&nbsp;<strong><span style="text-decoration: underline;">email the team</span></strong>.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">Can I stop my insurance renewing automatically?</span></strong></h3>
+        <p>Yes, you can opt out of the automatic renewal of your policy at any time after the purchase. When you bought your insurance, you could choose to renew the policy automatically using the same method of payment.</p>
+        <p>Use our form to <a href="/contact-us/stop-auto-renew">opt out of automatic renewal</a>&nbsp;or call us on&nbsp;<strong>0330 041 3685</strong>.</p>
+        <p>We'll still send you a renewal invitation, but you'll need to contact us to renew your policy before it expires.</p>
+        <p>Don't forget, it's a legal requirement to have motor insurance unless your car has been registered as off the road.</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>Can I opt into automatic renewal after I've bought my insurance?</strong></span></h3>
+        <p>Yes, you can opt in at any time after your purchase. The automatic renewal of your policy gives you the reassurance of continuous cover.</p>
+        <p>We'll send details of your renewal before the insurance expiry date, and you'll have plenty of time to contact us if you want to make a change.</p>
+        <p>To select automatic renewal, call us on&nbsp;<strong>0330 041 3685</strong>.</p>
+        <hr />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220307T150356Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "aa0b19d4-0a82-479f-8d47-4091c1926ad7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220307T150356Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220307T150408Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Renewals
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <h3><span style="font-size: 24px;"><strong>When will I receive my renewal quote?</strong></span></h3>
+        <p>Your renewal invitation quote is generated around 28 days before the renewal date.</p>
+        <p>If you previously chose to receive your documents by email, they should arrive on the same day.</p>
+        <p>Whereas documents sent by post may take up to 7 working days to reach you.</p>
+        <p>Once you've received your renewal pack, check all the details are correct. If there are any changes you'd like to make, or if you'd like to discuss your renewal, call us on&nbsp;<strong>0330 041 3685</strong>. We'll be happy to help.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">When will I receive my renewal documents?</span></strong></h3>
+        <p>If you previously chose to receive your documents by email, they should arrive around 28 days before the renewal date. Remember to check your junk folder.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">I haven't received my renewal invite yet. Should I call you to renew?</span></strong></h3>
+        <p>If you're worried about your renewal, call us on&nbsp;<strong>0330 041 3685</strong>&nbsp;to make sure it's on its way. We usually send your renewal invite around 28 days before the renewal date.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">Where can I find proof of my no claims discount?</span></strong></h3>
+        <p>Your no claim discount is recorded on page 3 of your renewal invitation, or it's on your cancellation letter if you cancelled your policy before the renewal date.</p>
+        <p>Allow up to 7 working days for your cancellation letter to arrive after you cancelled your policy. We can't issue an official letter as proof of your no claim discount until after your policy has ended.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">I pay by monthly instalments. What happens if I cancel my policy?</span></strong></h3>
+        <p>The final instalment is normally due the day before your policy expires, as payments are made in arrears.</p>
+        <p>If you cancelled your Direct Debit before the last payment has been collected, contact our instalments team directly on&nbsp;<strong>0330 041 3690</strong>.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">Does cancelling my car insurance or the renewal also cancel my AA breakdown cover?</span></strong></h3>
+        <p>If you&rsquo;ve added the optional extras for AA Breakdown: Roadside or AA Breakdown: Roadside and National Recovery, they&rsquo;ll be cancelled if you cancel or don&rsquo;t renew your BEAM car insurance policy.</p>
+        <p>If you have separate AA breakdown cover it won&rsquo;t be affected by changes to your BEAM car insurance.</p>
+        <p>If you want to discuss your breakdown cover renewal, call the AA Membership team direct on&nbsp;<strong>0343 316 4444</strong>.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">My policy isn't due for renewal but my details or the vehicle has changed.</span></strong></h3>
+        <p>If you'd like to make a change to your policy, contact our service team on&nbsp;<strong>0330 041 3684</strong>. Or you can&nbsp;<strong><span style="text-decoration: underline;">email the team</span></strong>.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">Can I stop my insurance renewing automatically?</span></strong></h3>
+        <p>Yes, you can opt out of the automatic renewal of your policy at any time after the purchase. When you bought your insurance, you could choose to renew the policy automatically using the same method of payment.</p>
+        <p>Use our form to <a href="/contact-us/stop-auto-renew">opt out of automatic renewal</a>&nbsp;or call us on&nbsp;<strong>0330 041 3685</strong>.</p>
+        <p>We'll still send you a renewal invitation, but you'll need to contact us to renew your policy before it expires.</p>
+        <p>Don't forget, it's a legal requirement to have motor insurance unless your car has been registered as off the road.</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>Can I opt into automatic renewal after I've bought my insurance?</strong></span></h3>
+        <p>Yes, you can opt in at any time after your purchase. The automatic renewal of your policy gives you the reassurance of continuous cover.</p>
+        <p>We'll send details of your renewal before the insurance expiry date, and you'll have plenty of time to contact us if you want to make a change.</p>
+        <p>To select automatic renewal, call us on&nbsp;<strong>0330 041 3685</strong>.</p>
+        <hr />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220404T091225Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\EvansD
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ddc8e677-d9f7-4415-abc0-7600e0d700bd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\EvansD
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220404T091225Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220404T091637Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Renewals
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <h3><span style="font-size: 24px;"><strong>When will I receive my renewal quote?</strong></span></h3>
+        <p>Your renewal invitation quote is generated around 28 days before the renewal date.</p>
+        <p>If you previously chose to receive your documents by email, they should arrive on the same day.</p>
+        <p>Whereas documents sent by post may take up to 7 working days to reach you.</p>
+        <p>Once you've received your renewal pack, check all the details are correct. If there are any changes you'd like to make, or if you'd like to discuss your renewal, call us on&nbsp;<strong>0330 041 3685</strong>. We'll be happy to help.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">When will I receive my renewal documents?</span></strong></h3>
+        <p>Your renewal documents should arrive around 28 days before the renewal date.</p>
+        <p>If you previously chose to receive documents by email, they should arrive on the same day - remember to check your junk folder.</p>
+        <p>If you chose to receive documents by post, they may take up to 7 working days to get to you.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">I haven't received my renewal invite yet. Should I call you to renew?</span></strong></h3>
+        <p>If you're worried about your renewal, call us on&nbsp;<strong>0330 041 3685</strong>&nbsp;to make sure it's on its way. We usually send your renewal invite around 28 days before the renewal date. Again, post could take up to 7 working days.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">Where can I find proof of my no claims discount?</span></strong></h3>
+        <p>Your no claim discount is recorded on page 3 of your renewal invitation, or it's on your cancellation letter if you cancelled your policy before the renewal date.</p>
+        <p>Allow up to 7 working days for your cancellation letter to arrive after you cancelled your policy. We can't issue an official letter as proof of your no claim discount until after your policy has ended.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">I pay by monthly instalments. What happens if I cancel my policy?</span></strong></h3>
+        <p>The final instalment is normally due the day before your policy expires, as payments are made in arrears.</p>
+        <p>If you cancelled your Direct Debit before the last payment has been collected, contact our instalments team directly on&nbsp;<strong>0330 041 3690</strong>.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">Does cancelling my car insurance or the renewal also cancel my AA breakdown cover?</span></strong></h3>
+        <p>If you&rsquo;ve added the optional extras for AA Breakdown: Roadside or AA Breakdown: Roadside and National Recovery, they&rsquo;ll be cancelled if you cancel or don&rsquo;t renew your BEAM car insurance policy.</p>
+        <p>If you have separate AA breakdown cover it won&rsquo;t be affected by changes to your BEAM car insurance.</p>
+        <p>If you want to discuss your breakdown cover renewal, call the AA Membership team direct on&nbsp;<strong>0343 316 4444</strong>.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">My policy isn't due for renewal but my details or the vehicle has changed.</span></strong></h3>
+        <p>If you'd like to make a change to your policy, contact our service team on&nbsp;<strong>0330 041 3684</strong>.</p>
+        <hr />
+        <h3><strong><span style="font-size: 24px;">Can I stop my insurance renewing automatically?</span></strong></h3>
+        <p>Yes, you can opt out of the automatic renewal of your policy at any time after the purchase. When you bought your insurance, you could choose to renew the policy automatically using the same method of payment.</p>
+        <p>Use our form to <a href="/contact-us/stop-auto-renew">opt out of automatic renewal</a>&nbsp;or call us on&nbsp;<strong>0330 041 3685</strong>.</p>
+        <p>We'll still send you a renewal invitation, but you'll need to contact us to renew your policy before it expires.</p>
+        <p>Don't forget, it's a legal requirement to have motor insurance unless your car has been registered as off the road.</p>
+        <hr />
+        <h3><span style="font-size: 24px;"><strong>Can I opt into automatic renewal after I've bought my insurance?</strong></span></h3>
+        <p>Yes, you can opt in at any time after your purchase. The automatic renewal of your policy gives you the reassurance of continuous cover.</p>
+        <p>We'll send details of your renewal before the insurance expiry date, and you'll have plenty of time to contact us if you want to make a change.</p>
+        <p>To select automatic renewal, call us on&nbsp;<strong>0330 041 3685</strong>.</p>
+        <hr />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220404T121150Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\EvansD
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "89814bd1-2dc4-4294-900d-bd0f35da6453"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\EvansD
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220404T121150Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220404T121525Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Renewals
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <h3><span style="font-size: 24px;"><strong>How do I renew my car insurance?</strong></span></h3>
+        <p>We want to make renewing your policy as simple as possible. That's why we've put together a dedicated <a href="~/link.aspx?_id=784540C9D0634568B28E8C818C1E76D1&amp;_z=z">BEAM car insurance&nbsp;renewals page</a>. We explain when you'll get your renewal quote, how to let us know about any policy detail changes and what happens with automatic renewals.</p>
+        <hr />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230203T102416Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6a7656f4-da84-4a15-8bfd-729ba2a09de6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230203T102416Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230203T103333Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Renewals
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <h3><span style="font-size: 24px;"><strong>How do I renew my BEAM car insurance?</strong></span></h3>
+        <p>We want to make renewing your policy as simple as possible. That's why we've put together a dedicated <a href="https://www.aabeam.co.uk/car-insurance/renewals">BEAM car insurance&nbsp;renewals page</a>. We explain when you'll get your renewal quote, how to let us know about any policy detail changes and what happens with automatic renewals.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230203T103425Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\DicembreS
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7b0e8443-411b-4103-aa60-e958b4c73c3c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\DicembreS
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230203T103425Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230203T103535Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Renewals
+  - Version: 7
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <h3><span style="font-size: 24px;"><strong>How do I renew my BEAM car insurance?</strong></span></h3>
+        <p>We want to make renewing your policy as simple as possible. That's why we've put together a dedicated <a href="/car-insurance/renewals">BEAM car insurance&nbsp;renewals page</a>. We explain when you'll get your renewal quote, how to let us know about any policy detail changes and what happens with automatic renewals.</p>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230525T102033Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8f5216ef-d051-4294-afe1-5026bf7e005e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230525T102033Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230525T102121Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Renewals
+  - Version: 8
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "13dfb685-f09a-499a-ae65-227e22e4298e"
+      Hint: AccordionText
+      Value: |
+        <br />
+        <h2>How do I renew my BEAM car insurance?</h2>
+        <p>You can find advice and FAQs on the  <a href="/car-insurance/renewals">BEAM car insurance&nbsp;renewals page</a>.</p>
+        <hr />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240910T102637Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "325e05cc-61fd-49db-8f65-7d9c4c97c4f4"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240910T102637Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241119T125139Z
+    - ID: "fc4776ed-e171-40ff-b499-2de68c1d19d8"
+      Hint: AccordionTitle
+      Value: Renewals

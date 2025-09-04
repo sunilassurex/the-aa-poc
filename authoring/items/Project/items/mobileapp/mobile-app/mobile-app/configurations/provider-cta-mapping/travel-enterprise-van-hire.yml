@@ -1,0 +1,314 @@
+﻿---
+ID: "386c2796-52f0-4e08-96bf-cceaa9dda8b2"
+Parent: "62fd3312-0834-4eaa-8ec7-a186702fe66f"
+Template: "97f92ebf-ca0b-400e-be22-ff4e462842e1"
+Path: "/sitecore/content/AA/mobile-app/mobile-app/configurations/provider-cta-mapping/travel-enterprise-van-hire"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03d02925-bc57-466e-a26e-65f6fdcb6b7f"
+      Hint: Partner
+      Value: Zizzi
+    - ID: "0ead79fc-70eb-40c1-b895-c16c6feb7c73"
+      Hint: Category
+      Value: Restaurants
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241011T085737Z
+    - ID: "300de22f-0198-4adf-8977-7699ec67f3d6"
+      Hint: Primary CTA
+      Value: "{F801667F-17C8-4640-AE93-3D46A339FDD6}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "5af34966-ee48-4023-b630-383387036513"
+      Hint: Secondary CTA
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d39f7f86-8c64-4eea-9bb8-e4eef2193178"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241016T155158Z
+  - Version: 2
+    Fields:
+    - ID: "03d02925-bc57-466e-a26e-65f6fdcb6b7f"
+      Hint: Partner
+      Value: Zizzi
+    - ID: "0ead79fc-70eb-40c1-b895-c16c6feb7c73"
+      Hint: Category
+      Value: Restaurants
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241016T142454Z
+    - ID: "300de22f-0198-4adf-8977-7699ec67f3d6"
+      Hint: Primary CTA
+      Value: "{F801667F-17C8-4640-AE93-3D46A339FDD6}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "5af34966-ee48-4023-b630-383387036513"
+      Hint: Secondary CTA
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a7859183-c0ad-48ec-9f55-69e5c007022e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241016T142454Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241016T155201Z
+  - Version: 3
+    Fields:
+    - ID: "03d02925-bc57-466e-a26e-65f6fdcb6b7f"
+      Hint: Partner
+      Value: "EnterpriseRent-A-Car"
+    - ID: "0ead79fc-70eb-40c1-b895-c16c6feb7c73"
+      Hint: Category
+      Value: Travel
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241016T152833Z
+    - ID: "300de22f-0198-4adf-8977-7699ec67f3d6"
+      Hint: Primary CTA
+      Value: "{D5B12025-4708-437D-B708-2DB6E917E037}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "5af34966-ee48-4023-b630-383387036513"
+      Hint: Secondary CTA
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "88dd45ce-1d22-4c3e-9e78-f7eaec776027"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241016T152833Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241016T155313Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "03d02925-bc57-466e-a26e-65f6fdcb6b7f"
+      Hint: Partner
+      Value: Enterprise Van Hire
+    - ID: "0ead79fc-70eb-40c1-b895-c16c6feb7c73"
+      Hint: Category
+      Value: Travel
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241016T155247Z
+    - ID: "300de22f-0198-4adf-8977-7699ec67f3d6"
+      Hint: Primary CTA
+      Value: "{D5B12025-4708-437D-B708-2DB6E917E037}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "5af34966-ee48-4023-b630-383387036513"
+      Hint: Secondary CTA
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5b0120df-4b51-4522-9889-7c98df59da25"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241016T155247Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241016T155334Z
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "03d02925-bc57-466e-a26e-65f6fdcb6b7f"
+      Hint: Partner
+      Value: "{8F012DB7-BE0B-4D00-82D5-ABB12E31D97B}"
+    - ID: "0ead79fc-70eb-40c1-b895-c16c6feb7c73"
+      Hint: Category
+      Value: Travel
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241016T155338Z
+    - ID: "300de22f-0198-4adf-8977-7699ec67f3d6"
+      Hint: Primary CTA
+      Value: "{D5B12025-4708-437D-B708-2DB6E917E037}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "5af34966-ee48-4023-b630-383387036513"
+      Hint: Secondary CTA
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9e8f727d-8e81-4ce6-846f-5957f1adc127"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241016T155338Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241106T110153Z
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "03d02925-bc57-466e-a26e-65f6fdcb6b7f"
+      Hint: Partner
+      Value: "{8F012DB7-BE0B-4D00-82D5-ABB12E31D97B}"
+    - ID: "0ead79fc-70eb-40c1-b895-c16c6feb7c73"
+      Hint: Category
+      Value: Travel
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241122T150803Z
+    - ID: "300de22f-0198-4adf-8977-7699ec67f3d6"
+      Hint: Primary CTA
+      Value: "{D5B12025-4708-437D-B708-2DB6E917E037}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "5af34966-ee48-4023-b630-383387036513"
+      Hint: Secondary CTA
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "78e4ffdc-a973-4251-b6f3-fae7280435f5"
+    - ID: "a18a4185-185e-4596-a81a-c02fce8507b4"
+      Hint: Group Name
+      Value: "{341720DA-2850-42EF-AA16-67E0BD87D946}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241122T150803Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241122T152020Z
+  - Version: 7
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "03d02925-bc57-466e-a26e-65f6fdcb6b7f"
+      Hint: Partner
+      Value: "{F9A15338-0B6D-4FD6-ABC3-DC34BC3552B0}"
+    - ID: "0ead79fc-70eb-40c1-b895-c16c6feb7c73"
+      Hint: Category
+      Value: Travel
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241203T145733Z
+    - ID: "300de22f-0198-4adf-8977-7699ec67f3d6"
+      Hint: Primary CTA
+      Value: "{D5B12025-4708-437D-B708-2DB6E917E037}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "5af34966-ee48-4023-b630-383387036513"
+      Hint: Secondary CTA
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a4397705-9d59-40c2-b2bc-d296076de81e"
+    - ID: "a18a4185-185e-4596-a81a-c02fce8507b4"
+      Hint: Group Name
+      Value: "{BD2AA9D6-F46E-4D20-A5D9-A435108E04D0}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241203T145733Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241203T165239Z

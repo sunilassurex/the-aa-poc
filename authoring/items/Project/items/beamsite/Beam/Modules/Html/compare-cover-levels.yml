@@ -1,0 +1,204 @@
+﻿---
+ID: "0d03df79-72a1-495f-97fa-54decb5496af"
+Parent: "c952e604-ac43-4f07-a71b-23c53ef86c6e"
+Template: "a3ceb52b-24fa-4eee-82f7-45faae145864"
+Path: "/sitecore/content/AA/Beam/Modules/Html/compare-cover-levels"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: |
+        <r owner="sitecore\Tony.Chapman" date="20240906T100558Z" />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240906T100558Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "6a07b214-41c9-4205-b62a-6005aa65a387"
+      Hint: Contents
+      Value: |
+         <div class="row">
+                <div class="cf wrapper">
+                        <section class="table-component simple-table cf">
+                <div class="wrapper cf">
+                    <div class="table">
+                        <div class="table-body">
+                                <div class="table-headings">
+                                        <div class="description five-column-width">
+                                            <h5>Product or service</h5>
+                                        </div>
+                                        <div class="centred">
+                                            <h5>No. of complaints opened by volume of business</h5>
+                                        </div>
+                                        <div class="centred">
+                                            <h5>No. of complaints opened</h5>
+                                        </div>
+                                        <div class="centred">
+                                            <h5>No. of complaints closed</h5>
+                                        </div>
+                                        <div class="centred">
+                                            <h5>% closed within 3 days</h5>
+                                        </div>
+                                        <div class="centred">
+                                            <h5>% closed after 3 days but within 8 weeks</h5>
+                                        </div>
+                                        <div class="centred">
+                                            <h5>% upheld</h5>
+                                        </div>
+                                        <div class="centred">
+                                            <h5>Main cause of complaints opened</h5>
+                                        </div>
+                                </div>
+        
+                                    <div class="table-content  highlight">
+                                            <div class="description five-column-width">
+                                                <p>
+        Banking and credit cards                                        </p>
+                                            </div>
+                                            <div class="centred">
+                                                <p>
+        0                                        </p>
+                                            </div>
+                                            <div class="centred">
+                                                <p>
+        0                                        </p>
+                                            </div>
+                                            <div class="centred">
+                                                <p>
+        0                                        </p>
+                                            </div>
+                                            <div class="centred">
+                                                <p>
+        -                                        </p>
+                                            </div>
+                                            <div class="centred">
+                                                <p>
+        -                                        </p>
+                                            </div>
+                                            <div class="centred">
+                                                <p>
+        -                                        </p>
+                                            </div>
+                                            <div class="centred">
+                                                <p>
+        -                                        </p>
+                                            </div>
+                                    </div>
+                                    <div class="table-content ">
+                                            <div class="description five-column-width">
+                                                <p>
+        Insurance and pure protection                                        </p>
+                                            </div>
+                                            <div class="centred">
+                                                <p>
+                                                        <b>
+                                                            9.12 per 1,000 policies sold in period
+                                                        </b>
+                                                </p>
+                                            </div>
+                                            <div class="centred">
+                                                <p>
+                                                        <b>
+                                                            11,667
+                                                        </b>
+                                                </p>
+                                            </div>
+                                            <div class="centred">
+                                                <p>
+                                                        <b>
+                                                            12,312
+                                                        </b>
+                                                </p>
+                                            </div>
+                                            <div class="centred">
+                                                <p>
+                                                        <b>
+                                                            34.09%
+                                                        </b>
+                                                </p>
+                                            </div>
+                                            <div class="centred">
+                                                <p>
+                                                        <b>
+                                                            65.77%
+                                                        </b>
+                                                </p>
+                                            </div>
+                                            <div class="centred">
+                                                <p>
+                                                        <b>
+                                                            31.90%
+                                                        </b>
+                                                </p>
+                                            </div>
+                                            <div class="centred">
+                                                <p>
+                                                        <b>
+                                                            General admin or customer service
+                                                        </b>
+                                                </p>
+                                            </div>
+                                    </div>
+                                    <div class="table-content  highlight">
+                                            <div class="description five-column-width">
+                                                <p>
+        Credit related                                        </p>
+                                            </div>
+                                            <div class="centred">
+                                                <p>
+        2.23 per 1,000 loans or accounts at end of period                                         </p>
+                                            </div>
+                                            <div class="centred">
+                                                <p>
+        713                                        </p>
+                                            </div>
+                                            <div class="centred">
+                                                <p>
+        743                                        </p>
+                                            </div>
+                                            <div class="centred">
+                                                <p>
+        25.30%                                        </p>
+                                            </div>
+                                            <div class="centred">
+                                                <p>
+        74.70%                                        </p>
+                                            </div>
+                                            <div class="centred">
+                                                <p>
+        44.68%                                        </p>
+                                            </div>
+                                            <div class="centred">
+                                                <p>
+        Delays or timescales                                        </p>
+                                            </div>
+                                    </div>
+                        </div>
+        
+                    </div>
+                </div>
+                <span class="table-inner-shadow"></span>
+                <div class="fixed-column tablet-view"></div>
+            </section>
+        
+                </div>
+            </div>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "411af941-99f0-414a-aefa-dcb4a2a57c6f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Tony.Chapman
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240906T101202Z

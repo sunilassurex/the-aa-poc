@@ -1,0 +1,73 @@
+﻿---
+ID: "5c6bee95-7fba-477c-8195-bb0c612de601"
+Parent: "5f0bef3e-bc5b-4412-b1e0-a3e138028eb0"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/TheAA/Data/_PresentationBase
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/form_blue.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {ABCDBD9E-FA7A-445B-AE75-5BA7EB3FA891}
+    {52C5CB92-B818-49E5-9276-DA767F60C62B}
+    {EC3B08AF-CF1E-4774-BB7E-F114BC9B2191}
+    {3E7F9815-FB7B-4290-B89A-AF7963453FBF}
+    {E5D3E5F0-B628-40AD-B0D1-C15360DD0CB2}
+    {1F28A565-051E-4742-B53A-A6366E40FE80}
+    {A2E6F8CD-F3E8-4863-8656-529905E0CB88}
+    {8617A062-68CB-47FB-A88A-CA6ADF01A77A}
+    {3C1715FE-6A13-4FCF-845F-DE308BA9741D}
+    {2080B7FB-2B9A-46C0-9251-F3917834393F}
+    {DA57AAC0-01B6-481D-9D25-F6FA35587265}
+    {76142483-5245-4B94-86B3-C00836600C0E}
+    {34C6FCCB-689E-4523-8FDC-9595806AA1FF}
+    {980A09EE-F18F-4DE3-96B1-2B2EB0D6925D}
+- ID: "6fd695e7-7f6d-4ca5-8b49-a829e5950ae9"
+  Hint: __Subitems Sorting
+  Value: "{EA1DECB2-B4F2-4AE0-99A8-30FDED9B8B50}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 0
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{733738C7-2C22-4AC7-BC21-2677731F2CE9}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151204T133111Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9e28d303-38e2-49d8-ae21-8ff47b51c32f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210624T044904Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20210601T152720:637581580402789083Z"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d3756166-5512-430c-9eb5-fd93e73d5b51"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210624T044904Z

@@ -1,0 +1,63 @@
+﻿---
+ID: "9956d0af-a840-44eb-b073-e507bc14abce"
+Parent: "e39900be-c340-4a2a-afb4-c1acec64d9d1"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/AA/Article/ArticlePage
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Applications/32x32/document_edit.png
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: |
+    {EFFAF5B7-D779-4A33-9867-6EBCA9E0177D}
+    {E6CEC4B1-50E8-40ED-830F-D5D706D9C2BF}
+    {BC933498-D61F-4394-9DF7-2712BD2E813F}
+    {6CD39E89-BF51-47CF-9207-555ECD46A390}
+    {A0245EDE-E740-4C1F-9255-DF4BF15646D8}
+    {35958CE4-3848-48E1-BDFD-93275906E9AC}
+    {669FC196-A6F3-4BC1-8E8E-67541C8EF37C}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{88FBD8C4-740D-4E63-B2E5-7CC68758FDF1}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151214T112636Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3a2db20d-ef73-49ca-80e7-a6e4e3f89185"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241001T014328Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20151214T112636Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7a449530-fa4d-4142-bb84-93f9772bf1fd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241001T014328Z

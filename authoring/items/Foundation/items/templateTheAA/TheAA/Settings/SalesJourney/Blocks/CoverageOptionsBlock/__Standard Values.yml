@@ -1,0 +1,30 @@
+﻿---
+ID: "48c55aeb-9d4c-41a5-b0b7-48b8aeede202"
+Parent: "d4a86e04-aa83-454a-9fa5-1ee888814896"
+Template: "d4a86e04-aa83-454a-9fa5-1ee888814896"
+Path: /sitecore/templates/TheAA/Settings/SalesJourney/Blocks/CoverageOptionsBlock/__Standard Values
+SharedFields:
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{A18A19CA-F82A-444D-985B-AC9912FD1888}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160905T163114Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "36eccbf0-78ff-432d-a44a-3bd8a375665d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        theaa\Anonymous
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20170316T102433Z
+    - ID: "eba0015d-56cf-4dab-a6b6-72c5c84debb9"
+      Hint: Title
+      Value: $name

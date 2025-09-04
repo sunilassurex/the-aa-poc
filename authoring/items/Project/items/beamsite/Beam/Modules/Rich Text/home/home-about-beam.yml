@@ -1,0 +1,368 @@
+﻿---
+ID: "131043b3-c3c0-4714-8fd6-99e71e866294"
+Parent: "76ce601c-523e-49a4-848f-14c26c6e1593"
+Template: "e36747b3-6154-423a-b32d-b2d323f5a739"
+Path: "/sitecore/content/AA/Beam/Modules/Rich Text/home/home-about-beam"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220310T161644Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e740e17d-6db7-416c-8f68-10cb0163e3e5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>About BEAM</h2>
+        <p>BEAM is a new name in the insurance industry. Set up by the AA, we offer affordable car insurance exclusively through price comparison websites.</p>
+        <p>We&rsquo;re starting small, with a simple, good quality product, and some additional extras if you need a bit more cover &ndash; including access to the AA&rsquo;s breakdown service.</p>
+        <p>If you've got any questions about BEAM insurance, take a look at <a href="~/link.aspx?_id=18D4D05BBF5A42C1AC087855E6DBB6B9&amp;_z=z">our FAQs</a>.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220310T161832Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220315T084305Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1216f74f-422e-4d71-85b2-34d759395a6e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220315T084305Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>About BEAM</h2>
+        <p>BEAM is a new name in the insurance industry. Set up by the AA, we offer affordable car insurance exclusively through price comparison websites.</p>
+        <p>We&rsquo;re starting small, with a simple, good quality product, and some additional extras if you need a bit more cover &ndash; including access to the AA&rsquo;s breakdown service.</p>
+        <p>If you've got any questions about BEAM insurance, take a look at <a href="~/link.aspx?_id=18D4D05BBF5A42C1AC087855E6DBB6B9&amp;_z=z">our FAQs</a>&nbsp;or <a href="~/link.aspx?_id=16DEB393474E4056A5CD2817884A9006&amp;_z=z">contact us</a>.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220315T084855Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220325T101436Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\EvansD
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f146dc0c-3ec4-4cac-97c4-070d755a041b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\EvansD
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220325T101436Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>About BEAM</h2>
+        <p>BEAM is a new name in the insurance industry. Set up by the AA, we offer affordable car insurance exclusively through price comparison websites.</p>
+        <p>We&rsquo;re starting small, with a simple, good quality product, and some additional extras if you need a bit more cover &ndash; including access to the AA&rsquo;s breakdown service.</p>
+        <p>If you've got any questions about BEAM insurance, take a look at <a href="/car-insurance/faqs">our FAQs</a>&nbsp;or <a href="/contact-us">contact us</a>.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220325T101600Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220404T092950Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\EvansD
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7877d894-fd5e-4f78-97cc-cf74abd093f5"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220404T092950Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>About BEAM</h2>
+        <p>BEAM is a new name in the insurance industry. Set up by the AA, we offer affordable car insurance exclusively through price comparison websites.</p>
+        <p>We have a simple, good quality product, and some additional extras if you need a bit more cover &ndash; including access to the AA&rsquo;s breakdown service.</p>
+        <p>If you've got any questions about BEAM insurance, take a look at <a href="/car-insurance/faqs">our FAQs</a>&nbsp;or <a href="/contact-us">contact us</a>.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220804T111651Z
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220804T111726Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "21e00a76-1885-468e-a964-71d67f502669"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220804T111726Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>About BEAM</h2>
+        <p>BEAM from the AA offers affordable car insurance exclusively through price comparison websites.</p>
+        <p>We provide simple, good quality cover for your car, and additional extras if you need a bit more &ndash; including access to the AA  breakdown service.</p>
+        <p>As a BEAM car insurance customer you'll benefit from 24/7 access to  AA Accident Assist &ndash; so day or night, your claim will be in safe hands.</p>
+        <p>If you've got any questions about BEAM insurance, take a look at <a href="/car-insurance/faqs">our FAQs</a> or <a href="/contact-us">contact us</a>.</p>
+        <br class="t-last-br" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220804T113038Z
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220804T113147Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2ae5db0b-777d-435f-9a68-849bddab2bc8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220804T113147Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>About BEAM</h2>
+        <p>BEAM from the AA offers affordable car insurance exclusively through price comparison websites.</p>
+        <p>We provide simple, good quality cover for your car, and additional extras if you need a bit more &ndash; including access to the AA  breakdown service.</p>
+        <p>And as a BEAM car insurance customer you'll benefit from 24/7 access to  AA Accident Assist &ndash; so day or night, your claim will be in safe hands.</p>
+        <p>If you've got any questions about BEAM insurance, take a look at <a href="/car-insurance/faqs">our FAQs</a> or <a href="/contact-us">contact us</a>.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220804T113228Z
+  - Version: 7
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20221107T124147Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2256098e-37cc-4a71-8999-85c6be4d775d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20221107T124147Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>About BEAM</h2>
+        <p>BEAM from the AA offers affordable car insurance exclusively through price comparison websites.</p>
+        <p>We provide simple, good quality cover for your car, and additional extras if you need a bit more &ndash; including access to the AA  breakdown service.</p>
+        <p>And as a BEAM car insurance customer you'll benefit from 24/7 access to  AA Accident Assist &ndash; so day or night, your claim will be in safe hands.</p>
+        <p>If you've got any questions about BEAM insurance, take a look at <a href="~/link.aspx?_id=18D4D05BBF5A42C1AC087855E6DBB6B9&amp;_z=z">our FAQs</a>&nbsp;or <a href="~/link.aspx?_id=16DEB393474E4056A5CD2817884A9006&amp;_z=z">contact us</a>.</p>
+        <br class="t-last-br" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230522T094346Z
+  - Version: 8
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230802T133409Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4eb7ca5b-0b39-45d9-abcd-fcd26599be92"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230802T133409Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>About BEAM</h2>
+        <p>BEAM from the AA offers affordable car insurance exclusively through price comparison websites.</p>
+        <p>We provide simple, good quality cover for your car, and additional extras if you need a bit more &ndash; including access to the AA  breakdown service.</p>
+        <p>And as a BEAM car insurance customer you'll benefit from 24/7 access to  AA Accident Assist &ndash; so day or night, your claim will be in safe hands.</p>
+        <p>If you've got any questions about BEAM insurance, take a look at <a href="~/link.aspx?_id=18D4D05BBF5A42C1AC087855E6DBB6B9&amp;_z=z">our FAQs</a>&nbsp;or <a href="~/link.aspx?_id=16DEB393474E4056A5CD2817884A9006&amp;_z=z">contact us</a>.</p>
+        <br class="t-last-br" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230802T133700Z
+  - Version: 9
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20230802T133923Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "af826867-4946-452b-9d25-96a20e941ac9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20230802T133923Z
+    - ID: "d7fdedd7-81a3-420a-90cf-674fe2d1e9b8"
+      Hint: BodyText
+      Value: |
+        <h2>About BEAM</h2>
+        <p>BEAM from the AA offers affordable car insurance exclusively through price comparison websites.</p>
+        <p>We provide simple, good quality cover for your car, and additional extras if you need a bit more &ndash; including access to the AA  breakdown service.</p>
+        <p>And as a BEAM car insurance customer you'll benefit from 24/7 access to  AA Accident Assist &ndash; so day or night, your claim will be in safe hands.</p>
+        <p>If you've got any questions about BEAM insurance, take a look at <a href="/car-insurance/faqs">our FAQs</a> or <a href="/contact-us">contact us</a>.</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20230802T134135Z

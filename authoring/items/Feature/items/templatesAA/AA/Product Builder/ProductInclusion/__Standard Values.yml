@@ -1,0 +1,30 @@
+﻿---
+ID: "ae7a7442-b600-401f-ac92-8e3721754b9f"
+Parent: "ac2fa349-6529-4b17-9471-a0b91afeaa33"
+Template: "ac2fa349-6529-4b17-9471-a0b91afeaa33"
+Path: /sitecore/templates/Feature/AA/Product Builder/ProductInclusion/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "20abb247-0219-40d3-a16f-090bda05af54"
+      Hint: Title
+      Value: $name
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160609T142803Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e1e52d6e-2dce-49de-937f-ca4fbc5f37db"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220203T044036Z

@@ -1,0 +1,370 @@
+﻿---
+ID: "0aaf0a39-b83c-4394-982c-f5018967a19e"
+Parent: "85d42321-8a7d-4e47-9c43-15b7304ef61a"
+Template: "a3ceb52b-24fa-4eee-82f7-45faae145864"
+Path: "/sitecore/content/AA/Beam/Modules/Html/contact-us/change-job-scripts/cover-options"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 675
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200402T142920Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\PetersenP
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\PetersenP
+    - ID: "6a07b214-41c9-4205-b62a-6005aa65a387"
+      Hint: Contents
+      Value: |
+        <script>
+            OccupationFormOptionsSetup();
+        
+            function OccupationFormOptionsSetup() {
+                console.log('OccupationFormOptionsSetup()');
+        
+                //var firstForm = null;
+                //var otherForms = null;
+                $(document).ready(function () {
+                    console.log('multiple-email – document ready');            
+                    // hide all the other forms to leave the primary one for the user
+                    // otherForms = $('form.wffm-form-module:not(:first)');
+        
+                    //if (otherForms.find('div.validation-summary-errors').length) {
+                    //    var invalidForm = otherForms.has('div.validation-summary-errors');
+                    //    CopyValuesBetweenForms($(invalidForm.get(0)), firstForm, true);
+                    //}
+        
+                    //otherForms.hide();
+        
+                    //var BreakdownCoverCheckbox = firstForm.find('input[value="Breakdown cover"][type="checkbox"]');
+                    var CarInsuranceCheckbox = firstForm().find('input[value="Car insurance"][type="checkbox"]');
+                    var HomeInsuranceCheckbox = firstForm().find('input[value="Home insurance"][type="checkbox"]');
+        
+                    CarInsuranceCheckbox.change(function () { checkboxChanged(); })
+                    HomeInsuranceCheckbox.change(function () { checkboxChanged(); })
+        
+                    // set it up initially
+                    checkboxChanged();
+                });
+            }
+            function firstForm() {
+                return $('form.wffm-form-module:first');
+            }
+            function checkboxChanged() {
+        
+                // hide show questions
+                var CarInsuranceCheckbox = firstForm().find('input[value="Car insurance"][type="checkbox"]');
+                var CarInsuranceFieldset = $('fieldset:has(legend:has(h4:contains("Required if you selected car insurance")))');
+                if (CarInsuranceCheckbox.is(':checked')) {
+                    CarInsuranceFieldset.show();
+                } else {
+                    CarInsuranceFieldset.hide();
+                }
+        
+                //var HomeInsuranceCheckbox = firstForm().find('input[value="Home insurance"][type="checkbox"]');
+                //var HomeInsuranceFieldset = $('fieldset:has(legend:has(h4:contains("Required if you selected car insurance")))');
+                //if (HomeInsuranceCheckbox.is(':checked')) {
+                //    HomeInsuranceFieldset.show();
+                //} else {
+                //    HomeInsuranceFieldset.hide();
+                //}
+            }
+        
+            function EmpRadioChanged() {
+                var EmpRadio = firstForm.find('input[name=""][type="radio"]');
+        
+                if (EmpRadio.val() == "") {
+                    // set value
+                    // disable / enable
+                }
+            }
+        
+            /*
+            function CopyValuesBetweenForms(sourceForm, destinationForm, copyErrors) {
+        
+                console.log('start CopyValuesBetweenForms');
+                // copy values to other forms
+                var sourceFormId = sourceForm.attr('id');
+                var destinationFormId = destinationForm.attr('id');
+                sourceForm.find('input.form-control, textarea.form-control').each(function () {
+                    var inp = $(this);
+                    var inpId = inp.attr('id');
+                    var destinationId = inpId.replace(sourceFormId, destinationFormId);
+                    var destination = destinationForm.find('#' + destinationId);
+                    destination.val(inp.val());
+                    if (inp.val() != null && inp.val() != '') {
+                        //console.log(inp.attr('id') + '=' + inp.val());
+                        //console.log(destination.attr('id') + '=' + destination.val());
+                    }
+                });
+        
+                var checkboxIDs = [];
+                sourceForm.find('input[type="checkbox"], input[type="radio"]').each(function () {
+                    var chkID = $(this).attr('name');
+                    if (!checkboxIDs.includes(chkID)) {
+                        checkboxIDs.push(chkID);
+                    }
+                });
+        
+                for (var i = 0; i < checkboxIDs.length; i++) {
+                    var inpId = checkboxIDs[i];
+                    var inp = $('input[name="' + inpId + '"]');
+                    var destinationId = inpId.replace(sourceFormId, destinationFormId);
+                    if (copyErrors) {
+                        var val = inp.val();
+                        destinationForm.find('input[name="' + destinationId + '"][value="' + val + '"]').prop("checked", true);
+                        StyleCheckbox(destinationForm.find('input[name="' + destinationId + '"][value="' + val + '"]'));
+                    } else {
+                        inp.each(function () {
+                            inpCheckbox = $(this);
+        
+                            var destinationCheckbox = destinationForm.find('input[name="' + destinationId + '"][value="' + inpCheckbox.attr('value') + '"]');
+        
+                            if (inpCheckbox.attr('value') == destinationCheckbox.attr('value')) {
+                                destinationCheckbox.prop("checked", inpCheckbox.is(':checked'));
+                                StyleCheckbox(destinationCheckbox);
+                            }
+                        });
+                    }
+                }
+        
+                sourceForm.find('select.form-control').each(function () {
+                    var inp = $(this);
+                    var inpId = inp.attr('id');
+                    var destinationId = inpId.replace(sourceFormId, destinationFormId);
+                    var destination = destinationForm.find('#' + destinationId);
+                    destination.val(inp.val());
+                    if (inp.val() != null && inp.val() != '') {
+                        //console.log(inp.attr('id') + '=' + inp.val());
+                        //console.log(destination.attr('id') + '=' + destination.val());
+                    }
+                });
+        
+                if (copyErrors) {
+                    // copy validation messages from other form to the first one
+                    destinationForm.find('div.has-error').html(sourceForm.find('div.has-error').html());
+                    sourceForm.find('span.field-validation-error').each(function () {
+                        var errorMessage = $(this);
+                        var validationMessageFor = errorMessage.data('valmsg-for');
+                        var destinationMessage = destinationForm.find('span[data-valmsg-for="' + validationMessageFor.replace(sourceFormId, destinationFormId) + '"]');
+                        destinationMessage.text(errorMessage.text());
+                        destinationMessage.attr('class', errorMessage.attr('class'));
+                    });
+                }
+                console.log('end CopyValuesBetweenForms');
+        
+            }
+            function StyleCheckbox(destinationCheckbox) {
+                if (destinationCheckbox.is(':checked')) {
+                    destinationCheckbox.parent().addClass('checked');
+                    destinationCheckbox.parent().parent().addClass('checked');
+                } else {
+                    destinationCheckbox.parent().removeClass('checked');
+                    destinationCheckbox.parent().parent().removeClass('checked');
+                }
+            }
+            */
+        </script>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cb3fe356-80bb-458c-9f6c-64907df82bcd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\PetersenP
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200408T154758Z
+  - Version: 2
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200409T102242Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\PetersenP
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\PetersenP
+    - ID: "6a07b214-41c9-4205-b62a-6005aa65a387"
+      Hint: Contents
+      Value: |
+        <script>
+            OccupationFormOptionsSetup();
+        
+            function OccupationFormOptionsSetup() {
+                console.log('OccupationFormOptionsSetup()');
+        
+                $(document).ready(function () {
+                    console.log('multiple-email – document ready');            
+                    var CarInsuranceCheckbox = firstForm().find('input[value="Car insurance"][type="checkbox"]');
+                    var HomeInsuranceCheckbox = firstForm().find('input[value="Home insurance"][type="checkbox"]');
+        
+                    CarInsuranceCheckbox.change(function () { checkboxChanged(); })
+                    HomeInsuranceCheckbox.change(function () { checkboxChanged(); })
+        
+                    var PolicyHolderRadio = firstForm().find('input[value="Policyholder"][type="radio"]');
+                    var NamedDriverRadio = firstForm().find('input[value="Named driver"][type="radio"]');
+        
+                    PolicyHolderRadio.change(function () { WhosThePolicyFor_Changed(); })
+                    NamedDriverRadio.change(function () { WhosThePolicyFor_Changed(); })
+        
+                    // set it up initially
+                    checkboxChanged();
+                    WhosThePolicyFor_Changed();
+                });
+            }
+            function firstForm() {
+                return $('form.wffm-form-module:first');
+            }
+            function checkboxChanged() {
+        
+                // hide show questions
+                var CarInsuranceCheckbox = firstForm().find('input[value="Car insurance"][type="checkbox"]');
+                var CarInsuranceFieldset = $('fieldset:has(legend:has(h4:contains("Car insurance details")))');
+                //var NamedDriverFieldset = $('fieldset:has(legend:has(h4:contains("Named driver details")))');
+                if (CarInsuranceCheckbox.is(':checked')) {
+                    CarInsuranceFieldset.show();
+                //    NamedDriverFieldset.show();
+                } else {
+                    CarInsuranceFieldset.hide();
+                //    NamedDriverFieldset.hide();
+                }
+                WhosThePolicyFor_Changed();
+            }
+        
+            function WhosThePolicyFor_Changed() {
+        
+                // hide show questions
+                //var PolicyHolderRadio = firstForm().find('input[value="Policyholder"][type="radio"]');
+                var NamedDriverRadio = firstForm().find('input[value="Named driver"][type="radio"]');
+                var NamedDriverFieldset = $('fieldset:has(legend:has(h4:contains("Named driver details")))');
+                if (NamedDriverRadio.is(':checked')) {
+                    NamedDriverFieldset.show();
+                } else {
+                    NamedDriverFieldset.hide();
+                }
+            }
+        </script>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d3f4956c-f1b6-421c-988a-97927de2ec68"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\PetersenP
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200409T102242Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20200409T134307Z
+  - Version: 3
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200414T103659Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\PetersenP
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\PetersenP
+    - ID: "6a07b214-41c9-4205-b62a-6005aa65a387"
+      Hint: Contents
+      Value: |
+        <script>
+            OccupationFormOptionsSetup();
+        
+            function OccupationFormOptionsSetup() {
+                console.log('OccupationFormOptionsSetup()');
+        
+                $(document).ready(function () {
+                    console.log('multiple-email – document ready');            
+                    var CarInsuranceCheckbox = firstForm().find('input[value="Car insurance"][type="checkbox"]');
+                    var HomeInsuranceCheckbox = firstForm().find('input[value="Home insurance"][type="checkbox"]');
+        
+                    CarInsuranceCheckbox.change(function () { checkboxChanged(); })
+                    HomeInsuranceCheckbox.change(function () { checkboxChanged(); })
+        
+                    var PolicyHolderRadio = firstForm().find('input[value="Policyholder"][type="radio"]');
+                    var NamedDriverRadio = firstForm().find('input[value="Named driver"][type="radio"]');
+        
+                    PolicyHolderRadio.change(function () { WhosThePolicyFor_Changed(); })
+                    NamedDriverRadio.change(function () { WhosThePolicyFor_Changed(); })
+        
+                    // set it up initially
+                    checkboxChanged();
+                    WhosThePolicyFor_Changed();
+                });
+            }
+            function firstForm() {
+                return $('form.wffm-form-module:first');
+            }
+            function checkboxChanged() {
+        
+                // hide show questions
+                var CarInsuranceCheckbox = firstForm().find('input[value="Car insurance"][type="checkbox"]');
+                var CarInsuranceFieldset = $('fieldset:has(legend:has(h4:contains("Car insurance details")))');
+                var WhosTheChangeFor = $('div.form-group:has(input#wffmf6cd0587a48246eba761e330d5382f9d_Sections_1__Fields_1__Id)');
+                if (CarInsuranceCheckbox.is(':checked')) {
+                    CarInsuranceFieldset.show();
+                    WhosTheChangeFor.show();
+                } else {
+                    CarInsuranceFieldset.hide();
+                    WhosTheChangeFor.hide();
+                }
+                WhosThePolicyFor_Changed();
+            }
+        
+            function WhosThePolicyFor_Changed() {
+        
+                // hide show questions
+                var NamedDriverRadio = firstForm().find('input[value="Named driver"][type="radio"]');
+                var NamedDriverFieldset = $('fieldset:has(legend:has(h4:contains("Named driver details")))');
+                if (NamedDriverRadio.is(':checked')) {
+                    NamedDriverFieldset.show();
+                } else {
+                    NamedDriverFieldset.hide();
+                }
+            }
+        </script>
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "22290d33-aa89-4f8f-9818-bfdeeca57fc6"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20200414T103659Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211201T113637Z

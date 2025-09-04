@@ -1,0 +1,229 @@
+﻿---
+ID: "119465b8-b3f0-47da-b05b-b9c5a843fbc5"
+Parent: "62fd3312-0834-4eaa-8ec7-a186702fe66f"
+Template: "97f92ebf-ca0b-400e-be22-ff4e462842e1"
+Path: "/sitecore/content/AA/mobile-app/mobile-app/configurations/provider-cta-mapping/days-out-sealife-centres"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "03d02925-bc57-466e-a26e-65f6fdcb6b7f"
+      Hint: Partner
+      Value: Merlin
+    - ID: "0ead79fc-70eb-40c1-b895-c16c6feb7c73"
+      Hint: Category
+      Value: Days out
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241011T085737Z
+    - ID: "300de22f-0198-4adf-8977-7699ec67f3d6"
+      Hint: Primary CTA
+      Value: "{D5B12025-4708-437D-B708-2DB6E917E037}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "5af34966-ee48-4023-b630-383387036513"
+      Hint: Secondary CTA
+      Value: "{9966EB9B-0DD1-4E06-8383-4DEDB03C82CF}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1eeb6246-fddd-4a89-ba2b-bce91f1f00cd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241016T153405Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "03d02925-bc57-466e-a26e-65f6fdcb6b7f"
+      Hint: Partner
+      Value: Merlin
+    - ID: "0ead79fc-70eb-40c1-b895-c16c6feb7c73"
+      Hint: Category
+      Value: Days out
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241016T141732Z
+    - ID: "300de22f-0198-4adf-8977-7699ec67f3d6"
+      Hint: Primary CTA
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "5af34966-ee48-4023-b630-383387036513"
+      Hint: Secondary CTA
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5a7ac09c-d0fc-466c-8bde-311643e9fc4c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241016T141732Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241016T153431Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "03d02925-bc57-466e-a26e-65f6fdcb6b7f"
+      Hint: Partner
+      Value: Merlin
+    - ID: "0ead79fc-70eb-40c1-b895-c16c6feb7c73"
+      Hint: Category
+      Value: Days out
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241016T153434Z
+    - ID: "300de22f-0198-4adf-8977-7699ec67f3d6"
+      Hint: Primary CTA
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "5af34966-ee48-4023-b630-383387036513"
+      Hint: Secondary CTA
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d5ef841f-aa2f-489a-afe1-8e9caeadea85"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241016T153434Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241016T153439Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "03d02925-bc57-466e-a26e-65f6fdcb6b7f"
+      Hint: Partner
+      Value: "{C3667BDB-62EA-4934-BFD0-F4570DEA3672}"
+    - ID: "0ead79fc-70eb-40c1-b895-c16c6feb7c73"
+      Hint: Category
+      Value: Days out
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241021T110401Z
+    - ID: "300de22f-0198-4adf-8977-7699ec67f3d6"
+      Hint: Primary CTA
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "5af34966-ee48-4023-b630-383387036513"
+      Hint: Secondary CTA
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "96d567ca-cc15-4d69-8c0f-7c9773d70366"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241021T110401Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241106T123704Z
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "03d02925-bc57-466e-a26e-65f6fdcb6b7f"
+      Hint: Partner
+      Value: "{C3667BDB-62EA-4934-BFD0-F4570DEA3672}"
+    - ID: "0ead79fc-70eb-40c1-b895-c16c6feb7c73"
+      Hint: Category
+      Value: Days out
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241122T150118Z
+    - ID: "300de22f-0198-4adf-8977-7699ec67f3d6"
+      Hint: Primary CTA
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "5af34966-ee48-4023-b630-383387036513"
+      Hint: Secondary CTA
+      Value: 
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9c99a364-9f25-4f4c-9aab-2acd9f45e7c5"
+    - ID: "a18a4185-185e-4596-a81a-c02fce8507b4"
+      Hint: Group Name
+      Value: "{4F658A38-0057-4535-AEF5-E71867197144}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241122T150118Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241122T150133Z

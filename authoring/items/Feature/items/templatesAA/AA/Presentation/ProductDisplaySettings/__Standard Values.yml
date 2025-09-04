@@ -1,0 +1,51 @@
+﻿---
+ID: "be17ea15-e271-4674-a88c-802ba5368732"
+Parent: "7b3e60a6-ceef-4e7b-b021-2955f79be2ea"
+Template: "7b3e60a6-ceef-4e7b-b021-2955f79be2ea"
+Path: /sitecore/templates/Feature/AA/Presentation/ProductDisplaySettings/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1da6e507-76bc-4aa9-8b30-d2d83e3f9235"
+      Hint: IconSize
+      Value: "{72D8BEAC-E0E3-452C-A01B-178664EA9FF6}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240307T061650Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "613335b1-fc3c-4adf-8e15-3325bd5e9896"
+      Hint: Background Color
+      Value: "{59C24258-D7D4-45BB-B0BC-B0F87FD29ED8}"
+    - ID: "7a4bbab7-5e8f-478f-8dd1-7a780a690f82"
+      Hint: CardBackgroundColor
+      Value: "{59C24258-D7D4-45BB-B0BC-B0F87FD29ED8}"
+    - ID: "89ae33e2-63a2-4c0f-af54-2bfe0232518d"
+      Hint: Image Loading
+      Value: "{2259B674-D653-4EF6-8C46-0321F999F073}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f3a6d10d-389f-4719-bd55-86035c710ef8"
+    - ID: "9e47c1d4-da60-4076-b5d4-437cdc08dff2"
+      Hint: CardsCountInRowMobile
+      Value: "{A9542B52-6D3C-4467-B414-622678EC8804}"
+    - ID: "a4f0db89-6edb-47d0-8a23-4a6f89c2e584"
+      Hint: TextAlignment
+      Value: "{3E97F833-101D-46AF-9161-748C563BC4FF}"
+    - ID: "a76a32e5-bd20-4d84-9dcc-33de827c8faa"
+      Hint: CardsCountInRowDesktop
+      Value: "{A0B1149E-67C1-48FB-BCB3-19ACD6C9E4F2}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250522T004235Z
+    - ID: "da659bc5-758d-445f-a188-30c21881cfa6"
+      Hint: CardDesign
+      Value: "{402554A7-23A6-493C-B49E-078EDDEC7FBD}"

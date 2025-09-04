@@ -1,0 +1,318 @@
+﻿---
+ID: "cb95293b-1dba-48af-a1e7-bd07cb6abf19"
+Parent: "1675b295-7aa0-4046-8b17-ef8022e5150f"
+Template: "dbb828f7-699f-40d8-81ef-4eb252e9a675"
+Path: /sitecore/content/AA/Beam/Modules/Title/Complaints/complaints data
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "08592bb2-20f7-4622-9f9d-043f6bc91f03"
+      Hint: H1TitleText
+      Value: Complaints data
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160406T091526Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "44b328de-5bdf-4997-94f1-3474ab69b653"
+      Hint: HeroTitleText
+      Value: Publication of complaints data
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\CarruthersK
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9d218179-a49d-4622-9a69-98223dd33353"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211230T111735Z
+    - ID: "ec1acffc-d06d-49ae-8523-bdeba9c6f713"
+      Hint: H3Text
+      Value: The Financial Conduct Authority requires us to publish complaints data
+  - Version: 2
+    Fields:
+    - ID: "08592bb2-20f7-4622-9f9d-043f6bc91f03"
+      Hint: H1TitleText
+      Value: Complaints data
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160406T134850Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "44b328de-5bdf-4997-94f1-3474ab69b653"
+      Hint: HeroTitleText
+      Value: Publication of complaints data
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\CarruthersK
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3610c9f0-6a56-44a5-b70c-3c8ba8881c5f"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20160406T134850Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211230T111735Z
+    - ID: "ec1acffc-d06d-49ae-8523-bdeba9c6f713"
+      Hint: H3Text
+      Value: The Financial Conduct Authority requires us to publish complaints data
+  - Version: 3
+    Fields:
+    - ID: "08592bb2-20f7-4622-9f9d-043f6bc91f03"
+      Hint: H1TitleText
+      Value: Complaints data
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160414T111222Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "44b328de-5bdf-4997-94f1-3474ab69b653"
+      Hint: HeroTitleText
+      Value: Publication of complaints data
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\copelandg
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "32a1a7f8-9395-4c05-a341-26a4f5d36ce0"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20160414T111222Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211230T111735Z
+    - ID: "ec1acffc-d06d-49ae-8523-bdeba9c6f713"
+      Hint: H3Text
+      Value: The Financial Conduct Authority requires us to publish complaints data
+  - Version: 4
+    Fields:
+    - ID: "08592bb2-20f7-4622-9f9d-043f6bc91f03"
+      Hint: H1TitleText
+      Value: Complaints data
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160414T111418Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "44b328de-5bdf-4997-94f1-3474ab69b653"
+      Hint: HeroTitleText
+      Value: Publication of complaints data
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\copelandg
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "28bc6254-1966-45ad-bc5a-8a61444a811b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20160414T111418Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211230T111735Z
+    - ID: "ec1acffc-d06d-49ae-8523-bdeba9c6f713"
+      Hint: H3Text
+      Value: The Financial Conduct Authority requires us to publish complaints data
+  - Version: 5
+    Fields:
+    - ID: "08592bb2-20f7-4622-9f9d-043f6bc91f03"
+      Hint: H1TitleText
+      Value: PUBLICATION OF Complaints data
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160419T134625Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "44b328de-5bdf-4997-94f1-3474ab69b653"
+      Hint: HeroTitleText
+      Value: Our complaints figures
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\copelandg
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "362c24cd-1778-40ba-8ad0-da2bdb86a87b"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\copelandg
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20160419T134625Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20160419T134626Z
+    - ID: "ec1acffc-d06d-49ae-8523-bdeba9c6f713"
+      Hint: H3Text
+      Value: The Financial Conduct Authority requires us to publish the number of complaints we get about our insurance services.&nbsp;
+  - Version: 6
+    Fields:
+    - ID: "08592bb2-20f7-4622-9f9d-043f6bc91f03"
+      Hint: H1TitleText
+      Value: PUBLICATION OF Complaints data
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160419T134632Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "44b328de-5bdf-4997-94f1-3474ab69b653"
+      Hint: HeroTitleText
+      Value: Our complaints figures
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\copelandg
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8dbb3258-cb36-4d38-96b1-0aedcbc23d17"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20160419T134632Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211230T111735Z
+    - ID: "ec1acffc-d06d-49ae-8523-bdeba9c6f713"
+      Hint: H3Text
+      Value: The Financial Conduct Authority requires us to publish the number of complaints we get about our finance and insurance services.&nbsp;
+  - Version: 7
+    Fields:
+    - ID: "08592bb2-20f7-4622-9f9d-043f6bc91f03"
+      Hint: H1TitleText
+      Value: Publication of complaints data
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160824T083655Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "44b328de-5bdf-4997-94f1-3474ab69b653"
+      Hint: HeroTitleText
+      Value: Our complaints figures
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5938f518-d0d1-4e78-b3d4-fb65c18200df"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20160824T083655Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211230T111735Z
+    - ID: "ec1acffc-d06d-49ae-8523-bdeba9c6f713"
+      Hint: H3Text
+      Value: The Financial Conduct Authority requires us to publish complaints data
+  - Version: 8
+    Fields:
+    - ID: "08592bb2-20f7-4622-9f9d-043f6bc91f03"
+      Hint: H1TitleText
+      Value: Publication of complaints data
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160824T083927Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{6E0F5D87-5659-4477-85AE-69804F614D51}"
+    - ID: "44b328de-5bdf-4997-94f1-3474ab69b653"
+      Hint: HeroTitleText
+      Value: Our insurance products and services
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "95ba4bab-04b3-49e4-85b1-7749c051a447"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20160824T083927Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211230T111735Z
+    - ID: "ec1acffc-d06d-49ae-8523-bdeba9c6f713"
+      Hint: H3Text
+      Value: The Financial Conduct Authority requires us to publish our complaints data
+  - Version: 9
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "08592bb2-20f7-4622-9f9d-043f6bc91f03"
+      Hint: H1TitleText
+      Value: Publication of complaints data
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160826T095155Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "44b328de-5bdf-4997-94f1-3474ab69b653"
+      Hint: HeroTitleText
+      Value: Our insurance products and services
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4d4358f9-e748-4ea7-b107-34eb796b27fe"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20160826T095155Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211230T113408Z
+    - ID: "ec1acffc-d06d-49ae-8523-bdeba9c6f713"
+      Hint: H3Text
+      Value: The Financial Conduct Authority requires us to publish our complaints data

@@ -1,0 +1,42 @@
+﻿---
+ID: "dc327e55-d593-4f1e-b0a8-cd24c6c797c1"
+Parent: "8e81c589-ad43-47d4-a1d3-fb45ccd3d99a"
+Template: "8e81c589-ad43-47d4-a1d3-fb45ccd3d99a"
+Path: /sitecore/templates/Feature/AA/Presentation/ListComponentSettings/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240307T061650Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "613335b1-fc3c-4adf-8e15-3325bd5e9896"
+      Hint: Background Color
+      Value: "{59C24258-D7D4-45BB-B0BC-B0F87FD29ED8}"
+    - ID: "89ae33e2-63a2-4c0f-af54-2bfe0232518d"
+      Hint: Image Loading
+      Value: "{2259B674-D653-4EF6-8C46-0321F999F073}"
+    - ID: "8b511322-0116-429b-b69d-90566ad6a953"
+      Hint: Image Alignment
+      Value: "{6A6B204F-524F-436C-9C44-299B7268FA38}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0a919bd0-2108-40e2-93d3-0dc5898383df"
+    - ID: "9a137e4a-d3e1-4d21-996c-b97126ac65fc"
+      Hint: Image Size
+      Value: "{5B2D0886-7E26-4864-8FDA-57803BD17969}"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250703T015125Z
+    - ID: "f093ee44-8167-439b-a565-a321962ff537"
+      Hint: Image Border Radius
+      Value: "{A6F1CDE1-8003-454A-9C3E-10234F068633}"

@@ -1,0 +1,27 @@
+﻿---
+ID: "793a82aa-a675-4aaa-a5af-2718948465a9"
+Parent: "62ae3915-dacc-4a90-bf22-18b72b002a5f"
+Template: "62ae3915-dacc-4a90-bf22-18b72b002a5f"
+Path: /sitecore/templates/Foundation/AA/Presentation/IconSettings/__Standard Values
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240307T061650Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "8fd44fee-2a3b-4dc7-b15d-b4577919e1f8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240829T015633Z

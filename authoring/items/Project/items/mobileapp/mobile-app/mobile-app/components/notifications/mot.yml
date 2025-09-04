@@ -1,0 +1,226 @@
+﻿---
+ID: "6c0ecdce-5789-4fee-9f62-cb9a8c3d520a"
+Parent: "76fc3a21-1189-496c-9883-1a65cf4d5f01"
+Template: "504aa82f-628e-462b-b5ed-305056c002d5"
+Path: "/sitecore/content/AA/mobile-app/mobile-app/components/notifications/mot"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240812T083133Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: "Your MOT test is due in {{xx}} days for {{VRN}}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: The AA
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "2b6033fa-f333-4046-8f7e-b0a2c0fdcc48"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241105T120238Z
+    - ID: "e3b2908b-0e00-4ea7-9a22-47c0cc2a0645"
+      Hint: Type
+      Value: "{856ABEA7-4ABC-4E65-A87C-A85AE74DDC28}"
+    - ID: "e8062922-d7ad-4a29-a859-f6bb460dc568"
+      Hint: Deeplink
+      Value: "theaa://com.theaa.theaa/p/v?Reg={{VRN}}"
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241128T111721Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: "Book {{VRN}} in for an MOT at an AA-approved garage near you."
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: "MOT due in {{xx}} days"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f19c882b-8d9c-4069-8f09-7c1166f4f23c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241128T111721Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241128T111752Z
+    - ID: "e3b2908b-0e00-4ea7-9a22-47c0cc2a0645"
+      Hint: Type
+      Value: "{856ABEA7-4ABC-4E65-A87C-A85AE74DDC28}"
+    - ID: "e8062922-d7ad-4a29-a859-f6bb460dc568"
+      Hint: Deeplink
+      Value: "theaa://com.theaa.theaa/p/v?Reg={{VRN}}"
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241205T110701Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: "Your MOT for {{VRN}} is due in {{xx}} days. Book in at an AA-approved garage near you.  "
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: The AA
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a6b2c4db-6f96-403a-a07a-5d888f5cb283"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241205T110701Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241205T111433Z
+    - ID: "e3b2908b-0e00-4ea7-9a22-47c0cc2a0645"
+      Hint: Type
+      Value: "{856ABEA7-4ABC-4E65-A87C-A85AE74DDC28}"
+    - ID: "e8062922-d7ad-4a29-a859-f6bb460dc568"
+      Hint: Deeplink
+      Value: "theaa://com.theaa.theaa/p/v?Reg={{VRN}}"
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241205T112751Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: "Your MOT for {{VRN}} is due in {{xx}} days. Book in at an AA-approved garage near you"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: The AA
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b7b19510-099f-4f7e-8ae0-29dd28ec6433"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241205T112751Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241205T112804Z
+    - ID: "e3b2908b-0e00-4ea7-9a22-47c0cc2a0645"
+      Hint: Type
+      Value: "{856ABEA7-4ABC-4E65-A87C-A85AE74DDC28}"
+    - ID: "e8062922-d7ad-4a29-a859-f6bb460dc568"
+      Hint: Deeplink
+      Value: "theaa://com.theaa.theaa/p/v?Reg={{VRN}}"
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241205T112912Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: "Your MOT for {{VRN}} is due in {{xx}} days. Book in at an AA-approved garage near you."
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: The AA
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6d30309a-4488-42ed-ad69-92c4a018894a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241205T112912Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241205T112922Z
+    - ID: "e3b2908b-0e00-4ea7-9a22-47c0cc2a0645"
+      Hint: Type
+      Value: "{856ABEA7-4ABC-4E65-A87C-A85AE74DDC28}"
+    - ID: "e8062922-d7ad-4a29-a859-f6bb460dc568"
+      Hint: Deeplink
+      Value: "theaa://com.theaa.theaa/p/v?Reg={{VRN}}"

@@ -1,0 +1,44 @@
+﻿---
+ID: "05fef3c4-8372-4b33-8d2e-a45e5fece5b8"
+Parent: "08d2e9b4-a5e4-47f0-ab17-05b33fbc8afe"
+Template: "7e5f8109-7363-4126-a940-35aaaeef9de2"
+Path: "/sitecore/content/AA/Beam/Modules/Sub Links/Car insurance/already-with-us/already-with-us/cover-enquiries-email-1"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 500
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20200803T103448Z
+    - ID: "3babedd6-268e-4c65-8472-2d3df8bd9724"
+      Hint: Link
+      Value: |
+        <link id="{FC59379C-118B-409D-B16B-D659A18A73AB}" querystring="" text="Ask a question" title="Ask a question" class="" url="/TheAA/home/help-support/cover-enquiries-email" linktype="internal" />
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\ChapmanT
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cd54be7c-2c7f-48d0-a6a0-67c1d3b599dc"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\rohit.pandey@assurex.co
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20250805T080835Z
+    - ID: "f95bf87c-149a-4859-9dc0-1e6a2641a2af"
+      Hint: Description
+      Value: If you have a question about your cover, get in touch using our form.

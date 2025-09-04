@@ -1,0 +1,103 @@
+﻿---
+ID: "6417dc64-a239-41df-9597-6b8f24b3c2c9"
+Parent: "7c691c0d-c7d0-41b9-a540-9d1823931a22"
+Template: "c441c3b6-82a7-4b05-b0c9-82444bd53dec"
+Path: "/sitecore/content/AA/mobile-app/mobile-app/components/policy-error/vb-error"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240708T105844Z
+    - ID: "3800d4bc-e0e8-458c-bfb1-fb4dd734ec4f"
+      Hint: Primary CTA
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: Sorry, we don't have your details in the app. If you need to get in touch, just head to Help and drop us a message.
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "6796c90e-9d9f-462d-bd0d-a0b5a7c377c8"
+      Hint: Error type
+      Value: "{6CD54D2F-9BF7-4ABB-9C13-4156630BD994}"
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: "Need some help?"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ca5d96ce-97c9-428b-8ce8-728b1a05c961"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240708T112359Z
+    - ID: "f1d2c6a7-ce5d-48d4-89d5-384dcf5ef1b8"
+      Hint: Secondary CTA
+      Value: 
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240711T091548Z
+    - ID: "3800d4bc-e0e8-458c-bfb1-fb4dd734ec4f"
+      Hint: Primary CTA
+      Value: 
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "45c8f87d-a9e7-45f9-83ac-012d5db3bec7"
+      Hint: Description
+      Value: Sorry, we don't have your details in the app. If you need to get in touch, just head to Help and drop us a message.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "6796c90e-9d9f-462d-bd0d-a0b5a7c377c8"
+      Hint: Error type
+      Value: "{6CD54D2F-9BF7-4ABB-9C13-4156630BD994}"
+    - ID: "6e0e59ca-d09e-4b79-ad21-08d1422ae0f5"
+      Hint: Background Image
+      Value: |
+        <image mediaid="{0DBEDA89-1CDA-4E1E-BC15-B83672C1A857}" />
+    - ID: "7de06c4c-4454-44ae-8c90-5217ce552f12"
+      Hint: Title
+      Value: "Need some help?"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "15e8fad6-91d8-4402-a974-ee84c1bc7c6c"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20240711T091548Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20240718T114352Z
+    - ID: "f1d2c6a7-ce5d-48d4-89d5-384dcf5ef1b8"
+      Hint: Secondary CTA
+      Value: 
+    - ID: "f1e00a14-6031-45db-8777-cbe7b43645fa"
+      Hint: Background Color
+      Value: "{8CD7E2FF-5BC0-41BC-AFDF-23D5D3E78D40}"

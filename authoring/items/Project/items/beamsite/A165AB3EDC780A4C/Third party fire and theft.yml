@@ -1,0 +1,236 @@
+﻿---
+ID: "c1b1f728-260f-466c-974e-72440a83ef3d"
+Parent: "b2acfd33-e889-4299-a2d1-ebd30bc8e38e"
+Template: "d72990ff-9d30-44f7-837d-65a022d997de"
+Path: "/sitecore/content/AA/Beam/Modules/Product Builder/Products/insurance/car-insurance/compare-cover-levels/Third party fire and theft"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "15f6fc47-343c-46d4-987d-2f93cb2ee8f8"
+      Hint: TooltipText
+      Value: Provides the same level of cover as Third Party cover, but protects you if your car is damaged by fire or stolen. Accidental damage to your car isn't covered.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20160707T141335Z
+    - ID: "3d48274e-633d-4f05-acc0-5355bb0488ca"
+      Hint: FeatureInclusions
+      Value: |
+        {20888893-1951-4EC9-8DCF-989842FF1187}
+        {56D46AF3-8093-46F6-92CB-F1B982475CA5}
+        {586A3767-AC0E-4323-A724-5EB12E68A3DF}
+        {FCF419BD-A9AA-4E42-8BD8-E2833BBC926D}
+        {D21D7B8B-0185-4D65-85EE-A6792BCE4F24}
+        {0133B4E6-5A6A-4420-BDF2-56659D046734}
+        {1E26761A-1DDD-44E6-88F5-C786D79F2B49}
+        {B0E66722-BBF1-455C-B91F-785CF60DE0C3}
+        {218796ED-212E-477D-8DD0-146BA122EDFC}
+        {1BB5E010-7C79-4021-9DA3-EC1F8785BA30}
+        {A0EF32E4-9369-41EF-826A-1E0EFB58B2E1}
+        {97E08F63-80AD-494D-8707-DC68682E8D08}
+        {3C3845FE-8FCE-4479-AEC2-61C2808212E4}
+        {15A8FAAA-361E-4AC8-A84A-7493C71341A1}
+        {1C68006F-CAB2-4242-96E9-0AD0E413135F}
+        {405A1017-8D8D-4CBF-9590-9598979202F3}
+        {0318E5B6-295A-4AF3-BA5C-26EC780845EF}
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\jincaa
+    - ID: "630c85d8-33b4-48a8-b135-5b9a7245104b"
+      Hint: ProductName
+      Value: Third Party, Fire and Theft
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "186ab84a-0764-4afb-95ff-37718d8b0aec"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220222T171303Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "15f6fc47-343c-46d4-987d-2f93cb2ee8f8"
+      Hint: TooltipText
+      Value: Provides cover for injury to others or damage caused to their vehicle or property, and protects you if your car is damaged by fire or gets stolen. Accidental damage to your car isn't covered.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220225T154233Z
+    - ID: "3d48274e-633d-4f05-acc0-5355bb0488ca"
+      Hint: FeatureInclusions
+      Value: |
+        {20888893-1951-4EC9-8DCF-989842FF1187}
+        {56D46AF3-8093-46F6-92CB-F1B982475CA5}
+        {586A3767-AC0E-4323-A724-5EB12E68A3DF}
+        {FCF419BD-A9AA-4E42-8BD8-E2833BBC926D}
+        {D21D7B8B-0185-4D65-85EE-A6792BCE4F24}
+        {0133B4E6-5A6A-4420-BDF2-56659D046734}
+        {1E26761A-1DDD-44E6-88F5-C786D79F2B49}
+        {B0E66722-BBF1-455C-B91F-785CF60DE0C3}
+        {218796ED-212E-477D-8DD0-146BA122EDFC}
+        {1BB5E010-7C79-4021-9DA3-EC1F8785BA30}
+        {A0EF32E4-9369-41EF-826A-1E0EFB58B2E1}
+        {97E08F63-80AD-494D-8707-DC68682E8D08}
+        {3C3845FE-8FCE-4479-AEC2-61C2808212E4}
+        {15A8FAAA-361E-4AC8-A84A-7493C71341A1}
+        {1C68006F-CAB2-4242-96E9-0AD0E413135F}
+        {405A1017-8D8D-4CBF-9590-9598979202F3}
+        {0318E5B6-295A-4AF3-BA5C-26EC780845EF}
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "630c85d8-33b4-48a8-b135-5b9a7245104b"
+      Hint: ProductName
+      Value: Third Party, Fire and Theft
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "d25a4e08-93ff-4d02-9ada-527c62b13344"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220225T154233Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220225T154403Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "15f6fc47-343c-46d4-987d-2f93cb2ee8f8"
+      Hint: TooltipText
+      Value: Provides cover for injury to others or damage caused to their vehicle or property, and protects you if your car is damaged by fire or gets stolen. Accidental damage to your car isn't covered.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220301T112740Z
+    - ID: "3d48274e-633d-4f05-acc0-5355bb0488ca"
+      Hint: FeatureInclusions
+      Value: |
+        {9203F031-765B-4A26-B01F-C8BF7F3C662D}
+        {20888893-1951-4EC9-8DCF-989842FF1187}
+        {56D46AF3-8093-46F6-92CB-F1B982475CA5}
+        {586A3767-AC0E-4323-A724-5EB12E68A3DF}
+        {FCF419BD-A9AA-4E42-8BD8-E2833BBC926D}
+        {D21D7B8B-0185-4D65-85EE-A6792BCE4F24}
+        {0133B4E6-5A6A-4420-BDF2-56659D046734}
+        {1E26761A-1DDD-44E6-88F5-C786D79F2B49}
+        {B0E66722-BBF1-455C-B91F-785CF60DE0C3}
+        {218796ED-212E-477D-8DD0-146BA122EDFC}
+        {1BB5E010-7C79-4021-9DA3-EC1F8785BA30}
+        {A0EF32E4-9369-41EF-826A-1E0EFB58B2E1}
+        {97E08F63-80AD-494D-8707-DC68682E8D08}
+        {3C3845FE-8FCE-4479-AEC2-61C2808212E4}
+        {15A8FAAA-361E-4AC8-A84A-7493C71341A1}
+        {1C68006F-CAB2-4242-96E9-0AD0E413135F}
+        {405A1017-8D8D-4CBF-9590-9598979202F3}
+        {0318E5B6-295A-4AF3-BA5C-26EC780845EF}
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "630c85d8-33b4-48a8-b135-5b9a7245104b"
+      Hint: ProductName
+      Value: Third Party, Fire and Theft
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3af9391f-5dbd-4e9b-b779-cb347caea866"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220301T112740Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220301T112837Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "15f6fc47-343c-46d4-987d-2f93cb2ee8f8"
+      Hint: TooltipText
+      Value: Provides cover for injury to others or damage caused to their vehicle or property, and protects you if your car is damaged by fire or gets stolen. Accidental damage to your car isn't covered.
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20220301T112849Z
+    - ID: "3d48274e-633d-4f05-acc0-5355bb0488ca"
+      Hint: FeatureInclusions
+      Value: |
+        {9203F031-765B-4A26-B01F-C8BF7F3C662D}
+        {20888893-1951-4EC9-8DCF-989842FF1187}
+        {56D46AF3-8093-46F6-92CB-F1B982475CA5}
+        {586A3767-AC0E-4323-A724-5EB12E68A3DF}
+        {FCF419BD-A9AA-4E42-8BD8-E2833BBC926D}
+        {D21D7B8B-0185-4D65-85EE-A6792BCE4F24}
+        {0133B4E6-5A6A-4420-BDF2-56659D046734}
+        {1E26761A-1DDD-44E6-88F5-C786D79F2B49}
+        {B0E66722-BBF1-455C-B91F-785CF60DE0C3}
+        {218796ED-212E-477D-8DD0-146BA122EDFC}
+        {1BB5E010-7C79-4021-9DA3-EC1F8785BA30}
+        {A0EF32E4-9369-41EF-826A-1E0EFB58B2E1}
+        {97E08F63-80AD-494D-8707-DC68682E8D08}
+        {3C3845FE-8FCE-4479-AEC2-61C2808212E4}
+        {15A8FAAA-361E-4AC8-A84A-7493C71341A1}
+        {1C68006F-CAB2-4242-96E9-0AD0E413135F}
+        {405A1017-8D8D-4CBF-9590-9598979202F3}
+        {0318E5B6-295A-4AF3-BA5C-26EC780845EF}
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\evansd
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\evansd
+    - ID: "630c85d8-33b4-48a8-b135-5b9a7245104b"
+      Hint: ProductName
+      Value: Third Party, Fire and Theft
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f7cc628b-a641-4d15-8dfb-2b6b934f1166"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\evansd
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20220301T112849Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20220301T113556Z

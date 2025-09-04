@@ -1,0 +1,23 @@
+﻿---
+ID: "b1000e0c-2ce9-47c0-ac13-5da1dee911d0"
+Parent: "9efa0e8e-b09e-49d9-83d3-6b554210c868"
+Template: "d2387c09-559a-48ed-8e02-b711d9b82611"
+Path: /sitecore/templates/Branches/Feature/Headless/Mobile App/Member Exclusive Offers/$name
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240919T110010Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f7d0725e-bf28-4313-bf1e-8b8cd22061f9"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\unicorn
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241024T015303Z

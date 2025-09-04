@@ -1,0 +1,1023 @@
+﻿---
+ID: "348e792c-e86a-4c00-9417-4f9e78f3c8ec"
+Parent: "7f589575-2112-40f2-94eb-7c61a4eec1b4"
+Template: "d7b85c08-973c-4df4-b81f-9f58d6c6fb1e"
+Path: "/sitecore/content/AA/mobile-app/mobile-app/components/driving-advice/videos/video-items/how-to-check-oil"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{8500EC05-BF8F-468E-BC0D-95C9EAFC61A8}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "1c668eab-b537-442b-909c-e526cae126a5"
+      Hint: VideoURL
+      Value: "https://dip-mobile-ci-develop-videos.s3.eu-west-1.amazonaws.com/How+To+Check+Oil+App-1080-27rf+1.mp4"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20240717T054228Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "3ed4b257-f62b-4eeb-a712-84a1cfbbaf0a"
+      Hint: Caption
+      Value: |
+        1
+        00:00:00,000 --> 00:00:01,621
+        Make sure your engine is cold
+        
+        2
+        00:00:01,621 --> 00:00:03,552
+        and your vehicle is parked on level ground.
+        
+        3
+        00:00:03,552 --> 00:00:06,207
+        Wait 5 to 10 minute if you've just driven your vehicle
+        
+        4
+        00:00:06,207 --> 00:00:08,517
+        and never check your oil with your engine running.
+        
+        5
+        00:00:08,517 --> 00:00:10,897
+        Open your bonnet and locate your dipstick.
+        
+        6
+        00:00:10,897 --> 00:00:13,310
+        Unknown
+        This is normally a brightly coloured handle.
+        
+        7
+        00:00:13,448 --> 00:00:17,724
+        Once you’ve found the dipstick, pull it out and wipe it clean with kitchen towel.
+        
+        8
+        00:00:17,724 --> 00:00:22,172
+        When checking the oil dipstick, you'll find two notches on the dipstick itself.
+        
+        9
+        00:00:22,172 --> 00:00:24,241
+        This is for the minimum and maximum levels.
+        
+        10
+        00:00:24,241 --> 00:00:27,000
+        Put the dipstick back in to tube and push it all the way in.
+        
+        11
+        00:00:27,207 --> 00:00:30,448
+        Then pull it back out and see where the oil line is on the dipstick.
+        
+        12
+        00:00:30,448 --> 00:00:32,241
+        If it's between the minimum and maximum mark,
+        
+        13
+        00:00:32,241 --> 00:00:33,655
+        the level is absolutely fine.
+        
+        14
+        00:00:33,655 --> 00:00:33,931
+        If it's
+        
+        15
+        00:00:33,931 --> 00:00:36,345
+        below the halfway level or towards minimum mark.
+        
+        16
+        00:00:36,345 --> 00:00:37,966
+        This means you need to add more oil.
+        
+        17
+        00:00:37,966 --> 00:00:41,517
+        Your vehicle's handbook will tell you what type of oil your vehicle takes.
+        
+        18
+        00:00:41,517 --> 00:00:42,138
+        And if you can't
+        
+        19
+        00:00:42,138 --> 00:00:45,586
+        locate your vehicle's handbook, you can normally find this information online.
+        
+        20
+        00:00:45,724 --> 00:00:48,241
+        And there you have it. That's how to check your oil.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "209e9192-e720-4a25-a513-c0b0eb66fcfd"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241023T105211Z
+  - Version: 2
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1c668eab-b537-442b-909c-e526cae126a5"
+      Hint: VideoURL
+      Value: "https://dip-mobile-uat-release-videos.s3.eu-west-1.amazonaws.com/How+To+Check+Oil+App-1080-27rf+1.mp4"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241023T152728Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "3ed4b257-f62b-4eeb-a712-84a1cfbbaf0a"
+      Hint: Caption
+      Value: |
+        1
+        00:00:00,000 --> 00:00:01,621
+        Make sure your engine is cold
+        
+        2
+        00:00:01,621 --> 00:00:03,552
+        and your vehicle is parked on level ground.
+        
+        3
+        00:00:03,552 --> 00:00:06,207
+        Wait 5 to 10 minute if you've just driven your vehicle
+        
+        4
+        00:00:06,207 --> 00:00:08,517
+        and never check your oil with your engine running.
+        
+        5
+        00:00:08,517 --> 00:00:10,897
+        Open your bonnet and locate your dipstick.
+        
+        6
+        00:00:10,897 --> 00:00:13,310
+        Unknown
+        This is normally a brightly coloured handle.
+        
+        7
+        00:00:13,448 --> 00:00:17,724
+        Once you’ve found the dipstick, pull it out and wipe it clean with kitchen towel.
+        
+        8
+        00:00:17,724 --> 00:00:22,172
+        When checking the oil dipstick, you'll find two notches on the dipstick itself.
+        
+        9
+        00:00:22,172 --> 00:00:24,241
+        This is for the minimum and maximum levels.
+        
+        10
+        00:00:24,241 --> 00:00:27,000
+        Put the dipstick back in to tube and push it all the way in.
+        
+        11
+        00:00:27,207 --> 00:00:30,448
+        Then pull it back out and see where the oil line is on the dipstick.
+        
+        12
+        00:00:30,448 --> 00:00:32,241
+        If it's between the minimum and maximum mark,
+        
+        13
+        00:00:32,241 --> 00:00:33,655
+        the level is absolutely fine.
+        
+        14
+        00:00:33,655 --> 00:00:33,931
+        If it's
+        
+        15
+        00:00:33,931 --> 00:00:36,345
+        below the halfway level or towards minimum mark.
+        
+        16
+        00:00:36,345 --> 00:00:37,966
+        This means you need to add more oil.
+        
+        17
+        00:00:37,966 --> 00:00:41,517
+        Your vehicle's handbook will tell you what type of oil your vehicle takes.
+        
+        18
+        00:00:41,517 --> 00:00:42,138
+        And if you can't
+        
+        19
+        00:00:42,138 --> 00:00:45,586
+        locate your vehicle's handbook, you can normally find this information online.
+        
+        20
+        00:00:45,724 --> 00:00:48,241
+        And there you have it. That's how to check your oil.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "6c3b7261-60ac-4b22-af20-208ff3d94fb1"
+      Hint: VideoThumbnail
+      Value: |
+        <image mediaid="{4AB150E9-6CFE-4D1B-A397-E4A687995F2A}" />
+    - ID: "7a18232f-e101-4eeb-a0fb-916d509fab1f"
+      Hint: Title
+      Value: How to check oil
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "42ec7a45-a4b8-4def-b4bb-e3cbf6b6e510"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Simple.Jain
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241023T152728Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241025T095826Z
+  - Version: 3
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1c668eab-b537-442b-909c-e526cae126a5"
+      Hint: VideoURL
+      Value: "https://dip-mobile-uat-release-videos.s3.eu-west-1.amazonaws.com/How+To+Check+Oil+App-1080-27rf+1.mp4"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241029T144735Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "3ed4b257-f62b-4eeb-a712-84a1cfbbaf0a"
+      Hint: Caption
+      Value: |
+        1
+        00:00:00,000 --> 00:00:01,621
+        Make sure your engine is cold
+        
+        2
+        00:00:01,621 --> 00:00:03,552
+        and your vehicle is parked on level ground.
+        
+        3
+        00:00:03,552 --> 00:00:06,207
+        Wait 5 to 10 minute if you've just driven your vehicle
+        
+        4
+        00:00:06,207 --> 00:00:08,517
+        and never check your oil with your engine running.
+        
+        5
+        00:00:08,517 --> 00:00:10,897
+        Open your bonnet and locate your dipstick.
+        
+        6
+        00:00:10,897 --> 00:00:13,310
+        Unknown
+        This is normally a brightly coloured handle.
+        
+        7
+        00:00:13,448 --> 00:00:17,724
+        Once you’ve found the dipstick, pull it out and wipe it clean with kitchen towel.
+        
+        8
+        00:00:17,724 --> 00:00:22,172
+        When checking the oil dipstick, you'll find two notches on the dipstick itself.
+        
+        9
+        00:00:22,172 --> 00:00:24,241
+        This is for the minimum and maximum levels.
+        
+        10
+        00:00:24,241 --> 00:00:27,000
+        Put the dipstick back in to tube and push it all the way in.
+        
+        11
+        00:00:27,207 --> 00:00:30,448
+        Then pull it back out and see where the oil line is on the dipstick.
+        
+        12
+        00:00:30,448 --> 00:00:32,241
+        If it's between the minimum and maximum mark,
+        
+        13
+        00:00:32,241 --> 00:00:33,655
+        the level is absolutely fine.
+        
+        14
+        00:00:33,655 --> 00:00:33,931
+        If it's
+        
+        15
+        00:00:33,931 --> 00:00:36,345
+        below the halfway level or towards minimum mark.
+        
+        16
+        00:00:36,345 --> 00:00:37,966
+        This means you need to add more oil.
+        
+        17
+        00:00:37,966 --> 00:00:41,517
+        Your vehicle's handbook will tell you what type of oil your vehicle takes.
+        
+        18
+        00:00:41,517 --> 00:00:42,138
+        And if you can't
+        
+        19
+        00:00:42,138 --> 00:00:45,586
+        locate your vehicle's handbook, you can normally find this information online.
+        
+        20
+        00:00:45,724 --> 00:00:48,241
+        And there you have it. That's how to check your oil.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "6c3b7261-60ac-4b22-af20-208ff3d94fb1"
+      Hint: VideoThumbnail
+      Value: |
+        <image mediaid="{E4E10761-BD9F-4AFE-9FA1-BE5DC1D411C9}" />
+    - ID: "6f948787-c284-4699-9608-67460a46d547"
+      Hint: VideoRetinaThumbnail
+      Value: |
+        <image mediaid="{E4E10761-BD9F-4AFE-9FA1-BE5DC1D411C9}" />
+    - ID: "7a18232f-e101-4eeb-a0fb-916d509fab1f"
+      Hint: Title
+      Value: How to check oil
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "6a3ffdb0-bf94-4292-b3ef-24f6b81f69a7"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241029T144735Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241029T150200Z
+  - Version: 4
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1c668eab-b537-442b-909c-e526cae126a5"
+      Hint: VideoURL
+      Value: "https://dip-mobile-uat-release-videos.s3.eu-west-1.amazonaws.com/How+To+Check+Oil+App-1080-27rf+1.mp4"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241029T150202Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "3ed4b257-f62b-4eeb-a712-84a1cfbbaf0a"
+      Hint: Caption
+      Value: |
+        1
+        00:00:00,000 --> 00:00:01,621
+        Make sure your engine is cold
+        
+        2
+        00:00:01,621 --> 00:00:03,552
+        and your vehicle is parked on level ground.
+        
+        3
+        00:00:03,552 --> 00:00:06,207
+        Wait 5 to 10 minute if you've just driven your vehicle
+        
+        4
+        00:00:06,207 --> 00:00:08,517
+        and never check your oil with your engine running.
+        
+        5
+        00:00:08,517 --> 00:00:10,897
+        Open your bonnet and locate your dipstick.
+        
+        6
+        00:00:10,897 --> 00:00:13,310
+        Unknown
+        This is normally a brightly coloured handle.
+        
+        7
+        00:00:13,448 --> 00:00:17,724
+        Once you’ve found the dipstick, pull it out and wipe it clean with kitchen towel.
+        
+        8
+        00:00:17,724 --> 00:00:22,172
+        When checking the oil dipstick, you'll find two notches on the dipstick itself.
+        
+        9
+        00:00:22,172 --> 00:00:24,241
+        This is for the minimum and maximum levels.
+        
+        10
+        00:00:24,241 --> 00:00:27,000
+        Put the dipstick back in to tube and push it all the way in.
+        
+        11
+        00:00:27,207 --> 00:00:30,448
+        Then pull it back out and see where the oil line is on the dipstick.
+        
+        12
+        00:00:30,448 --> 00:00:32,241
+        If it's between the minimum and maximum mark,
+        
+        13
+        00:00:32,241 --> 00:00:33,655
+        the level is absolutely fine.
+        
+        14
+        00:00:33,655 --> 00:00:33,931
+        If it's
+        
+        15
+        00:00:33,931 --> 00:00:36,345
+        below the halfway level or towards minimum mark.
+        
+        16
+        00:00:36,345 --> 00:00:37,966
+        This means you need to add more oil.
+        
+        17
+        00:00:37,966 --> 00:00:41,517
+        Your vehicle's handbook will tell you what type of oil your vehicle takes.
+        
+        18
+        00:00:41,517 --> 00:00:42,138
+        And if you can't
+        
+        19
+        00:00:42,138 --> 00:00:45,586
+        locate your vehicle's handbook, you can normally find this information online.
+        
+        20
+        00:00:45,724 --> 00:00:48,241
+        And there you have it. That's how to check your oil.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "6c3b7261-60ac-4b22-af20-208ff3d94fb1"
+      Hint: VideoThumbnail
+      Value: |
+        <image mediaid="{E4E10761-BD9F-4AFE-9FA1-BE5DC1D411C9}" />
+    - ID: "6f948787-c284-4699-9608-67460a46d547"
+      Hint: VideoRetinaThumbnail
+      Value: |
+        <image mediaid="{E4E10761-BD9F-4AFE-9FA1-BE5DC1D411C9}" />
+    - ID: "7a18232f-e101-4eeb-a0fb-916d509fab1f"
+      Hint: Title
+      Value: How to check oil
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "cc3bd59a-fe4f-4568-a1e3-3ba6b8daf884"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241029T150202Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241029T150208Z
+  - Version: 5
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1c668eab-b537-442b-909c-e526cae126a5"
+      Hint: VideoURL
+      Value: "https://dip-mobile-uat-release-videos.s3.eu-west-1.amazonaws.com/How+To+Check+Oil+App-1080-27rf+1.mp4"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241030T114652Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "3ed4b257-f62b-4eeb-a712-84a1cfbbaf0a"
+      Hint: Caption
+      Value: |
+        1
+        00:00:00,000 --> 00:00:01,621
+        Make sure your engine is cold
+        
+        2
+        00:00:01,621 --> 00:00:03,552
+        and your vehicle is parked on level ground.
+        
+        3
+        00:00:03,552 --> 00:00:06,207
+        Wait 5 to 10 minute if you've just driven your vehicle
+        
+        4
+        00:00:06,207 --> 00:00:08,517
+        and never check your oil with your engine running.
+        
+        5
+        00:00:08,517 --> 00:00:10,897
+        Open your bonnet and locate your dipstick.
+        
+        6
+        00:00:10,897 --> 00:00:13,310
+        Unknown
+        This is normally a brightly coloured handle.
+        
+        7
+        00:00:13,448 --> 00:00:17,724
+        Once you’ve found the dipstick, pull it out and wipe it clean with kitchen towel.
+        
+        8
+        00:00:17,724 --> 00:00:22,172
+        When checking the oil dipstick, you'll find two notches on the dipstick itself.
+        
+        9
+        00:00:22,172 --> 00:00:24,241
+        This is for the minimum and maximum levels.
+        
+        10
+        00:00:24,241 --> 00:00:27,000
+        Put the dipstick back in to tube and push it all the way in.
+        
+        11
+        00:00:27,207 --> 00:00:30,448
+        Then pull it back out and see where the oil line is on the dipstick.
+        
+        12
+        00:00:30,448 --> 00:00:32,241
+        If it's between the minimum and maximum mark,
+        
+        13
+        00:00:32,241 --> 00:00:33,655
+        the level is absolutely fine.
+        
+        14
+        00:00:33,655 --> 00:00:33,931
+        If it's
+        
+        15
+        00:00:33,931 --> 00:00:36,345
+        below the halfway level or towards minimum mark.
+        
+        16
+        00:00:36,345 --> 00:00:37,966
+        This means you need to add more oil.
+        
+        17
+        00:00:37,966 --> 00:00:41,517
+        Your vehicle's handbook will tell you what type of oil your vehicle takes.
+        
+        18
+        00:00:41,517 --> 00:00:42,138
+        And if you can't
+        
+        19
+        00:00:42,138 --> 00:00:45,586
+        locate your vehicle's handbook, you can normally find this information online.
+        
+        20
+        00:00:45,724 --> 00:00:48,241
+        And there you have it. That's how to check your oil.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "6c3b7261-60ac-4b22-af20-208ff3d94fb1"
+      Hint: VideoThumbnail
+      Value: |
+        <image mediaid="{E4E10761-BD9F-4AFE-9FA1-BE5DC1D411C9}" />
+    - ID: "6f948787-c284-4699-9608-67460a46d547"
+      Hint: VideoRetinaThumbnail
+      Value: |
+        <image mediaid="{E4E10761-BD9F-4AFE-9FA1-BE5DC1D411C9}" />
+    - ID: "7a18232f-e101-4eeb-a0fb-916d509fab1f"
+      Hint: Title
+      Value: How to check oil
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "946b0aa2-7409-41e5-88a3-a724cc53bc0a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241030T114652Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241030T114717Z
+  - Version: 6
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1c668eab-b537-442b-909c-e526cae126a5"
+      Hint: VideoURL
+      Value: "https://dip-mobile-uat-release-videos.s3.eu-west-1.amazonaws.com/How+To+Check+Oil+App-1080-27rf+1.mp4"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241104T162706Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "3ed4b257-f62b-4eeb-a712-84a1cfbbaf0a"
+      Hint: Caption
+      Value: |
+        1
+        00:00:00,000 --> 00:00:01,621
+        Make sure your engine is cold
+        
+        2
+        00:00:01,621 --> 00:00:03,552
+        and your vehicle is parked on level ground.
+        
+        3
+        00:00:03,552 --> 00:00:06,207
+        Wait 5 to 10 minute if you've just driven your vehicle
+        
+        4
+        00:00:06,207 --> 00:00:08,517
+        and never check your oil with your engine running.
+        
+        5
+        00:00:08,517 --> 00:00:10,897
+        Open your bonnet and locate your dipstick.
+        
+        6
+        00:00:10,897 --> 00:00:13,310
+        Unknown
+        This is normally a brightly coloured handle.
+        
+        7
+        00:00:13,448 --> 00:00:17,724
+        Once you’ve found the dipstick, pull it out and wipe it clean with kitchen towel.
+        
+        8
+        00:00:17,724 --> 00:00:22,172
+        When checking the oil dipstick, you'll find two notches on the dipstick itself.
+        
+        9
+        00:00:22,172 --> 00:00:24,241
+        This is for the minimum and maximum levels.
+        
+        10
+        00:00:24,241 --> 00:00:27,000
+        Put the dipstick back in to tube and push it all the way in.
+        
+        11
+        00:00:27,207 --> 00:00:30,448
+        Then pull it back out and see where the oil line is on the dipstick.
+        
+        12
+        00:00:30,448 --> 00:00:32,241
+        If it's between the minimum and maximum mark,
+        
+        13
+        00:00:32,241 --> 00:00:33,655
+        the level is absolutely fine.
+        
+        14
+        00:00:33,655 --> 00:00:33,931
+        If it's
+        
+        15
+        00:00:33,931 --> 00:00:36,345
+        below the halfway level or towards minimum mark.
+        
+        16
+        00:00:36,345 --> 00:00:37,966
+        This means you need to add more oil.
+        
+        17
+        00:00:37,966 --> 00:00:41,517
+        Your vehicle's handbook will tell you what type of oil your vehicle takes.
+        
+        18
+        00:00:41,517 --> 00:00:42,138
+        And if you can't
+        
+        19
+        00:00:42,138 --> 00:00:45,586
+        locate your vehicle's handbook, you can normally find this information online.
+        
+        20
+        00:00:45,724 --> 00:00:48,241
+        And there you have it. That's how to check your oil.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "6c3b7261-60ac-4b22-af20-208ff3d94fb1"
+      Hint: VideoThumbnail
+      Value: |
+        <image mediaid="{5C0FB474-CBDA-4A1D-A0B9-05710BC7C95E}" />
+    - ID: "6f948787-c284-4699-9608-67460a46d547"
+      Hint: VideoRetinaThumbnail
+      Value: |
+        <image mediaid="{5C0FB474-CBDA-4A1D-A0B9-05710BC7C95E}" />
+    - ID: "7a18232f-e101-4eeb-a0fb-916d509fab1f"
+      Hint: Title
+      Value: How to check oil
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b505298c-1f76-428a-8f57-f6b4db6080e2"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241104T162706Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241105T104420Z
+  - Version: 7
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1c668eab-b537-442b-909c-e526cae126a5"
+      Hint: VideoURL
+      Value: "https://dip-mobile-uat-release-videos.s3.eu-west-1.amazonaws.com/How+To+Check+Oil+App-1080-27rf+1.mp4"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241105T104422Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "3ed4b257-f62b-4eeb-a712-84a1cfbbaf0a"
+      Hint: Caption
+      Value: |
+        1
+        00:00:00,000 --> 00:00:01,621
+        Make sure your engine is cold
+        
+        2
+        00:00:01,621 --> 00:00:03,552
+        and your vehicle is parked on level ground.
+        
+        3
+        00:00:03,552 --> 00:00:06,207
+        Wait 5 to 10 minute if you've just driven your vehicle
+        
+        4
+        00:00:06,207 --> 00:00:08,517
+        and never check your oil with your engine running.
+        
+        5
+        00:00:08,517 --> 00:00:10,897
+        Open your bonnet and locate your dipstick.
+        
+        6
+        00:00:10,897 --> 00:00:13,310
+        Unknown
+        This is normally a brightly coloured handle.
+        
+        7
+        00:00:13,448 --> 00:00:17,724
+        Once you’ve found the dipstick, pull it out and wipe it clean with kitchen towel.
+        
+        8
+        00:00:17,724 --> 00:00:22,172
+        When checking the oil dipstick, you'll find two notches on the dipstick itself.
+        
+        9
+        00:00:22,172 --> 00:00:24,241
+        This is for the minimum and maximum levels.
+        
+        10
+        00:00:24,241 --> 00:00:27,000
+        Put the dipstick back in to tube and push it all the way in.
+        
+        11
+        00:00:27,207 --> 00:00:30,448
+        Then pull it back out and see where the oil line is on the dipstick.
+        
+        12
+        00:00:30,448 --> 00:00:32,241
+        If it's between the minimum and maximum mark,
+        
+        13
+        00:00:32,241 --> 00:00:33,655
+        the level is absolutely fine.
+        
+        14
+        00:00:33,655 --> 00:00:33,931
+        If it's
+        
+        15
+        00:00:33,931 --> 00:00:36,345
+        below the halfway level or towards minimum mark.
+        
+        16
+        00:00:36,345 --> 00:00:37,966
+        This means you need to add more oil.
+        
+        17
+        00:00:37,966 --> 00:00:41,517
+        Your vehicle's handbook will tell you what type of oil your vehicle takes.
+        
+        18
+        00:00:41,517 --> 00:00:42,138
+        And if you can't
+        
+        19
+        00:00:42,138 --> 00:00:45,586
+        locate your vehicle's handbook, you can normally find this information online.
+        
+        20
+        00:00:45,724 --> 00:00:48,241
+        And there you have it. That's how to check your oil.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "6c3b7261-60ac-4b22-af20-208ff3d94fb1"
+      Hint: VideoThumbnail
+      Value: |
+        <image mediaid="{5C0FB474-CBDA-4A1D-A0B9-05710BC7C95E}" />
+    - ID: "6f948787-c284-4699-9608-67460a46d547"
+      Hint: VideoRetinaThumbnail
+      Value: |
+        <image mediaid="{5C0FB474-CBDA-4A1D-A0B9-05710BC7C95E}" />
+    - ID: "7a18232f-e101-4eeb-a0fb-916d509fab1f"
+      Hint: Title
+      Value: How to check oil
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e2647e74-fa86-49dd-a07d-d2d0c42a70c8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241105T104422Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241105T104426Z
+  - Version: 8
+    Fields:
+    - ID: "001dd393-96c5-490b-924a-b0f25cd9efd8"
+      Hint: __Lock
+      Value: <r />
+    - ID: "1c668eab-b537-442b-909c-e526cae126a5"
+      Hint: VideoURL
+      Value: "https://dip-mobile-prod-1-videos.s3.eu-west-1.amazonaws.com/How+To+Check+Oil+App-1080-27rf+1.mp4"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20241119T085320Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{9CC7509E-B91B-4694-9A8F-AC84BBF84E8D}"
+    - ID: "3ed4b257-f62b-4eeb-a712-84a1cfbbaf0a"
+      Hint: Caption
+      Value: |
+        1
+        00:00:00,000 --> 00:00:01,621
+        Make sure your engine is cold
+        
+        2
+        00:00:01,621 --> 00:00:03,552
+        and your vehicle is parked on level ground.
+        
+        3
+        00:00:03,552 --> 00:00:06,207
+        Wait 5 to 10 minute if you've just driven your vehicle
+        
+        4
+        00:00:06,207 --> 00:00:08,517
+        and never check your oil with your engine running.
+        
+        5
+        00:00:08,517 --> 00:00:10,897
+        Open your bonnet and locate your dipstick.
+        
+        6
+        00:00:10,897 --> 00:00:13,310
+        Unknown
+        This is normally a brightly coloured handle.
+        
+        7
+        00:00:13,448 --> 00:00:17,724
+        Once you’ve found the dipstick, pull it out and wipe it clean with kitchen towel.
+        
+        8
+        00:00:17,724 --> 00:00:22,172
+        When checking the oil dipstick, you'll find two notches on the dipstick itself.
+        
+        9
+        00:00:22,172 --> 00:00:24,241
+        This is for the minimum and maximum levels.
+        
+        10
+        00:00:24,241 --> 00:00:27,000
+        Put the dipstick back in to tube and push it all the way in.
+        
+        11
+        00:00:27,207 --> 00:00:30,448
+        Then pull it back out and see where the oil line is on the dipstick.
+        
+        12
+        00:00:30,448 --> 00:00:32,241
+        If it's between the minimum and maximum mark,
+        
+        13
+        00:00:32,241 --> 00:00:33,655
+        the level is absolutely fine.
+        
+        14
+        00:00:33,655 --> 00:00:33,931
+        If it's
+        
+        15
+        00:00:33,931 --> 00:00:36,345
+        below the halfway level or towards minimum mark.
+        
+        16
+        00:00:36,345 --> 00:00:37,966
+        This means you need to add more oil.
+        
+        17
+        00:00:37,966 --> 00:00:41,517
+        Your vehicle's handbook will tell you what type of oil your vehicle takes.
+        
+        18
+        00:00:41,517 --> 00:00:42,138
+        And if you can't
+        
+        19
+        00:00:42,138 --> 00:00:45,586
+        locate your vehicle's handbook, you can normally find this information online.
+        
+        20
+        00:00:45,724 --> 00:00:48,241
+        And there you have it. That's how to check your oil.
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "6c3b7261-60ac-4b22-af20-208ff3d94fb1"
+      Hint: VideoThumbnail
+      Value: |
+        <image mediaid="{5C0FB474-CBDA-4A1D-A0B9-05710BC7C95E}" />
+    - ID: "6f948787-c284-4699-9608-67460a46d547"
+      Hint: VideoRetinaThumbnail
+      Value: |
+        <image mediaid="{5C0FB474-CBDA-4A1D-A0B9-05710BC7C95E}" />
+    - ID: "7a18232f-e101-4eeb-a0fb-916d509fab1f"
+      Hint: Title
+      Value: How to check oil
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "3cc4866c-28a5-4248-b6d4-3bd799b64b94"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Machelia.Williams
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 20241119T085320Z
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20241119T085400Z
