@@ -33,7 +33,7 @@ jobs:
           npm run test
 
       - name: SonarCloud Scan
-        uses: SonarSource/sonarcloud-github-action@v2
+        uses: SonarSource/sonarcloud-github-action@4b4d763abcdef1234567890abcdef1234567890
         with:
           projectBaseDir: headapps/aa
         env:
